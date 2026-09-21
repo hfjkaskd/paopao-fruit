@@ -48,6 +48,7 @@ public class GetRewardPanel : UIPageBase<ItemEntry, ItemEntry, DoubleGetRewardPa
 
     private bool isLookAd = false;
     private bool isNoCD;
+    private int rewardLevel;
 
     // 每次打开独立保存领取状态，旧广告回调不能关闭复用后的新界面。
     private sealed class WinClaim
@@ -78,7 +79,7 @@ public class GetRewardPanel : UIPageBase<ItemEntry, ItemEntry, DoubleGetRewardPa
                 if (!TryBeginWinClaim(claim)) return;
                 try
                 {
-                    NumbericalStatistics.CheckCloseGetReward(E_AdPos.GetReward, dollarCount, null);
+                    NumbericalStatistics.CheckCloseGetReward(E_AdPos.GetReward, dollarCount, null, rewardLevel);
                 }
                 finally
                 {
@@ -88,7 +89,7 @@ public class GetRewardPanel : UIPageBase<ItemEntry, ItemEntry, DoubleGetRewardPa
             }
 
             LogLogger.LogInfo("胜利关闭广告 " + isLookAd);
-            NumbericalStatistics.CheckCloseGetReward(E_AdPos.GetReward, dollarCount, null);
+            NumbericalStatistics.CheckCloseGetReward(E_AdPos.GetReward, dollarCount, null, rewardLevel);
             CloseSelf();
         });
 
@@ -208,6 +209,7 @@ public class GetRewardPanel : UIPageBase<ItemEntry, ItemEntry, DoubleGetRewardPa
     {
         LogLogger.LogVerbose(BaseConst.LOG_Game, $"打开了界面 GetRewardPanel");
         itemA = a;
+        rewardLevel = HarvestBridge.CurrentLevel > 0 ? HarvestBridge.CurrentLevel : SaveDataUtils.GameData.playerSelectedLv;
         itemB = b;
         callback = _callback;
         _useScene = useScene;

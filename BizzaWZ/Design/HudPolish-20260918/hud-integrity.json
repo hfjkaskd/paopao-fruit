@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "prefabCount": 2,
+  "visualFieldEdits": 14,
+  "verification": "Undoing the logged visual scalar/reference edits exactly reproduces both pre-edit prefab texts; no RectTransform, hierarchy, component, Button, text content, localization, or business fields changed.",
+  "runtimeVerification": "Pending root Unity runtime QA.",
+  "nestedOverrideNote": "GameUiWidget level sprite and text color/material overrides must be synchronized separately."
+}

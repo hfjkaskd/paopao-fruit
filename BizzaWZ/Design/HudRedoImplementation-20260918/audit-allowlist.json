@@ -1,0 +1,211 @@
+{
+  "status": "Proposed audit whitelist for approved preview; root must provide an explicit visual rationale before expanding fields.",
+  "baselineReady": true,
+  "baselinePrefabCount": 6,
+  "codeHashCount": 1358,
+  "directFields": [
+    {
+      "path": "Assets/BizzaWZ/Common/UI/GamePanel/RealGamePanel.prefab",
+      "fileID": "7874943109805462537",
+      "node": "RealGamePanel/BG/Image (2)",
+      "allowedFields": [
+        "m_Color"
+      ],
+      "purpose": "Hide full-width top visual to reveal existing sky; preserve rectangle and raycast settings."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "5821051965148166099",
+      "node": "CurrencyBar/Image",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Apply approved wood/cream/leaf-green bitmap style inside the unchanged existing rectangle."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "4954420463098433676",
+      "node": "CurrencyBar/CurrentGroup/GoldGroup/CoinBox/BG (1)",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Apply approved wood/cream/leaf-green bitmap style inside the unchanged existing rectangle."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "917222461376090861",
+      "node": "CurrencyBar/CurrentGroup/DollarGroup/DollarBox/BG",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Apply approved wood/cream/leaf-green bitmap style inside the unchanged existing rectangle."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "8565961504699753555",
+      "node": "CurrencyBar/CurrentGroup/DollarGroup/ButtonView",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Apply approved wood/cream/leaf-green bitmap style inside the unchanged existing rectangle."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "7563967730577256576",
+      "node": "CurrencyBar/CurrentGroup/GoldGroup/ButtonView",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Apply approved wood/cream/leaf-green bitmap style inside the unchanged existing rectangle."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "8140369000614230474",
+      "node": "CurrencyBar/PauseButton",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Apply approved wood/cream/leaf-green bitmap style inside the unchanged existing rectangle."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "fileID": "5860728120506579172",
+      "node": "CurrencyBar/Image/Text (TMP)",
+      "allowedFields": [
+        "m_fontColor",
+        "m_fontColor32",
+        "m_sharedMaterial"
+      ],
+      "purpose": "Restore ivory level text with suitable existing TMP material; preserve dynamic text, font size, anchors and margins."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "4234855247401888128",
+      "node": "GameUiWidget/DailyMissionItem/DailyMission/Image (1)",
+      "allowedFields": [
+        "m_Color",
+        "m_Sprite"
+      ],
+      "purpose": "Use the same approved gift sprite inside the existing 240x240 outer Image after runtime review; original rectangle and Button geometry preserved."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "2314400796718388841",
+      "node": "GameUiWidget/DailyMissionItem/DailyMission/Image (2)",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Swap approved coral/cream gift; preserve 160x160 rectangle and aspect."
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+      "fileID": "114942066236133985",
+      "node": "CorePlayUI/UI/Bottom/Box_Root/AddOne button background",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Wooden base, with no baked-in lock state."
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+      "fileID": "114703169052324433",
+      "node": "CorePlayUI tray lock graphic",
+      "allowedFields": [
+        "m_Sprite",
+        "m_Color",
+        "m_Type",
+        "m_PreserveAspect",
+        "m_PixelsPerUnitMultiplier"
+      ],
+      "purpose": "Separate bronze lock sprite retained under existing runtime lock state node."
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "3586814762122687189",
+      "node": "GameUiWidget/DailyMissionItem/DailyMission (BizzaButton)",
+      "allowedFields": [
+        "scaleTarget"
+      ],
+      "purpose": "Sole Button visual field exception authorized after runtime review: retarget press animation from hidden inner gift Rect5304515813898986083 to visible outer gift Rect7343093305673801710, keeping pressScaleRatio0.92, click rectangle, events, targetGraphic and business bindings unchanged."
+    }
+  ],
+  "nestedOverrides": {
+    "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+    "sourcePrefabGuid": "b1f781d8c27eec54db58a4849081f7e5",
+    "allowedOverrides": [
+      {
+        "targetFileID": "5821051965148166099",
+        "properties": [
+          "m_Sprite"
+        ]
+      },
+      {
+        "targetFileID": "5860728120506579172",
+        "properties": [
+          "m_fontColor.r",
+          "m_fontColor.g",
+          "m_fontColor.b",
+          "m_sharedMaterial"
+        ]
+      }
+    ]
+  },
+  "invariants": [
+    "All serialized object IDs, classes, order, names, parent/children and component lists unchanged.",
+    "Every RectTransform field unchanged, including icon child transforms.",
+    "Button component identities, targetGraphic, raycast settings, persistent events, code bindings and click geometry unchanged; only the one documented scaleTarget visual-feedback reference may change.",
+    "All script references and business fields unchanged.",
+    "All TMP dynamic text contents, localization keys, font size/autosizing/margins unchanged, except listed level colors/material.",
+    "All 1358 C# source hashes and source-file set unchanged.",
+    "SlotEnter prefab and all 777/progress references untouched.",
+    "DailyMissionPanel guarded as unchanged unless explicitly included by root.",
+    "No artwork may bake in runtime amounts, level, button labels, or lock state into a base sprite."
+  ],
+  "verificationPlan": [
+    "Reconstruct each pre-edit prefab by reversing final visual change logs; exact normalized-text equality proves no unlogged edits.",
+    "Compare ordered Unity serialized headers and structural component blocks against Before copies.",
+    "Resolve CurrencyBar nested overrides in GameUiWidget to verify intended effective values, then verify all source references exist.",
+    "Validate new Sprite metas: unique GUID, sprite ID mapping, alpha, aspect/9-slice mode, border bounds, pivot, max texture 512 for icons, no mipmaps/read-write unless justified.",
+    "Compare existing art hashes to flag shared-asset impact; prefer new sprites over replacing shared Controls/Navigation/Gift images.",
+    "Run normal InitWZ startup and compare actual Unity captures; root handles UI/functional QA separately."
+  ],
+  "buttonVisualFeedbackException": {
+    "fileID": "3586814762122687189",
+    "field": "scaleTarget",
+    "before": "{fileID: 5304515813898986083}",
+    "after": "{fileID: 7343093305673801710}",
+    "pressScaleRatio": "0.92"
+  }
+}

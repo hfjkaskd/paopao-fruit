@@ -39,12 +39,16 @@ public partial class NumbericalStatistics
     /// 合成指定次数打开   恭喜获得界面
     /// </summary>
     /// <returns></returns>
-    public static bool CheckShowGetReward()
+    public static bool CheckShowGetReward(Vector3 pos)
     {
         ShowGetRewardNum++;
         bool show = ShowGetRewardNum >= ShowGetRewardCount;
         LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"打开恭喜获得界面 - 进度:{ShowGetRewardNum},最大次数:{ShowGetRewardCount},是否显示:{show}");
-        if (!show) return false;
+        if (!show)
+        {
+            CheckGetDollar(pos);
+            return false;
+        }
         ShowGetRewardNum = 0;
         Real_GetRewardPanelUtil.OpenGetRewardPanel(DoubleGetRewardPanel.E_UseScene.MatchReward);
         return true;
@@ -57,8 +61,13 @@ public partial class NumbericalStatistics
     /// <param name="money"></param>
     /// <param name="action"></param>
     /// <returns></returns>
-    public static bool CheckCloseGetReward(E_AdPos pos, float money, Action<Bizza.Sdk.ShowAdResult> action)
+    public static bool CheckCloseGetReward(E_AdPos pos, float money, Action<Bizza.Sdk.ShowAdResult> action, int rewardLevel = 0)
     {
+        if (HarvestDifficulty.ProtectInterstitial(rewardLevel > 0 ? rewardLevel : currentLevel))
+        {
+            CloseGetRewardNum = 0;
+            return false;
+        }
         CloseGetRewardNum++;
         bool show = CloseGetRewardNum >= CloseGetRewardCount;
         LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"关闭界面弹插屏 - 进度:{CloseGetRewardNum},最大次数:{CloseGetRewardCount},是否显示:{show}");
@@ -74,7 +83,7 @@ public partial class NumbericalStatistics
     /// 合成多少次出现Dollar界面
     /// </summary>
     /// <returns></returns>
-    public static bool CheckGetDollar()
+    public static bool CheckGetDollar(Vector3 pos)
     {
         var showDollarCount = ShowDollarCount;
         bool show = !ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode &&
@@ -88,19 +97,20 @@ public partial class NumbericalStatistics
         ItemEntry dollar = new()
         {
             Type = E_ItemType.Dollar,
-            Count = WithdrawalUtil.GetCustomizedFloatByCountryType(moneyValue)
+            Count = WithdrawalUtil.GetCustomizedFloatByCountryType(moneyValue) / 5
         };
 
-        UIUtils.ShowTips(dollar, default, (pos1, pos2) =>
+        // UIUtils.ShowTips(dollar, default, (pos1, pos2) =>
+        // {
+
+        // });
+        ItemUtils.AddItem(dollar, new AddItemParam
         {
-            ItemUtils.AddItem(dollar, new AddItemParam
-            {
-                playAnim = true,
-                isAd = false,
-                startPos = pos2,
-                bUiPos = false,
-                source = DoubleGetRewardPanel.GetItemSource(DoubleGetRewardPanel.E_UseScene.Ad),
-            });
+            playAnim = true,
+            isAd = false,
+            startPos = pos,
+            bUiPos = false,
+            source = DoubleGetRewardPanel.GetItemSource(DoubleGetRewardPanel.E_UseScene.Ad),
         });
         return true;
     }

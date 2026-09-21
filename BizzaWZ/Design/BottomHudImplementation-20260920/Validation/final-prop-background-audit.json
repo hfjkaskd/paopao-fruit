@@ -1,0 +1,123 @@
+{
+  "kind": "Final independent serialized production audit; supersedes earlier prop-background-patch-report.json field/hash details",
+  "generatedUtc": "2026-09-21T03:51:06.369468+00:00",
+  "scope": "Existing background Image sprites plus existing count label material/color. All prop glyphs retained.",
+  "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+  "beforeSha256": "bb4d4fd644fe96dce2bcc7e68c5ffb6cf7bf28033bf25151107dfa3389b2f5ff",
+  "afterSha256": "3677600b0269efb20ea2c47f10a4aac94d004ca74b1aaa0f4dcf4fa6630637da",
+  "serializedObjectCountBefore": 840,
+  "serializedObjectCountAfter": 840,
+  "gameObjectCount": 204,
+  "changedComponentCount": 12,
+  "changes": [
+    {
+      "fileID": "114282982324125657",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114317682953123289",
+      "fields": [
+        "m_fontColor",
+        "m_fontColor32",
+        "m_sharedMaterial"
+      ]
+    },
+    {
+      "fileID": "114410865556287939",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114504490712063035",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114513653223693148",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114517549520547945",
+      "fields": [
+        "m_fontColor",
+        "m_fontColor32",
+        "m_sharedMaterial"
+      ]
+    },
+    {
+      "fileID": "114706308911820470",
+      "fields": [
+        "m_fontColor",
+        "m_fontColor32",
+        "m_sharedMaterial"
+      ]
+    },
+    {
+      "fileID": "114798730798708461",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114837227276182950",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114837889324699812",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114886820396282420",
+      "fields": [
+        "m_Sprite"
+      ]
+    },
+    {
+      "fileID": "114926580033004315",
+      "fields": [
+        "m_Sprite"
+      ]
+    }
+  ],
+  "countBadges": [
+    {
+      "owner": "Undo",
+      "imageFileID": "114504490712063035",
+      "type": "Simple",
+      "pixelsPerUnitMultiplier": 1
+    },
+    {
+      "owner": "Magic",
+      "imageFileID": "114798730798708461",
+      "type": "Simple",
+      "pixelsPerUnitMultiplier": 1
+    },
+    {
+      "owner": "Shuffle",
+      "imageFileID": "114886820396282420",
+      "type": "Simple",
+      "pixelsPerUnitMultiplier": 1
+    }
+  ],
+  "checks": {
+    "allObjectAndComponentIDsRetained": true,
+    "allGameObjectHierarchyAndRectTransformsUnchanged": true,
+    "allComponentsOtherThan12VisualComponentsByteIdentical": true,
+    "buttonAndStateComponentsUnchanged": true,
+    "allAdAndLockComponentsUnchanged": true,
+    "allGlyphFilesUnchanged": true,
+    "allGlyphResourceMappingsUnchanged": true,
+    "preservedGlyphFiles": 68
+  },
+  "previewScope": "Actual production-prefab isolated renders with explicit visual samples; no gameplay/advertisement/account flow executed."
+}

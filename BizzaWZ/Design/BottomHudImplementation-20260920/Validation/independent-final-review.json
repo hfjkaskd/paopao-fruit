@@ -1,0 +1,34 @@
+{
+  "kind": "Final independent review of production Prefab static rendering and serialized resource preservation",
+  "reviewedUtc": "2026-09-21T03:52:40.8038918Z",
+  "sourceRenderGeneratedUtc": "2026-09-21T03:47:52.7308769Z",
+  "supersedes": [
+    "prop-background-patch-report.json after hash and initial count PPU fields",
+    "progress-structural-verification.json unityRenderPending status"
+  ],
+  "approvedScope": "Progress trough/fill and prop backgrounds only. Original prop, AD, and lock glyphs retained.",
+  "casesInspected": [
+    "mixed-0of5",
+    "mixed-1of5",
+    "mixed-4of5",
+    "mixed-5of5",
+    "all-unlocked-1of5",
+    "all-locked-1of5"
+  ],
+  "allSixCasesNoRenderErrorOrTextOverflow": true,
+  "progressSamples": [
+    "0/5=0%",
+    "1/5=20%",
+    "4/5=80%",
+    "5/5=100%"
+  ],
+  "all13InputHashesUnchangedDuringRender": true,
+  "exactResourcesLoadSpriteVerified": true,
+  "sourceGlyphFilesUnchanged": 68,
+  "sourceCorePlayUIAfterHash": "3677600b0269efb20ea2c47f10a4aac94d004ca74b1aaa0f4dcf4fa6630637da",
+  "changedCoreVisualComponents": 12,
+  "hierarchyRectButtonBindingsUnchanged": true,
+  "finalCountBadgeRendering": "Simple image, PPU1, original81x83 rectangle. Smooth corners and clear centered count.",
+  "limitations": "Prefab static visual states only. No advertising, rewards, game-state mutation, or player-input flow executed.",
+  "status": "passed"
+}

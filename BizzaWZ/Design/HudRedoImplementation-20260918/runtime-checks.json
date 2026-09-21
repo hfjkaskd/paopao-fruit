@@ -1,0 +1,18 @@
+{
+  "kind": "Actual Unity Editor Play mode verification, not an AI or static preview",
+  "project": "C:/Projects/paopao/BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "loadedScene": "GamePlay",
+  "resolution": [1080, 1920],
+  "formalStartupAfterFinalChanges": true,
+  "compilationErrors": 0,
+  "checks": [
+    {"name": "Final visual layout", "result": "PASS", "capture": "02-runtime-final.png", "detail": "Separate wood controls on existing sky, readable dynamic level/balances/action labels; wood settings circle, natural gift, separate wood base/copper lock; no observed clipping or stretching."},
+    {"name": "Settings entry", "result": "PASS", "capture": "03-runtime-settings.png", "detail": "Clicked actual wood settings button, original Configurações panel opened and closed via its X."},
+    {"name": "Gift entry", "result": "PASS", "capture": "04-runtime-gift-entry.png", "detail": "Clicked actual gift, original Missão diária page opened, then closed via its X. Page artwork itself was not changed this turn."},
+    {"name": "Tray lock", "result": "PASS", "capture": "05-runtime-after-lock.png", "detail": "The Windows UI screenshot immediately after clicking showed: Os itens ainda não foram desbloqueados. The later frame-end PNG is the normal main screen after that transient toast disappeared; it does not contain the toast."},
+    {"name": "Existing 777 progress", "result": "PASS_VISUAL", "detail": "4/5 remains inside the existing progress track; SlotEnter prefab is unchanged this turn."}
+  ],
+  "limitations": ["No Android/iOS device execution in this turn.", "No reward collection, ads, spins, withdrawal submission, or forced account/progress state used in verification.", "Unseen unlocked states were checked structurally through unchanged existing state nodes and code, not simulated."],
+  "endState": "Unity left in normal GamePlay Play mode"
+}

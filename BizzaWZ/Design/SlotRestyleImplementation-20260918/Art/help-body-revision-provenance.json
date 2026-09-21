@@ -1,0 +1,33 @@
+{
+  "mode": "built-in imagegen",
+  "status": "revised production sprite, not runtime screenshot",
+  "reference": "04-runtime-help-first.png",
+  "sources": [
+    "C:/Users/pc/.codex/generated_images/01a0b35a-4b5e-73a3-88c0-e3fa3e5ccff7/exec-be7d09c8-dac5-42eb-a69c-c6bc24917203.png",
+    "C:/Users/pc/.codex/generated_images/01a0b35a-4b5e-73a3-88c0-e3fa3e5ccff7/exec-eee0b2e0-ce39-41b9-8c8a-4a8a180ac33b.png",
+    "C:/Users/pc/.codex/generated_images/01a0b35a-4b5e-73a3-88c0-e3fa3e5ccff7/exec-963326af-3c9e-4dcb-b35e-16d4650a7371.png"
+  ],
+  "selected": "SlotEmeraldHelpBody-v2.png",
+  "size": [
+    999,
+    1575
+  ],
+  "alpha64Bounds": [
+    8,
+    0,
+    992,
+    1533
+  ],
+  "prompts": [
+    "Use case: precise-object-edit.\nImage 1 is the edit target: production transparent lower cabinet body sprite. Image 2 is runtime screenshot ONLY showing why this sprite needs revision; DO NOT recreate the screenshot.\nProduce revised lower body ONLY, exact portrait ratio 998:1575, dimensions 998 x 1575. Same materials/color/style as image 1: honey wood outer sides, forest emerald green inset, thin brass, front symmetric cartoon game render. Preserve real transparent alpha outside silhouette.\nSPECIFIC MANDATORY FIXES in image normalized coordinates, origin top-left:\n1. REMOVE THE ENTIRE TOP HORIZONTAL GOLD BAR. The central area x=.09..91, y=0..0.135 must be fully TRANSPARENT because a separate arched marquee is drawn behind it. Only thin outer wooden side posts may reach the top corners. At y=.135, the deep-green backing begins cleanly with a straight plain green top edge, NOT a gold frame or beam. This creates a U-shaped top notch which receives another sprite; do NOT draw a new arch, star, lamp or header here. Green body may start underneath at .135 so it joins the existing marquee, not leave a large gap.\n2. An existing broad paytable overlays x=.014..98,y=.167..67. This entire area needs a plain dark green backing; wood side edges here must be extremely narrow (outer 1.2% of canvas only) so the existing wide cream table appears naturally mounted inside the cabinet, not hanging outside thick posts. No inner vertical gold lines crossing behind or beside this zone. Keep outer silhouette at full width.\n3. Footer safe region x=.16..84,y=.70..89 MUST be completely quiet emerald green, no leaves, gold lines, branches, screws or decoration. REMOVE ALL existing lower leaf vines. They obstruct text in Unity. Thin brass inner edge may only lie at x<.10 or x>.90.\n4. Move the inner bottom brass border to y=.91 or LOWER. The green interior continues down through y=.90, giving enough room for four live text lines. Make the bottom wood plinth shallow from y=.93..97 and feet small from y=.97..995. Do not end the green around y=.82 as the original did.\nNO texts or placeholder texts, no symbols, no table, no button, no marquee, no rewards, no landscape. Keep canvas geometry locked 998 x 1575. Keep full object intact, transparent outside. This sprite is specifically a clean empty lower cabinet production layer, not a full screen.",
+    "Use case: precise-object-edit. EDIT Image 1, the blank emerald slot cabinet PNG. Keep exact 998 x 1575 output canvas, same materials, alpha transparent surroundings, and same entire outer silhouette. Correct TWO exact heights. Do not redesign.\n1. TOP CUTOUT: the transparent U-shaped central opening currently ends around pixel y=138. Extend this transparent opening DOWNWARD by 90 pixels, so its straight bottom edge is at y=228. Central green panel must begin at y=228, not y=138. Cutout region from x=105 to x=892 and y=0 through y=227 must have transparent alpha, no green, black or color fill. Side wooden columns stay where they are.\n2. BOTTOM GREEN EXTENSION: the lower brass inner border currently is at y=1350. Move this curved lower brass border DOWNWARD by 90 pixels, so bottom center of green panel is y=1440 (91.4% of canvas height). Fill the area formerly occupied by gold border and upper wooden plinth at y=1350..1440 with the same smooth deep emerald green. This makes the green panel substantially taller. The visible bottom wood plank becomes shallow, between y=1450 and y=1495, and the two feet remain at their existing bottom coordinates. Do not move feet. No leaves.\nThe blank text-safe area x=150..850, y=1100..1405 must be green throughout, not brown and no gold. This exact spatial correction is the entire request. No stars, marquee, text, icons, table, buttons, background. Preserve transparent alpha.",
+    "Edit image 1, the transparent empty green lower cabinet. Keep 998 x 1575 canvas. TWO changes only:\nREMOVE ALL horizontal gold lines, wooden plinth and horizontal wood bars across the BOTTOM CENTER. Extend the plain emerald green panel all the way down to the very bottom edge of the cabinet body, where the two feet begin. The former gold-and-wood bottom strip must be replaced with green. At the bottom there should be ONLY a very thin 3-pixel dark rounded outline, no thick gold trim, no brown horizontal plank. The wooden side columns still stand on the two small corner feet. Picture a simple tall open green inset held between two wooden side posts, with green reaching to the bottom. This is essential so text will fit. Green region should reach y=1490 out of1575. Do not leave any gold/brown horizontal line at y=1350 or1400.\nAlso shorten the TOP CENTRAL TRANSPARENT NOTCH slightly: the green top edge should begin at y=210 instead of y=240; keep the actual transparency above it. Do not add any bar at the green top edge.\nKeep all side wood colors and texture, width, position and shape unchanged. Same deep emerald tone. Keep real alpha transparency around the outer silhouette and in the top notch. No text, icons, leaves, table, marquee, decorations, landscape, buttons. Just an empty body sprite."
+  ],
+  "notes": [
+    "Final output is 999 wide (1px over request), no pixel editing performed.",
+    "Central top alpha notch reaches y≈214 (13.6%) so body green begins at screen y≈572 given existing rect, allowing current crown fully visible.",
+    "No top horizontal beam, lower leaf vines, lower horizontal gold lines, or broad wood plinth.",
+    "Footer x.16..84 y.70..89 is clear green, panel continues green until y≈.915.",
+    "Outer wood posts remain ~8-10% wide despite narrow-post prompt; existing table still covers front posts and root should assess. No changes to current Marquee, Assets, Prefab, C# or desktop/UI."
+  ]
+}

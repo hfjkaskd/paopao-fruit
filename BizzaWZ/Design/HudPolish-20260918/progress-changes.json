@@ -1,0 +1,74 @@
+{
+  "purpose": "Inset the existing horizontal progress fill, reduce track border thickness and restore outlined white dynamic text.",
+  "assetChoice": "Reuse existing Controls/ProgressTrack and Controls/ProgressFill; inspected original orchard ProgressBg and Filler, whose bulky black well/caps are less suitable for the current 224x40 fixed track.",
+  "changes": [
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "fileID": "2597468376317513793",
+      "property": "m_PixelsPerUnitMultiplier",
+      "before": "1",
+      "after": "3"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "fileID": "8611193201050741118",
+      "property": "m_AnchoredPosition",
+      "before": "{x: 0.1867, y: 1.6}",
+      "after": "{x: 0, y: 0}"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "fileID": "8611193201050741118",
+      "property": "m_SizeDelta",
+      "before": "{x: 219.8943, y: 30}",
+      "after": "{x: 202, y: 24}"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "fileID": "2151320124694660842",
+      "property": "m_AnchoredPosition",
+      "before": "{x: 0, y: 0.6}",
+      "after": "{x: 0, y: 0}"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "prefabInstance": "8263945193493257299",
+      "fileID": "5078707581075184592",
+      "property": "m_fontColor.b",
+      "before": "0.49019608",
+      "after": "1"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "prefabInstance": "8263945193493257299",
+      "fileID": "5078707581075184592",
+      "property": "m_fontColor.g",
+      "before": "0.30980393",
+      "after": "1"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "prefabInstance": "8263945193493257299",
+      "fileID": "5078707581075184592",
+      "property": "m_fontColor.r",
+      "before": "0.09019608",
+      "after": "1"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "prefabInstance": "8263945193493257299",
+      "fileID": "5078707581075184592",
+      "property": "m_sharedMaterial",
+      "before": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}",
+      "after": "{fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}"
+    }
+  ],
+  "preserved": [
+    "Serialized object IDs and order",
+    "Hierarchy and components",
+    "SlotEnter progressImag/progressTxt bindings",
+    "Image.Type.Filled horizontal Left and fillAmount",
+    "Progress text contents and 32 point size",
+    "Button logic and all C# sources"
+  ]
+}

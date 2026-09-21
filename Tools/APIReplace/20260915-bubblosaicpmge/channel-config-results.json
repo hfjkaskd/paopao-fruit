@@ -1,0 +1,105 @@
+{
+  "status": "Passed",
+  "method": "Compiled unchanged current project ChannelConfig.cs, ChannelConfigBinarySerializer.cs, XXTEA.cs using Unity Roslyn; executed on Unity Mono with isolated build-only dependency substitutes.",
+  "fields": [
+    {
+      "originalParameter": "应用ID",
+      "standardParameter": "应用ID",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: AppId",
+      "before": "oceanshine",
+      "after": "bubblosaicpmge",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "接口域名地址",
+      "standardParameter": "接口域名地址",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain",
+      "before": "https://www.shinea.top",
+      "after": "https://app.fruittile.xin",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "密钥",
+      "standardParameter": "密钥",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key",
+      "before": "Shi***6an",
+      "after": "Mer***aic",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "游戏类型",
+      "standardParameter": "游戏类型",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate",
+      "before": 1.0,
+      "after": 1.0,
+      "status": "AlreadyMatched"
+    },
+    {
+      "originalParameter": "国家",
+      "standardParameter": "国家",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country",
+      "before": 0,
+      "after": 0,
+      "status": "AlreadyMatched"
+    },
+    {
+      "originalParameter": "Adjust 应用识别码",
+      "standardParameter": "Adjust 应用识别码",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey",
+      "before": "v9uhu8ddvxfk",
+      "after": "2zov4dn3gsu8",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "MAX 激励广告 ID",
+      "standardParameter": "MAX 激励广告 ID",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId",
+      "before": "fa81c22ba3c37b2e",
+      "after": "ddef1150f706c39f",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "MAX 插屏广告 ID",
+      "standardParameter": "MAX 插屏广告 ID",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId",
+      "before": "a819f596e7f4e26f",
+      "after": "3f64a45c4db0eb7a",
+      "status": "Updated"
+    }
+  ],
+  "preserved": [
+    {
+      "originalParameter": "默认国家",
+      "standardParameter": "默认国家",
+      "target": "real_CustomConfig.DefaultCountry",
+      "value": 0,
+      "reason": "Current user input is blank; original enum value retained."
+    },
+    {
+      "originalParameter": "MAX 横幅广告 ID",
+      "standardParameter": "MAX 横幅广告 ID",
+      "target": "sourceAds[AdsSource=Max].bannerAdId",
+      "value": "",
+      "reason": "Current user input is blank; original value retained."
+    },
+    {
+      "originalParameter": "MAX 开屏广告 ID",
+      "standardParameter": "MAX 开屏广告 ID",
+      "target": "sourceAds[AdsSource=Max].openAdId",
+      "value": "",
+      "reason": "Current user input is blank; original value retained."
+    }
+  ],
+  "roundtrip": {
+    "baselineByteEquality": true,
+    "updatedByteEquality": true,
+    "authorizedValuesReadBack": true,
+    "allOtherSerializedFieldsByteEquality": true,
+    "writtenFileByteEquality": true
+  },
+  "notes": [
+    "Input country NONE resolved to declared enum AccountModule.E_CountryType.None (0).",
+    "Game type 真假混 maps to incomeRate=1.",
+    "Existing serializer reflection remains unchanged; no new runtime code or reflection added."
+  ]
+}

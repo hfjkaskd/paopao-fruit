@@ -1,0 +1,97 @@
+{
+  "kind": "Independent numerical audit of existing Prefab STATIC previews; not runtime",
+  "generatedUtc": "2026-09-18T10:31:23.783644+00:00",
+  "tolerancePixels": 1.0,
+  "cases": [
+    {
+      "name": "static-hud-1080x1920-long-rest",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 317,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x1920-long-scale125",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 436,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x1920-sample-rest",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 317,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x1920-sample-scale125",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 436,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x2340-long-rest",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 449,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x2340-long-scale125",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 617,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x2340-sample-rest",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 449,
+      "pass": true
+    },
+    {
+      "name": "static-hud-1080x2340-sample-scale125",
+      "glyphOverflow": [],
+      "buttonOverlapCount": 0,
+      "groupOverlapCount": 0,
+      "groupsOutsideScreen": [],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "nonUniformPixelSamples": 617,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "caseCount": 8
+}

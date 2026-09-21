@@ -1,0 +1,2108 @@
+{
+  "kind": "Read-only production Prefab structure/events and C# integrity comparison",
+  "generatedUtc": "2026-09-17T12:00:35.552636+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "backupRoot": "C:\\Projects\\paopao\\BizzaWZ\\Design\\WithdrawWoodPreview-20260917\\Implementation\\Before",
+  "status": "PASS",
+  "passed": true,
+  "comparisonPolicy": {
+    "permitted": [
+      "UnityEngine.UI.Image m_Sprite value only (known Image script GUID)",
+      "TextMeshProUGUI / TextMeshProCustom m_fontColor value only",
+      "TextMeshProUGUI / TextMeshProCustom m_fontColor32.rgba value only"
+    ],
+    "locked": "All remaining bytes, including document order/IDs/types, GameObjects, hierarchy, all components, RectTransforms, Button fields, m_OnClick, custom onClick, raycast, layouts, localization keys, dynamic text, script references, and business fields.",
+    "limitations": "This checks serialized integrity, not art quality, referenced Sprite import validity, runtime behavior, or account transactions. Script hashes cover Assets/**/*.cs. Manifest items without Before backup are disclosed and not included in the Prefab pass claim."
+  },
+  "summary": {
+    "checkedPrefabs": 62,
+    "passedPrefabs": 62,
+    "changedPrefabs": 8,
+    "allowedVisualValueChanges": 39,
+    "checkedPrefabMetaFiles": 8,
+    "unchangedCodeFiles": 1358,
+    "manifestPrefabsWithoutBackup": 1
+  },
+  "manifestPrefabsWithoutBackup": [
+    "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UiPrefab/SlotEntry.prefab"
+  ],
+  "baselineBackupIntegrityIssues": [],
+  "prefabs": [
+    {
+      "path": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "4BE79F7127D9E2A86F10CA2CCED89972603E011F05923AF92F9717122DED65DD",
+      "afterSha256": "4BE79F7127D9E2A86F10CA2CCED89972603E011F05923AF92F9717122DED65DD",
+      "beforeImmutableSha256": "77B89EE4D646A3E0C890B81384BE187E98DBFB685ED59C4E00A895396005154B",
+      "afterImmutableSha256": "77B89EE4D646A3E0C890B81384BE187E98DBFB685ED59C4E00A895396005154B",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 87,
+        "gameObjects": 18,
+        "rectTransforms": 19,
+        "monoBehaviours": 30,
+        "buttons": 3
+      },
+      "afterCounts": {
+        "objects": 87,
+        "gameObjects": 18,
+        "rectTransforms": 19,
+        "monoBehaviours": 30,
+        "buttons": 3
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/BizzaGame/WhiteWinPanel/WhiteWinPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "EFB4626ACC74424DBFCF1E467174A9782A9DB6167B59008BFA86E365541F02B2",
+      "afterSha256": "EFB4626ACC74424DBFCF1E467174A9782A9DB6167B59008BFA86E365541F02B2",
+      "beforeImmutableSha256": "FC82D41043D46C0E446DBE2CD4ABEC3BC4FBD90BC06544BDA9C5B1A7C9F8E3D9",
+      "afterImmutableSha256": "FC82D41043D46C0E446DBE2CD4ABEC3BC4FBD90BC06544BDA9C5B1A7C9F8E3D9",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 39,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 12,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 39,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 12,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/Framework/Runtime/Module/UI/UIItem.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "8FD87295D347B8A9CF3CC5821D0CBDA23F397153D4A7487605CB36F4DFDBC03D",
+      "afterSha256": "8FD87295D347B8A9CF3CC5821D0CBDA23F397153D4A7487605CB36F4DFDBC03D",
+      "beforeImmutableSha256": "E207FE651572C77C479ABACE3DD8495D983016A36786128B251623FAE43D78D2",
+      "afterImmutableSha256": "E207FE651572C77C479ABACE3DD8495D983016A36786128B251623FAE43D78D2",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 29,
+        "gameObjects": 7,
+        "rectTransforms": 7,
+        "monoBehaviours": 9,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 29,
+        "gameObjects": 7,
+        "rectTransforms": 7,
+        "monoBehaviours": 9,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/MenuSystem/Common/Block/TransitionBlock.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "15C0EDEE9CF6D0E434A600396F0C56F7DDC961A5BEF60F88146B31B2A6B59A8E",
+      "afterSha256": "15C0EDEE9CF6D0E434A600396F0C56F7DDC961A5BEF60F88146B31B2A6B59A8E",
+      "beforeImmutableSha256": "E318FCBA223C7CECD71E277AD594A70C24B7A3831B77A5150B7511ADC03BF4C9",
+      "afterImmutableSha256": "E318FCBA223C7CECD71E277AD594A70C24B7A3831B77A5150B7511ADC03BF4C9",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 23,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 4
+      },
+      "afterCounts": {
+        "objects": 23,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "3A1500FD7D9B2665C66C7197F52133DCB3C0AB58A46CD54E5F3C68E1994BCC8B",
+      "afterSha256": "3A1500FD7D9B2665C66C7197F52133DCB3C0AB58A46CD54E5F3C68E1994BCC8B",
+      "beforeImmutableSha256": "3B5BE7876293A849F9A3D436CA689772875D313FE9B7BD7D179959440415FED3",
+      "afterImmutableSha256": "3B5BE7876293A849F9A3D436CA689772875D313FE9B7BD7D179959440415FED3",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 127,
+        "gameObjects": 29,
+        "rectTransforms": 29,
+        "monoBehaviours": 37
+      },
+      "afterCounts": {
+        "objects": 127,
+        "gameObjects": 29,
+        "rectTransforms": 29,
+        "monoBehaviours": 37
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/MenuSystem/Common/RedPoint/Pf/UIRedPoint.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "18C197121F706D2D92F8A25DB8FA61D05AD69FAF8DEA60C6ABC70789B2431E61",
+      "afterSha256": "18C197121F706D2D92F8A25DB8FA61D05AD69FAF8DEA60C6ABC70789B2431E61",
+      "beforeImmutableSha256": "B2589408E3123B9DB235B41E74854C698B69602ECD5A18578511BA327EF072EC",
+      "afterImmutableSha256": "B2589408E3123B9DB235B41E74854C698B69602ECD5A18578511BA327EF072EC",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 8,
+        "gameObjects": 2,
+        "rectTransforms": 2,
+        "monoBehaviours": 2
+      },
+      "afterCounts": {
+        "objects": 8,
+        "gameObjects": 2,
+        "rectTransforms": 2,
+        "monoBehaviours": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/MenuSystem/Common/UICommons/BG.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "1CB5B1CE4F812E742CEBFCCDF4393D9963AFCBFE8A6A553EB9C90968E45B3417",
+      "afterSha256": "1CB5B1CE4F812E742CEBFCCDF4393D9963AFCBFE8A6A553EB9C90968E45B3417",
+      "beforeImmutableSha256": "451F5199A3D1C9A3322DD23626F07AAAF012452025DF04F5AC6B982F4D07D1B4",
+      "afterImmutableSha256": "451F5199A3D1C9A3322DD23626F07AAAF012452025DF04F5AC6B982F4D07D1B4",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 27,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 9
+      },
+      "afterCounts": {
+        "objects": 27,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 9
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/UI/GamePanel/RealGamePanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "59CCC050386DE8FFCE3BFAD80F6F4332DD76F5F7FB80DA6A20945C8F587324FA",
+      "afterSha256": "59CCC050386DE8FFCE3BFAD80F6F4332DD76F5F7FB80DA6A20945C8F587324FA",
+      "beforeImmutableSha256": "D0CCA5074509DA0D74BD59F9EF1A6171AF4D74CA7E9995329ECA957E23B1D56F",
+      "afterImmutableSha256": "D0CCA5074509DA0D74BD59F9EF1A6171AF4D74CA7E9995329ECA957E23B1D56F",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 36,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 10
+      },
+      "afterCounts": {
+        "objects": 36,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 10
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/UI/GamePanel/UIPropEntry.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "53616D0F93E38747EA5B927963BF58CDF7D4CC49127AB4F1A31F353228EEA8A6",
+      "afterSha256": "5502B527CD033D5A4A0088C90AADB7CAFA26BDE5E0ECFB7909B730E18F34FBBA",
+      "beforeImmutableSha256": "3B8675329068A92F52EA0469529CD3A9F0E7B8C1238F84DC534369B775D6844F",
+      "afterImmutableSha256": "3B8675329068A92F52EA0469529CD3A9F0E7B8C1238F84DC534369B775D6844F",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 49,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 13,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 49,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 13,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "8077983568778643066",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: e2a1ed3e9b49c474987c46e7f0579a3c, type: 3}",
+          "after": "{fileID: -1869255428, guid: ba69b03635224224bafcd70eba3b015d, type: 3}"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "C5E228406E6A30F90F72E1FA419C1EF62DE643126462835C86F0449F46CF084D",
+      "afterSha256": "C5E228406E6A30F90F72E1FA419C1EF62DE643126462835C86F0449F46CF084D",
+      "beforeImmutableSha256": "6E1CC949506E0D531E5CF69A218981D4873B99B34913AFD58FBA0B244A9AC501",
+      "afterImmutableSha256": "6E1CC949506E0D531E5CF69A218981D4873B99B34913AFD58FBA0B244A9AC501",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 205,
+        "gameObjects": 47,
+        "rectTransforms": 49,
+        "monoBehaviours": 64,
+        "buttons": 7
+      },
+      "afterCounts": {
+        "objects": 205,
+        "gameObjects": 47,
+        "rectTransforms": 49,
+        "monoBehaviours": 64,
+        "buttons": 7
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachFingerMovePage.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "FA53D3ADC7043F4F158343834CED93C0C1DB95F2B1748921F4CFD441284B7C04",
+      "afterSha256": "FA53D3ADC7043F4F158343834CED93C0C1DB95F2B1748921F4CFD441284B7C04",
+      "beforeImmutableSha256": "FA53D3ADC7043F4F158343834CED93C0C1DB95F2B1748921F4CFD441284B7C04",
+      "afterImmutableSha256": "FA53D3ADC7043F4F158343834CED93C0C1DB95F2B1748921F4CFD441284B7C04",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 10,
+        "gameObjects": 3,
+        "rectTransforms": 3,
+        "monoBehaviours": 2
+      },
+      "afterCounts": {
+        "objects": 10,
+        "gameObjects": 3,
+        "rectTransforms": 3,
+        "monoBehaviours": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachMaskFocusPage.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "A5511CE6645996771FFA9C52E21B16B19173DD00AE1E5D224ED62E95A52AA50F",
+      "afterSha256": "A5511CE6645996771FFA9C52E21B16B19173DD00AE1E5D224ED62E95A52AA50F",
+      "beforeImmutableSha256": "D1FF48EF07FD8247E6E345B43673E5F8F476EDF5CD59CD0F26E43AEAD0950936",
+      "afterImmutableSha256": "D1FF48EF07FD8247E6E345B43673E5F8F476EDF5CD59CD0F26E43AEAD0950936",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 21,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 4
+      },
+      "afterCounts": {
+        "objects": 21,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachMaskPage.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "68864C657085100FAA14BDB06970A907A4211425ECBAD6C8E60711F84CCEF486",
+      "afterSha256": "68864C657085100FAA14BDB06970A907A4211425ECBAD6C8E60711F84CCEF486",
+      "beforeImmutableSha256": "A3BDD46EAE945CCD8B158A8C88E5248473774EF7A34F77E1BBEAE977C33FD429",
+      "afterImmutableSha256": "A3BDD46EAE945CCD8B158A8C88E5248473774EF7A34F77E1BBEAE977C33FD429",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 34,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 8,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 34,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 8,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachTipsPage.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "F74BEE359FF5B241B0CC1356AEE86743C76D2765E6CAC3A875435904B7494AED",
+      "afterSha256": "F74BEE359FF5B241B0CC1356AEE86743C76D2765E6CAC3A875435904B7494AED",
+      "beforeImmutableSha256": "22EDFB6314F445FCB96CB61F98542089D45B6C1F32AB0BF9CD24AA3321443D27",
+      "afterImmutableSha256": "22EDFB6314F445FCB96CB61F98542089D45B6C1F32AB0BF9CD24AA3321443D27",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 20,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 4
+      },
+      "afterCounts": {
+        "objects": 20,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "074A39756198C95875014885A7A3311E514D9B45B1EB5C8F675BDF5A51289977",
+      "afterSha256": "074A39756198C95875014885A7A3311E514D9B45B1EB5C8F675BDF5A51289977",
+      "beforeImmutableSha256": "45830A4CC05A35D7FEEC32BC1D0A28C4BB044B7EF351A95D9E112FBF81A29DD7",
+      "afterImmutableSha256": "45830A4CC05A35D7FEEC32BC1D0A28C4BB044B7EF351A95D9E112FBF81A29DD7",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 73,
+        "gameObjects": 17,
+        "rectTransforms": 17,
+        "monoBehaviours": 22,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 73,
+        "gameObjects": 17,
+        "rectTransforms": 17,
+        "monoBehaviours": 22,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "EEA23DD909220906773706DD622D7DBDED4D729F75041CD35C5BB9D0DCBBC115",
+      "afterSha256": "EEA23DD909220906773706DD622D7DBDED4D729F75041CD35C5BB9D0DCBBC115",
+      "beforeImmutableSha256": "1F0FB6200B66AE0E063F833EC651B42BC93642677932E871F1CADCE882553F4D",
+      "afterImmutableSha256": "1F0FB6200B66AE0E063F833EC651B42BC93642677932E871F1CADCE882553F4D",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 120,
+        "gameObjects": 29,
+        "rectTransforms": 29,
+        "monoBehaviours": 36,
+        "buttons": 3
+      },
+      "afterCounts": {
+        "objects": 120,
+        "gameObjects": 29,
+        "rectTransforms": 29,
+        "monoBehaviours": 36,
+        "buttons": 3
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIActivityTaskElement.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "92BF6D793F1039683339E52B48ADFED966FE9B69D9A58E257BC9E49DA4BF8165",
+      "afterSha256": "92BF6D793F1039683339E52B48ADFED966FE9B69D9A58E257BC9E49DA4BF8165",
+      "beforeImmutableSha256": "3C1AC0BDBA9B0026895137A03C2F812E6B5F3E011C03A7879E38F84268B0912A",
+      "afterImmutableSha256": "3C1AC0BDBA9B0026895137A03C2F812E6B5F3E011C03A7879E38F84268B0912A",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 35,
+        "gameObjects": 8,
+        "rectTransforms": 8,
+        "monoBehaviours": 11,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 35,
+        "gameObjects": 8,
+        "rectTransforms": 8,
+        "monoBehaviours": 11,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskElement.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "5E0CC1D4B6AE54724D86DC2B30EEC8AD561485252DC30A84EDA0850225DA8089",
+      "afterSha256": "5E0CC1D4B6AE54724D86DC2B30EEC8AD561485252DC30A84EDA0850225DA8089",
+      "beforeImmutableSha256": "AA8E7874B2202DF7248C026DBE8219D8B283E3D69ACE355621FC7823216F9867",
+      "afterImmutableSha256": "AA8E7874B2202DF7248C026DBE8219D8B283E3D69ACE355621FC7823216F9867",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 97,
+        "gameObjects": 22,
+        "rectTransforms": 23,
+        "monoBehaviours": 31,
+        "buttons": 3
+      },
+      "afterCounts": {
+        "objects": 97,
+        "gameObjects": 22,
+        "rectTransforms": 23,
+        "monoBehaviours": 31,
+        "buttons": 3
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "6292605A5E2456364DD1F2DA56CC27995165DD99C87EA8E27278DD89A5CBB8A3",
+      "afterSha256": "6292605A5E2456364DD1F2DA56CC27995165DD99C87EA8E27278DD89A5CBB8A3",
+      "beforeImmutableSha256": "A00961CABF63C26AA6FC05E1281A298737AE13B7F984C6393E2C56A668D1377A",
+      "afterImmutableSha256": "A00961CABF63C26AA6FC05E1281A298737AE13B7F984C6393E2C56A668D1377A",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 231,
+        "gameObjects": 55,
+        "rectTransforms": 59,
+        "monoBehaviours": 66,
+        "buttons": 4
+      },
+      "afterCounts": {
+        "objects": 231,
+        "gameObjects": 55,
+        "rectTransforms": 59,
+        "monoBehaviours": 66,
+        "buttons": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/UITips/Resources/BroadCastBar.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "A344DCC9636A9831380D7F1ABD7DE07E69E862F88E4DD4FA1859D461E3D253FD",
+      "afterSha256": "A344DCC9636A9831380D7F1ABD7DE07E69E862F88E4DD4FA1859D461E3D253FD",
+      "beforeImmutableSha256": "7B05282576883944413E026F33B7C248027F435A05BE3D5449BCF4B6576D0055",
+      "afterImmutableSha256": "7B05282576883944413E026F33B7C248027F435A05BE3D5449BCF4B6576D0055",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 48,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 14
+      },
+      "afterCounts": {
+        "objects": 48,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 14
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "1173C71E51F584B92D5393D89930300C2F0AFF60853BC1881C529562C7F9DF1C",
+      "afterSha256": "1173C71E51F584B92D5393D89930300C2F0AFF60853BC1881C529562C7F9DF1C",
+      "beforeImmutableSha256": "2D216C38541664202286A480026A4742AFAF797B8748763C31CE1D54F847FD9F",
+      "afterImmutableSha256": "2D216C38541664202286A480026A4742AFAF797B8748763C31CE1D54F847FD9F",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 77,
+        "gameObjects": 18,
+        "rectTransforms": 20,
+        "monoBehaviours": 21,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 77,
+        "gameObjects": 18,
+        "rectTransforms": 20,
+        "monoBehaviours": 21,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/BadgeAndDaily/ItemForCountry.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "07BE9018EB6C80205C9C351AA2377526243BC9217C8508CD8AD8B6704E924F99",
+      "afterSha256": "07BE9018EB6C80205C9C351AA2377526243BC9217C8508CD8AD8B6704E924F99",
+      "beforeImmutableSha256": "6647D073ED9C2E2239BF2CA70405630A60C54EDABAD3572BCD28FE9EA0335329",
+      "afterImmutableSha256": "6647D073ED9C2E2239BF2CA70405630A60C54EDABAD3572BCD28FE9EA0335329",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 35,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 9,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 35,
+        "gameObjects": 9,
+        "rectTransforms": 9,
+        "monoBehaviours": 9,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "B43A1CB03A369900BCD57CD025ABB913A5739B3941EC06A07A4311B367492FEF",
+      "afterSha256": "B43A1CB03A369900BCD57CD025ABB913A5739B3941EC06A07A4311B367492FEF",
+      "beforeImmutableSha256": "BC4FEDC207252F5A6D4355BFF6F65D54EFFD1854578FD91217CF57B38D39A2F3",
+      "afterImmutableSha256": "BC4FEDC207252F5A6D4355BFF6F65D54EFFD1854578FD91217CF57B38D39A2F3",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 113,
+        "gameObjects": 27,
+        "rectTransforms": 29,
+        "monoBehaviours": 33,
+        "buttons": 4
+      },
+      "afterCounts": {
+        "objects": 113,
+        "gameObjects": 27,
+        "rectTransforms": 29,
+        "monoBehaviours": 33,
+        "buttons": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "F7B5AB5954273539A820B7F1C478CA90CFFDEEA8B11F0A9452DDC1EF6910C77C",
+      "afterSha256": "F7B5AB5954273539A820B7F1C478CA90CFFDEEA8B11F0A9452DDC1EF6910C77C",
+      "beforeImmutableSha256": "7AC6B06E5A631A4C963A07000C1B775193F21EF15E0B57909CD8E697DEFE7BA2",
+      "afterImmutableSha256": "7AC6B06E5A631A4C963A07000C1B775193F21EF15E0B57909CD8E697DEFE7BA2",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 85,
+        "gameObjects": 19,
+        "rectTransforms": 21,
+        "monoBehaviours": 28,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 85,
+        "gameObjects": 19,
+        "rectTransforms": 21,
+        "monoBehaviours": 28,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "EC2167E66EA937E6C06371B7F33E67E20135D609AA8B7FFE8907A9E46FA9D505",
+      "afterSha256": "EC2167E66EA937E6C06371B7F33E67E20135D609AA8B7FFE8907A9E46FA9D505",
+      "beforeImmutableSha256": "F3AAEEA9A5AB40151C4EFED80A384B3AB9F9F3080DAAB177C87216A6FBAF4A22",
+      "afterImmutableSha256": "F3AAEEA9A5AB40151C4EFED80A384B3AB9F9F3080DAAB177C87216A6FBAF4A22",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 107,
+        "gameObjects": 25,
+        "rectTransforms": 27,
+        "monoBehaviours": 33,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 107,
+        "gameObjects": 25,
+        "rectTransforms": 27,
+        "monoBehaviours": 33,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "131D6968BE5BBA73D8AD0BC48E69E106AC7D32BDEBC92328F7CBDFBED1CA692D",
+      "afterSha256": "131D6968BE5BBA73D8AD0BC48E69E106AC7D32BDEBC92328F7CBDFBED1CA692D",
+      "beforeImmutableSha256": "D72BF46F9728AB34858D18164CF02E7DA440AC5D09B935EE21A0702EA5591252",
+      "afterImmutableSha256": "D72BF46F9728AB34858D18164CF02E7DA440AC5D09B935EE21A0702EA5591252",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 246,
+        "gameObjects": 52,
+        "rectTransforms": 65,
+        "monoBehaviours": 80,
+        "buttons": 4
+      },
+      "afterCounts": {
+        "objects": 246,
+        "gameObjects": 52,
+        "rectTransforms": 65,
+        "monoBehaviours": 80,
+        "buttons": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "47057EFDC232629407A465CB746798169836ECBF278785047662455CF1441CAE",
+      "afterSha256": "47057EFDC232629407A465CB746798169836ECBF278785047662455CF1441CAE",
+      "beforeImmutableSha256": "C39C57C53288022C763B95A64CD93F9B50A04C09AD4EEB8049C2BE7420B9AE89",
+      "afterImmutableSha256": "C39C57C53288022C763B95A64CD93F9B50A04C09AD4EEB8049C2BE7420B9AE89",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 34,
+        "gameObjects": 8,
+        "rectTransforms": 8,
+        "monoBehaviours": 11,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 34,
+        "gameObjects": 8,
+        "rectTransforms": 8,
+        "monoBehaviours": 11,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/FAQPanel/FAQPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "5D2CB188659F5C1D5C69788BFECB3C2A6245E0A0F3D5997A1F4B263F3FC886C3",
+      "afterSha256": "5D2CB188659F5C1D5C69788BFECB3C2A6245E0A0F3D5997A1F4B263F3FC886C3",
+      "beforeImmutableSha256": "7110771481669EFB308576F7B488DF5CF21180811A36FEF3A9E4B4FE0BF3241F",
+      "afterImmutableSha256": "7110771481669EFB308576F7B488DF5CF21180811A36FEF3A9E4B4FE0BF3241F",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 75,
+        "gameObjects": 14,
+        "rectTransforms": 16,
+        "monoBehaviours": 31,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 75,
+        "gameObjects": 14,
+        "rectTransforms": 16,
+        "monoBehaviours": 31,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "EE36B67AF26A6352E62A757352C365C2819741089F2793744B0E39118FC3EC9E",
+      "afterSha256": "EE36B67AF26A6352E62A757352C365C2819741089F2793744B0E39118FC3EC9E",
+      "beforeImmutableSha256": "1EC9DA70A243160411554DD1EC8AB696569F3F34812045E0D4678967BB18117C",
+      "afterImmutableSha256": "1EC9DA70A243160411554DD1EC8AB696569F3F34812045E0D4678967BB18117C",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 65,
+        "gameObjects": 12,
+        "rectTransforms": 16,
+        "monoBehaviours": 22,
+        "buttons": 4
+      },
+      "afterCounts": {
+        "objects": 65,
+        "gameObjects": 12,
+        "rectTransforms": 16,
+        "monoBehaviours": 22,
+        "buttons": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/UIBizzaAAA.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "1C2EFC49B423DC03641C10B8478466DE09F0120406F8BE98AF60C6D0EDD39A50",
+      "afterSha256": "1C2EFC49B423DC03641C10B8478466DE09F0120406F8BE98AF60C6D0EDD39A50",
+      "beforeImmutableSha256": "98D9547B436AF486CEC5A22D63400188F26CAA86DA9A20B39B84F2C8B2F08533",
+      "afterImmutableSha256": "98D9547B436AF486CEC5A22D63400188F26CAA86DA9A20B39B84F2C8B2F08533",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 19,
+        "gameObjects": 5,
+        "rectTransforms": 5,
+        "monoBehaviours": 5,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 19,
+        "gameObjects": 5,
+        "rectTransforms": 5,
+        "monoBehaviours": 5,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "95B669BD3D603116E69EC481431CC4324A942A2C0D5E8CDECED61E4B7C1D10AE",
+      "afterSha256": "FAAFAB8E5707259528E77338BE5F4276116CD79DBF968E7E01174E73176DAE00",
+      "beforeImmutableSha256": "4676F96004DD12FC23C2367BE68980F8A1E1866E66C2F38490D71A39FD154912",
+      "afterImmutableSha256": "4676F96004DD12FC23C2367BE68980F8A1E1866E66C2F38490D71A39FD154912",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 230,
+        "gameObjects": 57,
+        "rectTransforms": 62,
+        "monoBehaviours": 63,
+        "buttons": 3
+      },
+      "afterCounts": {
+        "objects": 230,
+        "gameObjects": 57,
+        "rectTransforms": 62,
+        "monoBehaviours": 63,
+        "buttons": 3
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "2408382842900339161",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: d7f28e8da30c91a44b880ce48ab606f4, type: 3}",
+          "after": "{fileID: 1192469443, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "4325750691145160632",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 8ab9ed028df8035418b21f0e21495294, type: 3}",
+          "after": "{fileID: -1559611953, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/Real_WithdrawProgress/Real_WithdrawProgress.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "AA2FCA328A2F5EDC947CEF8E8E6C4B26A317E94567275DB14C81C000126EE5DA",
+      "afterSha256": "AA2FCA328A2F5EDC947CEF8E8E6C4B26A317E94567275DB14C81C000126EE5DA",
+      "beforeImmutableSha256": "DEF75D5460FE0C57994B09C638FF00B3E5651C5B10CB1B70D6E43677BAB422BE",
+      "afterImmutableSha256": "DEF75D5460FE0C57994B09C638FF00B3E5651C5B10CB1B70D6E43677BAB422BE",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 26,
+        "gameObjects": 7,
+        "rectTransforms": 7,
+        "monoBehaviours": 7
+      },
+      "afterCounts": {
+        "objects": 26,
+        "gameObjects": 7,
+        "rectTransforms": 7,
+        "monoBehaviours": 7
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "5B239E199A92100A334CE46D83715F8A0538249FF9514F59FF8A5AFD9CB4FA57",
+      "afterSha256": "5B239E199A92100A334CE46D83715F8A0538249FF9514F59FF8A5AFD9CB4FA57",
+      "beforeImmutableSha256": "A47A89C2D6F13BF5622964A61B529E5D6BBC39758AAABEF6C1D9AD674DCAFCE2",
+      "afterImmutableSha256": "A47A89C2D6F13BF5622964A61B529E5D6BBC39758AAABEF6C1D9AD674DCAFCE2",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 70,
+        "gameObjects": 15,
+        "rectTransforms": 16,
+        "monoBehaviours": 23,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 70,
+        "gameObjects": 15,
+        "rectTransforms": 16,
+        "monoBehaviours": 23,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/BonusRate.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "B8634B065DDE92BBBCCD0E9E39BBF0459A2E93B341B4625F8C9DFAD48A643B66",
+      "afterSha256": "B8634B065DDE92BBBCCD0E9E39BBF0459A2E93B341B4625F8C9DFAD48A643B66",
+      "beforeImmutableSha256": "A8BE4778192F31DAED3C456069D242CDBB5298A207A878C900E94ED9C302B9E0",
+      "afterImmutableSha256": "A8BE4778192F31DAED3C456069D242CDBB5298A207A878C900E94ED9C302B9E0",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 21,
+        "gameObjects": 5,
+        "rectTransforms": 5,
+        "monoBehaviours": 7
+      },
+      "afterCounts": {
+        "objects": 21,
+        "gameObjects": 5,
+        "rectTransforms": 5,
+        "monoBehaviours": 7
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/DailyBonus.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "AEBFB34AEB9A2CEF10CEF0059F9CEA23773D36CDA9ABE78034DAF2888D20F983",
+      "afterSha256": "AEBFB34AEB9A2CEF10CEF0059F9CEA23773D36CDA9ABE78034DAF2888D20F983",
+      "beforeImmutableSha256": "E49E54868F07AF90F78897C7F8316B3D34E2797C93A5DAD02ECBEE9E67655EC3",
+      "afterImmutableSha256": "E49E54868F07AF90F78897C7F8316B3D34E2797C93A5DAD02ECBEE9E67655EC3",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 38,
+        "gameObjects": 9,
+        "rectTransforms": 11,
+        "monoBehaviours": 11
+      },
+      "afterCounts": {
+        "objects": 38,
+        "gameObjects": 9,
+        "rectTransforms": 11,
+        "monoBehaviours": 11
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/DailyBonusItem.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "CFC918BF88723770D55438F0EDEAA25CBED666369B959C421F62F6C1DAD9F28F",
+      "afterSha256": "CFC918BF88723770D55438F0EDEAA25CBED666369B959C421F62F6C1DAD9F28F",
+      "beforeImmutableSha256": "B0D72B83A7AC8A561CA75DA88E0F18B494105538820C700A1FC83B8D1D34D782",
+      "afterImmutableSha256": "B0D72B83A7AC8A561CA75DA88E0F18B494105538820C700A1FC83B8D1D34D782",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 60,
+        "gameObjects": 16,
+        "rectTransforms": 17,
+        "monoBehaviours": 15,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 60,
+        "gameObjects": 16,
+        "rectTransforms": 17,
+        "monoBehaviours": 15,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "A709FD81347D111DF878E20AE4ECCF66D65FABA3A411860AC3E4829C68838940",
+      "afterSha256": "A709FD81347D111DF878E20AE4ECCF66D65FABA3A411860AC3E4829C68838940",
+      "beforeImmutableSha256": "6174B788AA706BBC3610A2999CEF3647FC0756C5D68D90239C292EC050B696BC",
+      "afterImmutableSha256": "6174B788AA706BBC3610A2999CEF3647FC0756C5D68D90239C292EC050B696BC",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 316,
+        "gameObjects": 70,
+        "rectTransforms": 78,
+        "monoBehaviours": 106,
+        "buttons": 6
+      },
+      "afterCounts": {
+        "objects": 316,
+        "gameObjects": 70,
+        "rectTransforms": 78,
+        "monoBehaviours": 106,
+        "buttons": 6
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawInfo.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "5AC88A0E5DEB92269DB34592FD1EB092562145E5AB8DC2A2BE4E08B64F756B54",
+      "afterSha256": "5AC88A0E5DEB92269DB34592FD1EB092562145E5AB8DC2A2BE4E08B64F756B54",
+      "beforeImmutableSha256": "9FBB14F1B0E0785F396F6D6A66903103DFBA036D00750244EEF7305ADEECA754",
+      "afterImmutableSha256": "9FBB14F1B0E0785F396F6D6A66903103DFBA036D00750244EEF7305ADEECA754",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 89,
+        "gameObjects": 23,
+        "rectTransforms": 26,
+        "monoBehaviours": 22,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 89,
+        "gameObjects": 23,
+        "rectTransforms": 26,
+        "monoBehaviours": 22,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawLevel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "D105FEF8E07AA0BBA2C4C9DC9EF05EBA3AFEAC69F1BEEED34EAC23FBD02B8B3D",
+      "afterSha256": "D105FEF8E07AA0BBA2C4C9DC9EF05EBA3AFEAC69F1BEEED34EAC23FBD02B8B3D",
+      "beforeImmutableSha256": "38D3F742E50571A706C4712ABAD8988E35ED6D0A3C475CA658DF7F629E7DA021",
+      "afterImmutableSha256": "38D3F742E50571A706C4712ABAD8988E35ED6D0A3C475CA658DF7F629E7DA021",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 60,
+        "gameObjects": 15,
+        "rectTransforms": 16,
+        "monoBehaviours": 17
+      },
+      "afterCounts": {
+        "objects": 60,
+        "gameObjects": 15,
+        "rectTransforms": 16,
+        "monoBehaviours": 17
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawLevelItem.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "99FAEB3D0EC67BCEEC3BEF25524B3C5F5D6AFBBFAF65C17F1A2ABD8AA7442A39",
+      "afterSha256": "99FAEB3D0EC67BCEEC3BEF25524B3C5F5D6AFBBFAF65C17F1A2ABD8AA7442A39",
+      "beforeImmutableSha256": "40C61C767AE354011B86373BAE6CB390674EEA5FFDE2DB1E1CC542E08507A1BE",
+      "afterImmutableSha256": "40C61C767AE354011B86373BAE6CB390674EEA5FFDE2DB1E1CC542E08507A1BE",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 49,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 14,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 49,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 14,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawWay.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "0398069B32C8B802567F14D0D71A103AFE9144A9D1DDD5C5FC00C12EC5621A45",
+      "afterSha256": "0398069B32C8B802567F14D0D71A103AFE9144A9D1DDD5C5FC00C12EC5621A45",
+      "beforeImmutableSha256": "F780CFBE1C7E0426008E4F85EA4BCBD195959A9941B2C729A44B6D9A1DCAD960",
+      "afterImmutableSha256": "F780CFBE1C7E0426008E4F85EA4BCBD195959A9941B2C729A44B6D9A1DCAD960",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 22,
+        "gameObjects": 5,
+        "rectTransforms": 5,
+        "monoBehaviours": 7,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 22,
+        "gameObjects": 5,
+        "rectTransforms": 5,
+        "monoBehaviours": 7,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ChatElement.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "A52DDC1308022B8EAFAF36D2CA3641161B8B792A50E5EBED81B6BBCF84DEE66E",
+      "afterSha256": "A52DDC1308022B8EAFAF36D2CA3641161B8B792A50E5EBED81B6BBCF84DEE66E",
+      "beforeImmutableSha256": "F771BACBC08C960767B6E054F3B14B81FBDA55E058F7C7133E6839E9C21DDD3F",
+      "afterImmutableSha256": "F771BACBC08C960767B6E054F3B14B81FBDA55E058F7C7133E6839E9C21DDD3F",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 22,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 6
+      },
+      "afterCounts": {
+        "objects": 22,
+        "gameObjects": 6,
+        "rectTransforms": 6,
+        "monoBehaviours": 6
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServiceBtn.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "C79A4806A974D1643114BEAE74A72095DB2E90008FBACACF8504F801E23DD933",
+      "afterSha256": "C79A4806A974D1643114BEAE74A72095DB2E90008FBACACF8504F801E23DD933",
+      "beforeImmutableSha256": "07BE781F742FA4C86EEF1E33A0DD8A524A748FDD87C1B9DD2E2021728EAEB508",
+      "afterImmutableSha256": "07BE781F742FA4C86EEF1E33A0DD8A524A748FDD87C1B9DD2E2021728EAEB508",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 10,
+        "gameObjects": 2,
+        "rectTransforms": 2,
+        "monoBehaviours": 4,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 10,
+        "gameObjects": 2,
+        "rectTransforms": 2,
+        "monoBehaviours": 4,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "8AC21B54DB51F644550E2B40053AD4ABE95CFE32B2260F7A25E83958C1540F41",
+      "afterSha256": "8AC21B54DB51F644550E2B40053AD4ABE95CFE32B2260F7A25E83958C1540F41",
+      "beforeImmutableSha256": "381DDBF2FF65CC19F8E429E7CB9125A52FCBBCD772538ECC3B0EDFCA1FFA40F0",
+      "afterImmutableSha256": "381DDBF2FF65CC19F8E429E7CB9125A52FCBBCD772538ECC3B0EDFCA1FFA40F0",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 149,
+        "gameObjects": 33,
+        "rectTransforms": 33,
+        "monoBehaviours": 58,
+        "buttons": 7
+      },
+      "afterCounts": {
+        "objects": 149,
+        "gameObjects": 33,
+        "rectTransforms": 33,
+        "monoBehaviours": 58,
+        "buttons": 7
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/ServiceSelectPanel/ServiceSelectPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "912F1B466EB9656BF62A5EADF2292996BCC2D9D358893F5663EC2D890AF70A42",
+      "afterSha256": "912F1B466EB9656BF62A5EADF2292996BCC2D9D358893F5663EC2D890AF70A42",
+      "beforeImmutableSha256": "6ECBE1E9DBB5089A1392AC673F9DB4E6E3D7C2B9467288242E050A072B979D5B",
+      "afterImmutableSha256": "6ECBE1E9DBB5089A1392AC673F9DB4E6E3D7C2B9467288242E050A072B979D5B",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 111,
+        "gameObjects": 23,
+        "rectTransforms": 24,
+        "monoBehaviours": 41,
+        "buttons": 9
+      },
+      "afterCounts": {
+        "objects": 111,
+        "gameObjects": 23,
+        "rectTransforms": 24,
+        "monoBehaviours": 41,
+        "buttons": 9
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UiPrefab/SlotMachineGroup.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "2062F3DB0ADEF80E1E884843A1B4281E54566F30D2A6DB3E824FD5A67C028C08",
+      "afterSha256": "4E8B33503ED91D05281E20AACA8F369C1167E4AA6D9EC90E04DB02A97FF8252D",
+      "beforeImmutableSha256": "62D3C5047F5D8F1E16C1B71489D3DBBB3023DC859C195BDF4223DB242E92E731",
+      "afterImmutableSha256": "62D3C5047F5D8F1E16C1B71489D3DBBB3023DC859C195BDF4223DB242E92E731",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 345,
+        "gameObjects": 68,
+        "rectTransforms": 50,
+        "monoBehaviours": 44,
+        "transforms": 33,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 345,
+        "gameObjects": 68,
+        "rectTransforms": 50,
+        "monoBehaviours": 44,
+        "transforms": 33,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "4300416282917706685",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 877755ca2e59eba40aee6eadfa1f9bdd, type: 3}",
+          "after": "{fileID: 2758570, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "991499807541595864",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: ccffe6fa2120f70428ebaf6b8d0fe53d, type: 3}",
+          "after": "{fileID: -764451775, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "18836EF06D412D09E77E55C839DE9EBA3CA61543A52D43A4F9D2E1F009C80A5B",
+      "afterSha256": "18836EF06D412D09E77E55C839DE9EBA3CA61543A52D43A4F9D2E1F009C80A5B",
+      "beforeImmutableSha256": "6E1BC2A581D3309C3BA713883E12C1038B9F44167332C94C41C211FE9608CA21",
+      "afterImmutableSha256": "6E1BC2A581D3309C3BA713883E12C1038B9F44167332C94C41C211FE9608CA21",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 29,
+        "gameObjects": 8,
+        "rectTransforms": 8,
+        "monoBehaviours": 7,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 29,
+        "gameObjects": 8,
+        "rectTransforms": 8,
+        "monoBehaviours": 7,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "FE852D939935EED7CB45C29DC85A7AE61EEE0E4EB03E6308BEFE4B5D6C0C62B2",
+      "afterSha256": "FE852D939935EED7CB45C29DC85A7AE61EEE0E4EB03E6308BEFE4B5D6C0C62B2",
+      "beforeImmutableSha256": "0BDCC37F41FB2C0A515812B680C39E5AB2E360746FBF6208D56E2D34C9023A89",
+      "afterImmutableSha256": "0BDCC37F41FB2C0A515812B680C39E5AB2E360746FBF6208D56E2D34C9023A89",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 331,
+        "gameObjects": 75,
+        "rectTransforms": 76,
+        "monoBehaviours": 109,
+        "buttons": 1
+      },
+      "afterCounts": {
+        "objects": 331,
+        "gameObjects": 75,
+        "rectTransforms": 76,
+        "monoBehaviours": 109,
+        "buttons": 1
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "DEFCC9E5C5AEE9DAD604337AAC8251F6DEF54F1D1F16F8F7B8D7BCA3AF96191A",
+      "afterSha256": "DEFCC9E5C5AEE9DAD604337AAC8251F6DEF54F1D1F16F8F7B8D7BCA3AF96191A",
+      "beforeImmutableSha256": "CA7BF16318D3D773D2F7720E9AEFB324C626BE87FAE21D076F474B15B88B2022",
+      "afterImmutableSha256": "CA7BF16318D3D773D2F7720E9AEFB324C626BE87FAE21D076F474B15B88B2022",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 175,
+        "gameObjects": 46,
+        "rectTransforms": 41,
+        "monoBehaviours": 56,
+        "buttons": 4
+      },
+      "afterCounts": {
+        "objects": 175,
+        "gameObjects": 46,
+        "rectTransforms": 41,
+        "monoBehaviours": 56,
+        "buttons": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "29FBD79BD199F853587BAFD580627F7EF7083A440E78C2A1D0AE8619A63D092C",
+      "afterSha256": "29FBD79BD199F853587BAFD580627F7EF7083A440E78C2A1D0AE8619A63D092C",
+      "beforeImmutableSha256": "C3BE67081030776C0B982863A804C1BDFE06B29E1CE2B6403D293BA0D62FADE0",
+      "afterImmutableSha256": "C3BE67081030776C0B982863A804C1BDFE06B29E1CE2B6403D293BA0D62FADE0",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 102,
+        "gameObjects": 22,
+        "rectTransforms": 22,
+        "monoBehaviours": 38,
+        "buttons": 11
+      },
+      "afterCounts": {
+        "objects": 102,
+        "gameObjects": 22,
+        "rectTransforms": 22,
+        "monoBehaviours": 38,
+        "buttons": 11
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "1AD4FE2A3D080B63DDE5FF2D4425EF8B3FC933ED69A53E2F4A9648457EAEA9B2",
+      "afterSha256": "1AD4FE2A3D080B63DDE5FF2D4425EF8B3FC933ED69A53E2F4A9648457EAEA9B2",
+      "beforeImmutableSha256": "782B30662459DC3797535B9B4EC15465B374CB4DBA9F4D63193682639D6E4CBB",
+      "afterImmutableSha256": "782B30662459DC3797535B9B4EC15465B374CB4DBA9F4D63193682639D6E4CBB",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 108,
+        "gameObjects": 25,
+        "rectTransforms": 26,
+        "monoBehaviours": 33,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 108,
+        "gameObjects": 25,
+        "rectTransforms": 26,
+        "monoBehaviours": 33,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "0CF167C90A9B28EEE4CD9C6869E2FACAFD2D40A1A9A7F3D3B20FFF50296523C7",
+      "afterSha256": "0CF167C90A9B28EEE4CD9C6869E2FACAFD2D40A1A9A7F3D3B20FFF50296523C7",
+      "beforeImmutableSha256": "573AAC3427A93045C9C7E18339CB6569A26592D64C6614C6154C4182E202550E",
+      "afterImmutableSha256": "573AAC3427A93045C9C7E18339CB6569A26592D64C6614C6154C4182E202550E",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 76,
+        "gameObjects": 18,
+        "rectTransforms": 18,
+        "monoBehaviours": 23,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 76,
+        "gameObjects": 18,
+        "rectTransforms": 18,
+        "monoBehaviours": 23,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanItem.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "6BE111F0FEFEB4350941E09028CAD94211A9F8449BAC074666E88E9C843784B9",
+      "afterSha256": "6BE111F0FEFEB4350941E09028CAD94211A9F8449BAC074666E88E9C843784B9",
+      "beforeImmutableSha256": "F5E3C2DD50DA3FC99853143C5722FB706F58DC7070EB011D055742A365C4A65A",
+      "afterImmutableSha256": "F5E3C2DD50DA3FC99853143C5722FB706F58DC7070EB011D055742A365C4A65A",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 70,
+        "gameObjects": 19,
+        "rectTransforms": 19,
+        "monoBehaviours": 18,
+        "buttons": 3
+      },
+      "afterCounts": {
+        "objects": 70,
+        "gameObjects": 19,
+        "rectTransforms": 19,
+        "monoBehaviours": 18,
+        "buttons": 3
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "81990E870CF66B78F48B914ACC4859CBA4C2841AC5CFE9354FD3BA03C7074DC1",
+      "afterSha256": "81990E870CF66B78F48B914ACC4859CBA4C2841AC5CFE9354FD3BA03C7074DC1",
+      "beforeImmutableSha256": "44EF8601D77A9D8BF3F7EB3D24225F01B4216DCB4082F0E42157E38B80EB215C",
+      "afterImmutableSha256": "44EF8601D77A9D8BF3F7EB3D24225F01B4216DCB4082F0E42157E38B80EB215C",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 178,
+        "gameObjects": 46,
+        "rectTransforms": 46,
+        "monoBehaviours": 54,
+        "buttons": 4
+      },
+      "afterCounts": {
+        "objects": 178,
+        "gameObjects": 46,
+        "rectTransforms": 46,
+        "monoBehaviours": 54,
+        "buttons": 4
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "9101E7A6BCE68C346C0FC3D1419B304003B24B9D10F5AA8E81E6F5B05B8BE371",
+      "afterSha256": "9101E7A6BCE68C346C0FC3D1419B304003B24B9D10F5AA8E81E6F5B05B8BE371",
+      "beforeImmutableSha256": "1B7EBB15A97829E72D8FC07B11BBB924CA8F3BDC64E80621D6D849BAB6AEEDDB",
+      "afterImmutableSha256": "1B7EBB15A97829E72D8FC07B11BBB924CA8F3BDC64E80621D6D849BAB6AEEDDB",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 375,
+        "gameObjects": 96,
+        "rectTransforms": 96,
+        "monoBehaviours": 122,
+        "buttons": 9
+      },
+      "afterCounts": {
+        "objects": 375,
+        "gameObjects": 96,
+        "rectTransforms": 96,
+        "monoBehaviours": 122,
+        "buttons": 9
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "68CE5AE0194AFD5FC752B62117C4CB96A7D3769BBA62AF43509608722EB903B9",
+      "afterSha256": "68CE5AE0194AFD5FC752B62117C4CB96A7D3769BBA62AF43509608722EB903B9",
+      "beforeImmutableSha256": "E0D84E8F28B5808A032A023CE5FE37E5BF8F8C1046FFCF30C01C9A4483742C58",
+      "afterImmutableSha256": "E0D84E8F28B5808A032A023CE5FE37E5BF8F8C1046FFCF30C01C9A4483742C58",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 76,
+        "gameObjects": 15,
+        "rectTransforms": 19,
+        "monoBehaviours": 25,
+        "buttons": 2
+      },
+      "afterCounts": {
+        "objects": 76,
+        "gameObjects": 15,
+        "rectTransforms": 19,
+        "monoBehaviours": 25,
+        "buttons": 2
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistoryItem.prefab",
+      "passed": true,
+      "byteIdentical": true,
+      "beforeSha256": "2A9D15105F8451E418121B2B74A0B113003984D9AFC67AB710D4C27EB8046254",
+      "afterSha256": "2A9D15105F8451E418121B2B74A0B113003984D9AFC67AB710D4C27EB8046254",
+      "beforeImmutableSha256": "9D0DF058E6D2469F5378096CCB6C455233CA5437B21650AC77F4D4CE1073DAD3",
+      "afterImmutableSha256": "9D0DF058E6D2469F5378096CCB6C455233CA5437B21650AC77F4D4CE1073DAD3",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 73,
+        "gameObjects": 20,
+        "rectTransforms": 20,
+        "monoBehaviours": 16
+      },
+      "afterCounts": {
+        "objects": 73,
+        "gameObjects": 20,
+        "rectTransforms": 20,
+        "monoBehaviours": 16
+      },
+      "allowedVisualChanges": [],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "E029A3D3748BF23A9BFA4021B644292A5B8061A2C7588BEBEFCFE09E1FC9016A",
+      "afterSha256": "4540E42ED0FCB5569055004992F383B306E60D604D78D5565C1175924A946818",
+      "beforeImmutableSha256": "BB23DE807F7B172ED83782D064C65A1FECD6DCDE711159CF0E8113272340D3B3",
+      "afterImmutableSha256": "BB23DE807F7B172ED83782D064C65A1FECD6DCDE711159CF0E8113272340D3B3",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 840,
+        "gameObjects": 204,
+        "rectTransforms": 204,
+        "monoBehaviours": 168
+      },
+      "afterCounts": {
+        "objects": 840,
+        "gameObjects": 204,
+        "rectTransforms": 204,
+        "monoBehaviours": 168
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "114025440191983101",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: cc32c9cade6f9304381a9f2979d31b00, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114161367720648980",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: e0c58b1c4d5b69e448d1ded4d9ddd7fe, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114282982324125657",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: af79964b5036fe2478e31d20f7eedfda, type: 2}",
+          "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114343514521034121",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: cc32c9cade6f9304381a9f2979d31b00, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114389991902224113",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 1a128d4fff8fe9240b6f47f24ebd846a, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114410865556287939",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: b5ee8581194680643ae1d53fe50befc0, type: 2}",
+          "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114495838826320329",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 5370a8099a532854a83bc50622caf458, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114504490712063035",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: b4aa5a5d0751cfa47a1fd2ace643b0cd, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114513653223693148",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: b5ee8581194680643ae1d53fe50befc0, type: 2}",
+          "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114555560523574011",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: e0c58b1c4d5b69e448d1ded4d9ddd7fe, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114758405882409070",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 1a128d4fff8fe9240b6f47f24ebd846a, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114798730798708461",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: b4aa5a5d0751cfa47a1fd2ace643b0cd, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114837227276182950",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: b5ee8581194680643ae1d53fe50befc0, type: 2}",
+          "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114837889324699812",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: af79964b5036fe2478e31d20f7eedfda, type: 2}",
+          "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114886820396282420",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: b4aa5a5d0751cfa47a1fd2ace643b0cd, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114909473683147852",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: cc32c9cade6f9304381a9f2979d31b00, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114926580033004315",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: af79964b5036fe2478e31d20f7eedfda, type: 2}",
+          "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114942066236133985",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: ccb41d00782eee746a8f3e4a7f1df646, type: 2}",
+          "after": "{fileID: -764451775, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114950706389121088",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: e0c58b1c4d5b69e448d1ded4d9ddd7fe, type: 2}",
+          "after": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/prefab/DangerousTip.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "600C0A66C5C97CA91AB9D5CFB90DC3DA8EF998CF96CDFA3E45B7135CA0E60C4F",
+      "afterSha256": "260C2BABB44BA563BC711D939ACC2155E0A673BF0DE4D901300F738044DD8BC5",
+      "beforeImmutableSha256": "09EBEACE6FACC43DC823975BA97A348D29FEAAB6E1C49589F3679D0AB0B5F21E",
+      "afterImmutableSha256": "09EBEACE6FACC43DC823975BA97A348D29FEAAB6E1C49589F3679D0AB0B5F21E",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 63,
+        "gameObjects": 15,
+        "rectTransforms": 15,
+        "monoBehaviours": 17
+      },
+      "afterCounts": {
+        "objects": 63,
+        "gameObjects": 15,
+        "rectTransforms": 15,
+        "monoBehaviours": 17
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "114060945828524476",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 589f89b1522512b4c9561435d7810f5e, type: 2}",
+          "after": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114518489005915545",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor",
+          "before": "{r: 0.56078434, g: 0.36078432, b: 0.23137255, a: 1}",
+          "after": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114518489005915545",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor32.rgba",
+          "before": "4282080399",
+          "after": "4286402327"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114726790013014859",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 589f89b1522512b4c9561435d7810f5e, type: 2}",
+          "after": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114801075752484240",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor",
+          "before": "{r: 0.56078434, g: 0.36078432, b: 0.23137255, a: 1}",
+          "after": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114801075752484240",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor32.rgba",
+          "before": "4282080399",
+          "after": "4286402327"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/prefab/NewPlayerGuider.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "09707E7DAEFB1FDA7DEA9FAECF187EDDF28EC495F046F3DBA7EBC32FA5CF8BC8",
+      "afterSha256": "F67A6166D1B36E600BE623F791FC890F23904819F9903C10F9C6AE4496712558",
+      "beforeImmutableSha256": "962D0E9256357B5756DC03DEB0D6AF20A4D08E7D082AECB26E67037A1962F363",
+      "afterImmutableSha256": "962D0E9256357B5756DC03DEB0D6AF20A4D08E7D082AECB26E67037A1962F363",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 47,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 10
+      },
+      "afterCounts": {
+        "objects": 47,
+        "gameObjects": 12,
+        "rectTransforms": 12,
+        "monoBehaviours": 10
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "114518489005915545",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor",
+          "before": "{r: 1, g: 1, b: 1, a: 1}",
+          "after": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114518489005915545",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor32.rgba",
+          "before": "4294967295",
+          "after": "4286402327"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114808113985169905",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: e2e20305f23a0cc4bb15d007485729ef, type: 2}",
+          "after": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/globalui/GlobalText.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "7D7126FAD4726E1EDF75D23566F91BEF4B775AD82C3F1F1DDF6977FD7F03C98A",
+      "afterSha256": "CCEA0F39BA7FEDC4F487CC88ED21BAF5BEBDC038A57404F4B97ED1BAFD7436CB",
+      "beforeImmutableSha256": "41BBB9033036D6FDB0211B1C79E4BD9B71858A59B6AC981CF9B4496FD159B3FC",
+      "afterImmutableSha256": "41BBB9033036D6FDB0211B1C79E4BD9B71858A59B6AC981CF9B4496FD159B3FC",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 13,
+        "gameObjects": 3,
+        "rectTransforms": 3,
+        "monoBehaviours": 2
+      },
+      "afterCounts": {
+        "objects": 13,
+        "gameObjects": 3,
+        "rectTransforms": 3,
+        "monoBehaviours": 2
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "114587765826080250",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 82e5cba4ca4650647b0b32b824d32a59, type: 2}",
+          "after": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114589667821646929",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor",
+          "before": "{r: 0.56078434, g: 0.36078432, b: 0.23137255, a: 1}",
+          "after": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114589667821646929",
+          "scriptGuid": "3f8a1c2b9d4e5f60718293a4b5c6d7e8",
+          "property": "m_fontColor32.rgba",
+          "before": "4282080399",
+          "after": "4286402327"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab",
+      "passed": true,
+      "byteIdentical": false,
+      "beforeSha256": "7A1318058D1B7A31E9152588D9BA4D37DD91419A8ABEAD34A5EE4CB12C418855",
+      "afterSha256": "4ED8FFD800507EED686D005EBBD9AA167E52EA50353D91C1E42B87ED77C98776",
+      "beforeImmutableSha256": "AC40D77D60FA73494E3AFCB50505890F6BE98A1A1375EE6D4865A22B503B4830",
+      "afterImmutableSha256": "AC40D77D60FA73494E3AFCB50505890F6BE98A1A1375EE6D4865A22B503B4830",
+      "allNonArtBytesUnchanged": true,
+      "objectIdsTypesAndOrderUnchanged": true,
+      "beforeCounts": {
+        "objects": 174,
+        "gameObjects": 38,
+        "rectTransforms": 38,
+        "monoBehaviours": 41
+      },
+      "afterCounts": {
+        "objects": 174,
+        "gameObjects": 38,
+        "rectTransforms": 38,
+        "monoBehaviours": 41
+      },
+      "allowedVisualChanges": [
+        {
+          "classID": "114",
+          "componentFileID": "114017892387517381",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 6686487c15290af4da4f2307d0ab748b, type: 2}",
+          "after": "{fileID: -1142528992, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114708180620337799",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 9141073668d650a4786a5cecb0c27e72, type: 2}",
+          "after": "{fileID: -1142528992, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "classID": "114",
+          "componentFileID": "114967328832014496",
+          "scriptGuid": "fe87c0e1cc204ed48ad3b37840f39efc",
+          "property": "m_Sprite",
+          "before": "{fileID: 21300000, guid: 6164c08afb70aa04e9115b3c10bf740d, type: 2}",
+          "after": "{fileID: -396990571, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        }
+      ],
+      "forbiddenDiff": [],
+      "forbiddenDiffMayBeTruncated": false
+    }
+  ],
+  "prefabMetaFiles": [
+    {
+      "path": "Assets/BizzaWZ/Common/UI/GamePanel/UIPropEntry.prefab.meta",
+      "passed": true,
+      "beforeSha256": "516F116A05BFB4D27F7D3D143B469E90309B29717B69FA6706860B5B99BAB78F",
+      "afterSha256": "516F116A05BFB4D27F7D3D143B469E90309B29717B69FA6706860B5B99BAB78F"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab.meta",
+      "passed": true,
+      "beforeSha256": "44223451175DB9655A0C0429C540A83C59CBE45F431E3D5DBD0F9E2FB51B5876",
+      "afterSha256": "44223451175DB9655A0C0429C540A83C59CBE45F431E3D5DBD0F9E2FB51B5876"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UiPrefab/SlotMachineGroup.prefab.meta",
+      "passed": true,
+      "beforeSha256": "6754CFA5F2C09078D099B6819D6B87A91AC2D3470F50D8A3FF24620C1AD2AB6B",
+      "afterSha256": "6754CFA5F2C09078D099B6819D6B87A91AC2D3470F50D8A3FF24620C1AD2AB6B"
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab.meta",
+      "passed": true,
+      "beforeSha256": "47AD5C3B736CAEB399EA48DF4A21F121C1540BE28503DA93CB1011DC9BF379F1",
+      "afterSha256": "47AD5C3B736CAEB399EA48DF4A21F121C1540BE28503DA93CB1011DC9BF379F1"
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/prefab/DangerousTip.prefab.meta",
+      "passed": true,
+      "beforeSha256": "734B38D35DB68575D19B5C7C26DF71AE430E07123E5AB17FAB7336192F3424D2",
+      "afterSha256": "734B38D35DB68575D19B5C7C26DF71AE430E07123E5AB17FAB7336192F3424D2"
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/prefab/NewPlayerGuider.prefab.meta",
+      "passed": true,
+      "beforeSha256": "12216A1D9012C6186CE26F7489F9962C95F6EEBD47987E250FFBDBF592B2FE19",
+      "afterSha256": "12216A1D9012C6186CE26F7489F9962C95F6EEBD47987E250FFBDBF592B2FE19"
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/globalui/GlobalText.prefab.meta",
+      "passed": true,
+      "beforeSha256": "F735B45FB76F22112C05D45E44321266B2523AAF5FD4DA7BE2BB141F7ABA9D04",
+      "afterSha256": "F735B45FB76F22112C05D45E44321266B2523AAF5FD4DA7BE2BB141F7ABA9D04"
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab.meta",
+      "passed": true,
+      "beforeSha256": "3DC1BA9615F190B841DEB8278406D85CAC8016D9F6A90F0A9BFEF096275B3AF4",
+      "afterSha256": "3DC1BA9615F190B841DEB8278406D85CAC8016D9F6A90F0A9BFEF096275B3AF4"
+    }
+  ],
+  "code": {
+    "passed": true,
+    "baselineCount": 1358,
+    "currentCount": 1358,
+    "unchangedCount": 1358,
+    "changedOrMissing": [],
+    "added": []
+  }
+}

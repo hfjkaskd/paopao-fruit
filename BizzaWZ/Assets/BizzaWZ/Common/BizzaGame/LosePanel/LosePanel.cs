@@ -42,9 +42,15 @@ public class LosePanel : UIPageBase<LoseReason, LevelInfo>
 
     private LoseReason loseReason;
     private LevelInfo levelInfo;
+    private int openVersion;
+    private bool isOpen;
+    private bool rewardPending;
 
     protected override void OnClose()
     {
+        isOpen = false;
+        rewardPending = false;
+        openVersion++;
         if (reviveButton != null)
         {
             reviveButton.onClick.RemoveListener(OnClickReviveButton);
@@ -63,6 +69,9 @@ public class LosePanel : UIPageBase<LoseReason, LevelInfo>
 
     protected override void OnOpen(LoseReason loseReason, LevelInfo levelInfo)
     {
+        isOpen = true;
+        rewardPending = false;
+        openVersion++;
         this.loseReason = loseReason;
         this.levelInfo = levelInfo;
         if (reviveButton != null)
@@ -86,8 +95,16 @@ public class LosePanel : UIPageBase<LoseReason, LevelInfo>
 
     private void OnClickReviveButton()
     {
+        if (!isOpen || rewardPending || SaveDataUtils.GameData.currentReviveCount >= BridgingUtil.MAX_REVIVE_COUNT) return;
+        rewardPending = true;
+        int version = openVersion;
         #if BIZZA_REAL_WITHDRAW
-        BizzaSdk.Ad.ShowRewardAd(E_AdPos.Revive.ToString(), WithdrawalUtil.GetDollarCountBtFree(), (a) => FlowModule.OnReviveResult(a.success, loseReason, levelInfo));
+        BizzaSdk.Ad.ShowRewardAd("Revive", WithdrawalUtil.GetDollarCountBtFree(), a =>
+        {
+            if (!isOpen || !rewardPending || version != openVersion) return;
+            rewardPending = false;
+            FlowModule.OnReviveResult(a.success, loseReason, levelInfo);
+        });
         #else
         FlowModule.OnReviveResult(true, loseReason, levelInfo);
         #endif

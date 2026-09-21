@@ -1,0 +1,119 @@
+playing=True compiling=False
+screen=1080x1920 block=False ready=False
+inputLock=False mouse=(923.41, 825.85, 0.00)
+pointerHit=PageMask canvas=0 module=GameCanvas handler=PageMask
+pointerHit=PageMask canvas=0 module=GameCanvas handler=PageMask
+pointerHit=Game canvas=-1000 module=CorePlayUI handler=none
+matchRewardProgress=0 threshold=4 interProgress=1 interThreshold=3
+level=6 guideReady=True guideEnd=True revive=0
+canvas=CorePlayUI order=-1000 override=True
+canvas=Layer order=-989 override=True
+canvas=AddOne order=-989 override=True
+canvas=Box_Root order=-990 override=True
+canvas=Magic order=-980 override=True
+canvas=Map order=-1000 override=False
+canvas=GameUiWidget(Clone) order=0 override=False
+canvas=GlobalUI order=-500 override=True
+canvas=RealGamePanel(Clone) order=0 override=False
+canvas=PortraitKeyboardCanvas(Clone) order=100 override=False
+canvas=Reward Collect Flow order=0 override=False
+canvas=GameCanvas order=0 override=False
+disabledGroup=HarvestRoot(Clone) parent=Content block=True alpha=1
+disabledGroup=GameObject parent=RealGamePanel(Clone) block=False alpha=0
+text=ProgressHint: Ganhe mais <color=#FFFF00>R$674,74</color> para sacar <color=#FFFF00>R$800</color>
+text=Hint: Extras
+text=EValue: +5%
+text=Hint: Extras
+text=SValue: +0%
+text=ProgressValue: 3/10
+text=ProgressHint: Assista a vídeos para aumentar as recompensas
+text=Text (TMP): 22.98
+text=Text (TMP): 1000
+text=Text (TMP): <u><color=white> <sprite=3> R$11.49</color></u>
+text=Text (TMP): Resgatar×2
+text=Text (TMP): Parabéns
+text=Text (TMP) (1): Nível 5
+text=ProgressHint: Ganhe mais <color=#FFFF00>R$674,74</color> para sacar <color=#FFFF00>R$800</color>
+text=Hint: Extras
+text=EValue: +5%
+text=Hint: Extras
+text=SValue: +0%
+text=ProgressValue: 3/10
+text=ProgressHint: Assista a vídeos para aumentar as recompensas
+text=Text (TMP): 9.97
+text=Text (TMP): 1000
+text=Text (TMP): Não, obrigado
+text=Text (TMP): Resgatar
+text=Text (TMP): Parabéns
+text=Text: 1
+text=Num: 1
+text=Num: 1
+text=Num: 1
+text=Text (TMP): 5/5
+text=Text (TMP): Retirar
+text=DollarText: 125.26
+text=DollarAddText: +12.81
+text=Text (TMP): R$0,00
+text=Text (TMP) (1): ≈
+text=DollarAddText (1): +0.02
+text=GoldText: 0,06
+text=Text (TMP): 5
+button=NoThank interactable=True screen=(540.00, 698.03)
+button=Button interactable=True screen=(540.00, 810.85)
+button=PageMask interactable=True screen=(540.00, 960.00)
+button=NoThank interactable=True screen=(540.00, 698.03)
+button=Button interactable=True screen=(540.00, 807.36)
+button=PageMask interactable=True screen=(540.00, 960.00)
+button=AddOne interactable=True screen=(890.64, 325.42)
+button=Undo interactable=True screen=(326.85, 101.69)
+button=Magic interactable=True screen=(540.00, 101.69)
+button=Shuffle interactable=True screen=(753.15, 101.69)
+button=BtnFlowTreature interactable=True screen=(833.64, 1654.30)
+button=SlotEnter interactable=True screen=(39.05, 118.78)
+button=DailyMission interactable=True screen=(976.20, 1606.78)
+button=PauseButton interactable=True screen=(893.08, 1825.63)
+button=FakeBtn interactable=True screen=(760.57, 1823.84)
+button=RealBtn interactable=True screen=(374.20, 1824.41)
+button=CharacterButton(Clone) interactable=True screen=(859.30, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(752.87, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(646.43, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(540.00, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(433.57, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(327.13, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(220.70, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(965.74, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(859.30, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(752.87, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(646.43, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(540.00, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(433.57, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(327.13, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(220.70, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(114.26, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(1018.95, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(912.52, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(806.09, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(699.65, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(593.22, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(486.78, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(380.35, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(273.91, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(167.48, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(61.05, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(1018.80, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(912.40, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(806.00, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(699.60, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(593.20, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(486.80, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(380.40, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(274.00, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(167.60, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(61.20, -68.00)
+button=DoneButton interactable=True screen=(1064.17, -548.02)
+button=DotButton interactable=True screen=(859.30, -548.02)
+button=SpaceButton interactable=True screen=(540.00, -548.02)
+button=CommaButton interactable=True screen=(220.70, -548.02)
+button=SymbolsButton interactable=True screen=(15.83, -548.02)
+button=BackspaceButton interactable=True screen=(1064.17, -428.02)
+button=ShiftButton interactable=True screen=(15.83, -428.02)

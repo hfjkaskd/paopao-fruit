@@ -1,0 +1,751 @@
+{
+    "generatedUtc": "2026-09-17T11:14:19.4657754Z",
+    "kind": "STATIC PREFAB PREVIEW — serialized defaults only; business scripts and animations disabled. Not a runtime or account-flow verification.",
+    "width": 1080,
+    "height": 1920,
+    "pages": [
+        {
+            "prefab": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\01-LosePanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 13,
+            "activeGraphics": 17,
+            "nonUniformPixelSamples": 1536,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=17, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/BizzaGame/WhiteWinPanel/WhiteWinPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\02-WhiteWinPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 6,
+            "nonUniformPixelSamples": 1148,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=6, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/Framework/Runtime/Module/UI/UIItem.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\03-UIItem.png",
+            "error": "",
+            "disabledBusinessBehaviours": 2,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 4114,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/Block/TransitionBlock.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\04-TransitionBlock.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 2,
+            "nonUniformPixelSamples": 68,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=2, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\05-LoadingPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 12,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/RedPoint/Pf/UIRedPoint.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\06-UIRedPoint.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 1,
+            "nonUniformPixelSamples": 3,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=1, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/UICommons/BG.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\07-BG.png",
+            "error": "",
+            "disabledBusinessBehaviours": 3,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 4116,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/UI/GamePanel/RealGamePanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\08-RealGamePanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 5,
+            "activeGraphics": 3,
+            "nonUniformPixelSamples": 454,
+            "revealedContainers": [
+                "RealGamePanel[0]/GameObject[2] (CanvasGroup alpha)"
+            ],
+            "notes": [
+                "Render diagnostics: activeGraphics=3, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/UI/GamePanel/UIPropEntry.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\09-UIPropEntry.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 10,
+            "nonUniformPixelSamples": 55,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=10, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\10-PausePanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 12,
+            "activeGraphics": 30,
+            "nonUniformPixelSamples": 1730,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=30, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachFingerMovePage.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\11-UITeachFingerMovePage.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 1,
+            "nonUniformPixelSamples": 22,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=1, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachMaskFocusPage.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\12-UITeachMaskFocusPage.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 3,
+            "nonUniformPixelSamples": 4078,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=3, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachMaskPage.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\13-UITeachMaskPage.png",
+            "error": "",
+            "disabledBusinessBehaviours": 2,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 4083,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachTipsPage.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\14-UITeachTipsPage.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 3,
+            "nonUniformPixelSamples": 326,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=3, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\15-CommonConfirmTipsPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 6,
+            "activeGraphics": 13,
+            "nonUniformPixelSamples": 1950,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=13, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\16-CurrencyBar.png",
+            "error": "",
+            "disabledBusinessBehaviours": 7,
+            "activeGraphics": 23,
+            "nonUniformPixelSamples": 268,
+            "revealedContainers": [
+                "CurrencyBar[0]/CurrentGroup[1]/DollarGroup[1]/Panel[0] (inactive content container)"
+            ],
+            "notes": [
+                "Render diagnostics: activeGraphics=23, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIActivityTaskElement.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\17-UIActivityTaskElement.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 31,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskElement.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\18-UIDailyTaskElement.png",
+            "error": "",
+            "disabledBusinessBehaviours": 7,
+            "activeGraphics": 13,
+            "nonUniformPixelSamples": 4114,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=13, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\19-UIDailyTaskPage.png",
+            "error": "",
+            "disabledBusinessBehaviours": 24,
+            "activeGraphics": 23,
+            "nonUniformPixelSamples": 2554,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=23, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/UITips/Resources/BroadCastBar.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\20-BroadCastBar.png",
+            "error": "",
+            "disabledBusinessBehaviours": 4,
+            "activeGraphics": 8,
+            "nonUniformPixelSamples": 766,
+            "revealedContainers": [
+                "BroadCastBar[0] (CanvasGroup alpha)"
+            ],
+            "notes": [
+                "Render diagnostics: activeGraphics=8, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\21-AddPropPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 10,
+            "activeGraphics": 18,
+            "nonUniformPixelSamples": 1898,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=18, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/BadgeAndDaily/ItemForCountry.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\22-ItemForCountry.png",
+            "error": "",
+            "disabledBusinessBehaviours": 2,
+            "activeGraphics": 3,
+            "nonUniformPixelSamples": 82,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=3, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\23-DailyMissionPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 13,
+            "activeGraphics": 18,
+            "nonUniformPixelSamples": 2434,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=18, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\24-DailyWithdrawPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 12,
+            "activeGraphics": 19,
+            "nonUniformPixelSamples": 2401,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=19, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\25-ExchangeRatePanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 13,
+            "activeGraphics": 26,
+            "nonUniformPixelSamples": 2188,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=26, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/FAQPanel/FAQPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\26-FAQPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 13,
+            "activeGraphics": 17,
+            "nonUniformPixelSamples": 2734,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=17, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\27-FakeWithdrawPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 42,
+            "activeGraphics": 68,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=68, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\28-WithdrawAmountItem.png",
+            "error": "",
+            "disabledBusinessBehaviours": 3,
+            "activeGraphics": 7,
+            "nonUniformPixelSamples": 108,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=7, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\29-GameUiWidget.png",
+            "error": "",
+            "disabledBusinessBehaviours": 17,
+            "activeGraphics": 34,
+            "nonUniformPixelSamples": 408,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=34, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/GamePanel/UIBizzaAAA.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\30-UIBizzaAAA.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 3,
+            "nonUniformPixelSamples": 61,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=3, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\31-GetRewardPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 32,
+            "activeGraphics": 50,
+            "nonUniformPixelSamples": 1737,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=50, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/Real_WithdrawProgress/Real_WithdrawProgress.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\32-Real_WithdrawProgress.png",
+            "error": "",
+            "disabledBusinessBehaviours": 2,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 113,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\33-NewbieGiftPage.png",
+            "error": "",
+            "disabledBusinessBehaviours": 11,
+            "activeGraphics": 13,
+            "nonUniformPixelSamples": 1890,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=13, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/BonusRate.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\34-BonusRate.png",
+            "error": "",
+            "disabledBusinessBehaviours": 3,
+            "activeGraphics": 4,
+            "nonUniformPixelSamples": 37,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=4, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/DailyBonus.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\35-DailyBonus.png",
+            "error": "",
+            "disabledBusinessBehaviours": 8,
+            "activeGraphics": 23,
+            "nonUniformPixelSamples": 4004,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=23, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/DailyBonusItem.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\36-DailyBonusItem.png",
+            "error": "",
+            "disabledBusinessBehaviours": 4,
+            "activeGraphics": 14,
+            "nonUniformPixelSamples": 4120,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=14, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\37-RealWithdrawPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 56,
+            "activeGraphics": 85,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=85, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawInfo.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\38-WithdrawInfo.png",
+            "error": "",
+            "disabledBusinessBehaviours": 5,
+            "activeGraphics": 30,
+            "nonUniformPixelSamples": 2596,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=30, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawLevel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\39-WithdrawLevel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 6,
+            "activeGraphics": 15,
+            "nonUniformPixelSamples": 4079,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=15, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawLevelItem.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\40-WithdrawLevelItem.png",
+            "error": "",
+            "disabledBusinessBehaviours": 3,
+            "activeGraphics": 7,
+            "nonUniformPixelSamples": 4116,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=7, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawWay.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\41-WithdrawWay.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ChatElement.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\42-ChatElement.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 4,
+            "nonUniformPixelSamples": 127,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=4, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServiceBtn.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\43-ServiceBtn.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 2,
+            "nonUniformPixelSamples": 1768,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=2, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\44-ServicePanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 20,
+            "activeGraphics": 17,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=17, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/ServiceSelectPanel/ServiceSelectPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\45-ServiceSelectPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 12,
+            "activeGraphics": 20,
+            "nonUniformPixelSamples": 2464,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=20, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\46-SlotEnter.png",
+            "error": "",
+            "disabledBusinessBehaviours": 2,
+            "activeGraphics": 5,
+            "nonUniformPixelSamples": 96,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=5, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\47-SlotFQAPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 46,
+            "activeGraphics": 89,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=89, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\48-SlotPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 22,
+            "activeGraphics": 40,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [
+                "SlotPanel[0]/Content[3]/SlotMachineGroup[0]/Content[3]/SkeletonGraphic (01LHJ)[0] (CanvasGroup alpha)"
+            ],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=40, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\49-StarRatingPopup.png",
+            "error": "",
+            "disabledBusinessBehaviours": 6,
+            "activeGraphics": 19,
+            "nonUniformPixelSamples": 1882,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=19, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\50-UIWithdrawalConfirmPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 12,
+            "activeGraphics": 18,
+            "nonUniformPixelSamples": 2179,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=18, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\51-UIWithdrawalPendingPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 5,
+            "activeGraphics": 13,
+            "nonUniformPixelSamples": 2179,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=13, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanItem.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\52-WithdrawDanItem.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 10,
+            "nonUniformPixelSamples": 4114,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=10, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\53-WithdrawDanPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 11,
+            "activeGraphics": 25,
+            "nonUniformPixelSamples": 4122,
+            "revealedContainers": [],
+            "notes": [
+                "PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.",
+                "Render diagnostics: activeGraphics=25, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\54-WithdrawFillPanel.png",
+            "error": "",
+            "disabledBusinessBehaviours": 41,
+            "activeGraphics": 41,
+            "nonUniformPixelSamples": 2765,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=41, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\55-WithdrawHistory.png",
+            "error": "",
+            "disabledBusinessBehaviours": 12,
+            "activeGraphics": 65,
+            "nonUniformPixelSamples": 2390,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=65, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        },
+        {
+            "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistoryItem.prefab",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\Previews\\56-WithdrawHistoryItem.png",
+            "error": "",
+            "disabledBusinessBehaviours": 1,
+            "activeGraphics": 14,
+            "nonUniformPixelSamples": 4114,
+            "revealedContainers": [],
+            "notes": [
+                "Render diagnostics: activeGraphics=14, canvasRect=(x:-540.00, y:-960.00, width:1080.00, height:1920.00), cameraScene=, cullingMask=1",
+                "Serialized text and imagery only. Runtime data binding, localization changes, gameplay state and page transitions are not exercised."
+            ]
+        }
+    ]
+}

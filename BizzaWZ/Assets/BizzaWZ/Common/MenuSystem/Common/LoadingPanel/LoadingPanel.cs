@@ -10,14 +10,18 @@ public class LoadingPanel : UIPageBase
     public TMP_Text progressTxt;
     public RectTransform busRect;
     public GameObject CameraObj;
+    public CommonProgressBar harvestProgress;
+    public OrchardLoadingArt loadingArtwork;
 
     private readonly Vector3[] _progressBarWorldCorners = new Vector3[4];
 
     void OnLoadingProgress(float progress)
     {
         progress = Mathf.Clamp01(progress);
-        progressBar.fillAmount = progress;
-        progressTxt.text = Mathf.RoundToInt((progress * 100)) + "%";
+        if (harvestProgress != null) harvestProgress.SetStartProgress(progress);
+        if (progressBar != null) progressBar.fillAmount = progress;
+        if (loadingArtwork != null) loadingArtwork.SetProgress(progress);
+        if (progressTxt != null) progressTxt.text = Mathf.RoundToInt((progress * 100)) + "%";
         UpdateBusPosition(progress);
     }
 

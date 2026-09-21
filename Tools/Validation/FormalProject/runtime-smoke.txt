@@ -1,0 +1,6 @@
+playing=True compiling=False
+screen=1080x1920 block=False ready=True
+canvas=GameUiWidget(Clone) order=0 override=False
+canvas=RealGamePanel(Clone) order=0 override=False
+button=FakeBtn interactable=True screen=(760.57, 1823.84)
+button=RealBtn interactable=True screen=(374.20, 1824.41)

@@ -1,0 +1,52 @@
+{
+  "reviewType": "Independent static review; no Unity execution",
+  "reviewedUtc": "2026-09-18T12:12:06.259541+00:00",
+  "result": "PASS",
+  "checks": {
+    "existing_object_ids_retained": true,
+    "game_objects_before": 38,
+    "game_objects_after": 38,
+    "added_object_ids": [
+      "114918202609180001",
+      "114918202609180002",
+      "222918202609180001"
+    ],
+    "hierarchy_fields_unchanged": true,
+    "existing_asset_and_local_refs_unchanged": true,
+    "game_object_active_flags_unchanged": true,
+    "animation_components_unchanged": true,
+    "gameplay_script_bytes_unchanged": {
+      "Assets/FruitsHarvest/Scripts/NewItemPop.cs": true,
+      "Assets/FruitsHarvest/Scripts/MgrUI.cs": true
+    },
+    "newitempop_script_serialized_block_unchanged": true,
+    "title_components_on_existing_title": true,
+    "title_localization": true,
+    "continue_localization_enabled": true,
+    "continue_text_enabled": true,
+    "single_green_face_enabled": true,
+    "shade_unchanged": true,
+    "widget_canvas_only_two_fields_changed": true,
+    "title_material_matches_font_atlas": true,
+    "disabled_components_not_reenabled_by_animation": true,
+    "new_guid_refs_all_resolve": true
+  },
+  "newReferenceAssets": {
+    "5ebd41d56b09f8545a7500763f8239d2": "Assets/OrchardUI/Generated/05f05f2053e2fef4d92a08aa0d1478de-Title.mat",
+    "9984842642d93d9132e26b28beb7ab0e": "Assets/FruitsHarvest/Scripts/MultipleLanguage/TextNeedLocalization.cs",
+    "3f8a1c2b9d4e5f60718293a4b5c6d7e8": "Assets/FruitsHarvest/Scripts/TMPro/TextMeshProCustom.cs",
+    "05f05f2053e2fef4d92a08aa0d1478de": "Assets/FruitsHarvest/Resources/Original/res/local/textmeshpro/resources/fonts & materials/802-CAI978 SDF.asset"
+  },
+  "issues": [],
+  "notes": [
+    "38 existing GameObjects and all existing components retained. Three display/localization components added to existing Title node only.",
+    "Active common_continue Text is a descendant of disabled duplicate text component. Disabling a Component does not deactivate its GameObject or descendants. All activeSelf flags and hierarchy refs are unchanged.",
+    "Widget order -700 < NewItemPop -600 < GlobalUI -500 < InputMask -400 < Framework popup/Teach0. Existing shade raycastTarget is enabled.",
+    "No code binding, reward, claim, unlock persistence, movement or animation clips changed. Title glyph layout and visual style require root Unity static rendering verification."
+  ],
+  "sha256": {
+    "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab": "5515c329d784bfda62df045fc7b26c177d9a2924ecc8f23bea1205a51fd00905",
+    "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab": "716402881b09ef984f911c14804bda777981c768679d49e5f9ec6c74901ca466",
+    "Assets/FruitsHarvest/Editor/HarvestSetup.cs": "1f8942499d6a1533b6141c63c1ce5422d6c4eb7c73c79db6f8f8d446b70c1a37"
+  }
+}

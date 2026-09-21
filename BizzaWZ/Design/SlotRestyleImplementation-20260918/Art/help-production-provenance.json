@@ -1,0 +1,49 @@
+{
+  "mode": "built-in imagegen",
+  "reference": "C:/Users/pc/AppData/Local/Temp/codex-clipboard-86c31715-d8a5-4d4a-b67a-bcc9ee505057.png",
+  "promptFile": "help-production-prompts.json",
+  "assets": [
+    {
+      "output": "SlotEmeraldHelpBody.png",
+      "source": "C:/Users/pc/.codex/generated_images/01a0b35a-4b5e-73a3-88c0-e3fa3e5ccff7/exec-9af79d7b-3b64-4134-852b-6a854cbb72ce.png",
+      "size": [
+        998,
+        1575
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alpha64Bounds": [
+        7,
+        2,
+        992,
+        1534
+      ],
+      "notes": "No dynamic symbols or text. Body front quiet green. Base and two small feet are complete. Top can be overlaid by separate crown."
+    },
+    {
+      "output": "SlotEmeraldMarquee.png",
+      "source": "C:/Users/pc/.codex/generated_images/01a0b35a-4b5e-73a3-88c0-e3fa3e5ccff7/exec-069e5911-370e-402d-873c-c5423d60883b.png",
+      "size": [
+        1596,
+        985
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alpha64Bounds": [
+        5,
+        20,
+        1591,
+        920
+      ],
+      "notes": "Tighter V2 selected. Around 2% top and 6.6% bottom transparent area. Subject fills width. Some small alpha edge fringes. Original V1 had significant vertical padding and was not selected.",
+      "revisionPrompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET production transparent arched slot-machine crown. Keep the same honeywood, emerald enamel, brass fascia, single gold star, two green leaves, nine warm bulbs. This is a geometry/framing fix ONLY. Regenerate this same artwork as a tightly framed transparent PNG sprite with width:height 994:614 (about 1.619). The top wood arch must touch y=2% of canvas, bottom edge of flat brass fascia must end at y=98% canvas; side posts must touch x=1% and 99%. Make the arch proportionately taller so it fills the requested taller rectangle. Absolutely no 10% top/bottom transparent margins. Keep complete silhouette with 1% padding only. Symmetric flat front view, exactly the same detailed painted cartoon materials. Actual transparent background alpha outside the silhouette. No text, no body, no landscape, no UI, no new items. Return only this ONE standalone crown sprite, no explanations."
+    }
+  ],
+  "validation": "Opened and visually inspected both final PNGs. Read alpha metadata with Pillow only; no pixel editing. Copies are unmodified generated files. No Assets, Prefab, C#, or Unity edits performed by help art subagent."
+}

@@ -1,0 +1,148 @@
+{
+  "status": "Passed",
+  "game_type": "真假混",
+  "rows": [
+    {
+      "raw": "目标 Unity 工程路径",
+      "normalized": "目标 Unity 工程路径",
+      "target": "AGENTS.md / 实际 Unity 根目录",
+      "before": "C:\\Projects\\paopao",
+      "after": "C:\\Projects\\paopao\\BizzaWZ",
+      "status": "Verified"
+    },
+    {
+      "raw": "游戏类型",
+      "normalized": "游戏类型",
+      "target": "ChannelConfig.incomeRate",
+      "before": 1,
+      "after": 1,
+      "status": "Verified"
+    },
+    {
+      "raw": "默认国家",
+      "normalized": "默认国家",
+      "target": "ChannelConfig.real_CustomConfig.DefaultCountry",
+      "before": "None (0)",
+      "after": "None (0)",
+      "status": "Skipped: blank input; old value preserved"
+    },
+    {
+      "raw": "国家",
+      "normalized": "国家",
+      "target": "ChannelConfig.real_CustomConfig.Country",
+      "before": "None (0)",
+      "after": "None (0)",
+      "status": "Verified"
+    },
+    {
+      "raw": "应用名称",
+      "normalized": "应用名称",
+      "target": "ProjectSettings.productName",
+      "before": "Bubblosaic: Picture Merge",
+      "after": "Bubblosaic: Picture Merge",
+      "status": "Verified"
+    },
+    {
+      "raw": "应用ID",
+      "normalized": "AppId",
+      "target": "ChannelConfig.AppId",
+      "before": "bubblosaicpmge",
+      "after": "bubblosaicpmge",
+      "status": "Verified"
+    },
+    {
+      "raw": "包名",
+      "normalized": "Android 包名",
+      "target": "ProjectSettings.applicationIdentifier.Android",
+      "before": "com.webpack.picturemerge",
+      "after": "com.webpack.picturemerge",
+      "status": "Verified"
+    },
+    {
+      "raw": "密钥",
+      "normalized": "接口密钥",
+      "target": "ChannelConfig.httpConfig.aes_key",
+      "before": "[已隐藏，14字符]",
+      "after": "[已隐藏，逐字核验通过]",
+      "status": "Verified"
+    },
+    {
+      "raw": "接口文档标签",
+      "normalized": "接口文档标签",
+      "target": "精确匹配本地 Swagger Tag",
+      "before": "FruitTileMatch",
+      "after": "FruitTileMatch",
+      "status": "Verified"
+    },
+    {
+      "raw": "接口域名地址",
+      "normalized": "接口域名地址",
+      "target": "ChannelConfig.httpConfig.domain",
+      "before": "https://app.fruittile.xin",
+      "after": "https://app.fruittile.xin",
+      "status": "Verified"
+    },
+    {
+      "raw": "Adjust 应用识别码",
+      "normalized": "Adjust 应用识别码",
+      "target": "ChannelConfig.adjustKey",
+      "before": "2zov4dn3gsu8",
+      "after": "2zov4dn3gsu8",
+      "status": "Verified"
+    },
+    {
+      "raw": "MAX 激励广告 ID",
+      "normalized": "MAX 激励广告 ID",
+      "target": "ChannelConfig.sourceAds[Max].rewardAdId",
+      "before": "ddef1150f706c39f",
+      "after": "ddef1150f706c39f",
+      "status": "Verified"
+    },
+    {
+      "raw": "MAX 插屏广告 ID",
+      "normalized": "MAX 插屏广告 ID",
+      "target": "ChannelConfig.sourceAds[Max].interAdId",
+      "before": "3f64a45c4db0eb7a",
+      "after": "3f64a45c4db0eb7a",
+      "status": "Verified"
+    },
+    {
+      "raw": "MAX 横幅广告 ID",
+      "normalized": "MAX 横幅广告 ID",
+      "target": "ChannelConfig.sourceAds[Max].bannerAdId",
+      "before": "(空)",
+      "after": "(空)",
+      "status": "Skipped: blank input; old value preserved"
+    },
+    {
+      "raw": "MAX 开屏广告 ID",
+      "normalized": "MAX 开屏广告 ID",
+      "target": "ChannelConfig.sourceAds[Max].openAdId",
+      "before": "(空)",
+      "after": "(空)",
+      "status": "Skipped: blank input; old value preserved"
+    },
+    {
+      "raw": "AppLovin SDK Key",
+      "normalized": "AppLovin SDK Key",
+      "target": "Assets/MaxSdk/Resources/AppLovinSettings.asset.sdkKey",
+      "before": "[已隐藏]",
+      "after": "[已隐藏，逐字核验通过]",
+      "status": "Verified"
+    },
+    {
+      "raw": "Privacy Policy URL",
+      "normalized": "Privacy Policy URL",
+      "target": "AppLovinInternalSettings.consentFlowPrivacyPolicyUrl；正式 LoadingPanel.prefab",
+      "before": "https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing",
+      "after": "https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing",
+      "status": "Verified"
+    }
+  ],
+  "markdown_escapes_normalized": [
+    "PlayCloud_API",
+    "MergePB@91Saic",
+    "AppLovin SDK Key underscore"
+  ],
+  "app_id_not_adjust": true
+}

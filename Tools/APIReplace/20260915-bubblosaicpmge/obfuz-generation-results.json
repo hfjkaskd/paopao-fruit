@@ -1,0 +1,28 @@
+{
+  "status": "Passed",
+  "unityVersion": "2022.3.62f3",
+  "generator": "Project Obfuz VirtualMachineCodeGenerator.Generate + KeyGenerator.GenerateKey (same calls as ObfuzMenu)",
+  "vmMatchesSettings": true,
+  "staticKeyMatchesSettings": true,
+  "dynamicKeyMatchesSettings": true,
+  "keyLengthBytes": 1024,
+  "prefix": "dqx",
+  "unityChannelConfigRoundtrip": true,
+  "unityOtherSerializedFieldsPreserved": true,
+  "unityBlankParametersPreserved": true,
+  "outputs": [
+    {
+      "path": "Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs",
+      "sha256": "9d0b41353470fd30bcfb3bd02a83db5590824cca6e28354827871daff9191341"
+    },
+    {
+      "path": "Assets/Resources/Obfuz/defaultStaticSecretKey.bytes",
+      "sha256": "afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f"
+    },
+    {
+      "path": "Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes",
+      "sha256": "afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f"
+    }
+  ],
+  "generatedVmCompilation": "Passed; final Unity batch exit 0, runtime and Editor assemblies rebuilt after VM generation and temporary helper removal."
+}

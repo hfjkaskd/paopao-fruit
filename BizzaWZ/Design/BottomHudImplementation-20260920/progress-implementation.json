@@ -1,0 +1,88 @@
+{
+  "assets": [
+    {
+      "name": "BottomHudProgressTrack",
+      "guid": "0fefa62aa60848c0beee55e76911e394",
+      "fileID": 21300000,
+      "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c1ed-0e34-7502-af96-698526ef196f\\exec-667ff323-ac4c-4bb1-a077-fb56fde07cbe.png",
+      "size": [
+        2155,
+        730
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "unitySpriteRect": [
+        50,
+        231,
+        2054,
+        282
+      ],
+      "sourceBytesUnchanged": true
+    },
+    {
+      "name": "BottomHudProgressFill",
+      "guid": "76073845e0d3434c93c8730cdc96a5b4",
+      "fileID": 21300000,
+      "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+      "source": "C:\\Users\\pc\\.codex\\generated_images\\01a0c1ed-0e34-7502-af96-698526ef196f\\exec-52bc8aef-b596-4e11-b21c-4cec136c5d57.png",
+      "size": [
+        1983,
+        793
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "unitySpriteRect": [
+        49,
+        316,
+        1885,
+        161
+      ],
+      "sourceBytesUnchanged": true
+    }
+  ],
+  "files": [
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "beforeSHA256": "3d01dbf5c84e90cd938c2a5df60f1c57cbeb659c6cb91403c6bb9f39370a2bac",
+      "afterSHA256": "2746a248e3d6bc0466b1ac90a45ff4e0976b7b9b2d10baad6522042881fb2c1a"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "beforeSHA256": "716402881b09ef984f911c14804bda777981c768679d49e5f9ec6c74901ca466",
+      "afterSHA256": "f5ca82e7a0d7405105d86d4b59b61a9ab4da24c1a0777e18e286f2554284a488"
+    },
+    {
+      "path": "Assets/OrchardUI/Editor/OrchardServiceRewardPass.cs",
+      "beforeSHA256": "a68872477d6348c7de96900026d386d8177bac20453bbcf64f0df7d144206bd4",
+      "afterSHA256": "1e1c2d5e908c9dd891e54114a5128b9aacee7ff7035902cc345f0e99a45d7fb6"
+    }
+  ],
+  "unchanged": [
+    "All RectTransforms",
+    "777 icon",
+    "All nodes and components",
+    "Button bindings",
+    "SlotEnter runtime formula and economy"
+  ],
+  "rendering": {
+    "track": [
+      224,
+      40
+    ],
+    "fill": [
+      202,
+      24
+    ],
+    "fillType": "Horizontal Filled / Left",
+    "prefabDefault": "0/5 and 0.0",
+    "runtimeOneOfFive": 0.2
+  },
+  "artWorkflow": "Built-in image_gen only, source PNG bytes unchanged, transparent padding excluded by Unity Sprite rect; no raster editing."
+}

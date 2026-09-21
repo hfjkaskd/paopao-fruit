@@ -1,0 +1,65 @@
+{
+  "structuralChecks": [
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "objectsUnchanged": 29,
+      "nodeCount": 8,
+      "allRectsAndHierarchyUnchanged": true,
+      "changedObjects": [
+        {
+          "class": 114,
+          "fileID": "5078707581075184592"
+        },
+        {
+          "class": 114,
+          "fileID": "2597468376317513793"
+        },
+        {
+          "class": 114,
+          "fileID": "7786913375694585872"
+        }
+      ],
+      "bindingAnd777IconUnchanged": true,
+      "fillType": "Horizontal Filled from Left",
+      "defaultProgress": "0/5 matches 0.0"
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "objectsUnchanged": 65,
+      "nodeCount": 12,
+      "allRectsAndHierarchyUnchanged": true,
+      "changedObjects": [
+        {
+          "class": 1001,
+          "fileID": "8263945193493257299"
+        }
+      ]
+    }
+  ],
+  "runtimeFormulaRetained": true,
+  "fractions": [
+    {
+      "count": 0,
+      "required": 5,
+      "expectedFill": 0.0
+    },
+    {
+      "count": 1,
+      "required": 5,
+      "expectedFill": 0.2
+    },
+    {
+      "count": 4,
+      "required": 5,
+      "expectedFill": 0.8
+    },
+    {
+      "count": 5,
+      "required": 5,
+      "expectedFill": 1.0
+    }
+  ],
+  "unityRenderPending": false,
+  "note": "Static serialization check only; no Play Mode or advertisement/reward flow executed.",
+  "unityRenderEvidence": "Validation/static-validation.json; Validation/independent-final-review.json"
+}

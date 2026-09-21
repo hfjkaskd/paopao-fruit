@@ -1,0 +1,918 @@
+{
+    "kind": "PREFAB STATIC PREVIEW WITH SAMPLE VALUES — NOT UNITY RUNTIME OR REAL ACCOUNT DATA",
+    "generatedUtc": "2026-09-18T10:42:42.7952863Z",
+    "screenshot": "C:\\Projects\\paopao\\BizzaWZ\\Design\\WithdrawCashPolish-20260918\\Previews\\first-pass\\static-withdraw-000.png",
+    "error": "",
+    "interpretation": "Actual production GameCanvas and FakeWithdrawPanel, including six existing WithdrawAmountItem instances, rendered in an isolated PreviewScene. Business/localization/animations/audio are disabled before activation. Portuguese text and data are explicit samples on clones. OrchardBackdrop uses its real Sprite through a documented static binding. No account, wallet, ad, withdrawal, save, current UI, Play mode or user scene is touched. Progress mesh bounds describe Unity's native Image geometry, not a hand-drawn simulation.",
+    "width": 1080,
+    "height": 1920,
+    "disabledBusinessBehaviours": 31,
+    "amountItemCount": 6,
+    "visibleGlyphOverflowCount": 0,
+    "nonUniformPixelSamples": 4122,
+    "sampleProgress": 0.0,
+    "canvasPixelScale": 0.8135592937469482,
+    "referenceResolution": {
+        "x": 1080.0,
+        "y": 2360.0
+    },
+    "logicalCanvasSize": {
+        "x": 1327.5,
+        "y": 2360.0
+    },
+    "sampleChanges": [
+        "FakeWithdrawPanel/ButtomGroup/Title = Sacar",
+        "FakeWithdrawPanel/Content/CashBalance/Title = Saldo em Dinheiro",
+        "FakeWithdrawPanel/Content/CashBalance/Balance/Cash = R$200,76",
+        "FakeWithdrawPanel/Content/WithdrawAmount/Title = Selecionar Valor",
+        "FakeWithdrawPanel/Content/WithdrawProgress/Title = Progresso",
+        "FakeWithdrawPanel/Content/WithdrawBtn/Text = Retirar",
+        "FakeWithdrawPanel/Content/HintText = Parabéns, todas as condições foram atendidas",
+        "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real/Text (TMP) = 0.00%",
+        "WithdrawAmountItem (1)/Amount = R$0,01",
+        "WithdrawAmountItem (1)/GetTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (1)/GetedTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (6)/Amount = R$800",
+        "WithdrawAmountItem (6)/GetTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (6)/GetedTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (2)/Amount = R$1.000",
+        "WithdrawAmountItem (2)/GetTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (2)/GetedTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (3)/Amount = R$2.000",
+        "WithdrawAmountItem (3)/GetTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (3)/GetedTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (4)/Amount = R$3.000",
+        "WithdrawAmountItem (4)/GetTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (4)/GetedTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (5)/Amount = R$5.000",
+        "WithdrawAmountItem (5)/GetTag/text = Recompensa para Novos Usuários",
+        "WithdrawAmountItem (5)/GetedTag/text = Recompensa para Novos Usuários",
+        "Existing six items only: first sample selected/new-user tag; other claim/selected tags hidden on clones. No production hierarchy added or removed.",
+        "Static sample hides the existing animated tutorial finger.",
+        "STATIC ONLY: bind Assets/OrchardUI/Resources/OrchardUI/Backdrop.png to existing OrchardBackdrop Image; runtime Resources loading is not exercised."
+    ],
+    "progressImages": [
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/bg",
+            "spriteAsset": "Assets/OrchardUI/Art/HudNaturalCounter.png",
+            "active": true,
+            "enabled": true,
+            "type": 1,
+            "fillMethod": 4,
+            "fillOrigin": 0,
+            "meshVertexCount": 36,
+            "fillAmount": 1.0,
+            "pixelsPerUnitMultiplier": 4.0,
+            "spriteBorder": {
+                "x": 38.044105529785159,
+                "y": 23.309019088745118,
+                "z": 38.044105529785159,
+                "w": 23.309019088745118
+            },
+            "spriteRect": {
+                "serializedVersion": "2",
+                "x": 14.726750373840332,
+                "y": 39.01193618774414,
+                "width": 483.0373840332031,
+                "height": 108.44828033447266
+            },
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 173.89830017089845,
+                "y": 833.0542602539063,
+                "width": 729.7626953125,
+                "height": 39.05084228515625
+            },
+            "renderedMeshBounds": {
+                "serializedVersion": "2",
+                "x": 173.89830017089845,
+                "y": 833.0542602539063,
+                "width": 730.5606689453125,
+                "height": 39.5081787109375
+            },
+            "size": {
+                "x": 897.0,
+                "y": 48.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real",
+            "spriteAsset": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+            "active": true,
+            "enabled": true,
+            "type": 3,
+            "fillMethod": 0,
+            "fillOrigin": 0,
+            "meshVertexCount": 0,
+            "fillAmount": 0.0,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteBorder": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "spriteRect": {
+                "serializedVersion": "2",
+                "x": 9.309090614318848,
+                "y": 244.87696838378907,
+                "width": 1005.3817749023438,
+                "height": 30.827741622924806
+            },
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 186.91526794433595,
+                "y": 837.9356079101563,
+                "width": 703.728759765625,
+                "height": 29.28814697265625
+            },
+            "renderedMeshBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "size": {
+                "x": 865.0,
+                "y": 36.0
+            }
+        }
+    ],
+    "texts": [
+        {
+            "path": "FakeWithdrawPanel/Content/CashBalance/Title",
+            "text": "Saldo em Dinheiro",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 36.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 177.15257263183595,
+                "y": 1504.67236328125,
+                "width": 705.686767578125,
+                "height": 40.6781005859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 176.7664337158203,
+                "y": 1512.59033203125,
+                "width": 255.28440856933595,
+                "height": 24.983642578125
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.386138916015625,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/CashBalance/Balance/Cash",
+            "text": "R$200,76",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 64.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 171.13427734375,
+                "y": 1348.33056640625,
+                "width": 729.5357666015625,
+                "height": 144.6549072265625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 417.8979797363281,
+                "y": 1393.7454833984375,
+                "width": 235.60171508789063,
+                "height": 50.1356201171875
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Title",
+            "text": "Selecionar Valor",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 36.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 177.54518127441407,
+                "y": 1279.28759765625,
+                "width": 709.3753051757813,
+                "height": 40.6781005859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 177.15907287597657,
+                "y": 1287.6285400390625,
+                "width": 233.1038055419922,
+                "height": 24.983642578125
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.3861083984375,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": true,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 195.36402893066407,
+                "y": 1209.928955078125,
+                "width": 192.00001525878907,
+                "height": 35.796630859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 196.95860290527345,
+                "y": 1213.5498046875,
+                "width": 189.00953674316407,
+                "height": 28.053466796875
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetedTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 242.55047607421876,
+                "y": 1223.0067138671875,
+                "width": 162.71185302734376,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Amount",
+            "text": "R$0,01",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 52.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 195.71920776367188,
+                "y": 1107.17626953125,
+                "width": 189.69491577148438,
+                "height": 156.4549560546875
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 222.18243408203126,
+                "y": 1163.537353515625,
+                "width": 135.75634765625,
+                "height": 40.7352294921875
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 440.0013122558594,
+                "y": 1209.928955078125,
+                "width": 192.00003051757813,
+                "height": 35.796630859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetedTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 487.1877746582031,
+                "y": 1223.0067138671875,
+                "width": 162.71182250976563,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Amount",
+            "text": "R$800",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 52.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 440.35650634765627,
+                "y": 1107.17626953125,
+                "width": 189.69488525390626,
+                "height": 156.4549560546875
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 469.3811340332031,
+                "y": 1165.9334716796875,
+                "width": 131.87289428710938,
+                "height": 38.339111328125
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 684.6385498046875,
+                "y": 1209.928955078125,
+                "width": 192.0,
+                "height": 35.796630859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetedTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 731.8250122070313,
+                "y": 1223.0067138671875,
+                "width": 162.7117919921875,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Amount",
+            "text": "R$1.000",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 52.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 684.9937133789063,
+                "y": 1107.17626953125,
+                "width": 189.69500732421876,
+                "height": 156.4549560546875
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 698.1333618164063,
+                "y": 1165.9334716796875,
+                "width": 163.6429443359375,
+                "height": 38.339111328125
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 195.36402893066407,
+                "y": 1045.777099609375,
+                "width": 192.00001525878907,
+                "height": 35.796630859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetedTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 242.55047607421876,
+                "y": 1058.854736328125,
+                "width": 162.71185302734376,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Amount",
+            "text": "R$2.000",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 52.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 195.71920776367188,
+                "y": 943.0244750976563,
+                "width": 189.69491577148438,
+                "height": 156.45501708984376
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 206.9583740234375,
+                "y": 1001.7816772460938,
+                "width": 167.44387817382813,
+                "height": 38.33892822265625
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 440.0013122558594,
+                "y": 1045.777099609375,
+                "width": 192.00003051757813,
+                "height": 35.796630859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetedTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 487.1877746582031,
+                "y": 1058.854736328125,
+                "width": 162.71182250976563,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Amount",
+            "text": "R$3.000",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 52.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 440.35650634765627,
+                "y": 943.0244750976563,
+                "width": 189.69488525390626,
+                "height": 156.45501708984376
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 451.17218017578127,
+                "y": 1001.7816772460938,
+                "width": 168.290771484375,
+                "height": 38.33892822265625
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 684.6385498046875,
+                "y": 1045.777099609375,
+                "width": 192.0,
+                "height": 35.796630859375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetedTag/text",
+            "text": "Recompensa para Novos Usuários",
+            "active": false,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 20.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 731.8250122070313,
+                "y": 1058.854736328125,
+                "width": 162.7117919921875,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Amount",
+            "text": "R$5.000",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 52.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 684.9937133789063,
+                "y": 943.0244750976563,
+                "width": 189.69500732421876,
+                "height": 156.45501708984376
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 695.8093872070313,
+                "y": 1001.7816772460938,
+                "width": 168.29083251953126,
+                "height": 38.33892822265625
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawProgress/Title",
+            "text": "Progresso",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 36.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 184.63729858398438,
+                "y": 882.4209594726563,
+                "width": 724.0677490234375,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 184.5229034423828,
+                "y": 884.8902587890625,
+                "width": 144.0238494873047,
+                "height": 29.974609375
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.1143951416015625,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real/Text (TMP)",
+            "text": "0.00%",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 30.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 457.4237060546875,
+                "y": 832.2406616210938,
+                "width": 162.71185302734376,
+                "height": 40.677978515625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 502.968017578125,
+                "y": 841.5494995117188,
+                "width": 71.82598876953125,
+                "height": 20.9864501953125
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/WithdrawBtn/Text",
+            "text": "Retirar",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 58.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 356.98248291015627,
+                "y": 669.9947509765625,
+                "width": 368.7657470703125,
+                "height": 121.90252685546875
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 458.8328552246094,
+                "y": 709.9756469726563,
+                "width": 165.82534790039063,
+                "height": 42.16827392578125
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/Content/HintText",
+            "text": "Parabéns, todas as condições foram atendidas",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 34.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 180.79287719726563,
+                "y": 559.9185791015625,
+                "width": 733.3101806640625,
+                "height": 75.92132568359375
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 180.684814453125,
+                "y": 600.4910278320313,
+                "width": 618.199462890625,
+                "height": 31.30767822265625
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.108062744140625,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        },
+        {
+            "path": "FakeWithdrawPanel/ButtomGroup/Title",
+            "text": "Sacar",
+            "active": true,
+            "enabled": true,
+            "tmpOverflow": false,
+            "glyphOverflow": false,
+            "actualFontSize": 60.0,
+            "screenRect": {
+                "serializedVersion": "2",
+                "x": 340.677978515625,
+                "y": 1787.3897705078125,
+                "width": 398.64404296875,
+                "height": 78.101806640625
+            },
+            "glyphBounds": {
+                "serializedVersion": "2",
+                "x": 475.8965148925781,
+                "y": 1805.73876953125,
+                "width": 128.54074096679688,
+                "height": 40.662109375
+            },
+            "overflowLeftBottomRightTop": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            }
+        }
+    ],
+    "sourceAssets": [
+        {
+            "path": "Assets/BizzaWZ/Common/Framework/GameCanvas.prefab",
+            "before": "c45e4373ba1dc043b348ef5fd4a24325aad0a4c68df3145addd35195b3d06254",
+            "after": "c45e4373ba1dc043b348ef5fd4a24325aad0a4c68df3145addd35195b3d06254",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+            "before": "a6d556bffd6acfd156cd0e5be1c7baffd0684cfbe84749b3e8850c9c6a2cdfa2",
+            "after": "a6d556bffd6acfd156cd0e5be1c7baffd0684cfbe84749b3e8850c9c6a2cdfa2",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab",
+            "before": "b54cec10f7207fad020b7d222c741c7a57785c6b17b0ab79354b9b890538ff93",
+            "after": "b54cec10f7207fad020b7d222c741c7a57785c6b17b0ab79354b9b890538ff93",
+            "unchanged": true
+        }
+    ]
+}

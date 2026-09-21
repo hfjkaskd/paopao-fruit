@@ -26,19 +26,19 @@ MonoBehaviour:
     enabledPasses: -1
     ruleFiles: []
   secretSettings:
-    defaultStaticSecretKey: com.corona.busstopmaster
-    defaultDynamicSecretKey: com.corona.busstopmaster
+    defaultStaticSecretKey: com.wiwitsugeh.orchardtrio
+    defaultDynamicSecretKey: com.wiwitsugeh.orchardtrio
     staticSecretKeyOutputPath: Assets/Resources/Obfuz/defaultStaticSecretKey.bytes
     dynamicSecretKeyOutputPath: Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes
     randomSeed: 0
     assembliesUsingDynamicSecretKeys: []
   encryptionVMSettings:
-    codeGenerationSecretKey: busstopmaster
+    codeGenerationSecretKey: orchardtrio
     encryptionOpCodeCount: 256
     codeOutputPath: Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs
   symbolObfusSettings:
     debug: 0
-    obfuscatedNamePrefix: btr
+    obfuscatedNamePrefix: eml
     useConsistentNamespaceObfuscation: 1
     detectReflectionCompatibility: 1
     keepUnknownSymbolInSymbolMappingFile: 1

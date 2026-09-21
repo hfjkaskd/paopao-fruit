@@ -1,0 +1,1857 @@
+{
+    "kind": "PREFAB STATIC PREVIEW WITH EXPLICIT SAMPLE TEXT — NOT UNITY GAMEPLAY OR ACCOUNT DATA",
+    "generatedUtc": "2026-09-18T10:27:31.8668223Z",
+    "name": "static-hud-1080x2340-long-scale125",
+    "screenshot": "C:\\Projects\\paopao\\BizzaWZ\\Design\\HudSpacing-20260918\\Previews\\final\\static-hud-1080x2340-long-scale125.png",
+    "error": "",
+    "interpretation": "Production GameCanvas, RealGamePanel/Content and GameUiWidget instances in a disposable PreviewScene. Business behaviours, animation and audio are disabled before activation. Canvas coordinates reproduce the production MatchHeight scaler; no current Game view, account or save is read. Geometry checks are conservative rectangular estimates, not input-event tests or pixel silhouettes. Samples and currency animation extremes exist only on disposable clones.",
+    "screenWidth": 1080,
+    "screenHeight": 2340,
+    "pngWidth": 1080,
+    "pngHeight": 320,
+    "canvasPixelScale": 0.991525411605835,
+    "productionReferenceResolution": {
+        "x": 1080.0,
+        "y": 2360.0
+    },
+    "productionMatchWidthOrHeight": 1.0,
+    "canvasLogicalSize": {
+        "x": 1089.2308349609375,
+        "y": 2360.0
+    },
+    "currencyScale": 1.25,
+    "longValues": true,
+    "disabledBusinessBehaviours": 25,
+    "activeTextOverflowCount": 0,
+    "activeButtonOverlapCount": 0,
+    "clusterOverlapCount": 0,
+    "nonUniformPixelSamples": 617,
+    "sampleChanges": [
+        "Image/Text (TMP) = 9999",
+        "CurrentGroup/GoldGroup/CoinBox/GoldText = 99.999,99",
+        "CurrentGroup/DollarGroup/DollarBox/DollarText = R$9.999,99",
+        "CurrentGroup/GoldGroup/ButtonView/Text (TMP) = R$9.999,99",
+        "CurrentGroup/GoldGroup/ButtonView/Text (TMP) (1) = ≈",
+        "CurrentGroup/DollarGroup/ButtonView/Text (TMP) = Retirar",
+        "CurrentGroup/GoldGroup/DollarAddText (1) = ",
+        "CurrentGroup/DollarGroup/DollarAddText = ",
+        "Both production currency animation targets use scale 1.25; the existing HorizontalLayoutGroup is kept enabled and rebuilt."
+    ],
+    "images": [
+        {
+            "path": "CurrencyBar/Image",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 5821051965148166099,
+            "spriteAsset": "Assets/OrchardUI/Art/HudLevelCreamLeaf.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -456.0,
+                    "y": -21.0
+                },
+                "sizeDelta": {
+                    "x": 120.0,
+                    "y": 96.0
+                },
+                "size": {
+                    "x": 120.0,
+                    "y": 96.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 28.372920989990236,
+                    "y": 2178.38134765625,
+                    "width": 118.9830322265625,
+                    "height": 95.1865234375
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 28.372920989990236,
+                    "y": 66.43212890625,
+                    "width": 118.9830322265625,
+                    "height": 95.1865234375
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/CoinBox/BG (1)",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 4954420463098433676,
+            "spriteAsset": "Assets/OrchardUI/Art/HudNaturalCounter.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 280.0,
+                    "y": 78.0
+                },
+                "size": {
+                    "x": 280.0,
+                    "y": 78.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 176.1101837158203,
+                    "y": 2177.6376953125,
+                    "width": 347.03387451171877,
+                    "height": 96.673828125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 176.1101837158203,
+                    "y": 65.6884765625,
+                    "width": 347.03387451171877,
+                    "height": 96.673828125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/CoinBox/Icon",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 297959991574409887,
+            "spriteAsset": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/GoldCoin_US.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -128.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                },
+                "size": {
+                    "x": 80.0,
+                    "y": 80.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 0.75,
+                    "y": 0.75,
+                    "z": 0.75
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 2188.79248046875,
+                    "width": 74.36439514160156,
+                    "height": 74.3642578125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 76.84326171875,
+                    "width": 74.36439514160156,
+                    "height": 74.3642578125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/ButtonView",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 7563967730577256576,
+            "spriteAsset": "Assets/OrchardUI/Art/HudNaturalGreenButton.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 77.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 116.0,
+                    "y": 60.0
+                },
+                "size": {
+                    "x": 116.0,
+                    "y": 60.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 373.17584228515627,
+                    "y": 2188.79248046875,
+                    "width": 143.77117919921876,
+                    "height": 74.3642578125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 373.17584228515627,
+                    "y": 76.84326171875,
+                    "width": 143.77117919921876,
+                    "height": 74.3642578125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 6509096843675133103,
+            "spriteAsset": "",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.003921568859368563
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -9.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "size": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 2171.440673828125,
+                    "width": 369.3431701660156,
+                    "height": 109.067626953125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 59.49169921875,
+                    "width": 369.3431701660156,
+                    "height": 109.067626953125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 7111787364838771432,
+            "spriteAsset": "",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 559.0,
+                    "y": -48.0
+                },
+                "sizeDelta": {
+                    "x": 350.0,
+                    "y": 96.0
+                },
+                "size": {
+                    "x": 350.0,
+                    "y": 96.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.25,
+                    "y": 1.25,
+                    "z": 1.25
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 513.4766845703125,
+                    "y": 2166.48291015625,
+                    "width": 433.7923583984375,
+                    "height": 118.983154296875
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 513.4766845703125,
+                    "y": 54.533935546875,
+                    "width": 433.7923583984375,
+                    "height": 118.983154296875
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/Panel",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 13080104684878527,
+            "spriteAsset": "Assets/OrchardUI/Art/Controls.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": false,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 52.0164794921875,
+                    "y": -62.430999755859378
+                },
+                "sizeDelta": {
+                    "x": 590.0,
+                    "y": 137.14999389648438
+                },
+                "size": {
+                    "x": 590.0,
+                    "y": 137.14999389648438
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 0.75,
+                    "y": 0.75,
+                    "z": 0.75
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 303.7275085449219,
+                    "y": 2025.361328125,
+                    "width": 548.4375,
+                    "height": 127.488525390625
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 303.7275085449219,
+                    "y": 187.150146484375,
+                    "width": 548.4375,
+                    "height": 127.488525390625
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/TeachPic",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 3781845356695434919,
+            "spriteAsset": "",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": false,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -151.699951171875,
+                    "y": -171.0
+                },
+                "sizeDelta": {
+                    "x": 590.0,
+                    "y": 248.0
+                },
+                "size": {
+                    "x": 590.0,
+                    "y": 248.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 176.7299346923828,
+                    "y": 1860.349609375,
+                    "width": 731.25,
+                    "height": 307.372802734375
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 176.7299346923828,
+                    "y": 172.277587890625,
+                    "width": 731.25,
+                    "height": 307.372802734375
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/DollarBox",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 7506062318337904697,
+            "spriteAsset": "Assets/OrchardUI/Art/Controls.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": false,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 100.0,
+                    "y": 100.0
+                },
+                "size": {
+                    "x": 100.0,
+                    "y": 100.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 668.4025268554688,
+                    "y": 2164.004150390625,
+                    "width": 123.940673828125,
+                    "height": 123.940673828125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 668.4025268554688,
+                    "y": 52.05517578125,
+                    "width": 123.940673828125,
+                    "height": 123.940673828125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/DollarBox/BG",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 917222461376090861,
+            "spriteAsset": "Assets/OrchardUI/Art/HudNaturalCounter.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 280.0,
+                    "y": 78.0
+                },
+                "size": {
+                    "x": 280.0,
+                    "y": 78.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 556.85595703125,
+                    "y": 2177.6376953125,
+                    "width": 347.03387451171877,
+                    "height": 96.673828125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 556.85595703125,
+                    "y": 65.6884765625,
+                    "width": 347.03387451171877,
+                    "height": 96.673828125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/DollarBox/Icon",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 1823203261982204378,
+            "spriteAsset": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/StackMoney_US.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -126.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 80.0,
+                    "y": 80.0
+                },
+                "size": {
+                    "x": 80.0,
+                    "y": 80.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 0.800000011920929,
+                    "y": 0.800000011920929,
+                    "z": 0.800000011920929
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 2186.3134765625,
+                    "width": 79.32196044921875,
+                    "height": 79.322265625
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 74.3642578125,
+                    "width": 79.32196044921875,
+                    "height": 79.322265625
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/ButtonView",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 8565961504699753555,
+            "spriteAsset": "Assets/OrchardUI/Art/HudNaturalGreenButton.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 77.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 116.0,
+                    "y": 60.0
+                },
+                "size": {
+                    "x": 116.0,
+                    "y": 60.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 753.9215698242188,
+                    "y": 2188.79248046875,
+                    "width": 143.771240234375,
+                    "height": 74.3642578125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 753.9215698242188,
+                    "y": 76.84326171875,
+                    "width": 143.771240234375,
+                    "height": 74.3642578125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 6621203316151085056,
+            "spriteAsset": "Assets/OrchardUI/Art/Controls.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.003921568859368563
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -9.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "size": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 2171.440673828125,
+                    "width": 369.34320068359377,
+                    "height": 109.067626953125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 59.49169921875,
+                    "width": 369.34320068359377,
+                    "height": 109.067626953125
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/PauseButton",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 8140369000614230474,
+            "spriteAsset": "Assets/OrchardUI/Art/HudNaturalSettings.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": true,
+            "raycast": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 444.0,
+                    "y": -21.0
+                },
+                "sizeDelta": {
+                    "x": 96.0,
+                    "y": 96.0
+                },
+                "size": {
+                    "x": 96.0,
+                    "y": 96.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 932.64404296875,
+                    "y": 2178.38134765625,
+                    "width": 95.1864013671875,
+                    "height": 95.1865234375
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 932.64404296875,
+                    "y": 66.43212890625,
+                    "width": 95.1864013671875,
+                    "height": 95.1865234375
+                }
+            }
+        },
+        {
+            "path": "CurrencyBar/PauseButton/Icon",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 3814854315592421423,
+            "spriteAsset": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/GamePanel/Icon_Setting.png",
+            "color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+            },
+            "active": true,
+            "enabled": false,
+            "raycast": false,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 110.0,
+                    "y": 110.0
+                },
+                "size": {
+                    "x": 110.0,
+                    "y": 110.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 925.7034301757813,
+                    "y": 2171.440673828125,
+                    "width": 109.06768798828125,
+                    "height": 109.067626953125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 925.7034301757813,
+                    "y": 59.49169921875,
+                    "width": 109.06768798828125,
+                    "height": 109.067626953125
+                }
+            }
+        }
+    ],
+    "texts": [
+        {
+            "path": "CurrencyBar/Image/Text (TMP)",
+            "text": "9999",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 5860728120506579172,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": true,
+            "actualFontSize": 35.45000076293945,
+            "fontSizeMin": 24.0,
+            "fontSizeMax": 46.0,
+            "lineCount": 1,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": -6.0
+                },
+                "sizeDelta": {
+                    "x": 88.0,
+                    "y": 66.0
+                },
+                "size": {
+                    "x": 88.0,
+                    "y": 66.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 44.23729705810547,
+                    "y": 2187.30517578125,
+                    "width": 87.2542495727539,
+                    "height": 65.440673828125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 44.23729705810547,
+                    "y": 87.254150390625,
+                    "width": 87.2542495727539,
+                    "height": 65.440673828125
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 44.57969665527344,
+                "y": 2204.98095703125,
+                "width": 86.74119567871094,
+                "height": 29.417236328125
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/CoinBox/GoldText",
+            "text": "99.999,99",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 5991443623447234360,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": true,
+            "actualFontSize": 21.399999618530275,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 32.0,
+            "lineCount": 1,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -39.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 102.0,
+                    "y": 66.0
+                },
+                "size": {
+                    "x": 102.0,
+                    "y": 66.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 238.08050537109376,
+                    "y": 2185.07421875,
+                    "width": 126.41949462890625,
+                    "height": 81.80078125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 238.08050537109376,
+                    "y": 73.125,
+                    "width": 126.41949462890625,
+                    "height": 81.80078125
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 238.3612060546875,
+                "y": 2212.265380859375,
+                "width": 125.98776245117188,
+                "height": 24.5546875
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/DollarAddText (1)",
+            "text": "",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 4576972787215643753,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": false,
+            "actualFontSize": 35.0,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "lineCount": 0,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -98.0,
+                    "y": -60.099998474121097
+                },
+                "sizeDelta": {
+                    "x": 200.0,
+                    "y": 50.0
+                },
+                "size": {
+                    "x": 200.0,
+                    "y": 50.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 104.224609375,
+                    "y": 2120.501220703125,
+                    "width": 247.88134765625,
+                    "height": 61.97021484375
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 104.224609375,
+                    "y": 157.528564453125,
+                    "width": 247.88134765625,
+                    "height": 61.97021484375
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/ButtonView/Text (TMP) (1)",
+            "text": "≈",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 4119130753064406799,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": true,
+            "actualFontSize": 20.0,
+            "fontSizeMin": 20.0,
+            "fontSizeMax": 30.0,
+            "lineCount": 1,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -42.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": -96.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 20.0,
+                    "y": 60.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 380.6122741699219,
+                    "y": 2188.79248046875,
+                    "width": 24.78814697265625,
+                    "height": 74.3642578125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 380.6122741699219,
+                    "y": 76.84326171875,
+                    "width": 24.78814697265625,
+                    "height": 74.3642578125
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 383.5233459472656,
+                "y": 2218.101806640625,
+                "width": 18.819244384765626,
+                "height": 12.969482421875
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/ButtonView/Text (TMP)",
+            "text": "R$9.999,99",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 8953712310009366182,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": true,
+            "actualFontSize": 13.949999809265137,
+            "fontSizeMin": 12.0,
+            "fontSizeMax": 24.0,
+            "lineCount": 1,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 9.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": -40.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 76.0,
+                    "y": 60.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 409.11865234375,
+                    "y": 2188.79248046875,
+                    "width": 94.19491577148438,
+                    "height": 74.3642578125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 409.11865234375,
+                    "y": 76.84326171875,
+                    "width": 94.19491577148438,
+                    "height": 74.3642578125
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 408.6999206542969,
+                "y": 2216.686767578125,
+                "width": 94.87564086914063,
+                "height": 17.3505859375
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/Panel/Text (TMP)",
+            "text": "You still need $25000",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 5869454236697496206,
+            "active": false,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": false,
+            "actualFontSize": 45.0,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "lineCount": 0,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": -13.0
+                },
+                "sizeDelta": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "size": {
+                    "x": 590.0,
+                    "y": 137.14999389648438
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 303.7275085449219,
+                    "y": 2013.277099609375,
+                    "width": 548.4375,
+                    "height": 127.488525390625
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 303.7275085449219,
+                    "y": 199.234375,
+                    "width": 548.4375,
+                    "height": 127.488525390625
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/DollarAddText",
+            "text": "",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 8670877826271093984,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": false,
+            "actualFontSize": 35.0,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "lineCount": 0,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -80.0,
+                    "y": -60.099998474121097
+                },
+                "sizeDelta": {
+                    "x": 200.0,
+                    "y": 50.0
+                },
+                "size": {
+                    "x": 200.0,
+                    "y": 50.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 507.2796325683594,
+                    "y": 2120.501220703125,
+                    "width": 247.88137817382813,
+                    "height": 61.97021484375
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 507.2796325683594,
+                    "y": 157.528564453125,
+                    "width": 247.88137817382813,
+                    "height": 61.97021484375
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 0.0,
+                "height": 0.0
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/DollarBox/DollarText",
+            "text": "R$9.999,99",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 1921367610482460735,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": true,
+            "actualFontSize": 19.0,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 32.0,
+            "lineCount": 1,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -90.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 102.0,
+                    "y": 66.0
+                },
+                "size": {
+                    "x": 102.0,
+                    "y": 66.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.0,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 618.8262939453125,
+                    "y": 2185.07421875,
+                    "width": 126.41949462890625,
+                    "height": 81.80078125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 618.8262939453125,
+                    "y": 73.125,
+                    "width": 126.41949462890625,
+                    "height": 81.80078125
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 618.8713989257813,
+                "y": 2213.802734375,
+                "width": 126.14532470703125,
+                "height": 22.6748046875
+            }
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/ButtonView/Text (TMP)",
+            "text": "Retirar",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 4821673847536142600,
+            "active": true,
+            "enabled": true,
+            "isTextOverflowing": false,
+            "autoSize": true,
+            "actualFontSize": 26.0,
+            "fontSizeMin": 20.0,
+            "fontSizeMax": 26.0,
+            "lineCount": 1,
+            "firstOverflowCharacterIndex": -1,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 92.0,
+                    "y": 46.0
+                },
+                "size": {
+                    "x": 92.0,
+                    "y": 46.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 768.79443359375,
+                    "y": 2197.468017578125,
+                    "width": 114.02545166015625,
+                    "height": 57.012939453125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 768.79443359375,
+                    "y": 85.51904296875,
+                    "width": 114.02545166015625,
+                    "height": 57.012939453125
+                }
+            },
+            "renderedGlyphBounds": {
+                "serializedVersion": "2",
+                "x": 769.4441528320313,
+                "y": 2211.653564453125,
+                "width": 113.2454833984375,
+                "height": 28.79736328125
+            }
+        }
+    ],
+    "buttons": [
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 2084410330919369496,
+            "targetGraphicPath": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+            "active": true,
+            "enabled": true,
+            "interactable": true,
+            "ancestorsAllowRaycasts": true,
+            "estimatedClickable": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -9.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "size": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 2171.440673828125,
+                    "width": 369.3431701660156,
+                    "height": 109.067626953125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 59.49169921875,
+                    "width": 369.3431701660156,
+                    "height": 109.067626953125
+                }
+            },
+            "activeRaycastRects": [
+                {
+                    "serializedVersion": "2",
+                    "x": 153.80087280273438,
+                    "y": 2171.440673828125,
+                    "width": 369.3431701660156,
+                    "height": 109.067626953125
+                }
+            ],
+            "raycastPadding": [
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            ]
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 3510695704446490276,
+            "targetGraphicPath": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+            "active": true,
+            "enabled": true,
+            "interactable": true,
+            "ancestorsAllowRaycasts": true,
+            "estimatedClickable": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": -9.0,
+                    "y": 0.0
+                },
+                "sizeDelta": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "size": {
+                    "x": 298.0,
+                    "y": 88.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 2171.440673828125,
+                    "width": 369.34320068359377,
+                    "height": 109.067626953125
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 59.49169921875,
+                    "width": 369.34320068359377,
+                    "height": 109.067626953125
+                }
+            },
+            "activeRaycastRects": [
+                {
+                    "serializedVersion": "2",
+                    "x": 534.546630859375,
+                    "y": 2171.440673828125,
+                    "width": 369.34320068359377,
+                    "height": 109.067626953125
+                }
+            ],
+            "raycastPadding": [
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            ]
+        },
+        {
+            "path": "CurrencyBar/PauseButton",
+            "sourceGuid": "b1f781d8c27eec54db58a4849081f7e5",
+            "sourceFileID": 2227867554484157255,
+            "targetGraphicPath": "CurrencyBar/PauseButton",
+            "active": true,
+            "enabled": true,
+            "interactable": true,
+            "ancestorsAllowRaycasts": true,
+            "estimatedClickable": true,
+            "rect": {
+                "anchoredPosition": {
+                    "x": 444.0,
+                    "y": -21.0
+                },
+                "sizeDelta": {
+                    "x": 96.0,
+                    "y": 96.0
+                },
+                "size": {
+                    "x": 96.0,
+                    "y": 96.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "localScale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "screenRect": {
+                    "serializedVersion": "2",
+                    "x": 932.64404296875,
+                    "y": 2178.38134765625,
+                    "width": 95.1864013671875,
+                    "height": 95.1865234375
+                },
+                "pngRectTopLeft": {
+                    "serializedVersion": "2",
+                    "x": 932.64404296875,
+                    "y": 66.43212890625,
+                    "width": 95.1864013671875,
+                    "height": 95.1865234375
+                }
+            },
+            "activeRaycastRects": [
+                {
+                    "serializedVersion": "2",
+                    "x": 932.64404296875,
+                    "y": 2178.38134765625,
+                    "width": 95.1864013671875,
+                    "height": 95.1865234375
+                }
+            ],
+            "raycastPadding": [
+                {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            ]
+        }
+    ],
+    "layouts": [
+        {
+            "path": "CurrencyBar/CurrentGroup",
+            "enabled": true,
+            "spacing": 34.0,
+            "childScaleWidth": false,
+            "childScaleHeight": false,
+            "childControlWidth": false,
+            "childForceExpandWidth": false
+        }
+    ],
+    "buttonOverlaps": [],
+    "clusters": [
+        {
+            "path": "CurrencyBar/Image",
+            "hasVisibleGraphics": true,
+            "bounds": {
+                "serializedVersion": "2",
+                "x": 28.372920989990236,
+                "y": 2178.38134765625,
+                "width": 118.9830322265625,
+                "height": 95.1865234375
+            },
+            "outsideScreen": false
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup",
+            "hasVisibleGraphics": true,
+            "bounds": {
+                "serializedVersion": "2",
+                "x": 153.80087280273438,
+                "y": 2177.6376953125,
+                "width": 369.3431701660156,
+                "height": 96.673828125
+            },
+            "outsideScreen": false
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup",
+            "hasVisibleGraphics": true,
+            "bounds": {
+                "serializedVersion": "2",
+                "x": 534.546630859375,
+                "y": 2177.6376953125,
+                "width": 369.34320068359377,
+                "height": 96.673828125
+            },
+            "outsideScreen": false
+        },
+        {
+            "path": "CurrencyBar/PauseButton",
+            "hasVisibleGraphics": true,
+            "bounds": {
+                "serializedVersion": "2",
+                "x": 932.64404296875,
+                "y": 2178.38134765625,
+                "width": 95.1864013671875,
+                "height": 95.1865234375
+            },
+            "outsideScreen": false
+        }
+    ],
+    "clusterOverlaps": [],
+    "sourceAssets": [
+        {
+            "path": "Assets/BizzaWZ/Common/Framework/GameCanvas.prefab",
+            "sha256Before": "c45e4373ba1dc043b348ef5fd4a24325aad0a4c68df3145addd35195b3d06254",
+            "sha256After": "c45e4373ba1dc043b348ef5fd4a24325aad0a4c68df3145addd35195b3d06254",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Common/UI/GamePanel/RealGamePanel.prefab",
+            "sha256Before": "c9fb382f50cdf351c96c17b0dc633878c12edf4c361618c8d19fd111d59e2b47",
+            "sha256After": "c9fb382f50cdf351c96c17b0dc633878c12edf4c361618c8d19fd111d59e2b47",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+            "sha256Before": "dd20c45ad1a2ac58890ee6fc3179f0a9dc4a2a90195f3bd3aae9e0071bf93b05",
+            "sha256After": "dd20c45ad1a2ac58890ee6fc3179f0a9dc4a2a90195f3bd3aae9e0071bf93b05",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+            "sha256Before": "60e1f676e77248eb2cc3b5b03f63b0a6faace1d61f5155b435311763fa98ea18",
+            "sha256After": "60e1f676e77248eb2cc3b5b03f63b0a6faace1d61f5155b435311763fa98ea18",
+            "unchanged": true
+        }
+    ]
+}

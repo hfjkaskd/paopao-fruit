@@ -1,0 +1,414 @@
+{
+  "status": "PASS",
+  "checkedUtc": "2026-09-18T11:23:06.103502+00:00",
+  "scope": "Independent file-level structural and visual-visibility audit, no gameplay or UI operations",
+  "changedPrefabCount": 21,
+  "changedImageEnabledFields": 52,
+  "allOtherSerializedDataUnchanged": true,
+  "protectedAssetsChecked": 1597,
+  "protectedCsChecked": 1359,
+  "protectedUnexpectedChanges": [],
+  "greenButtonLeafImagesFound": 52,
+  "greenButtonLeafImagesEnabled": 0,
+  "nonGreenLeafImagesPreservedInEditedPrefabs": 32,
+  "allProjectTitleLeafImagesEnabled": 26,
+  "nestedLeafOverrides": [],
+  "editorAuthoringChecks": {
+    "titleOnlyAddLeafPair": true,
+    "noButtonGreenAddLeafPair": true,
+    "checksThreeGreenSprites": true,
+    "hidesOnlyLeafImages": true,
+    "noReflectionAdded": true
+  },
+  "assetSha256": {
+    "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab": "1307ca589b4d549937c62c7f880027285fb8fa4b26661bbf8b74db09549f2fef",
+    "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab": "0f4cb8db65af186b911570e9828d5e9685da04418d1cdccc87ff594beb5f4d1f",
+    "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab": "f592944cf96876d5b6d5c6aa228834d53e0d532cbb77a90e33873e96ecc92180",
+    "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab": "cd3b9c49272beca4ae21e0647d7c675e32362fe6c6cd70ca4dcd415bf987518d",
+    "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskElement.prefab": "0ef6ee422cffb883aaf75280eb9801c23670601f3c71e226b198eadfa56d7f00",
+    "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab": "d1b7cd9e06cc7b562707635ac0a9194d0654f6146fe1e97aef1d7ef88f323f5f",
+    "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab": "0eaa9f4d3f3cd34b3e9f039e709b9aefe9d9df94424b568af2b6e0991a68a8fa",
+    "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab": "e5f6cf6daf67e5c48acc6d62c01040fc9556b37f45b0359b77e6fe56146d6b8a",
+    "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab": "114b1faea12cf26b04a402e234474283763a804955e038497cff7ccd58448f8b",
+    "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab": "1b323ac10a7a6a7ee2ebfa1a49c45e04e4e5087b83096dafe9540bf3d737185e",
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab": "00791f192c19606098479e318d6936c47d47624c5164e7710e12d8bf68e0de02",
+    "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab": "ae6c2c6aa290a50c20c1cf8c3fdf6061510c5bc585a7a807ee3d1d5fa678106d",
+    "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab": "51a0f91e124e9749b603c8f96700e6c590bb422eec94e30d9c4a1c498deb9e4d",
+    "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab": "e67158226072ff40301ddd7f9ac7d2c3290bfc922276dfad84bf5132c2eb5753",
+    "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawInfo.prefab": "26c002bd362abd9f85d539d5a9f53e113d91b09aa509aff9fafefd3e6572ee0d",
+    "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab": "5446b62cb808c5d667f8ff9ad39c639292ddec888d425c25a81ce94893c7a529",
+    "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab": "4e737ac77b8af7f5021e7af2a9c5cbe80ff682c100f50f744b2ff4bb84a10ee0",
+    "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab": "193096783eec05434222a6b1b8b78b6979459f5a5461f8b3797fd9ffa83547de",
+    "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab": "11262689a75d72205fae6f41dc8ccbd1ca0077c5b0443199e97ce6ea12dcbbe9",
+    "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab": "ede3317504a121a70d458c70ead355ac2a1c4c0477f532d1d42d8d04d06ee499",
+    "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab": "284df8eb8e258cb55cc32c57c3626f5bba24fef04844404ac2a62794326855fc",
+    "Assets/OrchardUI/Editor/OrchardNavigationPass.cs": "a75570cefcb5feeccaec90a898c8f1c12ae3ffc565e75d665fceb9d611f0fd8e"
+  },
+  "errors": [],
+  "changes": [
+    {
+      "prefab": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab",
+      "imageID": "2741441539981087542",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab",
+      "imageID": "2120152851568378979",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+      "imageID": "7515949202181967563",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+      "imageID": "6817465396737069876",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab",
+      "imageID": "2974187570379455117",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab",
+      "imageID": "3124713559777410320",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab",
+      "imageID": "3585581180737663636",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab",
+      "imageID": "8575975416616594210",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskElement.prefab",
+      "imageID": "5959132416428728568",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskElement.prefab",
+      "imageID": "7567398058072099449",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "imageID": "4744835390014094256",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "imageID": "6541294795652677748",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "imageID": "1932961830073297983",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "imageID": "1682534197871636760",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "imageID": "6003671177587400549",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "imageID": "7743560673589104680",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab",
+      "imageID": "8065726141256571257",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab",
+      "imageID": "5497416450740061920",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "imageID": "7717064336285656122",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "imageID": "284394222812416162",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "imageID": "5311385666789992662",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "imageID": "2751400097691607442",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab",
+      "imageID": "4022974711691505338",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab",
+      "imageID": "2168626299944472255",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab",
+      "imageID": "4975918972721062862",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab",
+      "imageID": "5482497423836020877",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+      "imageID": "3004460609082498821",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+      "imageID": "5263582838570527093",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+      "imageID": "2199042664275371249",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+      "imageID": "2960839087590783038",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+      "imageID": "9005995484497753814",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+      "imageID": "1348258639986798598",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab",
+      "imageID": "5418461656380730591",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab",
+      "imageID": "3468612164150475169",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "imageID": "5392562873527423480",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "imageID": "3604934204702699554",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "imageID": "5295123576990343808",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "imageID": "8081125600891058903",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawInfo.prefab",
+      "imageID": "2453094274572030861",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawInfo.prefab",
+      "imageID": "7139366264731132268",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "imageID": "3262476768363765006",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "imageID": "831520197194866854",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+      "imageID": "3046945703623528934",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+      "imageID": "1127561992988239270",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab",
+      "imageID": "3111881322623980685",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab",
+      "imageID": "4959884983734284748",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab",
+      "imageID": "5155073722653523749",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab",
+      "imageID": "1617198865377795145",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab",
+      "imageID": "2804790683463722793",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab",
+      "imageID": "7109582474486562872",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+      "imageID": "2121364245803159181",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    },
+    {
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+      "imageID": "5530905096602851770",
+      "field": "m_Enabled",
+      "from": 1,
+      "to": 0
+    }
+  ]
+}

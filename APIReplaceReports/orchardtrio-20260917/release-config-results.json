@@ -1,0 +1,367 @@
+{
+  "status": "Passed",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "fields": [
+    {
+      "originalParameter": "应用名称",
+      "standardParameter": "应用名称",
+      "target": "ProjectSettings/ProjectSettings.asset :: productName",
+      "before": "'Bubblosaic: Picture Merge'",
+      "after": "Orchard Trio",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "包名",
+      "standardParameter": "Android 包名",
+      "target": "ProjectSettings/ProjectSettings.asset :: applicationIdentifier.Android",
+      "before": "com.webpack.picturemerge",
+      "after": "com.wiwitsugeh.orchardtrio",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "包名",
+      "standardParameter": "Android 包名 / Obfuz",
+      "target": "ProjectSettings/Obfuz.asset :: assemblySettings.assembliesToObfuscate",
+      "before": [
+        "Assembly-CSharp"
+      ],
+      "after": [
+        "Assembly-CSharp"
+      ],
+      "status": "AlreadyMatched"
+    },
+    {
+      "originalParameter": "包名",
+      "standardParameter": "Android 包名 / Obfuz",
+      "target": "ProjectSettings/Obfuz.asset :: secretSettings.defaultStaticSecretKey",
+      "before": "com***rge",
+      "after": "com***rio",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "包名",
+      "standardParameter": "Android 包名 / Obfuz",
+      "target": "ProjectSettings/Obfuz.asset :: secretSettings.defaultDynamicSecretKey",
+      "before": "com***rge",
+      "after": "com***rio",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "包名",
+      "standardParameter": "Android 包名 / Obfuz",
+      "target": "ProjectSettings/Obfuz.asset :: encryptionVMSettings.codeGenerationSecretKey",
+      "before": "pic***rge",
+      "after": "orc***rio",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "包名",
+      "standardParameter": "Android 包名 / Obfuz 随机前缀",
+      "target": "ProjectSettings/Obfuz.asset :: symbolObfusSettings.obfuscatedNamePrefix",
+      "before": "urf",
+      "after": "eml",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "AppLovin SDK Key",
+      "standardParameter": "AppLovin SDK Key",
+      "target": "Assets/MaxSdk/Resources/AppLovinSettings.asset :: sdkKey",
+      "before": "eEz***yJZ",
+      "after": "eEz***yJZ",
+      "status": "AlreadyMatched"
+    },
+    {
+      "originalParameter": "Privacy Policy URL",
+      "standardParameter": "Privacy Policy URL",
+      "target": "ProjectSettings/AppLovinInternalSettings.json :: consentFlowPrivacyPolicyUrl",
+      "before": "https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing",
+      "after": "https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "Privacy Policy URL",
+      "standardParameter": "Privacy Policy URL",
+      "target": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab :: Privacy TMP hyperlink",
+      "before": "https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing",
+      "after": "https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "Privacy Policy URL",
+      "standardParameter": "Privacy Policy URL",
+      "target": "Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json :: coldstart_start_privacy [32 languages]",
+      "before": "https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing",
+      "after": "https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "应用ID",
+      "standardParameter": "应用ID",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: AppId",
+      "before": "bubblosaicpmge",
+      "after": "orchardtrio",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "接口域名地址",
+      "standardParameter": "接口域名地址",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain",
+      "before": "https://app.fruittile.xin",
+      "after": "https://snakes.xin",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "密钥",
+      "standardParameter": "密钥",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key",
+      "before": "Mer***aic",
+      "after": "Tri***Eod",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "游戏类型",
+      "standardParameter": "游戏类型",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate",
+      "before": 1.0,
+      "after": 1.0,
+      "status": "AlreadyMatched"
+    },
+    {
+      "originalParameter": "国家",
+      "standardParameter": "国家",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country",
+      "before": 0,
+      "after": 0,
+      "status": "AlreadyMatched"
+    },
+    {
+      "originalParameter": "Adjust 应用识别码",
+      "standardParameter": "Adjust 应用识别码",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey",
+      "before": "2zov4dn3gsu8",
+      "after": "d1hq1hl2p05c",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "MAX 激励广告 ID",
+      "standardParameter": "MAX 激励广告 ID",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId",
+      "before": "ddef1150f706c39f",
+      "after": "f5ccdcd203e833b6",
+      "status": "Updated"
+    },
+    {
+      "originalParameter": "MAX 插屏广告 ID",
+      "standardParameter": "MAX 插屏广告 ID",
+      "target": "Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId",
+      "before": "3f64a45c4db0eb7a",
+      "after": "00fcf19979f18911",
+      "status": "Updated"
+    }
+  ],
+  "changedReleaseFiles": [
+    "ProjectSettings/ProjectSettings.asset",
+    "ProjectSettings/Obfuz.asset",
+    "ProjectSettings/AppLovinInternalSettings.json",
+    "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+    "Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json",
+    "Assets/StreamingAssets/ChannelConfig.bytes",
+    "Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs",
+    "Assets/Resources/Obfuz/defaultStaticSecretKey.bytes",
+    "Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes"
+  ],
+  "channelConfig": {
+    "status": "Passed",
+    "serializer": "Actual Unity Bizza.Sdk.ChannelConfigBinarySerializer",
+    "fields": [
+      {
+        "originalParameter": "应用ID",
+        "standardParameter": "应用ID",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: AppId",
+        "before": "bubblosaicpmge",
+        "after": "orchardtrio",
+        "status": "Updated"
+      },
+      {
+        "originalParameter": "接口域名地址",
+        "standardParameter": "接口域名地址",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain",
+        "before": "https://app.fruittile.xin",
+        "after": "https://snakes.xin",
+        "status": "Updated"
+      },
+      {
+        "originalParameter": "密钥",
+        "standardParameter": "密钥",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key",
+        "before": "Mer***aic",
+        "after": "Tri***Eod",
+        "status": "Updated"
+      },
+      {
+        "originalParameter": "游戏类型",
+        "standardParameter": "游戏类型",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate",
+        "before": 1.0,
+        "after": 1.0,
+        "status": "AlreadyMatched"
+      },
+      {
+        "originalParameter": "国家",
+        "standardParameter": "国家",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country",
+        "before": 0,
+        "after": 0,
+        "status": "AlreadyMatched"
+      },
+      {
+        "originalParameter": "Adjust 应用识别码",
+        "standardParameter": "Adjust 应用识别码",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey",
+        "before": "2zov4dn3gsu8",
+        "after": "d1hq1hl2p05c",
+        "status": "Updated"
+      },
+      {
+        "originalParameter": "MAX 激励广告 ID",
+        "standardParameter": "MAX 激励广告 ID",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId",
+        "before": "ddef1150f706c39f",
+        "after": "f5ccdcd203e833b6",
+        "status": "Updated"
+      },
+      {
+        "originalParameter": "MAX 插屏广告 ID",
+        "standardParameter": "MAX 插屏广告 ID",
+        "target": "Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId",
+        "before": "3f64a45c4db0eb7a",
+        "after": "00fcf19979f18911",
+        "status": "Updated"
+      }
+    ],
+    "roundtrip": {
+      "baselineByteEquality": true,
+      "updatedByteEquality": true,
+      "requestedValuesReadBack": true,
+      "otherSerializedFieldsByteEquality": true,
+      "blankParametersPreserved": true,
+      "writtenFileByteEquality": true
+    }
+  },
+  "obfuz": {
+    "status": "Passed",
+    "generator": "Project VirtualMachineCodeGenerator.Generate and KeyGenerator.GenerateKey (same implementation as ObfuzMenu)",
+    "prefix": "eml",
+    "vmMatchesSettings": true,
+    "staticKeyMatchesSettings": true,
+    "dynamicKeyMatchesSettings": true,
+    "keyLengthBytes": 1024,
+    "outputs": [
+      {
+        "path": "Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs",
+        "sha256": "7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9"
+      },
+      {
+        "path": "Assets/Resources/Obfuz/defaultStaticSecretKey.bytes",
+        "sha256": "3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6"
+      },
+      {
+        "path": "Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes",
+        "sha256": "3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6"
+      }
+    ],
+    "generatedVmCompilation": "Passed: actual Unity Editor compilation and post-helper-removal domain reload; see unity-final-validation.json"
+  },
+  "privacyLocalization": {
+    "status": "Passed",
+    "key": "coldstart_start_privacy",
+    "languageCount": 32,
+    "nonUrlBytesPreserved": true,
+    "runtimePath": "LoadingPanel TextNeedLocalization -> OJEEJGGLNPC.GetText / LoadConfig -> GameRes -> HarvestPaths -> Resources/Original/res/local/configs/Text.json"
+  },
+  "notes": [
+    "Country NONE maps to declared AccountModule.E_CountryType.None (0); game type 真假混 maps to incomeRate=1.",
+    "Empty default country/banner/open ad inputs are preserved.",
+    "All ChannelConfig reads/writes used the current project's actual serializer in Unity, without copied serializer code or binary text replacement.",
+    "Updated only the two requested PlayerSettings properties in the open editor; reloaded Obfuz settings from disk and synchronized only requested cached properties without saving other cached settings.",
+    "No runtime method or gameplay logic changed; this temporary helper must be removed before the final compile.",
+    "The temporary helper was removed after execution; the ensuing Editor domain reload clears its temporary ChannelConfig singleton. Final compilation evidence is recorded separately by the root task."
+  ],
+  "roundtrip": {
+    "baselineByteEquality": true,
+    "updatedByteEquality": true,
+    "requestedValuesReadBack": true,
+    "otherSerializedFieldsByteEquality": true,
+    "blankParametersPreserved": true,
+    "writtenFileByteEquality": true
+  },
+  "preserved": [
+    {
+      "originalParameter": "默认国家",
+      "standardParameter": "默认国家",
+      "target": "real_CustomConfig.DefaultCountry",
+      "value": 0,
+      "reason": "Blank current request value; preserved."
+    },
+    {
+      "originalParameter": "MAX 横幅广告 ID",
+      "standardParameter": "MAX 横幅广告 ID",
+      "target": "sourceAds[AdsSource=Max].bannerAdId",
+      "value": "",
+      "reason": "Blank current request value; preserved."
+    },
+    {
+      "originalParameter": "MAX 开屏广告 ID",
+      "standardParameter": "MAX 开屏广告 ID",
+      "target": "sourceAds[AdsSource=Max].openAdId",
+      "value": "",
+      "reason": "Blank current request value; preserved."
+    }
+  ],
+  "unityVersion": "2022.3.62f3",
+  "finalReadOnlyVerification": {
+    "status": "Passed",
+    "checks": {
+      "ProjectSettings/ProjectSettings.asset": "Requested values verified; all other bytes preserved.",
+      "ProjectSettings/Obfuz.asset": "Requested values verified; all other bytes preserved.",
+      "Assets/MaxSdk/Resources/AppLovinSettings.asset": "Current request SDK key matches; complete original file preserved.",
+      "ProjectSettings/AppLovinInternalSettings.json": "Current request privacy URL verified; all other bytes preserved.",
+      "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab": "Current request privacy URL verified; all other bytes preserved.",
+      "Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json": "Current request privacy URL verified; all other bytes preserved.",
+      "generatedKeyDerivation": "Both 1024-byte key outputs independently match the inspected project KeyGenerator algorithm and requested Android package."
+    },
+    "hashes": [
+      {
+        "path": "Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs",
+        "beforeSha256": "9d0b41353470fd30bcfb3bd02a83db5590824cca6e28354827871daff9191341",
+        "afterSha256": "7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9",
+        "bytes": 181090,
+        "matchesUnityGenerationReport": true
+      },
+      {
+        "path": "Assets/Resources/Obfuz/defaultStaticSecretKey.bytes",
+        "beforeSha256": "afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f",
+        "afterSha256": "3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6",
+        "bytes": 1024,
+        "matchesUnityGenerationReport": true
+      },
+      {
+        "path": "Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes",
+        "beforeSha256": "afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f",
+        "afterSha256": "3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6",
+        "bytes": 1024,
+        "matchesUnityGenerationReport": true
+      },
+      {
+        "path": "Assets/StreamingAssets/ChannelConfig.bytes",
+        "beforeSha256": "42a4cc845907aadf473d15b8537cacc72f7fe878feb4cb662b72d31408b07391",
+        "afterSha256": "6d5594c3ffa412e65f6b7c70543c6264ed5273aec11e4f4e870ce9ba3f296f07",
+        "bytes": 232,
+        "serializationVerification": "All actual-Unity serializer round-trip/preservation checks in this run passed."
+      }
+    ],
+    "oneShotRequestConsumed": true,
+    "projectFilesWrittenByThisVerification": false
+  },
+  "finalUnityCompilationEvidence": "unity-final-validation.json"
+}

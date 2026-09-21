@@ -1,0 +1,29 @@
+{
+  "status": "Passed",
+  "beforeFileCount": 1351,
+  "afterFileCount": 1351,
+  "excluded": "SDK documentation/tool copy under PlayCloud_API",
+  "changed": [
+    {
+      "path": "BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModule.cs",
+      "beforeSha256": "e03ad678c5a1c5d24782506ffbc93b1c7124599c9664430739d86830eb9fb1c5",
+      "afterSha256": "f46a8c5d2d45d81e7b62aeb6a9f0b969f5351458fb2c5b7c18048097adbd7a34"
+    },
+    {
+      "path": "BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+      "beforeSha256": "94df615fbae0bd1fd1eeeb411b575a6d2a6b7c2ec8d6b54eeaca921001c4c637",
+      "afterSha256": "7b76cab5f3e96668379960e3829c66cfa414bc23e9e6314d85f74d6f830e57fe"
+    },
+    {
+      "path": "BizzaWZ/Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs",
+      "beforeSha256": "9d0b41353470fd30bcfb3bd02a83db5590824cca6e28354827871daff9191341",
+      "afterSha256": "7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9"
+    }
+  ],
+  "added": [],
+  "removed": [],
+  "unexpectedChanged": [],
+  "temporaryHelperRemoved": true,
+  "oneShotSecretRequestConsumed": true,
+  "meaning": "Every other C# source in the captured project scope remains byte-identical."
+}

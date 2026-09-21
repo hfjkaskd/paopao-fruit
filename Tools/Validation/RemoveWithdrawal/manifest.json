@@ -1,0 +1,1718 @@
+{
+  "root": "C:\\Projects\\DJS_Apple\\FruitsHarvestMaster-source",
+  "backup": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\before-removal.zip",
+  "items": [
+    {
+      "path": "Tests/Withdrawal/Run-CoreTests.ps1",
+      "originalSha256": "7661682b770b7bc2b8ec86ac287204ca9001f42aa69e1e9ec50fd169a7d5b9e7",
+      "action": "delete"
+    },
+    {
+      "path": "Tests/Withdrawal/WithdrawalCoreTests.cs",
+      "originalSha256": "b2b4400d3ac741d9aa789086333f91362419a36c3f0a50b952a2d20de2701c08",
+      "action": "delete"
+    },
+    {
+      "path": "Tools/MinimizeWithdrawalHudPatch.py",
+      "originalSha256": "0f9d000c6a3543ae3a7a16b75717b86507b2e502535c59d14ca020e14b5a1c83",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Editor/WithdrawalUIAuthoring.cs",
+      "originalSha256": "edba50dac67260642acd379270a93cc7a1100cd49d81f8960f3b3c0d7c8e43da",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Editor/WithdrawalUIAuthoring.cs.meta",
+      "originalSha256": "7f8eb3a7de202b2f4b796d530ac0865b6f0ad93ef5c49296360db20d92a4338d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Editor/WithdrawalUIRenderValidation.cs",
+      "originalSha256": "b9a37023dbd28703967bd9605986863f8a59471d48b54e59c0c00b638ea31f0d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Editor/WithdrawalUIRenderValidation.cs.meta",
+      "originalSha256": "89395879aca7cb0ff53c1c4aece9f2c5e3f45c6726e56b22625d2434b85b08c5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/GameResCatalog.asset",
+      "originalSha256": "79742b41e4d425cbbcbb20f67bcea88908c60ad6fc083512e1e0db59f3fc7c32",
+      "action": "replace",
+      "stagedPath": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\staged\\output_Unity\\Assets\\Resources\\GameResCatalog.asset",
+      "stagedSha256": "b7e2102270c2feaab1fd04be336adb4077b2d71e703ce66966469c073834e579"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalConfig.asset",
+      "originalSha256": "8a9576087de93aab3b69d8d9427ec649f7bc275b85a91f36428f1ba6cd5ac89b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalConfig.asset.meta",
+      "originalSha256": "65a3f9453cb8684c18d7ce53eabf4f9fc852ee5a18c9bb55da6402b0688ff44a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported.meta",
+      "originalSha256": "72079df2b23db1c974ed57868c3f9f3ef1d3b2ed450bf881bbf5c42671ee4c3e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels.meta",
+      "originalSha256": "fcee460b5bd3f4851deeca113c096f5658929d11d46405a66ea1b36af7bf6f9c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/NewPeopleRewardGetPanel.prefab",
+      "originalSha256": "30dec5c8584c3716f3db6b7bfb7567cdf4821343339454a8a00ba709d5199148",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/NewPeopleRewardGetPanel.prefab.meta",
+      "originalSha256": "fd4be0a727fa10c5b4d40c9864371020e6155e322df4d32417c3999f1ec937c2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/RewardGetPanel.prefab",
+      "originalSha256": "22a85eeff2a38b0ba511bf4de03d0eb7c7ee2e7f1b551f9620072d71dc5dca4c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/RewardGetPanel.prefab.meta",
+      "originalSha256": "69385f701e0326985dc700e1cac157d4a05b92c90484732ee4a6ea13958a4d8e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/RulesPanel.prefab",
+      "originalSha256": "e6c6872ac1434e7f0d86077ff1471afb6a5b5741fc6f41bb0362c19760fd6775",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/RulesPanel.prefab.meta",
+      "originalSha256": "db2bfb28df051d2347b36b94e59bbbc4808adbb326394602eb5063e01e0792ec",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXChannelPanel.prefab",
+      "originalSha256": "4c94cce9ca6828b341225dd3f94c73eeb6ecca4554a38ef6f86902124d72b173",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXChannelPanel.prefab.meta",
+      "originalSha256": "8149bac448a652e0f3afae2379bed16c8219996e62a6182f9dc3a099d8cdf8a5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXCoinPanel.prefab",
+      "originalSha256": "d72938d942c041d4c750d7b3062fa6e7a08876d11f43cd699856fb7dbfc294ef",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXCoinPanel.prefab.meta",
+      "originalSha256": "02915328db80c414d6ff4e71de9e71dcdfedf88a6258367d4301588338340ba5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXPanel.prefab",
+      "originalSha256": "e30e8d69baf43b7bbf0f8000e17c6c03b4de7aa2e96173421c7af0f62863882e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXPanel.prefab.meta",
+      "originalSha256": "955b483c8117e9602ebe88ac679620bcf277a1931c26c90e33ac760fa396fedb",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress0Panel.prefab",
+      "originalSha256": "0b207c0c47df62d0c7f189ff2b9364168484fe69f4b86ad39df91b91da9116d1",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress0Panel.prefab.meta",
+      "originalSha256": "4a0a81bc5e7cb64b8d3c2ab77e20769e38c422759e28f1fbee418cb15c746554",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress1Panel.prefab",
+      "originalSha256": "ec770110ef9882ee6d85413c85e224e87d3dba2f9ca8a1b93db86c12f9bf2f0c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress1Panel.prefab.meta",
+      "originalSha256": "7f0be600937f256deda12398f3c807bf2cba84cd277acda7a8430cd71b7188a5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress2Panel.prefab",
+      "originalSha256": "e4c94215bdbc6afd48f0a834c3b6e2aa461ad88e4bcb7f4509274b095dfc70ea",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress2Panel.prefab.meta",
+      "originalSha256": "8164d36eee16ec25387f88f6345ed58bf4421454e30c4977858dcadc52418ce0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress3Panel.prefab",
+      "originalSha256": "93ae6194a880c6cc2f4727a17c2fd9f5c33a741678ae5981b058af31152504e5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXProgress3Panel.prefab.meta",
+      "originalSha256": "422648d69534cc108b219b5851bb10023fd902f3396fcfdc8610052695cf007c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXRecordPanel.prefab",
+      "originalSha256": "880894f379051a63d1899df1b6049b854c5670205f8549a034386657c1c5260f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXRecordPanel.prefab.meta",
+      "originalSha256": "1f562f7d67e3df84a45bd4c6071dc2068824e0d6865d05e6c1e5d6dc4317aafe",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXUserInfoSurePanel.prefab",
+      "originalSha256": "d90e37c361082cfb10b5f5bb3aa9c836029e57093c85659123622adf3526763e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Resources/WithdrawalImported/Panels/TXUserInfoSurePanel.prefab.meta",
+      "originalSha256": "bbd16a5806ff6f2f077e2710776ff808beb6a78062df4b735d8170dd637e80a3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/CorePlay/LevelData.cs",
+      "originalSha256": "35532ce53e0fabf0245e443cccef3e61cc2e2b7ce8b39097437053fbd2432958",
+      "action": "replace",
+      "stagedPath": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\staged\\output_Unity\\Assets\\Scripts\\Assembly-CSharp\\CorePlay\\LevelData.cs",
+      "stagedSha256": "76e8c6741f7ed9c41867599f48f0a8c4299b3cd7fe7e8a93ce6d805b6bcbd3f8"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/EDLHEMMBABM.cs",
+      "originalSha256": "6d996d0aa385f6fe3cfe96d60761e424a7b82ee7ccfe65a36e907c7de15c79d4",
+      "action": "replace",
+      "stagedPath": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\staged\\output_Unity\\Assets\\Scripts\\Assembly-CSharp\\EDLHEMMBABM.cs",
+      "stagedSha256": "92c2382f724c7688d3903ef089b054832c3076afbc4dde2b034d31004682d1fc"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/GameEntry.cs",
+      "originalSha256": "a67bae1fc2e282183c3721c660edc6442a02ba77f0a3aac0da85c51c03cef0c5",
+      "action": "replace",
+      "stagedPath": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\staged\\output_Unity\\Assets\\Scripts\\Assembly-CSharp\\GameEntry.cs",
+      "stagedSha256": "3dd8b0c197cd3371b68d35fc3f8b601fb341222772185b3c25e4da040329996d"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal.meta",
+      "originalSha256": "596ecde96c47333d2b5ddad8b8b4da4c68d31bf124d754639a25300bccfc4040",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalConfig.cs",
+      "originalSha256": "7f3db6e35c1ad77b67b9a59ac7759f635537e8bd333d48c3037093536babae7e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalConfig.cs.meta",
+      "originalSha256": "efcdbcf45df202f5a70c5127dd55ef45a48902bce1207183987354661a6f63d2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalEngine.cs",
+      "originalSha256": "5e6905d8a0b0cb0113d8985e8649b5a7996b3105bd9cf4de13809cdf2f72f73e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalEngine.cs.meta",
+      "originalSha256": "f85729ac02d25cfe35da0dd489375e941fff50f6c49f7dde2c470e0bf52a62d5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalGameplayBridge.cs",
+      "originalSha256": "8f88d26b8c7b34102e023908968f763b4db98374ca73222cd146f1691e67ca0f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalGameplayBridge.cs.meta",
+      "originalSha256": "ea2e9e0c5d9c39b914e2c5a2c53c28751b3a3d7ddfd40e93d0d953d7ecd1f9a4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalHost.cs",
+      "originalSha256": "177c5d6c82d96c29472cf0711b0f74047df77573665f7d63f13db087211e9794",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalHost.cs.meta",
+      "originalSha256": "35382967a35f71b2ba03ff0eeaf30f63caa20801c4b84772a3bc9c6cc30ef019",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalHud.cs",
+      "originalSha256": "e494ef933d7ae80b724afb2c32326dbe257724526d184c7485f844f62274c4cf",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalHud.cs.meta",
+      "originalSha256": "b504603e96f1141a19bd7364462d216c8172927a1af2431dcdc6812031e5cd92",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalPageView.cs",
+      "originalSha256": "c1f0a6504ce82eef37c2832dbe77578bf20a45359734efb043e9226866996f07",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalPageView.cs.meta",
+      "originalSha256": "15ca2b516f647735947f372a7071fc5462960b242626778e2b65e7af23ac02b5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalRules.cs",
+      "originalSha256": "1ccf031ca43c7099005cbe22ad0e0d7443d7d68d2659a2283023e5c62fd1b1bc",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalRules.cs.meta",
+      "originalSha256": "b0978c2551a6ed21f770b314c92d1c362643d64df4688146bb11f8def34af256",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalService.cs",
+      "originalSha256": "6587ee9bb3d57551b4efd3abada0769e40a756b38dbf78a8037371c3b843034e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalService.cs.meta",
+      "originalSha256": "8e5a8203458b47dcd182e3080b14e7dfbafbf66a1b46871cacdb9e1740789d32",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalState.cs",
+      "originalSha256": "fb4e0fc34c44a4001115caab9a8f398a000e993575e8e73813cc5a68c500948f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalState.cs.meta",
+      "originalSha256": "6ae5c2ff492858f9f3916314c040a5d31819f8d30b84ec3ed46b61169758d6b0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalStorage.cs",
+      "originalSha256": "102b2d84c1a4f5050c9dde1ad5b2a01184984468c69069fc41ace58d97e6ed04",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/Scripts/Assembly-CSharp/Withdrawal/WithdrawalStorage.cs.meta",
+      "originalSha256": "84722a1d9cc7bb23923561743a25f86f4e57033dc3cba7f8e9ebb388e0e9673a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported.meta",
+      "originalSha256": "4931a4dc3943ff73600352cc6df02d365a9017c49f7023defeabc7253b26e718",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art.meta",
+      "originalSha256": "5cbd02a0451c882f2a4c9781cc9ef0b6f89e7cc10346eebcb4842c2646cc8fea",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Font.meta",
+      "originalSha256": "9c534919a62067a6e6afb47b182987fde8fd050486ef3a2e75056e0da502b5d3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Font/Vagron.ttf",
+      "originalSha256": "528c5bf99d0c03b4ca0db07a118099ca5b455099227b825a83d83927696d0bdf",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Font/Vagron.ttf.meta",
+      "originalSha256": "293b0b9709181a0542c03ea9a62684051d0b24b84e8ab10c8f80566f9d2c96cd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material.meta",
+      "originalSha256": "fb8d90e5efe7d08874d638b2d7036bd55d362742f17cc8ccc14de2844b2d6e55",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/LexendDeca-Bold SDF Material.mat",
+      "originalSha256": "2d69043528c60f1e33a2281193b1eacce1619ce9c5ce475834e387edb5ff00dc",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/LexendDeca-Bold SDF Material.mat.meta",
+      "originalSha256": "2013134a7dceb63ae29bed93ad596626b254e13492fc945857ea9601c0ed6423",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/NotoSansJP-Bold SDF Material.mat",
+      "originalSha256": "be9e828e3072a89e101725fcd372f43eddb6a0c66a5b154c18ba12eb070c89a3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/NotoSansJP-Bold SDF Material.mat.meta",
+      "originalSha256": "bea414bda41caf50fc3a6bb2f0e2b98d9ee847ddb5b015f8a9fdaae3daab6533",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/Rubik-Bold SDF Material.mat",
+      "originalSha256": "280f113a5826d10b6c9e49f881f4f9fb778190c838cd67c6b6ede335c74e6252",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/Rubik-Bold SDF Material.mat.meta",
+      "originalSha256": "0c036d1ddc182af5753a662f7407bcf2bd1e4db29730e022dbaa66b22c7e1392",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/Vagron SDF Material.mat",
+      "originalSha256": "b1970cbfb1d97689c283a7cb848319d20ebe85fafa0f858a934904a1b418f776",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/Vagron SDF Material.mat.meta",
+      "originalSha256": "8b632df40a0d1582674316fd89426f4d6df2a245441409cfd07a5464b2e01421",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline.mat",
+      "originalSha256": "711d9798f08c903e15af009ffba48b5aa819c2b3eeda443862e838c78234ad1e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline.mat.meta",
+      "originalSha256": "688cb6307ddd11460dfb1424de356170411605b2adbc1c9ec33bc5a7757e8d67",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_brown.mat",
+      "originalSha256": "39566ad3d58c2c351295c799edc76f081fce5ee6cd49514a62f7353b0fe16653",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_brown.mat.meta",
+      "originalSha256": "f2fcf08e4b4443908ad560a9ed704b6fdab3ceae4aef9bd8926e543c46ce3140",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_gray.mat",
+      "originalSha256": "4d0d85af75aa5dd2eeb707a3013072791a723440e40a2cd93e694d684f6aedcf",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_gray.mat.meta",
+      "originalSha256": "b4b786e7c786738c1c3505b62f070acea521fea3d74817d460be6585b6f348a9",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_green.mat",
+      "originalSha256": "a1b7a643d6c72784121757e6b984d7195ef6ff8c2e510e771c1ca695d9ac18d1",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_green.mat.meta",
+      "originalSha256": "cc077ba2246e40361924bf98e55aaf02e6a486215e78b9c15a11c7ee8ee5ff32",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_orange.mat",
+      "originalSha256": "24535194975bfd34cb24d5f8c5e4e6ba5019f355aac0ac58029fe29556ad8b2a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_orange.mat.meta",
+      "originalSha256": "78a013824e65c10eba67e5a8e42869f468372a76ff8139fe3ea01d740a4c5772",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_pink.mat",
+      "originalSha256": "79f4a102b8265ece6cf856927256d68d15ae5f309a1fae9ccd016da94c09c409",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_pink.mat.meta",
+      "originalSha256": "bda9ea5e6cd284cc6f4a6eb593fa8ca8e25164ce6173336ef1b7f3dd4812a4e9",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_purple.mat",
+      "originalSha256": "a43b6db88131a9716be3ac8a8c7cf240eaef1a9fa11cc259d0e5518f5237634a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_purple.mat.meta",
+      "originalSha256": "fe27ae1062222fa8837c69e68b5fa888b9ab322cf1fe1fc2de97504cfb8dc50f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_title.mat",
+      "originalSha256": "6f83db5d9e4200d88dcea14259864126df6fbe5cdd1f68c286945a2e1107dcec",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_title.mat.meta",
+      "originalSha256": "d65b298ee2d8b735137f3b56fb2cf63778474c61756f475d2782cb53914482f0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_white.mat",
+      "originalSha256": "f03aa90705d42b84b4e1c1b0927b3581debc874d95b434cb2b57647c8f534b6d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_Custom SDF_outline_white.mat.meta",
+      "originalSha256": "8e3c6f5814f64947054dd6a8c28348d92b8bb2798a313ee0233e7a24fea24ba3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_FZCYT SDF Material.mat",
+      "originalSha256": "a429bd72f654adc88e615938dd5dd1c3f26b0372443c3c270c97302a103cd7a0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Material/zh_FZCYT SDF Material.mat.meta",
+      "originalSha256": "effac5d347eb22ece92e66d55bbfefc03049abdd1e2e91cfb6a30aaa3a74c862",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour.meta",
+      "originalSha256": "220d366763f3157f1a0bd80ef273ac94ebcd619dde461005da45234f1a0454d3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/LexendDeca-Bold SDF.asset",
+      "originalSha256": "c64233d6b7a5dc850cc68791353f5e8ebd5f67546375aa10250977fb08261d5b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/LexendDeca-Bold SDF.asset.meta",
+      "originalSha256": "a1ecb35f4f86a8d307a270588ecbf5dab61068ec1cb41cc42dc9c334bf44f919",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/NotoSansJP-Bold SDF.asset",
+      "originalSha256": "fd3bb0852136ff92a4dc40ba0340033fb670a1affa02eec579940d7b0b5321c8",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/NotoSansJP-Bold SDF.asset.meta",
+      "originalSha256": "2a3f9af7af6efc8cd5e02a1ef45ce49d121e8c37e44fe3ff952c2cb97417f162",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/Rubik-Bold SDF.asset",
+      "originalSha256": "4aeeee93df516004aee48ef079b8e34c5bcf2358585a7f05f4b050dbe7c331f5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/Rubik-Bold SDF.asset.meta",
+      "originalSha256": "2b5dd130823e4ad645337b0ccfb44cba119e314cc0b4df902b84c476c6f241a4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/Vagron SDF.asset",
+      "originalSha256": "2d55372e8867bd729321d66427f5b077eb64ee3297ea5e0ba4812183f6e179b0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/Vagron SDF.asset.meta",
+      "originalSha256": "6c8e3b35fadd7dce120e42f916720fccaab0368261e4baa9fb8fe784368dc526",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/zh_Custom SDF.asset",
+      "originalSha256": "dff6ced6d1256de11a4d279b1f0280484080cdab2e86433d1d0b9ad512085fe9",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/MonoBehaviour/zh_Custom SDF.asset.meta",
+      "originalSha256": "e0f6a20b58f7a0a13b0a8b114629b372b82907e20d636fa2c512af9ca9560b0f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources.meta",
+      "originalSha256": "f0a7dc84c23668c64f74d60184b1079df8e97b9387849be17774134775152e6b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas.meta",
+      "originalSha256": "f58a328e42525d9691e4cae9a4ccbd5d249af14505026bddc8596eed5f47f73a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds.meta",
+      "originalSha256": "4a49e3ee3cc31c1badec53ee2557f0c9ca78ec643b0be3bfc04528b48f4fe048",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US1.asset",
+      "originalSha256": "e02b23e3b2de6d34a1392acedaee108baaee82fef36e5e3946d7fdeeb9561322",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US1.asset.meta",
+      "originalSha256": "e41e776e33dbb4f8b3f06c87f01356b243b5fbae80b0a8d8fd5fa56046334048",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US1.png",
+      "originalSha256": "3e7b5041e3edeace8dfe797e044fd8510147319b0f4d249220b531d2b7e58112",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US1.png.meta",
+      "originalSha256": "152f00288e3b605c1b9e506db6a48d9bcb9632367702215eb3ab3a47837d424f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US2.asset",
+      "originalSha256": "b218080c3fccb4762c7a01f2961fecd6e8d8f79624ac34ed2a7430514cb2fb21",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US2.asset.meta",
+      "originalSha256": "32ff40dda31df84046fc81ff567a60083622969cbe9b7fb7be5d7461a33986b4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US2.png",
+      "originalSha256": "93b47dc721b8e80b3b3ab8c752d1dde0e18faa27938014bafff2a81f9712b452",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US2.png.meta",
+      "originalSha256": "1c3c5c6b59262d4f123fa9f91a4cef9305602394fbc87b35e2c593354be36532",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US3.asset",
+      "originalSha256": "1c36ac7f02c99b5b459bbb9eb1a7046a9daf8a74196d8e1b0bc344bb0adddaf7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US3.asset.meta",
+      "originalSha256": "41fb0fd780ac1a1d0bbf7b994b0ee6c63cd045d8fa3509b7422d383cde0b8849",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US3.png",
+      "originalSha256": "1b32396e937c7d8432dbb7c120d10f8e86567796ad5cefdff1be51a3046b16b5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/golds/US3.png.meta",
+      "originalSha256": "d64769b6794a432bac69ae5cb55d18dcd1484a91dcf3ca91b30bdecf21adedc5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items.meta",
+      "originalSha256": "7af24ddc8ed91f67982bc71b99db31f588e85b6be6255102590a4b1b624dc77f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/AddScrew.asset",
+      "originalSha256": "c59ad76aab9f87496b3e84d536790317182648a6d720b379f6cc8b038e1da6ce",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/AddScrew.asset.meta",
+      "originalSha256": "6509415c2480712824b875a9b14a3dad37f28a933b83383a4feb9a90c67220b2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/AddScrew.png",
+      "originalSha256": "7d5f6aadf1de147f2b269d0904f291f360e2b5f0ff2a456ce1b61be7183f1cdd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/AddScrew.png.meta",
+      "originalSha256": "f2dc668e9a51e0c8cb05b6b4f130eb3c47735eecdbb7cc046c80121cb8179e82",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin.asset",
+      "originalSha256": "e6c9ededde6fac760f4e9f688829a4c47cab1b7064e1da95f904cf76971221f9",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin.asset.meta",
+      "originalSha256": "d29222c9b0525abc441ed6db9958795f85f2f58f12bbb47f5fbc2ed337fad239",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin.png",
+      "originalSha256": "a448cc65fa0e5dc61cbc07afdfe769dac4a5433417df401c5052ef5c451ee0ed",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin.png.meta",
+      "originalSha256": "2cb805473f341bbbe3a46d97061415a62857a7e6b19050a9d50bc3dc2ac4fb66",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin1.asset",
+      "originalSha256": "cc1b3239bdaa1253d2499288d8d731e2d198282a0607f2dd58ae21ac647ee34a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin1.asset.meta",
+      "originalSha256": "3f7435b2ac8932f62ccc3b270a2a559f572542b2137587309070aec4be5f087a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin1.png",
+      "originalSha256": "bc968954b95e7a8ad31ff9c96ceda84cf822c9639f9b7fe163b157c43f2e7e3d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin1.png.meta",
+      "originalSha256": "40ed4c0943a586b38c22f9215673d158a91b2ec80575524e823d6fea6e19136b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin2.asset",
+      "originalSha256": "6bba2e2d3d1744656376e1a88d22c3b33e0c8a7489d636f60422cb23a9728d2b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin2.asset.meta",
+      "originalSha256": "e35152197ef369e221a995711d3b7c548269b87a39c06215e46d1385fc126c27",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin2.png",
+      "originalSha256": "b06a92250b4de11f3005138e1c7660d592494e8d6c02d46963e69caf089f193b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/items/Coin2.png.meta",
+      "originalSha256": "aaff09fa621060a96887050d606420148148f75b4bc054922d862a9ebac12b52",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay.meta",
+      "originalSha256": "8f50b08377d0ed864a39edb5bf2b53e276a9b9ff01e6a29904224a7366943f96",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/Other.asset",
+      "originalSha256": "fb0f9b80d494b7c0d0c0c8cd4b59905d606366a94eb67fdf6480a808c236dc76",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/Other.asset.meta",
+      "originalSha256": "140afb28eabbe2e097659a806057dcbcc7fca263e749939b99846f53d338ffa6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/Other.png",
+      "originalSha256": "575711249cd0f6d08c9d0f1f3faee042b9dc7a9bba58f9397c2269450a3d21a0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/Other.png.meta",
+      "originalSha256": "e23f73e1b522adf7ecd2f4037bada4846ed35ef8711267cf4a8010286ac003b4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/paypal.asset",
+      "originalSha256": "f35f1c3f8b2dafbe30fbc6f7ba98c1c6d0600d1c3a60adf11e76368158c2fef2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/paypal.asset.meta",
+      "originalSha256": "005e65ff25c566610c35f4357350d7fa131f18e1b65b26674e36f355cd0dffaa",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/paypal.png",
+      "originalSha256": "be1ffd081f67bad46fe7b060c0f80119934de34b52a35914b81537f2fab3ec2e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/pay/paypal.png.meta",
+      "originalSha256": "3460c7319dbe041680052ada8e780a5dcdb67205b90e2ced98c80e74af88b0f2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/paysimple.meta",
+      "originalSha256": "4d4e81a32ee5079fb2e4170bc65741d4d549814029b6437abed354523636299c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/paysimple/PayPal.asset",
+      "originalSha256": "cd05e792789bac7141c5f751ef5440ab673b739e249cb6ff012261ad09fcd75a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/paysimple/PayPal.asset.meta",
+      "originalSha256": "0ff947ea3439f64e42d4583e37af82dc124ce6b19867b7b5c7531cbaa1ea0fd3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/paysimple/PayPal.png",
+      "originalSha256": "c19c67207069efc639a98e0c3a1971ac98a0908b3cfc9df29a15a00c348e27e4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/paysimple/PayPal.png.meta",
+      "originalSha256": "21eb0c30e6dffccc900d07b112780d379b1e659d744cfe8ec369cbe7a9faae94",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel.meta",
+      "originalSha256": "c7e123770622f2b55720c1f33d8d568d71d956e9e19511a42619823779e31560",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar.asset",
+      "originalSha256": "9ea90e7af74387e44ef19b78b0a358f45adac5913a0c6b64649bb0b7683f6dbc",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar.asset.meta",
+      "originalSha256": "6222c0c7ef3b71f652f7104328ba4e266c39feb3eaf0d90719dd07521959a2bf",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar.png",
+      "originalSha256": "ec00ca888497af75e65a3d3483075df2601e1faa3a6b946a546e1a7dff51efdf",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar.png.meta",
+      "originalSha256": "196c94a66576f8238fa7be61dccfdae2b3a72b4cba421980a0a8f45ae4ab112d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar_bg.asset",
+      "originalSha256": "89036f31288af17436debf896cd319d42e6f7b4fb4755d342448693718fa0028",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar_bg.asset.meta",
+      "originalSha256": "191915701afc8cf1d278f8fdba598b7792e7512fcfd3fccb2b2c8ed1b50c9fa3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar_bg.png",
+      "originalSha256": "d1f3d245d859c792d1dd2e646b2b52bbab5f82eb76627c5bddd244bc94348b2c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bar_bg.png.meta",
+      "originalSha256": "cddb3c5e52bd3b3d4d1109d3a7d6e3617d6c1a0b75910cb666f678ecff2ad288",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg.asset",
+      "originalSha256": "1bc21fa80dde27a299a2a50443f52eeaf38c5139d74092d419353a32f8b2e530",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg.asset.meta",
+      "originalSha256": "a2aa5794329a68a87f9638a155bcceccd8261d5f8dcbe00511fb6531ca25c7fd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg.png",
+      "originalSha256": "db3344b1b6bdd0bcc3580bffaf72d4c80533f1917bff2b4f84a31f6db0840ef7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg.png.meta",
+      "originalSha256": "699f70d280a882f3444ea58e4fbdb5c2b42023352bb768952b04abe45c5e87b3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg2.asset",
+      "originalSha256": "6bf804e7bfe4ed5a5dede208a377b6169f0afe5688109a35d5976511910fcde9",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg2.asset.meta",
+      "originalSha256": "b818086c7c2835fd84bcfe67fd5c06851c70aa8d2cc7293b0167c33f16298b8a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg2.png",
+      "originalSha256": "7a3a75235a163101ff5ad3e099c1dc34da2c318c19f88614497fbc4069c9a02f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg2.png.meta",
+      "originalSha256": "6f82c75ed432b25b9fed7cd4772191933ee595b74d83a145bf8a90bcd96edc37",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg3.asset",
+      "originalSha256": "77531e132eac621745ec9ac6aa2d3f36aa226dd498367e3d33fe62e48a802e3f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg3.asset.meta",
+      "originalSha256": "0e14c8eeb2d33edc4723be5ceeba691d9d96a59b65813abcadaeec3073b11044",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg3.png",
+      "originalSha256": "998143d3818d811863bc19c73d839f493a7dc8d727d2faba4efd31a64a3169d0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg3.png.meta",
+      "originalSha256": "946194ad280f328240500e9ea6c3ab0b0ca8f6577e869abef596e8ac246d3ec7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg4.asset",
+      "originalSha256": "60730240de2d5b8ec70de2bcdc74b44c6aa8d03f7c286e4358e47607bc0e6669",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg4.asset.meta",
+      "originalSha256": "c1df6a6c3fc26fee06fba60228c3e0f368fbccb3e5036fc703d5c81753191384",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg4.png",
+      "originalSha256": "54ec7a96ad214617faca8cbf3739e217247a250867f9dd2e808e43e6c0bdbae4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/bg4.png.meta",
+      "originalSha256": "ec62d62aea3081f26f90649e15e4f1d84b484f7a897c09ff6803a7bfd5fb0206",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1.asset",
+      "originalSha256": "58eaf06711d0a64954c7248ac782dc86f77b782824d75b7aa84d0cf80f727fac",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1.asset.meta",
+      "originalSha256": "a02316d8d7a52cc0c08ca73b702da34c62a10646fe575d8d10f2b05b8edddbc6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1.png",
+      "originalSha256": "2407ea3eb02c73d7a71b74c6ddffa411ec0d309be45ccaa4f24c472e64307715",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1.png.meta",
+      "originalSha256": "d385a103043e71acfcbcf0f751f1b243b504378f4749edc344c8e35d9ba3cd4c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1_1.asset",
+      "originalSha256": "7ae84e8f6a564fb888b0b6974d72ab6a98e6e18bd32535644577d589273f5f78",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1_1.asset.meta",
+      "originalSha256": "6418e99d2490794f0c5cb740b5a0ba8a4cede41d64cadd6582cf6f108101d097",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1_1.png",
+      "originalSha256": "ad6454f0f1788cd34273e4a0cfc1cc5605f2e4e497cd2d256e60e2011b7af70f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/item_bg1_1.png.meta",
+      "originalSha256": "405055a024220d357090159d0dec95677ff40ff88d8854214faeb09a2ed1b323",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/tip_bg.asset",
+      "originalSha256": "1bd82cb59f4e664f20d243f04c12fad357ea4b5f77961d3f76ac765ac006ec9a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/tip_bg.asset.meta",
+      "originalSha256": "9c7121e7053c8664d13ec275eab07e64742bd8daa336450ad92eefbbb08c967d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/tip_bg.png",
+      "originalSha256": "bf861125e5eb4b6189f569d3a9a1a0280bf31a866b82b70cfedaa3b08fff8cf2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txcoinpanel/tip_bg.png.meta",
+      "originalSha256": "8a1bd8320e0f95a8bb1ecbefb484ba18746dd311d369097ad38e1a393527a4e6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel.meta",
+      "originalSha256": "930cdec41f84314631c7c62feb1f4cc79f23a71d125da05bbd7f91e9a1e4e1c5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg.asset",
+      "originalSha256": "a944f04c849321df465aa5479221e5eb04282ef19dd819372ecf19ca08224ce3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg.asset.meta",
+      "originalSha256": "b638f877499279da75da418567c3005b1b418e5020f9891e8a52b5d67d433d02",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg.png",
+      "originalSha256": "52d5cc51a452056f0d188c00c15e679e1419688a1eff585857d5fdff7c696f3a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg.png.meta",
+      "originalSha256": "33722ff884e7996811831873e54ff11c95088fccf264a7ac02c11375ab0458b4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg1.asset",
+      "originalSha256": "fe69ef1e2069d2c787baabd28b32e38a80470fc79b7067b1428deb175de04c55",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg1.asset.meta",
+      "originalSha256": "450e0bf60eb8eb3b4064e881a052e1a9fb91cf95ffbad3a8d90554ba44f983fd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg1.png",
+      "originalSha256": "fc71fdbb8ae3530a3be5f69b95be459525a7b2f0f6435430c273b5064b505ad7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/bg1.png.meta",
+      "originalSha256": "e7e568128291b8c556077c26020d72f672e3e38405afa63b4c0bc6ad03cfa424",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/item_bg1.asset",
+      "originalSha256": "ef7116c34a92528cae894ff9fb6e433805c8b519ca78a3f5ebfac5a3713222ee",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/item_bg1.asset.meta",
+      "originalSha256": "cb71ee4565f0eb25848b6e58381a4589d93ec0387cf619643914e419f8eda271",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/item_bg1.png",
+      "originalSha256": "2ae179a9e4f0464e4dc8732b978dcdd9378479a06015e18bac3890ed7520af73",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Resources/atlas/txrecordpanel/item_bg1.png.meta",
+      "originalSha256": "46d8863f2c8d324b916a664cede3dfbbcddadb988a7531185b622b78ab589881",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite.meta",
+      "originalSha256": "7f3316bb5b422868a9f962c5159819eda8c1bb2fca0dc34b9f8dc32ea5d3416e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/ad.asset",
+      "originalSha256": "8112ce964dc55efd61bd81280bf922b3448523c03e67d73aa3e8b4e669db1718",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/ad.asset.meta",
+      "originalSha256": "3f5de93c0b89f0a3f67a3ddaaad0e10c5d25ad9dcf6d9b34df6f8d4c5460cd66",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bar_1.asset",
+      "originalSha256": "88223a205fb0b9b301995a79e8145ca6b787a90b7cfc33c00e9e59df650b1622",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bar_1.asset.meta",
+      "originalSha256": "4a7bba61afd2d37a76e24a09f54387d1b760726d74a98151c01e10d2c80416de",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bar_bg_1.asset",
+      "originalSha256": "bbb6d437bf7c28d0e60b28cd893bf2af2d15489d04911f5cf249acb121f9fbb6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bar_bg_1.asset.meta",
+      "originalSha256": "24786cab7f7d3c158e78acd132c1ec5f5ebbe445b9d3c4e01e1edda7b867eaee",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg1.asset",
+      "originalSha256": "684e39fc5ea789ac3acdf2ac6c9066acc94b531811cbaa265188e68186c6a190",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg1.asset.meta",
+      "originalSha256": "c7bed0e1abe88504d33ad0cd6ff482787f7f13e75d487c744eff4dee28cdc3b8",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg1_1.asset",
+      "originalSha256": "38ca2db21d34058ea4e839a27d96d16e9722c0935f02e3cc382eca63fa583182",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg1_1.asset.meta",
+      "originalSha256": "6c7871dc26e17ddb4c21b9c11a16aa81105fe36eaf8f896ea87b40f98728a226",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg1_2.asset",
+      "originalSha256": "ac2d25f2d95550f8aa59560959393cd23c4461b24c9b910b4af8a8e093369e0a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg1_2.asset.meta",
+      "originalSha256": "8bc3645c99f936ca2ca0a15e435211ff96c47cab227044e0d9c5a892c6a5e630",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg2_0.asset",
+      "originalSha256": "a140ffd595818176a358068e13418bf74b9a782ca66ebfa50625dd5de332c11c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg2_0.asset.meta",
+      "originalSha256": "a6c7aa4eb93bc915ec26c53852fd1f3569b0705c106bed020daf3cd424138988",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg2_4.asset",
+      "originalSha256": "5c3e8b624ec65fd54424e9fecfa10fc7e6c03e72a7366ee32592819cdd952476",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg2_4.asset.meta",
+      "originalSha256": "6146834bc6013863c62aedf8522701177297ee18e3fa94d6a671d55f4a9e3f5f",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg3_0.asset",
+      "originalSha256": "6ccb57d8b2cb5cf1f328cb89a2c549dc6a0cfc1f6c009c187f6ca0d9b7683f99",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg3_0.asset.meta",
+      "originalSha256": "ac69ed3182799d0c8eeeb7254a8676b8306fc6eedcb2480a50a2129f995dd49c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_10.asset",
+      "originalSha256": "0c91173291b467c92740c599b6e29aa84ada72a36169b64e6d8db8e257bded0d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_10.asset.meta",
+      "originalSha256": "342166b924b7dfae064d5352a3fb94945cae4a623b8dab77a839e8c962e4cfab",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_11.asset",
+      "originalSha256": "e2968baea0b2088be11947536bf40d56ce64b9726f0cecb1e25e3d242e8ce610",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_11.asset.meta",
+      "originalSha256": "c5e9ec7724bc3b312da6a7033b1ca137a6027e12f424f377bfe90bb0be9a1483",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_12.asset",
+      "originalSha256": "c017f5fa8c76ca3cfa8f3f0b076afbf3b6563d33a752e0ebcb4c0beb5b34ca43",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_12.asset.meta",
+      "originalSha256": "2e33b5a19ba724977aa771dc37efe9d9deccf9d43a5a534b2b2d44307c096d48",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_5.asset",
+      "originalSha256": "acc5ce40183b4202f2fc0029353edf2915b2849616aa3541d2904a4a8288d420",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/bg_5.asset.meta",
+      "originalSha256": "2c6f981fb25d5c2e10f8af0a05dae11268c3277fcb7fcffc8ea3a0bc6dc0c443",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/btn1.asset",
+      "originalSha256": "ce74952de35397df205e85efd6f145aa58e69466e5d63778ec932db2bbca6ec2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/btn1.asset.meta",
+      "originalSha256": "e2b9b0fecc878cfa834f335dda9bf8f64af9b76b8471e7b7a3bb743b73a0ac07",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/btn_0.asset",
+      "originalSha256": "7f822703dbe3e907c39ccfc0e4fdecfaf983d41bfb7dd5b685aeefdf6be396e3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/btn_0.asset.meta",
+      "originalSha256": "0d991ea76e3a50206d96f2a9a61f2d786ccfecb1b4f602578a8e3ec3bdea36f5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/close.asset",
+      "originalSha256": "8cbd6c3370d8e6132ddff1b42a01acf15d8984ef39a32409d48e9a71a177ae65",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/close.asset.meta",
+      "originalSha256": "e15c52af262aa3de15ed0144082d6891bbda8a17f001555322ad29381b015bfd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/done.asset",
+      "originalSha256": "d1e89b30a9389ab4848c99c1dd4057ba65fd6e81590c2de1730005966284fe44",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/done.asset.meta",
+      "originalSha256": "c175fe05324b3fd68858474d326c0e4850ed34780aea9a44055585e0fe4ae652",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/lien1.asset",
+      "originalSha256": "52ab8f6dbe242c31b6b9669d59d60e6fae426eb48de07759a877e5ca3ac32e6a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/lien1.asset.meta",
+      "originalSha256": "dd36ee40319ec01bbbf57087954600e24865cc2e1c80c438dde2ed99fac89acb",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/line.asset",
+      "originalSha256": "2eda2598532695576e671d68cf98e05b9af7b6a45426e52349bf9a0bdd3942d6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/line.asset.meta",
+      "originalSha256": "da76663a8fcb065b3d969b37e35f6c43515b1d0b87bf8d331c5eca8c7ec58e29",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/line2.asset",
+      "originalSha256": "74626f9f76bb52119c29ad49662f68376eda73ed29a8ed6f135fa9b6338c388a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/line2.asset.meta",
+      "originalSha256": "41949fa58f5e001d064475af9688deabeb22beef0dbc0ec418756d1d3b4af625",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/loading.asset",
+      "originalSha256": "759aad3a79da6d0ae2e1f57e2f863b2446ee7c11b2e0eb7b23abc0847f0504fe",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/loading.asset.meta",
+      "originalSha256": "8fce8745d4204a9518ff524dd9b2c566e89f07d20b5bb5b66e47c7717e781d4b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/loading1.asset",
+      "originalSha256": "616988f4ad173afd9fa323f6c2b440a0fb01b16a3dfc0ec590436f59ad8293f2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/loading1.asset.meta",
+      "originalSha256": "06e40c90520342a9053bf35a4f93ac38f942b6073ebf52234e8539846b7388cd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/state_bg.asset",
+      "originalSha256": "0fe598b3c2b2ed8c1b05bd3f3be510573b1cdc11b54d12b1b4e87bfae5e33464",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/state_bg.asset.meta",
+      "originalSha256": "afa12729472cc3c32104149e647b5dc557465755cdc53f278299ea274ad75d84",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/tip_bg_0.asset",
+      "originalSha256": "975f18cb81d0513e28e8f9dd0632b570060933a13e27c8d33a586c6a57ca91a3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/tip_bg_0.asset.meta",
+      "originalSha256": "6a25e67ba937ac1361c142f2e1c8fb98071042af31b0ab7818680297e2774754",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title1.asset",
+      "originalSha256": "43ef6e27dc5b699d3b6c132e40f62b8f20d3b943740c70d8d35fd1e4152b5521",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title1.asset.meta",
+      "originalSha256": "7e9ad7838adf1202f013dfda29625a7a7667f27390d2ec80b4aec61b7a7f9887",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title3.asset",
+      "originalSha256": "f37fd63d62e2448a38cb6e5456fd0809ac171eb2909c3a34b3ade1da6c6eff60",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title3.asset.meta",
+      "originalSha256": "88f8f4ee1eecced2da4fe7c354a2e077079cd9a55744bce5959dc0f2cfffbb2a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title_4.asset",
+      "originalSha256": "d23835c7c23a366f88915c1d342d2783d872b92c15340a713e4ab7fda6248505",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title_4.asset.meta",
+      "originalSha256": "d3414392769712be92fc03e9d53691be7a584b61d59d461bdf11b06f7fce607d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title_9.asset",
+      "originalSha256": "4385e6ea71be832622ac5191a930d5c24bd933aff34b74cd121cfb275ad7d00b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/title_9.asset.meta",
+      "originalSha256": "86c5608622b001e1785422ec543ae619854300b033ecf30ad7b70c05426d7e17",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/undone.asset",
+      "originalSha256": "1e5f478b08f77e13d336f424f2b80f018287fb96a29f6f61e5aef9e1c1aa7d3a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Sprite/undone.asset.meta",
+      "originalSha256": "76938d9dacd52642803de864c835577955a4cacc3b2d81c192eee69908b738b7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D.meta",
+      "originalSha256": "441a7ab4fe62de9284d16c5856d0f76fb890f46cdef2fa6554e6285a4468ee9b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/LexendDeca-Bold SDF Atlas.png",
+      "originalSha256": "d480371376b33fcde7823f81dc4cad006c89a01f3261e7fede5acbf106a29328",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/LexendDeca-Bold SDF Atlas.png.meta",
+      "originalSha256": "3de059e51a2a1ae9d8317dc4aa677ef23433a7cfa8dba7e51e5d48cef79beade",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/NotoSansJP-Bold SDF Atlas.png",
+      "originalSha256": "e427253a4ee15d95664c4261d5ce016bea480cd784cf2c281d5d70b14903d4bb",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/NotoSansJP-Bold SDF Atlas.png.meta",
+      "originalSha256": "531bb47a0ddb873c269e6bd17ac725b05fe5049cdee6adfa54ad550611158bcd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/Rubik-Bold SDF Atlas.png",
+      "originalSha256": "d926029147e9408c17e2c68b022a0b6008a02dcbfe12ad87e344739f770b292e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/Rubik-Bold SDF Atlas.png.meta",
+      "originalSha256": "f09f3e7be9b636880915efda42839e747dcb7fc0962acd86bf4ffbec92ddf81d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/Vagron SDF Atlas.png",
+      "originalSha256": "70897dc124c844c783a6777a69c0de81e3503a12f5cfcf3a578567f9f1e7014e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/Vagron SDF Atlas.png.meta",
+      "originalSha256": "48b5922e186ee68100058ed0e70c23325a628c7871194fcb2e0919debc1d2ce1",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/ad.png",
+      "originalSha256": "920eef930f08154988212e5f19e519d8694dfa648d5146ee7a84205d00599c3d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/ad.png.meta",
+      "originalSha256": "de1b791cdfce84cc9645962f882dfbe3933df2db6a3fefeb203119147b3d6165",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bar_1.png",
+      "originalSha256": "efcc83a5023bdcea2854cc8981147665bcf0b0f8a1e1d05b942bbe8835943917",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bar_1.png.meta",
+      "originalSha256": "8ddbcd698efeb9609896cb5409146c1841f3d344cd80786d2dc9f39102cf9ea0",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bar_bg_1.png",
+      "originalSha256": "25a936db91d7eeb4deb501225f6fd159468024d7b5b3057936ce344a25f15119",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bar_bg_1.png.meta",
+      "originalSha256": "2808143b5f582948b6af6685c040a98695fd19ee50449493d857dfd0d28cabc9",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg1.png",
+      "originalSha256": "13a04ee9bcf9a0bf145e67f742dfc53c9daf54fad7244d75cc175377f0a3a77d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg1.png.meta",
+      "originalSha256": "c2e5b54e64356a4d80bf4e3bf66fedbcbb78d3fd5ac299ffc30d646b734218b5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg1_1.png",
+      "originalSha256": "2988ddc7d20cd36520f8e99ad1fc5b94076fabf0a9f1b0f47fd86b685f5b1f1e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg1_1.png.meta",
+      "originalSha256": "e1a83c1b7d5a22014e6ebf8ea207e1a35ce4b28a0a7fc7b1e15e4499c2cd2814",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg1_2.png",
+      "originalSha256": "13a8c3ae371b33a2a2a2b19cb6508051dd977a2949a50a8983d5b4bd4344fdd8",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg1_2.png.meta",
+      "originalSha256": "59dd21d84ee02baf5f03338c837c29c16f74ed36fa7145872bf4079c4eac80ae",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg2_0.png",
+      "originalSha256": "b25a7f6dd47abf04be32f2fa3ea6f6a8bbd165946feff1718f3349e1d4276da1",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg2_0.png.meta",
+      "originalSha256": "3090526618d081af58d580a6268bedb14b90a0b6be04abf1006f11c2be162493",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg2_4.png",
+      "originalSha256": "0be0999d700e89f24f33c14bf9643d9f26bad7bc49ef319ae16b1433b6025266",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg2_4.png.meta",
+      "originalSha256": "b3ab3ae5947f2981362f2f6d28e776bcbac1625975e87c98ae0be16e7ee193c3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg3_0.png",
+      "originalSha256": "7278ce8cbe8b06f605a1384908a4fd674df4de1c60fdc2b772b8002dcfdc727e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg3_0.png.meta",
+      "originalSha256": "9f6e47d6e48224a41a8503c1920b35fb6cd96d91abfae01b0e3dccda00b34495",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_10.png",
+      "originalSha256": "feb55edcec5a821d39511f245664121d57ac711e1d6c2ff2d5f8c29c715dd5db",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_10.png.meta",
+      "originalSha256": "586ea7820de5b1c38c95d395651424360158643a8bb4e99fbf5ccf7968588b4c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_11.png",
+      "originalSha256": "9f4016ffde30bd0b2797e02206667d916ff7bbbe0769adbac92e0b98e22dfec6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_11.png.meta",
+      "originalSha256": "fb79708a2ce16f920c128ebef88b72e6bf5df2f59d6c3629430ca8ba51c6d844",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_12.png",
+      "originalSha256": "a60b0b97a7f46fe75e290833c7d039f0b2e8bbaaa5e2ef4f511e4c8fcf3b189a",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_12.png.meta",
+      "originalSha256": "64501d8bbcda6d660c8f99d36c42bdf7a0711801b2d1bbe9341a726f0354e3c6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_5.png",
+      "originalSha256": "04a8e659430b923ba3e679113c98091fa60978109afabcddbeb9e18109d43ab5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/bg_5.png.meta",
+      "originalSha256": "5414c3b7f19c35209b13679837b150b7429b2afcca81f0ee4725e4fb4c80d5be",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/btn1.png",
+      "originalSha256": "ad95ee7bda2a0dbcb934aaae3ef3e5600edcba8440cb694b50dcedcb5e7efa31",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/btn1.png.meta",
+      "originalSha256": "dbd9163fed4d10f7fd2933e9543b38a8b8f306994a4500a71287b5aaf62ab997",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/btn_0.png",
+      "originalSha256": "f36302cef8b2738e0a733f14cdaeaebbe25235abead259591116b8eba459ed38",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/btn_0.png.meta",
+      "originalSha256": "d336fa8bf6d3bab1ef24098364179a284fb39478a8b6b9e9fd8147652a12e009",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/close.png",
+      "originalSha256": "b2ec3e8a40264b5dba1d095463424991c6fcaabd6b62ee40f75eeee269e17929",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/close.png.meta",
+      "originalSha256": "57aaef422e2fa2607437967114860fbd5aefd611220db7f4eaef0c44d2dc243d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/done.png",
+      "originalSha256": "82ad27f1eb0c5bd6d4197d472b177f3970866024439f115e07ab26be027c6e7b",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/done.png.meta",
+      "originalSha256": "f4948e7056ffe70731a327a4294f5340e0e5d000da2e808d5c1a51b6221565fd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/lien1.png",
+      "originalSha256": "c6c00c41f0d7d7a8587e73253bbc5b061e6b4c4335725b3e758611038fd478a3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/lien1.png.meta",
+      "originalSha256": "c4da18954bfeb55e8126069d5b626a9b1bf2a82a795760cafabbbb24a8e9bcd6",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/line.png",
+      "originalSha256": "c6c00c41f0d7d7a8587e73253bbc5b061e6b4c4335725b3e758611038fd478a3",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/line.png.meta",
+      "originalSha256": "a3d756df6e60ab48ccd62c8ae2965bc623aaedb82396edbec306c4e9fb2a963d",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/line2.png",
+      "originalSha256": "89c2396f8662d0c25f41d1430ab709051e871caf6db7beaeb55521873e7ec450",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/line2.png.meta",
+      "originalSha256": "34048627b11d4d75033d219fa20e41089df22c91be06154b1a498da24b2cf595",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/loading.png",
+      "originalSha256": "4b6d94061d92d18fd354a23a49691dd57d8a4f8dbd95d23b443a21521b741662",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/loading.png.meta",
+      "originalSha256": "2e62adcce1e9e1df4d18d272e036be692e0b64d5c1b2ab515909fae4c0441278",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/loading1.png",
+      "originalSha256": "043b1be60d543f9705de3394b873e57af634ee0da44eee6286509d6ce2266016",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/loading1.png.meta",
+      "originalSha256": "2f962b2ad23b2987381ae6b90864d269042c9501c6586faa99d1e6e267b905cd",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/state_bg.png",
+      "originalSha256": "2424d49e32e1c131557a25b334973c7420af04cc185ff2686640a07710ff59d1",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/state_bg.png.meta",
+      "originalSha256": "3f6b75e532a63f63ef9a5d63801092e41dc1e47f667bc66882be05b6332b72c8",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/tip_bg_0.png",
+      "originalSha256": "95066432913f59fef7da558a8d21c5a44bd03e1e201e110681c9351000ff84bc",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/tip_bg_0.png.meta",
+      "originalSha256": "003a9b525ec66ad6544ede4886a1af89c468a2afaf4c7e35c4930d50fed0bf5c",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title1.png",
+      "originalSha256": "76101811c0340741d4d92e5b1f677f4ef2c8034e249664a4456a8612bad675af",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title1.png.meta",
+      "originalSha256": "a3967f591ae6c315752c7245816e03d656ccf6eb13dd55310bd256ab6a167747",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title3.png",
+      "originalSha256": "9d343135492c53b69f28de80ab8c464316182df68d9eea0f248861d1a4ad4c88",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title3.png.meta",
+      "originalSha256": "6b911e7d9693e72dd72d21c34b3fc7be77308cf9d19a69451fffac22340537a7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title_4.png",
+      "originalSha256": "bd0dad9168d1a48647203fa5f107929d45e330e132c87c46f069aecf5ecafc08",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title_4.png.meta",
+      "originalSha256": "b6c141e5ac536dbcbe1493045c113bf37f6ef051f915e94da616cc66386091fe",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title_9.png",
+      "originalSha256": "c5702d32803a94f28dd7f9d154209fc6e59bc8d828a59a0726efc2ada4eb9be4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/title_9.png.meta",
+      "originalSha256": "328d2217cbe4ea3d3be3f57c2ec932565d4366e8fb59f0eb0ec34acd08a7cdc7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/undone.png",
+      "originalSha256": "028dbf086fb97df5efbecd6a3289a2f6d8a5ab60a3732ab17402d1d1a0c6e6a7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/undone.png.meta",
+      "originalSha256": "86fd90eed1200da8e3a7b3ac80d2397043cb10f787306e837c44a7e4f6b0e5b5",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/zh_Custom SDF Atlas.png",
+      "originalSha256": "744ed79fb4abea7a1d9fad85c9f8ad47a49e8b006a447b0b302bfcd329a6c536",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/WithdrawalImported/Art/Texture2D/zh_Custom SDF Atlas.png.meta",
+      "originalSha256": "806a3db2c460045e292ef5ce8ca913c72eaba9f52caf199bb7526ce5c187594e",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/coreplay/CorePlayUI.prefab",
+      "originalSha256": "7aadf3289edf2a6c97282e4aaaad3a8ef686497353a5172ae55173d0c2c303b3",
+      "action": "replace",
+      "stagedPath": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\staged\\output_Unity\\Assets\\res\\local\\coreplay\\CorePlayUI.prefab",
+      "stagedSha256": "20319489c7b8b9ab1a0ae4f4e83ad3e90be54efab8a857160d03a22711197074"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/home/Home.prefab",
+      "originalSha256": "43a8dff72debdd3b6dcfe8671ab0de9d47dbda06986a07cabc01b0b16aeffd0a",
+      "action": "replace",
+      "stagedPath": "C:\\Projects\\paopao\\Tools\\Validation\\RemoveWithdrawal\\staged\\output_Unity\\Assets\\res\\local\\home\\Home.prefab",
+      "stagedSha256": "b73eb2167c505b2e6a6e862410909792bab50d2b13c6f09e1ecaace83abe341e"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/withdrawal.meta",
+      "originalSha256": "536610d7dbf49af35f941cd0c5be38ce60b7571e405a66046db729bdba882b83",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/withdrawal/WithdrawalHost.prefab",
+      "originalSha256": "10ac58d025dbe30dcd7e4df9784733557dbad06b149896fa780cde567bf0a7d7",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/withdrawal/WithdrawalHost.prefab.meta",
+      "originalSha256": "a0453573507ae0de0df0fa16384294e5fef044dd0462d825f529d61fe018b697",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/withdrawal/WithdrawalHud.prefab",
+      "originalSha256": "4304cd64ce872dd7a87cf419d0ba9d159d4ef846232d50d138da09cd41a318c2",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Assets/res/local/withdrawal/WithdrawalHud.prefab.meta",
+      "originalSha256": "3f9ded7e4338fc135d639a92ff3f847408d3530b1395c7e1b5977a5e67290301",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Docs/WithdrawalPort/README.md",
+      "originalSha256": "cccf65c553284fd74a62cbda728f84eafcd8ce2dd50fb8f0e30538f087c777f4",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Tools/ImportNutWithdrawal.py",
+      "originalSha256": "ff430630ac202786aeed809625115a141fdfd353611e3d44b97ba38b20f35035",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Tools/NutWithdrawalBindings.json",
+      "originalSha256": "121cf7e71129ca07ff9a675524d99fd38fde46ccd64be952e8c2283da5ff5f04",
+      "action": "delete"
+    },
+    {
+      "path": "output_Unity/Tools/NutWithdrawalImportManifest.json",
+      "originalSha256": "a92e261c417bee4ed5da0b8489161dc773e135ef816e15c848938a3a5e18a703",
+      "action": "delete"
+    }
+  ]
+}

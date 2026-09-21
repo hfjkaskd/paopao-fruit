@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
@@ -10,10 +10,11 @@ using UnityEngine.UI;
 [DisallowMultipleComponent]
 public class UIPropEntry : MonoBehaviour
 {
-    private const string LockedPropIconResource = "Recovered/UI/hud_booster_button";
+    private const string LockedPropIconResource = "Original/res/local/coreplay/sprite/item/Item_Lock";
     private static Sprite lockedPropIconSprite;
 
     public BizzaButton btn;
+    [SerializeField] private CorePlayItemBtn originalPresentation;
     public E_ItemType itemType;
     public TMP_Text itemNumTxt;
 
@@ -30,6 +31,7 @@ public class UIPropEntry : MonoBehaviour
     private bool isUnLock = false; public bool IsUnLock => isUnLock;
     void Awake()
     {
+        if (originalPresentation != null) return;
         btn.onClick.AddListener(() =>
         {
             OnClickProp();
@@ -54,6 +56,11 @@ public class UIPropEntry : MonoBehaviour
     private void Action()
     {
         UIItemUtils.Bind(itemType, itemNumTxt);
+        if (originalPresentation != null)
+        {
+            if (propConfigInfo != null) Refresh();
+            return;
+        }
         if (propConfigInfo != null && !isUnLock)
         {
             SetLockState();
@@ -73,8 +80,10 @@ public class UIPropEntry : MonoBehaviour
     public void Init(PropConfigInfo propConfigInfo)
     {
         this.propConfigInfo = propConfigInfo;
-        propIcon.sprite = propConfigInfo.propIcon;
+        if (originalPresentation == null) propIcon.sprite = propConfigInfo.propIcon;
         itemType = propConfigInfo.propType;
+        UIItemUtils.Unbind(itemNumTxt);
+        UIItemUtils.Bind(itemType, itemNumTxt);
         Refresh();
     }
 
@@ -98,6 +107,11 @@ public class UIPropEntry : MonoBehaviour
 
     public void SetLockState()
     {
+        if (originalPresentation != null)
+        {
+            originalPresentation.ShowState(isUnLock, ItemUtils.GetItemCount(itemType));
+            return;
+        }
         haveTips.SetActive(false);
         addTips.SetActive(false);
         cancelTips.SetActive(false);
@@ -136,24 +150,23 @@ public class UIPropEntry : MonoBehaviour
             return lockedPropIconSprite;
         }
 
-        Texture2D texture = Resources.Load<Texture2D>(LockedPropIconResource);
-        if (texture == null)
+        lockedPropIconSprite = Resources.Load<Sprite>(LockedPropIconResource);
+        if (lockedPropIconSprite == null)
         {
             Debug.LogWarning($"Missing locked prop icon resource: {LockedPropIconResource}");
             return null;
         }
 
-        lockedPropIconSprite = Sprite.Create(
-            texture,
-            new Rect(0f, 0f, texture.width, texture.height),
-            new Vector2(0.5f, 0.5f),
-            100f);
-        lockedPropIconSprite.name = "hud_booster_button_locked_prop";
         return lockedPropIconSprite;
     }
 
     public void SetAddState()
     {
+        if (originalPresentation != null)
+        {
+            originalPresentation.ShowState(isUnLock, ItemUtils.GetItemCount(itemType));
+            return;
+        }
         lockIcon.SetActive(false);
         if (unlockLevelTxt != null)
         {
@@ -167,6 +180,11 @@ public class UIPropEntry : MonoBehaviour
 
     public void SetHaveState()
     {
+        if (originalPresentation != null)
+        {
+            originalPresentation.ShowState(isUnLock, ItemUtils.GetItemCount(itemType));
+            return;
+        }
         lockIcon.SetActive(false);
         if (unlockLevelTxt != null)
         {
@@ -180,6 +198,11 @@ public class UIPropEntry : MonoBehaviour
 
     public void SetCancelState()
     {
+        if (originalPresentation != null)
+        {
+            originalPresentation.ShowState(isUnLock, ItemUtils.GetItemCount(itemType));
+            return;
+        }
         lockIcon.SetActive(false);
         if (unlockLevelTxt != null)
         {
@@ -220,8 +243,9 @@ public class UIPropEntry : MonoBehaviour
         unlockLevelTxt.text = string.Empty;
     }
 
-    private void OnClickProp()
+    public void OnClickProp()
     {
+        if (propConfigInfo == null) return;
         if (!IsUnLock)
         {
             UIUtils.ShowLanguageTips("Tips_PropInLockState");

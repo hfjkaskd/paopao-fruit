@@ -1,4 +1,4 @@
-
+﻿
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -35,51 +35,17 @@ public class RealGamePanel : UIPageBase
 
     void Awake()
     {
-        CreateRecoveredTopHud();
         CreateGameUi();
-        InitPropEntries();
+
     }
 
     private void CreateGameUi()
     {
-        var prefab = Resources.Load<GameObject>("GameUiWidget");
-        if (prefab == null) return;
-
-        var go = GameObject.Instantiate(prefab, content);
+        var go = HarvestBridge.Attach(content);
         go.transform.localScale = Vector3.one;
-    }
-
-    private void InitPropEntries()
-    {
-        propEntries ??= new List<UIPropEntry>();
-        propEntries.Clear();
-
-        if (uIPropPrefab == null || propsRoot == null)
-        {
-            Debug.Log("[WhiteBootstrap] RealGamePanel prop prefab or root is missing, skip prop entries.");
-            return;
-        }
-
-        PropConfigSO propConfig = PropConfigSO.Instance;
-        if (propConfig == null || propConfig.PropCfgInfos == null)
-        {
-            Debug.LogError("[WhiteBootstrap] RealGamePanel prop config is missing.");
-            return;
-        }
-
-        foreach (var propInfo in propConfig.PropCfgInfos)
-        {
-            var propEntryGo = GameObject.Instantiate(uIPropPrefab, propsRoot);
-            var _propEntry = propEntryGo.GetComponent<UIPropEntry>();
-            if (_propEntry == null)
-            {
-                Debug.LogError("UIPropEntry prefab is missing UIPropEntry component.");
-                continue;
-            }
-
-            _propEntry.Init(propInfo);
-            propEntries.Add(_propEntry);
-        }
+        var widget=Resources.Load<GameObject>("GameUiWidget");
+        if(widget==null) throw new InvalidOperationException("Framework GameUiWidget prefab is missing");
+        GameObject.Instantiate(widget,content,false);
     }
 
     private void CreateRecoveredTopHud()

@@ -23,13 +23,20 @@ public class RealUiWidget : MonoBehaviour
 
     void OnEnable()
     {
+        BizzaEventSystem.On(EventDefine.Item.GameStart, RefreshLevelText);
         RefreshLevelText();
         itemForCountry.OnRefresh();
     }
 
+    void OnDisable()
+    {
+        BizzaEventSystem.Off(EventDefine.Item.GameStart, RefreshLevelText);
+    }
+
     public void RefreshLevelText()
     {
-        levelTxt.text = $"{SaveDataUtils.GameData.playerSelectedLv}"; //LanguageUtils.GetFormatText("Menu_LevelBtn", SaveDataUtils.GameData.playerUnlockedLv);
+        if (levelTxt == null || SaveDataUtils.GameData == null) return;
+        levelTxt.text = SaveDataUtils.GameData.playerSelectedLv.ToString();
     }
 
     // Update is called once per frame

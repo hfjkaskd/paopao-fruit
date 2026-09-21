@@ -1,0 +1,97 @@
+{
+  "assets": {
+    "Lucky777": {
+      "path": "Assets/OrchardUI/Art/HudLucky777.png",
+      "guid": "338551b9f3534cca9a7630ada90800c4",
+      "fileID": 21300000,
+      "maxTextureSize": 512,
+      "sourceSha256": "fc29500239aa0541058d9b29b7aea067546c0cc7214e4591c4a5c03bb2748e29",
+      "pngPixelsUnmodified": true
+    },
+    "Gift": {
+      "path": "Assets/OrchardUI/Art/HudGift.png",
+      "guid": "2a6cbc6793bb413e8c0951e2e995ede3",
+      "fileID": 21300000,
+      "maxTextureSize": 512,
+      "sourceSha256": "dadf968be6666eb060303dfa70f893ad204696b12ffee8ab8ceabc325918a6f1",
+      "pngPixelsUnmodified": true
+    }
+  },
+  "changes": [
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "fileID": "5403240756379141583",
+      "field": "m_Sprite",
+      "before": "{fileID: 21300000, guid: d17897a087a2ea344b49cde3a98e535f, type: 3}",
+      "after": "{fileID: 21300000, guid: 338551b9f3534cca9a7630ada90800c4, type: 3}"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "fileID": "5403240756379141583",
+      "field": "m_PreserveAspect",
+      "before": "0",
+      "after": "1"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "2314400796718388841",
+      "field": "m_Sprite",
+      "before": "{fileID: 21300000, guid: 2b5fd4d3c59c9f446bfe8fcdff5d38c6, type: 3}",
+      "after": "{fileID: 21300000, guid: 2a6cbc6793bb413e8c0951e2e995ede3, type: 3}"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "2314400796718388841",
+      "field": "m_PreserveAspect",
+      "before": "0",
+      "after": "1"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "4234855247401888128",
+      "field": "m_Sprite",
+      "before": "{fileID: -1658918731, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+      "after": "{fileID: -377845897, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "5821051965148166099",
+      "override": "m_Sprite",
+      "field": "objectReference",
+      "before": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+      "after": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "5860728120506579172",
+      "override": "m_sharedMaterial",
+      "field": "objectReference",
+      "before": "{fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}",
+      "after": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "5860728120506579172",
+      "override": "m_fontColor.r",
+      "field": "value",
+      "before": "1",
+      "after": "0.09019608"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "5860728120506579172",
+      "override": "m_fontColor.g",
+      "field": "value",
+      "before": "1",
+      "after": "0.30980393"
+    },
+    {
+      "file": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "fileID": "5860728120506579172",
+      "override": "m_fontColor.b",
+      "field": "value",
+      "before": "1",
+      "after": "0.49019608"
+    }
+  ]
+}

@@ -1,0 +1,671 @@
+{
+  "result": "PASS",
+  "checkedUtc": "2026-09-18T07:48:38.802601+00:00",
+  "effectiveSpriteChecks": [
+    {
+      "label": "Main cabinet",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "4300416282917706685",
+      "expectedAsset": "SlotEmeraldMachine",
+      "actual": "{fileID: 21300000, guid: 0244b5d30fd6442eb134ad3692bf44b2, type: 3}",
+      "expected": "{fileID: 21300000, guid: 0244b5d30fd6442eb134ad3692bf44b2, type: 3}",
+      "effectiveSource": "source prefab",
+      "pass": true
+    },
+    {
+      "label": "Help cabinet",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4300416282917706685",
+      "expectedAsset": "SlotEmeraldHelpBody",
+      "actual": "{fileID: 21300000, guid: 56c5c100502049778e8257645484e97d, type: 3}",
+      "expected": "{fileID: 21300000, guid: 56c5c100502049778e8257645484e97d, type: 3}",
+      "effectiveSource": "nested override",
+      "pass": true
+    },
+    {
+      "label": "Main spin button",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "991499807541595864",
+      "expectedAsset": "SlotEmeraldButton",
+      "actual": "{fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "expected": "{fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "effectiveSource": "nested override",
+      "pass": true
+    },
+    {
+      "label": "Help nested machine button",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "991499807541595864",
+      "expectedAsset": "SlotEmeraldButton",
+      "actual": "{fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "expected": "{fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "effectiveSource": "nested override",
+      "pass": true
+    },
+    {
+      "label": "Main back button",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "1396483153454402679",
+      "expectedAsset": "SlotEmeraldBack",
+      "actual": "{fileID: 21300000, guid: 51d0a9e6728049888461a03fcf98d5ad, type: 3}",
+      "expected": "{fileID: 21300000, guid: 51d0a9e6728049888461a03fcf98d5ad, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Main help button",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "1374036228512148287",
+      "expectedAsset": "SlotEmeraldHelp",
+      "actual": "{fileID: 21300000, guid: be703b641f4f4606a041a7d2fcd5ed4a, type: 3}",
+      "expected": "{fileID: 21300000, guid: be703b641f4f4606a041a7d2fcd5ed4a, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help marquee",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5250022705326557845",
+      "expectedAsset": "SlotEmeraldMarquee",
+      "actual": "{fileID: 21300000, guid: bfed458dd94f48c3b7cf16cffca06e2f, type: 3}",
+      "expected": "{fileID: 21300000, guid: bfed458dd94f48c3b7cf16cffca06e2f, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help table panel",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "9132095855591360206",
+      "expectedAsset": "SlotIvoryPanel",
+      "actual": "{fileID: 21300000, guid: e93c86362f6b4727a03d64e9f10f51b3, type: 3}",
+      "expected": "{fileID: 21300000, guid: e93c86362f6b4727a03d64e9f10f51b3, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help confirmation button",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2749890413784754410",
+      "expectedAsset": "SlotEmeraldButton",
+      "actual": "{fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "expected": "{fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help confirmation icon",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4019988058426453973",
+      "expectedAsset": "SlotEmeraldCheck",
+      "actual": "{fileID: 21300000, guid: 3014a500522a4959b62af892b703b17e, type: 3}",
+      "expected": "{fileID: 21300000, guid: 3014a500522a4959b62af892b703b17e, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 1",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6284417470045200424",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 2",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "421852310758014570",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 3",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6236008388893854195",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 4",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "358983453916003239",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 5",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4703210587407165398",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 6",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4058757057283599894",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 7",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5682292575803519566",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 8",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "284868566748112254",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 9",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6617527445551510661",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 10",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "281318866105777607",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 11",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8353239816097312879",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 12",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3437320467233555144",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 13",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6284928182403824956",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 14",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1629286964942327848",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 15",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7032082526656217441",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 16",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2500455346738309376",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 17",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3399833845740967768",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    },
+    {
+      "label": "Help symbol tile 18",
+      "page": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "975833254702122995",
+      "expectedAsset": "SlotIvoryTile",
+      "actual": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "expected": "{fileID: 21300000, guid: 116bea4634bd4080873e995b93a33f96, type: 3}",
+      "effectiveSource": "direct",
+      "pass": true
+    }
+  ],
+  "helpSymbolTileCount": 18,
+  "newAssets": [
+    {
+      "name": "SlotEmeraldMachine",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldMachine.png",
+      "result": "PASS",
+      "guid": "0244b5d30fd6442eb134ad3692bf44b2",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        999,
+        1575
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        999,
+        1545
+      ],
+      "transparentPixels": 285031,
+      "opaquePixels": 1523,
+      "translucentPixels": 1286871,
+      "rect": [
+        0.0,
+        0.0,
+        999.0,
+        1575.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 2048,
+      "sourceBytesIdentical": true,
+      "sha256": "ed71d944bf10180084b8eede5d7efc067f3de239f2a3e064351291030f1625ed",
+      "issues": []
+    },
+    {
+      "name": "SlotEmeraldHelpBody",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldHelpBody.png",
+      "result": "PASS",
+      "guid": "56c5c100502049778e8257645484e97d",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        999,
+        1575
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        0,
+        999,
+        1541
+      ],
+      "transparentPixels": 311348,
+      "opaquePixels": 157,
+      "translucentPixels": 1261920,
+      "rect": [
+        0.0,
+        0.0,
+        999.0,
+        1575.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 2048,
+      "sourceBytesIdentical": true,
+      "sha256": "30d9b1769cc87c67859a9eb5d9ccbaca3d570ee4ceaf9d329b5316a63ec063d3",
+      "issues": []
+    },
+    {
+      "name": "SlotEmeraldMarquee",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldMarquee.png",
+      "result": "PASS",
+      "guid": "bfed458dd94f48c3b7cf16cffca06e2f",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1596,
+        985
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        17,
+        1596,
+        945
+      ],
+      "transparentPixels": 446019,
+      "opaquePixels": 811,
+      "translucentPixels": 1125230,
+      "rect": [
+        1.0,
+        61.0,
+        1594.0,
+        908.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 1024,
+      "sourceBytesIdentical": true,
+      "sha256": "1d530817dace1b608a92d7def5d1dac64989e868d25e785e6f08c15c77c2d5bc",
+      "issues": []
+    },
+    {
+      "name": "SlotEmeraldButton",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldButton.png",
+      "result": "PASS",
+      "guid": "524f480620394cedbcaa19861f9144f6",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1998,
+        787
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        17,
+        1969,
+        765
+      ],
+      "transparentPixels": 708280,
+      "opaquePixels": 3211,
+      "translucentPixels": 860935,
+      "rect": [
+        28.0,
+        165.0,
+        1942.0,
+        469.0
+      ],
+      "border": [
+        250.0,
+        95.0,
+        250.0,
+        95.0
+      ],
+      "maxTextureSize": 1024,
+      "sourceBytesIdentical": true,
+      "sha256": "23277883dff8f75868c672b9f3ba4b4649cada47b2faff13b5f1a53041e453de",
+      "issues": []
+    },
+    {
+      "name": "SlotEmeraldBack",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldBack.png",
+      "result": "PASS",
+      "guid": "51d0a9e6728049888461a03fcf98d5ad",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        21,
+        1200,
+        1254
+      ],
+      "transparentPixels": 562176,
+      "opaquePixels": 1340,
+      "translucentPixels": 1009000,
+      "rect": [
+        54.0,
+        59.0,
+        1145.0,
+        1135.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 256,
+      "sourceBytesIdentical": true,
+      "sha256": "5c10ae9500353cfbbe4b53d3e7a07852e8edebcacba7c32e8318f369f4762560",
+      "issues": []
+    },
+    {
+      "name": "SlotEmeraldHelp",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldHelp.png",
+      "result": "PASS",
+      "guid": "be703b641f4f4606a041a7d2fcd5ed4a",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        34,
+        37,
+        1224,
+        1220
+      ],
+      "transparentPixels": 483757,
+      "opaquePixels": 1151,
+      "translucentPixels": 1087608,
+      "rect": [
+        33.0,
+        39.0,
+        1186.0,
+        1177.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 256,
+      "sourceBytesIdentical": true,
+      "sha256": "0278c8c1556c7d618c4a097b1b9b5ce20cfc0cae80a7e9e6cbf6e2dc37206c51",
+      "issues": []
+    },
+    {
+      "name": "SlotEmeraldCheck",
+      "path": "Assets/OrchardUI/Art/SlotEmeraldCheck.png",
+      "result": "PASS",
+      "guid": "3014a500522a4959b62af892b703b17e",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1704,
+        923
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        316,
+        165,
+        1423,
+        906
+      ],
+      "transparentPixels": 1365322,
+      "opaquePixels": 550,
+      "translucentPixels": 206920,
+      "rect": [
+        0.0,
+        0.0,
+        1704.0,
+        923.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 256,
+      "sourceBytesIdentical": true,
+      "sha256": "8931782fba82803c70610eadd3f5d4604a077a4c723d3eb4bd0636b052e6fc16",
+      "issues": []
+    },
+    {
+      "name": "SlotIvoryPanel",
+      "path": "Assets/OrchardUI/Art/SlotIvoryPanel.png",
+      "result": "PASS",
+      "guid": "e93c86362f6b4727a03d64e9f10f51b3",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        4,
+        1251,
+        1254
+      ],
+      "transparentPixels": 354077,
+      "opaquePixels": 2123,
+      "translucentPixels": 1216316,
+      "rect": [
+        64.0,
+        77.0,
+        1127.0,
+        1106.0
+      ],
+      "border": [
+        130.0,
+        130.0,
+        130.0,
+        130.0
+      ],
+      "maxTextureSize": 1024,
+      "sourceBytesIdentical": true,
+      "sha256": "71ee8cc21adb6d6f9b23034d479c349016cb37acf3a7ae4d81f481abefd0e1b1",
+      "issues": []
+    },
+    {
+      "name": "SlotIvoryTile",
+      "path": "Assets/OrchardUI/Art/SlotIvoryTile.png",
+      "result": "PASS",
+      "guid": "116bea4634bd4080873e995b93a33f96",
+      "guidUnique": true,
+      "fileID": 21300000,
+      "sourceSize": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        255
+      ],
+      "alphaBoundsTopLeft": [
+        0,
+        17,
+        1190,
+        1254
+      ],
+      "transparentPixels": 347206,
+      "opaquePixels": 1317,
+      "translucentPixels": 1223993,
+      "rect": [
+        0.0,
+        0.0,
+        1254.0,
+        1254.0
+      ],
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maxTextureSize": 256,
+      "sourceBytesIdentical": true,
+      "sha256": "0bff066d103789d794b5dbc72fc214fadc1bd5ab1febaf2912bec54dda546b9e",
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Serialized/import checks only. Button/hierarchy/RectTransform/Spine/code freezes are checked by run_integrity_audit.py; runtime acceptance remains separate."
+  ]
+}

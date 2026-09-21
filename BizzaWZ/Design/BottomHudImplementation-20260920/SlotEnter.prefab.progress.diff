@@ -1,0 +1,46 @@
+--- before/Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab
++++ after/Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab
+@@ -221,7 +221,7 @@
+   m_lineSpacingMax: 0
+   m_paragraphSpacing: 0
+   m_charWidthMaxAdj: 0
+-  m_enableWordWrapping: 1
++  m_enableWordWrapping: 0
+   m_wordWrappingRatios: 0.4
+   m_overflowMode: 0
+   m_linkedTextComponent: {fileID: 0}
+@@ -389,8 +389,8 @@
+   m_OnCullStateChanged:
+     m_PersistentCalls:
+       m_Calls: []
+-  m_Sprite: {fileID: 1920971194, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}
+-  m_Type: 1
++  m_Sprite: {fileID: 21300000, guid: 0fefa62aa60848c0beee55e76911e394, type: 3}
++  m_Type: 0
+   m_PreserveAspect: 0
+   m_FillCenter: 1
+   m_FillMethod: 4
+@@ -398,7 +398,7 @@
+   m_FillClockwise: 1
+   m_FillOrigin: 0
+   m_UseSpriteMesh: 0
+-  m_PixelsPerUnitMultiplier: 3
++  m_PixelsPerUnitMultiplier: 1
+ --- !u!1 &6822782655540800143
+ GameObject:
+   m_ObjectHideFlags: 0
+@@ -464,12 +464,12 @@
+   m_OnCullStateChanged:
+     m_PersistentCalls:
+       m_Calls: []
+-  m_Sprite: {fileID: 1192469443, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}
++  m_Sprite: {fileID: 21300000, guid: 76073845e0d3434c93c8730cdc96a5b4, type: 3}
+   m_Type: 3
+   m_PreserveAspect: 0
+   m_FillCenter: 1
+   m_FillMethod: 0
+-  m_FillAmount: 1
++  m_FillAmount: 0
+   m_FillClockwise: 1
+   m_FillOrigin: 0
+   m_UseSpriteMesh: 0

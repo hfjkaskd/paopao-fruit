@@ -1,0 +1,1770 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Orchard Trio · API 替换报告</title><style>
+:root{--ink:#193044;--muted:#64778a;--line:#dce5eb;--teal:#0c7968;--paper:#f1f5f6;--warn:#8b5a0e}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.65 "Segoe UI","Microsoft YaHei",sans-serif}header{background:#173644;color:white;padding:38px max(24px,calc((100vw - 1320px)/2)) 30px}.eyebrow{color:#9fdfd0;font-size:12px;letter-spacing:2px}h1{font-size:34px;line-height:1.2;margin:13px 0}header p{margin:5px 0;color:#c3d8df}.header-state{display:inline-block;border:1px solid #c9a25a;color:#ffe6b0;border-radius:30px;padding:5px 13px;margin-top:13px;font-size:13px}main{max-width:1370px;margin:auto;padding:24px}nav{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:22px}nav a{background:white;color:#28586b;text-decoration:none;border:1px solid var(--line);padding:6px 12px;border-radius:7px}section{border:1px solid var(--line);background:white;border-radius:12px;margin:0 0 20px;padding:24px;scroll-margin-top:12px}h2{font-size:22px;line-height:1.4;margin:0 0 18px}h3{font-size:17px;margin:25px 0 12px}p{margin:12px 0}.notice{background:#fff6e4;border-left:4px solid #dda84d;color:#694b1c;padding:16px 19px;margin-bottom:20px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:18px 0}.metrics>div{border:1px solid #dce9e7;background:#f5fbf9;border-radius:8px;padding:14px 16px}.metrics b{display:block;font-size:29px;color:var(--teal);line-height:1.2}.metrics span{font-size:12px;color:var(--muted)}.table-scroll{overflow:auto;max-width:100%}table{width:100%;border-collapse:collapse;font-size:12.5px}td,th{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left;overflow-wrap:anywhere;min-width:82px}th{background:#edf3f6;color:#536a7c;font-size:12px}tr:nth-child(even){background:#fafcfd}code,pre{font-family:Consolas,"Microsoft YaHei",monospace}code{font-size:12px;background:#eff4f6;border-radius:3px;padding:2px 4px}details{border:1px solid var(--line);border-radius:8px;margin:13px 0;overflow:hidden}summary{cursor:pointer;background:#f7fafb;padding:12px 15px;font-weight:600;color:#315e70}pre{font-size:12px;white-space:pre-wrap;overflow-wrap:anywhere;max-height:620px;overflow:auto;padding:16px;margin:0;border-top:1px solid var(--line);color:#29475b;background:#fbfcfd}.flow{border-radius:8px;padding:15px 17px;background:#e7f4f0;color:#17695b;font-weight:600}.muted{color:var(--muted);font-size:12px}.search-label{display:block;font-size:13px;color:#526b7c;margin:18px 0 8px}.search-label input{display:block;width:100%;max-width:520px;border:1px solid #bfcfd8;border-radius:6px;padding:10px 12px;margin-top:6px;font:inherit;color:var(--ink)}.evidence-list{padding-left:22px}.evidence-list a{color:var(--teal)}footer{font-size:12px;text-align:center;color:var(--muted);padding:8px 20px 30px}@media(max-width:720px){main{padding:12px}header{padding:28px 18px}section{padding:16px}h1{font-size:28px}.metrics{grid-template-columns:repeat(2,1fr)}td,th{padding:9px 10px}}@media print{body{background:white}header{padding:20px}main{padding:0}nav,.search-label,#field-count{display:none}section{border:0;border-radius:0}pre{max-height:none}.table-scroll{overflow:visible}}
+</style></head><body><header><div class="eyebrow">API REPLACEMENT / SNAKE OUT JAME</div><h1>Orchard Trio</h1><p>orchardtrio · com.wiwitsugeh.orchardtrio</p><p>生成时间 2026-09-17T09:18:18+00:00</p><span class="header-state">确认项已同步 · 现金 / 任务提现仍有 2 项字段歧义</span></header><main><nav><a href="#summary">结论</a><a href="#unresolved">未解决项</a><a href="#parameters">发行参数</a><a href="#paths">接口路径</a><a href="#attribution">归因与请求</a><a href="#fields">逐项字段</a><a href="#methods">方法契约</a><a href="#configuration">二进制 / Obfuz</a><a href="#compile">编译与范围</a><a href="#communication">通信</a><a href="#provenance">证据</a></nav><section id="summary"><h2>执行结论</h2><div class="notice"><strong>已完成可确认项；现金 / 任务提现接口仍未完成。</strong><br>/Out/Jam/ApplyOrderTask 的任务 ID 与提现类型存在 2 项字段歧义，已保留并标记 Unresolved。本报告不将这些差异计为成功。</div><div class="metrics"><div><b>19</b><span>接口路径同步</span></div><div><b>212</b><span>DTO 键名同步</span></div><div><b>19</b><span>真实字典键同步</span></div><div><b>8</b><span>接口通信通过</span></div></div><div class="table-scroll"><table class=""><thead><tr><th>检查项目</th><th>结果</th></tr></thead><tbody><tr><td>字段结构</td><td>新增 6 个 DTO 字段，删除 0 个字段；现有 C# 字段名及类型保持。</td></tr><tr><td>请求递归检查</td><td>17 条已有请求中 16 条完全匹配；现金 / 任务提现请求明确未完成。</td></tr><tr><td>Other 配置</td><td>6 个 hp_* → soj_*；依据本轮 BaseData 实际解密响应，look_ad_reward_mul 值保持。</td></tr><tr><td>方法契约</td><td>通过；三组宏检查声明与调用，另以允许修改清单核验方法体。</td></tr><tr><td>归因验证</td><td>仅静态分析：19 个字典键完整且唯一；未实际运行归因序列化或上报。</td></tr><tr><td>ChannelConfig</td><td>通过</td></tr><tr><td>Obfuz</td><td>通过</td></tr><tr><td>Unity 最终验证</td><td>通过；0 个编译错误，96 条去重编译警告。</td></tr><tr><td>源码范围验证</td><td>通过</td></tr><tr><td>API 通信</td><td>19 个已有配置接口中 8 项通过、0 项失败、11 项未执行；另 2 项未接入接口未执行。</td></tr><tr><td>验证边界</td><td>未声称完成 APK / IPA 构建、Android / iOS 真机流程或真实提现验证。</td></tr></tbody></table></div></section><section id="unresolved"><h2>未完成项与调用类型差异</h2><h3>现金 / 任务提现：Incomplete / Unresolved</h3><p>目标 Swagger 仅定义 <code>SoJMn</code>，其描述却包含 <code>ApplyType string json:&quot;SoJAt&quot;</code>。当前代码分别用 <code>Os_Mn</code> 传任务标识 <code>task_{id}</code>，用 <code>Os_At</code> 传 <code>money</code>。证据不足以确认两个字段如何映射，未合并或猜测新键。</p><div class="table-scroll"><table class=""><thead><tr><th>字段</th><th>当前保留键</th><th>目标候选</th><th>实际取值</th><th>状态</th></tr></thead><tbody><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Mn</td><td>FtMMn</td><td>SoJMn</td><td>_Os_Mn</td><td>未解决</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_At</td><td>FtMAt</td><td>SoJMn</td><td>_Os_At</td><td>未解决</td></tr></tbody></table></div><p>结果：该接口仍缺少已确认映射的 <code>SoJMn</code>，保留 <code>FtMMn</code>、<code>FtMAt</code> 两个旧键；不能作为已完成提现接入交付。需要后端明确任务 ID、提现类型各自的请求键。</p><h3>商品 ID：默认值的验证边界</h3><p>两个提款 DTO 新增 <code>SoJGdid</code>（<code>int Os_Gdid</code>），对应构造方法增加 <code>Os_Gdid = 0</code>。<strong>这是 C# 整数默认值，Swagger 未定义默认值。</strong>项目现有构造参数未提供独立商品 ID，尚未验证服务器接受 0；不得视为提现业务已验证。</p><h3>SwaggerTypeMismatch：保留本地方法契约</h3><div class="table-scroll"><table class=""><thead><tr><th>接口</th><th>Swagger 响应类型</th><th>本地类型</th><th>处理</th></tr></thead><tbody><tr><td>/Out/Jam/NewUser</td><td>array&lt;response.SnakeOutJameUserInfoResponse&gt;</td><td>OceanShineUserReachReportResponse</td><td>保留本地单对象契约；未发送会改变业务状态的请求。</td></tr><tr><td>/Out/Jam/Times</td><td>array&lt;response.SnakeOutJameUserInfoResponse&gt;</td><td>OceanShineUserReachReportResponse</td><td>保留本地单对象契约；未发送会改变业务状态的请求。</td></tr><tr><td>/Out/Jam/Task</td><td>response.SnakeOutJameRoutineTaskLookAdMoneyResponse</td><td>List&lt;RoutineTaskLookAdMoneyResponse&gt;</td><td>保留方法、回调与 HTTP 泛型；Task 实测根为数组，与本地相符。</td></tr></tbody></table></div></section><section id="parameters"><h2>发行参数与规范化落点</h2><p>参数来源为本次请求，按本次完整名称 AppLovin SDK Key、Adjust 应用识别码处理；应用 ID 独立写入后台 AppId。旧值仅用于工程现状对比，密钥仅显示脱敏值。</p><div class="table-scroll"><table class=""><thead><tr><th>原始参数名</th><th>规范化参数</th><th>最终字段</th><th>修改前</th><th>修改后</th><th>状态</th></tr></thead><tbody><tr><td>应用名称</td><td>应用名称</td><td>ProjectSettings/ProjectSettings.asset :: productName</td><td>&#x27;Bubblosaic: Picture Merge&#x27;</td><td>Orchard Trio</td><td>已更新</td></tr><tr><td>包名</td><td>Android 包名</td><td>ProjectSettings/ProjectSettings.asset :: applicationIdentifier.Android</td><td>com.webpack.picturemerge</td><td>com.wiwitsugeh.orchardtrio</td><td>已更新</td></tr><tr><td>包名</td><td>Android 包名 / Obfuz</td><td>ProjectSettings/Obfuz.asset :: assemblySettings.assembliesToObfuscate</td><td>[
+  &quot;Assembly-CSharp&quot;
+]</td><td>[
+  &quot;Assembly-CSharp&quot;
+]</td><td>原值已符合</td></tr><tr><td>包名</td><td>Android 包名 / Obfuz</td><td>ProjectSettings/Obfuz.asset :: secretSettings.defaultStaticSecretKey</td><td>com***rge</td><td>com***rio</td><td>已更新</td></tr><tr><td>包名</td><td>Android 包名 / Obfuz</td><td>ProjectSettings/Obfuz.asset :: secretSettings.defaultDynamicSecretKey</td><td>com***rge</td><td>com***rio</td><td>已更新</td></tr><tr><td>包名</td><td>Android 包名 / Obfuz</td><td>ProjectSettings/Obfuz.asset :: encryptionVMSettings.codeGenerationSecretKey</td><td>pic***rge</td><td>orc***rio</td><td>已更新</td></tr><tr><td>包名</td><td>Android 包名 / Obfuz 随机前缀</td><td>ProjectSettings/Obfuz.asset :: symbolObfusSettings.obfuscatedNamePrefix</td><td>urf</td><td>eml</td><td>已更新</td></tr><tr><td>AppLovin SDK Key</td><td>AppLovin SDK Key</td><td>Assets/MaxSdk/Resources/AppLovinSettings.asset :: sdkKey</td><td>eEz***yJZ</td><td>eEz***yJZ</td><td>原值已符合</td></tr><tr><td>Privacy Policy URL</td><td>Privacy Policy URL</td><td>ProjectSettings/AppLovinInternalSettings.json :: consentFlowPrivacyPolicyUrl</td><td>https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing</td><td>https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing</td><td>已更新</td></tr><tr><td>Privacy Policy URL</td><td>Privacy Policy URL</td><td>Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab :: Privacy TMP hyperlink</td><td>https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing</td><td>https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing</td><td>已更新</td></tr><tr><td>Privacy Policy URL</td><td>Privacy Policy URL</td><td>Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json :: coldstart_start_privacy [32 languages]</td><td>https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing</td><td>https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing</td><td>已更新</td></tr><tr><td>应用ID</td><td>应用ID</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: AppId</td><td>bubblosaicpmge</td><td>orchardtrio</td><td>已更新</td></tr><tr><td>接口域名地址</td><td>接口域名地址</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain</td><td>https://app.fruittile.xin</td><td>https://snakes.xin</td><td>已更新</td></tr><tr><td>密钥</td><td>密钥</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key</td><td>Mer***aic</td><td>Tri***Eod</td><td>已更新</td></tr><tr><td>游戏类型</td><td>游戏类型</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate</td><td>1.0</td><td>1.0</td><td>原值已符合</td></tr><tr><td>国家</td><td>国家</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country</td><td>0</td><td>0</td><td>原值已符合</td></tr><tr><td>Adjust 应用识别码</td><td>Adjust 应用识别码</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey</td><td>2zov4dn3gsu8</td><td>d1hq1hl2p05c</td><td>已更新</td></tr><tr><td>MAX 激励广告 ID</td><td>MAX 激励广告 ID</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId</td><td>ddef1150f706c39f</td><td>f5ccdcd203e833b6</td><td>已更新</td></tr><tr><td>MAX 插屏广告 ID</td><td>MAX 插屏广告 ID</td><td>Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId</td><td>3f64a45c4db0eb7a</td><td>00fcf19979f18911</td><td>已更新</td></tr></tbody></table></div><h3>本次留空项：保留原值</h3><div class="table-scroll"><table class=""><thead><tr><th>原始参数</th><th>规范化参数</th><th>字段</th><th>保留值</th><th>原因</th></tr></thead><tbody><tr><td>默认国家</td><td>默认国家</td><td>real_CustomConfig.DefaultCountry</td><td>0</td><td>本次留空，按提示词保留原值。</td></tr><tr><td>MAX 横幅广告 ID</td><td>MAX 横幅广告 ID</td><td>sourceAds[AdsSource=Max].bannerAdId</td><td></td><td>本次留空，按提示词保留原值。</td></tr><tr><td>MAX 开屏广告 ID</td><td>MAX 开屏广告 ID</td><td>sourceAds[AdsSource=Max].openAdId</td><td></td><td>本次留空，按提示词保留原值。</td></tr></tbody></table></div><details><summary>发行配置完整结果（敏感值脱敏）</summary><pre>{
+  &quot;status&quot;: &quot;Passed&quot;,
+  &quot;project&quot;: &quot;C:\\Projects\\paopao\\BizzaWZ&quot;,
+  &quot;fields&quot;: [
+    {
+      &quot;originalParameter&quot;: &quot;应用名称&quot;,
+      &quot;standardParameter&quot;: &quot;应用名称&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/ProjectSettings.asset :: productName&quot;,
+      &quot;before&quot;: &quot;&#x27;Bubblosaic: Picture Merge&#x27;&quot;,
+      &quot;after&quot;: &quot;Orchard Trio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;包名&quot;,
+      &quot;standardParameter&quot;: &quot;Android 包名&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/ProjectSettings.asset :: applicationIdentifier.Android&quot;,
+      &quot;before&quot;: &quot;com.webpack.picturemerge&quot;,
+      &quot;after&quot;: &quot;com.wiwitsugeh.orchardtrio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;包名&quot;,
+      &quot;standardParameter&quot;: &quot;Android 包名 / Obfuz&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/Obfuz.asset :: assemblySettings.assembliesToObfuscate&quot;,
+      &quot;before&quot;: [
+        &quot;Assembly-CSharp&quot;
+      ],
+      &quot;after&quot;: [
+        &quot;Assembly-CSharp&quot;
+      ],
+      &quot;status&quot;: &quot;AlreadyMatched&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;包名&quot;,
+      &quot;standardParameter&quot;: &quot;Android 包名 / Obfuz&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/Obfuz.asset :: secretSettings.defaultStaticSecretKey&quot;,
+      &quot;before&quot;: &quot;com***rge&quot;,
+      &quot;after&quot;: &quot;com***rio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;包名&quot;,
+      &quot;standardParameter&quot;: &quot;Android 包名 / Obfuz&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/Obfuz.asset :: secretSettings.defaultDynamicSecretKey&quot;,
+      &quot;before&quot;: &quot;com***rge&quot;,
+      &quot;after&quot;: &quot;com***rio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;包名&quot;,
+      &quot;standardParameter&quot;: &quot;Android 包名 / Obfuz&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/Obfuz.asset :: encryptionVMSettings.codeGenerationSecretKey&quot;,
+      &quot;before&quot;: &quot;pic***rge&quot;,
+      &quot;after&quot;: &quot;orc***rio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;包名&quot;,
+      &quot;standardParameter&quot;: &quot;Android 包名 / Obfuz 随机前缀&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/Obfuz.asset :: symbolObfusSettings.obfuscatedNamePrefix&quot;,
+      &quot;before&quot;: &quot;urf&quot;,
+      &quot;after&quot;: &quot;eml&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;AppLovin SDK Key&quot;,
+      &quot;standardParameter&quot;: &quot;AppLovin SDK Key&quot;,
+      &quot;target&quot;: &quot;Assets/MaxSdk/Resources/AppLovinSettings.asset :: sdkKey&quot;,
+      &quot;before&quot;: &quot;eEz***yJZ&quot;,
+      &quot;after&quot;: &quot;eEz***yJZ&quot;,
+      &quot;status&quot;: &quot;AlreadyMatched&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;Privacy Policy URL&quot;,
+      &quot;standardParameter&quot;: &quot;Privacy Policy URL&quot;,
+      &quot;target&quot;: &quot;ProjectSettings/AppLovinInternalSettings.json :: consentFlowPrivacyPolicyUrl&quot;,
+      &quot;before&quot;: &quot;https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing&quot;,
+      &quot;after&quot;: &quot;https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;Privacy Policy URL&quot;,
+      &quot;standardParameter&quot;: &quot;Privacy Policy URL&quot;,
+      &quot;target&quot;: &quot;Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab :: Privacy TMP hyperlink&quot;,
+      &quot;before&quot;: &quot;https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing&quot;,
+      &quot;after&quot;: &quot;https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;Privacy Policy URL&quot;,
+      &quot;standardParameter&quot;: &quot;Privacy Policy URL&quot;,
+      &quot;target&quot;: &quot;Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json :: coldstart_start_privacy [32 languages]&quot;,
+      &quot;before&quot;: &quot;https://docs.google.com/document/d/1P9mcb86TrNkjX-tOO8SeSlvSOGa1648MxkWQ9THaFXY/edit?usp=sharing&quot;,
+      &quot;after&quot;: &quot;https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;应用ID&quot;,
+      &quot;standardParameter&quot;: &quot;应用ID&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: AppId&quot;,
+      &quot;before&quot;: &quot;bubblosaicpmge&quot;,
+      &quot;after&quot;: &quot;orchardtrio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;接口域名地址&quot;,
+      &quot;standardParameter&quot;: &quot;接口域名地址&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain&quot;,
+      &quot;before&quot;: &quot;https://app.fruittile.xin&quot;,
+      &quot;after&quot;: &quot;https://snakes.xin&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;密钥&quot;,
+      &quot;standardParameter&quot;: &quot;密钥&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key&quot;,
+      &quot;before&quot;: &quot;Mer***aic&quot;,
+      &quot;after&quot;: &quot;Tri***Eod&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;游戏类型&quot;,
+      &quot;standardParameter&quot;: &quot;游戏类型&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate&quot;,
+      &quot;before&quot;: 1.0,
+      &quot;after&quot;: 1.0,
+      &quot;status&quot;: &quot;AlreadyMatched&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;国家&quot;,
+      &quot;standardParameter&quot;: &quot;国家&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country&quot;,
+      &quot;before&quot;: 0,
+      &quot;after&quot;: 0,
+      &quot;status&quot;: &quot;AlreadyMatched&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;Adjust 应用识别码&quot;,
+      &quot;standardParameter&quot;: &quot;Adjust 应用识别码&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey&quot;,
+      &quot;before&quot;: &quot;2zov4dn3gsu8&quot;,
+      &quot;after&quot;: &quot;d1hq1hl2p05c&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;MAX 激励广告 ID&quot;,
+      &quot;standardParameter&quot;: &quot;MAX 激励广告 ID&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId&quot;,
+      &quot;before&quot;: &quot;ddef1150f706c39f&quot;,
+      &quot;after&quot;: &quot;f5ccdcd203e833b6&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;MAX 插屏广告 ID&quot;,
+      &quot;standardParameter&quot;: &quot;MAX 插屏广告 ID&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId&quot;,
+      &quot;before&quot;: &quot;3f64a45c4db0eb7a&quot;,
+      &quot;after&quot;: &quot;00fcf19979f18911&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    }
+  ],
+  &quot;changedReleaseFiles&quot;: [
+    &quot;ProjectSettings/ProjectSettings.asset&quot;,
+    &quot;ProjectSettings/Obfuz.asset&quot;,
+    &quot;ProjectSettings/AppLovinInternalSettings.json&quot;,
+    &quot;Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab&quot;,
+    &quot;Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json&quot;,
+    &quot;Assets/StreamingAssets/ChannelConfig.bytes&quot;,
+    &quot;Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs&quot;,
+    &quot;Assets/Resources/Obfuz/defaultStaticSecretKey.bytes&quot;,
+    &quot;Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes&quot;
+  ],
+  &quot;channelConfig&quot;: {
+    &quot;status&quot;: &quot;Passed&quot;,
+    &quot;serializer&quot;: &quot;Actual Unity Bizza.Sdk.ChannelConfigBinarySerializer&quot;,
+    &quot;fields&quot;: [
+      {
+        &quot;originalParameter&quot;: &quot;应用ID&quot;,
+        &quot;standardParameter&quot;: &quot;应用ID&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: AppId&quot;,
+        &quot;before&quot;: &quot;bubblosaicpmge&quot;,
+        &quot;after&quot;: &quot;orchardtrio&quot;,
+        &quot;status&quot;: &quot;Updated&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;接口域名地址&quot;,
+        &quot;standardParameter&quot;: &quot;接口域名地址&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain&quot;,
+        &quot;before&quot;: &quot;https://app.fruittile.xin&quot;,
+        &quot;after&quot;: &quot;https://snakes.xin&quot;,
+        &quot;status&quot;: &quot;Updated&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;密钥&quot;,
+        &quot;standardParameter&quot;: &quot;密钥&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key&quot;,
+        &quot;before&quot;: &quot;Mer***aic&quot;,
+        &quot;after&quot;: &quot;Tri***Eod&quot;,
+        &quot;status&quot;: &quot;Updated&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;游戏类型&quot;,
+        &quot;standardParameter&quot;: &quot;游戏类型&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate&quot;,
+        &quot;before&quot;: 1.0,
+        &quot;after&quot;: 1.0,
+        &quot;status&quot;: &quot;AlreadyMatched&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;国家&quot;,
+        &quot;standardParameter&quot;: &quot;国家&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country&quot;,
+        &quot;before&quot;: 0,
+        &quot;after&quot;: 0,
+        &quot;status&quot;: &quot;AlreadyMatched&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;Adjust 应用识别码&quot;,
+        &quot;standardParameter&quot;: &quot;Adjust 应用识别码&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey&quot;,
+        &quot;before&quot;: &quot;2zov4dn3gsu8&quot;,
+        &quot;after&quot;: &quot;d1hq1hl2p05c&quot;,
+        &quot;status&quot;: &quot;Updated&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;MAX 激励广告 ID&quot;,
+        &quot;standardParameter&quot;: &quot;MAX 激励广告 ID&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId&quot;,
+        &quot;before&quot;: &quot;ddef1150f706c39f&quot;,
+        &quot;after&quot;: &quot;f5ccdcd203e833b6&quot;,
+        &quot;status&quot;: &quot;Updated&quot;
+      },
+      {
+        &quot;originalParameter&quot;: &quot;MAX 插屏广告 ID&quot;,
+        &quot;standardParameter&quot;: &quot;MAX 插屏广告 ID&quot;,
+        &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId&quot;,
+        &quot;before&quot;: &quot;3f64a45c4db0eb7a&quot;,
+        &quot;after&quot;: &quot;00fcf19979f18911&quot;,
+        &quot;status&quot;: &quot;Updated&quot;
+      }
+    ],
+    &quot;roundtrip&quot;: {
+      &quot;baselineByteEquality&quot;: true,
+      &quot;updatedByteEquality&quot;: true,
+      &quot;requestedValuesReadBack&quot;: true,
+      &quot;otherSerializedFieldsByteEquality&quot;: true,
+      &quot;blankParametersPreserved&quot;: true,
+      &quot;writtenFileByteEquality&quot;: true
+    }
+  },
+  &quot;obfuz&quot;: {
+    &quot;status&quot;: &quot;Passed&quot;,
+    &quot;generator&quot;: &quot;Project VirtualMachineCodeGenerator.Generate and KeyGenerator.GenerateKey (same implementation as ObfuzMenu)&quot;,
+    &quot;prefix&quot;: &quot;eml&quot;,
+    &quot;vmMatchesSettings&quot;: true,
+    &quot;staticKeyMatchesSettings&quot;: true,
+    &quot;dynamicKeyMatchesSettings&quot;: true,
+    &quot;keyLengthBytes&quot;: 1024,
+    &quot;outputs&quot;: [
+      {
+        &quot;path&quot;: &quot;Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs&quot;,
+        &quot;sha256&quot;: &quot;7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9&quot;
+      },
+      {
+        &quot;path&quot;: &quot;Assets/Resources/Obfuz/defaultStaticSecretKey.bytes&quot;,
+        &quot;sha256&quot;: &quot;3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6&quot;
+      },
+      {
+        &quot;path&quot;: &quot;Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes&quot;,
+        &quot;sha256&quot;: &quot;3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6&quot;
+      }
+    ],
+    &quot;generatedVmCompilation&quot;: &quot;Passed: actual Unity Editor compilation and post-helper-removal domain reload; see unity-final-validation.json&quot;
+  },
+  &quot;privacyLocalization&quot;: {
+    &quot;status&quot;: &quot;Passed&quot;,
+    &quot;key&quot;: &quot;coldstart_start_privacy&quot;,
+    &quot;languageCount&quot;: 32,
+    &quot;nonUrlBytesPreserved&quot;: true,
+    &quot;runtimePath&quot;: &quot;LoadingPanel TextNeedLocalization -&gt; OJEEJGGLNPC.GetText / LoadConfig -&gt; GameRes -&gt; HarvestPaths -&gt; Resources/Original/res/local/configs/Text.json&quot;
+  },
+  &quot;notes&quot;: [
+    &quot;Country NONE maps to declared AccountModule.E_CountryType.None (0); game type 真假混 maps to incomeRate=1.&quot;,
+    &quot;Empty default country/banner/open ad inputs are preserved.&quot;,
+    &quot;All ChannelConfig reads/writes used the current project&#x27;s actual serializer in Unity, without copied serializer code or binary text replacement.&quot;,
+    &quot;Updated only the two requested PlayerSettings properties in the open editor; reloaded Obfuz settings from disk and synchronized only requested cached properties without saving other cached settings.&quot;,
+    &quot;No runtime method or gameplay logic changed; this temporary helper must be removed before the final compile.&quot;,
+    &quot;The temporary helper was removed after execution; the ensuing Editor domain reload clears its temporary ChannelConfig singleton. Final compilation evidence is recorded separately by the root task.&quot;
+  ],
+  &quot;roundtrip&quot;: {
+    &quot;baselineByteEquality&quot;: true,
+    &quot;updatedByteEquality&quot;: true,
+    &quot;requestedValuesReadBack&quot;: true,
+    &quot;otherSerializedFieldsByteEquality&quot;: true,
+    &quot;blankParametersPreserved&quot;: true,
+    &quot;writtenFileByteEquality&quot;: true
+  },
+  &quot;preserved&quot;: [
+    {
+      &quot;originalParameter&quot;: &quot;默认国家&quot;,
+      &quot;standardParameter&quot;: &quot;默认国家&quot;,
+      &quot;target&quot;: &quot;real_CustomConfig.DefaultCountry&quot;,
+      &quot;value&quot;: 0,
+      &quot;reason&quot;: &quot;Blank current request value; preserved.&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;MAX 横幅广告 ID&quot;,
+      &quot;standardParameter&quot;: &quot;MAX 横幅广告 ID&quot;,
+      &quot;target&quot;: &quot;sourceAds[AdsSource=Max].bannerAdId&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;reason&quot;: &quot;Blank current request value; preserved.&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;MAX 开屏广告 ID&quot;,
+      &quot;standardParameter&quot;: &quot;MAX 开屏广告 ID&quot;,
+      &quot;target&quot;: &quot;sourceAds[AdsSource=Max].openAdId&quot;,
+      &quot;value&quot;: &quot;&quot;,
+      &quot;reason&quot;: &quot;Blank current request value; preserved.&quot;
+    }
+  ],
+  &quot;unityVersion&quot;: &quot;2022.3.62f3&quot;,
+  &quot;finalReadOnlyVerification&quot;: {
+    &quot;status&quot;: &quot;Passed&quot;,
+    &quot;checks&quot;: {
+      &quot;ProjectSettings/ProjectSettings.asset&quot;: &quot;Requested values verified; all other bytes preserved.&quot;,
+      &quot;ProjectSettings/Obfuz.asset&quot;: &quot;Requested values verified; all other bytes preserved.&quot;,
+      &quot;Assets/MaxSdk/Resources/AppLovinSettings.asset&quot;: &quot;Current request SDK key matches; complete original file preserved.&quot;,
+      &quot;ProjectSettings/AppLovinInternalSettings.json&quot;: &quot;Current request privacy URL verified; all other bytes preserved.&quot;,
+      &quot;Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab&quot;: &quot;Current request privacy URL verified; all other bytes preserved.&quot;,
+      &quot;Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json&quot;: &quot;Current request privacy URL verified; all other bytes preserved.&quot;,
+      &quot;generatedKeyDerivation&quot;: &quot;Both 1024-byte key outputs independently match the inspected project KeyGenerator algorithm and requested Android package.&quot;
+    },
+    &quot;hashes&quot;: [
+      {
+        &quot;path&quot;: &quot;Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs&quot;,
+        &quot;beforeSha256&quot;: &quot;9d0b41353470fd30bcfb3bd02a83db5590824cca6e28354827871daff9191341&quot;,
+        &quot;afterSha256&quot;: &quot;7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9&quot;,
+        &quot;bytes&quot;: 181090,
+        &quot;matchesUnityGenerationReport&quot;: true
+      },
+      {
+        &quot;path&quot;: &quot;Assets/Resources/Obfuz/defaultStaticSecretKey.bytes&quot;,
+        &quot;beforeSha256&quot;: &quot;afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f&quot;,
+        &quot;afterSha256&quot;: &quot;3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6&quot;,
+        &quot;bytes&quot;: 1024,
+        &quot;matchesUnityGenerationReport&quot;: true
+      },
+      {
+        &quot;path&quot;: &quot;Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes&quot;,
+        &quot;beforeSha256&quot;: &quot;afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f&quot;,
+        &quot;afterSha256&quot;: &quot;3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6&quot;,
+        &quot;bytes&quot;: 1024,
+        &quot;matchesUnityGenerationReport&quot;: true
+      },
+      {
+        &quot;path&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes&quot;,
+        &quot;beforeSha256&quot;: &quot;42a4cc845907aadf473d15b8537cacc72f7fe878feb4cb662b72d31408b07391&quot;,
+        &quot;afterSha256&quot;: &quot;6d5594c3ffa412e65f6b7c70543c6264ed5273aec11e4f4e870ce9ba3f296f07&quot;,
+        &quot;bytes&quot;: 232,
+        &quot;serializationVerification&quot;: &quot;All actual-Unity serializer round-trip/preservation checks in this run passed.&quot;
+      }
+    ],
+    &quot;oneShotRequestConsumed&quot;: true,
+    &quot;projectFilesWrittenByThisVerification&quot;: false
+  },
+  &quot;finalUnityCompilationEvidence&quot;: &quot;unity-final-validation.json&quot;
+}</pre></details></section><section id="paths"><h2>19 条接口路径与 Other 配置</h2><div class="table-scroll"><table class=""><thead><tr><th>常量</th><th>接口用途</th><th>修改前</th><th>修改后</th><th>实现状态</th></tr></thead><tbody><tr><td>add_ecpm</td><td>添加收益</td><td>/Api/Match/AddRe</td><td>/Out/Jam/AddIncome</td><td>确认字段已同步</td></tr><tr><td>add_order</td><td>去提现-全部提现</td><td>/Api/Match/Pay</td><td>/Out/Jam/ApplyOrder</td><td>确认字段已同步</td></tr><tr><td>add_order_task</td><td>新接口-去提现-现金或奖卷</td><td>/Api/Match/TaskPay</td><td>/Out/Jam/ApplyOrderTask</td><td>字段歧义，接口未完成</td></tr><tr><td>base_list</td><td>其它配置信息</td><td>/Api/Match/AppConfig</td><td>/Out/Jam/BaseData</td><td>确认字段已同步</td></tr><tr><td>from</td><td>用户归因</td><td>/Api/Match/Come</td><td>/Out/Jam/Come</td><td>确认字段已同步</td></tr><tr><td>get_ecpm_id</td><td>获取收益ID</td><td>/Api/Match/ReId</td><td>/Out/Jam/IncomeId</td><td>确认字段已同步</td></tr><tr><td>login</td><td>用户登陆</td><td>/Api/Match/Login</td><td>/Out/Jam/Login</td><td>确认字段已同步</td></tr><tr><td>msg</td><td>添加反馈</td><td>/Api/Match/Notice</td><td>/Out/Jam/Talk</td><td>确认字段已同步</td></tr><tr><td>msg_list</td><td>反馈列表</td><td>/Api/Match/NoticeList</td><td>/Out/Jam/TalkList</td><td>确认字段已同步</td></tr><tr><td>new_user</td><td>新用户奖励-领取</td><td>/Api/Match/New</td><td>/Out/Jam/NewUser</td><td>确认字段已同步</td></tr><tr><td>number</td><td>关卡，完成次数上报</td><td>/Api/Match/Level</td><td>/Out/Jam/Times</td><td>确认字段已同步</td></tr><tr><td>order_list</td><td>订单列表</td><td>/Api/Match/Order</td><td>/Out/Jam/Order</td><td>确认字段已同步</td></tr><tr><td>order_name</td><td>提现用户列表</td><td>/Sport/Balls/OrderName</td><td>/Out/Jam/OrderNick</td><td>现有常量，无本地请求方法</td></tr><tr><td>plat_from</td><td>提现平台</td><td>/Api/Match/Page</td><td>/Out/Jam/PayList</td><td>确认字段已同步</td></tr><tr><td>task_list</td><td>每日任务-现金</td><td>/Api/Match/Task</td><td>/Out/Jam/Task</td><td>确认字段已同步</td></tr><tr><td>user_info</td><td>用户信息</td><td>/Api/Match/Info</td><td>/Out/Jam/UserInfo</td><td>确认字段已同步</td></tr><tr><td>user_name</td><td>昵称添加</td><td>/Api/Match/Name</td><td>/Out/Jam/NickName</td><td>现有常量，无本地请求方法</td></tr><tr><td>ad_info</td><td>广告上报</td><td>/Api/MatchLog/AdShow</td><td>/Out/JamLog/AdInfo</td><td>确认字段已同步</td></tr><tr><td>app_info</td><td>日志上报</td><td>/Api/MatchLog/AppEven</td><td>/Out/JamLog/AppInfo</td><td>确认字段已同步</td></tr></tbody></table></div><p>只更新当前 AccountModuleCfg 的已有非空路径。OrderNick / NickName 未新增请求方法；本 Tag 的两条彩票接口未加入工程配置。</p><h3>Other 配置：真实返回值作为证据</h3><div class="table-scroll"><table class=""><thead><tr><th>常量</th><th>修改前</th><th>修改后</th><th>本次服务器返回</th><th>证据</th></tr></thead><tbody><tr><td>one_Count</td><td>hp_one</td><td>soj_one</td><td>10</td><td>/Out/Jam/BaseData</td></tr><tr><td>one_Ratio</td><td>hp_one_rate</td><td>soj_one_rate</td><td>5</td><td>/Out/Jam/BaseData</td></tr><tr><td>two_Count</td><td>hp_two</td><td>soj_two</td><td>30</td><td>/Out/Jam/BaseData</td></tr><tr><td>two_Ratio</td><td>hp_two_rate</td><td>soj_two_rate</td><td>10</td><td>/Out/Jam/BaseData</td></tr><tr><td>three_Count</td><td>hp_three</td><td>soj_three</td><td>50</td><td>/Out/Jam/BaseData</td></tr><tr><td>three_Ratio</td><td>hp_three_rate</td><td>soj_three_rate</td><td>20</td><td>/Out/Jam/BaseData</td></tr></tbody></table></div><p>请求配置值保持 <code>look_ad_reward_mul</code>；<code>next_day</code> 无现有消费字段，本轮未新增业务逻辑。</p></section><section id="attribution"><h2>归因实际构造路径与 payload 核对</h2><div class="flow">Adjust 归因回调 → CreateFromJson → Request_UserAttrsRequest → JsonConvert.SerializeObject → HttpUtil → /Out/Jam/Come</div><p><strong>此项为静态检查，未实际执行 Unity 序列化或归因上报。</strong>检查覆盖 BIZZA_REAL_WITHDRAW / BIZZA_ENABLE_ADJUST 宏内代码，字典键独立于 DTO 属性同步。该请求是 19 个字段的平面对象，无嵌套对象或数组。空值处理、时间单位、字段值表达式及类型保持。</p><div class="table-scroll"><table class=""><thead><tr><th>旧 JSON 路径</th><th>新 JSON 路径</th><th>取值表达式（保持）</th><th>目标类型</th><th>目标语义</th></tr></thead><tbody><tr><td>$.FtMaGp</td><td>$.SoJAgp</td><td>attribution.Adgroup</td><td>string</td><td>设备当前归因广告组的名称</td></tr><tr><td>$.FtMaDd</td><td>$.SoJAid</td><td>PlayerPrefs.GetString(adJustAdidKey, &quot;&quot;)</td><td>string</td><td>设备的唯一 Adjust ID</td></tr><tr><td>$.FtMaId</td><td>$.SoJApid</td><td>DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid</td><td>string</td><td>应用ID</td></tr><tr><td>$.FtMcAt</td><td>$.SoJCat</td><td>attribution.CostAmount ?? 0</td><td>number</td><td>安装成本-costAmount</td></tr><tr><td>$.FtMcCy</td><td>$.SoJCcy</td><td>attribution.CostCurrency</td><td>string</td><td>成本相关的货币代码-costCurrency</td></tr><tr><td>$.FtMcLl</td><td>$.SoJCkl</td><td>&quot;&quot;</td><td>string</td><td>安装被标记的 点击标签-clickLabel</td></tr><tr><td>$.FtMcMp</td><td>$.SoJCmp</td><td>attribution.Campaign</td><td>string</td><td>设备当前归因-campaign</td></tr><tr><td>$.FtMcTv</td><td>$.SoJCti</td><td>attribution.Creative</td><td>string</td><td>设备当前归因素材的名称-creative</td></tr><tr><td>$.FtMcTi</td><td>$.SoJCtm</td><td>DateTimeOffset.UtcNow.ToUnixTimeSeconds()</td><td>integer</td><td>客户端收到回调的时间-clientTime</td></tr><tr><td>$.FtMcTe</td><td>$.SoJCty</td><td>attribution.CostType</td><td>string</td><td>推广活动定价模型-costType</td></tr><tr><td>$.FtMdLu</td><td>$.SoJDlu</td><td>&quot;&quot;</td><td>string</td><td>投放参数-deepLinkUrl</td></tr><tr><td>$.FtMeVe</td><td>$.SoJEvt</td><td>eventName</td><td>string</td><td>触发归因的事件-event</td></tr><tr><td>$.FtMfRf</td><td>$.SoJFbr</td><td>attribution.FbInstallReferrer</td><td>string</td><td>回调原始值-fbInstallReferrer</td></tr><tr><td>$.FtMgCt</td><td>$.SoJGct</td><td>&quot;&quot;</td><td>string</td><td>google点击时间-ggClickTime</td></tr><tr><td>$.FtMnWk</td><td>$.SoJNet</td><td>attribution.Network</td><td>string</td><td>归因渠道名称-network</td></tr><tr><td>$.FtMtNe</td><td>$.SoJTrn</td><td>attribution.TrackerName</td><td>string</td><td>归因跟踪码-trackerName</td></tr><tr><td>$.FtMtTn</td><td>$.SoJTrt</td><td>attribution.TrackerToken</td><td>string</td><td>归因跟踪名称-trackerToken</td></tr><tr><td>$.FtMuId</td><td>$.SoJUsid</td><td>PlayerPrefs.GetString(AccountModule.m_userIdKey)</td><td>string</td><td>用户ID</td></tr><tr><td>$.vn</td><td>$.Vn</td><td>Application.version</td><td>string</td><td></td></tr></tbody></table></div><details><summary>归因静态检查明细</summary><pre>{
+  &quot;status&quot;: &quot;passed&quot;,
+  &quot;mode&quot;: &quot;static only; serialization not executed&quot;,
+  &quot;trace&quot;: [
+    &quot;AdjustAttributionAdapter.AttributionChangedDelegate&quot;,
+    &quot;AccountModule.CreateFromJson&quot;,
+    &quot;Request_UserAttrsRequest(Dictionary&lt;string, object&gt;)&quot;,
+    &quot;JsonConvert.SerializeObject(request)&quot;,
+    &quot;HttpUtil.RequestToServer&lt;OceanShineUserAttrsRequest&gt;&quot;
+  ],
+  &quot;macrosInspected&quot;: [
+    &quot;BIZZA_REAL_WITHDRAW&quot;,
+    &quot;BIZZA_ENABLE_ADJUST&quot;
+  ],
+  &quot;targetKeyCount&quot;: 19,
+  &quot;actualKeyCount&quot;: 19,
+  &quot;missing&quot;: [],
+  &quot;extra&quot;: [],
+  &quot;duplicates&quot;: [],
+  &quot;confirmedOldKeysRemaining&quot;: [],
+  &quot;valuesAndTypesUnchanged&quot;: true,
+  &quot;timeUnitPreserved&quot;: &quot;DateTimeOffset.UtcNow.ToUnixTimeSeconds()&quot;,
+  &quot;nullHandlingPreserved&quot;: &quot;attribution.CostAmount ?? 0&quot;
+}</pre></details><h3>已有请求的递归字段检查</h3><div class="table-scroll"><table class=""><thead><tr><th>接口</th><th>DTO</th><th>结果</th><th>缺失路径</th><th>额外路径</th><th>类型不符</th></tr></thead><tbody><tr><td>/Out/Jam/AddIncome</td><td>OceanShineAdRevenueRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/ApplyOrder</td><td>OceanShineApplyWithdrawalRequestReal</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/ApplyOrderTask</td><td>OceanShineApplyWithdrawalRequestFake</td><td>Unresolved</td><td>[
+  &quot;$.SoJMn&quot;
+]</td><td>[
+  &quot;$.FtMAt&quot;,
+  &quot;$.FtMMn&quot;
+]</td><td>[]</td></tr><tr><td>/Out/Jam/BaseData</td><td>OceanShineAppOtherConfigRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/Come</td><td>OceanShineUserAttrsRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/IncomeId</td><td>OceanShineGetAdRevenueReportIdRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/Login</td><td>OceanShineUserLoginRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/Talk</td><td>OceanShineFeedbackRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/TalkList</td><td>OceanShineFeedbackListV2Request</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/NewUser</td><td>OceanShineUserReachReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/Times</td><td>OceanShineUserReachReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/Order</td><td>OceanShineUserInfoRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/PayList</td><td>OceanShineWithdrawalPageRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/Task</td><td>Apid_Usid_Vn_Request</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/Jam/UserInfo</td><td>OceanShineUserInfoRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/JamLog/AdInfo</td><td>OceanShineAdLogReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>/Out/JamLog/AppInfo</td><td>OceanShineAppEventReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr></tbody></table></div><p>广告加载上报 HttpAdAdapterBase 使用同一 OceanShineAdLogReportRequest；commonInfo / extendParam 的嵌套字段按该 DTO 同步。静态字段检查不替代实际广告发送。</p><details><summary>完整递归 JSON 路径与类型</summary><pre>[
+  {
+    &quot;symbol&quot;: &quot;add_ecpm&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/AddIncome&quot;,
+    &quot;className&quot;: &quot;OceanShineAdRevenueRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJBtid&quot;: &quot;string&quot;,
+      &quot;$.SoJEcm&quot;: &quot;number&quot;,
+      &quot;$.SoJSal&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;add_order&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/ApplyOrder&quot;,
+    &quot;className&quot;: &quot;OceanShineApplyWithdrawalRequestReal&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJGdid&quot;: &quot;integer&quot;,
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJCp&quot;: &quot;string&quot;,
+      &quot;$.SoJMid&quot;: &quot;integer&quot;,
+      &quot;$.SoJPb&quot;: &quot;string&quot;,
+      &quot;$.SoJRa&quot;: &quot;string&quot;,
+      &quot;$.SoJRe&quot;: &quot;string&quot;,
+      &quot;$.SoJRm&quot;: &quot;string&quot;,
+      &quot;$.SoJRn&quot;: &quot;string&quot;,
+      &quot;$.SoJSeid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;add_order_task&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/ApplyOrderTask&quot;,
+    &quot;className&quot;: &quot;OceanShineApplyWithdrawalRequestFake&quot;,
+    &quot;status&quot;: &quot;Unresolved&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJGdid&quot;: &quot;integer&quot;,
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJCp&quot;: &quot;string&quot;,
+      &quot;$.SoJMid&quot;: &quot;integer&quot;,
+      &quot;$.FtMMn&quot;: &quot;string&quot;,
+      &quot;$.SoJPb&quot;: &quot;string&quot;,
+      &quot;$.SoJRa&quot;: &quot;string&quot;,
+      &quot;$.SoJRe&quot;: &quot;string&quot;,
+      &quot;$.SoJRm&quot;: &quot;string&quot;,
+      &quot;$.SoJRn&quot;: &quot;string&quot;,
+      &quot;$.SoJSeid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;,
+      &quot;$.FtMAt&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [
+      &quot;$.SoJMn&quot;
+    ],
+    &quot;extra&quot;: [
+      &quot;$.FtMAt&quot;,
+      &quot;$.FtMMn&quot;
+    ],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;base_list&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/BaseData&quot;,
+    &quot;className&quot;: &quot;OceanShineAppOtherConfigRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;,
+      &quot;$.SoJcfn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;from&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/Come&quot;,
+    &quot;className&quot;: &quot;OceanShineUserAttrsRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJAgp&quot;: &quot;string&quot;,
+      &quot;$.SoJAid&quot;: &quot;string&quot;,
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJCat&quot;: &quot;number&quot;,
+      &quot;$.SoJCcy&quot;: &quot;string&quot;,
+      &quot;$.SoJCkl&quot;: &quot;string&quot;,
+      &quot;$.SoJCmp&quot;: &quot;string&quot;,
+      &quot;$.SoJCti&quot;: &quot;string&quot;,
+      &quot;$.SoJCtm&quot;: &quot;integer&quot;,
+      &quot;$.SoJCty&quot;: &quot;string&quot;,
+      &quot;$.SoJDlu&quot;: &quot;string&quot;,
+      &quot;$.SoJEvt&quot;: &quot;string&quot;,
+      &quot;$.SoJFbr&quot;: &quot;string&quot;,
+      &quot;$.SoJGct&quot;: &quot;string&quot;,
+      &quot;$.SoJNet&quot;: &quot;string&quot;,
+      &quot;$.SoJTrn&quot;: &quot;string&quot;,
+      &quot;$.SoJTrt&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.Vn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;get_ecpm_id&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/IncomeId&quot;,
+    &quot;className&quot;: &quot;OceanShineGetAdRevenueReportIdRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;login&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/Login&quot;,
+    &quot;className&quot;: &quot;OceanShineUserLoginRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJAnid&quot;: &quot;string&quot;,
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJAtd&quot;: &quot;integer&quot;,
+      &quot;$.SoJBbd&quot;: &quot;string&quot;,
+      &quot;$.SoJCal&quot;: &quot;string&quot;,
+      &quot;$.SoJCtr&quot;: &quot;integer&quot;,
+      &quot;$.SoJDtd&quot;: &quot;string&quot;,
+      &quot;$.SoJDth&quot;: &quot;integer&quot;,
+      &quot;$.SoJDtw&quot;: &quot;integer&quot;,
+      &quot;$.SoJGaid&quot;: &quot;string&quot;,
+      &quot;$.SoJLag&quot;: &quot;string&quot;,
+      &quot;$.SoJMbl&quot;: &quot;string&quot;,
+      &quot;$.SoJNbt&quot;: &quot;string&quot;,
+      &quot;$.SoJObv&quot;: &quot;string&quot;,
+      &quot;$.SoJRtt&quot;: &quot;integer&quot;,
+      &quot;$.SoJSbi&quot;: &quot;integer&quot;,
+      &quot;$.SoJSeid&quot;: &quot;string&quot;,
+      &quot;$.SoJTry&quot;: &quot;string&quot;,
+      &quot;$.SoJTtz&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJCpu&quot;: &quot;string&quot;,
+      &quot;$.SoJUa&quot;: &quot;string&quot;,
+      &quot;$.SoJVc&quot;: &quot;integer&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;msg&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/Talk&quot;,
+    &quot;className&quot;: &quot;OceanShineFeedbackRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJDes&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;msg_list&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/TalkList&quot;,
+    &quot;className&quot;: &quot;OceanShineFeedbackListV2Request&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;new_user&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/NewUser&quot;,
+    &quot;className&quot;: &quot;OceanShineUserReachReportRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;number&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/Times&quot;,
+    &quot;className&quot;: &quot;OceanShineUserReachReportRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;order_list&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/Order&quot;,
+    &quot;className&quot;: &quot;OceanShineUserInfoRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;plat_from&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/PayList&quot;,
+    &quot;className&quot;: &quot;OceanShineWithdrawalPageRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;task_list&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/Task&quot;,
+    &quot;className&quot;: &quot;Apid_Usid_Vn_Request&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJVn&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;user_info&quot;,
+    &quot;path&quot;: &quot;/Out/Jam/UserInfo&quot;,
+    &quot;className&quot;: &quot;OceanShineUserInfoRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJUsid&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;ad_info&quot;,
+    &quot;path&quot;: &quot;/Out/JamLog/AdInfo&quot;,
+    &quot;className&quot;: &quot;OceanShineAdLogReportRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJCnf&quot;: &quot;object&quot;,
+      &quot;$.SoJCnf.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJCnf.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJCnf.SoJVn&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm&quot;: &quot;object&quot;,
+      &quot;$.SoJEpm.SoJAbd&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJAdgp&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJBtid&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJCid&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJCmp&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJCtc&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJEcm&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJEvt&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJEvtM&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJMbc&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJMbp&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJNbt&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJPtf&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  },
+  {
+    &quot;symbol&quot;: &quot;app_info&quot;,
+    &quot;path&quot;: &quot;/Out/JamLog/AppInfo&quot;,
+    &quot;className&quot;: &quot;OceanShineAppEventReportRequest&quot;,
+    &quot;status&quot;: &quot;passed&quot;,
+    &quot;mode&quot;: &quot;static; runtime serialization not executed&quot;,
+    &quot;actualJsonPathsAndTypes&quot;: {
+      &quot;$.SoJCnf&quot;: &quot;object&quot;,
+      &quot;$.SoJCnf.SoJApid&quot;: &quot;string&quot;,
+      &quot;$.SoJCnf.SoJUsid&quot;: &quot;string&quot;,
+      &quot;$.SoJCnf.SoJVn&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm&quot;: &quot;object&quot;,
+      &quot;$.SoJEpm.SoJBgd&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJEvt&quot;: &quot;string&quot;,
+      &quot;$.SoJEpm.SoJEvtE&quot;: &quot;string&quot;
+    },
+    &quot;missing&quot;: [],
+    &quot;extra&quot;: [],
+    &quot;typeMismatch&quot;: []
+  }
+]</pre></details></section><section id="fields"><h2>API 字段逐项对比</h2><p>以下为 212 个已确认的 JsonProperty 映射。按 JSON 键的大小写敏感规则统计，212 项发生变更（包括归因版本键 <code>vn → Vn</code>）。每项保留现有 C# 成员名和类型，并列出目标 Schema 描述；2 个未解决字段在前文单列。</p><label class="search-label">筛选字段 / DTO / 键名 <input id="field-search" type="search" placeholder="例如 Os_Cty、SoJVn、Login" autocomplete="off"></label><p class="muted" id="field-count">显示全部 212 项</p><div class="table-scroll"><table class="field-table"><thead><tr><th>DTO / C# 字段</th><th>C# 类型</th><th>修改前 JSON 键</th><th>修改后 JSON 键</th><th>旧 Schema 含义</th><th>目标 Schema 含义</th></tr></thead><tbody><tr><td>UserInfo.Os_Bac</td><td>double</td><td>FtMBa</td><td>SoJBac</td><td>当前金额-balance</td><td>当前金额-balance</td></tr><tr><td>UserInfo.Os_Baci</td><td>int</td><td>FtMBaI</td><td>SoJBaci</td><td>当前积分数-balance_int</td><td>当前积分数-balance_int</td></tr><tr><td>UserInfo.Os_Con</td><td>int</td><td>FtMCi</td><td>SoJCon</td><td>当前金币数-coin</td><td>当前金币数-coin</td></tr><tr><td>UserInfo.Os_Crc</td><td>string</td><td>FtMcCy</td><td>SoJCrc</td><td>国家货币-currency</td><td>国家货币-currency</td></tr><tr><td>UserInfo.Os_Crcs</td><td>string</td><td>FtMcCyS</td><td>SoJCrcs</td><td>国家货币符号-currencySymbols</td><td>国家货币符号-currencySymbols</td></tr><tr><td>UserInfo.Os_Cty</td><td>string</td><td>FtMcTy</td><td>SoJCty</td><td>国家-country</td><td>国家-country</td></tr><tr><td>UserInfo.Os_Ewl</td><td>double</td><td>FtMeWl</td><td>SoJEwl</td><td>可提现金额-enableWithdrawal</td><td>可提现金额-enableWithdrawal</td></tr><tr><td>UserInfo.Os_Img</td><td>int</td><td>FtMiMs</td><td>SoJImg</td><td>是否有消息未读，1是，0否-isMessage</td><td>是否有消息未读，1是，0否</td></tr><tr><td>UserInfo.Os_Lev</td><td>int</td><td>FtMlVl</td><td>SoJLev</td><td>当前关卡-level</td><td>当前关卡-level</td></tr><tr><td>UserInfo.Os_Lgd</td><td>int</td><td>FtMlDy</td><td>SoJLgd</td><td>用户连续登陆天数-loginDay</td><td>用户连续登陆天数-loginDay</td></tr><tr><td>UserInfo.Os_Mny</td><td>double</td><td>FtMy</td><td>SoJMny</td><td>用户真实的钱（货币）假中真</td><td>用户真实的钱（货币）</td></tr><tr><td>UserInfo.Os_Ncm</td><td>bool</td><td>FtMnC</td><td>SoJNcm</td><td>新手奖励信息-newComer</td><td>新手奖励信息-newComer</td></tr><tr><td>UserInfo.Os_Nnm</td><td>string</td><td>FtMnNm</td><td>SoJNnm</td><td>用户昵称-nickName</td><td>用户昵称-nickName</td></tr><tr><td>UserInfo.Os_Rol</td><td>double</td><td>SbmRol</td><td>SoJRol</td><td>用户的-卷（货币）</td><td>用户的-卷（货币）</td></tr><tr><td>UserInfo.Os_Rti</td><td>long</td><td>FtMrTi</td><td>SoJRti</td><td>注册时间-registerTime</td><td>注册时间-registerTime</td></tr><tr><td>UserInfo.Os_Rts</td><td>int</td><td>FtMrTs</td><td>SoJRts</td><td>当前关卡-reachTimes</td><td>当前关卡-reachTimes</td></tr><tr><td>UserInfo.Os_Tra</td><td>double</td><td>FtMtRe</td><td>SoJTra</td><td>可提现比例-taxRate</td><td>可提现比例-taxRate</td></tr><tr><td>OceanShineAdRevenueRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineAdRevenueRequest.Os_Btid</td><td>string</td><td>FtMbId</td><td>SoJBtid</td><td>bId 获取收益ID</td><td>bId 获取收益ID</td></tr><tr><td>OceanShineAdRevenueRequest.Os_Ecm</td><td>double</td><td>FtMeCpm</td><td>SoJEcm</td><td>广告的ECPM</td><td>广告的ECPM</td></tr><tr><td>OceanShineAdRevenueRequest.Os_Sal</td><td>string</td><td>FtMsPc</td><td>SoJSal</td><td>特殊标识，瓜分活动看广告领取奖励时传入：activity_carve_up   其它情况传空</td><td>特殊标识</td></tr><tr><td>OceanShineAdRevenueRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineAdRevenueRequest.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td></td><td></td></tr><tr><td>OceanShineAdRevenueResponse.Os_Bac</td><td>int</td><td>FtMBa</td><td>SoJBac</td><td>获取的积分--IncVal</td><td>获取的积分</td></tr><tr><td>OceanShineAdRevenueResponse.Os_Uso</td><td>UserInfo</td><td>FtMuIf</td><td>SoJUso</td><td>用户信息-userInfo</td><td>用户信息-userInfo</td></tr><tr><td>OceanShineAdRevenueResponse.Os_Prc</td><td>double</td><td>FtMPr</td><td>SoJPrc</td><td>获取的金额-当前国家-&gt;price</td><td>获取的金额-当前国家-&gt;price</td></tr><tr><td>OceanShineAdRevenueResponse.Os_Mul</td><td>double</td><td>FtMAml</td><td>SoJMul</td><td>原基础上增加倍数，1为1倍，2为2倍，0.1为10%，0.05为5%</td><td>原基础上增加倍数，1为1倍，2为2倍，0.1为10%，0.05为5%</td></tr><tr><td>OceanShineAdRevenueResponse.Os_Con</td><td>int</td><td>FtMCi</td><td>SoJCon</td><td>获取的金币-有可能为0-&gt;coin</td><td>获取的金币-有可能为0-&gt;coin</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Cp</td><td>string</td><td>FtMcPf</td><td>SoJCp</td><td>CPF-cpf</td><td>CPF</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Mid</td><td>int</td><td>FtMmId</td><td>SoJMid</td><td>商品中的-支付配置ID</td><td>商品中的-支付配置ID</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Pb</td><td>string</td><td>FtMpBt</td><td>SoJPb</td><td>Pix账号绑定类型,P E C B-pixBindType</td><td>Pix账号绑定类型,P E C B</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Ra</td><td>string</td><td>FtMrAt</td><td>SoJRa</td><td>ReceiverAccount</td><td>ReceiverAccount</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Re</td><td>string</td><td>FtMrEl</td><td>SoJRe</td><td>ReceiverEmail</td><td>ReceiverEmail</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Rm</td><td>string</td><td>FtMrMe</td><td>SoJRm</td><td>ReceiverMobile</td><td>ReceiverMobile</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Rn</td><td>string</td><td>FtMrNe</td><td>SoJRn</td><td>ReceiverName</td><td>ReceiverName</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Seid</td><td>string</td><td>FtMsSd</td><td>SoJSeid</td><td>客户端UUID</td><td>客户端UUID</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>版本</td><td>版本</td></tr><tr><td>OceanShineApplyWithdrawalResponse.Os_Odr</td><td>string</td><td>FtMoRn</td><td>SoJOdr</td><td>订单号 - orderNo</td><td>订单号 - orderNo</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Cp</td><td>string</td><td>FtMcPf</td><td>SoJCp</td><td>CPF-cpf</td><td>CPF</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Mid</td><td>int</td><td>FtMmId</td><td>SoJMid</td><td>商品中的-支付配置ID</td><td>商品中的-支付配置ID</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Pb</td><td>string</td><td>FtMpBt</td><td>SoJPb</td><td>Pix账号绑定类型,P E C B-pixBindType</td><td>Pix账号绑定类型,P E C B</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Ra</td><td>string</td><td>FtMrAt</td><td>SoJRa</td><td>ReceiverAccount</td><td>ReceiverAccount</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Re</td><td>string</td><td>FtMrEl</td><td>SoJRe</td><td>ReceiverEmail</td><td>ReceiverEmail</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Rm</td><td>string</td><td>FtMrMe</td><td>SoJRm</td><td>ReceiverMobile</td><td>ReceiverMobile</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Rn</td><td>string</td><td>FtMrNe</td><td>SoJRn</td><td>ReceiverName</td><td>ReceiverName</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Seid</td><td>string</td><td>FtMsSd</td><td>SoJSeid</td><td>客户端UUID</td><td>客户端UUID</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>版本</td><td>vn</td></tr><tr><td>OceanShineAppOtherConfigRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineAppOtherConfigRequest.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>版本</td><td>vn</td></tr><tr><td>OceanShineAppOtherConfigRequest.Os_Cfn</td><td>string</td><td>FtMCkn</td><td>SoJcfn</td><td>配置key full_screen_motivate_config_id  full_screen_motivate_config_br</td><td>配置key</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Agp</td><td>string</td><td>FtMaGp</td><td>SoJAgp</td><td>设备当前归因广告组的名称-adgroup</td><td>设备当前归因广告组的名称</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Aid</td><td>string</td><td>FtMaDd</td><td>SoJAid</td><td>设备的唯一 Adjust ID-adid</td><td>设备的唯一 Adjust ID</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Cat</td><td>double</td><td>FtMcAt</td><td>SoJCat</td><td>安装成本-costAmount</td><td>安装成本-costAmount</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Ccy</td><td>string</td><td>FtMcCy</td><td>SoJCcy</td><td>成本相关的货币代码-costCurrency</td><td>成本相关的货币代码-costCurrency</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Ckl</td><td>string</td><td>FtMcLl</td><td>SoJCkl</td><td>安装被标记的 点击标签-clickLabel</td><td>安装被标记的 点击标签-clickLabel</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Cmp</td><td>string</td><td>FtMcMp</td><td>SoJCmp</td><td>设备当前归因-campaign</td><td>设备当前归因-campaign</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Cti</td><td>string</td><td>FtMcTv</td><td>SoJCti</td><td>设备当前归因素材的名称-creative</td><td>设备当前归因素材的名称-creative</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Ctm</td><td>long</td><td>FtMcTi</td><td>SoJCtm</td><td>客户端收到回调的时间-clientTime</td><td>客户端收到回调的时间-clientTime</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Cty</td><td>string</td><td>FtMcTe</td><td>SoJCty</td><td>推广活动定价模型-costType</td><td>推广活动定价模型-costType</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Dlu</td><td>string</td><td>FtMdLu</td><td>SoJDlu</td><td>投放参数-deepLinkUrl</td><td>投放参数-deepLinkUrl</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Evt</td><td>string</td><td>FtMeVe</td><td>SoJEvt</td><td>触发归因的事件-event</td><td>触发归因的事件-event</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Fbr</td><td>string</td><td>FtMfRf</td><td>SoJFbr</td><td>回调原始值-fbInstallReferrer</td><td>回调原始值-fbInstallReferrer</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Gct</td><td>string</td><td>FtMgCt</td><td>SoJGct</td><td>google点击时间-ggClickTime</td><td>google点击时间-ggClickTime</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Net</td><td>string</td><td>FtMnWk</td><td>SoJNet</td><td>归因渠道名称-network</td><td>归因渠道名称-network</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Trn</td><td>string</td><td>FtMtNe</td><td>SoJTrn</td><td>归因跟踪码-trackerName</td><td>归因跟踪码-trackerName</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Trt</td><td>string</td><td>FtMtTn</td><td>SoJTrt</td><td>归因跟踪名称-trackerToken</td><td>归因跟踪名称-trackerToken</td></tr><tr><td>OceanShineUserAttrsRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineUserAttrsRequest.Vn</td><td>string</td><td>vn</td><td>Vn</td><td></td><td></td></tr><tr><td>OceanShineGetAdRevenueReportIdRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineGetAdRevenueReportIdRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineGetAdRevenueReportIdRequest.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td></td><td></td></tr><tr><td>OceanShineGetAdRevenueReportIdResponse.Os_Btid</td><td>string</td><td>FtMbId</td><td>SoJBtid</td><td>batch_id</td><td>batch_id-收益ID</td></tr><tr><td>OceanShineUserLoginRequest.Os_Anid</td><td>string</td><td>FtMaDd</td><td>SoJAnid</td><td>安卓ID</td><td>安卓ID</td></tr><tr><td>OceanShineUserLoginRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineUserLoginRequest.Os_Atd</td><td>int</td><td>FtMaDb</td><td>SoJAtd</td><td>调试模式	isAdb</td><td>调试模式</td></tr><tr><td>OceanShineUserLoginRequest.Os_Bbd</td><td>string</td><td>FtMbRd</td><td>SoJBbd</td><td>手机品牌	brand</td><td>手机品牌</td></tr><tr><td>OceanShineUserLoginRequest.Os_Cal</td><td>string</td><td>FtMcHl</td><td>SoJCal</td><td>来源	channel</td><td>来源</td></tr><tr><td>OceanShineUserLoginRequest.Os_Ctr</td><td>int</td><td>FtMcHr</td><td>SoJCtr</td><td>当前小时值	hour</td><td>当前小时值</td></tr><tr><td>OceanShineUserLoginRequest.Os_Dtd</td><td>string</td><td>FtMdDy</td><td>SoJDtd</td><td>屏幕密度	density</td><td>屏幕密度</td></tr><tr><td>OceanShineUserLoginRequest.Os_Dth</td><td>int</td><td>FtMdHt</td><td>SoJDth</td><td>屏幕高	height</td><td>屏幕高</td></tr><tr><td>OceanShineUserLoginRequest.Os_Dtw</td><td>int</td><td>FtMdWh</td><td>SoJDtw</td><td>屏幕宽	width</td><td>屏幕宽</td></tr><tr><td>OceanShineUserLoginRequest.Os_Gaid</td><td>string</td><td>FtMgAd</td><td>SoJGaid</td><td>GoogleId</td><td>GoogleId</td></tr><tr><td>OceanShineUserLoginRequest.Os_Lag</td><td>string</td><td>FtMlGe</td><td>SoJLag</td><td>语言	language</td><td>语言</td></tr><tr><td>OceanShineUserLoginRequest.Os_Mbl</td><td>string</td><td>FtMmDl</td><td>SoJMbl</td><td>设备型号	model</td><td>设备型号</td></tr><tr><td>OceanShineUserLoginRequest.Os_Nbt</td><td>string</td><td>FtMnWk</td><td>SoJNbt</td><td>网络	network</td><td>网络</td></tr><tr><td>OceanShineUserLoginRequest.Os_Obv</td><td>string</td><td>FtMoVs</td><td>SoJObv</td><td>系统版本	os</td><td>系统版本</td></tr><tr><td>OceanShineUserLoginRequest.Os_Rtt</td><td>int</td><td>FtMrOt</td><td>SoJRtt</td><td>是否root	isRoot</td><td>是否root</td></tr><tr><td>OceanShineUserLoginRequest.Os_Sbi</td><td>int</td><td>FtMsIm</td><td>SoJSbi</td><td>SIM卡	isSim</td><td>SIM卡</td></tr><tr><td>OceanShineUserLoginRequest.Os_Seid</td><td>string</td><td>FtMsSd</td><td>SoJSeid</td><td>客户端UUID</td><td>客户端UUID</td></tr><tr><td>OceanShineUserLoginRequest.Os_Try</td><td>string</td><td>FtMcTy</td><td>SoJTry</td><td>国家码	country</td><td>国家码</td></tr><tr><td>OceanShineUserLoginRequest.Os_Ttz</td><td>string</td><td>FtMtZe</td><td>SoJTtz</td><td>时区	zone</td><td>时区</td></tr><tr><td>OceanShineUserLoginRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineUserLoginRequest.Os_Cpu</td><td>string</td><td>FtMcPu</td><td>SoJCpu</td><td>CPU架构</td><td>CPU架构</td></tr><tr><td>OceanShineUserLoginRequest.Os_Ua</td><td>string</td><td>FtMuA</td><td>SoJUa</td><td>客户端</td><td>客户端</td></tr><tr><td>OceanShineUserLoginRequest.Os_Vc</td><td>int</td><td>vc</td><td>SoJVc</td><td>App版本号</td><td>App版本号</td></tr><tr><td>OceanShineUserLoginRequest.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>App版本名</td><td>App版本名</td></tr><tr><td>OceanShineLoginResponse.Os_Aru</td><td>ActiveRule</td><td>FtMaRu</td><td>SoJAru</td><td>激活规则</td><td>activeRule</td></tr><tr><td>OceanShineLoginResponse.Os_Rdt</td><td>string</td><td>FtMrDe</td><td>SoJRdt</td><td>注册日期</td><td>注册日期</td></tr><tr><td>OceanShineLoginResponse.Os_Rti</td><td>long</td><td>FtMrTi</td><td>SoJRti</td><td>注册时间戳</td><td>注册时间戳</td></tr><tr><td>OceanShineLoginResponse.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineLoginResponse.ActiveRule.Os_Acm</td><td>double</td><td>FtMcPm</td><td>SoJAcm</td><td>cpm</td><td>ad_cpm</td></tr><tr><td>OceanShineLoginResponse.ActiveRule.Os_Aiu</td><td>double</td><td>FtMiPu</td><td>SoJAiu</td><td>ipu</td><td>ad_ipu</td></tr><tr><td>OceanShineFeedbackRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineFeedbackRequest.Os_Des</td><td>string</td><td>FtMdSp</td><td>SoJDes</td><td>内容-description</td><td>内容-description</td></tr><tr><td>OceanShineFeedbackRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineFeedbackRequest.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td></td><td></td></tr><tr><td>OceanShineFeedbackListV2Request.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineFeedbackListV2Request.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineFeedbackListV2Request.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td></td><td></td></tr><tr><td>OceanShineFeedbackListV2Response.Os_Msl</td><td>List&lt;OceanShineFeedbackListV2ResponseData&gt;</td><td>FtMmSg</td><td>SoJMsl</td><td>聊天信息-&gt;msg</td><td>聊天信息-&gt;msg</td></tr><tr><td>OceanShineFeedbackListV2Response.Os_Uso</td><td>UserInfo</td><td>FtMuIf</td><td>SoJUso</td><td>用户信息-userInfo</td><td>用户信息-userInfo</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID-&gt;</td><td>应用ID</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Cda</td><td>string</td><td>FtMcAt</td><td>SoJCda</td><td>提交时间-created_at</td><td>提交时间-created_at</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Cte</td><td>long</td><td>FtMcTi</td><td>SoJCte</td><td>提交时间-毫秒-created_time</td><td>提交时间-毫秒-created_time</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Ctt</td><td>string</td><td>FtMcTt</td><td>SoJCtt</td><td>内容-content</td><td>内容-content-&gt;text-&gt;msg</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Id</td><td>long</td><td>FtMid</td><td>SoJId</td><td>数据库ID-&gt;id-&gt;id</td><td>数据库ID-&gt;id-&gt;id</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Tpe</td><td>long</td><td>FtMtPe</td><td>SoJTpe</td><td>1用户反馈，2后台回答-type</td><td>1用户反馈，2后台回答-type</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Uda</td><td>string</td><td>FtMuAt</td><td>SoJUda</td><td>更新时间-updated_at</td><td>更新时间-updated_at</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Ute</td><td>long</td><td>FtMuTi</td><td>SoJUte</td><td>更新时间-毫秒-updated_time</td><td>更新时间-毫秒-updated_time</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>版本号-vn</td><td>版本号-vn</td></tr><tr><td>OceanShineUserReachReportRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineUserReachReportRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineUserReachReportResponse.Os_Acg</td><td>NewcomerReward</td><td>FtMaCg</td><td>SoJAcg</td><td>新手奖励信息-appConfig</td><td>新手奖励信息-appConfig</td></tr><tr><td>OceanShineUserReachReportResponse.Os_Uso</td><td>UserInfo</td><td>FtMuIf</td><td>SoJUso</td><td>用户信息-userInfo</td><td>用户信息-userInfo</td></tr><tr><td>OceanShineUserReachReportResponse.NewcomerReward.Os_Com</td><td>int</td><td>FtMcMg</td><td>SoJCom</td><td>commonMerge</td><td>commonMerge</td></tr><tr><td>OceanShineUserReachReportResponse.NewcomerReward.Os_Nba</td><td>int</td><td>FtMnBa</td><td>SoJNba</td><td>新手奖励积分数-new_balance</td><td>新手奖励积分数-new_balance</td></tr><tr><td>OceanShineUserReachReportResponse.NewcomerReward.Os_Ncc</td><td>int</td><td>FtMnCc</td><td>SoJNcc</td><td>新手奖励金币-new_comer_coin</td><td>新手奖励金币-new_comer_coin</td></tr><tr><td>OceanShineUserReachReportResponse.NewcomerReward.Os_Rnw</td><td>double</td><td>FtMnCr</td><td>SoJRnw</td><td>新手奖励金额-newComerReward</td><td>新手奖励金额-newComerReward</td></tr><tr><td>OceanShineUserReachReportResponse.NewcomerReward.Os_Usd</td><td>double</td><td>FtMtUd</td><td>SoJUsd</td><td>转usd 比例-toUsd</td><td>转usd 比例-toUsd</td></tr><tr><td>OceanShineUserInfoRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineUserInfoRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Cp</td><td>string</td><td>FtMcPf</td><td>SoJCp</td><td>CPF-&gt;cpf</td><td>CPF</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Crc</td><td>string</td><td>FtMcCy</td><td>SoJCrc</td><td>货币码-currency</td><td>货币码-currency</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Crcs</td><td>string</td><td>FtMcCyS</td><td>SoJCrcs</td><td>货币符号-currencySymbols</td><td>货币符号-currencySymbols</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Dat</td><td>string</td><td>FtMdt</td><td>SoJDat</td><td>提现时间-&gt;date</td><td>提现时间-&gt;date</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Id</td><td>long</td><td>FtMid</td><td>SoJId</td><td>ID-订单-id-&gt;id</td><td>ID-订单</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Pb</td><td>string</td><td>FtMpBt</td><td>SoJPb</td><td>Pix账号绑定类型,P E C B-pixBindType</td><td>Pix账号绑定类型,P E C B</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Prc</td><td>double</td><td>FtMpr</td><td>SoJPrc</td><td>金额-amount</td><td>金额-amount</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Pym</td><td>string</td><td>FtMpNe</td><td>SoJPym</td><td>payName 支付名称</td><td>payName 支付名称</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Ra</td><td>string</td><td>FtMrAt</td><td>SoJRa</td><td>ReceiverAccount</td><td>ReceiverAccount</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Re</td><td>string</td><td>FtMrEl</td><td>SoJRe</td><td>ReceiverEmail</td><td>ReceiverEmail</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Rm</td><td>string</td><td>FtMrMe</td><td>SoJRm</td><td>ReceiverMobil</td><td>ReceiverMobile</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Rn</td><td>string</td><td>FtMrNe</td><td>SoJRn</td><td>ReceiverName</td><td>ReceiverName</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Rrm</td><td>string</td><td>FtMrMs</td><td>SoJRrm</td><td>提示信息-remarks</td><td>提示信息-remarks</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Sts</td><td>int</td><td>FtMsSt</td><td>SoJSts</td><td>状态信息，1进行中，2违规被拒，3成功，4失败-showState</td><td>状态信息，1进行中，2违规被拒，3成功，4失败</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Tsm</td><td>string</td><td>SbmTsm</td><td>SoJTsm</td><td>提示信息（现金提现失败后）</td><td>提示信息（现金提现失败后）</td></tr><tr><td>OceanShineWithdrawalPageRequest.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineWithdrawalPageRequest.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineWithdrawalPageRequest.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td></td><td></td></tr><tr><td>OceanShineWithdrawalPageResponse.Os_Uso</td><td>UserInfo</td><td>FtMuIf</td><td>SoJUso</td><td>用户信息-userInfo</td><td>用户信息-userInfo</td></tr><tr><td>OceanShineWithdrawalPageResponse.Os_Wr</td><td>List&lt;WithdrawalRatio&gt;</td><td>FtMrat</td><td>SoJWr</td><td>提现比例说明</td><td>提现规则-WithdrawRatio</td></tr><tr><td>OceanShineWithdrawalPageResponse.Os_Wwf</td><td>List&lt;WithdrawalPlatform&gt;</td><td>FtMwPf</td><td>SoJWwf</td><td>提现平台-withdrawPlatform</td><td>提现平台-withdrawPlatform</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalRatio.Os_Ady</td><td>int</td><td>FtMady</td><td>SoJAdy</td><td>当前档位</td><td>提现档位-adFrequency</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalRatio.Os_Ben</td><td>int</td><td>FtMbeg</td><td>SoJBen</td><td>开始数</td><td>开始 begin</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalRatio.Os_End</td><td>int</td><td>FtMend</td><td>SoJEnd</td><td>结束数</td><td>结束 end</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalRatio.Os_Wro</td><td>double</td><td>FtMrat</td><td>SoJWro</td><td>比例</td><td>提现比例 withdrawRatio</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform.Os_Cn</td><td>string</td><td>FtMc</td><td>SoJCn</td><td>支付平台-图标-&gt;icon</td><td>支付平台-图标-&gt;icon</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform.Os_Me</td><td>string</td><td>FtMm</td><td>SoJMe</td><td>支付平台-名称-&gt;name</td><td>支付平台-名称-&gt;name</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform.Os_Mid</td><td>int</td><td>FtMmId</td><td>SoJMid</td><td>配置ID-去提现时用-configId</td><td>配置ID-去提现时用</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform.Os_Mlt</td><td>double</td><td>FtMml</td><td>SoJMlt</td><td>是低提现值-minimumLimit</td><td>是低提现值-minimumLimit</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform.Os_Et</td><td>string</td><td>FtMx</td><td>SoJEt</td><td>支付平台-描述-&gt;text</td><td>支付平台-描述-&gt;text</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform.Os_Id</td><td>int</td><td>FtMid</td><td>SoJId</td><td>ID-id-&gt;id</td><td>ID-id-&gt;id</td></tr><tr><td>Apid_Usid_Vn_Request.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>Apid_Usid_Vn_Request.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>Apid_Usid_Vn_Request.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>版本</td><td>vn</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_An</td><td>int</td><td>FtMAn</td><td>SoJAn</td><td>广告次数</td><td>广告次数</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_Css</td><td>string</td><td>FtMCss</td><td>SoJCss</td><td>国家货币符号</td><td>国家货币符号</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_Ln</td><td>int</td><td>FtMLn</td><td>SoJLn</td><td>已看次数</td><td>已看次数</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_Mrt</td><td>double</td><td>FtMMrt</td><td>SoJMrt</td><td>卷转金额的比例</td><td>卷转金额的比例</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_My</td><td>double</td><td>FtMMy</td><td>SoJMy</td><td>可提现金额</td><td>可提现金额</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_Sr</td><td>int</td><td>FtMSr</td><td>SoJSr</td><td>排序</td><td>排序</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_Ss</td><td>int</td><td>FtMSs</td><td>SoJSs</td><td>当前状态,1未达到条件（观看广告次数不足），2已达到条件（可以提现），3已提现</td><td>当前状态,1未达到条件（观看广告次数不足），2已达到条件（可以提现），3已提现</td></tr><tr><td>RoutineTaskLookAdMoneyResponse.Os_Tid</td><td>int</td><td>FtMTid</td><td>SoJTid</td><td>任务ID-领取奖励时使用用-提现时使用</td><td>任务ID-领取奖励时使用用-提现时使用</td></tr><tr><td>OceanShineUserInfoResponse.Os_Acg</td><td>NewcomerReward</td><td>FtMaCg</td><td>SoJAcg</td><td>新手奖励信息-appConfig</td><td>新手奖励信息-appConfig</td></tr><tr><td>OceanShineUserInfoResponse.Os_Uso</td><td>UserInfo</td><td>FtMuIf</td><td>SoJUso</td><td>用户信息-userInfo</td><td>用户信息-userInfo</td></tr><tr><td>OceanShineUserInfoResponse.NewcomerReward.Os_Com</td><td>int</td><td>FtMcMg</td><td>SoJCom</td><td>commonMerge</td><td>commonMerge</td></tr><tr><td>OceanShineUserInfoResponse.NewcomerReward.Os_Nba</td><td>int</td><td>FtMnBa</td><td>SoJNba</td><td>新手奖励积分数-new_balance</td><td>新手奖励积分数-new_balance</td></tr><tr><td>OceanShineUserInfoResponse.NewcomerReward.Os_Ncc</td><td>int</td><td>FtMnCc</td><td>SoJNcc</td><td>新手奖励金币-new_comer_coin</td><td>新手奖励金币-new_comer_coin</td></tr><tr><td>OceanShineUserInfoResponse.NewcomerReward.Os_Rnw</td><td>double</td><td>FtMnCr</td><td>SoJRnw</td><td>新手奖励金额-newComerReward</td><td>新手奖励金额-newComerReward</td></tr><tr><td>OceanShineUserInfoResponse.NewcomerReward.Os_Usd</td><td>double</td><td>FtMtUd</td><td>SoJUsd</td><td>转usd 比例-toUsd</td><td>转usd 比例-toUsd</td></tr><tr><td>OceanShineAdLogReportRequest.Os_Cnf</td><td>CommonInfo</td><td>FtMcIf</td><td>SoJCnf</td><td>commonInfo</td><td>commonInfo</td></tr><tr><td>OceanShineAdLogReportRequest.Os_Epm</td><td>ExtendParam</td><td>FtMePm</td><td>SoJEpm</td><td>extendParam</td><td>extendParam</td></tr><tr><td>OceanShineAdLogReportRequest.CommonInfo.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineAdLogReportRequest.CommonInfo.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineAdLogReportRequest.CommonInfo.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>vn</td><td>vn</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Abd</td><td>string</td><td>FtMaTy</td><td>SoJAbd</td><td>adType</td><td>adType</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Adgp</td><td>string</td><td>FtMaGp</td><td>SoJAdgp</td><td>adgroup 设备当前归因广告组的名称</td><td>adgroup 设备当前归因广告组的名称</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Btid</td><td>string</td><td>FtMbId</td><td>SoJBtid</td><td>batchId</td><td>batchId</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Cid</td><td>string</td><td>FtMcId</td><td>SoJCid</td><td>codeId</td><td>codeId</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Cmp</td><td>string</td><td>FtMcMp</td><td>SoJCmp</td><td>campaign 设备当前归因</td><td>campaign 设备当前归因</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Ctc</td><td>string</td><td>FtMcCyc</td><td>SoJCtc</td><td>currencyCode</td><td>currencyCode</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Ecm</td><td>string</td><td>FtMeCpm</td><td>SoJEcm</td><td>ecpm</td><td>ecpm</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Evt</td><td>string</td><td>FtMeVe</td><td>SoJEvt</td><td>event-</td><td>event</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_EvtM</td><td>string</td><td>FtMeVeM</td><td>SoJEvtM</td><td>eventMsg</td><td>eventMsg</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Mbc</td><td>string</td><td>FtMmCd</td><td>SoJMbc</td><td>mediaCodeId</td><td>mediaCodeId</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Mbp</td><td>string</td><td>FtMmPf</td><td>SoJMbp</td><td>mediaPlatform</td><td>mediaPlatform</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Nbt</td><td>string</td><td>FtMnWk</td><td>SoJNbt</td><td>network 归因渠道名称</td><td>network 归因渠道名称</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam.Os_Ptf</td><td>string</td><td>FtMpFm</td><td>SoJPtf</td><td>platform</td><td>platform</td></tr><tr><td>OceanShineAppEventReportRequest.Os_Cnf</td><td>CommonInfo</td><td>FtMcIf</td><td>SoJCnf</td><td>commonInfo</td><td>commonInfo</td></tr><tr><td>OceanShineAppEventReportRequest.Os_Epm</td><td>ExtendParam</td><td>FtMePm</td><td>SoJEpm</td><td>extendParam</td><td>extendParam</td></tr><tr><td>OceanShineAppEventReportRequest.CommonInfo.Os_Apid</td><td>string</td><td>FtMaId</td><td>SoJApid</td><td>应用ID</td><td>应用ID</td></tr><tr><td>OceanShineAppEventReportRequest.CommonInfo.Os_Usid</td><td>string</td><td>FtMuId</td><td>SoJUsid</td><td>用户ID</td><td>用户ID</td></tr><tr><td>OceanShineAppEventReportRequest.CommonInfo.Os_Vn</td><td>string</td><td>vn</td><td>SoJVn</td><td>vn</td><td>vn</td></tr><tr><td>OceanShineAppEventReportRequest.ExtendParam.Os_Bgd</td><td>string</td><td>FtMpId</td><td>SoJBgd</td><td>pageId</td><td>pageId</td></tr><tr><td>OceanShineAppEventReportRequest.ExtendParam.Os_Evt</td><td>string</td><td>FtMeVe</td><td>SoJEvt</td><td>event</td><td>event</td></tr><tr><td>OceanShineAppEventReportRequest.ExtendParam.Os_EvtE</td><td>string</td><td>FtMeVeE</td><td>SoJEvtE</td><td>eventExt</td><td>eventExt</td></tr></tbody></table></div><h3>6 个 DTO 字段新增</h3><div class="table-scroll"><table class=""><thead><tr><th>DTO / 字段</th><th>类型</th><th>目标 JSON 键</th><th>目标含义</th><th>状态</th></tr></thead><tbody><tr><td>OceanShineApplyWithdrawalRequestReal.Os_Gdid</td><td>int</td><td>SoJGdid</td><td>商品ID</td><td>新增</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake.Os_Gdid</td><td>int</td><td>SoJGdid</td><td>商品ID</td><td>新增</td></tr><tr><td>OceanShineGetAdRevenueReportIdResponse.Os_Pfm</td><td>string</td><td>SoJPfm</td><td>展示那一个广告平台的广告 max、topon、exceed（超出上限）、error（未知错误）</td><td>新增</td></tr><tr><td>OceanShineLoginResponse.Os_Rw</td><td>int</td><td>SoJRw</td><td>1为审核模式，0或2为投放模式</td><td>新增</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Ded</td><td>double</td><td>SoJDed</td><td>扣除金额或现金提现时转roll金额</td><td>新增</td></tr><tr><td>OceanShineWithdrawalRecord.Os_Try</td><td>int</td><td>SoJTry</td><td>1 现金提现，2roll提现</td><td>新增</td></tr></tbody></table></div><h3>反向字段检查</h3><div class="table-scroll"><table class=""><thead><tr><th>DTO</th><th>结果</th><th>目标缺失键</th><th>额外保留键</th><th>重复键</th></tr></thead><tbody><tr><td>UserInfo</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAdRevenueRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAdRevenueResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineApplyWithdrawalRequestReal</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineApplyWithdrawalResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineApplyWithdrawalRequestFake</td><td>Unresolved</td><td>[
+  &quot;SoJMn&quot;
+]</td><td>[
+  &quot;FtMAt&quot;,
+  &quot;FtMMn&quot;
+]</td><td>[]</td></tr><tr><td>OceanShineAppOtherConfigRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserAttrsRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineGetAdRevenueReportIdRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineGetAdRevenueReportIdResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserLoginRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineLoginResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineLoginResponse.ActiveRule</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineFeedbackRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineFeedbackListV2Request</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineFeedbackListV2Response</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineFeedbackListV2Response.OceanShineFeedbackListV2ResponseData</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserReachReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserReachReportResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserReachReportResponse.NewcomerReward</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserInfoRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineWithdrawalRecord</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineWithdrawalPageRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineWithdrawalPageResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalRatio</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineWithdrawalPageResponse.WithdrawalPlatform</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>Apid_Usid_Vn_Request</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>RoutineTaskLookAdMoneyResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserInfoResponse</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineUserInfoResponse.NewcomerReward</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAdLogReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAdLogReportRequest.CommonInfo</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAdLogReportRequest.ExtendParam</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAppEventReportRequest</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAppEventReportRequest.CommonInfo</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr><tr><td>OceanShineAppEventReportRequest.ExtendParam</td><td>通过</td><td>[]</td><td>[]</td><td>[]</td></tr></tbody></table></div></section><section id="methods"><h2>方法契约与调用关系</h2><p>独立 Roslyn 检查包括构造函数声明及调用序列，覆盖 Editor / Debug、Android 和无 Adjust 三组宏。方法体变更仅限 <code>CreateFromJson</code> 的 19 个确认键名，以及两个提款构造方法新增的商品 ID 默认赋值。</p><div class="table-scroll"><table class=""><thead><tr><th>预处理宏</th><th>方法数</th><th>方法体未变</th><th>允许变更方法数</th><th>新增方法</th><th>删除方法</th><th>调用序列相同</th></tr></thead><tbody><tr><td>BIZZA_REAL_WITHDRAW, BIZZA_ENABLE_ADJUST, BIZZA_ENABLE_MAX, WKY_SDK, UNITY_EDITOR, DEBUG_MODE</td><td>57</td><td>54</td><td>3</td><td>0</td><td>0</td><td>是</td></tr><tr><td>BIZZA_REAL_WITHDRAW, BIZZA_ENABLE_ADJUST, BIZZA_ENABLE_MAX, WKY_SDK, UNITY_ANDROID</td><td>57</td><td>54</td><td>3</td><td>0</td><td>0</td><td>是</td></tr><tr><td>BIZZA_REAL_WITHDRAW, BIZZA_ENABLE_MAX, WKY_SDK</td><td>56</td><td>54</td><td>2</td><td>0</td><td>0</td><td>是</td></tr></tbody></table></div><details><summary>允许修改投影检查</summary><pre>{
+  &quot;status&quot;: &quot;passed&quot;,
+  &quot;mode&quot;: &quot;static complete permitted-token projection&quot;,
+  &quot;methodDeclarationCount&quot;: 56,
+  &quot;declarationsUnchanged&quot;: true,
+  &quot;httpCallCount&quot;: 17,
+  &quot;httpCallsUnchanged&quot;: true,
+  &quot;allOtherMethodTextUnchanged&quot;: true,
+  &quot;authorizedBuilderChanges&quot;: [
+    {
+      &quot;start&quot;: 24417,
+      &quot;end&quot;: 24417,
+      &quot;old&quot;: &quot;&quot;,
+      &quot;new&quot;: &quot;            Os_Gdid = 0,\r\n&quot;,
+      &quot;category&quot;: &quot;authorized-withdrawal-builder&quot;,
+      &quot;method&quot;: &quot;GetApplyWithdrawalRequestReal&quot;,
+      &quot;reason&quot;: &quot;New optional integer goods field initialized with C# default; no goods ID parameter exists in protected method signature&quot;
+    },
+    {
+      &quot;start&quot;: 27355,
+      &quot;end&quot;: 27355,
+      &quot;old&quot;: &quot;&quot;,
+      &quot;new&quot;: &quot;            Os_Gdid = 0,\r\n&quot;,
+      &quot;category&quot;: &quot;authorized-withdrawal-builder&quot;,
+      &quot;method&quot;: &quot;GetApplyWithdrawalRequestFake&quot;,
+      &quot;reason&quot;: &quot;New optional integer goods field initialized with C# default; no goods ID parameter exists in protected method signature&quot;
+    }
+  ]
+}</pre></details><details><summary>Roslyn 独立检查完整结果</summary><pre>{
+  &quot;passed&quot;: true,
+  &quot;signaturesPassed&quot;: true,
+  &quot;callsPassed&quot;: true,
+  &quot;methodNamesPassed&quot;: true,
+  &quot;variants&quot;: [
+    {
+      &quot;defines&quot;: [
+        &quot;BIZZA_REAL_WITHDRAW&quot;,
+        &quot;BIZZA_ENABLE_ADJUST&quot;,
+        &quot;BIZZA_ENABLE_MAX&quot;,
+        &quot;WKY_SDK&quot;,
+        &quot;UNITY_EDITOR&quot;,
+        &quot;DEBUG_MODE&quot;
+      ],
+      &quot;methodCount&quot;: 57,
+      &quot;unchanged&quot;: 54,
+      &quot;added&quot;: [],
+      &quot;removed&quot;: [],
+      &quot;changes&quot;: [
+        {
+          &quot;name&quot;: &quot;GetApplyWithdrawalRequestReal&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public OceanShineApplyWithdrawalRequestReal GetApplyWithdrawalRequestReal ( string _Os_Cp , int _Os_Mid , string _Os_Pb , string _Os_Ra , string _Os_Re , string _Os_Rm , string _Os_Rn , string Os_Mn , string _Os_At )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestReal request = new OceanShineApplyWithdrawalRequestReal()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            // Os_Mn = Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            //Os_At = _Os_At,\r\n        };\r\n        return request;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestReal request = new OceanShineApplyWithdrawalRequestReal()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            // Os_Mn = Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Gdid = 0,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            //Os_At = _Os_At,\r\n        };\r\n        return request;\r\n    }\r\n&quot;
+        },
+        {
+          &quot;name&quot;: &quot;GetApplyWithdrawalRequestFake&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public OceanShineApplyWithdrawalRequestFake GetApplyWithdrawalRequestFake ( string _Os_Cp , int _Os_Mid , string _Os_Pb , string _Os_Ra , string _Os_Re , string _Os_Rm , string _Os_Rn , string _Os_Mn , string _Os_At )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestFake request = new OceanShineApplyWithdrawalRequestFake()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            Os_Mn = _Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            Os_At = _Os_At\r\n        };\r\n        return request;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestFake request = new OceanShineApplyWithdrawalRequestFake()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            Os_Mn = _Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Gdid = 0,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            Os_At = _Os_At\r\n        };\r\n        return request;\r\n    }\r\n&quot;
+        },
+        {
+          &quot;name&quot;: &quot;CreateFromJson&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public Dictionary &lt; string , object &gt; CreateFromJson ( AdjustSdk . AdjustAttribution attribution , string eventName )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        var _oceanShineUserAttrs = new Dictionary&lt;string, object&gt;\r\n        {\r\n                { \&quot;FtMaGp\&quot;, attribution.Adgroup },// 设备当前归因广告组的名称\r\n                { \&quot;FtMaDd\&quot;, PlayerPrefs.GetString(adJustAdidKey, \&quot;\&quot;) },// 设备的唯一 Adjust ID\r\n                { \&quot;FtMaId\&quot;, DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid },// 应用 ID\r\n                { \&quot;FtMcAt\&quot;, attribution.CostAmount ?? 0 },// 安装成本 - costAmount\r\n                { \&quot;FtMcCy\&quot;, attribution.CostCurrency },// 成本相关的货币代码 - costCurrency\r\n                { \&quot;FtMcLl\&quot;, \&quot;\&quot; },// 安装被标记的点击标签 - clickLabel\r\n                { \&quot;FtMcMp\&quot;, attribution.Campaign },// 设备当前归因 - campaign\r\n                { \&quot;FtMcTv\&quot;, attribution.Creative },// 设备当前归因素材的名称 - creative\r\n                { \&quot;FtMcTi\&quot;, DateTimeOffset.UtcNow.ToUnixTimeSeconds() },// 客户端收到回调的时间 - clientTime\r\n                { \&quot;FtMcTe\&quot;, attribution.CostType },// 推广活动定价模型 - costType\r\n                { \&quot;FtMdLu\&quot;, \&quot;\&quot; },// 投放参数 - deepLinkUrl\r\n                { \&quot;FtMeVe\&quot;, eventName },// 触发归因的事件 - event\r\n                { \&quot;FtMfRf\&quot;, attribution.FbInstallReferrer },// 回调原始值 - fbInstallReferrer\r\n                { \&quot;FtMgCt\&quot;, \&quot;\&quot; },// Google 点击时间 - ggClickTime\r\n                { \&quot;FtMnWk\&quot;, attribution.Network },// 归因渠道名称 - network\r\n                { \&quot;FtMtNe\&quot;, attribution.TrackerName }, // 归因跟踪码 - trackerName\r\n                { \&quot;FtMtTn\&quot;, attribution.TrackerToken },// 归因跟踪名称 - trackerToken\r\n                { \&quot;FtMuId\&quot;, PlayerPrefs.GetString(AccountModule.m_userIdKey) },// 用户 ID\r\n                { \&quot;vn\&quot;, Application.version }// 应用版本号\r\n        };\r\n        return _oceanShineUserAttrs;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        var _oceanShineUserAttrs = new Dictionary&lt;string, object&gt;\r\n        {\r\n                { \&quot;SoJAgp\&quot;, attribution.Adgroup },// 设备当前归因广告组的名称\r\n                { \&quot;SoJAid\&quot;, PlayerPrefs.GetString(adJustAdidKey, \&quot;\&quot;) },// 设备的唯一 Adjust ID\r\n                { \&quot;SoJApid\&quot;, DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid },// 应用 ID\r\n                { \&quot;SoJCat\&quot;, attribution.CostAmount ?? 0 },// 安装成本 - costAmount\r\n                { \&quot;SoJCcy\&quot;, attribution.CostCurrency },// 成本相关的货币代码 - costCurrency\r\n                { \&quot;SoJCkl\&quot;, \&quot;\&quot; },// 安装被标记的点击标签 - clickLabel\r\n                { \&quot;SoJCmp\&quot;, attribution.Campaign },// 设备当前归因 - campaign\r\n                { \&quot;SoJCti\&quot;, attribution.Creative },// 设备当前归因素材的名称 - creative\r\n                { \&quot;SoJCtm\&quot;, DateTimeOffset.UtcNow.ToUnixTimeSeconds() },// 客户端收到回调的时间 - clientTime\r\n                { \&quot;SoJCty\&quot;, attribution.CostType },// 推广活动定价模型 - costType\r\n                { \&quot;SoJDlu\&quot;, \&quot;\&quot; },// 投放参数 - deepLinkUrl\r\n                { \&quot;SoJEvt\&quot;, eventName },// 触发归因的事件 - event\r\n                { \&quot;SoJFbr\&quot;, attribution.FbInstallReferrer },// 回调原始值 - fbInstallReferrer\r\n                { \&quot;SoJGct\&quot;, \&quot;\&quot; },// Google 点击时间 - ggClickTime\r\n                { \&quot;SoJNet\&quot;, attribution.Network },// 归因渠道名称 - network\r\n                { \&quot;SoJTrn\&quot;, attribution.TrackerName }, // 归因跟踪码 - trackerName\r\n                { \&quot;SoJTrt\&quot;, attribution.TrackerToken },// 归因跟踪名称 - trackerToken\r\n                { \&quot;SoJUsid\&quot;, PlayerPrefs.GetString(AccountModule.m_userIdKey) },// 用户 ID\r\n                { \&quot;Vn\&quot;, Application.version }// 应用版本号\r\n        };\r\n        return _oceanShineUserAttrs;\r\n    }\r\n&quot;
+        }
+      ]
+    },
+    {
+      &quot;defines&quot;: [
+        &quot;BIZZA_REAL_WITHDRAW&quot;,
+        &quot;BIZZA_ENABLE_ADJUST&quot;,
+        &quot;BIZZA_ENABLE_MAX&quot;,
+        &quot;WKY_SDK&quot;,
+        &quot;UNITY_ANDROID&quot;
+      ],
+      &quot;methodCount&quot;: 57,
+      &quot;unchanged&quot;: 54,
+      &quot;added&quot;: [],
+      &quot;removed&quot;: [],
+      &quot;changes&quot;: [
+        {
+          &quot;name&quot;: &quot;GetApplyWithdrawalRequestReal&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public OceanShineApplyWithdrawalRequestReal GetApplyWithdrawalRequestReal ( string _Os_Cp , int _Os_Mid , string _Os_Pb , string _Os_Ra , string _Os_Re , string _Os_Rm , string _Os_Rn , string Os_Mn , string _Os_At )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestReal request = new OceanShineApplyWithdrawalRequestReal()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            // Os_Mn = Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            //Os_At = _Os_At,\r\n        };\r\n        return request;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestReal request = new OceanShineApplyWithdrawalRequestReal()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            // Os_Mn = Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Gdid = 0,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            //Os_At = _Os_At,\r\n        };\r\n        return request;\r\n    }\r\n&quot;
+        },
+        {
+          &quot;name&quot;: &quot;GetApplyWithdrawalRequestFake&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public OceanShineApplyWithdrawalRequestFake GetApplyWithdrawalRequestFake ( string _Os_Cp , int _Os_Mid , string _Os_Pb , string _Os_Ra , string _Os_Re , string _Os_Rm , string _Os_Rn , string _Os_Mn , string _Os_At )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestFake request = new OceanShineApplyWithdrawalRequestFake()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            Os_Mn = _Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            Os_At = _Os_At\r\n        };\r\n        return request;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestFake request = new OceanShineApplyWithdrawalRequestFake()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            Os_Mn = _Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Gdid = 0,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            Os_At = _Os_At\r\n        };\r\n        return request;\r\n    }\r\n&quot;
+        },
+        {
+          &quot;name&quot;: &quot;CreateFromJson&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public Dictionary &lt; string , object &gt; CreateFromJson ( AdjustSdk . AdjustAttribution attribution , string eventName )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        var _oceanShineUserAttrs = new Dictionary&lt;string, object&gt;\r\n        {\r\n                { \&quot;FtMaGp\&quot;, attribution.Adgroup },// 设备当前归因广告组的名称\r\n                { \&quot;FtMaDd\&quot;, PlayerPrefs.GetString(adJustAdidKey, \&quot;\&quot;) },// 设备的唯一 Adjust ID\r\n                { \&quot;FtMaId\&quot;, DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid },// 应用 ID\r\n                { \&quot;FtMcAt\&quot;, attribution.CostAmount ?? 0 },// 安装成本 - costAmount\r\n                { \&quot;FtMcCy\&quot;, attribution.CostCurrency },// 成本相关的货币代码 - costCurrency\r\n                { \&quot;FtMcLl\&quot;, \&quot;\&quot; },// 安装被标记的点击标签 - clickLabel\r\n                { \&quot;FtMcMp\&quot;, attribution.Campaign },// 设备当前归因 - campaign\r\n                { \&quot;FtMcTv\&quot;, attribution.Creative },// 设备当前归因素材的名称 - creative\r\n                { \&quot;FtMcTi\&quot;, DateTimeOffset.UtcNow.ToUnixTimeSeconds() },// 客户端收到回调的时间 - clientTime\r\n                { \&quot;FtMcTe\&quot;, attribution.CostType },// 推广活动定价模型 - costType\r\n                { \&quot;FtMdLu\&quot;, \&quot;\&quot; },// 投放参数 - deepLinkUrl\r\n                { \&quot;FtMeVe\&quot;, eventName },// 触发归因的事件 - event\r\n                { \&quot;FtMfRf\&quot;, attribution.FbInstallReferrer },// 回调原始值 - fbInstallReferrer\r\n                { \&quot;FtMgCt\&quot;, \&quot;\&quot; },// Google 点击时间 - ggClickTime\r\n                { \&quot;FtMnWk\&quot;, attribution.Network },// 归因渠道名称 - network\r\n                { \&quot;FtMtNe\&quot;, attribution.TrackerName }, // 归因跟踪码 - trackerName\r\n                { \&quot;FtMtTn\&quot;, attribution.TrackerToken },// 归因跟踪名称 - trackerToken\r\n                { \&quot;FtMuId\&quot;, PlayerPrefs.GetString(AccountModule.m_userIdKey) },// 用户 ID\r\n                { \&quot;vn\&quot;, Application.version }// 应用版本号\r\n        };\r\n        return _oceanShineUserAttrs;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        var _oceanShineUserAttrs = new Dictionary&lt;string, object&gt;\r\n        {\r\n                { \&quot;SoJAgp\&quot;, attribution.Adgroup },// 设备当前归因广告组的名称\r\n                { \&quot;SoJAid\&quot;, PlayerPrefs.GetString(adJustAdidKey, \&quot;\&quot;) },// 设备的唯一 Adjust ID\r\n                { \&quot;SoJApid\&quot;, DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid },// 应用 ID\r\n                { \&quot;SoJCat\&quot;, attribution.CostAmount ?? 0 },// 安装成本 - costAmount\r\n                { \&quot;SoJCcy\&quot;, attribution.CostCurrency },// 成本相关的货币代码 - costCurrency\r\n                { \&quot;SoJCkl\&quot;, \&quot;\&quot; },// 安装被标记的点击标签 - clickLabel\r\n                { \&quot;SoJCmp\&quot;, attribution.Campaign },// 设备当前归因 - campaign\r\n                { \&quot;SoJCti\&quot;, attribution.Creative },// 设备当前归因素材的名称 - creative\r\n                { \&quot;SoJCtm\&quot;, DateTimeOffset.UtcNow.ToUnixTimeSeconds() },// 客户端收到回调的时间 - clientTime\r\n                { \&quot;SoJCty\&quot;, attribution.CostType },// 推广活动定价模型 - costType\r\n                { \&quot;SoJDlu\&quot;, \&quot;\&quot; },// 投放参数 - deepLinkUrl\r\n                { \&quot;SoJEvt\&quot;, eventName },// 触发归因的事件 - event\r\n                { \&quot;SoJFbr\&quot;, attribution.FbInstallReferrer },// 回调原始值 - fbInstallReferrer\r\n                { \&quot;SoJGct\&quot;, \&quot;\&quot; },// Google 点击时间 - ggClickTime\r\n                { \&quot;SoJNet\&quot;, attribution.Network },// 归因渠道名称 - network\r\n                { \&quot;SoJTrn\&quot;, attribution.TrackerName }, // 归因跟踪码 - trackerName\r\n                { \&quot;SoJTrt\&quot;, attribution.TrackerToken },// 归因跟踪名称 - trackerToken\r\n                { \&quot;SoJUsid\&quot;, PlayerPrefs.GetString(AccountModule.m_userIdKey) },// 用户 ID\r\n                { \&quot;Vn\&quot;, Application.version }// 应用版本号\r\n        };\r\n        return _oceanShineUserAttrs;\r\n    }\r\n&quot;
+        }
+      ]
+    },
+    {
+      &quot;defines&quot;: [
+        &quot;BIZZA_REAL_WITHDRAW&quot;,
+        &quot;BIZZA_ENABLE_MAX&quot;,
+        &quot;WKY_SDK&quot;
+      ],
+      &quot;methodCount&quot;: 56,
+      &quot;unchanged&quot;: 54,
+      &quot;added&quot;: [],
+      &quot;removed&quot;: [],
+      &quot;changes&quot;: [
+        {
+          &quot;name&quot;: &quot;GetApplyWithdrawalRequestReal&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public OceanShineApplyWithdrawalRequestReal GetApplyWithdrawalRequestReal ( string _Os_Cp , int _Os_Mid , string _Os_Pb , string _Os_Ra , string _Os_Re , string _Os_Rm , string _Os_Rn , string Os_Mn , string _Os_At )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestReal request = new OceanShineApplyWithdrawalRequestReal()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            // Os_Mn = Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            //Os_At = _Os_At,\r\n        };\r\n        return request;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestReal request = new OceanShineApplyWithdrawalRequestReal()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            // Os_Mn = Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Gdid = 0,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            //Os_At = _Os_At,\r\n        };\r\n        return request;\r\n    }\r\n&quot;
+        },
+        {
+          &quot;name&quot;: &quot;GetApplyWithdrawalRequestFake&quot;,
+          &quot;signature&quot;: &quot;AccountModule: public OceanShineApplyWithdrawalRequestFake GetApplyWithdrawalRequestFake ( string _Os_Cp , int _Os_Mid , string _Os_Pb , string _Os_Ra , string _Os_Re , string _Os_Rm , string _Os_Rn , string _Os_Mn , string _Os_At )&quot;,
+          &quot;allowedMethod&quot;: true,
+          &quot;callsUnchanged&quot;: true,
+          &quot;oldBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestFake request = new OceanShineApplyWithdrawalRequestFake()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            Os_Mn = _Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            Os_At = _Os_At\r\n        };\r\n        return request;\r\n    }\r\n&quot;,
+          &quot;newBody&quot;: &quot;    {\r\n        OceanShineApplyWithdrawalRequestFake request = new OceanShineApplyWithdrawalRequestFake()\r\n        {\r\n            Os_Apid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Apid,\r\n            Os_Vn = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Vn,\r\n            Os_Usid = PlayerPrefs.GetString(AccountModule.m_userIdKey),\r\n            Os_Seid = DeviceInfoUtil.GetDeviceInfoDataForCloud().Os_Seid,\r\n\r\n            Os_Mn = _Os_Mn,\r\n            Os_Cp = _Os_Cp,\r\n            Os_Gdid = 0,\r\n            Os_Mid = _Os_Mid,\r\n            Os_Pb = _Os_Pb,\r\n            Os_Ra = _Os_Ra,\r\n            Os_Re = _Os_Re,\r\n            Os_Rm = _Os_Rm,\r\n            Os_Rn = _Os_Rn,\r\n            Os_At = _Os_At\r\n        };\r\n        return request;\r\n    }\r\n&quot;
+        }
+      ]
+    }
+  ]
+}</pre></details></section><section id="configuration"><h2>ChannelConfig 与 Obfuz</h2><h3>二进制配置</h3><p>以项目自己的 ChannelConfigBinarySerializer 执行序列化；下方状态取自本轮实际执行结果。未将二进制配置作为文本替换。</p><details open><summary>ChannelConfig 序列化和回读验证</summary><pre>{
+  &quot;status&quot;: &quot;Passed&quot;,
+  &quot;serializer&quot;: &quot;Actual Unity Bizza.Sdk.ChannelConfigBinarySerializer&quot;,
+  &quot;fields&quot;: [
+    {
+      &quot;originalParameter&quot;: &quot;应用ID&quot;,
+      &quot;standardParameter&quot;: &quot;应用ID&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: AppId&quot;,
+      &quot;before&quot;: &quot;bubblosaicpmge&quot;,
+      &quot;after&quot;: &quot;orchardtrio&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;接口域名地址&quot;,
+      &quot;standardParameter&quot;: &quot;接口域名地址&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.domain&quot;,
+      &quot;before&quot;: &quot;https://app.fruittile.xin&quot;,
+      &quot;after&quot;: &quot;https://snakes.xin&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;密钥&quot;,
+      &quot;standardParameter&quot;: &quot;密钥&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: httpConfig.aes_key&quot;,
+      &quot;before&quot;: &quot;Mer***aic&quot;,
+      &quot;after&quot;: &quot;Tri***Eod&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;游戏类型&quot;,
+      &quot;standardParameter&quot;: &quot;游戏类型&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: incomeRate&quot;,
+      &quot;before&quot;: 1.0,
+      &quot;after&quot;: 1.0,
+      &quot;status&quot;: &quot;AlreadyMatched&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;国家&quot;,
+      &quot;standardParameter&quot;: &quot;国家&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: real_CustomConfig.Country&quot;,
+      &quot;before&quot;: 0,
+      &quot;after&quot;: 0,
+      &quot;status&quot;: &quot;AlreadyMatched&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;Adjust 应用识别码&quot;,
+      &quot;standardParameter&quot;: &quot;Adjust 应用识别码&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: adjustKey&quot;,
+      &quot;before&quot;: &quot;2zov4dn3gsu8&quot;,
+      &quot;after&quot;: &quot;d1hq1hl2p05c&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;MAX 激励广告 ID&quot;,
+      &quot;standardParameter&quot;: &quot;MAX 激励广告 ID&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].rewardAdId&quot;,
+      &quot;before&quot;: &quot;ddef1150f706c39f&quot;,
+      &quot;after&quot;: &quot;f5ccdcd203e833b6&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    },
+    {
+      &quot;originalParameter&quot;: &quot;MAX 插屏广告 ID&quot;,
+      &quot;standardParameter&quot;: &quot;MAX 插屏广告 ID&quot;,
+      &quot;target&quot;: &quot;Assets/StreamingAssets/ChannelConfig.bytes :: sourceAds[AdsSource=Max].interAdId&quot;,
+      &quot;before&quot;: &quot;3f64a45c4db0eb7a&quot;,
+      &quot;after&quot;: &quot;00fcf19979f18911&quot;,
+      &quot;status&quot;: &quot;Updated&quot;
+    }
+  ],
+  &quot;roundtrip&quot;: {
+    &quot;baselineByteEquality&quot;: true,
+    &quot;updatedByteEquality&quot;: true,
+    &quot;requestedValuesReadBack&quot;: true,
+    &quot;otherSerializedFieldsByteEquality&quot;: true,
+    &quot;blankParametersPreserved&quot;: true,
+    &quot;writtenFileByteEquality&quot;: true
+  }
+}</pre></details><details><summary>其它序列化字段保留验证</summary><pre>{
+  &quot;baselineByteEquality&quot;: true,
+  &quot;updatedByteEquality&quot;: true,
+  &quot;requestedValuesReadBack&quot;: true,
+  &quot;otherSerializedFieldsByteEquality&quot;: true,
+  &quot;blankParametersPreserved&quot;: true,
+  &quot;writtenFileByteEquality&quot;: true
+}</pre></details><h3>Obfuz</h3><p>Assembly-CSharp 为目标程序集；静态 / 动态密钥以本次包名配置，代码生成密钥使用包名末段，名称前缀使用本轮随机三字母。密钥值在报告中脱敏。</p><details open><summary>Obfuz 设置与生成产物</summary><pre>{
+  &quot;status&quot;: &quot;Passed&quot;,
+  &quot;generator&quot;: &quot;Project VirtualMachineCodeGenerator.Generate and KeyGenerator.GenerateKey (same implementation as ObfuzMenu)&quot;,
+  &quot;prefix&quot;: &quot;eml&quot;,
+  &quot;vmMatchesSettings&quot;: true,
+  &quot;staticKeyMatchesSettings&quot;: true,
+  &quot;dynamicKeyMatchesSettings&quot;: true,
+  &quot;keyLengthBytes&quot;: 1024,
+  &quot;outputs&quot;: [
+    {
+      &quot;path&quot;: &quot;Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs&quot;,
+      &quot;sha256&quot;: &quot;7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9&quot;
+    },
+    {
+      &quot;path&quot;: &quot;Assets/Resources/Obfuz/defaultStaticSecretKey.bytes&quot;,
+      &quot;sha256&quot;: &quot;3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6&quot;
+    },
+    {
+      &quot;path&quot;: &quot;Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes&quot;,
+      &quot;sha256&quot;: &quot;3be0d2db87908cdf8b0d6b69bc555c81940c42a91afddd3a8b6d6db150b699c6&quot;
+    }
+  ],
+  &quot;generatedVmCompilation&quot;: &quot;Passed: actual Unity Editor compilation and post-helper-removal domain reload; see unity-final-validation.json&quot;
+}</pre></details><details><summary>隐私链接与多语言资源验证</summary><pre>{
+  &quot;status&quot;: &quot;Passed&quot;,
+  &quot;key&quot;: &quot;coldstart_start_privacy&quot;,
+  &quot;languageCount&quot;: 32,
+  &quot;nonUrlBytesPreserved&quot;: true,
+  &quot;runtimePath&quot;: &quot;LoadingPanel TextNeedLocalization -&gt; OJEEJGGLNPC.GetText / LoadConfig -&gt; GameRes -&gt; HarvestPaths -&gt; Resources/Original/res/local/configs/Text.json&quot;
+}</pre></details></section><section id="compile"><h2>Unity 最终验证与修改范围</h2><p>编译结果与范围检查来自本轮最终验证文件。文件尚未生成时显示待验证；脚本重跑后自动刷新。</p><div class="table-scroll"><table class=""><thead><tr><th>项目</th><th>结果</th></tr></thead><tbody><tr><td>最终状态</td><td>通过；0 个编译错误，96 条去重编译警告。</td></tr><tr><td>Unity 版本</td><td>2022.3.62f3</td></tr><tr><td>当前构建目标</td><td>Android</td></tr><tr><td>移除临时脚本后域重载</td><td>是</td></tr><tr><td>运行时程序集晚于全部已改源码</td><td>是</td></tr><tr><td>源码快照数量（前 / 后）</td><td>1351 / 1351</td></tr><tr><td>新增 / 删除 C# 文件</td><td>0 / 0</td></tr></tbody></table></div><details><summary>Unity 最终编译 / 验证结果（含全部警告）</summary><pre>{
+  &quot;status&quot;: &quot;Passed&quot;,
+  &quot;checkedUtc&quot;: &quot;2026-09-17T09:14:41.359412+00:00&quot;,
+  &quot;unityVersion&quot;: &quot;2022.3.62f3&quot;,
+  &quot;project&quot;: &quot;C:\\Projects\\paopao\\BizzaWZ&quot;,
+  &quot;activeBuildTarget&quot;: &quot;Android&quot;,
+  &quot;mode&quot;: &quot;Actual existing Unity Editor process 32312; refresh, compile and domain reload after temporary helper removal&quot;,
+  &quot;compilerErrors&quot;: [],
+  &quot;compilerWarningCount&quot;: 96,
+  &quot;compilerWarnings&quot;: [
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\AutoBuild\\iOS\\AutoBuild_IOS.cs(10,19): warning CS0414: The field &#x27;AutoBuild_IOS.BUNDLE_ID&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\AutoBuild\\iOS\\AutoBuild_IOS.cs(11,19): warning CS0414: The field &#x27;AutoBuild_IOS.TEAM_ID&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\AutoBuild\\iOS\\AutoBuild_IOS.cs(12,19): warning CS0414: The field &#x27;AutoBuild_IOS.CODE_SIGN_IDENTITY&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\AutoBuild\\iOS\\AutoBuild_IOS.cs(13,19): warning CS0414: The field &#x27;AutoBuild_IOS.PROVISION_PROFILE&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\AutoBuild\\iOS\\AutoBuild_IOS.cs(14,19): warning CS0414: The field &#x27;AutoBuild_IOS.EXPORT_PLIST_PATH&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\QuickTest.cs(52,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Editor\\QuickTest.cs(59,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Extension\\UnityExtension.cs(17,15): warning CS0618: &#x27;UniTask.WaitForEndOfFrame()&#x27; is obsolete: &#x27;Use WaitForEndOfFrame(MonoBehaviour) instead or UniTask.Yield(PlayerLoopTiming.LastPostLateUpdate). Equivalent for coroutine&#x27;s WaitForEndOfFrame requires MonoBehaviour(runner of Coroutine).&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\GameMode\\GameMode_MainMenu.cs(22,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\GameMode\\GameMode_MainMenu.cs(8,18): warning CS0414: The field &#x27;GameMode_MainMenu.canShowGear&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\GameMode\\LoadingTasks\\LoadGameResTask.cs(13,35): warning CS1998: This async method lacks &#x27;await&#x27; operators and will run synchronously. Consider using the &#x27;await&#x27; operator to await non-blocking API calls, or &#x27;await Task.Run(...)&#x27; to do CPU-bound work on a background thread.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Misc\\GameWidthAdapt.cs(18,20): warning CS0108: &#x27;GameWidthAdapt.camera&#x27; hides inherited member &#x27;Component.camera&#x27;. Use the new keyword if hiding was intended.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\Assets\\AssetUtils.cs(129,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\Assets\\AssetUtils.cs(146,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\Item\\ItemUtils.cs(201,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\Item\\PropConfigSO.cs(28,9): warning CS0618: &#x27;ListDrawerSettingsAttribute.Expanded&#x27; is obsolete: &#x27;Use ShowFoldout instead, which is what Expanded has always done. If you want to control the default expanded state, use DefaultExpandedState. Expanded has been implemented wrong for a long time.&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\SaveData\\DataStrategy.cs(106,23): warning CS1998: This async method lacks &#x27;await&#x27; operators and will run synchronously. Consider using the &#x27;await&#x27; operator to await non-blocking API calls, or &#x27;await Task.Run(...)&#x27; to do CPU-bound work on a background thread.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\SaveData\\DataStrategy.cs(62,26): warning CS1998: This async method lacks &#x27;await&#x27; operators and will run synchronously. Consider using the &#x27;await&#x27; operator to await non-blocking API calls, or &#x27;await Task.Run(...)&#x27; to do CPU-bound work on a background thread.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\UI\\Pool.cs(15,13): warning CS0219: The variable &#x27;m_createInstance&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Module\\UI\\UIPage.cs(333,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\Utility\\TimeUtil.cs(159,15): warning CS0618: &#x27;TimeZone&#x27; is obsolete: &#x27;System.TimeZone has been deprecated.  Please investigate the use of System.TimeZoneInfo instead.&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\World\\World.cs(167,23): warning CS1998: This async method lacks &#x27;await&#x27; operators and will run synchronously. Consider using the &#x27;await&#x27; operator to await non-blocking API calls, or &#x27;await Task.Run(...)&#x27; to do CPU-bound work on a background thread.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\Runtime\\World\\World.cs(259,41): warning CS1998: This async method lacks &#x27;await&#x27; operators and will run synchronously. Consider using the &#x27;await&#x27; operator to await non-blocking API calls, or &#x27;await Task.Run(...)&#x27; to do CPU-bound work on a background thread.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\SoundEffect.cs(16,17): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\SpineUIAutoPlay.cs(27,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\SpineUIAutoPlay.cs(45,30): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\VibrationUtils.cs(69,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\_Editor\\EditorTools.cs(8,7): warning CS0105: The using directive for &#x27;UnityEngine&#x27; appeared previously in this namespace\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\Framework\\_Editor\\EditorTools.cs(9,7): warning CS0105: The using directive for &#x27;System.Collections&#x27; appeared previously in this namespace\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\MenuSystem\\Common\\Block\\TransitionBlock.cs(11,22): warning CS0108: &#x27;TransitionBlock.animation&#x27; hides inherited member &#x27;Component.animation&#x27;. Use the new keyword if hiding was intended.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Common\\MenuSystem\\Common\\Block\\TransitionBlock.cs(61,18): warning CS0414: The field &#x27;TransitionBlock._loadFinish&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\AccountModule.cs(257,18): warning CS0414: The field &#x27;AccountModule.loginAttributeFinish&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\AccountModule.cs(414,21): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\AccountModule.cs(685,17): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\HttpAdAdapterBase.cs(145,25): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxBannerAdapter.cs(35,13): warning CS0618: &#x27;MaxSdkUnityEditor.CreateBanner(string, MaxSdkBase.BannerPosition)&#x27; is obsolete: &#x27;This API has been deprecated and will be removed in a future release. Please use CreateBanner(string adUnitIdentifier, AdViewConfiguration configuration) instead.&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxBannerAdapter.cs(35,50): warning CS0618: &#x27;MaxSdkBase.BannerPosition&#x27; is obsolete: &#x27;This API has been deprecated and will be removed in a future release. Please use AdViewPosition instead.&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxInsertAdAdapter.cs(289,26): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxInsertAdAdapter.cs(307,26): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxInsertAdAdapter.cs(318,26): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxRewardAdAdapter.cs(292,30): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxRewardAdAdapter.cs(308,30): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxRewardAdAdapter.cs(319,30): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\Max\\MaxSDKPlugin.cs(199,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Ad\\Adapters\\RewardTimeOutAdapter.cs(132,30): warning CS0108: &#x27;DebugRewardAdAdapter.showAdArgs&#x27; hides inherited member &#x27;RewardTimeOutAdapter.showAdArgs&#x27;. Use the new keyword if hiding was intended.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\AndroidUtils\\AndroidBridgeRevenueManager.cs(108,9): warning CS0162: Unreachable code detected\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Attributes\\LagStatisticMgr.cs(28,35): warning CS0108: &#x27;LagStatisticMgr.Instance&#x27; hides inherited member &#x27;InstanceMono&lt;LagStatisticMgr&gt;.Instance&#x27;. Use the new keyword if hiding was intended.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\ConfigUtils\\ChannelConfig.cs(26,33): warning CS0162: Unreachable code detected\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Utils\\HttpUtil.cs(156,20): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Utils\\HttpUtil.cs(273,24): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Utils\\HttpUtil.cs(294,20): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Utils\\HttpUtil.cs(390,24): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Connect_SDK\\SDK_WKY\\API\\Utils\\WithdrawalUtil.cs(126,9): warning CS0162: Unreachable code detected\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\ActionGraph\\Editor\\GraphCheckError.cs(59,42): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\ActionGraph\\Editor\\NodeView\\NodeViewBase.cs(190,23): warning CS0219: The variable &#x27;outputLabel&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\ActionGraph\\Editor\\NodeView\\VariableNodeView.cs(125,25): warning CS0618: &#x27;EditorGUILayout.ObjectField(Object, Type, params GUILayoutOption[])&#x27; is obsolete: &#x27;Check the docs for the usage of the new parameter &#x27;allowSceneObjects&#x27;.&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\ActionGraph\\Runtime\\Base\\Actions\\Teach\\Action_Teach_ShowHandTips.cs(34,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\ActionGraph\\Runtime\\Base\\GraphUtils.cs(153,26): warning CS0168: The variable &#x27;e&#x27; is declared but never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\ActionGraph\\Runtime\\BlackBoard\\GraphBlackBoard.cs(85,13): warning CS0219: The variable &#x27;shouldSetDirty&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\Module\\Teach\\UITeach\\UITeachMaskPage.cs(133,17): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Framework\\Runtime\\Utility\\VFXUtils.cs(30,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\MenuSystem\\Common\\CurrencyBar\\CurrencyBar.cs(42,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\MenuSystem\\Common\\CurrencyBar\\CurrencyBar.cs(47,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\MenuSystem\\Common\\DoubleRewardPanel\\DoubleRewardPanel.cs(102,17): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\MenuSystem\\Common\\DoubleRewardPanel\\DoubleRewardPanel.cs(63,17): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\MenuSystem\\Common\\UITips\\BroadcastBarController.cs(97,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(111,33): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.manualTier&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(153,17): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.highResolutionThreshold&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(158,17): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.mediumResolutionThreshold&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(169,33): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.lastAppliedTier&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(175,20): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.lastEvaluateReason&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(181,20): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.lastEvaluateStepsPreview&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizer.cs(95,18): warning CS0414: The field &#x27;AndroidGraphicsOptimizer.onlyApplyOnAndroid&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\Tools\\Commons\\AndroidGraphicsOptimizerConfig.cs(95,25): warning CS0618: &#x27;ListDrawerSettingsAttribute.Expanded&#x27; is obsolete: &#x27;Use ShowFoldout instead, which is what Expanded has always done. If you want to control the default expanded state, use DefaultExpandedState. Expanded has been implemented wrong for a long time.&#x27;\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\DailyWithdrawPanel\\DailyWithdrawPanel.cs(104,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\DailyWithdrawPanel\\DailyWithdrawPanel.cs(70,14): warning CS0219: The variable &#x27;isSelectPlatform&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\GamePanel\\UIBizzaAAA.cs(29,18): warning CS0414: The field &#x27;UIBizzaAAA.adsEnable&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\GetRewardPanel\\Real_WithdrawProgress\\Real_AdWatchProgress.cs(139,50): warning CS8509: The switch expression does not handle all possible values of its input type (it is not exhaustive). For example, the pattern &#x27;AccountModule.E_CountryType.None&#x27; is not covered.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\NewbieGiftPage\\NewbieGiftPage.cs(30,18): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\ServicePanel\\ServiceBtn.cs(21,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\ServicePanel\\ServicePanel.cs(186,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\ServicePanel\\ServicePanel.cs(254,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\ServicePanel\\ServicePanel.cs(315,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\ServicePanel\\TestServicePanel.cs(12,12): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\SlotsPanel\\BingoAsset\\AllScripts\\Scripts\\Manager\\SlotEntry.cs(28,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\SlotsPanel\\BingoAsset\\AllScripts\\Scripts\\Manager\\SlotMachineManager.cs(130,13): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\SlotsPanel\\SlotEnter\\SlotEnter.cs(59,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\SlotsPanel\\SlotPanel\\CurrencyInfo.cs(14,37): warning CS0414: The field &#x27;CurrencyInfo.numberFormat&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\SlotsPanel\\SlotPanel\\SlotPanel.cs(85,9): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\WithdrawFillPanel\\InputerPange\\MobileKeyboardInputManager.cs(24,36): warning CS0414: The field &#x27;MobileKeyboardInputManager._keyboardCanvasHeight&#x27; is assigned but its value is never used\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\WithdrawFillPanel\\UIWithdrawalPanel.cs(203,21): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\WithdrawFillPanel\\UIWithdrawalPanel.cs(232,21): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\WithdrawFillPanel\\UIWithdrawalPanel.cs(248,21): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\WithdrawFillPanel\\UIWithdrawalPanel.cs(263,21): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Real\\UI\\WithdrawFillPanel\\UIWithdrawalPanel.cs(278,21): warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the &#x27;await&#x27; operator to the result of the call.\r&quot;,
+    &quot;Assets\\BizzaWZ\\Final\\Sdk\\SdkTools.cs(261,9): warning CS0162: Unreachable code detected\r&quot;
+  ],
+  &quot;releaseVerificationLogged&quot;: true,
+  &quot;postRemovalDomainReloadPassed&quot;: true,
+  &quot;runtimeAssemblyNewerThanChangedRuntimeSources&quot;: true,
+  &quot;temporaryHelperRemoved&quot;: true,
+  &quot;assemblies&quot;: [
+    {
+      &quot;path&quot;: &quot;Library/ScriptAssemblies/Assembly-CSharp.dll&quot;,
+      &quot;sha256&quot;: &quot;1f5886b9450a1a78d0bf267eb1a5ef5b1aed95bebbe770937e258ccdbdbbc0b8&quot;,
+      &quot;lastWriteUtc&quot;: &quot;2026-09-17T09:11:37.757249+00:00&quot;
+    },
+    {
+      &quot;path&quot;: &quot;Library/ScriptAssemblies/Assembly-CSharp-Editor.dll&quot;,
+      &quot;sha256&quot;: &quot;d4ce75ce1590b91f9426824b92f231325e2912842d56e399eeca03815c35d3fb&quot;,
+      &quot;lastWriteUtc&quot;: &quot;2026-09-17T09:12:33.394679+00:00&quot;
+    }
+  ],
+  &quot;logEvidence&quot;: [
+    &quot;unity-compilation.log&quot;,
+    &quot;unity-final-compilation.log&quot;
+  ],
+  &quot;notExecuted&quot;: [
+    &quot;Android APK/AAB build&quot;,
+    &quot;Android/iOS device runtime&quot;,
+    &quot;Real or task withdrawal submission&quot;,
+    &quot;Unity Play Mode request chain&quot;
+  ],
+  &quot;existingEditorMessages&quot;: {
+    &quot;duplicateNewtonsoftVersions&quot;: true,
+    &quot;disposedCancellationTokenMessage&quot;: true,
+    &quot;note&quot;: &quot;These messages were also present before the current verification; no compiler errors occurred.&quot;
+  }
+}</pre></details><details open><summary>源码修改范围与基线对比</summary><pre>{
+  &quot;status&quot;: &quot;Passed&quot;,
+  &quot;beforeFileCount&quot;: 1351,
+  &quot;afterFileCount&quot;: 1351,
+  &quot;excluded&quot;: &quot;SDK documentation/tool copy under PlayCloud_API&quot;,
+  &quot;changed&quot;: [
+    {
+      &quot;path&quot;: &quot;BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModule.cs&quot;,
+      &quot;beforeSha256&quot;: &quot;e03ad678c5a1c5d24782506ffbc93b1c7124599c9664430739d86830eb9fb1c5&quot;,
+      &quot;afterSha256&quot;: &quot;f46a8c5d2d45d81e7b62aeb6a9f0b969f5351458fb2c5b7c18048097adbd7a34&quot;
+    },
+    {
+      &quot;path&quot;: &quot;BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs&quot;,
+      &quot;beforeSha256&quot;: &quot;94df615fbae0bd1fd1eeeb411b575a6d2a6b7c2ec8d6b54eeaca921001c4c637&quot;,
+      &quot;afterSha256&quot;: &quot;7b76cab5f3e96668379960e3829c66cfa414bc23e9e6314d85f74d6f830e57fe&quot;
+    },
+    {
+      &quot;path&quot;: &quot;BizzaWZ/Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs&quot;,
+      &quot;beforeSha256&quot;: &quot;9d0b41353470fd30bcfb3bd02a83db5590824cca6e28354827871daff9191341&quot;,
+      &quot;afterSha256&quot;: &quot;7540b80354b04df4a1f37750b1769fc7ff2ff7ff745896dfdfa17d054c2ce0f9&quot;
+    }
+  ],
+  &quot;added&quot;: [],
+  &quot;removed&quot;: [],
+  &quot;unexpectedChanged&quot;: [],
+  &quot;temporaryHelperRemoved&quot;: true,
+  &quot;oneShotSecretRequestConsumed&quot;: true,
+  &quot;meaning&quot;: &quot;Every other C# source in the captured project scope remains byte-identical.&quot;
+}</pre></details><p>编译通过仅表示本轮代码可编译；不表示已构建 APK / IPA，也不表示 Android / iOS 真机玩法、广告或提现流程已通过。</p></section><section id="communication"><h2>API 通信与请求 / 响应契约检查</h2><p>HTTP 集成脚本使用项目 XXTEA 实现，执行一次合成测试登录与后续读取操作；登录可能在服务器创建测试账号。未使用真实用户 / 设备身份。HTTP 测试不是 Unity 构造器、反序列化器或真机运行测试。</p><div class="table-scroll"><table class=""><thead><tr><th>接口</th><th>用途</th><th>HTTP</th><th>业务码</th><th>结果</th><th>响应根类型</th></tr></thead><tbody><tr><td>/Out/Jam/BaseData</td><td>读取当前 Other 配置</td><td>200</td><td>200</td><td>通过</td><td>object</td></tr><tr><td>/Out/Jam/Login</td><td>一次合成测试账号登录</td><td>200</td><td>200</td><td>通过</td><td>object</td></tr><tr><td>/Out/Jam/UserInfo</td><td>读取测试账号信息</td><td>200</td><td>200</td><td>通过</td><td>object</td></tr><tr><td>/Out/Jam/TalkList</td><td>读取反馈列表</td><td>200</td><td>200</td><td>通过</td><td>object</td></tr><tr><td>/Out/Jam/Order</td><td>读取订单列表</td><td>200</td><td>200</td><td>通过</td><td>null</td></tr><tr><td>/Out/Jam/OrderNick</td><td>读取提现用户列表（无本地调用实现）</td><td>200</td><td>200</td><td>通过</td><td>array</td></tr><tr><td>/Out/Jam/PayList</td><td>读取提现平台</td><td>200</td><td>200</td><td>通过</td><td>object</td></tr><tr><td>/Out/Jam/Task</td><td>读取每日任务</td><td>200</td><td>200</td><td>通过</td><td>array</td></tr></tbody></table></div><h3>未执行项</h3><p>下列 13 项包含 11 个已有配置接口，以及 2 个未接入的彩票接口，均明确记录为未执行，不计入成功或失败。</p><div class="table-scroll"><table class=""><thead><tr><th>路径</th><th>状态</th><th>原因</th></tr></thead><tbody><tr><td>/Out/Jam/AddIncome</td><td>未执行</td><td>会写入收益，未伪造广告收益。</td></tr><tr><td>/Out/Jam/ApplyOrder</td><td>未执行</td><td>会提交真实提现；商品 ID 默认 0 的服务器接受情况未验证。</td></tr><tr><td>/Out/Jam/ApplyOrderTask</td><td>未执行</td><td>提现字段有歧义，接口未完成；未提交现金或任务提现。</td></tr><tr><td>/Out/Jam/Come</td><td>未执行</td><td>未提交合成归因，仅检查真实构造代码。</td></tr><tr><td>/Out/Jam/IncomeId</td><td>未执行</td><td>会分配收益跟踪 ID，未执行。</td></tr><tr><td>/Out/Jam/NewUser</td><td>未执行</td><td>会领取新用户奖励，未执行。</td></tr><tr><td>/Out/Jam/NickName</td><td>未执行</td><td>会修改昵称，未执行。</td></tr><tr><td>/Out/Jam/Talk</td><td>未执行</td><td>会提交反馈消息，未发送。</td></tr><tr><td>/Out/Jam/Times</td><td>未执行</td><td>会改变关卡 / 完成次数，未执行。</td></tr><tr><td>/Out/JamLog/AdInfo</td><td>未执行</td><td>未伪造广告事件上报。</td></tr><tr><td>/Out/JamLog/AppInfo</td><td>未执行</td><td>未伪造应用事件上报。</td></tr><tr><td>/Out/Jam/Lottery</td><td>未执行</td><td>当前配置未接入此接口。</td></tr><tr><td>/Out/Jam/LotteryInfo</td><td>未执行</td><td>当前配置未接入此接口；未执行抽奖。</td></tr></tbody></table></div><h3>最终源码与实际请求 / 响应交叉检查</h3><div class="table-scroll"><table class=""><thead><tr><th>接口</th><th>配置路径匹配</th><th>精确 Tag 匹配</th><th>实发请求匹配 Schema</th><th>本地请求类型</th><th>本地响应类型</th><th>实发请求匹配本地 DTO</th></tr></thead><tbody><tr><td>/Out/Jam/BaseData</td><td>是</td><td>是</td><td>是</td><td>OceanShineAppOtherConfigRequest</td><td>—</td><td>是</td></tr><tr><td>/Out/Jam/Login</td><td>是</td><td>是</td><td>是</td><td>OceanShineUserLoginRequest</td><td>OceanShineLoginResponse</td><td>是</td></tr><tr><td>/Out/Jam/UserInfo</td><td>是</td><td>是</td><td>是</td><td>OceanShineUserInfoRequest</td><td>OceanShineUserInfoResponse</td><td>是</td></tr><tr><td>/Out/Jam/TalkList</td><td>是</td><td>是</td><td>是</td><td>OceanShineFeedbackListV2Request</td><td>OceanShineFeedbackListV2Response</td><td>是</td></tr><tr><td>/Out/Jam/Order</td><td>是</td><td>是</td><td>是</td><td>OceanShineUserInfoRequest</td><td>List&lt;OceanShineWithdrawalRecord&gt;</td><td>是</td></tr><tr><td>/Out/Jam/OrderNick</td><td>是</td><td>是</td><td>是</td><td>—</td><td>—</td><td>无本地 DTO，仅检查配置和 Schema</td></tr><tr><td>/Out/Jam/PayList</td><td>是</td><td>是</td><td>是</td><td>OceanShineWithdrawalPageRequest</td><td>OceanShineWithdrawalPageResponse</td><td>是</td></tr><tr><td>/Out/Jam/Task</td><td>是</td><td>是</td><td>是</td><td>Apid_Usid_Vn_Request</td><td>List&lt;RoutineTaskLookAdMoneyResponse&gt;</td><td>是</td></tr></tbody></table></div><p>实际 Task 根为数组，与保留的本地 List 契约一致。Order 返回 null、反馈消息字段为 null、OrderNick 返回 []，这些空容器未覆盖元素字段。OrderNick 没有本地请求方法，其通信成功不代表新增了游戏内调用。</p><details><summary>当前源码交叉检查完整记录</summary><pre>{
+  &quot;status&quot;: &quot;passed&quot;,
+  &quot;checkedUtc&quot;: &quot;2026-09-17T09:08:51.659504+00:00&quot;,
+  &quot;method&quot;: &quot;Static comparison of this run real payloads with final C# JsonProperty/member types and configured endpoints. No Unity request builder or deserializer executed.&quot;,
+  &quot;sourceSha256&quot;: &quot;f46a8c5d2d45d81e7b62aeb6a9f0b969f5351458fb2c5b7c18048097adbd7a34&quot;,
+  &quot;checks&quot;: [
+    {
+      &quot;path&quot;: &quot;/Out/Jam/BaseData&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;OceanShineAppOtherConfigRequest&quot;,
+      &quot;responseType&quot;: null,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true,
+      &quot;otherKeys&quot;: {
+        &quot;one_Count&quot;: {
+          &quot;configured&quot;: &quot;soj_one&quot;,
+          &quot;present&quot;: true
+        },
+        &quot;one_Ratio&quot;: {
+          &quot;configured&quot;: &quot;soj_one_rate&quot;,
+          &quot;present&quot;: true
+        },
+        &quot;two_Count&quot;: {
+          &quot;configured&quot;: &quot;soj_two&quot;,
+          &quot;present&quot;: true
+        },
+        &quot;two_Ratio&quot;: {
+          &quot;configured&quot;: &quot;soj_two_rate&quot;,
+          &quot;present&quot;: true
+        },
+        &quot;three_Count&quot;: {
+          &quot;configured&quot;: &quot;soj_three&quot;,
+          &quot;present&quot;: true
+        },
+        &quot;three_Ratio&quot;: {
+          &quot;configured&quot;: &quot;soj_three_rate&quot;,
+          &quot;present&quot;: true
+        }
+      },
+      &quot;actualOtherData&quot;: {
+        &quot;next_day&quot;: 53638,
+        &quot;soj_one&quot;: 10,
+        &quot;soj_one_rate&quot;: 5,
+        &quot;soj_three&quot;: 50,
+        &quot;soj_three_rate&quot;: 20,
+        &quot;soj_two&quot;: 30,
+        &quot;soj_two_rate&quot;: 10
+      },
+      &quot;unchangedConfigurationValue&quot;: true
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/Login&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;OceanShineUserLoginRequest&quot;,
+      &quot;responseType&quot;: &quot;OceanShineLoginResponse&quot;,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/UserInfo&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;OceanShineUserInfoRequest&quot;,
+      &quot;responseType&quot;: &quot;OceanShineUserInfoResponse&quot;,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/TalkList&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;OceanShineFeedbackListV2Request&quot;,
+      &quot;responseType&quot;: &quot;OceanShineFeedbackListV2Response&quot;,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/Order&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;OceanShineUserInfoRequest&quot;,
+      &quot;responseType&quot;: &quot;List&lt;OceanShineWithdrawalRecord&gt;&quot;,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/OrderNick&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: null,
+      &quot;responseType&quot;: null,
+      &quot;runtimeCoverage&quot;: &quot;No AccountModuleCfg.order_name caller or dedicated DTO exists in the project; only endpoint/Swagger and server array response were checked.&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/PayList&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;OceanShineWithdrawalPageRequest&quot;,
+      &quot;responseType&quot;: &quot;OceanShineWithdrawalPageResponse&quot;,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/Task&quot;,
+      &quot;configuredPathMatches&quot;: true,
+      &quot;exactTagMatches&quot;: true,
+      &quot;executedRequestKeysMatchSwagger&quot;: true,
+      &quot;requestType&quot;: &quot;Apid_Usid_Vn_Request&quot;,
+      &quot;responseType&quot;: &quot;List&lt;RoutineTaskLookAdMoneyResponse&gt;&quot;,
+      &quot;executedRequestKeysMatchFinalDto&quot;: true
+    }
+  ],
+  &quot;issues&quot;: [],
+  &quot;coverageNotes&quot;: [
+    {
+      &quot;location&quot;: &quot;/Out/Jam/TalkList.response.SoJMsl&quot;,
+      &quot;reason&quot;: &quot;Null data: nested or element fields were not exercised.&quot;
+    },
+    {
+      &quot;location&quot;: &quot;/Out/Jam/Order.response&quot;,
+      &quot;reason&quot;: &quot;Null data: nested or element fields were not exercised.&quot;
+    },
+    {
+      &quot;location&quot;: &quot;/Out/Jam/OrderNick&quot;,
+      &quot;reason&quot;: &quot;No local runtime caller; returned [] so response element types were not exercised.&quot;
+    },
+    {
+      &quot;location&quot;: &quot;/Out/Jam/Task&quot;,
+      &quot;reason&quot;: &quot;Actual root is array, compatible with preserved local List&lt;RoutineTaskLookAdMoneyResponse&gt;; Swagger describes an object.&quot;
+    }
+  ]
+}</pre></details><details><summary>本轮 HTTP 结果（身份与凭证脱敏）</summary><pre>{
+  &quot;startedUtc&quot;: &quot;2026-09-17T09:05:53.2121617Z&quot;,
+  &quot;project&quot;: &quot;C:\\Projects\\paopao\\BizzaWZ&quot;,
+  &quot;domain&quot;: &quot;https://snakes.xin&quot;,
+  &quot;appId&quot;: &quot;orchardtrio&quot;,
+  &quot;bundle&quot;: &quot;com.wiwitsugeh.orchardtrio&quot;,
+  &quot;tag&quot;: &quot;SnakeOutJame&quot;,
+  &quot;version&quot;: &quot;1.0.1&quot;,
+  &quot;versionCode&quot;: 101,
+  &quot;status&quot;: &quot;passed&quot;,
+  &quot;scope&quot;: &quot;Read-only configuration, one synthetic login, and read-only account/list queries; no withdrawal, revenue/reward, progress, feedback, attribution, or advertising/event submissions.&quot;,
+  &quot;execution&quot;: &quot;External HTTP harness using the actual current project XXTEA.cs. This does not execute Unity transport or Unity DTO deserialization.&quot;,
+  &quot;protocol&quot;: {
+    &quot;headers&quot;: [
+      &quot;X-Bundle&quot;,
+      &quot;optional access_token&quot;
+    ],
+    &quot;cryptoRoundTrip&quot;: &quot;passed&quot;,
+    &quot;cryptoSourceSha256&quot;: &quot;D2D7EC3D48624E370F9467E78272602EB8220CBB5EDD7344BD3405564C5E9709&quot;,
+    &quot;body&quot;: &quot;UTF8 JSON {sign: base64(XXTEA(UTF8(request), key))}&quot;,
+    &quot;secrets&quot;: &quot;Key, token, encrypted bodies, identifiers, and public user nicknames are omitted or redacted.&quot;,
+    &quot;contentType&quot;: &quot;application/octet-stream&quot;
+  },
+  &quot;tests&quot;: [
+    {
+      &quot;path&quot;: &quot;/Out/Jam/BaseData&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read the unchanged project Other configuration key.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameAppOtherConfigReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJVn&quot;: &quot;1.0.1&quot;,
+        &quot;SoJcfn&quot;: &quot;look_ad_reward_mul&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:53.2609384Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: {
+          &quot;next_day&quot;: 53638,
+          &quot;soj_one&quot;: 10,
+          &quot;soj_one_rate&quot;: 5,
+          &quot;soj_three&quot;: 50,
+          &quot;soj_three_rate&quot;: 20,
+          &quot;soj_two&quot;: 30,
+          &quot;soj_two_rate&quot;: 10
+        },
+        &quot;rootType&quot;: &quot;object&quot;
+      },
+      &quot;elapsedMs&quot;: 2694,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:55.9865762Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/Login&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;One clearly synthetic test login; may create a test account; no real person/device identity.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameUserLoginReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJAnid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJAtd&quot;: 1,
+        &quot;SoJBbd&quot;: &quot;APIReplaceTest&quot;,
+        &quot;SoJCal&quot;: &quot;&quot;,
+        &quot;SoJCpu&quot;: &quot;x86_64&quot;,
+        &quot;SoJCtr&quot;: 9,
+        &quot;SoJDtd&quot;: &quot;1&quot;,
+        &quot;SoJDth&quot;: 1080,
+        &quot;SoJDtw&quot;: 1920,
+        &quot;SoJGaid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJLag&quot;: &quot;en&quot;,
+        &quot;SoJMbl&quot;: &quot;Synthetic HTTP integration test&quot;,
+        &quot;SoJNbt&quot;: &quot;wifi&quot;,
+        &quot;SoJObv&quot;: &quot;Windows test harness&quot;,
+        &quot;SoJRtt&quot;: 0,
+        &quot;SoJSbi&quot;: 0,
+        &quot;SoJSeid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJTry&quot;: &quot;&quot;,
+        &quot;SoJTtz&quot;: &quot;Etc/UTC&quot;,
+        &quot;SoJUa&quot;: &quot;APIReplace Communication Test&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJVc&quot;: 101,
+        &quot;SoJVn&quot;: &quot;1.0.1&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:56.0587068Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: {
+          &quot;SoJRti&quot;: 1789635962481,
+          &quot;SoJRdt&quot;: &quot;20260917&quot;,
+          &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;,
+          &quot;SoJRw&quot;: 0,
+          &quot;SoJAru&quot;: {
+            &quot;SoJAcm&quot;: 0,
+            &quot;SoJAiu&quot;: 0
+          }
+        },
+        &quot;rootType&quot;: &quot;object&quot;
+      },
+      &quot;elapsedMs&quot;: 569,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:56.6331571Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/UserInfo&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read-only account/list query with synthetic session; returned public nicknames redacted.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameUserInfoReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:56.6488105Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: {
+          &quot;SoJUso&quot;: {
+            &quot;SoJNcm&quot;: true,
+            &quot;SoJRts&quot;: 1,
+            &quot;SoJLev&quot;: 1,
+            &quot;SoJTra&quot;: 0.025,
+            &quot;SoJCrc&quot;: &quot;BRL&quot;,
+            &quot;SoJCty&quot;: &quot;BR&quot;,
+            &quot;SoJCrcs&quot;: &quot;R$&quot;,
+            &quot;SoJBac&quot;: 0,
+            &quot;SoJEwl&quot;: 0,
+            &quot;SoJBaci&quot;: 0,
+            &quot;SoJRti&quot;: 1789635962481,
+            &quot;SoJLgd&quot;: 0,
+            &quot;SoJNnm&quot;: &quot;[REDACTED]&quot;,
+            &quot;SoJCon&quot;: 0,
+            &quot;SoJImg&quot;: 0,
+            &quot;SoJMny&quot;: 0,
+            &quot;SoJRol&quot;: 0
+          },
+          &quot;SoJAcg&quot;: {
+            &quot;SoJRnw&quot;: 0,
+            &quot;SoJUsd&quot;: 0.22,
+            &quot;SoJCom&quot;: 5,
+            &quot;SoJNba&quot;: 0,
+            &quot;SoJNcc&quot;: 0
+          }
+        },
+        &quot;rootType&quot;: &quot;object&quot;
+      },
+      &quot;elapsedMs&quot;: 542,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:57.1954282Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/TalkList&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read-only account/list query with synthetic session; returned public nicknames redacted.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameFeedbackListV2Req&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJVn&quot;: &quot;1.0.1&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:57.2105528Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: {
+          &quot;SoJUso&quot;: {
+            &quot;SoJNcm&quot;: true,
+            &quot;SoJRts&quot;: 1,
+            &quot;SoJLev&quot;: 1,
+            &quot;SoJTra&quot;: 0.025,
+            &quot;SoJCrc&quot;: &quot;BRL&quot;,
+            &quot;SoJCty&quot;: &quot;BR&quot;,
+            &quot;SoJCrcs&quot;: &quot;R$&quot;,
+            &quot;SoJBac&quot;: 0,
+            &quot;SoJEwl&quot;: 0,
+            &quot;SoJBaci&quot;: 0,
+            &quot;SoJRti&quot;: 1789635962481,
+            &quot;SoJLgd&quot;: 0,
+            &quot;SoJNnm&quot;: &quot;[REDACTED]&quot;,
+            &quot;SoJCon&quot;: 0,
+            &quot;SoJImg&quot;: 0,
+            &quot;SoJMny&quot;: 0,
+            &quot;SoJRol&quot;: 0
+          },
+          &quot;SoJMsl&quot;: null
+        },
+        &quot;rootType&quot;: &quot;object&quot;
+      },
+      &quot;elapsedMs&quot;: 505,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:57.7254224Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/Order&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read-only account/list query with synthetic session; returned public nicknames redacted.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameUserInfoReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:57.7307816Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: null,
+        &quot;rootType&quot;: &quot;null&quot;
+      },
+      &quot;elapsedMs&quot;: 514,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:58.2551625Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/OrderNick&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read-only account/list query with synthetic session; returned public nicknames redacted.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameWithdrawalListReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJVn&quot;: &quot;1.0.1&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:58.3115278Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: [],
+        &quot;rootType&quot;: &quot;array&quot;
+      },
+      &quot;elapsedMs&quot;: 489,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:58.8076651Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/PayList&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read-only account/list query with synthetic session; returned public nicknames redacted.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameWithdrawalPageReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJVn&quot;: &quot;1.0.1&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:58.8120685Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: {
+          &quot;SoJUso&quot;: {
+            &quot;SoJNcm&quot;: true,
+            &quot;SoJRts&quot;: 1,
+            &quot;SoJLev&quot;: 1,
+            &quot;SoJTra&quot;: 0.025,
+            &quot;SoJCrc&quot;: &quot;BRL&quot;,
+            &quot;SoJCty&quot;: &quot;BR&quot;,
+            &quot;SoJCrcs&quot;: &quot;R$&quot;,
+            &quot;SoJBac&quot;: 0,
+            &quot;SoJEwl&quot;: 0,
+            &quot;SoJBaci&quot;: 0,
+            &quot;SoJRti&quot;: 1789635962481,
+            &quot;SoJLgd&quot;: 0,
+            &quot;SoJNnm&quot;: &quot;[REDACTED]&quot;,
+            &quot;SoJCon&quot;: 0,
+            &quot;SoJImg&quot;: 0,
+            &quot;SoJMny&quot;: 0,
+            &quot;SoJRol&quot;: 0
+          },
+          &quot;SoJWwf&quot;: [
+            {
+              &quot;SoJId&quot;: 3211,
+              &quot;SoJMid&quot;: 3211,
+              &quot;SoJMlt&quot;: 0.01,
+              &quot;SoJMe&quot;: &quot;PagBank&quot;,
+              &quot;SoJCn&quot;: &quot;pagbank.jpg&quot;,
+              &quot;SoJEt&quot;: &quot;pagbank&quot;
+            },
+            {
+              &quot;SoJId&quot;: 3212,
+              &quot;SoJMid&quot;: 3212,
+              &quot;SoJMlt&quot;: 2,
+              &quot;SoJMe&quot;: &quot;PIX&quot;,
+              &quot;SoJCn&quot;: &quot;pix.jpg&quot;,
+              &quot;SoJEt&quot;: &quot;pix&quot;
+            }
+          ],
+          &quot;SoJWr&quot;: [
+            {
+              &quot;SoJAdy&quot;: 1,
+              &quot;SoJBen&quot;: 1,
+              &quot;SoJEnd&quot;: 50,
+              &quot;SoJWro&quot;: 0.025
+            },
+            {
+              &quot;SoJAdy&quot;: 2,
+              &quot;SoJBen&quot;: 51,
+              &quot;SoJEnd&quot;: 120,
+              &quot;SoJWro&quot;: 0.03
+            },
+            {
+              &quot;SoJAdy&quot;: 3,
+              &quot;SoJBen&quot;: 121,
+              &quot;SoJEnd&quot;: 250,
+              &quot;SoJWro&quot;: 0.035
+            },
+            {
+              &quot;SoJAdy&quot;: 4,
+              &quot;SoJBen&quot;: 251,
+              &quot;SoJEnd&quot;: 500,
+              &quot;SoJWro&quot;: 0.04
+            },
+            {
+              &quot;SoJAdy&quot;: 5,
+              &quot;SoJBen&quot;: 501,
+              &quot;SoJEnd&quot;: 1000,
+              &quot;SoJWro&quot;: 0.045
+            },
+            {
+              &quot;SoJAdy&quot;: 6,
+              &quot;SoJBen&quot;: 1001,
+              &quot;SoJEnd&quot;: 99999,
+              &quot;SoJWro&quot;: 0.05
+            }
+          ]
+        },
+        &quot;rootType&quot;: &quot;object&quot;
+      },
+      &quot;elapsedMs&quot;: 512,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:59.3349480Z&quot;
+    },
+    {
+      &quot;path&quot;: &quot;/Out/Jam/Task&quot;,
+      &quot;method&quot;: &quot;POST&quot;,
+      &quot;purpose&quot;: &quot;Read-only account/list query with synthetic session; returned public nicknames redacted.&quot;,
+      &quot;requestSchema&quot;: &quot;request.SnakeOutJameRoutineTaskLookAdMoneyReq&quot;,
+      &quot;request&quot;: {
+        &quot;SoJApid&quot;: &quot;orchardtrio&quot;,
+        &quot;SoJUsid&quot;: &quot;[REDACTED]&quot;,
+        &quot;SoJVn&quot;: &quot;1.0.1&quot;
+      },
+      &quot;status&quot;: &quot;passed&quot;,
+      &quot;startedUtc&quot;: &quot;2026-09-17T09:05:59.3385311Z&quot;,
+      &quot;httpStatus&quot;: 200,
+      &quot;businessCode&quot;: &quot;200&quot;,
+      &quot;message&quot;: &quot;success&quot;,
+      &quot;response&quot;: {
+        &quot;code&quot;: 200,
+        &quot;message&quot;: &quot;success&quot;,
+        &quot;st&quot;: null,
+        &quot;decryptedData&quot;: [
+          {
+            &quot;SoJAn&quot;: 30,
+            &quot;SoJLn&quot;: 0,
+            &quot;SoJMy&quot;: 0.2,
+            &quot;SoJCss&quot;: &quot;R$&quot;,
+            &quot;SoJSs&quot;: 0,
+            &quot;SoJTid&quot;: 10361,
+            &quot;SoJSr&quot;: 2,
+            &quot;SoJMrt&quot;: 0.025
+          }
+        ],
+        &quot;rootType&quot;: &quot;array&quot;
+      },
+      &quot;elapsedMs&quot;: 489,
+      &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:59.8373937Z&quot;
+    }
+  ],
+  &quot;notExecuted&quot;: [
+    {
+      &quot;reason&quot;: &quot;Changes earnings; do not fabricate advertising revenue.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/AddIncome&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Submits a withdrawal.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/ApplyOrder&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Submits a cash/voucher withdrawal.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/ApplyOrderTask&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Would fabricate attribution.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/Come&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Allocates revenue tracking state; unnecessary for the safe communication check.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/IncomeId&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Claims a reward.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/NewUser&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Changes a profile.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/NickName&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Sends a feedback message to others.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/Talk&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Changes gameplay progress.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/Times&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Would fabricate an advertisement event.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/JamLog/AdInfo&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Would fabricate an application event.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/JamLog/AppInfo&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Not an existing integrated AccountModuleCfg endpoint; creates lottery state.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/Lottery&quot;
+    },
+    {
+      &quot;reason&quot;: &quot;Not an existing integrated AccountModuleCfg endpoint.&quot;,
+      &quot;status&quot;: &quot;not_executed&quot;,
+      &quot;path&quot;: &quot;/Out/Jam/LotteryInfo&quot;
+    }
+  ],
+  &quot;summary&quot;: {
+    &quot;dependentNotExecuted&quot;: 0,
+    &quot;failed&quot;: 0,
+    &quot;passed&quot;: 8,
+    &quot;excludedNotExecuted&quot;: 13
+  },
+  &quot;finishedUtc&quot;: &quot;2026-09-17T09:05:59.8502400Z&quot;
+}</pre></details></section><section id="provenance"><h2>证据与复核资料</h2><div class="table-scroll"><table class=""><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td>唯一 Unity 工程</td><td>C:\Projects\paopao\BizzaWZ</td></tr><tr><td>应用 ID / Android 包名</td><td>orchardtrio / com.wiwitsugeh.orchardtrio</td></tr><tr><td>API Tag</td><td>SnakeOutJame</td></tr><tr><td>接口域名</td><td>https://snakes.xin</td></tr><tr><td>Swagger 缓存</td><td>C:\Users\pc\Desktop\PlayCloudSdk\PlayCloud_API\LocalAPIData\swagger-doc.json</td></tr><tr><td>缓存 SHA-256</td><td>2cc542196b95d2b48f35e4b194d0d65a3e1612f1d8423e838f226a77d88d97e7</td></tr><tr><td>本轮范围</td><td>仅本次目录的结果数据；不读取旧报告、旧 API 工具或旧参数。</td></tr></tbody></table></div><ul class="evidence-list"><li><a href="api-mapping.json">api-mapping.json</a> · 已生成</li><li><a href="release-config-results.json">release-config-results.json</a> · 已生成</li><li><a href="communication-results.json">communication-results.json</a> · 已生成</li><li><a href="communication-contract-check.json">communication-contract-check.json</a> · 已生成</li><li><a href="method-audit-results.json">method-audit-results.json</a> · 已生成</li><li><a href="unity-final-validation.json">unity-final-validation.json</a> · 已生成</li><li><a href="source-scope-results.json">source-scope-results.json</a> · 已生成</li></ul></section></main><footer>本轮本地自包含报告 · 凭证脱敏 · 静态检查、HTTP 集成测试与真机验证分别记录</footer><script>const box=document.getElementById('field-search');const rows=[...document.querySelectorAll('.field-table tbody tr')];box.addEventListener('input',()=>{const q=box.value.trim().toLowerCase();let count=0;for(const row of rows){const show=row.textContent.toLowerCase().includes(q);row.hidden=!show;if(show)count++;}document.getElementById('field-count').textContent=`显示 ${count} / ${rows.length} 项`;});</script></body></html>

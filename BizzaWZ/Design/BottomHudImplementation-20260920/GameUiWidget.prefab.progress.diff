@@ -1,0 +1,26 @@
+--- before/Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab
++++ after/Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab
+@@ -2713,12 +2713,12 @@
+       objectReference: {fileID: 0}
+     - target: {fileID: 2597468376317513793, guid: 8c21a225bdfdef34099599e454f631c0, type: 3}
+       propertyPath: m_Type
+-      value: 1
++      value: 0
+       objectReference: {fileID: 0}
+     - target: {fileID: 2597468376317513793, guid: 8c21a225bdfdef34099599e454f631c0, type: 3}
+       propertyPath: m_Sprite
+       value: 
+-      objectReference: {fileID: 1920971194, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}
++      objectReference: {fileID: 21300000, guid: 0fefa62aa60848c0beee55e76911e394, type: 3}
+     - target: {fileID: 5078707581075184592, guid: 8c21a225bdfdef34099599e454f631c0, type: 3}
+       propertyPath: m_fontColor.b
+       value: 1
+@@ -2766,7 +2766,7 @@
+     - target: {fileID: 7786913375694585872, guid: 8c21a225bdfdef34099599e454f631c0, type: 3}
+       propertyPath: m_Sprite
+       value: 
+-      objectReference: {fileID: 1192469443, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}
++      objectReference: {fileID: 21300000, guid: 76073845e0d3434c93c8730cdc96a5b4, type: 3}
+     - target: {fileID: 8602878011392111636, guid: 8c21a225bdfdef34099599e454f631c0, type: 3}
+       propertyPath: m_LocalScale.x
+       value: 0

@@ -1,0 +1,262 @@
+{
+  "status": "PASS",
+  "reviewType": "Independent read-only serialized Prefab comparison; no Unity rendering or interaction claims",
+  "reviewedAtUtc": "2026-09-18T04:07:59.302988+00:00",
+  "baselineHashesValid": true,
+  "productionFilesReviewed": [
+    {
+      "file": "C:\\Projects\\paopao\\BizzaWZ\\Assets\\BizzaWZ\\Final\\Real\\UI\\RealWithdrawalPanl\\RealWithdrawPanel.prefab",
+      "sha256": "84fb2d5c96fa1634c1ff6df5dcf4791c70d2bdb5681bc291aaabe01fcf4d5559",
+      "serializedObjectCount": 316,
+      "identicalObjectCount": 305,
+      "objectIDsClassOrderPreserved": true,
+      "actualChanges": [
+        {
+          "fileID": "6954170809707330440",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: -2.9609985, y: 89}",
+              "after": "{x: -2.9609985, y: 33}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "6242918543077416618",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: 11.297974, y: 375}",
+              "after": "{x: 0, y: 375}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "2086328851805122007",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: 15, y: -10}",
+              "after": "{x: -22.8716, y: -10}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "1775918613987139441",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: 231, y: -78}",
+              "after": "{x: 231, y: -49.525}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "2448252221185092958",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: 0, y: -309}",
+              "after": "{x: 0, y: -365}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "909907137678787225",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: -351, y: -78}",
+              "after": "{x: -351, y: -49.525}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "2248499114068822494",
+          "type": "PrefabInstance",
+          "changedFields": [
+            "Rate/m_PixelsPerUnitMultiplier",
+            "Rate/RateText/m_sharedMaterial"
+          ]
+        },
+        {
+          "fileID": "2800037159234057201",
+          "type": "PrefabInstance",
+          "changedFields": [
+            "Rate/m_PixelsPerUnitMultiplier",
+            "Rate/RateText/m_sharedMaterial"
+          ]
+        },
+        {
+          "fileID": "5027465738847785132",
+          "type": "PrefabInstance",
+          "changedFields": [
+            "Rate/m_PixelsPerUnitMultiplier",
+            "Rate/RateText/m_sharedMaterial"
+          ]
+        },
+        {
+          "fileID": "5782620383053738083",
+          "type": "PrefabInstance",
+          "changedFields": [
+            "Rate/m_PixelsPerUnitMultiplier",
+            "Rate/RateText/m_sharedMaterial"
+          ]
+        },
+        {
+          "fileID": "7834601108969111573",
+          "type": "PrefabInstance",
+          "changedFields": [
+            "Rate/m_PixelsPerUnitMultiplier",
+            "Rate/RateText/m_sharedMaterial"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "C:\\Projects\\paopao\\BizzaWZ\\Assets\\BizzaWZ\\Final\\Real\\UI\\RealWithdrawalPanl\\WithdrawLevelItem.prefab",
+      "sha256": "c574feb29113975a5bcc79d102b09410e28cd4c0e6a32447a5adbaec8c33e0f3",
+      "serializedObjectCount": 49,
+      "identicalObjectCount": 46,
+      "objectIDsClassOrderPreserved": true,
+      "actualChanges": [
+        {
+          "fileID": "7282447878676501664",
+          "classID": "224",
+          "changes": [
+            {
+              "field": "m_AnchoredPosition",
+              "before": "{x: -67.5, y: -41.9}",
+              "after": "{x: -70, y: -50}"
+            },
+            {
+              "field": "m_SizeDelta",
+              "before": "{x: 114.4, y: 56}",
+              "after": "{x: 100, y: 46}"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "168637483215687939",
+          "classID": "114",
+          "changes": [
+            {
+              "field": "m_Sprite",
+              "before": "{fileID: -799567093, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+              "after": "{fileID: -1559611953, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+            },
+            {
+              "field": "m_PixelsPerUnitMultiplier",
+              "before": "2",
+              "after": "4"
+            }
+          ],
+          "restIdentical": true
+        },
+        {
+          "fileID": "6525991162497755553",
+          "classID": "114",
+          "changes": [
+            {
+              "field": "m_sharedMaterial",
+              "before": "{fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}",
+              "after": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+            },
+            {
+              "field": "m_fontColor",
+              "before": "{r: 1, g: 1, b: 1, a: 1}",
+              "after": "{r: 0.14901961, g: 0.36862746, b: 0.3372549, a: 1}"
+            }
+          ],
+          "restIdentical": true
+        }
+      ]
+    }
+  ],
+  "nestedCardInstances": [
+    {
+      "instanceFileID": "2248499114068822494",
+      "overridePixelsPerUnit": "4",
+      "bodyMaterialOverrideCorrect": true,
+      "newPositionSizeSpriteColorInherited": true,
+      "otherOverridesUnchanged": true
+    },
+    {
+      "instanceFileID": "2800037159234057201",
+      "overridePixelsPerUnit": "4",
+      "bodyMaterialOverrideCorrect": true,
+      "newPositionSizeSpriteColorInherited": true,
+      "otherOverridesUnchanged": true
+    },
+    {
+      "instanceFileID": "5027465738847785132",
+      "overridePixelsPerUnit": "4",
+      "bodyMaterialOverrideCorrect": true,
+      "newPositionSizeSpriteColorInherited": true,
+      "otherOverridesUnchanged": true
+    },
+    {
+      "instanceFileID": "5782620383053738083",
+      "overridePixelsPerUnit": "4",
+      "bodyMaterialOverrideCorrect": true,
+      "newPositionSizeSpriteColorInherited": true,
+      "otherOverridesUnchanged": true
+    },
+    {
+      "instanceFileID": "7834601108969111573",
+      "overridePixelsPerUnit": "4",
+      "bodyMaterialOverrideCorrect": true,
+      "newPositionSizeSpriteColorInherited": true,
+      "otherOverridesUnchanged": true
+    }
+  ],
+  "structureAndFunctionPreservation": {
+    "nodeHierarchyComponentListsAndObjectIDs": true,
+    "buttonComponentsSerializedEventsAndCustomBindings": "unchanged by exact comparison after masking reviewed visual fields",
+    "dynamicTextLocalizationKeysAndBusinessFields": "unchanged by exact comparison after masking reviewed visual fields",
+    "scriptReferences": "unchanged",
+    "noAddedOrRemovedPrefabObjects": true
+  },
+  "priorCodeBaselineComparison": {
+    "baseline": "Design/WithdrawWoodPreview-20260917/Implementation/code-hashes.json",
+    "checked": 1358,
+    "sameHash": 1358,
+    "changedOrMissing": [],
+    "additionalCsFiles": []
+  },
+  "resources": {
+    "InsetSpriteFileIDResolves": true,
+    "bodyMaterialHasZeroOutline": true
+  },
+  "geometry": {
+    "levelGridCenterXBefore": 37.871574,
+    "levelGridCenterXAfter": -2.6e-05,
+    "hintRectToButtonTopGapBefore": -22.2453,
+    "hintRectToButtonTopGapAfter": 33.7547,
+    "buttonToFooterRectGapAfter": 26.5863,
+    "headerTextCentersFromCoinInfoTop": {
+      "left": -49.525,
+      "center": -49.525,
+      "right": -49.525
+    },
+    "units": "Unity UI units, analytically derived; runtime font visual baselines still require screenshot verification"
+  },
+  "errors": [],
+  "limitations": [
+    "Runtime visual and interaction checks are owned by parent agent.",
+    "All serialized nonvisual fields in the two target Prefabs compared equal; this report does not imply all screens were visually tested."
+  ]
+}

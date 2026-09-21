@@ -1,0 +1,83 @@
+{
+    "kind": "PREFAB STATIC PREVIEW BATCH — NOT RUNTIME",
+    "generatedUtc": "2026-09-18T10:22:58.5327959Z",
+    "folder": "C:\\Projects\\paopao\\BizzaWZ\\Design\\HudSpacing-20260918\\Previews\\first-pass",
+    "cases": [
+        {
+            "kind": "PREFAB STATIC PREVIEW WITH EXPLICIT SAMPLE TEXT — NOT UNITY GAMEPLAY OR ACCOUNT DATA",
+            "generatedUtc": "2026-09-18T10:23:00.1302735Z",
+            "name": "static-hud-1080x1920-sample-rest",
+            "screenshot": "",
+            "error": "System.NullReferenceException: Object reference not set to an instance of an object\r\n  at HudSpacingPreview.Collect (UnityEngine.Transform bar, UnityEngine.Camera camera, HudSpacingPreview+Report report) [0x00102] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\HudSpacingPreview.cs:483 \r\n  at HudSpacingPreview.Render (HudSpacingPreview+Case item, System.String folder) [0x00504] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\HudSpacingPreview.cs:382 \r\n  at HudSpacingPreview.RenderNext () [0x00051] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\HudSpacingPreview.cs:278 ",
+            "interpretation": "Production GameCanvas, RealGamePanel/Content and GameUiWidget instances in a disposable PreviewScene. Business behaviours, animation and audio are disabled before activation. Canvas coordinates reproduce the production MatchHeight scaler; no current Game view, account or save is read. Geometry checks are conservative rectangular estimates, not input-event tests or pixel silhouettes. Samples and currency animation extremes exist only on disposable clones.",
+            "screenWidth": 0,
+            "screenHeight": 0,
+            "pngWidth": 0,
+            "pngHeight": 0,
+            "canvasPixelScale": 0.0,
+            "productionReferenceResolution": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "productionMatchWidthOrHeight": 0.0,
+            "canvasLogicalSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "currencyScale": 0.0,
+            "longValues": false,
+            "disabledBusinessBehaviours": 0,
+            "activeTextOverflowCount": 0,
+            "activeButtonOverlapCount": 0,
+            "clusterOverlapCount": 0,
+            "nonUniformPixelSamples": 0,
+            "sampleChanges": [],
+            "images": [],
+            "texts": [],
+            "buttons": [],
+            "layouts": [],
+            "buttonOverlaps": [],
+            "clusters": [],
+            "clusterOverlaps": [],
+            "sourceAssets": []
+        },
+        {
+            "kind": "PREFAB STATIC PREVIEW WITH EXPLICIT SAMPLE TEXT — NOT UNITY GAMEPLAY OR ACCOUNT DATA",
+            "generatedUtc": "2026-09-18T10:23:00.1581534Z",
+            "name": "static-hud-1080x1920-long-rest",
+            "screenshot": "",
+            "error": "System.NullReferenceException: Object reference not set to an instance of an object\r\n  at HudSpacingPreview.Collect (UnityEngine.Transform bar, UnityEngine.Camera camera, HudSpacingPreview+Report report) [0x00102] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\HudSpacingPreview.cs:483 \r\n  at HudSpacingPreview.Render (HudSpacingPreview+Case item, System.String folder) [0x00504] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\HudSpacingPreview.cs:382 \r\n  at HudSpacingPreview.RenderNext () [0x00051] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\HudSpacingPreview.cs:278 ",
+            "interpretation": "Production GameCanvas, RealGamePanel/Content and GameUiWidget instances in a disposable PreviewScene. Business behaviours, animation and audio are disabled before activation. Canvas coordinates reproduce the production MatchHeight scaler; no current Game view, account or save is read. Geometry checks are conservative rectangular estimates, not input-event tests or pixel silhouettes. Samples and currency animation extremes exist only on disposable clones.",
+            "screenWidth": 0,
+            "screenHeight": 0,
+            "pngWidth": 0,
+            "pngHeight": 0,
+            "canvasPixelScale": 0.0,
+            "productionReferenceResolution": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "productionMatchWidthOrHeight": 0.0,
+            "canvasLogicalSize": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "currencyScale": 0.0,
+            "longValues": false,
+            "disabledBusinessBehaviours": 0,
+            "activeTextOverflowCount": 0,
+            "activeButtonOverlapCount": 0,
+            "clusterOverlapCount": 0,
+            "nonUniformPixelSamples": 0,
+            "sampleChanges": [],
+            "images": [],
+            "texts": [],
+            "buttons": [],
+            "layouts": [],
+            "buttonOverlaps": [],
+            "clusters": [],
+            "clusterOverlaps": [],
+            "sourceAssets": []
+        }
+    ]
+}

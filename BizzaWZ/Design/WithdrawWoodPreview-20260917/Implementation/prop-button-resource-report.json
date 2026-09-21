@@ -1,0 +1,65 @@
+{
+  "kind": "Runtime UI state sprite resource remap, without business-script changes",
+  "sourceAtlas": "Assets/OrchardUI/Art/Controls.png",
+  "sourceAtlasSha256": "9301081ab31a0ce0872a9d88ea78d04b3ef177575cadd298f42800067788e787",
+  "sourceAtlasMetaSha256": "2050eb973c07c7d81b80d6674e3fea41c5d640fc64d294aea0ad81f8cc866d41",
+  "catalog": "Assets/FruitsHarvest/Resources/HarvestPaths.txt",
+  "catalogChangedRows": 3,
+  "allOtherCatalogRowsUnchanged": true,
+  "businessScriptsChanged": false,
+  "stateSelectionLogicChanged": false,
+  "assets": [
+    {
+      "catalogKey": "res/local/coreplay/sprite/item/itembg_normal",
+      "oldResourcePath": "Original/res/local/coreplay/sprite/item/ItemBg_Normal",
+      "newResourcePath": "OrchardUI/PropButtonNormal",
+      "newAsset": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+      "guid": "65c699fa67ab48d9b81323f99c572dc8",
+      "sourceRole": "ButtonRoundCream",
+      "sourceRectUnity": [
+        686,
+        356,
+        206,
+        207
+      ],
+      "pixelExactAtlasExtraction": true,
+      "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+      "uncompressedBytes": 170568
+    },
+    {
+      "catalogKey": "res/local/coreplay/sprite/item/itembg_lock",
+      "oldResourcePath": "Original/res/local/coreplay/sprite/item/ItemBg_Lock",
+      "newResourcePath": "OrchardUI/PropButtonLocked",
+      "newAsset": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+      "guid": "5efc5492c4d249f4b6e89a326e5c2276",
+      "sourceRole": "DisabledCard",
+      "sourceRectUnity": [
+        338,
+        607,
+        283,
+        275
+      ],
+      "pixelExactAtlasExtraction": true,
+      "spriteBorder": "{x: 46, y: 46, z: 46, w: 46}",
+      "uncompressedBytes": 311300
+    },
+    {
+      "catalogKey": "res/local/coreplay/sprite/item/itembg_gray",
+      "oldResourcePath": "Original/res/local/coreplay/sprite/item/ItemBg_Gray",
+      "newResourcePath": "OrchardUI/PropButtonFrame",
+      "newAsset": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+      "guid": "8fb700bae53a45a1aec44c9fb828a9a8",
+      "sourceRole": "ButtonRoundCream",
+      "sourceRectUnity": [
+        686,
+        356,
+        206,
+        207
+      ],
+      "pixelExactAtlasExtraction": true,
+      "spriteBorder": "{x: 0, y: 0, z: 0, w: 0}",
+      "uncompressedBytes": 170568
+    }
+  ],
+  "newMaximumUncompressedTextureBytes": 652436
+}

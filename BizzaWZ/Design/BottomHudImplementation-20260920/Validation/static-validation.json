@@ -1,0 +1,2826 @@
+{
+    "kind": "UNITY PREFAB STATIC PREVIEW, explicit visual states only; not runtime or account-flow verification",
+    "generatedUtc": "2026-09-21T03:47:52.7308769Z",
+    "error": "",
+    "editorWasPlaying": false,
+    "cases": [
+        {
+            "name": "mixed-0of5",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\BottomHudImplementation-20260920\\Validation\\static-mixed-0of5.png",
+            "error": "",
+            "logicalCanvasSize": {
+                "x": 1327.5,
+                "y": 2360.0
+            },
+            "referenceResolution": {
+                "x": 1080.0,
+                "y": 2360.0
+            },
+            "productionMatchWidthOrHeight": 1.0,
+            "pixelScale": 0.8135592937469482,
+            "fill": 0.0,
+            "strippedComponents": 331,
+            "remainingBusinessComponents": 0,
+            "textOverflowCount": 0,
+            "activeGraphics": 18,
+            "horizontalFill": true,
+            "sourceBindingsReadOnly": true,
+            "overflowTexts": [],
+            "resources": [
+                {
+                    "owner": "Shuffle",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.asset",
+                    "sprite": "Shuffle_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 113.0,
+                        "height": 115.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Magic",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.asset",
+                    "sprite": "Magic_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.02675098180770874,
+                        "width": 114.0,
+                        "height": 115.97325134277344
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.asset",
+                    "sprite": "Undo_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 112.0,
+                        "height": 120.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "ProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 937.0,
+                        "y": 420.0,
+                        "width": 299.0,
+                        "height": 76.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "sprite": "HudLucky777",
+                    "texturePath": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 16.331737518310548,
+                        "y": 74.30941009521485,
+                        "width": 485.0526123046875,
+                        "height": 374.8133850097656
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "sprite": "BottomHudProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 11.879350662231446,
+                        "y": 54.74383544921875,
+                        "width": 488.00372314453127,
+                        "height": 66.83013153076172
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "sprite": "BottomHudProgressFill",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 12.651537895202637,
+                        "y": 81.68978881835938,
+                        "width": 486.6969299316406,
+                        "height": 41.62042999267578
+                    },
+                    "active": true
+                }
+            ],
+            "sourceButtons": [
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/Badge",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/DailyMission",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/SlotEnter",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "persistentCalls": 0
+                }
+            ]
+        },
+        {
+            "name": "mixed-1of5",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\BottomHudImplementation-20260920\\Validation\\static-mixed-1of5.png",
+            "error": "",
+            "logicalCanvasSize": {
+                "x": 1327.5,
+                "y": 2360.0
+            },
+            "referenceResolution": {
+                "x": 1080.0,
+                "y": 2360.0
+            },
+            "productionMatchWidthOrHeight": 1.0,
+            "pixelScale": 0.8135592937469482,
+            "fill": 0.20000000298023225,
+            "strippedComponents": 331,
+            "remainingBusinessComponents": 0,
+            "textOverflowCount": 0,
+            "activeGraphics": 18,
+            "horizontalFill": true,
+            "sourceBindingsReadOnly": true,
+            "overflowTexts": [],
+            "resources": [
+                {
+                    "owner": "Shuffle",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.asset",
+                    "sprite": "Shuffle_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 113.0,
+                        "height": 115.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Magic",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.asset",
+                    "sprite": "Magic_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.02675098180770874,
+                        "width": 114.0,
+                        "height": 115.97325134277344
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.asset",
+                    "sprite": "Undo_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 112.0,
+                        "height": 120.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "ProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 937.0,
+                        "y": 420.0,
+                        "width": 299.0,
+                        "height": 76.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "sprite": "HudLucky777",
+                    "texturePath": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 16.331737518310548,
+                        "y": 74.30941009521485,
+                        "width": 485.0526123046875,
+                        "height": 374.8133850097656
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "sprite": "BottomHudProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 11.879350662231446,
+                        "y": 54.74383544921875,
+                        "width": 488.00372314453127,
+                        "height": 66.83013153076172
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "sprite": "BottomHudProgressFill",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 12.651537895202637,
+                        "y": 81.68978881835938,
+                        "width": 486.6969299316406,
+                        "height": 41.62042999267578
+                    },
+                    "active": true
+                }
+            ],
+            "sourceButtons": [
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/Badge",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/DailyMission",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/SlotEnter",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "persistentCalls": 0
+                }
+            ]
+        },
+        {
+            "name": "mixed-4of5",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\BottomHudImplementation-20260920\\Validation\\static-mixed-4of5.png",
+            "error": "",
+            "logicalCanvasSize": {
+                "x": 1327.5,
+                "y": 2360.0
+            },
+            "referenceResolution": {
+                "x": 1080.0,
+                "y": 2360.0
+            },
+            "productionMatchWidthOrHeight": 1.0,
+            "pixelScale": 0.8135592937469482,
+            "fill": 0.800000011920929,
+            "strippedComponents": 331,
+            "remainingBusinessComponents": 0,
+            "textOverflowCount": 0,
+            "activeGraphics": 18,
+            "horizontalFill": true,
+            "sourceBindingsReadOnly": true,
+            "overflowTexts": [],
+            "resources": [
+                {
+                    "owner": "Shuffle",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.asset",
+                    "sprite": "Shuffle_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 113.0,
+                        "height": 115.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Magic",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.asset",
+                    "sprite": "Magic_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.02675098180770874,
+                        "width": 114.0,
+                        "height": 115.97325134277344
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.asset",
+                    "sprite": "Undo_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 112.0,
+                        "height": 120.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "ProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 937.0,
+                        "y": 420.0,
+                        "width": 299.0,
+                        "height": 76.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "sprite": "HudLucky777",
+                    "texturePath": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 16.331737518310548,
+                        "y": 74.30941009521485,
+                        "width": 485.0526123046875,
+                        "height": 374.8133850097656
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "sprite": "BottomHudProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 11.879350662231446,
+                        "y": 54.74383544921875,
+                        "width": 488.00372314453127,
+                        "height": 66.83013153076172
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "sprite": "BottomHudProgressFill",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 12.651537895202637,
+                        "y": 81.68978881835938,
+                        "width": 486.6969299316406,
+                        "height": 41.62042999267578
+                    },
+                    "active": true
+                }
+            ],
+            "sourceButtons": [
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/Badge",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/DailyMission",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/SlotEnter",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "persistentCalls": 0
+                }
+            ]
+        },
+        {
+            "name": "mixed-5of5",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\BottomHudImplementation-20260920\\Validation\\static-mixed-5of5.png",
+            "error": "",
+            "logicalCanvasSize": {
+                "x": 1327.5,
+                "y": 2360.0
+            },
+            "referenceResolution": {
+                "x": 1080.0,
+                "y": 2360.0
+            },
+            "productionMatchWidthOrHeight": 1.0,
+            "pixelScale": 0.8135592937469482,
+            "fill": 1.0,
+            "strippedComponents": 331,
+            "remainingBusinessComponents": 0,
+            "textOverflowCount": 0,
+            "activeGraphics": 18,
+            "horizontalFill": true,
+            "sourceBindingsReadOnly": true,
+            "overflowTexts": [],
+            "resources": [
+                {
+                    "owner": "Shuffle",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.asset",
+                    "sprite": "Shuffle_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 113.0,
+                        "height": 115.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Magic",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.asset",
+                    "sprite": "Magic_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.02675098180770874,
+                        "width": 114.0,
+                        "height": 115.97325134277344
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.asset",
+                    "sprite": "Undo_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 112.0,
+                        "height": 120.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "ProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 937.0,
+                        "y": 420.0,
+                        "width": 299.0,
+                        "height": 76.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "sprite": "HudLucky777",
+                    "texturePath": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 16.331737518310548,
+                        "y": 74.30941009521485,
+                        "width": 485.0526123046875,
+                        "height": 374.8133850097656
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "sprite": "BottomHudProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 11.879350662231446,
+                        "y": 54.74383544921875,
+                        "width": 488.00372314453127,
+                        "height": 66.83013153076172
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "sprite": "BottomHudProgressFill",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 12.651537895202637,
+                        "y": 81.68978881835938,
+                        "width": 486.6969299316406,
+                        "height": 41.62042999267578
+                    },
+                    "active": true
+                }
+            ],
+            "sourceButtons": [
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/Badge",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/DailyMission",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/SlotEnter",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "persistentCalls": 0
+                }
+            ]
+        },
+        {
+            "name": "all-unlocked-1of5",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\BottomHudImplementation-20260920\\Validation\\static-all-unlocked-1of5.png",
+            "error": "",
+            "logicalCanvasSize": {
+                "x": 1327.5,
+                "y": 2360.0
+            },
+            "referenceResolution": {
+                "x": 1080.0,
+                "y": 2360.0
+            },
+            "productionMatchWidthOrHeight": 1.0,
+            "pixelScale": 0.8135592937469482,
+            "fill": 0.20000000298023225,
+            "strippedComponents": 331,
+            "remainingBusinessComponents": 0,
+            "textOverflowCount": 0,
+            "activeGraphics": 21,
+            "horizontalFill": true,
+            "sourceBindingsReadOnly": true,
+            "overflowTexts": [],
+            "resources": [
+                {
+                    "owner": "Shuffle",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.asset",
+                    "sprite": "Shuffle_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 113.0,
+                        "height": 115.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Normal.asset",
+                    "sprite": "Magic_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.02675098180770874,
+                        "width": 114.0,
+                        "height": 115.97325134277344
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "sprite": "PropButtonNormal",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 19.18979263305664,
+                        "y": 22.456140518188478,
+                        "width": 473.62042236328127,
+                        "height": 466.6794128417969
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.asset",
+                    "sprite": "Undo_Normal",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Normal.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 112.0,
+                        "height": 120.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "ProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 937.0,
+                        "y": 420.0,
+                        "width": 299.0,
+                        "height": 76.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "sprite": "HudLucky777",
+                    "texturePath": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 16.331737518310548,
+                        "y": 74.30941009521485,
+                        "width": 485.0526123046875,
+                        "height": 374.8133850097656
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "sprite": "BottomHudProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 11.879350662231446,
+                        "y": 54.74383544921875,
+                        "width": 488.00372314453127,
+                        "height": 66.83013153076172
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "sprite": "BottomHudProgressFill",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 12.651537895202637,
+                        "y": 81.68978881835938,
+                        "width": 486.6969299316406,
+                        "height": 41.62042999267578
+                    },
+                    "active": true
+                }
+            ],
+            "sourceButtons": [
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/Badge",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/DailyMission",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/SlotEnter",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "persistentCalls": 0
+                }
+            ]
+        },
+        {
+            "name": "all-locked-1of5",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\BottomHudImplementation-20260920\\Validation\\static-all-locked-1of5.png",
+            "error": "",
+            "logicalCanvasSize": {
+                "x": 1327.5,
+                "y": 2360.0
+            },
+            "referenceResolution": {
+                "x": 1080.0,
+                "y": 2360.0
+            },
+            "productionMatchWidthOrHeight": 1.0,
+            "pixelScale": 0.8135592937469482,
+            "fill": 0.20000000298023225,
+            "strippedComponents": 331,
+            "remainingBusinessComponents": 0,
+            "textOverflowCount": 0,
+            "activeGraphics": 13,
+            "horizontalFill": true,
+            "sourceBindingsReadOnly": true,
+            "overflowTexts": [],
+            "resources": [
+                {
+                    "owner": "Shuffle",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Lock.asset",
+                    "sprite": "Shuffle_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Shuffle_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 113.0,
+                        "height": 115.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Shuffle",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Magic",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.asset",
+                    "sprite": "Magic_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Magic_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.02675098180770874,
+                        "width": 114.0,
+                        "height": 115.97325134277344
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Magic",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "frame",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "sprite": "PropButtonFrame",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 14.290270805358887,
+                        "y": 20.822965621948243,
+                        "width": 482.194580078125,
+                        "height": 474.4369812011719
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "Undo",
+                    "role": "state background",
+                    "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "sprite": "PropButtonLocked",
+                    "texturePath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 31.030302047729493,
+                        "y": 40.421051025390628,
+                        "width": 449.93939208984377,
+                        "height": 431.15789794921877
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved original glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Lock.asset",
+                    "sprite": "Undo_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Undo_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 112.0,
+                        "height": 120.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "preserved lock glyph",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.asset",
+                    "sprite": "Item_Lock",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Item_Lock.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 72.0,
+                        "height": 95.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "Card",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 646.0,
+                        "y": 604.0,
+                        "width": 287.0,
+                        "height": 279.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "Undo",
+                    "role": "AD badge",
+                    "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.asset",
+                    "sprite": "Play",
+                    "texturePath": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Play.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 29.0,
+                        "height": 35.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/Game/Effect/Textures/ggg.png",
+                    "sprite": "ggg",
+                    "texturePath": "Assets/Game/Effect/Textures/ggg.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 256.0,
+                        "height": 256.0
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/Controls.png",
+                    "sprite": "ProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/Controls.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 937.0,
+                        "y": 420.0,
+                        "width": 299.0,
+                        "height": 76.0
+                    },
+                    "active": false
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "sprite": "HudLucky777",
+                    "texturePath": "Assets/OrchardUI/Art/HudLucky777.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 16.331737518310548,
+                        "y": 74.30941009521485,
+                        "width": 485.0526123046875,
+                        "height": 374.8133850097656
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "sprite": "BottomHudProgressTrack",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressTrack.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 11.879350662231446,
+                        "y": 54.74383544921875,
+                        "width": 488.00372314453127,
+                        "height": 66.83013153076172
+                    },
+                    "active": true
+                },
+                {
+                    "owner": "SlotEnter",
+                    "role": "prefab image",
+                    "path": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "sprite": "BottomHudProgressFill",
+                    "texturePath": "Assets/OrchardUI/Art/BottomHudProgressFill.png",
+                    "spriteRect": {
+                        "serializedVersion": "2",
+                        "x": 12.651537895202637,
+                        "y": 81.68978881835938,
+                        "width": 486.6969299316406,
+                        "height": 41.62042999267578
+                    },
+                    "active": true
+                }
+            ],
+            "sourceButtons": [
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Shuffle/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Magic/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Undo/AniLayer/Button",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/HarvestRoot/Canvas/MgrUI/Bottom/CorePlayUI/UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/CurrencyBar/PauseButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/Badge",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/DailyMissionItem/DailyMission",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/TaskButton",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/SlotEnter",
+                    "targetGraphic": "",
+                    "persistentCalls": 0
+                },
+                {
+                    "path": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "targetGraphic": "Inactive isolated static-preview holder/GameCanvas/Content/BaseLayer/RealGamePanel/Content/GameUiWidget/UIBizzaAAA/Safe Zone/BtnFlowTreature",
+                    "persistentCalls": 0
+                }
+            ]
+        }
+    ],
+    "sourceAssets": [
+        {
+            "path": "Assets/BizzaWZ/Common/Framework/GameCanvas.prefab",
+            "before": "c45e4373ba1dc043b348ef5fd4a24325aad0a4c68df3145addd35195b3d06254",
+            "after": "c45e4373ba1dc043b348ef5fd4a24325aad0a4c68df3145addd35195b3d06254",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Common/UI/GamePanel/RealGamePanel.prefab",
+            "before": "c9fb382f50cdf351c96c17b0dc633878c12edf4c361618c8d19fd111d59e2b47",
+            "after": "c9fb382f50cdf351c96c17b0dc633878c12edf4c361618c8d19fd111d59e2b47",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/FruitsHarvest/Resources/HarvestRoot.prefab",
+            "before": "e1b768c33d27db48d5ae56f279f9ea303009d8644d2eda0cb5af2dccc3da7299",
+            "after": "e1b768c33d27db48d5ae56f279f9ea303009d8644d2eda0cb5af2dccc3da7299",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+            "before": "3677600b0269efb20ea2c47f10a4aac94d004ca74b1aaa0f4dcf4fa6630637da",
+            "after": "3677600b0269efb20ea2c47f10a4aac94d004ca74b1aaa0f4dcf4fa6630637da",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+            "before": "f5ca82e7a0d7405105d86d4b59b61a9ab4da24c1a0777e18e286f2554284a488",
+            "after": "f5ca82e7a0d7405105d86d4b59b61a9ab4da24c1a0777e18e286f2554284a488",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+            "before": "2746a248e3d6bc0466b1ac90a45ff4e0976b7b9b2d10baad6522042881fb2c1a",
+            "after": "2746a248e3d6bc0466b1ac90a45ff4e0976b7b9b2d10baad6522042881fb2c1a",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/FruitsHarvest/Resources/HarvestPaths.txt",
+            "before": "0a3be7fb54f49636e2e229d6b91f8337d88a8a3478cd67c64971b52d4e39ce72",
+            "after": "0a3be7fb54f49636e2e229d6b91f8337d88a8a3478cd67c64971b52d4e39ce72",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+            "before": "9c967e716d7bf68bc2f7a66b0179069407aef823e906a3690562a49312039b94",
+            "after": "9c967e716d7bf68bc2f7a66b0179069407aef823e906a3690562a49312039b94",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png.meta",
+            "before": "3cfc3c48c6119d31f276db7510a27a5c238ce93d0b0bbf034b71545e4ef7291a",
+            "after": "3cfc3c48c6119d31f276db7510a27a5c238ce93d0b0bbf034b71545e4ef7291a",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+            "before": "998d95bdb9ef8f2f5b4fb09d490035a29b61f23f4cdde59ffd9395c1dabd855f",
+            "after": "998d95bdb9ef8f2f5b4fb09d490035a29b61f23f4cdde59ffd9395c1dabd855f",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png.meta",
+            "before": "a7a8d21c4f72920bb20a331f639f8885af7283b77f261fdbf0a46ae9b8694ff0",
+            "after": "a7a8d21c4f72920bb20a331f639f8885af7283b77f261fdbf0a46ae9b8694ff0",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+            "before": "6a041ad131beae306de4b146525b06905b9fcba8b370c8c0df1be201a2729191",
+            "after": "6a041ad131beae306de4b146525b06905b9fcba8b370c8c0df1be201a2729191",
+            "unchanged": true
+        },
+        {
+            "path": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png.meta",
+            "before": "c7f9e591e6921dce29b71586a4caf4e99f1872b83b79bcf544b02e477491c4a5",
+            "after": "c7f9e591e6921dce29b71586a4caf4e99f1872b83b79bcf544b02e477491c4a5",
+            "unchanged": true
+        }
+    ],
+    "resourceLoadChecks": [
+        {
+            "resourcePath": "OrchardUI/PropButtonNormal",
+            "expectedAssetPath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+            "loadedAssetPath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonNormal.png",
+            "spriteName": "PropButtonNormal",
+            "loadedGuid": "65c699fa67ab48d9b81323f99c572dc8",
+            "loadedFileID": 21300000,
+            "loadSucceeded": true,
+            "expectedAssetMatches": true,
+            "subSpriteCount": 1,
+            "spriteRect": {
+                "serializedVersion": "2",
+                "x": 19.18979263305664,
+                "y": 22.456140518188478,
+                "width": 473.62042236328127,
+                "height": 466.6794128417969
+            }
+        },
+        {
+            "resourcePath": "OrchardUI/PropButtonLocked",
+            "expectedAssetPath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+            "loadedAssetPath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png",
+            "spriteName": "PropButtonLocked",
+            "loadedGuid": "5efc5492c4d249f4b6e89a326e5c2276",
+            "loadedFileID": 21300000,
+            "loadSucceeded": true,
+            "expectedAssetMatches": true,
+            "subSpriteCount": 1,
+            "spriteRect": {
+                "serializedVersion": "2",
+                "x": 31.030302047729493,
+                "y": 40.421051025390628,
+                "width": 449.93939208984377,
+                "height": 431.15789794921877
+            }
+        },
+        {
+            "resourcePath": "OrchardUI/PropButtonFrame",
+            "expectedAssetPath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+            "loadedAssetPath": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png",
+            "spriteName": "PropButtonFrame",
+            "loadedGuid": "8fb700bae53a45a1aec44c9fb828a9a8",
+            "loadedFileID": 21300000,
+            "loadSucceeded": true,
+            "expectedAssetMatches": true,
+            "subSpriteCount": 1,
+            "spriteRect": {
+                "serializedVersion": "2",
+                "x": 14.290270805358887,
+                "y": 20.822965621948243,
+                "width": 482.194580078125,
+                "height": 474.4369812011719
+            }
+        }
+    ]
+}

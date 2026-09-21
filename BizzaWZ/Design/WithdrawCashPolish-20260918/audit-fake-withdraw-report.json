@@ -1,0 +1,3856 @@
+{
+  "mode": "Read-only source and reference screenshot audit. No Assets writes or Unity commands.",
+  "screenshot": "C:/Users/pc/AppData/Local/Temp/codex-clipboard-e1501e1d-b298-4db4-b9c1-13f314b37267.png",
+  "fileHashes": {
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab": "90e9b7d873c964ebc0401c349ffef12e579ef72e666716d8a21c645fed24c278",
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab": "47057efdc232629407a465cb746798169836ecbf278785047662455cf1441cae",
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.cs": "8e3de91a8f00b3f9505a00870532152356b7b1c48e74866877c32931a48cc0b3",
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.cs": "7b7d7539b84d8654948732763ba9d2457b234c8b81e36704dfd8c55167c98606"
+  },
+  "structures": {
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab": [
+      {
+        "id": "8523127050561447966",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/Text",
+        "m_AnchoredPosition": "{x: 3.6782, y: 1.6467896}",
+        "m_SizeDelta": "{x: 453.2745, y: 149.8385}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8654869823511539002",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/Text",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontSize": "68",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "68",
+        "m_text": "WithDraw",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "6062767254105288309",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/Text",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "1253091352832091613",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount",
+        "m_AnchoredPosition": "{x: 541.5, y: -733.40686}",
+        "m_SizeDelta": "{x: 1083, y: 485.9292}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5175371854851587187",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress",
+        "m_AnchoredPosition": "{x: 541.5, y: -1050.9375}",
+        "m_SizeDelta": "{x: 1083, y: 150.95}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "1794544780436213339",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Balance/Cash",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 0, y: 0}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0}",
+        "m_AnchorMax": "{x: 1, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8767989740261440782",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Balance/Cash",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.050980393, g: 0.60784316, b: 0.13725491, a: 1}",
+        "m_fontSize": "68",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "72",
+        "m_text": "$ 3.12825",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "7893652994847943691",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/FQA",
+        "m_AnchoredPosition": "{x: 466, y: -84}",
+        "m_SizeDelta": "{x: 100, y: 100}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6753093948453478358",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/FQA",
+        "m_Script": "{fileID: 11500000, guid: 3627447c183081f4eb0ff7951bee04a4, type: 3}",
+        "m_TargetGraphic": "{fileID: 2956565917128149552}"
+      },
+      {
+        "id": "2956565917128149552",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/FQA",
+        "m_Sprite": "{fileID: 1711532273, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "210600630110459938",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Title",
+        "m_AnchoredPosition": "{x: 639, y: -37.795}",
+        "m_SizeDelta": "{x: 1065.6, y: 50}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6841260854729436532",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Title",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}",
+        "m_fontSize": "36",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "72",
+        "m_text": "Progress",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "1057882478764180584",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Title",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "1076203187692865916",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/FQA/Image",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 110, y: 110}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "1898449009760536334",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/FQA/Image",
+        "m_Sprite": "{fileID: 21300000, guid: 28bc6b4dc88d8234e8d7ca737df27c9d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "3465520422940744465",
+        "type": "224",
+        "path": "OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5177945401325661201",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "8625597635028722507",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "8492996640811137508",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/CloseBtn",
+        "m_AnchoredPosition": "{x: -466.3, y: -84}",
+        "m_SizeDelta": "{x: 100, y: 100}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5598339822792363426",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/CloseBtn",
+        "m_Script": "{fileID: 11500000, guid: 3627447c183081f4eb0ff7951bee04a4, type: 3}",
+        "m_TargetGraphic": "{fileID: 1461224706655232675}"
+      },
+      {
+        "id": "1461224706655232675",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/CloseBtn",
+        "m_Sprite": "{fileID: -1245768416, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "5437656586784497161",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg",
+        "m_AnchoredPosition": "{x: 3.7303, y: -1}",
+        "m_SizeDelta": "{x: 471.9636, y: 168.0715}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "1241199525063855708",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg",
+        "m_Sprite": "{fileID: -1142528992, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "1823335526773419268",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg/OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -21.12, y: 18.48}",
+        "m_SizeDelta": "{x: 54.4, y: 64}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5060550131613151110",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg/OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "6733261377602871284",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg/OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "1412681984525040658",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Title",
+        "m_AnchoredPosition": "{x: 530.70337, y: -120}",
+        "m_SizeDelta": "{x: 867.4067, y: 50}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "7923569842550216842",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Title",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}",
+        "m_fontSize": "36",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "72",
+        "m_text": "Cash Balance",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "3193272393404984930",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Title",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "3847831239623455933",
+        "type": "224",
+        "path": "OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "293337023357330836",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "6225016136657110737",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "6245322591451948958",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/Frame",
+        "m_AnchoredPosition": "{x: -0.26379395, y: 642.89014}",
+        "m_SizeDelta": "{x: 1020.9514, y: 1353}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 1}"
+      },
+      {
+        "id": "2754535437279419372",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/Frame",
+        "m_Sprite": "{fileID: 2758570, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "0.7",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "2685304651853509168",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Balance",
+        "m_AnchoredPosition": "{x: 537.9631, y: -248.2677}",
+        "m_SizeDelta": "{x: 896.721, y: 177.805}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8547630004894175795",
+        "type": "224",
+        "path": "OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5262351657440088682",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "3563383963688615479",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "2262917192024109782",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real/Text (TMP)",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 200, y: 50}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "3339610134613169318",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real/Text (TMP)",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontSize": "36",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "72",
+        "m_text": "New Text",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "3817454163521448628",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View",
+        "m_AnchoredPosition": "{x: 543.4232, y: -277}",
+        "m_SizeDelta": "{x: 891.8765, y: 425.92}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "726779014677123029",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View",
+        "m_Sprite": "{fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "6740179043155309793",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View",
+        "m_Script": "{fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}"
+      },
+      {
+        "id": "3407244568646518835",
+        "type": "224",
+        "path": "OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "868539560839307778",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "7747176533758171988",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "912456267314527923",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Balance/bg",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 0, y: 0}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0}",
+        "m_AnchorMax": "{x: 1, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "4192234944055056232",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/CashBalance/Balance/bg",
+        "m_Sprite": "{fileID: -1559611953, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "4828945797502330227",
+        "type": "224",
+        "path": "OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5192281411532636768",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "7331715956881112764",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "9094224334765412667",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg/OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "3004460609082498821",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg/OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "2330668050981235146",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg/OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "3131837160562448410",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress",
+        "m_AnchoredPosition": "{x: 0, y: -24}",
+        "m_SizeDelta": "{x: 902.9887, y: 73.36}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8175018248033638516",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/bg",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 897, y: 64}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8743834095267926959",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/bg",
+        "m_Sprite": "{fileID: 1920971194, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "3087585532496187354",
+        "type": "224",
+        "path": "OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8279810595306698375",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "3713790856364392418",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "5668038630124399180",
+        "type": "224",
+        "path": "FakeWithdrawPanel/OrchardBackdrop",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 0, y: 0}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0}",
+        "m_AnchorMax": "{x: 0, y: 0}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5466779500350191104",
+        "type": "114",
+        "path": "FakeWithdrawPanel/OrchardBackdrop",
+        "m_Sprite": "{fileID: 0}",
+        "m_Type": "0",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "5901299962637899469",
+        "type": "114",
+        "path": "FakeWithdrawPanel/OrchardBackdrop",
+        "m_Script": "{fileID: 11500000, guid: 86710e43de46f6f4bac7c8e50813a599, type: 3}"
+      },
+      {
+        "id": "1603321598526415361",
+        "type": "114",
+        "path": "FakeWithdrawPanel/OrchardBackdrop",
+        "m_Script": "{fileID: 11500000, guid: 3adf67a7cf9cfce47889f4706cce980c, type: 3}"
+      },
+      {
+        "id": "822753008018383924",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/Title",
+        "m_AnchoredPosition": "{x: 0, y: -83}",
+        "m_SizeDelta": "{x: 490, y: 96}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6004225462979585317",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/Title",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontSize": "69.9",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "72",
+        "m_text": "Withdrawal",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "6143906589784479339",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/Title",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "8163754719994913660",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/CloseBtn/Image",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 110, y: 110}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6097634008577622270",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/CloseBtn/Image",
+        "m_Sprite": "{fileID: 21300000, guid: c67b1e0028bea574fa4b4a90c5e761f8, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "2071485895475148001",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 897, y: 64}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6620554689692068040",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawProgress/Progress/real",
+        "m_Sprite": "{fileID: 1192469443, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "3",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "0",
+        "m_FillAmount": "0.446",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "657216380954434092",
+        "type": "224",
+        "path": "OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8971674991173985624",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "1760503794596475236",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "6606777431076331641",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport",
+        "m_AnchoredPosition": "{x: 0, y: -18.913605}",
+        "m_SizeDelta": "{x: 892, y: 441.08643}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0, y: 1}"
+      },
+      {
+        "id": "7748958309380472102",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport",
+        "m_Sprite": "{fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "5306722746744395796",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport",
+        "m_Script": "{fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}"
+      },
+      {
+        "id": "4547747055178773713",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup",
+        "m_AnchoredPosition": "{x: 0, y: -992}",
+        "m_SizeDelta": "{x: 1080, y: 1920}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "7057071514905377833",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg/OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 21.12, y: 18.48}",
+        "m_SizeDelta": "{x: 54.4, y: 64}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "1949773839504919686",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg/OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "8291840844001140267",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg/OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "1344812994173981227",
+        "type": "224",
+        "path": "OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "553759395816035176",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "30844161728810574",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "5800567469321088801",
+        "type": "224",
+        "path": "FakeWithdrawPanel/BG",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 0, y: 0}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0}",
+        "m_AnchorMax": "{x: 1, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5595442667897305645",
+        "type": "114",
+        "path": "FakeWithdrawPanel/BG",
+        "m_Sprite": "{fileID: 0}",
+        "m_Type": "0",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 0}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "7956950363546891266",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/CashBalance",
+        "m_AnchoredPosition": "{x: 541.5, y: -306}",
+        "m_SizeDelta": "{x: 1083, y: 355.1864}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "3088259304660370917",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/HintText",
+        "m_AnchoredPosition": "{x: 552.1548, y: -1388.0068}",
+        "m_SizeDelta": "{x: 901.3604, y: 93.32}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5909923585619156792",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/HintText",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}",
+        "m_fontSize": "34",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "34",
+        "m_text": "Tne cash balance reaches $2.000 and can bewithdrawn, but there is still",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "489705000448421875",
+        "type": "224",
+        "path": "OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8653105656637125433",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "4319696017807043905",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "7623762442415889957",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Title",
+        "m_AnchoredPosition": "{x: 533.4529, y: -35}",
+        "m_SizeDelta": "{x: 871.9405, y: 50}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "3280204538092161990",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Title",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}",
+        "m_fontSize": "36",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "72",
+        "m_text": "Select Amount",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "5941138527373399589",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Title",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "5603418361331003335",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn/FingerHint",
+        "m_AnchoredPosition": "{x: 22, y: -43}",
+        "m_SizeDelta": "{x: 100, y: 100}",
+        "m_LocalScale": "{x: 0.79999995, y: 0.79999995, z: 0.79999995}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6921849239305060512",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn/Image",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 110, y: 110}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "249423444414608003",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn/Image",
+        "m_Sprite": "{fileID: 21300000, guid: 44c2c729bd5685044965177bf881fe05, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "849233586141553883",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn/FingerHint/SkeletonGraphic (SHOU)",
+        "m_AnchoredPosition": "{x: -25.242462, y: 29.357422}",
+        "m_SizeDelta": "{x: 194.15509, y: 201.18506}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.36998814, y: 0.64592266}"
+      },
+      {
+        "id": "7833107025101066919",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn/FingerHint/SkeletonGraphic (SHOU)",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}"
+      },
+      {
+        "id": "3420721039421954222",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg",
+        "m_AnchoredPosition": "{x: 0, y: -83}",
+        "m_SizeDelta": "{x: 570, y: 154}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6615170243285179318",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/bg",
+        "m_Sprite": "{fileID: -396990571, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "2445994094390923829",
+        "type": "224",
+        "path": "FakeWithdrawPanel",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 0, y: 0}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0}",
+        "m_AnchorMax": "{x: 1, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "4051567103948935487",
+        "type": "114",
+        "path": "FakeWithdrawPanel",
+        "m_Script": "{fileID: 11500000, guid: 93f10f79486c0d9408865149ec9b4780, type: 3}"
+      },
+      {
+        "id": "1606337389814412148",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content",
+        "m_AnchoredPosition": "{x: -1.5, y: 159.15}",
+        "m_SizeDelta": "{x: 1083, y: 1567.5}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5107310324273449488",
+        "type": "224",
+        "path": "OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6504551167299227136",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "507831509923443871",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "4591856898092540220",
+        "type": "224",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn",
+        "m_AnchoredPosition": "{x: 340, y: -84}",
+        "m_SizeDelta": "{x: 100, y: 100}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "1439687825950543249",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn",
+        "m_Script": "{fileID: 11500000, guid: 3627447c183081f4eb0ff7951bee04a4, type: 3}",
+        "m_TargetGraphic": "{fileID: 8872930457917267107}"
+      },
+      {
+        "id": "8872930457917267107",
+        "type": "114",
+        "path": "FakeWithdrawPanel/ButtomGroup/HistoryBtn",
+        "m_Sprite": "{fileID: -1316085192, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "4606784194074023360",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content",
+        "m_AnchoredPosition": "{x: 0, y: 0.00017491607}",
+        "m_SizeDelta": "{x: 892, y: 0}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 1}",
+        "m_AnchorMax": "{x: 0, y: 1}",
+        "m_Pivot": "{x: 0, y: 1}"
+      },
+      {
+        "id": "6638157510307078804",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content",
+        "m_Script": "{fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}"
+      },
+      {
+        "id": "538926475953190780",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawAmount/Scroll View/Viewport/Content",
+        "m_Script": "{fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}"
+      },
+      {
+        "id": "692354969061680894",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn",
+        "m_AnchoredPosition": "{x: -0.5, y: -442.34235}",
+        "m_SizeDelta": "{x: 460, y: 170}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "4697970500239187570",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn",
+        "m_Script": "{fileID: 11500000, guid: 3627447c183081f4eb0ff7951bee04a4, type: 3}",
+        "m_TargetGraphic": "{fileID: 0}"
+      },
+      {
+        "id": "3027233796184752617",
+        "type": "224",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg/OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5263582838570527093",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg/OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "4408608660609127183",
+        "type": "114",
+        "path": "FakeWithdrawPanel/Content/WithdrawBtn/bg/OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "9059015993779368954",
+        "type": "224",
+        "path": "OrchardNavLeavesLeft",
+        "m_AnchoredPosition": "{x: -17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0.5}",
+        "m_AnchorMax": "{x: 0, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "6550959384319558814",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Sprite": "{fileID: 812891126, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "7029613569934220091",
+        "type": "114",
+        "path": "OrchardNavLeavesLeft",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "5324007220806296772",
+        "type": "224",
+        "path": "OrchardNavLeavesRight",
+        "m_AnchoredPosition": "{x: 17.820002, y: 0}",
+        "m_SizeDelta": "{x: 45.9, y: 54}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0.5}",
+        "m_AnchorMax": "{x: 1, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "8836301753381560884",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Sprite": "{fileID: -419736011, guid: ba69b03635224224bafcd70eba3b015d, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "1",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "4632126826607085633",
+        "type": "114",
+        "path": "OrchardNavLeavesRight",
+        "m_Script": "{fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}"
+      },
+      {
+        "id": "7580932890792847554",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      },
+      {
+        "id": "8055709032758713431",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      },
+      {
+        "id": "5235300524629685247",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      },
+      {
+        "id": "5600299613075951939",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      },
+      {
+        "id": "5378629835843056039",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "4299691295900532485",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      },
+      {
+        "id": "2179217379487823058",
+        "type": "114",
+        "path": "0",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      }
+    ],
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab": [
+      {
+        "id": "2626603789785375518",
+        "type": "224",
+        "path": "WithdrawAmountItem/GetedTag",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 280, y: 184}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "1584464498381216905",
+        "type": "114",
+        "path": "WithdrawAmountItem/GetedTag",
+        "m_Sprite": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "6935289117062047557",
+        "type": "224",
+        "path": "WithdrawAmountItem/GetedTag/text",
+        "m_AnchoredPosition": "{x: -100, y: -18.925293}",
+        "m_SizeDelta": "{x: 200, y: 50}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 1}",
+        "m_AnchorMax": "{x: 1, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "4255757596304288445",
+        "type": "114",
+        "path": "WithdrawAmountItem/GetedTag/text",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.4117647, g: 0.5372549, b: 0.54509807, a: 1}",
+        "m_fontSize": "20",
+        "m_fontSizeMin": "10",
+        "m_fontSizeMax": "20",
+        "m_text": "Hadiah Pengguna Baru",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "1176749966049324981",
+        "type": "114",
+        "path": "WithdrawAmountItem/GetedTag/text",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "1775683569243512909",
+        "type": "224",
+        "path": "WithdrawAmountItem/Select",
+        "m_AnchoredPosition": "{x: -39.9, y: 38.4}",
+        "m_SizeDelta": "{x: 80, y: 80}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 1, y: 0}",
+        "m_AnchorMax": "{x: 1, y: 0}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5590047728298028375",
+        "type": "114",
+        "path": "WithdrawAmountItem/Select",
+        "m_Sprite": "{fileID: 21300000, guid: ca905ac5b83284545a0cc835a6cc6efc, type: 3}",
+        "m_Type": "0",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "6251990888894395273",
+        "type": "224",
+        "path": "WithdrawAmountItem/GetTag/text",
+        "m_AnchoredPosition": "{x: 0, y: -38}",
+        "m_SizeDelta": "{x: 236, y: 44}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 1}",
+        "m_AnchorMax": "{x: 0.5, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "4724300771869120495",
+        "type": "114",
+        "path": "WithdrawAmountItem/GetTag/text",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0, g: 0.5882353, b: 0.47843137, a: 1}",
+        "m_fontSize": "20",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "20",
+        "m_text": "Hadiah Pengguna Baru",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "8805973075885979964",
+        "type": "114",
+        "path": "WithdrawAmountItem/GetTag/text",
+        "m_Script": "{fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}"
+      },
+      {
+        "id": "2816871904823877181",
+        "type": "224",
+        "path": "WithdrawAmountItem/GetTag",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 280, y: 184}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "5455967628476765425",
+        "type": "114",
+        "path": "WithdrawAmountItem/GetTag",
+        "m_Sprite": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      },
+      {
+        "id": "8939437886284031247",
+        "type": "224",
+        "path": "WithdrawAmountItem/Amount",
+        "m_AnchoredPosition": "{x: -0.98010254, y: 1.8545074}",
+        "m_SizeDelta": "{x: -46.6333, y: 3.7092}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0, y: 0}",
+        "m_AnchorMax": "{x: 1, y: 1}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "2196861301424074241",
+        "type": "114",
+        "path": "WithdrawAmountItem/Amount",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_fontColor": "{r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}",
+        "m_fontSize": "58",
+        "m_fontSizeMin": "18",
+        "m_fontSizeMax": "58",
+        "m_text": "$10",
+        "m_Script": "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      },
+      {
+        "id": "4910921962958939227",
+        "type": "224",
+        "path": "WithdrawAmountItem",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 280, y: 180}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "7134010166526791141",
+        "type": "114",
+        "path": "WithdrawAmountItem",
+        "m_Script": "{fileID: 11500000, guid: 4b58cd1418a4b354dbc7b4b22d5718a0, type: 3}"
+      },
+      {
+        "id": "6695874971154272860",
+        "type": "114",
+        "path": "WithdrawAmountItem",
+        "m_Script": "{fileID: 11500000, guid: 3627447c183081f4eb0ff7951bee04a4, type: 3}",
+        "m_TargetGraphic": "{fileID: 0}"
+      },
+      {
+        "id": "1188356283513835175",
+        "type": "224",
+        "path": "WithdrawAmountItem/bg",
+        "m_AnchoredPosition": "{x: 0, y: 0}",
+        "m_SizeDelta": "{x: 280, y: 180}",
+        "m_LocalScale": "{x: 1, y: 1, z: 1}",
+        "m_AnchorMin": "{x: 0.5, y: 0.5}",
+        "m_AnchorMax": "{x: 0.5, y: 0.5}",
+        "m_Pivot": "{x: 0.5, y: 0.5}"
+      },
+      {
+        "id": "3062039195826043058",
+        "type": "114",
+        "path": "WithdrawAmountItem/bg",
+        "m_Sprite": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "m_Type": "1",
+        "m_PreserveAspect": "0",
+        "m_FillMethod": "4",
+        "m_FillAmount": "1",
+        "m_FillOrigin": "0",
+        "m_PixelsPerUnitMultiplier": "1",
+        "m_Color": "{r: 1, g: 1, b: 1, a: 1}",
+        "m_Script": "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      }
+    ]
+  },
+  "amountInstances": [
+    {
+      "instanceFileID": "735769260790555943",
+      "sourceGuid": "5fefc70f9b2f3f1488b2b221199dcf24",
+      "overrides": [
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.49019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.30980393",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.09019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_PixelsPerUnitMultiplier",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.54509807",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5372549",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.4117647",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.47843137",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5882353",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.r",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.y",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.w",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "6133740462797321971",
+          "propertyPath": "m_Name",
+          "value": "WithdrawAmountItem (6)",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "236",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "44",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "-38",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6695874971154272860",
+          "propertyPath": "m_Transition",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "8939437886284031247",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "1.8545074",
+          "objectReference": "{fileID: 0}"
+        }
+      ]
+    },
+    {
+      "instanceFileID": "921752336444412338",
+      "sourceGuid": "5fefc70f9b2f3f1488b2b221199dcf24",
+      "overrides": [
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.49019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.30980393",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.09019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_PixelsPerUnitMultiplier",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.54509807",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5372549",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.4117647",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.47843137",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5882353",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.r",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.y",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.w",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "6133740462797321971",
+          "propertyPath": "m_Name",
+          "value": "WithdrawAmountItem (3)",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "236",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "44",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "-38",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6695874971154272860",
+          "propertyPath": "m_Transition",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "8939437886284031247",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "1.8545074",
+          "objectReference": "{fileID: 0}"
+        }
+      ]
+    },
+    {
+      "instanceFileID": "3145375543058054682",
+      "sourceGuid": "5fefc70f9b2f3f1488b2b221199dcf24",
+      "overrides": [
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.49019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.30980393",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.09019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_PixelsPerUnitMultiplier",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.54509807",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5372549",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.4117647",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.47843137",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5882353",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.r",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.y",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.w",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "6133740462797321971",
+          "propertyPath": "m_Name",
+          "value": "WithdrawAmountItem (2)",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "236",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "44",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "-38",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6695874971154272860",
+          "propertyPath": "m_Transition",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "8939437886284031247",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "1.8545074",
+          "objectReference": "{fileID: 0}"
+        }
+      ]
+    },
+    {
+      "instanceFileID": "3366821845968657574",
+      "sourceGuid": "5fefc70f9b2f3f1488b2b221199dcf24",
+      "overrides": [
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.49019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.30980393",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.09019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_PixelsPerUnitMultiplier",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.54509807",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5372549",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.4117647",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.47843137",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5882353",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.r",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.y",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.w",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "6133740462797321971",
+          "propertyPath": "m_Name",
+          "value": "WithdrawAmountItem (4)",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "236",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "44",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "-38",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6695874971154272860",
+          "propertyPath": "m_Transition",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "8939437886284031247",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "1.8545074",
+          "objectReference": "{fileID: 0}"
+        }
+      ]
+    },
+    {
+      "instanceFileID": "6389070758414889696",
+      "sourceGuid": "5fefc70f9b2f3f1488b2b221199dcf24",
+      "overrides": [
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.49019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.30980393",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.09019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_PixelsPerUnitMultiplier",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.54509807",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5372549",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.4117647",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.47843137",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5882353",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.r",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.y",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.w",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "6133740462797321971",
+          "propertyPath": "m_Name",
+          "value": "WithdrawAmountItem (5)",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "236",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "44",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "-38",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6695874971154272860",
+          "propertyPath": "m_Transition",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "8939437886284031247",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "1.8545074",
+          "objectReference": "{fileID: 0}"
+        }
+      ]
+    },
+    {
+      "instanceFileID": "9024996893891000631",
+      "sourceGuid": "5fefc70f9b2f3f1488b2b221199dcf24",
+      "overrides": [
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "1584464498381216905",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1362599462, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.49019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.30980393",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.09019608",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "2196861301424074241",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "3062039195826043058",
+          "propertyPath": "m_PixelsPerUnitMultiplier",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.54509807",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5372549",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_fontColor.r",
+          "value": "0.4117647",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4255757596304288445",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.b",
+          "value": "0.47843137",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.g",
+          "value": "0.5882353",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_fontColor.r",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_RaycastTarget",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4724300771869120495",
+          "propertyPath": "m_sharedMaterial",
+          "value": "",
+          "objectReference": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_Pivot.y",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMax.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchorMin.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalPosition.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.w",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalRotation.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.y",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "4910921962958939227",
+          "propertyPath": "m_LocalEulerAnglesHint.z",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Type",
+          "value": "1",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "5455967628476765425",
+          "propertyPath": "m_Sprite",
+          "value": "",
+          "objectReference": "{fileID: -498862010, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}"
+        },
+        {
+          "sourceFileID": "6133740462797321971",
+          "propertyPath": "m_Name",
+          "value": "WithdrawAmountItem (1)",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMax.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchorMin.x",
+          "value": "0.5",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.x",
+          "value": "236",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_SizeDelta.y",
+          "value": "44",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.x",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6251990888894395273",
+          "propertyPath": "m_AnchoredPosition.y",
+          "value": "-38",
+          "objectReference": "{fileID: 0}"
+        },
+        {
+          "sourceFileID": "6695874971154272860",
+          "propertyPath": "m_Transition",
+          "value": "0",
+          "objectReference": "{fileID: 0}"
+        }
+      ]
+    }
+  ],
+  "currentProgress": {
+    "kind": "Image.Type.Filled; NOT Slider",
+    "hasSliderMinMaxSerialization": false,
+    "parentRect": {
+      "id": "3131837160562448410",
+      "path": "Content/WithdrawProgress/Progress",
+      "size": [
+        902.9887,
+        73.36
+      ],
+      "position": [
+        0,
+        -24
+      ]
+    },
+    "trackRect": {
+      "id": "8175018248033638516",
+      "size": [
+        897,
+        64
+      ]
+    },
+    "trackImage": {
+      "id": "8743834095267926959",
+      "type": 1,
+      "typeName": "Sliced",
+      "spriteFileID": 1920971194,
+      "spriteGuid": "50c5208c19d79f44ebd86c010248d125",
+      "spriteName": "ProgressTrack",
+      "sourceSize": [
+        299,
+        76
+      ],
+      "sourceBorder": [
+        31,
+        21,
+        31,
+        21
+      ],
+      "pixelsPerUnitMultiplier": 1
+    },
+    "fillRect": {
+      "id": "2071485895475148001",
+      "size": [
+        897,
+        64
+      ]
+    },
+    "fillImage": {
+      "id": "6620554689692068040",
+      "type": 3,
+      "typeName": "Filled",
+      "fillMethod": 0,
+      "fillMethodName": "Horizontal",
+      "fillOrigin": 0,
+      "fillOriginName": "Left",
+      "preserveAspect": false,
+      "authoredFillAmount": 0.446,
+      "runtimeValueRange": [
+        0,
+        1
+      ],
+      "spriteFileID": 1192469443,
+      "spriteGuid": "50c5208c19d79f44ebd86c010248d125",
+      "spriteName": "ProgressFill",
+      "sourceSize": [
+        286,
+        62
+      ],
+      "sourceBorder": [
+        22,
+        12,
+        22,
+        12
+      ]
+    },
+    "percentageText": {
+      "rectID": "2262917192024109782",
+      "tmpID": "3339610134613169318",
+      "size": [
+        200,
+        50
+      ],
+      "fontSize": 36,
+      "dynamicFormat": "(Clamp01(GetCurProgress()) * 100).ToString(\"F2\") + \"%\""
+    },
+    "sourceAspectRatio": 4.612903225806452,
+    "destinationAspectRatio": 14.015625,
+    "relativeHorizontalDistortion": 3.0383522727272725,
+    "issues": [
+      "Filled image stretches the full286x62 sprite into897x64; its border metadata is not a9-slice in Filled mode",
+      "Track and fill use the exact same rectangle, leaving no inset for the track wood rim",
+      "Full-width green glossy bevel reads as an enormous capsule and competes with the withdrawal button"
+    ],
+    "notAFix": "Do not simply change fill Image.Type to Sliced: current fillAmount and DOFillAmount would stop controlling visible progress."
+  },
+  "recommendedProgressRepair": {
+    "preserve": [
+      "All existing nodes and component IDs",
+      "Image.Type.Filled",
+      "Horizontal fill fromLeft",
+      "progressImg/progressTxt bindings",
+      "percentage formatting, selected mission, current stage and thresholds",
+      "withdrawal Button count and bindings"
+    ],
+    "track": {
+      "rectID": "8175018248033638516",
+      "suggestedSize": [
+        897,
+        48
+      ],
+      "imageID": "8743834095267926959",
+      "suggestedPixelsPerUnitMultiplier": 3,
+      "note": "Reuse the track9-slice with much smaller border thickness, or use a new thin cream/wood track sprite."
+    },
+    "fill": {
+      "rectID": "2071485895475148001",
+      "suggestedSize": [
+        885,
+        36
+      ],
+      "imageID": "6620554689692068040",
+      "newArtTargetAspect": 24.583333333333332,
+      "newArt": "A dedicated horizontal green fill with a gentle highlight and minimally rounded ends at about24.6:1 aspect ratio. No text or numbers baked in. Keep Filled type and original runtime fields."
+    },
+    "text": {
+      "tmpID": "3339610134613169318",
+      "suggestedFontSize": 30,
+      "suggestedMaxSize": 30,
+      "note": "Keep white text with existing readable outline; verify at0%,25%,50%,100% because a child of aFilled Image is not clipped by fillAmount."
+    },
+    "layout": "Keep the progress parent, title, main action, amounts and hint at their existing relative positions. Shrink only bar height/inset and update its art."
+  },
+  "pageStyleSuggestions": {
+    "keepGrid": "6amount entries remain3columns x2rows. GridContent width892; cell279.8x188.6; spacing20.9x13.17. Do not alter mission count or country-dependent counts.",
+    "cardVisual": "Reduce heavy orange frame thickness through existing Sliced Image pixelsPerUnitMultiplier or a slimmer ivory/wood card. Existing get/claimed overlays must use matching style and preserve active-state logic.",
+    "cardImageIDs": {
+      "normal": "3062039195826043058",
+      "starterAvailable": "5455967628476765425",
+      "starterClaimed": "1584464498381216905",
+      "selectionCheck": "5590047728298028375"
+    },
+    "dynamicAmountTMP": "2196861301424074241",
+    "instanceCaution": "Six existing nested instances explicitly override normal, starterAvailable and starterClaimed m_Sprite. Updating only the source WithdrawAmountItem sprite will not update these overrides; source still needs consistency for runtime instantiated items.",
+    "selectedStateCaution": "selectObj is the existing check Image; starter green frame is getObj and must not be reinterpreted as universal selection logic.",
+    "largePanel": "Keep existing panel geometry; a quieter thin wood border and cream body with fewer corner ornaments would reduce the heavy stacked-frame effect.",
+    "topNav": "Retain title/back/history/FAQ arrangement; use the same restrained wood/green family as the current HUD.",
+    "progressTitleBounds": "Title Rect210600630110459938 is1065.6wide centeredx639 under1083wide parent: it extends88.8units beyond its parent right. A local width/alignment correction could match the existing892wide content column without adding a node."
+  },
+  "missionConfigs": [
+    {
+      "guid": "184f6c26c0e491643bb9b798d7b14ecd",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig6.asset",
+      "withdrawMoney": 1000000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 1000000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 600.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "1ad62d80b15ae8c4c880e473acac9162",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig3.asset",
+      "withdrawMoney": 150000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 150000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 300.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "258f179e62fbb6f40b0100bdf420c389",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig1.asset",
+      "withdrawMoney": 0.01,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 0.01
+        }
+      ]
+    },
+    {
+      "guid": "4b4e4beb163bc4d408fb7d03b2d06fa7",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig4.asset",
+      "withdrawMoney": 300000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 300000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 400.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "5416c91a6362d49459a8e8342039de00",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig5.asset",
+      "withdrawMoney": 500000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 500000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 500.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "72fadbec0fcf07a498110ea8e1417745",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig2.asset",
+      "withdrawMoney": 88000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 88000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 200.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 30.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "73934a4c817cfc84a904b26daebb19b3",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig3.asset",
+      "withdrawMoney": 1000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 1000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 300.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "a67ee47bce22e8a4d9dea676a5a0a212",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig4.asset",
+      "withdrawMoney": 2000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 2000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 400.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "c6c6543a5be488b45b3063b75336b5a9",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig2.asset",
+      "withdrawMoney": 800.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 800.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 200.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "e4acef3acbb770d4ab13614da3255e76",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig1.asset",
+      "withdrawMoney": 20.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 20.0
+        }
+      ]
+    },
+    {
+      "guid": "f98f3dec802a8de48b0eac24fea397ba",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig5.asset",
+      "withdrawMoney": 3000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 3000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 500.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    },
+    {
+      "guid": "fb7f84e6d0e829b4a88517b6e85bda0b",
+      "path": "Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig6.asset",
+      "withdrawMoney": 5000.0,
+      "conditions": [
+        {
+          "enumValue": 2,
+          "targetValue": 5000.0
+        },
+        {
+          "enumValue": 1,
+          "targetValue": 600.0
+        },
+        {
+          "enumValue": 4,
+          "targetValue": 50.0
+        },
+        {
+          "enumValue": 3,
+          "targetValue": 200000.0
+        }
+      ]
+    }
+  ],
+  "businessReadOnlyConclusion": {
+    "screenshotSelectedAmount": 0.01,
+    "screenshotBalance": 200.76,
+    "starterConfig": "USFakeWithdrawMissionConfig1.asset (also referenced by BR list)",
+    "condition": "Money, targetValue0.01",
+    "rawProgressIfStage0": 20076.0,
+    "clampedProgressIfStage0": 1,
+    "conclusion": "Screenshot100.00% agrees with selected0.01 starter threshold and displayed balance. It is not evidence of a progress-value bug. Exact saved mission stage was not read or changed.",
+    "logic": "GetCurProgress divides the selected stage condition value by its target. Money value and target both use ItemUtils.FormatCountFloat, currently identity. A completed/no-current stage returns1. UpdateProgress applies Clamp01 and binds the same value to fill and percentage.",
+    "otherMoneyStage0Examples": {
+      "800": 25.095,
+      "1000": 20.076,
+      "2000": 10.038,
+      "3000": 6.692,
+      "5000": 4.0152
+    },
+    "zeroTargetsInReferencedConfigs": 0,
+    "repairScope": "No gameplay/economy/withdrawal logic or mission data needs changing to fix the visual defect."
+  },
+  "collaborationAndChanges": {
+    "observedAgents": [
+      "root:HUD finish plus upcoming visual revision",
+      "hud_static_validation:HUD static render",
+      "hud_spacing_audit:this read-only audit",
+      "slot_fx_audit:completed"
+    ],
+    "existingDirtySources": [
+      "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+      "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab",
+      "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.cs",
+      "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.cs"
+    ],
+    "caution": "All4cash withdrawal sources were already modified in git before this audit. Do not reset them. Design/WithdrawPolish-20260918 already contains a previous PagBank/real withdrawal polish; its Before/README/audits are not this cash-page baseline.",
+    "writesByThisAudit": [
+      "audit-fake-withdraw.py",
+      "audit-fake-withdraw-report.json",
+      "audit-fake-withdraw-report.md"
+    ]
+  }
+}

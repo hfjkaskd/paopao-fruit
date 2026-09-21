@@ -1,0 +1,33 @@
+{
+  "reviewer": "/root/chest_static_validation",
+  "result": "pass",
+  "evidenceKind": "Unity Prefab static previews, not runtime gameplay testing",
+  "reviewedImages": ["static-bubble-chest-1x.png", "static-bubble-chest-2x.png"],
+  "visualChecks": {
+    "chestHasNoOpaqueRectangularBackground": true,
+    "goldLockAndKeyholeReadableAt1x": true,
+    "warmWoodGoldAndGreenDetailMatchOrchardTheme": true,
+    "chestEntirelyInsideOriginalBubble": true,
+    "originalTwoBubbleLayersPreserved": true,
+    "noVisibleChestClippingOrStretching": true
+  },
+  "structuralChecks": {
+    "bothRendersSucceeded": true,
+    "buttonRect": [200, 200],
+    "chestRect": [133, 117],
+    "originalRectsPreserved": true,
+    "activeImageCount": 3,
+    "remainingBusinessComponentsInPreview": 0,
+    "chestSpriteGuid": "d8e0dab8e175190499aacf53e7e1ef4f",
+    "chestSpriteFileID": 21300000,
+    "editorPlayStateUnchangedDuringRendering": true
+  },
+  "independentCurrentHashChecks": {
+    "allSixCurrentSourceFilesMatchSourceChangeAudit": true,
+    "onlyChestPngAndItsImporterMetadataChangedAgainstBaseline": true,
+    "prefabAndBusinessCodeUnchanged": true,
+    "bubblePngAndImporterUnchanged": true,
+    "temporaryEditorHelperAndMetaRemoved": true
+  },
+  "limitations": "Checks cover static appearance and serialized/source preservation. No ads, reward flow, account state, movement or click interaction was executed."
+}

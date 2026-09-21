@@ -1,0 +1,2394 @@
+{
+  "generatedUtc": "2026-09-18T09:29:32.086912+00:00",
+  "result": "FAIL",
+  "approvedPrefabResult": "PASS",
+  "existingCodeResult": "FAIL",
+  "scope": "Independent serialized structure and source audit; no runtime visual/function claim.",
+  "prefabCount": 13,
+  "serializedObjectCount": 1155,
+  "visualFieldChanges": 246,
+  "allDetectedChangesAllowed": true,
+  "protectedCounts": {
+    "GameObject identity, hierarchy and component list": 269,
+    "Transform": 102,
+    "Other serialized object": 384,
+    "RectTransform protected parent/children/rotation": 178,
+    "Other component or business binding": 88,
+    "Button settings and event bindings": 6,
+    "TMP text content and protected behavior": 25,
+    "Image protected behavior fields": 89,
+    "Localization binding": 9,
+    "CanvasGroup": 1,
+    "Spine animation": 4
+  },
+  "prefabs": [
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/ConfettiBlastRainbow.prefab",
+      "result": "PASS",
+      "serializedObjects": 12,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/ConfettiShowerRainbow.prefab",
+      "result": "PASS",
+      "serializedObjects": 4,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/DollarbillShower.prefab",
+      "result": "PASS",
+      "serializedObjects": 5,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/GoldCoinShower.prefab",
+      "result": "PASS",
+      "serializedObjects": 5,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/MagicNovaYellow.prefab",
+      "result": "PASS",
+      "serializedObjects": 21,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "result": "PASS",
+      "serializedObjects": 29,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "result": "PASS",
+      "serializedObjects": 331,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 225,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "result": "PASS",
+      "serializedObjects": 175,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 21,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/BingoAsset2/CoinMachine.prefab",
+      "result": "PASS",
+      "serializedObjects": 186,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/BingoAsset2/CoinMahcineItem.prefab",
+      "result": "PASS",
+      "serializedObjects": 7,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UiPrefab/MagicNovaYellow.prefab",
+      "result": "PASS",
+      "serializedObjects": 21,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UiPrefab/SlotEntry.prefab",
+      "result": "PASS",
+      "serializedObjects": 14,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UiPrefab/SlotMachineGroup.prefab",
+      "result": "PASS",
+      "serializedObjects": 345,
+      "objectIdsOrderClassesUnchanged": true,
+      "visualFieldChanges": 0,
+      "issues": []
+    }
+  ],
+  "changes": [
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2364693123184338018",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2364693123184338018",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2364693123184338018",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 200.6, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 387.1875, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2364693123184338018",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 81.4035, y: 50}",
+      "after": "  m_SizeDelta: {x: 49.166667, y: 50}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6984826312644455346",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 3.83}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3558382430938509268",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 4.300049}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6426781877034555358",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 0}",
+      "after": "  m_AnchorMax: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6426781877034555358",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 0}",
+      "after": "  m_AnchorMin: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6426781877034555358",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -583.854167}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6426781877034555358",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6426781877034555358",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 321.49, y: 100}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4131622282050940443",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: -0.18, y: 4.56}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8422185732843664337",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8422185732843664337",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8422185732843664337",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 460, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 480.604167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "878477221408697070",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 4.300049}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "150790846311289535",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 3}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8015582947909098461",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8015582947909098461",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8015582947909098461",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 460, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 480.604167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8015582947909098461",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 130, y: 97.5}",
+      "after": "  m_SizeDelta: {x: 125.083333, y: 93.8125}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7941373629157308066",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 6.2000732}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "401410572835088073",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "401410572835088073",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "401410572835088073",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 483.47888, y: 0.000024796}",
+      "after": "  m_AnchoredPosition: {x: 667.4375, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5742047581566038154",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5742047581566038154",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5742047581566038154",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 50, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 60.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5742047581566038154",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "617195395320269764",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -251}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1090469597753889826",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1090469597753889826",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1090469597753889826",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 460, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 480.604167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1090469597753889826",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 130, y: 97.5}",
+      "after": "  m_SizeDelta: {x: 125.083333, y: 93.8125}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2852990838432883767",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 1.8999634, y: 4.2999463}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4412891007683161542",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 0}",
+      "after": "  m_AnchorMax: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4412891007683161542",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 0}",
+      "after": "  m_AnchorMin: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4412891007683161542",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -350.3125}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4412891007683161542",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4412891007683161542",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 321.49, y: 100}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2956260221340967707",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2956260221340967707",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2956260221340967707",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 50, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 60.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2956260221340967707",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1397170794536504369",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1397170794536504369",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1397170794536504369",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 264.32666, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 296.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1397170794536504369",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "9055370915143298003",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 469, y: -466}",
+      "after": "  m_AnchoredPosition: {x: 58.325762, y: -140.323779}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "9055370915143298003",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "9055370915143298003",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 702.4222, y: 594.743}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 700.625}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "71365554334776158",
+      "kind": "direct",
+      "field": "m_ChildForceExpandHeight",
+      "before": "  m_ChildForceExpandHeight: 1",
+      "after": "  m_ChildForceExpandHeight: 0",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "71365554334776158",
+      "kind": "direct",
+      "field": "m_ChildForceExpandWidth",
+      "before": "  m_ChildForceExpandWidth: 1",
+      "after": "  m_ChildForceExpandWidth: 0",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5813709803411276695",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 6.6}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5324634407450584184",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: -0.18, y: 4.56}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4444291517549512558",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4444291517549512558",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4444291517549512558",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 216, y: -45}",
+      "after": "  m_AnchoredPosition: {x: 398.25, y: -56.541667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4444291517549512558",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 760, y: 3}",
+      "after": "  m_SizeDelta: {x: 786.666667, y: 1.84375}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6920782085436959093",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6920782085436959093",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6920782085436959093",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 460, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 480.604167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5031410196884373007",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5031410196884373007",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5031410196884373007",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 483.48, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 667.4375, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2338017834843462824",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2338017834843462824",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2338017834843462824",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 264.32666, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 296.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2338017834843462824",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1816661118861930969",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 0}",
+      "after": "  m_AnchorMax: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1816661118861930969",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 0}",
+      "after": "  m_AnchorMin: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1816661118861930969",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -467.083333}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1816661118861930969",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1816661118861930969",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 321.49, y: 100}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1383717861976964860",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1383717861976964860",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1383717861976964860",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 157.16333, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 178.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1383717861976964860",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1048239001302567733",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1048239001302567733",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1048239001302567733",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 157.16333, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 178.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1048239001302567733",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1274466026730858889",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1274466026730858889",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1274466026730858889",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 157.16333, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 178.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1274466026730858889",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1486581271145853949",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1486581271145853949",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1486581271145853949",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 216, y: -45}",
+      "after": "  m_AnchoredPosition: {x: 398.25, y: -56.541667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1486581271145853949",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 760, y: 3}",
+      "after": "  m_SizeDelta: {x: 786.666667, y: 1.84375}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3406728823726258591",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3406728823726258591",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3406728823726258591",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 200.6, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 387.1875, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3406728823726258591",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 81.4035, y: 50}",
+      "after": "  m_SizeDelta: {x: 49.166667, y: 50}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4095557634136578964",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4095557634136578964",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4095557634136578964",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 216, y: -45}",
+      "after": "  m_AnchoredPosition: {x: 398.25, y: -56.541667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4095557634136578964",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 760, y: 3}",
+      "after": "  m_SizeDelta: {x: 786.666667, y: 1.84375}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1082108792407329911",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 4.3}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "852038691566605901",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "852038691566605901",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "852038691566605901",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 50, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 60.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "852038691566605901",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5384482383275164124",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 3.83}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6125537882510146016",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6125537882510146016",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6125537882510146016",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 157.16333, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 178.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6125537882510146016",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7479695957089711254",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: -3.2722, y: 283}",
+      "after": "  m_AnchoredPosition: {x: -2.474981, y: 142.850442}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7479695957089711254",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 962.4584, y: 791.8394}",
+      "after": "  m_SizeDelta: {x: 890.993228, y: 906.98834}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "9132095855591360206",
+      "kind": "direct",
+      "field": "m_Sprite",
+      "before": "  m_Sprite: {fileID: 21300000, guid: e93c86362f6b4727a03d64e9f10f51b3, type: 3}",
+      "after": "  m_Sprite: {fileID: 21300002, guid: 4642228d3bb347a99e7e35263be55b2e, type: 3}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "9132095855591360206",
+      "kind": "direct",
+      "field": "m_Type",
+      "before": "  m_Type: 1",
+      "after": "  m_Type: 0",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4563664644161075462",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4563664644161075462",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4563664644161075462",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 460, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 480.604167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4563664644161075462",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 130, y: 97.5}",
+      "after": "  m_SizeDelta: {x: 125.083333, y: 93.8125}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6749764331865438864",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6749764331865438864",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6749764331865438864",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 483.48, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 667.4375, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1382359269769506935",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1382359269769506935",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1382359269769506935",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 264.32666, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 296.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1382359269769506935",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6217016113641747731",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 1.8999634, y: 4.2999463}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2991830254262458678",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 0}",
+      "after": "  m_AnchorMax: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2991830254262458678",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 0}",
+      "after": "  m_AnchorMin: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2991830254262458678",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -233.541667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2991830254262458678",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2991830254262458678",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 321.49, y: 100}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8565288359842616971",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8565288359842616971",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8565288359842616971",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 483.48, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 667.4375, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4481164525483596185",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4481164525483596185",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4481164525483596185",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 157.16333, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 178.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4481164525483596185",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5233955180696853516",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5233955180696853516",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5233955180696853516",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 216, y: -45}",
+      "after": "  m_AnchoredPosition: {x: 398.25, y: -56.541667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5233955180696853516",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 760, y: 3}",
+      "after": "  m_SizeDelta: {x: 786.666667, y: 1.84375}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4402532143391222606",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4402532143391222606",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4402532143391222606",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 200.6, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 387.1875, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4402532143391222606",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 81.4035, y: 50}",
+      "after": "  m_SizeDelta: {x: 49.166667, y: 50}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3747867984998813115",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 3.83}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5834034335891921421",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5834034335891921421",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5834034335891921421",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 200.6, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 387.1875, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5834034335891921421",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 81.4035, y: 50}",
+      "after": "  m_SizeDelta: {x: 49.166667, y: 50}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2734394374850278803",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2734394374850278803",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2734394374850278803",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 50, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 60.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2734394374850278803",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8577606042686906109",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 0}",
+      "after": "  m_AnchorMax: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8577606042686906109",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 0}",
+      "after": "  m_AnchorMin: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8577606042686906109",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8577606042686906109",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8577606042686906109",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 321.49, y: 100}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1133554623368840100",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: -11.3288, y: -301}",
+      "after": "  m_AnchoredPosition: {x: 0.614583, y: -492.895833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1133554623368840100",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 620.6275, y: 230.3623}",
+      "after": "  m_SizeDelta: {x: 620.729167, y: 231.083333}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2361614176489108633",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 0}",
+      "after": "  m_AnchorMax: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2361614176489108633",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 0}",
+      "after": "  m_AnchorMin: {x: 0, y: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2361614176489108633",
+      "kind": "direct",
+      "field": "m_Pivot",
+      "before": "  m_Pivot: {x: 0.5, y: 0.5}\n",
+      "after": "  m_Pivot: {x: 0, y: 1}\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "2361614176489108633",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 321.49, y: 100}",
+      "after": "  m_SizeDelta: {x: 801.416667, y: 116.770833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3490174079354919183",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3490174079354919183",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3490174079354919183",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 216, y: -45}",
+      "after": "  m_AnchoredPosition: {x: 398.25, y: -56.541667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3490174079354919183",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 760, y: 3}",
+      "after": "  m_SizeDelta: {x: 786.666667, y: 1.84375}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1368911266203893311",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1368911266203893311",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1368911266203893311",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 264.32666, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 296.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1368911266203893311",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4983803861558970693",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4983803861558970693",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4983803861558970693",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 200.6, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 387.1875, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4983803861558970693",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 81.4035, y: 50}",
+      "after": "  m_SizeDelta: {x: 49.166667, y: 50}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7211181690376726124",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 6.2}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6914277482086278633",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 6.2000732}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "224204131536645713",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: -0.18, y: 4.56}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7292234006285677245",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7292234006285677245",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7292234006285677245",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 264.32666, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 296.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7292234006285677245",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5113731981702587650",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5113731981702587650",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5113731981702587650",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 460, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 480.604167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1153934463340973024",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1153934463340973024",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "1153934463340973024",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 483.48, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 667.4375, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7695882335916982439",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7695882335916982439",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7695882335916982439",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 50, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 60.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7695882335916982439",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3636758632989255864",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 8}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8805309752385714060",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 1016}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 107.552083}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8805309752385714060",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 994, y: 614}",
+      "after": "  m_SizeDelta: {x: 1096.416667, y: 1894.145833}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5250022705326557845",
+      "kind": "direct",
+      "field": "m_PixelsPerUnitMultiplier",
+      "before": "  m_PixelsPerUnitMultiplier: 0.7\n",
+      "after": "  m_PixelsPerUnitMultiplier: 1\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "5250022705326557845",
+      "kind": "direct",
+      "field": "m_Sprite",
+      "before": "  m_Sprite: {fileID: 21300000, guid: bfed458dd94f48c3b7cf16cffca06e2f, type: 3}",
+      "after": "  m_Sprite: {fileID: 21300000, guid: 4642228d3bb347a99e7e35263be55b2e, type: 3}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4112759769463756064",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4112759769463756064",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4112759769463756064",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 157.16333, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 178.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4112759769463756064",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4457645790645816033",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4457645790645816033",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4457645790645816033",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 50, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 60.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4457645790645816033",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3677535174969407404",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 19}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "3677535174969407404",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 129, y: 70}",
+      "after": "  m_SizeDelta: {x: 98.333333, y: 67.604167}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "4019988058426453973",
+      "kind": "direct",
+      "field": "m_Sprite",
+      "before": "  m_Sprite: {fileID: 21300000, guid: 3014a500522a4959b62af892b703b17e, type: 3}",
+      "after": "  m_Sprite: {fileID: 21300000, guid: e0f53d6d6f0b4f12a08073707ebe074b, type: 3}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6851937146655613038",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6851937146655613038",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6851937146655613038",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 200.6, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 387.1875, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "6851937146655613038",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 81.4035, y: 50}",
+      "after": "  m_SizeDelta: {x: 49.166667, y: 50}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "769373269381146989",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -715}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -875.166667}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "769373269381146989",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 505.4303, y: 119.0305}",
+      "after": "  m_SizeDelta: {x: 543.291667, y: 135.208333}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8684715419385707422",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 1.9, y: 4.3}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8819867381871818854",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0, y: 1}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8819867381871818854",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0, y: 1}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8819867381871818854",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 264.32666, y: -50}",
+      "after": "  m_AnchoredPosition: {x: 296.229167, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "8819867381871818854",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 100, y: 100}",
+      "after": "  m_SizeDelta: {x: 103.25, y: 103.25}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7207380693069170552",
+      "kind": "direct",
+      "field": "m_AnchorMax",
+      "before": "  m_AnchorMax: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMax: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7207380693069170552",
+      "kind": "direct",
+      "field": "m_AnchorMin",
+      "before": "  m_AnchorMin: {x: 0.5, y: 0.5}",
+      "after": "  m_AnchorMin: {x: 0, y: 0.5}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "fileID": "7207380693069170552",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 483.48, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 667.4375, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "instanceID": "3151483872259529701",
+      "targetID": "4300416282917706685",
+      "targetGuid": "3e3b346423d816d47876dab1b13e409c",
+      "kind": "nestedOverride",
+      "field": "m_Color.a",
+      "before": null,
+      "after": {
+        "value": "0",
+        "objectReference": "{fileID: 0}"
+      },
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "instanceID": "3151483872259529701",
+      "targetID": "4300416282917706685",
+      "targetGuid": "3e3b346423d816d47876dab1b13e409c",
+      "kind": "nestedOverride",
+      "field": "m_Sprite",
+      "before": {
+        "value": "",
+        "objectReference": "{fileID: 21300000, guid: 56c5c100502049778e8257645484e97d, type: 3}"
+      },
+      "after": {
+        "value": "",
+        "objectReference": "{fileID: 0}"
+      },
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "5899393945800387749",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -66}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 70}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "2991638936245649488",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 2.9086, y: -378}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -135}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "6951951041397404055",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -566}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -285}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "6951951041397404055",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 413, y: 171}",
+      "after": "  m_SizeDelta: {x: 440, y: 112}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "2180263369653926189",
+      "kind": "direct",
+      "field": "m_Sprite",
+      "before": "  m_Sprite: {fileID: -1142528992, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+      "after": "  m_Sprite: {fileID: 21300000, guid: 524f480620394cedbcaa19861f9144f6, type: 3}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "2180263369653926189",
+      "kind": "direct",
+      "field": "m_Type",
+      "before": "  m_Type: 1",
+      "after": "  m_Type: 0",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "8631493306211032524",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -66}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 70}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "2384695331660256314",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -66}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 70}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "6756194499756007949",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -66}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 70}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "4737857836923716867",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "after": "  m_AnchoredPosition: {x: 0, y: -80}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "4737857836923716867",
+      "kind": "direct",
+      "field": "m_LocalScale",
+      "before": "  m_LocalScale: {x: 2, y: 2, z: 2}",
+      "after": "  m_LocalScale: {x: 1, y: 1, z: 1}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "4737857836923716867",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 487, y: 339}",
+      "after": "  m_SizeDelta: {x: 840, y: 640}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "3129568935050995118",
+      "kind": "direct",
+      "field": "m_PixelsPerUnitMultiplier",
+      "before": "  m_PixelsPerUnitMultiplier: 0.7\n",
+      "after": "  m_PixelsPerUnitMultiplier: 4\n",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "3129568935050995118",
+      "kind": "direct",
+      "field": "m_Sprite",
+      "before": "  m_Sprite: {fileID: 2758570, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+      "after": "  m_Sprite: {fileID: 21300000, guid: e93c86362f6b4727a03d64e9f10f51b3, type: 3}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "7339750857267786092",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -66}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 70}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "572969426428037648",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: -66}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 70}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "1407570891747111414",
+      "kind": "direct",
+      "field": "m_AnchoredPosition",
+      "before": "  m_AnchoredPosition: {x: 0, y: 21}",
+      "after": "  m_AnchoredPosition: {x: 0, y: 0}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "1407570891747111414",
+      "kind": "direct",
+      "field": "m_SizeDelta",
+      "before": "  m_SizeDelta: {x: 129, y: 70}",
+      "after": "  m_SizeDelta: {x: 106, y: 72}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "8486339001066278036",
+      "kind": "direct",
+      "field": "m_PreserveAspect",
+      "before": "  m_PreserveAspect: 0",
+      "after": "  m_PreserveAspect: 1",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "8486339001066278036",
+      "kind": "direct",
+      "field": "m_Sprite",
+      "before": "  m_Sprite: {fileID: -1142528992, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+      "after": "  m_Sprite: {fileID: 21300000, guid: e0f53d6d6f0b4f12a08073707ebe074b, type: 3}",
+      "allowed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "fileID": "8486339001066278036",
+      "kind": "direct",
+      "field": "m_Type",
+      "before": "  m_Type: 1",
+      "after": "  m_Type: 0",
+      "allowed": true
+    }
+  ],
+  "projectPrefabGuard": {
+    "baselineCount": 200,
+    "currentCount": 200,
+    "outsideScopeChanges": [
+      "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+      "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawInfo.prefab",
+      "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawLevelItem.prefab",
+      "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab"
+    ],
+    "added": []
+  },
+  "codeGuard": {
+    "baselineCount": 1358,
+    "currentCount": 1360,
+    "changedOrMissing": [
+      "Assets/OrchardUI/Editor/OrchardNavigationPass.cs",
+      "Assets/OrchardUI/Editor/OrchardWithdrawalPass.cs",
+      "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.cs"
+    ],
+    "added": [
+      "Assets/OrchardUI/Editor/OrchardLoadingValidation.cs",
+      "Assets/OrchardUI/Runtime/OrchardLoadingArt.cs"
+    ]
+  },
+  "issues": [
+    "Project Prefabs outside two-page scope changed or were added",
+    "C# sources changed or were added"
+  ],
+  "limitations": [
+    "Does not launch, stop, navigate, capture or otherwise control Unity or the desktop.",
+    "Permits local visual geometry only; does not assert pixel similarity to AI reference.",
+    "All text content, localization, reward scripts, event bindings, hierarchy and component identity are frozen.",
+    "Workspace-wide added files or changed unrelated prefabs are reported verbatim; this audit does not infer who authored them or revert concurrent work."
+  ]
+}

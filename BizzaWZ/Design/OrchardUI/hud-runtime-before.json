@@ -1,0 +1,15 @@
+{
+    "startedUtc": "2026-09-21T10:09:45.9627697Z",
+    "status": "Failed or blocked",
+    "waitReason": "HarvestBridge.Ready or UIModule not ready",
+    "error": "System.TimeoutException: Waiting for formal startup: HarvestBridge.Ready or UIModule not ready\r\n  at OrchardHudRuntimeValidation.Tick () [0x000a3] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\OrchardHudRuntimeValidation.cs:88 ",
+    "scope": "Formal InitWZ startup; actual EventSystem hit and standard pointer events for HUD navigation only. No withdrawal submission, consent acceptance, tutorial bypass, or direct balance/save edits.",
+    "playObserved": true,
+    "finished": true,
+    "passed": false,
+    "index": 0,
+    "phase": 0,
+    "deadline": 255.5892014,
+    "earliestNextClick": 0.0,
+    "buttons": []
+}

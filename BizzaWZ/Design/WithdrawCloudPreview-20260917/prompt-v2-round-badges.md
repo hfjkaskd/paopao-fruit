@@ -1,0 +1,9 @@
+# 倍率牌修正版（AI 预览）
+
+Use case: precise-object-edit. Edit the supplied full-screen Unity UI AI preview. Make ONE strictly localized refinement: replace ONLY the SIX small orange pointed multiplier badges on the tier cards. Preserve all other pixels, composition, all text, all layouts, payment logos, background, clouds, panels, buttons and icons as closely as possible. Output one full portrait screen at the same 941x1672 dimensions and framing.
+
+The user rejects the existing badges because they look like ugly orange pointed eye-shaped gems, too thick, sharp and shiny. Remove that pointed silhouette, all orange/red surfaces, thick bevels, and white text with dark outline.
+Replace EACH badge with the same delicate compact rounded cream-gold pill: simple rounded-rectangle silhouette, calm pale warm cream fill (#FFF2BC), thin subtle pale gold rim (#E6CB80), very shallow soft depth and a restrained top edge highlight. Two-tone subtle finish, no heavy shine. Clean dark indigo bold rounded lettering, NO text outline. A little internal horizontal padding. No star, no extra icon, no separate decoration. Elegant soft premium casual game treatment harmonious with the pale blue/lavender cloud UI.
+The new pill must fit EXACTLY the existing badge bounding box and center, must not enlarge beyond or cover any card level label. Do not change any card, do not move labels. Current approximate badge bounding boxes at 941x1672: x383..478 and x746..840; row1 y1004..1054, row2 y1192..1244, row3 y1382..1432. Preserve text scale, but use crisp dark indigo lettering rather than white outlined lettering. Exact six labels in row-major order: "1.0X", "1.2X", "1.4X", "1.6X", "1.8X", "2.0X".
+
+Do not modify the coin currency symbols, footer, or any other gold stars in the background. No new controls, no resizing, no new layout, no missing items, no added labels or watermark. This is a revised AI visual preview only.

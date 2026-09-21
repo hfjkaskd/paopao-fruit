@@ -1,0 +1,15 @@
+Reward progress fix validation (2026-09-16)
+
+Unity 2022.3.62f3 Android editor compiled Assembly-CSharp.dll and Assembly-CSharp-Editor.dll successfully at 06:32:19/20 local time. Existing unrelated project warnings remain.
+
+Isolated prefab layout checks passed using Unity RectTransform/Image:
+- FillArea: 477.1133 x 33.6472
+- 0%: width 0, Image disabled
+- 1%: width 4.771133, Image enabled
+- 10%: width 47.71133, Image enabled
+- 50%: width 238.5567, Image enabled
+- 100%: width 477.1133, Image enabled
+- Fill uses Sliced, borders 15/0/15/0, left pivot, zero sizeDelta.
+- Existing SlotEnter uses Filled; UGUI Filled mesh generation ignores sprite borders.
+
+These checks reproduced the anchor/enabled operations on an isolated prefab instance; they did not run account/reward logic. Preview render returned blank images, which were discarded. Actual game visual verification and device testing are not complete. Temporary editor validation source and metadata were removed.

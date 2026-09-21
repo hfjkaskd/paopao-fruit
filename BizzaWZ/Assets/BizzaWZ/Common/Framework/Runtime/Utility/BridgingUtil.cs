@@ -25,7 +25,7 @@ public static class BridgingUtil
 
     public static async UniTask LoadGamePlayAsync()
     {
-        await UniTask.CompletedTask;
+        await HarvestBridge.Preload();
     }
 
     public static void NewPlayerEnter()
@@ -35,28 +35,28 @@ public static class BridgingUtil
 
     public static bool PropUse_1()
     {
-        return true;
+        return HarvestBridge.UseProp(1);
     }
 
     public static bool PropUse_2()
     {
-        return true;
+        return HarvestBridge.UseProp(2);
     }
 
     public static bool PropUse_3()
     {
 
-        return true;
+        return HarvestBridge.UseProp(3);
     }
 
     public static bool PropUse_4()
     {
-        return true;
+        return HarvestBridge.UseProp(4);
     }
 
     public static bool PropUse_5()
     {
-        return true;
+        return false;
     }
 
     public static void PropUseOver(E_ItemType itemType, bool breakFlow)
@@ -112,7 +112,7 @@ public static class BridgingUtil
 
     public static void LoadGameLevel()
     {
-        TransitionBlock.ToGamePlay(true);
+        HarvestBridge.Restart();
     }
 
     public static void OnOpenGameWinPanel()
@@ -132,6 +132,6 @@ public static class BridgingUtil
 
     public static void OnReviveResult(bool isRevive)
     {
-        
+        HarvestBridge.Revive(isRevive);
     }
 }

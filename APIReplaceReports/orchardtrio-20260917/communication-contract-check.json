@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "checkedUtc": "2026-09-17T09:08:51.659504+00:00",
+  "method": "Static comparison of this run real payloads with final C# JsonProperty/member types and configured endpoints. No Unity request builder or deserializer executed.",
+  "sourceSha256": "f46a8c5d2d45d81e7b62aeb6a9f0b969f5351458fb2c5b7c18048097adbd7a34",
+  "checks": [
+    {
+      "path": "/Out/Jam/BaseData",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "OceanShineAppOtherConfigRequest",
+      "responseType": null,
+      "executedRequestKeysMatchFinalDto": true,
+      "otherKeys": {
+        "one_Count": {
+          "configured": "soj_one",
+          "present": true
+        },
+        "one_Ratio": {
+          "configured": "soj_one_rate",
+          "present": true
+        },
+        "two_Count": {
+          "configured": "soj_two",
+          "present": true
+        },
+        "two_Ratio": {
+          "configured": "soj_two_rate",
+          "present": true
+        },
+        "three_Count": {
+          "configured": "soj_three",
+          "present": true
+        },
+        "three_Ratio": {
+          "configured": "soj_three_rate",
+          "present": true
+        }
+      },
+      "actualOtherData": {
+        "next_day": 53638,
+        "soj_one": 10,
+        "soj_one_rate": 5,
+        "soj_three": 50,
+        "soj_three_rate": 20,
+        "soj_two": 30,
+        "soj_two_rate": 10
+      },
+      "unchangedConfigurationValue": true
+    },
+    {
+      "path": "/Out/Jam/Login",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "OceanShineUserLoginRequest",
+      "responseType": "OceanShineLoginResponse",
+      "executedRequestKeysMatchFinalDto": true
+    },
+    {
+      "path": "/Out/Jam/UserInfo",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "OceanShineUserInfoRequest",
+      "responseType": "OceanShineUserInfoResponse",
+      "executedRequestKeysMatchFinalDto": true
+    },
+    {
+      "path": "/Out/Jam/TalkList",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "OceanShineFeedbackListV2Request",
+      "responseType": "OceanShineFeedbackListV2Response",
+      "executedRequestKeysMatchFinalDto": true
+    },
+    {
+      "path": "/Out/Jam/Order",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "OceanShineUserInfoRequest",
+      "responseType": "List<OceanShineWithdrawalRecord>",
+      "executedRequestKeysMatchFinalDto": true
+    },
+    {
+      "path": "/Out/Jam/OrderNick",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": null,
+      "responseType": null,
+      "runtimeCoverage": "No AccountModuleCfg.order_name caller or dedicated DTO exists in the project; only endpoint/Swagger and server array response were checked."
+    },
+    {
+      "path": "/Out/Jam/PayList",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "OceanShineWithdrawalPageRequest",
+      "responseType": "OceanShineWithdrawalPageResponse",
+      "executedRequestKeysMatchFinalDto": true
+    },
+    {
+      "path": "/Out/Jam/Task",
+      "configuredPathMatches": true,
+      "exactTagMatches": true,
+      "executedRequestKeysMatchSwagger": true,
+      "requestType": "Apid_Usid_Vn_Request",
+      "responseType": "List<RoutineTaskLookAdMoneyResponse>",
+      "executedRequestKeysMatchFinalDto": true
+    }
+  ],
+  "issues": [],
+  "coverageNotes": [
+    {
+      "location": "/Out/Jam/TalkList.response.SoJMsl",
+      "reason": "Null data: nested or element fields were not exercised."
+    },
+    {
+      "location": "/Out/Jam/Order.response",
+      "reason": "Null data: nested or element fields were not exercised."
+    },
+    {
+      "location": "/Out/Jam/OrderNick",
+      "reason": "No local runtime caller; returned [] so response element types were not exercised."
+    },
+    {
+      "location": "/Out/Jam/Task",
+      "reason": "Actual root is array, compatible with preserved local List<RoutineTaskLookAdMoneyResponse>; Swagger describes an object."
+    }
+  ]
+}

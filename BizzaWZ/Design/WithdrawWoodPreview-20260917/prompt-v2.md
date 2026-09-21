@@ -1,0 +1,8 @@
+# 仅弱化背景的定向修订
+
+生成方式：内置 image_gen；输入 03-ai-wood-preview-v1.png。
+
+Use case: precise-object-edit.
+Edit this AI Unity withdrawal page preview with ONLY ONE targeted change: quiet the countryside BACKGROUND OUTSIDE all UI controls. Keep output same portrait aspect and composition.
+The honey wood panels, title plaque, their frames and leaves, creamy interiors, text, amounts, TWO coins, payment logos, green button, six tier cards, badges, checks, locks, three top buttons, round chat button and footer are LOCKED. Preserve all their pixel positions, sizes, proportions, colors, exact wording/numbers and rendering. Do not shift, resize, compact, redesign or remove anything. Keep original viewport and spacing.
+Background-only change: reduce saturation by approximately 35%, reduce contrast around 20%, simplify tiny grass blades, blossoms and bush detail substantially. Make the existing blue sky/clouds a soft powder-blue watercolor-like distance and existing green countryside a soft sage-green sunlit painting, with a few restrained pale yellow/white flowers. Smooth fine visual noise as part of the painted background; no realtime blur effect. Keep existing same hills, trees, houses, stream, fence in their existing places. Reduce vibrant neon yellow grass and intense cyan, especially between tier cards and in side margins. Preserve warmth and cheerful outdoor theme. The result should have the same polished bright foreground UI over a calmer subtly defocused painterly backdrop. No new decoration, no blank flat background, no text change, no added caption or watermark. This is an AI art-direction preview, not a Unity runtime screenshot.

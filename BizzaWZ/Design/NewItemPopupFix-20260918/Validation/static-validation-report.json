@@ -1,0 +1,1146 @@
+{
+    "generatedUtc": "2026-09-18T12:14:00.6451867Z",
+    "kind": "STATIC PREFAB PREVIEW. Portuguese strings and sprites bound to disposable clones; opening animation sampled at its end. Business scripts, particles and animation playback disabled. Not a runtime screenshot or gameplay verification.",
+    "error": "",
+    "popupOrder": -600,
+    "widgetOrder": -700,
+    "widgetOverridesSorting": true,
+    "widgetBelowPopup": true,
+    "shadowBlocksRaycasts": true,
+    "sortingCheck": "Static inspection of serialized GameUiWidget Canvas and full-screen Shadow Image, compared with BaseUI/MgrUI popup Top order. Does not execute live UI, raycasts or account flows.",
+    "widgetCanvasOrders": [
+        "GameUiWidget: override=True, serializedOrder=-700"
+    ],
+    "previews": [
+        {
+            "tool": "Undo",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\NewItemPopupFix-20260918\\Validation\\static-undo-1080x1920.png",
+            "animationSample": "anim_NewItemPop_in at 2.5 seconds; isolated clone only, no events/playback",
+            "width": 1080,
+            "height": 1920,
+            "disabledBusinessBehaviours": 29,
+            "texts": [
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "text": "Nova ferramenta desbloqueada!",
+                    "fontSize": 62.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -490.0,
+                        "y": -80.0,
+                        "width": 980.0,
+                        "height": 160.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -465.5327453613281,
+                        "y": -37.19091796875,
+                        "width": 931.0656127929688,
+                        "height": 74.3818359375
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 600.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "text": "Desfazer",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -340.0,
+                        "y": -50.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -126.81243896484375,
+                        "y": -38.390625,
+                        "width": 253.62498474121095,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 24.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "text": "Desfaça sua última jogada!",
+                    "fontSize": 52.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -400.0,
+                        "y": -100.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -325.6296081542969,
+                        "y": -31.1923828125,
+                        "width": 651.2593383789063,
+                        "height": 62.384765625
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -155.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "text": "Continuar",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -250.0,
+                        "y": -60.0,
+                        "width": 500.0,
+                        "height": 120.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -142.38746643066407,
+                        "y": -38.390625,
+                        "width": 284.7750244140625,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -489.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "graphics": [
+                {
+                    "path": "NewItemPop/Shadow",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1080.0,
+                        "height": 1920.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 50.000003814697269,
+                        "y": 1480.0001220703125,
+                        "width": 980.0,
+                        "height": 159.9998779296875
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Item",
+                    "sprite": "IconUndo",
+                    "raycastTarget": true,
+                    "sortingOrder": -590,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 400.5760803222656,
+                        "y": 1046.0513916015625,
+                        "width": 278.8478088378906,
+                        "height": 291.897216796875
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 934.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 140.00001525878907,
+                        "y": 705.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Bg",
+                    "sprite": "ButtonGreen",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 290.0,
+                        "y": 410.9999694824219,
+                        "width": 500.0,
+                        "height": 119.99996948242188
+                    }
+                }
+            ],
+            "buttons": [],
+            "warnings": []
+        },
+        {
+            "tool": "Shuffle",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\NewItemPopupFix-20260918\\Validation\\static-shuffle-1080x1920.png",
+            "animationSample": "anim_NewItemPop_in at 2.5 seconds; isolated clone only, no events/playback",
+            "width": 1080,
+            "height": 1920,
+            "disabledBusinessBehaviours": 29,
+            "texts": [
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "text": "Nova ferramenta desbloqueada!",
+                    "fontSize": 62.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -490.0,
+                        "y": -80.0,
+                        "width": 980.0,
+                        "height": 160.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -465.5327453613281,
+                        "y": -37.19091796875,
+                        "width": 931.0656127929688,
+                        "height": 74.3818359375
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 600.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "text": "Embaralhar",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -340.0,
+                        "y": -50.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -169.6249237060547,
+                        "y": -38.390625,
+                        "width": 339.2499694824219,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 24.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "text": "Embaralhe todas as frutas na árvore!",
+                    "fontSize": 52.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -400.0,
+                        "y": -100.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -348.96868896484377,
+                        "y": -62.384765625,
+                        "width": 697.9375,
+                        "height": 124.76953125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -155.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "text": "Continuar",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -250.0,
+                        "y": -60.0,
+                        "width": 500.0,
+                        "height": 120.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -142.38746643066407,
+                        "y": -38.390625,
+                        "width": 284.7750244140625,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -489.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "graphics": [
+                {
+                    "path": "NewItemPop/Shadow",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1080.0,
+                        "height": 1920.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 50.000003814697269,
+                        "y": 1480.0001220703125,
+                        "width": 980.0,
+                        "height": 159.9998779296875
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Item",
+                    "sprite": "IconShuffle",
+                    "raycastTarget": true,
+                    "sortingOrder": -590,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 409.07611083984377,
+                        "y": 1056.076171875,
+                        "width": 261.8477783203125,
+                        "height": 271.84765625
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 934.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 140.00001525878907,
+                        "y": 705.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Bg",
+                    "sprite": "ButtonGreen",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 290.0,
+                        "y": 410.9999694824219,
+                        "width": 500.0,
+                        "height": 119.99996948242188
+                    }
+                }
+            ],
+            "buttons": [],
+            "warnings": []
+        },
+        {
+            "tool": "Magic",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\NewItemPopupFix-20260918\\Validation\\static-magic-1080x1920.png",
+            "animationSample": "anim_NewItemPop_in at 2.5 seconds; isolated clone only, no events/playback",
+            "width": 1080,
+            "height": 1920,
+            "disabledBusinessBehaviours": 29,
+            "texts": [
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "text": "Nova ferramenta desbloqueada!",
+                    "fontSize": 62.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -490.0,
+                        "y": -80.0,
+                        "width": 980.0,
+                        "height": 160.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -465.5327453613281,
+                        "y": -37.19091796875,
+                        "width": 931.0656127929688,
+                        "height": 74.3818359375
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 600.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "text": "Varinha mágica",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -340.0,
+                        "y": -50.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -228.74993896484376,
+                        "y": -38.390625,
+                        "width": 457.5,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 24.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "text": "Varinha mágica para um match instantâneo!",
+                    "fontSize": 52.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -400.0,
+                        "y": -100.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -373.02880859375,
+                        "y": -62.384765625,
+                        "width": 746.0577392578125,
+                        "height": 124.76953125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -155.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "text": "Continuar",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -250.0,
+                        "y": -60.0,
+                        "width": 500.0,
+                        "height": 120.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -142.38746643066407,
+                        "y": -38.390625,
+                        "width": 284.7750244140625,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -489.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "graphics": [
+                {
+                    "path": "NewItemPop/Shadow",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1080.0,
+                        "height": 1920.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 50.000003814697269,
+                        "y": 1480.0001220703125,
+                        "width": 980.0,
+                        "height": 159.9998779296875
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Item",
+                    "sprite": "IconMagic",
+                    "raycastTarget": true,
+                    "sortingOrder": -590,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 421.0761413574219,
+                        "y": 1046.0595703125,
+                        "width": 237.84774780273438,
+                        "height": 291.880859375
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 934.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 140.00001525878907,
+                        "y": 705.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Bg",
+                    "sprite": "ButtonGreen",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 290.0,
+                        "y": 410.9999694824219,
+                        "width": 500.0,
+                        "height": 119.99996948242188
+                    }
+                }
+            ],
+            "buttons": [],
+            "warnings": []
+        },
+        {
+            "tool": "Extra",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\NewItemPopupFix-20260918\\Validation\\static-extra-1080x1920.png",
+            "animationSample": "anim_NewItemPop_in at 2.5 seconds; isolated clone only, no events/playback",
+            "width": 1080,
+            "height": 1920,
+            "disabledBusinessBehaviours": 29,
+            "texts": [
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "text": "Nova ferramenta desbloqueada!",
+                    "fontSize": 62.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -490.0,
+                        "y": -80.0,
+                        "width": 980.0,
+                        "height": 160.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -465.5327453613281,
+                        "y": -37.19091796875,
+                        "width": 931.0656127929688,
+                        "height": 74.3818359375
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 600.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "text": "Espaço extra",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -340.0,
+                        "y": -50.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -189.2249298095703,
+                        "y": -38.390625,
+                        "width": 378.4499816894531,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 24.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "text": "Ganhe um espaço extra!",
+                    "fontSize": 52.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -400.0,
+                        "y": -100.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -288.99603271484377,
+                        "y": -31.1923828125,
+                        "width": 577.9921875,
+                        "height": 62.384765625
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -155.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "text": "Continuar",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -250.0,
+                        "y": -60.0,
+                        "width": 500.0,
+                        "height": 120.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -142.38746643066407,
+                        "y": -38.390625,
+                        "width": 284.7750244140625,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -489.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "graphics": [
+                {
+                    "path": "NewItemPop/Shadow",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1080.0,
+                        "height": 1920.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 50.000003814697269,
+                        "y": 1480.0001220703125,
+                        "width": 980.0,
+                        "height": 159.9998779296875
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Item",
+                    "sprite": "IconExtra",
+                    "raycastTarget": true,
+                    "sortingOrder": -590,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 430.07611083984377,
+                        "y": 1064.0,
+                        "width": 219.8477783203125,
+                        "height": 256.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 934.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 140.00001525878907,
+                        "y": 705.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Bg",
+                    "sprite": "ButtonGreen",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 376.0,
+                        "width": 680.0,
+                        "height": 189.99993896484376
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 290.0,
+                        "y": 410.9999694824219,
+                        "width": 500.0,
+                        "height": 119.99996948242188
+                    }
+                }
+            ],
+            "buttons": [],
+            "warnings": []
+        },
+        {
+            "tool": "Undo",
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\NewItemPopupFix-20260918\\Validation\\static-undo-1080x2160.png",
+            "animationSample": "anim_NewItemPop_in at 2.5 seconds; isolated clone only, no events/playback",
+            "width": 1080,
+            "height": 2160,
+            "disabledBusinessBehaviours": 29,
+            "texts": [
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "text": "Nova ferramenta desbloqueada!",
+                    "fontSize": 62.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -490.0,
+                        "y": -80.0,
+                        "width": 980.0,
+                        "height": 160.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -465.5327453613281,
+                        "y": -37.19091796875,
+                        "width": 931.0656127929688,
+                        "height": 74.3818359375
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 600.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "text": "Desfazer",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -340.0,
+                        "y": -50.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -126.81243896484375,
+                        "y": -38.390625,
+                        "width": 253.62498474121095,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": 24.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "text": "Desfaça sua última jogada!",
+                    "fontSize": 52.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -400.0,
+                        "y": -100.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -325.6296081542969,
+                        "y": -31.1923828125,
+                        "width": 651.2593383789063,
+                        "height": 62.384765625
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -155.0,
+                        "z": 0.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "text": "Continuar",
+                    "fontSize": 64.0,
+                    "overflowing": false,
+                    "truncated": false,
+                    "meshOutsideRect": false,
+                    "rect": {
+                        "serializedVersion": "2",
+                        "x": -250.0,
+                        "y": -60.0,
+                        "width": 500.0,
+                        "height": 120.0
+                    },
+                    "meshBounds": {
+                        "serializedVersion": "2",
+                        "x": -142.38746643066407,
+                        "y": -38.390625,
+                        "width": 284.7750244140625,
+                        "height": 76.78125
+                    },
+                    "worldPosition": {
+                        "x": 0.0,
+                        "y": -489.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "graphics": [
+                {
+                    "path": "NewItemPop/Shadow",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 0.0,
+                        "y": 0.0,
+                        "width": 1080.0,
+                        "height": 2160.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Title",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 50.000003814697269,
+                        "y": 1600.0,
+                        "width": 980.0,
+                        "height": 160.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Item",
+                    "sprite": "IconUndo",
+                    "raycastTarget": true,
+                    "sortingOrder": -590,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 400.5760803222656,
+                        "y": 1166.0513916015625,
+                        "width": 278.8478088378906,
+                        "height": 291.8970947265625
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/ItemName",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 1054.0,
+                        "width": 680.0,
+                        "height": 100.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/Body/Discription",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 140.00001525878907,
+                        "y": 825.0,
+                        "width": 800.0,
+                        "height": 200.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn",
+                    "sprite": "",
+                    "raycastTarget": true,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 496.0,
+                        "width": 680.0,
+                        "height": 190.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Bg",
+                    "sprite": "ButtonGreen",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 200.00001525878907,
+                        "y": 496.0,
+                        "width": 680.0,
+                        "height": 190.0
+                    }
+                },
+                {
+                    "path": "NewItemPop/MainContent/ClaimBtn/Image/LevelTextShadow/LevelText",
+                    "sprite": "",
+                    "raycastTarget": false,
+                    "sortingOrder": -1100,
+                    "screenRect": {
+                        "serializedVersion": "2",
+                        "x": 290.0,
+                        "y": 531.0,
+                        "width": 500.0,
+                        "height": 120.0
+                    }
+                }
+            ],
+            "buttons": [],
+            "warnings": []
+        }
+    ]
+}

@@ -1,0 +1,308 @@
+{
+  "target": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab",
+  "beforeSHA256": "4ed8ffd800507eed686d005ebbd9aa167e52ea50353d91c1e42b87ed77c98776",
+  "afterSHA256": "5515c329d784bfda62df045fc7b26c177d9a2924ecc8f23bea1205a51fd00905",
+  "beforeObjects": 174,
+  "afterObjects": 177,
+  "gameObjectsBefore": 38,
+  "gameObjectsAfter": 38,
+  "addedComponents": [
+    {
+      "fileID": "222918202609180001",
+      "type": "CanvasRenderer",
+      "gameObject": "1618682377417806"
+    },
+    {
+      "fileID": "114918202609180001",
+      "type": "TMPro.TextMeshProCustom",
+      "gameObject": "1618682377417806"
+    },
+    {
+      "fileID": "114918202609180002",
+      "type": "MultipleLanguage.TextNeedLocalization",
+      "key": "guide_newtool_title",
+      "gameObject": "1618682377417806"
+    }
+  ],
+  "disabledVisualComponents": [
+    "114967328832014496",
+    "114919942235722503",
+    "114632746491512912",
+    "114693329660128220",
+    "114708180620337799",
+    "114831874417830518"
+  ],
+  "unchanged": [
+    "All existing GameObjects and hierarchy",
+    "All existing components retained",
+    "All Animation components and clips",
+    "NewItemPop serialized gameplay bindings",
+    "Outer sliced green button Image",
+    "All existing localized keys",
+    "ClaimBtn input target GameObject and code binding",
+    "All business C#"
+  ],
+  "changedExistingBlocks": [
+    "1618682377417806",
+    "224518489005915545",
+    "114967328832014496",
+    "114919942235722503",
+    "114632746491512912",
+    "114693329660128220",
+    "224011164340880974",
+    "114992816746925483",
+    "114291632710222552",
+    "224433013960508438",
+    "224709890794832471",
+    "114708180620337799",
+    "224589652054545887",
+    "114831874417830518",
+    "114499517081926786"
+  ],
+  "changes": [
+    {
+      "fileID": "114967328832014496",
+      "field": "m_Enabled",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "114919942235722503",
+      "field": "m_Enabled",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "114632746491512912",
+      "field": "m_Enabled",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "114693329660128220",
+      "field": "m_Enabled",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "114708180620337799",
+      "field": "m_Enabled",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "114831874417830518",
+      "field": "m_Enabled",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "224518489005915545",
+      "field": "m_SizeDelta",
+      "before": "{x: 100, y: 100}",
+      "after": "{x: 980, y: 160}"
+    },
+    {
+      "fileID": "224433013960508438",
+      "field": "m_SizeDelta",
+      "before": "{x: 720, y: 274}",
+      "after": "{x: 680, y: 190}"
+    },
+    {
+      "fileID": "224709890794832471",
+      "field": "m_AnchoredPosition",
+      "before": "{x: 0, y: 8}",
+      "after": "{x: 0, y: 0}"
+    },
+    {
+      "fileID": "224709890794832471",
+      "field": "m_SizeDelta",
+      "before": "{x: -52, y: -52}",
+      "after": "{x: 0, y: 0}"
+    },
+    {
+      "fileID": "224589652054545887",
+      "field": "m_AnchoredPosition",
+      "before": "{x: 0, y: 6}",
+      "after": "{x: 0, y: 0}"
+    },
+    {
+      "fileID": "224589652054545887",
+      "field": "m_SizeDelta",
+      "before": "{x: 500, y: 150}",
+      "after": "{x: 500, y: 120}"
+    },
+    {
+      "fileID": "114499517081926786",
+      "field": "m_fontSize",
+      "before": "100",
+      "after": "64"
+    },
+    {
+      "fileID": "114499517081926786",
+      "field": "m_fontSizeBase",
+      "before": "100",
+      "after": "64"
+    },
+    {
+      "fileID": "114499517081926786",
+      "field": "m_fontSizeMin",
+      "before": "18",
+      "after": "24"
+    },
+    {
+      "fileID": "114499517081926786",
+      "field": "m_fontSizeMax",
+      "before": "100",
+      "after": "64"
+    },
+    {
+      "fileID": "224011164340880974",
+      "field": "m_SizeDelta",
+      "before": "{x: 500, y: 150}",
+      "after": "{x: 680, y: 100}"
+    },
+    {
+      "fileID": "114992816746925483",
+      "field": "m_enableAutoSizing",
+      "before": "0",
+      "after": "1"
+    },
+    {
+      "fileID": "114992816746925483",
+      "field": "m_fontSize",
+      "before": "70",
+      "after": "64"
+    },
+    {
+      "fileID": "114992816746925483",
+      "field": "m_fontSizeBase",
+      "before": "70",
+      "after": "64"
+    },
+    {
+      "fileID": "114992816746925483",
+      "field": "m_fontSizeMin",
+      "before": "18",
+      "after": "36"
+    },
+    {
+      "fileID": "114992816746925483",
+      "field": "m_fontSizeMax",
+      "before": "72",
+      "after": "64"
+    },
+    {
+      "fileID": "114291632710222552",
+      "field": "m_fontSize",
+      "before": "66",
+      "after": "52"
+    },
+    {
+      "fileID": "114291632710222552",
+      "field": "m_fontSizeBase",
+      "before": "36",
+      "after": "52"
+    },
+    {
+      "fileID": "114291632710222552",
+      "field": "m_fontSizeMin",
+      "before": "18",
+      "after": "28"
+    },
+    {
+      "fileID": "114291632710222552",
+      "field": "m_fontSizeMax",
+      "before": "66",
+      "after": "52"
+    },
+    {
+      "fileID": "114291632710222552",
+      "field": "m_fontColor",
+      "before": "{r: 1, g: 0.80784315, b: 0.105882354, a: 1}",
+      "after": "{r: 1, g: 0.95686275, b: 0.8392157, a: 1}"
+    },
+    {
+      "fileID": "114291632710222552",
+      "field": "m_fontColor32.rgba",
+      "before": "4280012543",
+      "after": "4292277503"
+    },
+    {
+      "fileID": "1618682377417806",
+      "field": "m_Component",
+      "added": [
+        "222918202609180001",
+        "114918202609180001",
+        "114918202609180002"
+      ]
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_text",
+      "before": "UNDO",
+      "after": "NEW TOOL UNLOCKED!"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_sharedMaterial",
+      "before": "{fileID: 0}",
+      "after": "{fileID: 2100000, guid: 5ebd41d56b09f8545a7500763f8239d2, type: 2}"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_enableVertexGradient",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_enableAutoSizing",
+      "before": "0",
+      "after": "1"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_fontSize",
+      "before": "70",
+      "after": "62"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_fontSizeBase",
+      "before": "70",
+      "after": "62"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_fontSizeMin",
+      "before": "18",
+      "after": "28"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_fontSizeMax",
+      "before": "72",
+      "after": "62"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_enableWordWrapping",
+      "before": "0",
+      "after": "1"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_fontColor",
+      "before": "{r: 1, g: 1, b: 1, a: 1}",
+      "after": "{r: 1, g: 0.95686275, b: 0.8392157, a: 1}"
+    },
+    {
+      "fileID": "114918202609180001",
+      "field": "m_fontColor32.rgba",
+      "before": "4294967295",
+      "after": "4292277503"
+    }
+  ],
+  "validation": "Structure-only PASS; Unity import and rendered TMP geometry handled by root agent."
+}

@@ -1,0 +1,443 @@
+{
+  "result": "PASS",
+  "scope": "Six HUD polish prefabs and two new sprite import configurations; readonly Assets audit against HudPolish-20260918/Before",
+  "prefabCount": 6,
+  "serializedObjectCount": 1203,
+  "visualFieldEdits": 40,
+  "prefabs": [
+    {
+      "path": "Assets/BizzaWZ/Common/UI/GamePanel/RealGamePanel.prefab",
+      "result": "PASS",
+      "serializedObjectCount": 36,
+      "visualChanges": 2,
+      "objectIdsOrderClassesUnchanged": true,
+      "hierarchyComponentsButtonsBusinessLocalizationUnchanged": true,
+      "beforeSha256": "59ccc050386de8ffce3bfad80f6f4332dd76f5f7fb80da6a20945c8f587324fa",
+      "afterSha256": "797e61e99156ea75221df51dc528072605aac083845e923e7e8ea99c3d53ac90",
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+      "result": "PASS",
+      "serializedObjectCount": 120,
+      "visualChanges": 12,
+      "objectIdsOrderClassesUnchanged": true,
+      "hierarchyComponentsButtonsBusinessLocalizationUnchanged": true,
+      "beforeSha256": "eea23dd909220906773706dd622d7dbded4d729f75041cd35c5bb9d0dcbbc115",
+      "afterSha256": "d2d49c696501bd9e16aee2d2f8cafca9ed561e298b48ab8ea7a606c30860121f",
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "result": "PASS",
+      "serializedObjectCount": 65,
+      "visualChanges": 12,
+      "objectIdsOrderClassesUnchanged": true,
+      "hierarchyComponentsButtonsBusinessLocalizationUnchanged": true,
+      "beforeSha256": "ee36b67af26a6352e62a757352c365c2819741089f2793744b0e39118fc3ec9e",
+      "afterSha256": "659841738b8844e5dd45e3e8b5d54f2dcd795d9c265381078e3d58403714015a",
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+      "result": "PASS",
+      "serializedObjectCount": 29,
+      "visualChanges": 6,
+      "objectIdsOrderClassesUnchanged": true,
+      "hierarchyComponentsButtonsBusinessLocalizationUnchanged": true,
+      "beforeSha256": "18836ef06d412d09e77e55c839de9eba3ca61543a52d43a4f9d2e1f009c80a5b",
+      "afterSha256": "3d01dbf5c84e90cd938c2a5df60f1c57cbeb659c6cb91403c6bb9f39370a2bac",
+      "issues": []
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+      "result": "PASS",
+      "serializedObjectCount": 840,
+      "visualChanges": 6,
+      "objectIdsOrderClassesUnchanged": true,
+      "hierarchyComponentsButtonsBusinessLocalizationUnchanged": true,
+      "beforeSha256": "4540e42ed0fcb5569055004992f383b306e60d604d78d5565c1175924a946818",
+      "afterSha256": "178dcd10d34aef131e42432899a16343933916a3749200557b6fb0f0ec673032",
+      "issues": []
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "result": "PASS",
+      "serializedObjectCount": 113,
+      "visualChanges": 2,
+      "objectIdsOrderClassesUnchanged": true,
+      "hierarchyComponentsButtonsBusinessLocalizationUnchanged": true,
+      "beforeSha256": "b43a1cb03a369900bcd57cd025abb913a5739b3941ec06a07a4311b367492fef",
+      "afterSha256": "3fbe265a1307ae7d0197edea3c6a97cac1a1a049d5cc8f137824d3f97eb16d05",
+      "issues": []
+    }
+  ],
+  "codeHashes": {
+    "result": "PASS",
+    "baselineCount": 1358,
+    "currentCount": 1358,
+    "changed": [],
+    "missing": [],
+    "added": []
+  },
+  "newSprites": [
+    {
+      "path": "Assets/OrchardUI/Art/HudLucky777.png",
+      "result": "PASS",
+      "guid": "338551b9f3534cca9a7630ada90800c4",
+      "fileID": 21300000,
+      "pngSize": [
+        1254,
+        1254
+      ],
+      "spriteRect": {
+        "x": 40,
+        "y": 182,
+        "width": 1188,
+        "height": 918
+      },
+      "textureType": "Sprite",
+      "maxTextureSize": 512,
+      "alphaPreserved": true,
+      "mipmaps": false,
+      "readWrite": false,
+      "bilinearClamp": true,
+      "androidAndIosOverrideFormat": 50,
+      "sourcePngSha256Matches": true,
+      "issues": []
+    },
+    {
+      "path": "Assets/OrchardUI/Art/HudGift.png",
+      "result": "PASS",
+      "guid": "2a6cbc6793bb413e8c0951e2e995ede3",
+      "fileID": 21300000,
+      "pngSize": [
+        1254,
+        1254
+      ],
+      "spriteRect": null,
+      "textureType": "Sprite",
+      "maxTextureSize": 512,
+      "alphaPreserved": true,
+      "mipmaps": false,
+      "readWrite": false,
+      "bilinearClamp": true,
+      "androidAndIosOverrideFormat": 50,
+      "sourcePngSha256Matches": true,
+      "issues": []
+    }
+  ],
+  "issues": [],
+  "runtime": "Unity visual and interaction QA is performed separately by root agent; this report is serialized-asset integrity verification.",
+  "nestedPrefabEffectiveValues": {
+    "result": "PASS",
+    "checks": [
+      {
+        "target": "5821051965148166099",
+        "property": "m_Sprite",
+        "effective": {
+          "value": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+          "source": "GameUiWidget override",
+          "instance": "461910548945330748"
+        },
+        "expected": "{fileID: -1757003328, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "pass": true
+      },
+      {
+        "target": "5821051965148166099",
+        "property": "m_PixelsPerUnitMultiplier",
+        "effective": {
+          "value": "2.2",
+          "source": "Source prefab inherited"
+        },
+        "expected": "2.2",
+        "pass": true
+      },
+      {
+        "target": "5860728120506579172",
+        "property": "m_sharedMaterial",
+        "effective": {
+          "value": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}",
+          "source": "GameUiWidget override",
+          "instance": "461910548945330748"
+        },
+        "expected": "{fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}",
+        "pass": true
+      },
+      {
+        "target": "5860728120506579172",
+        "property": "m_fontColor.r",
+        "effective": {
+          "value": "0.09019608",
+          "source": "GameUiWidget override",
+          "instance": "461910548945330748"
+        },
+        "expected": "0.09019608",
+        "pass": true
+      },
+      {
+        "target": "5860728120506579172",
+        "property": "m_fontColor.g",
+        "effective": {
+          "value": "0.30980393",
+          "source": "GameUiWidget override",
+          "instance": "461910548945330748"
+        },
+        "expected": "0.30980393",
+        "pass": true
+      },
+      {
+        "target": "5860728120506579172",
+        "property": "m_fontColor.b",
+        "effective": {
+          "value": "0.49019608",
+          "source": "GameUiWidget override",
+          "instance": "461910548945330748"
+        },
+        "expected": "0.49019608",
+        "pass": true
+      },
+      {
+        "target": "4954420463098433676",
+        "property": "m_Sprite",
+        "effective": {
+          "value": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+          "source": "Source prefab inherited"
+        },
+        "expected": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "pass": true
+      },
+      {
+        "target": "4954420463098433676",
+        "property": "m_PixelsPerUnitMultiplier",
+        "effective": {
+          "value": "2.5",
+          "source": "Source prefab inherited"
+        },
+        "expected": "2.5",
+        "pass": true
+      },
+      {
+        "target": "917222461376090861",
+        "property": "m_Sprite",
+        "effective": {
+          "value": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+          "source": "Source prefab inherited"
+        },
+        "expected": "{fileID: -2106829423, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}",
+        "pass": true
+      },
+      {
+        "target": "917222461376090861",
+        "property": "m_PixelsPerUnitMultiplier",
+        "effective": {
+          "value": "2.5",
+          "source": "Source prefab inherited"
+        },
+        "expected": "2.5",
+        "pass": true
+      },
+      {
+        "target": "8565961504699753555",
+        "property": "m_Type",
+        "effective": {
+          "value": "1",
+          "source": "Source prefab inherited"
+        },
+        "expected": "1",
+        "pass": true
+      },
+      {
+        "target": "8565961504699753555",
+        "property": "m_PixelsPerUnitMultiplier",
+        "effective": {
+          "value": "2",
+          "source": "Source prefab inherited"
+        },
+        "expected": "2",
+        "pass": true
+      },
+      {
+        "target": "7563967730577256576",
+        "property": "m_Type",
+        "effective": {
+          "value": "1",
+          "source": "Source prefab inherited"
+        },
+        "expected": "1",
+        "pass": true
+      },
+      {
+        "target": "7563967730577256576",
+        "property": "m_PixelsPerUnitMultiplier",
+        "effective": {
+          "value": "2",
+          "source": "Source prefab inherited"
+        },
+        "expected": "2",
+        "pass": true
+      },
+      {
+        "target": "5403240756379141583",
+        "property": "m_Sprite",
+        "effective": {
+          "value": "{fileID: 21300000, guid: 338551b9f3534cca9a7630ada90800c4, type: 3}",
+          "source": "Source prefab inherited"
+        },
+        "expected": "{fileID: 21300000, guid: 338551b9f3534cca9a7630ada90800c4, type: 3}",
+        "pass": true
+      },
+      {
+        "target": "5403240756379141583",
+        "property": "m_PreserveAspect",
+        "effective": {
+          "value": "1",
+          "source": "Source prefab inherited"
+        },
+        "expected": "1",
+        "pass": true
+      },
+      {
+        "target": "2597468376317513793",
+        "property": "m_PixelsPerUnitMultiplier",
+        "effective": {
+          "value": "3",
+          "source": "Source prefab inherited"
+        },
+        "expected": "3",
+        "pass": true
+      },
+      {
+        "target": "8611193201050741118",
+        "property": "m_AnchoredPosition",
+        "effective": {
+          "value": "{x: 0, y: 0}",
+          "source": "Source prefab inherited"
+        },
+        "expected": "{x: 0, y: 0}",
+        "pass": true
+      },
+      {
+        "target": "8611193201050741118",
+        "property": "m_SizeDelta",
+        "effective": {
+          "value": "{x: 202, y: 24}",
+          "source": "Source prefab inherited"
+        },
+        "expected": "{x: 202, y: 24}",
+        "pass": true
+      },
+      {
+        "target": "2151320124694660842",
+        "property": "m_AnchoredPosition",
+        "effective": {
+          "value": "{x: 0, y: 0}",
+          "source": "Source prefab inherited"
+        },
+        "expected": "{x: 0, y: 0}",
+        "pass": true
+      },
+      {
+        "target": "5078707581075184592",
+        "property": "m_sharedMaterial",
+        "effective": {
+          "value": "{fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}",
+          "source": "GameUiWidget override",
+          "instance": "8263945193493257299"
+        },
+        "expected": "{fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}",
+        "pass": true
+      },
+      {
+        "target": "5078707581075184592",
+        "property": "m_fontColor.r",
+        "effective": {
+          "value": "1",
+          "source": "GameUiWidget override",
+          "instance": "8263945193493257299"
+        },
+        "expected": "1",
+        "pass": true
+      },
+      {
+        "target": "5078707581075184592",
+        "property": "m_fontColor.g",
+        "effective": {
+          "value": "1",
+          "source": "GameUiWidget override",
+          "instance": "8263945193493257299"
+        },
+        "expected": "1",
+        "pass": true
+      },
+      {
+        "target": "5078707581075184592",
+        "property": "m_fontColor.b",
+        "effective": {
+          "value": "1",
+          "source": "GameUiWidget override",
+          "instance": "8263945193493257299"
+        },
+        "expected": "1",
+        "pass": true
+      },
+      {
+        "target": "7786913375694585872",
+        "property": "m_Type",
+        "effective": {
+          "value": "3",
+          "source": "Source prefab inherited"
+        },
+        "expected": "3",
+        "pass": true
+      },
+      {
+        "target": "7786913375694585872",
+        "property": "m_FillMethod",
+        "effective": {
+          "value": "0",
+          "source": "Source prefab inherited"
+        },
+        "expected": "0",
+        "pass": true
+      },
+      {
+        "target": "7786913375694585872",
+        "property": "m_FillOrigin",
+        "effective": {
+          "value": "0",
+          "source": "Source prefab inherited"
+        },
+        "expected": "0",
+        "pass": true
+      }
+    ]
+  },
+  "visualChildRectEdits": [
+    {
+      "rectTransform": "224856321325849650",
+      "gameObject": "1964469411310401",
+      "name": "Lock",
+      "componentScripts": [],
+      "buttonComponentPresent": false
+    },
+    {
+      "rectTransform": "8611193201050741118",
+      "gameObject": "6822782655540800143",
+      "name": "progress",
+      "componentScripts": [
+        "{fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}"
+      ],
+      "buttonComponentPresent": false
+    },
+    {
+      "rectTransform": "2151320124694660842",
+      "gameObject": "3851698979062513576",
+      "name": "Text (TMP)",
+      "componentScripts": [
+        "{fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}"
+      ],
+      "buttonComponentPresent": false
+    }
+  ]
+}

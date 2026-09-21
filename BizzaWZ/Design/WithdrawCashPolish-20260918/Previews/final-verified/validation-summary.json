@@ -1,0 +1,77 @@
+{
+  "kind": "Independent geometry audit of existing Prefab STATIC previews; not a runtime or withdrawal-flow test",
+  "generatedUtc": "2026-09-18T10:55:56.348275+00:00",
+  "tolerancePixels": 1.0,
+  "samplesAreDisposableClones": true,
+  "cases": [
+    {
+      "samplePercent": 0,
+      "glyphOverflow": [],
+      "actualFillAmount": 0.0,
+      "meshVertexCount": 0,
+      "meshWidthPixels": 0.0,
+      "meshHeightPixels": 0.0,
+      "widthRatioTo100Percent": 0.0,
+      "expectedWidthRatio": 0.0,
+      "insideTrackInsetsLeftBottomRightTopPixels": null,
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "sixExistingAmountItems": true,
+      "pngExists": true,
+      "pass": true
+    },
+    {
+      "samplePercent": 35,
+      "glyphOverflow": [],
+      "actualFillAmount": 0.3499999940395355,
+      "meshVertexCount": 4,
+      "meshWidthPixels": 246.3050994873047,
+      "meshHeightPixels": 21.57818603515625,
+      "widthRatioTo100Percent": 0.3500000477020947,
+      "expectedWidthRatio": 0.35,
+      "insideTrackInsetsLeftBottomRightTopPixels": [
+        13.0169677734375,
+        8.736328125,
+        470.4406280517578,
+        8.736328125
+      ],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "sixExistingAmountItems": true,
+      "pngExists": true,
+      "pass": true
+    },
+    {
+      "samplePercent": 100,
+      "glyphOverflow": [],
+      "actualFillAmount": 1.0,
+      "meshVertexCount": 4,
+      "meshWidthPixels": 703.728759765625,
+      "meshHeightPixels": 21.57818603515625,
+      "widthRatioTo100Percent": 1.0,
+      "expectedWidthRatio": 1.0,
+      "insideTrackInsetsLeftBottomRightTopPixels": [
+        13.0169677734375,
+        8.736328125,
+        13.0169677734375,
+        8.736328125
+      ],
+      "sourceHashesUnchanged": true,
+      "renderError": "",
+      "sixExistingAmountItems": true,
+      "pngExists": true,
+      "pass": true
+    }
+  ],
+  "fullFillAspect": {
+    "spriteAspect": 32.61289092142577,
+    "renderedMeshAspect": 32.6129712024484,
+    "relativeError": 2.461634659115612e-06,
+    "preservesNaturalSpriteAspect": true,
+    "fullRectHeightPixels": 29.28814697265625,
+    "renderedNaturalHeightPixels": 21.57818603515625,
+    "note": "Full Image rect is taller than the naturally proportional rendered mesh; this is expected PreserveAspect letterboxing, not vertical deformation."
+  },
+  "pass": true,
+  "caseCount": 3
+}

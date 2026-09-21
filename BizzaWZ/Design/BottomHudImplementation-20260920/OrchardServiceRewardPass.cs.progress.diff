@@ -1,0 +1,55 @@
+--- before/Assets/OrchardUI/Editor/OrchardServiceRewardPass.cs
++++ after/Assets/OrchardUI/Editor/OrchardServiceRewardPass.cs
+@@ -45,6 +45,10 @@
+             case "SlotPanel": ApplySlot(root); break;
+             case "SlotFQAPanel": ApplySlotFaq(root); break;
+             case "SlotEnter": ApplySlotEntry(root); break;
++            case "GameUiWidget":
++                Transform slotEntry = Find(root, "SlotEnter");
++                if (slotEntry != null) ApplySlotEntry(slotEntry.gameObject);
++                break;
+         }
+     }
+ 
+@@ -330,14 +334,33 @@
+ 
+     private static void ApplySlotEntry(GameObject root)
+     {
+-        // Preserve the 777 icon and its reward animation while unifying the meter.
+-        foreach (Image image in root.GetComponentsInChildren<Image>(true))
+-        {
+-            if (image.name == "bg") OrchardSkinAuthoring.ApplySprite(image, "ProgressTrack");
+-            else if (image.name == "progress") Progress(image, "ProgressFill");
+-        }
+-        foreach (TMP_Text text in root.GetComponentsInChildren<TMP_Text>(true))
+-            OrchardSkinAuthoring.SetTitle(text);
++        // Dedicated unlettered sprites keep the approved dark trough and live fill separate.
++        // Preserve every existing RectTransform, the 777 icon and the reward animation.
++        Transform track = Find(root, "Content/Progress");
++        Transform fill = Find(root, "Content/Progress/progress");
++        if (track != null && track.TryGetComponent<Image>(out var trackImage))
++        {
++            trackImage.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/OrchardUI/Art/BottomHudProgressTrack.png");
++            trackImage.type = Image.Type.Simple;
++            trackImage.color = Color.white;
++            trackImage.preserveAspect = false;
++            trackImage.pixelsPerUnitMultiplier = 1;
++        }
++        if (fill != null && fill.TryGetComponent<Image>(out var fillImage))
++        {
++            fillImage.sprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/OrchardUI/Art/BottomHudProgressFill.png");
++            fillImage.type = Image.Type.Filled;
++            fillImage.fillMethod = Image.FillMethod.Horizontal;
++            fillImage.fillOrigin = (int)Image.OriginHorizontal.Left;
++            fillImage.color = Color.white;
++            fillImage.preserveAspect = false;
++        }
++        Transform counter = Find(root, "Content/Progress/Text (TMP)");
++        if (counter != null && counter.TryGetComponent<TMP_Text>(out var label))
++        {
++            OrchardSkinAuthoring.SetTitle(label);
++            label.enableWordWrapping = false;
++        }
+     }
+ 
+     private static Transform Find(GameObject root, string path) => root.transform.Find(path);

@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -34,17 +35,17 @@ public class CurrencyBar : MonoBehaviour
     {
         settingBtn.onClick.AddListener(() =>
         {
-            _ = UIManager.Instance.OpenPage(UIPageIds.PausePanel);
+            UIModule.Instance.OpenPage(UIPageIds.PausePanel).Forget();
         });
 
         dollarBtn.onClick.AddListener(() =>
         {
-            UIModule.Instance.OpenPage(UIPageIds.FakeWithdrawPanel);
+            UIModule.Instance.OpenPage(UIPageIds.FakeWithdrawPanel).Forget();
         });
 
         coinBtn.onClick.AddListener(() =>
         {
-            UIModule.Instance.OpenPage(UIPageIds.RealWithdrawPanel);
+            UIModule.Instance.OpenPage(UIPageIds.RealWithdrawPanel).Forget();
         });
 
         

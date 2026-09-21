@@ -42,7 +42,7 @@ public class ButtonState
     }
 }
 
-public class BizzaButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class BizzaButton : Button, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
     public Transform scaleTarget;
     public bool canDrag = true;
@@ -52,11 +52,11 @@ public class BizzaButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public float longClickPeriod = 0.5f; // 长按时间
 
-    public bool interactable = true; // 是否可交互
+    public new bool interactable = true; // Preserve existing prefab data; Button owns click dispatch.
 
     public UnityEvent onLongClick;
 
-    public UnityEvent onClick;
+    public new UnityEvent onClick;
 
     private bool isLongClick = false; // 是否长按
 
@@ -70,8 +70,12 @@ public class BizzaButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     private bool m_IsPointerDown;
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
+        base.interactable = interactable;
+        transition = Transition.None;
+        base.onClick.AddListener(DispatchClick);
         if (scaleTarget == null)
         {
             scaleTarget = transform.Find("Scale");
@@ -85,13 +89,20 @@ public class BizzaButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         ChangeButtonState(0);
     }
 
-    private void OnDisable()
+    private void DispatchClick()
     {
+        if (interactable) onClick?.Invoke();
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
         RestoreNormalScale();
     }
 
     private void Update()
     {
+        if (base.interactable != interactable) base.interactable = interactable;
         if (interactable && isLongClick)
         {
             if (Time.time - m_LastInvokeTime >= longClickPeriod)
@@ -104,8 +115,10 @@ public class BizzaButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
 
     // 按下事件
-    public void OnPointerDown(PointerEventData eventData)
+    public override void OnPointerDown(PointerEventData eventData)
     {
+        if (!interactable || !IsInteractable()) return;
+        base.OnPointerDown(eventData);
         if (scaleTarget != null)
         {
             if (!m_IsPointerDown)
@@ -124,14 +137,10 @@ public class BizzaButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     }
 
     // 抬起事件
-    public void OnPointerUp(PointerEventData eventData)
+    public override void OnPointerUp(PointerEventData eventData)
     {
+        base.OnPointerUp(eventData);
         RestoreNormalScale();
-        // isLongClick = false;
-        if (interactable && RectTransformUtility.RectangleContainsScreenPoint(gameObject.GetComponent<RectTransform>(), eventData.position))
-        {
-            onClick.Invoke();
-        }
     }
 
     public void StopClick()

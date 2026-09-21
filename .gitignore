@@ -4,6 +4,22 @@
 /.codex_spreadsheet_work/
 **/.DS_Store
 **/Thumbs.db
+/*.lnk
+**/__pycache__/
+*.pyc
+
+# Local migration snapshots and nested Git caches
+/Tools/UpstreamSync/source.git/
+/Tools/UpstreamSync/before/
+/Tools/UpstreamSync/expected/
+/Tools/**/compiled/
+/Tools/**/staged/
+/Tools/**/before-*.zip
+/BizzaWZ/Design/OrchardUI/*.command
+
+# Local API response captures may contain account or device information
+**/communication-results.json
+/Tools/APIReplace/20260915-bubblosaicpmge/API替换报告-bubblosaicpmge.html
 
 # Unity-generated caches, local settings, and build output
 /BizzaWZ/[Ll]ibrary/

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1bbf3659b2036c43bd4f67af069e81d, type: 3}
+  m_Name: OrchardVictoryPanelSkin
+  m_EditorClassIdentifier: 
+  hero: {fileID: 0}
+  panel: {fileID: 2800000, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}
+  nextButton: {fileID: 2800000, guid: 50c5208c19d79f44ebd86c010248d125, type: 3}
+  heroResource: 
+  panelResource: Recovered/UI/PsdVictoryPanel/panel
+  nextButtonResource: Recovered/UI/PsdVictoryPanel/next_button
+  titleFontSize: 43
+  bodyFontSize: 43
+  nextFontSize: 43
+  titleTextColor: {r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}
+  bodyTextColor: {r: 0.09019608, g: 0.30980393, b: 0.49019608, a: 1}
+  nextTextColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineColor: {r: 0.4117647, g: 0.21960784, b: 0.08627451, a: 1}
+  outlineDistance: {x: 3, y: -3}
+  shadeColor: {r: 0, g: 0, b: 0, a: 0.28}
+  designWidth: 1440
+  designHeight: 2960
+  heroRect:
+    serializedVersion: 2
+    x: 300
+    y: 546
+    width: 796
+    height: 831
+  panelRect:
+    serializedVersion: 2
+    x: 270
+    y: 1199
+    width: 902
+    height: 651
+  titleTextRect:
+    serializedVersion: 2
+    x: 517
+    y: 1329
+    width: 426
+    height: 62
+  bodyTextRect:
+    serializedVersion: 2
+    x: 466
+    y: 1522
+    width: 528
+    height: 62
+  nextButtonRect:
+    serializedVersion: 2
+    x: 453
+    y: 1627
+    width: 532
+    height: 151
+  nextTextRect:
+    serializedVersion: 2
+    x: 578
+    y: 1672
+    width: 290
+    height: 49

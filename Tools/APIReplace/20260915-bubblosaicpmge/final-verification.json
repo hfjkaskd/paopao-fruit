@@ -1,0 +1,90 @@
+{
+  "confirmedReplacementChecks": "Passed",
+  "overallCompletion": "Confirmed items completed; 3 Unresolved retained, not fully resolved.",
+  "methodDeclarationsUnchanged": true,
+  "methodInvocationSequencesUnchanged": true,
+  "allOtherMethodTextPreservedAfterAuthorizedChanges": true,
+  "attributionValidation": "Static only; 19 keys complete, unique, no confirmed old keys remaining; expressions/types preserved.",
+  "actualHttpResponseComparedAgainstFinalSourceSha256": true,
+  "channelConfigOriginalSerializer": "Passed in source harness and actual Unity",
+  "unrelatedSerializedFieldsBytePreservation": true,
+  "privacyLocalizationNonUrlBytesPreserved": true,
+  "temporaryEditorHelperRemoved": true,
+  "unexpectedNewGitStatusPaths": [],
+  "initialUserDirtyPathsStillPresent": true,
+  "files": [
+    {
+      "path": "Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModule.cs",
+      "beforeSha256": "e8d1de74b8646de7fd8299fe9c2488e9a043a336d76de92917adf7b4fa7b83d9",
+      "afterSha256": "e03ad678c5a1c5d24782506ffbc93b1c7124599c9664430739d86830eb9fb1c5",
+      "changed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+      "beforeSha256": "b7f4c048121dfad04c122e91057292b0655a1fe7794c35aa4c5e169bfda15ac1",
+      "afterSha256": "94df615fbae0bd1fd1eeeb411b575a6d2a6b7c2ec8d6b54eeaca921001c4c637",
+      "changed": true
+    },
+    {
+      "path": "Assets/StreamingAssets/ChannelConfig.bytes",
+      "beforeSha256": "85ae5fcff7142316fe450a99f282a748242d31d30637dbc2c12c0b1c4d33f823",
+      "afterSha256": "42a4cc845907aadf473d15b8537cacc72f7fe878feb4cb662b72d31408b07391",
+      "changed": true
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "beforeSha256": "2a3652d14db595ce157de0fd77020219e13ea56d6b7f84a5b00f2c43330bbefd",
+      "afterSha256": "6437b4c51be4e50eacbcdbbdb47412ce94160878627b582db431e14b97c62565",
+      "changed": true
+    },
+    {
+      "path": "ProjectSettings/Obfuz.asset",
+      "beforeSha256": "6b62eb76cb19e07908990de23a12522dc73288882b1d2af3a4c061b7f62c5265",
+      "afterSha256": "6c7cfc32f5e643cb261f21c25fdf60d80d173e2242ef8e2815cdda0b7753006f",
+      "changed": true
+    },
+    {
+      "path": "ProjectSettings/AppLovinInternalSettings.json",
+      "beforeSha256": "c193c0cef136d867887ff4e9d46022aca7b884ac8ecf612cfdf6122266b39ac6",
+      "afterSha256": "0ef829e156fb0c14ad3921ff0d059a64e465aa50c5c8772ec5962b6bcd64aa3d",
+      "changed": true
+    },
+    {
+      "path": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+      "beforeSha256": "082fb0e9cff3a85daec1db86925b6b71a0f21389fc363cf4f1fd98b7b5bcc387",
+      "afterSha256": "0deb5d31cf8b7d1eeac022a62f32b8d09847ed4098d66b09d407a94d2fd5f8f8",
+      "changed": true
+    },
+    {
+      "path": "Assets/FruitsHarvest/Resources/Original/res/local/configs/Text.json",
+      "beforeSha256": "d423e1ef49d2fe1bfb5ce3ae08b4c6b08f6ac9c2e7b450a77097ce368b572c9a",
+      "afterSha256": "71423828a6b07241c03034577bcbad44aabd26d97097976c0b0d4c23411fb35d",
+      "changed": true
+    },
+    {
+      "path": "Assets/Obfuz/GeneratedEncryptionVirtualMachine.cs",
+      "beforeSha256": "07c6b56d006943ec202b21dc92d98f35273dbb9f23d8e90dceaf13ce58fcbb87",
+      "afterSha256": "9d0b41353470fd30bcfb3bd02a83db5590824cca6e28354827871daff9191341",
+      "changed": true
+    },
+    {
+      "path": "Assets/Resources/Obfuz/defaultStaticSecretKey.bytes",
+      "beforeSha256": "33ab5d3b047230a1518eca9cf5056dda14ddd15de98767a8a2a3e898b3b2df23",
+      "afterSha256": "afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f",
+      "changed": true
+    },
+    {
+      "path": "Assets/Resources/Obfuz/defaultDynamicSecretKey.bytes",
+      "beforeSha256": "33ab5d3b047230a1518eca9cf5056dda14ddd15de98767a8a2a3e898b3b2df23",
+      "afterSha256": "afb1d5381fd92a7d693fbac1324b3fec808a7ec791a175aac8911d4e7bdcf11f",
+      "changed": true
+    }
+  ],
+  "limitations": [
+    "3 Unresolved items retained",
+    "3 SwaggerTypeMismatch entries preserve local contracts",
+    "12 API requests not executed with per-path reasons",
+    "No real attribution serialization/send executed; static verification only",
+    "No APK/IPA build or Android/iOS device gameplay test"
+  ]
+}

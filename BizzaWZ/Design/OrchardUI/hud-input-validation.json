@@ -1,0 +1,256 @@
+{
+    "generatedUtc": "2026-09-21T10:17:16.7767721Z",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+    "scope": "Resolved GameUiWidget prefab in an isolated preview scene. Business behaviours disabled; only normal UI rendering and raycasts run. Does not verify runtime listener execution or account flows.",
+    "width": 1080,
+    "height": 1920,
+    "disabledBusinessBehaviours": 16,
+    "activeGameViewDisplay": 0,
+    "registeredRaycasters": 1,
+    "registeredGraphics": 17,
+    "positiveControlPassed": true,
+    "passed": true,
+    "buttons": [
+        {
+            "field": "coinBtn",
+            "button": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+            "visual": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+            "targetGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+            "targetGraphicAlpha": 1.0,
+            "targetGraphicRaycastTarget": true,
+            "targetGraphicCulled": false,
+            "targetGraphicDepth": 7,
+            "active": true,
+            "interactable": true,
+            "visualOwnedByButton": true,
+            "samples": [
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 425.0,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.20000000298023225,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 390.20001220703127,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.800000011920929,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 459.8000183105469,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.20000000298023225
+                    },
+                    "screenPoint": {
+                        "x": 425.0,
+                        "y": 1867.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.800000011920929
+                    },
+                    "screenPoint": {
+                        "x": 425.0,
+                        "y": 1903.0
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+                    "routesToExpectedButton": true
+                }
+            ]
+        },
+        {
+            "field": "dollarBtn",
+            "button": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+            "visual": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+            "targetGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+            "targetGraphicAlpha": 1.0,
+            "targetGraphicRaycastTarget": true,
+            "targetGraphicCulled": false,
+            "targetGraphicDepth": 17,
+            "active": true,
+            "interactable": true,
+            "visualOwnedByButton": true,
+            "samples": [
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 809.0,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.20000000298023225,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 774.199951171875,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.800000011920929,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 843.7999267578125,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.20000000298023225
+                    },
+                    "screenPoint": {
+                        "x": 809.0,
+                        "y": 1867.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.800000011920929
+                    },
+                    "screenPoint": {
+                        "x": 809.0,
+                        "y": 1903.0
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+                    "routesToExpectedButton": true
+                }
+            ]
+        },
+        {
+            "field": "settingBtn",
+            "button": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+            "visual": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+            "targetGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+            "targetGraphicAlpha": 1.0,
+            "targetGraphicRaycastTarget": true,
+            "targetGraphicCulled": false,
+            "targetGraphicDepth": 19,
+            "active": true,
+            "interactable": true,
+            "visualOwnedByButton": true,
+            "samples": [
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 984.0,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.20000000298023225,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 955.2000122070313,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.800000011920929,
+                        "y": 0.5
+                    },
+                    "screenPoint": {
+                        "x": 1012.7999877929688,
+                        "y": 1885.0001220703125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.20000000298023225
+                    },
+                    "screenPoint": {
+                        "x": 984.0,
+                        "y": 1856.2000732421875
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "routesToExpectedButton": true
+                },
+                {
+                    "normalizedPoint": {
+                        "x": 0.5,
+                        "y": 0.800000011920929
+                    },
+                    "screenPoint": {
+                        "x": 984.0,
+                        "y": 1913.800048828125
+                    },
+                    "topGraphic": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "clickHandler": "Disposable HUD Input Validation/GameUiWidget/CurrencyBar/PauseButton",
+                    "routesToExpectedButton": true
+                }
+            ]
+        }
+    ],
+    "errors": []
+}

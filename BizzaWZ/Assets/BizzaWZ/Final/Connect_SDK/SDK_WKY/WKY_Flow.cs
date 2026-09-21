@@ -59,6 +59,8 @@ public class WKY_Flow
     {
         WKYFlowOver = false;
 
+Bizza.Unity.Android.AndroidJavaMessageDispatcher.SetHttpMessageHandler(
+    HttpUtil.LoginHTTPDict);
         ChannelConfig config = await ChannelConfigLoader.LoadAsync();
         if (config == null)
         {

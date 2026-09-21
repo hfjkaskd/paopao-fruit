@@ -1,0 +1,100 @@
+{
+  "status": "passed",
+  "method": "Static check only. No Unity code invoked; redacted real network response values compared with final JsonProperty keys and C# field types.",
+  "sourceSha256": "e03ad678c5a1c5d24782506ffbc93b1c7124599c9664430739d86830eb9fb1c5",
+  "checks": [
+    {
+      "path": "/Api/Match/AppConfig",
+      "requestDto": "AccountModule.OceanShineAppOtherConfigRequest",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": null,
+      "responseCheck": "static field/type comparison to decrypted real response",
+      "otherConstantKeysPresent": {
+        "one_Count": true,
+        "one_Ratio": true,
+        "two_Count": true,
+        "two_Ratio": true,
+        "three_Count": true,
+        "three_Ratio": true
+      }
+    },
+    {
+      "path": "/Api/Match/Login",
+      "requestDto": "AccountModule.OceanShineUserLoginRequest",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": "OceanShineLoginResponse",
+      "responseCheck": "static field/type comparison to decrypted real response"
+    },
+    {
+      "path": "/Api/Match/Info",
+      "requestDto": "AccountModule.OceanShineUserInfoRequest",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": "OceanShineUserInfoResponse",
+      "responseCheck": "static field/type comparison to decrypted real response"
+    },
+    {
+      "path": "/Api/Match/NoticeList",
+      "requestDto": "AccountModule.OceanShineFeedbackListV2Request",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": "OceanShineFeedbackListV2Response",
+      "responseCheck": "static field/type comparison to decrypted real response"
+    },
+    {
+      "path": "/Api/Match/Order",
+      "requestDto": "AccountModule.OceanShineUserInfoRequest",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": "List<OceanShineWithdrawalRecord>",
+      "responseCheck": "static field/type comparison to decrypted real response"
+    },
+    {
+      "path": "/Api/Match/Page",
+      "requestDto": "AccountModule.OceanShineWithdrawalPageRequest",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": "OceanShineWithdrawalPageResponse",
+      "responseCheck": "static field/type comparison to decrypted real response"
+    },
+    {
+      "path": "/Api/Match/Task",
+      "requestDto": "AccountModule.Apid_Usid_Vn_Request",
+      "requestKeySetMatches": true,
+      "missingFromExecutedRequest": [],
+      "extraExecutedRequestKeys": [],
+      "configuredPathMatchesExecutedPath": true,
+      "preservedResponseType": "List<RoutineTaskLookAdMoneyResponse>",
+      "responseCheck": "static field/type comparison to decrypted real response"
+    }
+  ],
+  "issues": [],
+  "notes": [
+    {
+      "path": "/Api/Match/NoticeList.response.FtMmSg",
+      "note": "Server returned null; nested/element DTO population was not exercised."
+    },
+    {
+      "path": "/Api/Match/Order.response",
+      "note": "Server returned null; nested/element DTO population was not exercised."
+    },
+    {
+      "path": "/Api/Match/Task",
+      "note": "Actual response root is array. This agrees with preserved local List<RoutineTaskLookAdMoneyResponse>; Swagger describes object."
+    }
+  ]
+}

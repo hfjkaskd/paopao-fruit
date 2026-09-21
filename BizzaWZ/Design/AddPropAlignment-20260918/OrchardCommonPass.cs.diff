@@ -1,0 +1,66 @@
+--- before/Assets/OrchardUI/Editor/OrchardCommonPass.cs
++++ after/Assets/OrchardUI/Editor/OrchardCommonPass.cs
+@@ -217,16 +217,58 @@
+         Title(root, "Content/BtnGroup/ButtonAnim/AdBtn/Text (TMP)");
+         var icon = Find(root, "Content/PropIcon");
+         if (icon != null && icon.TryGetComponent<Image>(out var propImage)) propImage.preserveAspect = true;
++
++        // Author the existing button parts together; runtime text and reward binding stay intact.
++        var group = Find(root, "Content/BtnGroup") as RectTransform;
++        if (group != null) group.anchoredPosition = new Vector2(0f, -382f);
++        var animationRoot = Find(root, "Content/BtnGroup/ButtonAnim") as RectTransform;
++        if (animationRoot != null) animationRoot.anchoredPosition = Vector2.zero;
++        var adButton = Find(root, "Content/BtnGroup/ButtonAnim/AdBtn") as RectTransform;
++        if (adButton != null)
++        {
++            adButton.anchoredPosition = Vector2.zero;
++            adButton.sizeDelta = new Vector2(460f, 150f);
++        }
++        var free = Find(root, "Content/BtnGroup/ButtonAnim/AdBtn/Text (TMP)");
++        if (free != null && free.TryGetComponent<TMP_Text>(out var freeLabel))
++        {
++            var rect = freeLabel.rectTransform;
++            rect.anchorMin = rect.anchorMax = new Vector2(.5f, .5f);
++            rect.anchoredPosition = new Vector2(49f, 0f);
++            rect.sizeDelta = new Vector2(218f, 90f);
++            freeLabel.fontSize = 56f;
++            freeLabel.enableAutoSizing = true;
++            freeLabel.fontSizeMin = 28f;
++            freeLabel.fontSizeMax = 56f;
++            freeLabel.enableWordWrapping = false;
++            freeLabel.alignment = TextAlignmentOptions.Center;
++        }
++        var adIcon = Find(root, "Content/BtnGroup/ButtonAnim/AdBtn/Image (3)");
++        if (adIcon != null && adIcon.TryGetComponent<Image>(out var adImage))
++        {
++            var rect = adImage.rectTransform;
++            rect.anchorMin = rect.anchorMax = new Vector2(.5f, .5f);
++            rect.anchoredPosition = new Vector2(-104f, 0f);
++            rect.sizeDelta = new Vector2(84f, 86f);
++            adImage.preserveAspect = true;
++        }
++        var rewardBadge = Find(root, "Content/BtnGroup/ButtonAnim/Pop") as RectTransform;
++        if (rewardBadge != null)
++        {
++            rewardBadge.anchoredPosition = new Vector2(221f, 68f);
++            rewardBadge.localScale = new Vector3(.48f, .48f, 1f);
++        }
+         var limit = Find(root, "Content/Limination");
+         if (limit != null && limit.TryGetComponent<TMP_Text>(out var limitLabel))
+         {
+             var rect = limitLabel.rectTransform;
+-            rect.sizeDelta = new Vector2(650f, 54f);
+-            rect.anchoredPosition = new Vector2(0f, -568f);
+-            limitLabel.fontSize = 36f;
++            rect.sizeDelta = new Vector2(650f, 42f);
++            rect.anchoredPosition = new Vector2(0f, -524f);
++            limitLabel.fontSize = 32f;
+             limitLabel.enableAutoSizing = true;
+-            limitLabel.fontSizeMin = 28f;
+-            limitLabel.fontSizeMax = 36f;
++            limitLabel.fontSizeMin = 24f;
++            limitLabel.fontSizeMax = 32f;
++            limitLabel.enableWordWrapping = false;
+             limitLabel.alignment = TextAlignmentOptions.Center;
+         }
+         // PropIcon and the reward-ad graphic remain semantic, dynamic sprites.

@@ -1,0 +1,21 @@
+Use case: precise-object-edit. Image1 is the exact FIXED LAYOUT target: original Unity screenshot containing portrait slot-machine help UI. Image2 is the same game's desired new slot-cabinet art STYLE reference only, NOT composition. Make a full OPAQUE 9:16 portrait game preview at 900x1600. Extract visual composition ONLY from the actual game viewport in image1 x=488..1328,y=61..1555 (original full image1820x1559). Remove Unity toolbar and outside black bars. Landscape must fill every pixel behind the UI: NO transparent/cutout/faded edges.
+
+Reskin existing giant stacked orange frames to a coherent traditional slot machine: deep bottle-green enamel body, warm honey wood side rails, narrow brass edging, top arched warm bulb marquee with embossed star and small leaves. Same material family as image2; no titles, words, jackpot values or new controls. All trim is painted within existing background images. Keep original quiet orchard landscape.
+
+MANDATORY measured element coordinates normalized to FINAL 9:16 game viewport: 
+Top existing decorative image footprint: x12.6%..87.4%, y4.7%..30.7%. Draw marquee here, not a giant empty ivory rectangular card. Art gaps reveal fully opaque sky.
+Main cabinet sides stay around x12.6%..87.4%, below marquee through about y87%. Its interior deep green. Do not enlarge to screen edges.
+Paytable panel x13.9%..85.9%, y31.9%..65.3%. Do NOT move table higher. Warm ivory inside, slim wood/brass border. Keep quiet top padding within panel, maybe faint engraved line ornament only.
+Exactly SIX row centers at y41.2%,45.4%,49.6%,53.8%,58.0%,62.2%. Three symbol column centers x26.1%,34.2%,42.4%. Equal signs x49.5%. Reward icon column x57.0%. Description text column center x71.0%. All proportions/row spacing fixed. Replace only blue icon tile backgrounds with ivory/thin brass; preserve all symbol meanings.
+Rows top to bottom:
+1 three red/blue poker chip stacks = pink cash pile; "Uma pequena quantidade" two lines.
+2 three black spade ace cards = pink cash pile; "Muitos".
+3 three white/red dice = pink cash pile; "Surpresa".
+4 three purple cocktail drinks = mixed gold coins AND pink cash; "Uma pequena quantidade" two lines.
+5 three pale-blue diamonds = mixed gold coins AND pink cash; "Muitos".
+6 chip stack, black spade ace, white/red die = mixed gold coins AND pink cash; "Recompensas em dobro" two lines.
+All text dark navy, readable, contained. Every row MUST remain; do not simplify or replace symbol or reward.
+
+Footer paragraph center(x49%,y73.4%), same block size as source, readable ivory on quiet deep green, exact existing Portuguese: "Você ganhará 1 oportunidade de sorteio a cada 5 níveis que completar. Quanto mais anúncios assistir, maior será a recompensa."
+Single bottom confirmation button center(50%,90.8%), bounds x30.9%..69.1%,y88.4%..93.4%, leaf-green with slim brass rim, one clear ivory checkmark replacing current accidental blue blob. Keep it below cabinet at original position; no shifting it up into cabinet.
+No added close/back/help buttons, levers, text headings, 777 or extra rules. Preserve original game UI geometry as specified; adapt ornament to geometry. It is an AI restyle mockup anchored to existing screenshot, not a redesigned screen or cropped isolated asset.

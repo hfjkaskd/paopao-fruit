@@ -1,0 +1,151 @@
+playing=True compiling=False
+screen=1080x1920 block=False ready=True
+inputLock=False mouse=(533.83, 536.08, 0.00)
+pointerHit=Game canvas=-1000 module=CorePlayUI handler=none
+matchRewardProgress=0 threshold=4 interProgress=0 interThreshold=3
+level=9 guideReady=True guideEnd=True revive=0
+unlockPending=0 completed=10021,10022,10023,10024
+board=30 basket=0 teach01=True
+stock=24:3
+stock=25:0
+stock=26:1
+stock=27:0
+canvas=Item_29_27 order=-1000 override=False
+canvas=Item_28_27 order=-1000 override=False
+canvas=Item_27_15 order=-1000 override=False
+canvas=Item_26_39 order=-1000 override=False
+canvas=Item_25_27 order=-1000 override=False
+canvas=Item_24_27 order=-1000 override=False
+canvas=Item_23_39 order=-1000 override=False
+canvas=Item_22_27 order=-1000 override=False
+canvas=Item_21_15 order=-1000 override=False
+canvas=Item_20_27 order=-1000 override=False
+canvas=Item_19_27 order=-1000 override=False
+canvas=Item_18_15 order=-1000 override=False
+canvas=Item_17_15 order=-1000 override=False
+canvas=Item_16_15 order=-1000 override=False
+canvas=Item_15_39 order=-1000 override=False
+canvas=Item_14_39 order=-1000 override=False
+canvas=Item_13_39 order=-1000 override=False
+canvas=Item_12_27 order=-1000 override=False
+canvas=Item_11_15 order=-1000 override=False
+canvas=Item_10_15 order=-1000 override=False
+canvas=Item_9_39 order=-1000 override=False
+canvas=Item_8_27 order=-1000 override=False
+canvas=Item_7_27 order=-1000 override=False
+canvas=Item_6_15 order=-1000 override=False
+canvas=Item_5_39 order=-1000 override=False
+canvas=Item_4_27 order=-1000 override=False
+canvas=Item_3_15 order=-1000 override=False
+canvas=Item_2_39 order=-1000 override=False
+canvas=Item_1_39 order=-1000 override=False
+canvas=Item_0_27 order=-1000 override=False
+canvas=CorePlayUI order=-1000 override=True
+canvas=Layer order=-989 override=True
+canvas=Box_Root order=-990 override=True
+canvas=Magic order=-980 override=True
+canvas=Map order=-1000 override=False
+canvas=GameUiWidget(Clone) order=0 override=False
+canvas=GlobalUI order=-500 override=True
+canvas=RealGamePanel(Clone) order=0 override=False
+canvas=PortraitKeyboardCanvas(Clone) order=100 override=False
+canvas=Reward Collect Flow order=0 override=False
+canvas=GameCanvas order=0 override=False
+disabledGroup=GameObject parent=RealGamePanel(Clone) block=False alpha=0
+text=Num: 3
+text=Num: 1
+text=Num (1): AD
+
+text=Num: AD
+
+text=Text (TMP): 4/5
+text=Text (TMP): Retirar
+text=DollarText: 217.9
+text=DollarAddText: +0.5$
+text=Text (TMP): R$0,00
+text=Text (TMP) (1): ≈
+text=DollarAddText (1): +0.5$
+text=GoldText: 0,12
+text=Text (TMP): 9
+button=Item_29_27 interactable=True screen=(482.24, 871.32)
+button=Item_28_27 interactable=True screen=(325.22, 960.81)
+button=Item_27_15 interactable=True screen=(580.68, 1334.24)
+button=Item_26_39 interactable=True screen=(429.36, 1465.22)
+button=Item_25_27 interactable=True screen=(621.36, 1618.98)
+button=Item_24_27 interactable=True screen=(217.02, 1306.58)
+button=Item_23_39 interactable=True screen=(621.36, 981.97)
+button=Item_22_27 interactable=True screen=(753.97, 1376.54)
+button=Item_21_15 interactable=True screen=(266.64, 1087.73)
+button=Item_20_27 interactable=True screen=(762.92, 824.14)
+button=Item_19_27 interactable=True screen=(220.27, 1192.68)
+button=Item_18_15 interactable=True screen=(700.27, 1475.80)
+button=Item_17_15 interactable=True screen=(472.47, 1282.17)
+button=Item_16_15 interactable=True screen=(924.81, 1455.46)
+button=Item_15_39 interactable=True screen=(336.61, 1334.24)
+button=Item_14_39 interactable=True screen=(229.22, 1430.24)
+button=Item_13_39 interactable=True screen=(567.66, 1461.97)
+button=Item_12_27 interactable=True screen=(603.46, 866.44)
+button=Item_11_15 interactable=True screen=(687.25, 1112.14)
+button=Item_10_15 interactable=True screen=(334.17, 1459.53)
+button=Item_9_39 interactable=True screen=(784.07, 1237.42)
+button=Item_8_27 interactable=True screen=(255.25, 1578.31)
+button=Item_7_27 interactable=True screen=(705.97, 1574.24)
+button=Item_6_15 interactable=True screen=(384.61, 1605.15)
+button=Item_5_39 interactable=True screen=(490.37, 1156.88)
+button=Item_4_27 interactable=True screen=(518.03, 1581.56)
+button=Item_3_15 interactable=True screen=(450.51, 991.73)
+button=Item_2_39 interactable=True screen=(370.78, 1206.51)
+button=Item_1_39 interactable=True screen=(649.02, 1253.70)
+button=Item_0_27 interactable=True screen=(784.07, 1005.56)
+button=Undo interactable=True screen=(326.85, 101.69)
+button=Magic interactable=True screen=(540.00, 101.69)
+button=Shuffle interactable=True screen=(753.15, 101.69)
+button=BtnFlowTreature interactable=True screen=(902.68, 331.30)
+button=SlotEnter interactable=True screen=(39.05, 118.78)
+button=DailyMission interactable=True screen=(981.11, 1606.78)
+button=PauseButton interactable=True screen=(893.08, 1825.63)
+button=FakeBtn interactable=True screen=(760.57, 1823.84)
+button=RealBtn interactable=True screen=(374.20, 1824.41)
+button=CharacterButton(Clone) interactable=True screen=(859.30, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(752.87, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(646.43, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(540.00, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(433.57, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(327.13, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(220.70, -428.02)
+button=CharacterButton(Clone) interactable=True screen=(965.74, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(859.30, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(752.87, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(646.43, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(540.00, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(433.57, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(327.13, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(220.70, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(114.26, -308.02)
+button=CharacterButton(Clone) interactable=True screen=(1018.95, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(912.52, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(806.09, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(699.65, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(593.22, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(486.78, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(380.35, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(273.91, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(167.48, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(61.05, -188.02)
+button=CharacterButton(Clone) interactable=True screen=(1018.80, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(912.40, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(806.00, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(699.60, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(593.20, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(486.80, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(380.40, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(274.00, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(167.60, -68.00)
+button=CharacterButton(Clone) interactable=True screen=(61.20, -68.00)
+button=DoneButton interactable=True screen=(1064.17, -548.02)
+button=DotButton interactable=True screen=(859.30, -548.02)
+button=SpaceButton interactable=True screen=(540.00, -548.02)
+button=CommaButton interactable=True screen=(220.70, -548.02)
+button=SymbolsButton interactable=True screen=(15.83, -548.02)
+button=BackspaceButton interactable=True screen=(1064.17, -428.02)
+button=ShiftButton interactable=True screen=(15.83, -428.02)

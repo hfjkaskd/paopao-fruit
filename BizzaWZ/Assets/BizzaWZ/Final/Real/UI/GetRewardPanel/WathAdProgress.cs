@@ -69,7 +69,12 @@ public class WathAdProgress : MonoBehaviour
     {
         startText.text = $"+{startRatio}%";
         endText.text = $"+{endRatio}%";
-        progressBar.fillAmount = (float)watchAdCount / totalWatchAdCount;
+        float progress = totalWatchAdCount > 0 ? Mathf.Clamp01((float)watchAdCount / totalWatchAdCount) : 0f;
+        // Resize the sliced fill inside the prefab's inset area to preserve both rounded ends.
+        Vector2 anchorMax = progressBar.rectTransform.anchorMax;
+        anchorMax.x = progress;
+        progressBar.rectTransform.anchorMax = anchorMax;
+        progressBar.enabled = progress > 0f;
         progressText.text = $"{watchAdCount}/{totalWatchAdCount}";
 
         if (isNotFull)

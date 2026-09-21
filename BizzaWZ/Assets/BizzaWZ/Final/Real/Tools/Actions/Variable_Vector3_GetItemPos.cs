@@ -24,14 +24,7 @@ public class Variable_Vector3_GetItemPos : Variable_Vector3
 
     public override Vector3 GetValue(in ExecuteArgs executeArgs)
     {
-        Vector3 pos = Vector3.zero;
-        // if (SpriteGridSpawner.Instance == null)
-        // {
-        //     LogLogger.LogError("SpriteGridSpawner.Instance == null");
-        //     return Vector3.zero;
-        // }
-        // pos = SpriteGridSpawner.Instance.GetCustomGridTileElementPosition();
-        return pos;
+        return HarvestBridge.GetGuideWorldPosition();
     }
 }
 #endif

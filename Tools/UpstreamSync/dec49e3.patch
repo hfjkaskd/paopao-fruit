@@ -1,0 +1,87 @@
+diff --git a/BizzaWZ/Assets/BizzaWZ/Common/Framework/Runtime/Module/FlowModule.cs b/BizzaWZ/Assets/BizzaWZ/Common/Framework/Runtime/Module/FlowModule.cs
+index d08ca47..d2bcdf5 100644
+--- a/BizzaWZ/Assets/BizzaWZ/Common/Framework/Runtime/Module/FlowModule.cs
++++ b/BizzaWZ/Assets/BizzaWZ/Common/Framework/Runtime/Module/FlowModule.cs
+@@ -152,8 +152,8 @@ public static class FlowModule
+         BridgingUtil.LoadGameLevel();
+     }
+ 
+-    // 游戏每次合成都会触发这个方法 传入剩余的合成次数
+-    public static void SynthesisLogic(int numRemaining)
++    // 游戏每次合成都会触发这个方法 传入剩余的合成次数和发生这次合成的位置
++    public static void SynthesisLogic(int numRemaining, Vector3 synthesisPos)
+     {
+ #if BIZZA_REAL_WITHDRAW
+         // var adinfo = RemoteGroupDataSystem.current.GetActiveAdStatisticsOrDefault(SaveDataUtils.GameData.playerSelectedLv);
+@@ -168,7 +168,7 @@ public static class FlowModule
+             return;
+         }
+ 
+-        NumbericalStatistics.CheckShowGetReward();
++        NumbericalStatistics.CheckShowGetReward(synthesisPos);
+ #endif
+     }
+ 
+diff --git a/BizzaWZ/Assets/BizzaWZ/Final/Real/Tools/NumbericalStatistics/NumbericalStatistics.AD.cs b/BizzaWZ/Assets/BizzaWZ/Final/Real/Tools/NumbericalStatistics/NumbericalStatistics.AD.cs
+index 39de835..75a3531 100644
+--- a/BizzaWZ/Assets/BizzaWZ/Final/Real/Tools/NumbericalStatistics/NumbericalStatistics.AD.cs
++++ b/BizzaWZ/Assets/BizzaWZ/Final/Real/Tools/NumbericalStatistics/NumbericalStatistics.AD.cs
+@@ -39,12 +39,16 @@ public partial class NumbericalStatistics
+     /// 合成指定次数打开   恭喜获得界面
+     /// </summary>
+     /// <returns></returns>
+-    public static bool CheckShowGetReward()
++    public static bool CheckShowGetReward(Vector3 pos)
+     {
+         ShowGetRewardNum++;
+         bool show = ShowGetRewardNum >= ShowGetRewardCount;
+         LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"打开恭喜获得界面 - 进度:{ShowGetRewardNum},最大次数:{ShowGetRewardCount},是否显示:{show}");
+-        if (!show) return false;
++        if (!show)
++        {
++            CheckGetDollar(pos);
++            return false;
++        }
+         ShowGetRewardNum = 0;
+         Real_GetRewardPanelUtil.OpenGetRewardPanel(DoubleGetRewardPanel.E_UseScene.MatchReward);
+         return true;
+@@ -74,7 +78,7 @@ public partial class NumbericalStatistics
+     /// 合成多少次出现Dollar界面
+     /// </summary>
+     /// <returns></returns>
+-    public static bool CheckGetDollar()
++    public static bool CheckGetDollar(Vector3 pos)
+     {
+         var showDollarCount = ShowDollarCount;
+         bool show = !ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode &&
+@@ -88,19 +92,20 @@ public partial class NumbericalStatistics
+         ItemEntry dollar = new()
+         {
+             Type = E_ItemType.Dollar,
+-            Count = WithdrawalUtil.GetCustomizedFloatByCountryType(moneyValue)
++            Count = WithdrawalUtil.GetCustomizedFloatByCountryType(moneyValue) / 5
+         };
+ 
+-        UIUtils.ShowTips(dollar, default, (pos1, pos2) =>
++        // UIUtils.ShowTips(dollar, default, (pos1, pos2) =>
++        // {
++
++        // });
++        ItemUtils.AddItem(dollar, new AddItemParam
+         {
+-            ItemUtils.AddItem(dollar, new AddItemParam
+-            {
+-                playAnim = true,
+-                isAd = false,
+-                startPos = pos2,
+-                bUiPos = false,
+-                source = DoubleGetRewardPanel.GetItemSource(DoubleGetRewardPanel.E_UseScene.Ad),
+-            });
++            playAnim = true,
++            isAd = false,
++            startPos = pos,
++            bUiPos = false,
++            source = DoubleGetRewardPanel.GetItemSource(DoubleGetRewardPanel.E_UseScene.Ad),
+         });
+         return true;
+     }

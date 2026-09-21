@@ -1,0 +1,62 @@
+{
+    "startedUtc": "2026-09-21T10:26:03.1315532Z",
+    "status": "Passed",
+    "waitReason": "Click dispatched through actual standard Button handler",
+    "error": "",
+    "scope": "Formal InitWZ startup; actual EventSystem hit and standard pointer events for HUD navigation only. No withdrawal submission, consent acceptance, tutorial bypass, or direct balance/save edits.",
+    "playObserved": true,
+    "uniTaskPlayerLoopInjected": true,
+    "editorPaused": false,
+    "applicationFocused": false,
+    "frameCount": 362,
+    "finished": true,
+    "passed": true,
+    "index": 3,
+    "phase": 2,
+    "deadline": 72.46161860000001,
+    "earliestNextClick": 43.9616187,
+    "buttons": [
+        {
+            "field": "coinBtn",
+            "expectedPage": "RealWithdrawPanel",
+            "visual": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+            "screenPoint": {
+                "x": 446.440673828125,
+                "y": 1826.440673828125
+            },
+            "topHit": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+            "handler": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+            "correctHandler": true,
+            "pageOpened": true,
+            "pageClosed": true
+        },
+        {
+            "field": "dollarBtn",
+            "expectedPage": "FakeWithdrawPanel",
+            "visual": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+            "screenPoint": {
+                "x": 758.847412109375,
+                "y": 1826.440673828125
+            },
+            "topHit": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+            "handler": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+            "correctHandler": true,
+            "pageOpened": true,
+            "pageClosed": true
+        },
+        {
+            "field": "settingBtn",
+            "expectedPage": "PausePanel",
+            "visual": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/PauseButton",
+            "screenPoint": {
+                "x": 901.2203369140625,
+                "y": 1826.440673828125
+            },
+            "topHit": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/PauseButton",
+            "handler": "[GameInstance]/GameCanvas/Content/BaseLayer/RealGamePanel(Clone)/Content/GameUiWidget(Clone)/CurrencyBar/PauseButton",
+            "correctHandler": true,
+            "pageOpened": true,
+            "pageClosed": true
+        }
+    ]
+}

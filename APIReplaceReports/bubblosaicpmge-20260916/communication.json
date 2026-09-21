@@ -1,0 +1,116 @@
+{
+  "testedAt": "2026-09-16T08:07:12.5267375-04:00",
+  "executed": true,
+  "operation": "Read existing application configuration only",
+  "method": "POST",
+  "endpoint": "https://app.fruittile.xin/Api/Match/AppConfig",
+  "tag": "FruitTileMatch",
+  "requestDefinition": "request.FruitTileMatchAppOtherConfigCustomizeReq",
+  "requestFields": {
+    "FtMaId": "bubblosaicpmge",
+    "vn": "1.0.1",
+    "FtMCkn": "look_ad_reward_mul"
+  },
+  "requestHeaders": {
+    "X-Bundle": "com.webpack.picturemerge"
+  },
+  "encryption": {
+    "algorithm": "Project Xxtea.XXTEA; UTF-8 JSON; Base64 ciphertext in JSON sign wrapper",
+    "source": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/xxtea-dotnet-master/XXTEA/XXTEA.cs",
+    "localRoundTrip": true,
+    "secretRecorded": false
+  },
+  "httpStatusCode": 200,
+  "responseBytes": 195,
+  "responseOuter": {
+    "code": 200,
+    "msg": null,
+    "message": "success",
+    "st": null,
+    "dataPresent": true
+  },
+  "decryption": {
+    "attempted": true,
+    "success": true,
+    "jsonParsed": true,
+    "payload": {
+      "hp_one": 10,
+      "hp_one_rate": 5,
+      "hp_three": 50,
+      "hp_three_rate": 20,
+      "hp_two": 30,
+      "hp_two_rate": 10,
+      "next_day": 42758
+    }
+  },
+  "business": {
+    "success": true,
+    "expectedConfigKeys": [
+      "hp_one",
+      "hp_one_rate",
+      "hp_two",
+      "hp_two_rate",
+      "hp_three",
+      "hp_three_rate"
+    ],
+    "missingExpectedKeys": [],
+    "judgment": "HTTP and API code 200; response decrypted and all six configuration keys consumed by existing business logic are present.",
+    "otherParameterMapping": [
+      {
+        "file": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+        "field": "one_Count",
+        "jsonPath": "$.hp_one",
+        "oldKey": "hp_one",
+        "newKey": "hp_one",
+        "returnedValue": 10,
+        "status": "Already matches live decrypted response"
+      },
+      {
+        "file": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+        "field": "one_Ratio",
+        "jsonPath": "$.hp_one_rate",
+        "oldKey": "hp_one_rate",
+        "newKey": "hp_one_rate",
+        "returnedValue": 5,
+        "status": "Already matches live decrypted response"
+      },
+      {
+        "file": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+        "field": "two_Count",
+        "jsonPath": "$.hp_two",
+        "oldKey": "hp_two",
+        "newKey": "hp_two",
+        "returnedValue": 30,
+        "status": "Already matches live decrypted response"
+      },
+      {
+        "file": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+        "field": "two_Ratio",
+        "jsonPath": "$.hp_two_rate",
+        "oldKey": "hp_two_rate",
+        "newKey": "hp_two_rate",
+        "returnedValue": 10,
+        "status": "Already matches live decrypted response"
+      },
+      {
+        "file": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+        "field": "three_Count",
+        "jsonPath": "$.hp_three",
+        "oldKey": "hp_three",
+        "newKey": "hp_three",
+        "returnedValue": 50,
+        "status": "Already matches live decrypted response"
+      },
+      {
+        "file": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Connect_SDK/SDK_WKY/API/AccountModuleCfg.cs",
+        "field": "three_Ratio",
+        "jsonPath": "$.hp_three_rate",
+        "oldKey": "hp_three_rate",
+        "newKey": "hp_three_rate",
+        "returnedValue": 20,
+        "status": "Already matches live decrypted response"
+      }
+    ]
+  },
+  "failureReason": null
+}

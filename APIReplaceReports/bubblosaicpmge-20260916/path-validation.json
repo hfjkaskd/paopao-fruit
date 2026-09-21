@@ -1,0 +1,312 @@
+{
+  "cache": "C:\\Users\\pc\\Desktop\\PlayCloudSdk\\PlayCloud_API\\LocalAPIData\\swagger-doc.json",
+  "sha256": "2cc542196b95d2b48f35e4b194d0d65a3e1612f1d8423e838f226a77d88d97e7",
+  "tag": "FruitTileMatch",
+  "paths": [
+    {
+      "constant": "add_ecpm",
+      "before": "/Api/Match/AddRe",
+      "after": "/Api/Match/AddRe",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchBalanceReportEcpm",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "add_order",
+      "before": "/Api/Match/Pay",
+      "after": "/Api/Match/Pay",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchApplyWithdrawal",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "add_order_task",
+      "before": "/Api/Match/TaskPay",
+      "after": "/Api/Match/TaskPay",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchApplyWithdrawalMoneyRoll",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "base_list",
+      "before": "/Api/Match/AppConfig",
+      "after": "/Api/Match/AppConfig",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchAppOtherConfigCustomize",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "from",
+      "before": "/Api/Match/Come",
+      "after": "/Api/Match/Come",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchUserAttrs",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "get_ecpm_id",
+      "before": "/Api/Match/ReId",
+      "after": "/Api/Match/ReId",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchGetBalanceReportId",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "login",
+      "before": "/Api/Match/Login",
+      "after": "/Api/Match/Login",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchUserLogin",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "msg",
+      "before": "/Api/Match/Notice",
+      "after": "/Api/Match/Notice",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchFeedback",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "msg_list",
+      "before": "/Api/Match/NoticeList",
+      "after": "/Api/Match/NoticeList",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchFeedbackList",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "new_user",
+      "before": "/Api/Match/New",
+      "after": "/Api/Match/New",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchNewComerReport",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "number",
+      "before": "/Api/Match/Level",
+      "after": "/Api/Match/Level",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchUserReachReport",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "order_list",
+      "before": "/Api/Match/Order",
+      "after": "/Api/Match/Order",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchWithdrawalRecords",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "order_name",
+      "before": "/Sport/Balls/OrderName",
+      "after": "/Sport/Balls/OrderName",
+      "status": "Unresolved",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "SportBallsMatchWithdrawalUserList",
+          "tags": [
+            "SportBallsMatch"
+          ]
+        }
+      ],
+      "reason": "Path does not belong to FruitTileMatch; no guess or replacement"
+    },
+    {
+      "constant": "plat_from",
+      "before": "/Api/Match/Page",
+      "after": "/Api/Match/Page",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchWithdrawalPage",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "task_list",
+      "before": "/Api/Match/Task",
+      "after": "/Api/Match/Task",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchaskLookAdMoney",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "user_info",
+      "before": "/Api/Match/Info",
+      "after": "/Api/Match/Info",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchUserInfo",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "user_name",
+      "before": "/Api/Match/Name",
+      "after": "/Api/Match/Name",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchUserNickName",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "ad_info",
+      "before": "/Api/MatchLog/AdShow",
+      "after": "/Api/MatchLog/AdShow",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchAdLogReport",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    },
+    {
+      "constant": "app_info",
+      "before": "/Api/MatchLog/AppEven",
+      "after": "/Api/MatchLog/AppEven",
+      "status": "Matched",
+      "operations": [
+        {
+          "verb": "POST",
+          "operation": "FruitTileMatchAppEventReport",
+          "tags": [
+            "FruitTileMatch"
+          ]
+        }
+      ],
+      "reason": "Exact tag and path; unchanged"
+    }
+  ],
+  "matched_count": 18
+}

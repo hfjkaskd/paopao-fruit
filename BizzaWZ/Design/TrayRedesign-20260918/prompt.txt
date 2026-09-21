@@ -1,0 +1,16 @@
+Use case: precise-object-edit / ui-mockup.
+Create ONE polished implementation-conscious localized redesign preview for a Unity orchard fruit puzzle game.
+
+Input image 1 is the EDIT TARGET: the user's 863x357 crop containing the existing wooden fruit collection tray, brown square lock button at the right end, grassy background and partially visible bottom buttons.
+Input image 2 is a STYLE REFERENCE: the original game's cyan-blue rounded extra-space button, viewed slightly from above with a deep blue lower edge.
+Input image 3 is a GLYPH REFERENCE: the original game's clear white padlock with blue edging.
+
+Change ONLY the tray artwork and the right-end lock button in image 1. Keep the exact crop, camera/viewpoint, surrounding grass and water, all visible bottom controls, and all control positions unchanged. Keep the tray's full outside footprint and empty fruit collection capacity. Keep the lock button centered at the same right-end position and inside the same approximate 117x127 pixel footprint. The target composition is fixed; this is reskinning existing sprites, not redesigning the layout.
+
+Design direction: return to the original game's friendly rounded, lightly 3D cartoon appearance, with a simple honey-colored wooden tray, clean cream-colored rim, broad soft highlights, quiet simplified grain, and smoothly rounded corners. Refine the deep heavy basin into a visually lighter, cleaner fruit collection tray while retaining the SAME outer silhouette footprint and the unobstructed interior. Use a subtly darker inner back wall, a spacious light warm center surface, a neat rounded front lip and restrained shadow so collected fruit will read clearly. No compartments or slot divisions.
+
+Replace the current flat square brown wood-and-bronze lock tile with a cohesive rounded cyan-to-blue extra-space button inspired by image 2. It should look seated naturally at the right end of the tray in the tray's gently top-down perspective, within the original button footprint. The button has a clean rounded top face, a modest darker-blue lower edge for depth and one soft highlight, WITHOUT the severe skew or tall bulging distortion of stretching an existing sprite. Put a large simple WHITE PADLOCK inspired by image 3 centered on its top face, very legible at game size, with a small blue keyhole and a subtle blue edge shadow. LOCKED STATE ONLY: one lock glyph; no +1, no text, no second state or second button. The lock glyph and button are visually separable for implementation on the two existing Image components.
+
+Art quality: polished casual mobile game sprite rendering; simplified, cohesive, slightly soft 3D shading matching the original game, not realistic furniture or metallic hardware. The blue button should be readable but should not be oversized or cover any more collection area than the current one. No leaves, branches, flowers, extra badges, coins, handles, screws, gold decorative frames, fruits or new UI elements. Preserve all unaffected pixels as closely as possible.
+
+Output a single wide landscape crop matching image 1's approximately 2.42:1 aspect ratio (about 1728x714 is appropriate), at high clarity. Do not include a side-by-side, reference sheet, labels, text, watermarks or editor UI. This is a clean AI visual preview, not a Unity runtime screenshot.
