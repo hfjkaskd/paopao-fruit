@@ -178,7 +178,7 @@ public static partial class OrchardApprovedPass
         var page=root.GetComponent<WithdrawDanPanel>();
         for(int i=0;i<page.danSprites.Count;i++)
         {
-            string path=$"Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel{i+1}.png";
+            string path=$"Assets/OrchardUI/Art/MilestoneBadges/OrchardBadge{i+1:00}.png";
             var sprite=AssetDatabase.LoadAssetAtPath<Sprite>(path);
             if(sprite==null)throw new System.InvalidOperationException("Missing milestone icon: "+path);
             page.danSprites[i]=sprite;

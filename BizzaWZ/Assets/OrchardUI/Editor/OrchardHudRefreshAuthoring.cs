@@ -57,19 +57,41 @@ public static class OrchardHudRefreshAuthoring
             if(fit==null) { fit=new GameObject("OrchardGiftFit",typeof(RectTransform)).transform; fit.SetParent(root.transform,false); }
             Rect(fit,0,222,224,220,.875f,0); gift.SetParent(fit,false); Rect(gift,0,0,224,220);
             var badge=gift.GetComponentInChildren<BadgeShow>(true);
-            Rect(badge.transform,0,0,224,220); Rect(badge.badgeImg.transform,0,0,232,208);
+            Rect(badge.transform,0,0,224,220); Rect(badge.badgeImg.transform,0,8,220,220);
             if(badge.badges.Count!=7) throw new InvalidOperationException("Milestone badge count changed.");
             for(int i=0;i<badge.badges.Count;i++)
             {
-                string path=$"Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel{i+1}.png";
+                string path=$"Assets/OrchardUI/Art/MilestoneBadges/OrchardBadge{i+1:00}.png";
                 badge.badges[i]=AssetDatabase.LoadAssetAtPath<Sprite>(path);
                 if(badge.badges[i]==null) throw new InvalidOperationException("Missing milestone badge: "+path);
             }
             badge.badgeImg.sprite=badge.badges[0]; badge.badgeImg.type=Image.Type.Simple;
             badge.badgeImg.preserveAspect=true; badge.badgeImg.color=Color.white; badge.badgeImg.enabled=true;
-            At(root,"OrchardGiftFit/DailyMissionItem/Badge/Image (3)").GetComponent<Image>().enabled=false;
-            Rect(badge.priceTxt.transform,0,-75,184,43); Text(badge.priceTxt,36,23,true);
-            badge.GetComponent<Button>().targetGraphic=badge.badgeImg; badge.badgeImg.raycastTarget=true;
+            var badgePlate=At(root,"OrchardGiftFit/DailyMissionItem/Badge/Image (3)");
+            Rect(badgePlate,0,0,224,220); badgePlate.SetAsFirstSibling();
+            var badgePlateImage=badgePlate.GetComponent<Image>();
+            badgePlateImage.sprite=AssetDatabase.LoadAssetAtPath<Sprite>("Assets/OrchardUI/Art/HudMilestoneEntryPlate.png");
+            if(badgePlateImage.sprite==null) throw new InvalidOperationException("Missing badge button plate.");
+            badgePlateImage.type=Image.Type.Simple; badgePlateImage.preserveAspect=true;
+            badgePlateImage.color=Color.white; badgePlateImage.raycastTarget=true; badgePlateImage.enabled=true;
+            var amountBox=badge.transform.Find("BadgeAmountBox");
+            if(amountBox==null)
+            {
+                var go=new GameObject("BadgeAmountBox",typeof(RectTransform),typeof(CanvasRenderer),typeof(Image));
+                go.layer=5; go.transform.SetParent(badge.transform,false); amountBox=go.transform;
+            }
+            Rect(amountBox,0,-108,216,72);
+            var amountImage=amountBox.GetComponent<Image>();
+            amountImage.sprite=Sprite("HudBalance"); amountImage.type=Image.Type.Simple;
+            amountImage.preserveAspect=false; amountImage.pixelsPerUnitMultiplier=1;
+            amountImage.color=Color.white; amountImage.raycastTarget=false; amountImage.enabled=true;
+            amountBox.SetAsLastSibling(); badge.priceTxt.transform.SetAsLastSibling();
+            Rect(badge.priceTxt.transform,0,-108,200,56); Text(badge.priceTxt,52,40,false);
+            var amountFont=AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/OrchardUI/Fonts/Fidelity/Baloo2 SemiBold SDF.asset");
+            if(amountFont==null) throw new InvalidOperationException("Missing badge amount font.");
+            badge.priceTxt.font=amountFont; badge.priceTxt.fontSharedMaterial=amountFont.material;
+            badge.priceTxt.fontStyle=FontStyles.Normal;
+            badge.GetComponent<Button>().targetGraphic=badgePlateImage; badge.badgeImg.raycastTarget=false;
             var daily=At(root,"OrchardGiftFit/DailyMissionItem/DailyMission"); Rect(daily,0,0,224,220);
             var dailyImage=At(root,"OrchardGiftFit/DailyMissionItem/DailyMission/Image (1)");
             Paint(dailyImage,"HudGift"); Rect(dailyImage,0,0,232,208); daily.GetComponent<Button>().targetGraphic=dailyImage.GetComponent<Image>();
