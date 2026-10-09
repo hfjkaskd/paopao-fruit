@@ -49,6 +49,7 @@ public class SlotRewardPanel : MonoBehaviour
 
     public void Init(float coin, float dollar, string resultType, bool fromAd = false)
     {
+        dollar = WithdrawalUtil.NormalizeIndonesianReward(dollar);
         adReward = fromAd;
         claimed = false;
         initialized = true;

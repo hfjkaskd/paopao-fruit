@@ -48,7 +48,7 @@ public class SlotPanel : UIPageBase
         // Settle the existing result once, rather than discard the won reward.
         if (slotRewardPanel.HasUnclaimedReward) slotRewardPanel.OnClickClose();
         BizzaEventSystem.Set(EventDefine.CustomGameEvent.SlotProgressChanged, OnProgressChanged, false);
-        SoundManager.Instance.PlayBGM("BGMusic");
+        GameAudio.PlayMusic();
     }
 
     protected override void OnOpen()
