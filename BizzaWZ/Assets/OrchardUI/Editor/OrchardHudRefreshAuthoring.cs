@@ -27,7 +27,8 @@ public static class OrchardHudRefreshAuthoring
             var originalCoin = bar.coinBtn; var originalDollar = bar.dollarBtn; var originalSetting = bar.settingBtn;
             var top = At(root,"CurrencyBar"); Rect(top,0,-153,1240,200,.5f,1);
             var level = At(root,"CurrencyBar/Image"); Rect(level,-506,0,206,200); Paint(level,"HudLevel");
-            Rect(bar.curLevelTxt.transform,4,-20,117,83); Text(bar.curLevelTxt,61,42,false);
+            // Center the number on the circular plate, excluding the asymmetric leaves.
+            Rect(bar.curLevelTxt.transform,14,-17,117,83); Text(bar.curLevelTxt,61,42,false);
             var settings = At(root,"CurrencyBar/PauseButton"); Rect(settings,516,0,194,175); Paint(settings,"HudSettings");
             At(root,"CurrencyBar/PauseButton/Icon").GetComponent<Image>().enabled=false;
             bar.settingBtn.targetGraphic=settings.GetComponent<Image>();
