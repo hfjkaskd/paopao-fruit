@@ -1,0 +1,109 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach/UITeachFingerMovePage.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation UITeachFingerMovePage",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "UITeachFingerMovePage.finger = Finger"
+            ]
+        },
+        {
+            "path": "Finger",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Finger/SkeletonGraphic (SHOU)",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 194.15509033203126,
+                "y": 201.18505859375
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.3699881434440613,
+                "y": 0.6459226608276367
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

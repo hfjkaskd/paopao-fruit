@@ -1,0 +1,25 @@
+HUD refresh completed 2026-10-08
+
+Approved reference: approved-mockup.png
+Production prefabs:
+Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab
+Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab
+
+Top: leaf level badge, two equal cream balance cards, independent green exchange and Withdraw affordances, leafy settings icon.
+Bottom: five positions at 0.125 / 0.3125 / 0.5 / 0.6875 / 0.875. Original crown entry uses the orchard gift, keeps the original amount data and country-dependent routes. BadgeShow sprite list uses the new gift so runtime refresh cannot restore the old crown. The regional Daily entry retains its existing flow and uses a localized Daily / Diário caption.
+Responsive sizing uses the existing OrchardReferenceLayout component with prefab-authored reference size and elements. The gift pulse animates inside a separate fitting parent. Gameplay objects, basket and tray lock are unchanged.
+
+Preserved routes (existing code unchanged):
+CurrencyBar.coinBtn -> RealWithdrawPanel
+CurrencyBar.dollarBtn -> FakeWithdrawPanel
+CurrencyBar.settingBtn -> PausePanel
+SlotEnter -> SlotPanel
+ItemForCountry -> existing WithdrawDanPanel / DailyMissionPanel country mappings
+Undo / Magic / Shuffle -> existing CorePlayItemBtn and UIPropEntry logic
+
+Validation:
+Unity 2022.3.62f3 compiled and exited successfully.
+9:16 and 9:20 static prefab previews passed: 8 original Buttons, 24 visual-area raycast samples per ratio, all relevant controls inside the viewport, no top text overflow.
+See preview-16x9-checks.txt, preview-20x9-checks.txt and preview-check.log.
+Previews intentionally show HUD and basket only; they do not run gameplay or load account data.
+No APK was built and no device/gameplay/network flow was exercised for this change.

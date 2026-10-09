@@ -202,8 +202,9 @@ public static class OrchardSkinAuthoring
                 AssetDatabase.CreateAsset(material, path);
             }
             if (material.HasProperty("_FaceColor")) material.SetColor("_FaceColor", Color.white);
-            if (material.HasProperty("_FaceDilate")) material.SetFloat("_FaceDilate", 0);
-            if (material.HasProperty("_OutlineWidth")) material.SetFloat("_OutlineWidth", title ? .13f : 0f);
+            if (material.HasProperty("_FaceDilate")) material.SetFloat("_FaceDilate", title ? .20f : 0f);
+            if (material.HasProperty("_OutlineWidth")) material.SetFloat("_OutlineWidth", title ? .16f : 0f);
+            if (title) material.EnableKeyword("OUTLINE_ON"); else material.DisableKeyword("OUTLINE_ON");
             if (material.HasProperty("_OutlineColor")) material.SetColor("_OutlineColor", new Color32(72, 46, 25, 255));
             if (material.HasProperty("_UnderlayColor")) material.SetColor("_UnderlayColor", Color.clear);
             material.DisableKeyword("UNDERLAY_ON");

@@ -1,0 +1,117 @@
+{
+    "startedUtc": "2026-09-28T10:55:47.1678040Z",
+    "status": "complete",
+    "error": "",
+    "index": 3,
+    "phase": 0,
+    "pages": [
+        {
+            "page": "AddPropPanel / type 24",
+            "openMethod": "Production UIModule.OpenPage<E_ItemType>",
+            "closeMethod": "EventSystem pointer click on CloseBtn",
+            "screenshot": "Design/OrchardBoosterRefinement-20260928/Runtime/00-AddPropPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 744.0,
+                        "y": 1356.0
+                    }
+                },
+                {
+                    "name": "AdBtn",
+                    "topHit": "AdBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 427.0,
+                        "y": 620.0
+                    }
+                }
+            ],
+            "checks": [
+                "Resources artwork loaded; selected name/icon/description and real usage count match the requested prop",
+                "Claim Button receives pointer down/up; click and ad reward intentionally not invoked",
+                "Close returned to gameplay; prop quantity and usage count unchanged"
+            ]
+        },
+        {
+            "page": "AddPropPanel / type 25",
+            "openMethod": "Production UIModule.OpenPage<E_ItemType>",
+            "closeMethod": "EventSystem pointer click on CloseBtn",
+            "screenshot": "Design/OrchardBoosterRefinement-20260928/Runtime/01-AddPropPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 744.0,
+                        "y": 1356.0
+                    }
+                },
+                {
+                    "name": "AdBtn",
+                    "topHit": "AdBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 427.0,
+                        "y": 620.0
+                    }
+                }
+            ],
+            "checks": [
+                "Resources artwork loaded; selected name/icon/description and real usage count match the requested prop",
+                "Claim Button receives pointer down/up; click and ad reward intentionally not invoked",
+                "Close returned to gameplay; prop quantity and usage count unchanged"
+            ]
+        },
+        {
+            "page": "AddPropPanel / type 26",
+            "openMethod": "Production UIModule.OpenPage<E_ItemType>",
+            "closeMethod": "EventSystem pointer click on CloseBtn",
+            "screenshot": "Design/OrchardBoosterRefinement-20260928/Runtime/02-AddPropPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 744.0,
+                        "y": 1356.0
+                    }
+                },
+                {
+                    "name": "AdBtn",
+                    "topHit": "AdBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 427.0,
+                        "y": 620.0
+                    }
+                }
+            ],
+            "checks": [
+                "Resources artwork loaded; selected name/icon/description and real usage count match the requested prop",
+                "Claim Button receives pointer down/up; click and ad reward intentionally not invoked",
+                "Close returned to gameplay; prop quantity and usage count unchanged"
+            ]
+        }
+    ],
+    "errors": [
+        "开启测试设备False"
+    ]
+}

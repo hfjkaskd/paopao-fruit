@@ -1,0 +1,1161 @@
+{
+    "prefab": "loading",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardLoadingArtwork",
+            "type": "Image:True:1",
+            "sprite": "ApprovedLoading",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardLoadingArtwork/EmptyTrack",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.49945068359377,
+                "y": 1500.125244140625
+            },
+            "size": {
+                "x": 706.7657470703125,
+                "y": 93.100830078125
+            },
+            "min": {
+                "x": 0.08558030426502228,
+                "y": 0.16214750707149507
+            },
+            "max": {
+                "x": 0.9132473468780518,
+                "y": 0.2125813513994217
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardLoadingArtwork/EmptyLeftCap",
+            "type": "Image:False:1",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 202.30972290039063,
+                "y": 1493.8026123046875
+            },
+            "size": {
+                "x": 27.223983764648439,
+                "y": 44.16265869140625
+            },
+            "min": {
+                "x": 0.22210414707660676,
+                "y": 0.17882774770259858
+            },
+            "max": {
+                "x": 0.25398513674736025,
+                "y": 0.20275118947029115
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardLoadingArtwork/LoadingProgressTrack",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0000305175781,
+                "y": 1500.125244140625
+            },
+            "size": {
+                "x": 665.7213134765625,
+                "y": 61.066162109375
+            },
+            "min": {
+                "x": 0.11019929498434067,
+                "y": 0.17082428932189942
+            },
+            "max": {
+                "x": 0.8898007273674011,
+                "y": 0.20390455424785615
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardLoadingArtwork/LoadingProgressTrack/LoadingProgress",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 316.156005859375,
+                "y": 1500.125244140625
+            },
+            "size": {
+                "x": 446.0332946777344,
+                "y": 61.066162109375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.6700000166893005,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardLoadingArtwork/ApprovedLoadingLabel",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Loading...",
+            "active": true,
+            "position": {
+                "x": 425.49945068359377,
+                "y": 1572.203369140625
+            },
+            "size": {
+                "x": 338.3665771484375,
+                "y": 51.05535888671875
+            },
+            "min": {
+                "x": 0.30128955841064455,
+                "y": 0.1344902366399765
+            },
+            "max": {
+                "x": 0.6975380778312683,
+                "y": 0.16214750707149507
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 33.0,
+            "fields": []
+        },
+        {
+            "path": "BG",
+            "type": "Image:False:1",
+            "sprite": "Bg_Loading",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG/LoadingAnim_Raw",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 2110.09716796875,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG/LoadingAnim_Player",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Logo",
+            "type": "Image:True:1",
+            "sprite": "Icon_LoadingLogo",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 428.0
+            },
+            "size": {
+                "x": 677.6470336914063,
+                "y": 450.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "LoadingBar",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1652.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "LoadingBar/Bus",
+            "type": "Image:True:1",
+            "sprite": "Icon_LoadingProgress",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -5.0,
+                "y": 1522.0
+            },
+            "size": {
+                "x": 137.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "LoadingBar/Text (TMP) (1)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Loading...",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1663.0
+            },
+            "size": {
+                "x": 500.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "LoadingBar/Image",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 420.5682067871094,
+                "y": 1585.75
+            },
+            "size": {
+                "x": 870.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "LoadingBar/Image/Fill",
+            "type": "Image:True:1",
+            "sprite": "ProgressFill",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 420.5683898925781,
+                "y": 1585.75
+            },
+            "size": {
+                "x": 852.0,
+                "y": 51.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "LoadingBar/Text (TMP) (2)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "99%",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1587.0
+            },
+            "size": {
+                "x": 500.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Camera",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/bg",
+            "type": "Image:False:1",
+            "sprite": "LoadingBg",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 2340.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 2340.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/Logo",
+            "type": "Image:True:1",
+            "sprite": "LoadingLogo",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 311.0
+            },
+            "size": {
+                "x": 856.0,
+                "y": 498.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.699999988079071
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.699999988079071
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1606.0
+            },
+            "size": {
+                "x": 780.0,
+                "y": 550.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1495.0
+            },
+            "size": {
+                "x": 726.0,
+                "y": 279.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn/Bg",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1495.0
+            },
+            "size": {
+                "x": 726.0,
+                "y": 279.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn/Bg/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 806.8200073242188,
+                "y": 1495.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn/Bg/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 45.17999267578125,
+                "y": 1495.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Btn_Normal",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1487.0
+            },
+            "size": {
+                "x": 672.0,
+                "y": 227.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn/Image/LevelTextShadow",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Start",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1479.0
+            },
+            "size": {
+                "x": 500.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 100.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/PlayBtn/Image/LevelTextShadow/LevelText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Start",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1479.0
+            },
+            "size": {
+                "x": 500.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 100.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/PrivacyPolicy/Privacy",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Press ‘start’ to accept the <color=#ffd131><u><link=\"https://docs.google.com/document/d/1UrrjU_q_GCdd77yPUV3tPJtGvgP5apasI3nJJWgFsOg/edit?usp=sharing\">Privacy Policy</link></u></color> and start this game.",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1701.0
+            },
+            "size": {
+                "x": 780.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/ProgressBg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1557.0
+            },
+            "size": {
+                "x": 766.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/ProgressBg/ProgressFg",
+            "type": "Image:True:1",
+            "sprite": "ProgressFill",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1558.0
+            },
+            "size": {
+                "x": 740.0,
+                "y": 52.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HarvestLoadingVisual/MidContent/ProgressBg/Loading",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "loading...",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1663.0
+            },
+            "size": {
+                "x": 780.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 50.0,
+            "fields": []
+        }
+    ]
+}

@@ -41,6 +41,9 @@ public class Action_Teach_ShowTip : ActionNodeBase
         directValue = 0,
     };
 
+    [GraphVariable(LabelText = "避让目标路径", Required = false, TipsText = "配置后提示优先放在目标上方，留空保持原定位")]
+    public StringWrapper targetPath;
+
     public override object Clone()
     {
         var clone = new Action_Teach_ShowTip();
@@ -49,6 +52,7 @@ public class Action_Teach_ShowTip : ActionNodeBase
         clone.posIdx = (FloatWrapper)posIdx?.Clone();
         clone.alpha = (FloatWrapper)alpha?.Clone();
         clone.height = (FloatWrapper)height?.Clone();
+        clone.targetPath = (StringWrapper)targetPath?.Clone();
         return clone;
     }
 
@@ -68,6 +72,7 @@ public class Action_Teach_ShowTip : ActionNodeBase
             posIdx = posIdxValue,
             alpha = alphaValue,
             heightValue = heightValue,
+            targetPath = targetPath.GetValueWithDefault(executeArgs, ""),
         };
         UIModule.Instance.OpenPage(UIPageIds.UI_TeachTip, param).Forget();
     }

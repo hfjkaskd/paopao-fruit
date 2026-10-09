@@ -1,0 +1,66 @@
+{
+  "generatedUtc": "2026-09-28T14:18:52.686189+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "referenceSize": [
+    852,
+    1846
+  ],
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T14:17:28.3237458Z",
+      "status": "complete",
+      "buttonHitChecks": 4,
+      "loggedErrors": [],
+      "checks": [
+        "Live response populates progress and state after formal initialization",
+        "Reward appears once; 8/30 uses a proportional orange fill over dark track; countdown advances; seven complete untinted art sprites fit screen",
+        "Incomplete / ready / claimed state presents exactly one standard action Button; each action receives center hits. Ad and payout actions are not invoked.",
+        "Zero target safely produces 0/0 and empty fill",
+        "Reopen restores live data; saved daily count, ad-click count, balance and withdrawal time unchanged"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T14:17:06.2921774Z",
+      "status": "complete",
+      "buttonHitChecks": 4,
+      "loggedErrors": [],
+      "checks": [
+        "Live response populates progress and state after formal initialization",
+        "Reward appears once; 8/30 uses a proportional orange fill over dark track; countdown advances; seven complete untinted art sprites fit screen",
+        "Incomplete / ready / claimed state presents exactly one standard action Button; each action receives center hits. Ad and payout actions are not invoked.",
+        "Zero target safely produces 0/0 and empty fill",
+        "Reopen restores live data; saved daily count, ad-click count, balance and withdrawal time unchanged"
+      ]
+    }
+  },
+  "buttonHitChecksPassed": 8,
+  "layoutSpecsUnchanged": true,
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab": "7f1e48d317ce5e17bf4525b5e5abd80eb86151c5b06fb4ee40c8d9c64cce532a",
+    "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.cs": "82e19e0f7d57491fb9bc1d790bc8e8f0613616a76046d6422ebd2794b0ab1372",
+    "Assets/OrchardUI/Resources/OrchardUI/DailyReferenceControls.png": "ee2bb18f904c3a9c9a8a9b3d2621d6535700faaa150e61b7a8317d24c9e5aef4",
+    "Assets/OrchardUI/Resources/OrchardUI/DailyReferenceControls.png.meta": "bfafc4ad94028c12ef6605a3b5891e02545e88ca9d83f625e544faf021472c7f",
+    "Assets/OrchardUI/Runtime/OrchardDailyVisual.cs": "2e888f033eb94103bfc244d80e070cbb8b0d93223ef5989d69454d4092c46214"
+  },
+  "limitations": [
+    "Temporary task values only exercise the shared view refresh method. Live server response is captured first and restored by closing/reopening.",
+    "No rewarded ad launched; no reward or withdrawal requested.",
+    "No Android/iOS device build tested.",
+    "Visual refinement does not prove complete pixel identity."
+  ]
+}

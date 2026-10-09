@@ -1,0 +1,38 @@
+{
+    "startedUtc": "2026-09-28T12:05:40.0831948Z",
+    "status": "complete",
+    "error": "",
+    "index": 3,
+    "phase": 9,
+    "pages": [
+        {
+            "page": "UIWithdrawalPanel",
+            "openMethod": "InitWZ initialization, HUD coin Button, server payment platform, existing UIModule account page",
+            "closeMethod": "Back Button EventSystem click",
+            "screenshot": "Design/OrchardAccountRefinement-20260928/RuntimeShort/00-account.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "BtnWithdrawal",
+                    "topHit": "BtnWithdrawal",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 541.5601196289063,
+                        "y": 383.7919921875
+                    }
+                }
+            ],
+            "checks": [
+                "Logo preserves its sprite aspect; all input frames use wide native artwork within 2% aspect tolerance",
+                "Input 0: EventSystem hit, focus, blue frame, edit, restored text, deselection and gold frame passed",
+                "Input 1: EventSystem hit, focus, blue frame, edit, restored text, deselection and gold frame passed",
+                "Input 2: EventSystem hit, focus, blue frame, edit, restored text, deselection and gold frame passed",
+                "Continue Button ran production empty-field validation, focused the first invalid field, kept errors clear of the help strip; no confirmation/payment opened; saved form values restored",
+                "Back returned to gameplay; balance unchanged; no withdrawal submitted"
+            ]
+        }
+    ],
+    "errors": []
+}

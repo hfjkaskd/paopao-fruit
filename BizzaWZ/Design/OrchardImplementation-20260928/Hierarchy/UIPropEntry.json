@@ -1,0 +1,425 @@
+{
+    "prefab": "Assets/BizzaWZ/Common/UI/GamePanel/UIPropEntry.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform CanvasRenderer UIPropEntry",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "UIPropEntry.btn = Button",
+                "UIPropEntry.itemNumTxt = HaveTips/HaveCount",
+                "UIPropEntry.propIcon = BG/PropIcon",
+                "UIPropEntry.lockIcon = BG/LockIcon",
+                "UIPropEntry.unlockLevelTxt = BG/LockIcon/UnlockLevelText",
+                "UIPropEntry.haveTips = HaveTips",
+                "UIPropEntry.addTips = AddTips",
+                "UIPropEntry.cancelTips = CancelTips"
+            ]
+        },
+        {
+            "path": "Button",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ButtonRoundBlue",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 10.0
+            },
+            "size": {
+                "x": 180.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Button",
+                "BizzaButton.scaleTarget = "
+            ]
+        },
+        {
+            "path": "BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/GamePanel/booster_left_bg.png#booster_left_bg",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 5.984499931335449,
+                "y": -2.792799949645996
+            },
+            "size": {
+                "x": 246.39999389648438,
+                "y": 196.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG/PropIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropGoldenUndo.png#PropGoldenUndo",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0000019073486328125,
+                "y": 0.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG/LockIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/UI/GamePanel/Res/Prop_LockIcon.png#Prop_LockIcon",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0000019073486328125,
+                "y": 0.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG/LockIcon/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/GamePanel/booster_right_lock.png#booster_right_lock",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 12.899999618530274
+            },
+            "size": {
+                "x": 67.19999694824219,
+                "y": 84.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG/LockIcon/UnlockLevelText",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Lv.1",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -44.20000076293945
+            },
+            "size": {
+                "x": 137.7373046875,
+                "y": 36.72990036010742
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 27.0,
+            "fields": []
+        },
+        {
+            "path": "HaveTips",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -14.899999618530274,
+                "y": -14.699999809265137
+            },
+            "size": {
+                "x": 80.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "HaveTips/HaveCount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "1",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 50.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "AddTips",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -14.900047302246094,
+                "y": -14.499988555908204
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "AddTips/AddCount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "+",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 50.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 56.0,
+            "fields": []
+        },
+        {
+            "path": "CancelTips",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -14.900047302246094,
+                "y": -14.499988555908204
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

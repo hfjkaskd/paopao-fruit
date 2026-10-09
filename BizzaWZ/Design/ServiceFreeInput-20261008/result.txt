@@ -1,0 +1,4 @@
+Disposable prefab/raycast/text/keyboard-height checks. No support message, network request or save mutation.
+PASS 720x1280: nine input-area raycasts; Latin/Chinese/numbers/punctuation round trip and input/chat glyph coverage; empty/nonempty send state; two keyboard heights; background/title fixed; composer visible; chat above composer; closing restores layout.
+PASS 720x1600: nine input-area raycasts; Latin/Chinese/numbers/punctuation round trip and input/chat glyph coverage; empty/nonempty send state; two keyboard heights; background/title fixed; composer visible; chat above composer; closing restores layout.
+No Android IME/device test; native keyboard focus uses the existing AdvancedInputField.ManualSelect API. No APK built.

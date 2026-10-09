@@ -52,6 +52,7 @@ GameObject:
   - component: {fileID: 224313026266067498}
   - component: {fileID: 222621510681728303}
   - component: {fileID: 114632457200066912}
+  - component: {fileID: 114202610080001}
   m_Layer: 5
   m_Name: Coin
   m_TagString: Untagged
@@ -529,7 +530,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bb407bec4af2d9e49a34099e18868349, type: 2}
+  m_Sprite: {fileID: 21300000, guid: ebeabc7e30175c04cacebea4efca82a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12396,3 +12397,18 @@ MonoBehaviour:
   offset: 10
   addGraphicRaycaster: 0
   auto: 0
+--- !u!114 &114202610080001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724804207875695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d9264953a8c8c4fb2d753483bda2ca, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  iconType: 9
+  image: {fileID: 114632457200066912}
+  isNativeSize: 0

@@ -1,0 +1,965 @@
+{
+    "startedUtc": "2026-09-28T09:57:48.6901002Z",
+    "status": "complete",
+    "error": "",
+    "index": 13,
+    "phase": 0,
+    "pages": [
+        {
+            "page": "RealWithdrawPanel",
+            "openMethod": "EventSystem pointer click on HUD Button",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/00-RealWithdrawPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "Btn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 956.4999389648438
+                    }
+                },
+                {
+                    "name": "WithdrawWay(Clone)",
+                    "topHit": "WithdrawWay(Clone)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 242.99998474121095,
+                        "y": 1199.0
+                    }
+                },
+                {
+                    "name": "WithdrawWay(Clone)",
+                    "topHit": "WithdrawWay(Clone)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 609.0,
+                        "y": 1199.0
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 225.99998474121095,
+                        "y": 694.9998779296875
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 626.0,
+                        "y": 694.9998779296875
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 225.99998474121095,
+                        "y": 502.9998474121094
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 626.0,
+                        "y": 502.9998474121094
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 225.99998474121095,
+                        "y": 310.9998779296875
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 626.0,
+                        "y": 310.9998779296875
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 91.99996948242188,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 761.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "HistoryBtn",
+                    "topHit": "HistoryBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 657.0,
+                        "y": 1734.0
+                    }
+                }
+            ],
+            "checks": [
+                "Payment Buttons switched and restored the selected platform",
+                "Last tier is reachable after scrolling; its Button updates the selection and border",
+                "Expanded locked-tier progress footer scrolls fully into the viewport",
+                "Original tier restored; account balance unchanged; no withdrawal submitted"
+            ]
+        },
+        {
+            "page": "FakeWithdrawPanel",
+            "openMethod": "EventSystem pointer click on HUD Button",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/01-FakeWithdrawPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "WithdrawAmountItem (1)",
+                    "topHit": "Select",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 241.0,
+                        "y": 1169.0
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (6)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 607.0,
+                        "y": 1169.0
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (2)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 241.0,
+                        "y": 1009.0
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (3)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 607.0,
+                        "y": 1009.0
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (4)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 241.0,
+                        "y": 849.0
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (5)",
+                    "topHit": "bg",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 607.0,
+                        "y": 849.0
+                    }
+                },
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "WithdrawBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 402.5
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 92.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 761.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "HistoryBtn",
+                    "topHit": "HistoryBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 657.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "ServiceBtn",
+                    "topHit": "ServiceBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 782.5,
+                        "y": 991.0
+                    }
+                }
+            ],
+            "checks": []
+        },
+        {
+            "page": "PausePanel",
+            "openMethod": "EventSystem pointer click on HUD Button",
+            "closeMethod": "EventSystem pointer click: CloseButton",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/02-PausePanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "PageMask",
+                    "topHit": "LibGroup",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 426.0,
+                        "y": 923.0
+                    }
+                },
+                {
+                    "name": "BackButton",
+                    "topHit": "BackButton",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 244.0,
+                        "y": 495.0000305175781
+                    }
+                },
+                {
+                    "name": "ContinueBtn",
+                    "topHit": "ContinueBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 610.0,
+                        "y": 495.0000305175781
+                    }
+                },
+                {
+                    "name": "Button",
+                    "topHit": "MusicOn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 639.0,
+                        "y": 1273.0
+                    }
+                },
+                {
+                    "name": "Button (1)",
+                    "topHit": "SoundOn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 639.0,
+                        "y": 1075.0
+                    }
+                },
+                {
+                    "name": "Button (2)",
+                    "topHit": "LibOn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 639.0,
+                        "y": 877.0
+                    }
+                },
+                {
+                    "name": "CloseButton",
+                    "topHit": "CloseButton",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 764.0,
+                        "y": 1464.0
+                    }
+                }
+            ],
+            "checks": [
+                "Music: toggled through pointer click and restored",
+                "Sound: toggled through pointer click and restored",
+                "Vibration: toggled through pointer click and restored"
+            ]
+        },
+        {
+            "page": "FAQPanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/03-FAQPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "PageMask (1)",
+                    "topHit": "Viewport",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 426.0,
+                        "y": 923.0
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 97.0,
+                        "y": 1716.0
+                    }
+                },
+                {
+                    "name": "ApprovedSupport",
+                    "topHit": "ApprovedSupport",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 375.5
+                    }
+                }
+            ],
+            "checks": [
+                "Help -> Support Button opens the production service page; close returns to Help"
+            ]
+        },
+        {
+            "page": "WithdrawHistory",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/04-WithdrawHistory.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "PageMask (1)",
+                    "topHit": "Viewport",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 426.0,
+                        "y": 923.0
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 95.0,
+                        "y": 1718.0
+                    }
+                },
+                {
+                    "name": "ApprovedHelp",
+                    "topHit": "ApprovedHelp",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 761.0,
+                        "y": 1718.0
+                    }
+                },
+                {
+                    "name": "ApprovedSupport",
+                    "topHit": "ApprovedSupport",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 392.5
+                    }
+                }
+            ],
+            "checks": []
+        },
+        {
+            "page": "ServicePanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/05-ServicePanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 92.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 761.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "HistoryBtn",
+                    "topHit": "HistoryBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 657.0,
+                        "y": 1734.0
+                    }
+                },
+                {
+                    "name": "SelectQuestionBtn ",
+                    "topHit": "SelectQuestionBtn ",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.5,
+                        "y": 736.0
+                    }
+                },
+                {
+                    "name": "ClearBtn",
+                    "topHit": "ClearBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 619.0,
+                        "y": 354.5
+                    }
+                },
+                {
+                    "name": "NotCanSendBtn",
+                    "topHit": "NotCanSendBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 726.0,
+                        "y": 350.0
+                    }
+                }
+            ],
+            "checks": [
+                "All seven question Buttons reachable; selecting one fills the draft without sending",
+                "Write message returns to the editable input; draft cleared; no support message sent"
+            ]
+        },
+        {
+            "page": "WithdrawDanPanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/06-WithdrawDanPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "WithdrawBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 685.0,
+                        "y": 1456.5
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "prepareBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 702.0,
+                        "y": 1011.0
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "prepareBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 702.0,
+                        "y": 834.0
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "prepareBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 702.0,
+                        "y": 657.0
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "prepareBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 702.0,
+                        "y": 480.0
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "Bg",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 702.0,
+                        "y": 303.0
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "Button",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 702.0,
+                        "y": 126.0
+                    }
+                },
+                {
+                    "name": "prepareBtn",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 702.0,
+                        "y": -51.0
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 91.5,
+                        "y": 1692.0
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 756.5,
+                        "y": 1692.0
+                    }
+                }
+            ],
+            "checks": []
+        },
+        {
+            "page": "SlotPanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: Back",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/07-SlotPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "Back",
+                    "topHit": "Back",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 78.5,
+                        "y": 1741.5
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 773.5,
+                        "y": 1741.5
+                    }
+                },
+                {
+                    "name": "Btn",
+                    "topHit": "Btn",
+                    "interactable": false,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 690.5
+                    }
+                },
+                {
+                    "name": "ApprovedAdSpin",
+                    "topHit": "ApprovedAdSpin",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 425.5,
+                        "y": 256.5
+                    }
+                }
+            ],
+            "checks": [
+                "Existing reel animation reaches its completion callback with three result sprites; no spin consumed, advertisement requested or account reward issued"
+            ]
+        },
+        {
+            "page": "SlotFAQPanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: Btn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/08-SlotFAQPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "Btn",
+                    "topHit": "Btn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 262.5
+                    }
+                }
+            ],
+            "checks": []
+        },
+        {
+            "page": "DailyMissionPanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/09-DailyMissionPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "PageMask (1)",
+                    "topHit": "BG (2)",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 426.0,
+                        "y": 923.0
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 766.5,
+                        "y": 1463.5
+                    }
+                },
+                {
+                    "name": "GoBtn",
+                    "topHit": "GoBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 535.0
+                    }
+                }
+            ],
+            "checks": []
+        },
+        {
+            "page": "UI_DailyTaskPage",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: CloseBtn",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/10-UI_DailyTaskPage.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "PageMask",
+                    "topHit": "UIDailyTaskElement(Clone)",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 426.0,
+                        "y": 923.0
+                    }
+                },
+                {
+                    "name": "RewardBtn",
+                    "topHit": "RewardBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 679.5,
+                        "y": 1209.0
+                    }
+                },
+                {
+                    "name": "RewardBtn",
+                    "topHit": "RewardBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 679.5,
+                        "y": 1004.0
+                    }
+                },
+                {
+                    "name": "RewardBtn",
+                    "topHit": "RewardBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 679.5,
+                        "y": 799.0
+                    }
+                },
+                {
+                    "name": "RewardBtn",
+                    "topHit": "RewardBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 679.5,
+                        "y": 594.0
+                    }
+                },
+                {
+                    "name": "RewardBtn",
+                    "topHit": "RewardBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 679.5,
+                        "y": 389.0
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 772.5,
+                        "y": 1578.0
+                    }
+                }
+            ],
+            "checks": [
+                "Production task rows displayed: 5"
+            ]
+        },
+        {
+            "page": "UIWithdrawalPanel",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: pageClose",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/11-UIWithdrawalPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "BG",
+                    "topHit": "BG",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 426.0,
+                        "y": 923.0
+                    }
+                },
+                {
+                    "name": "pageClose",
+                    "topHit": "pageClose",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 94.5,
+                        "y": 1730.5
+                    }
+                },
+                {
+                    "name": "BtnWithdrawal",
+                    "topHit": "BtnWithdrawal",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 427.5,
+                        "y": 381.0
+                    }
+                },
+                {
+                    "name": "ApprovedHelp",
+                    "topHit": "ApprovedHelp",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 756.0,
+                        "y": 1730.5
+                    }
+                }
+            ],
+            "checks": []
+        },
+        {
+            "page": "StarRatingPopup",
+            "openMethod": "Production UIModule.OpenPage",
+            "closeMethod": "EventSystem pointer click: ApprovedBack",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/12-StarRatingPopup.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "Image",
+                    "topHit": "Image",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 148.0,
+                        "y": 802.0
+                    }
+                },
+                {
+                    "name": "Image (1)",
+                    "topHit": "Image (1)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 287.0,
+                        "y": 802.0
+                    }
+                },
+                {
+                    "name": "Image (2)",
+                    "topHit": "Image (2)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 802.0
+                    }
+                },
+                {
+                    "name": "Image (3)",
+                    "topHit": "Image (3)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 565.0,
+                        "y": 802.0
+                    }
+                },
+                {
+                    "name": "Image (4)",
+                    "topHit": "Image (4)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 704.0,
+                        "y": 802.0
+                    }
+                },
+                {
+                    "name": "GoBtn",
+                    "topHit": "GoBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 425.0,
+                        "y": 624.5
+                    }
+                },
+                {
+                    "name": "ApprovedBack",
+                    "topHit": "ApprovedBack",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 93.0,
+                        "y": 1679.0
+                    }
+                }
+            ],
+            "checks": [
+                "Three-star selection updates all five visuals; no store rating submitted"
+            ]
+        }
+    ],
+    "errors": [
+        "开启测试设备False"
+    ]
+}

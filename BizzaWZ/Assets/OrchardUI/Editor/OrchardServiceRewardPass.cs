@@ -201,12 +201,23 @@ public static class OrchardServiceRewardPass
 
     private static void ApplyReward(GameObject root)
     {
-        // Preserve payment logos, coin artwork, progress transforms and reward fly targets.
+        // Preserve payment logos, coin artwork, outer progress layouts and reward fly targets.
         foreach (Image image in root.GetComponentsInChildren<Image>(true))
         {
             string path = AnimationUtility.CalculateTransformPath(image.transform, root.transform);
             if (path.EndsWith("WathAdProgress/bg", StringComparison.Ordinal))
                 OrchardSkinAuthoring.ApplySprite(image, "Card");
+            else if (path.EndsWith("Content/WathAdProgress/progress/bg", StringComparison.Ordinal))
+                RewardProgressSlice(image, "RewardProgressTrack", 76f / 55.6472f);
+            else if (path.EndsWith("Content/WathAdProgress/progress/bg/FillArea/Fill", StringComparison.Ordinal))
+                RewardAdProgressFill(image);
+            else if (path.EndsWith("Content/Fake_WithdrawProgress/progress/bg", StringComparison.Ordinal))
+                RewardProgressSlice(image, "RewardProgressTrack", 76f / 52f);
+            else if (path.EndsWith("Content/Real_WithdrawProgress/progress/bg", StringComparison.Ordinal))
+                RewardProgressSlice(image, "RewardProgressTrack", 76f / 41f);
+            else if (path.EndsWith("Content/Fake_WithdrawProgress/progress/Image", StringComparison.Ordinal) ||
+                     path.EndsWith("Content/Real_WithdrawProgress/progress/Image", StringComparison.Ordinal))
+                RewardProgressFill(image);
             else if (path.EndsWith("/progress/bg", StringComparison.Ordinal))
                 OrchardSkinAuthoring.ApplySprite(image, "ProgressTrack");
             else if (path.EndsWith("/FillArea/Fill", StringComparison.Ordinal))
@@ -233,10 +244,67 @@ public static class OrchardServiceRewardPass
 
     private static void ApplyProgress(GameObject root)
     {
-        Skin(root, "progress/bg", "ProgressTrack");
+        Transform track = Find(root, "progress/bg");
+        if (track != null) RewardProgressSlice(track.GetComponent<Image>(), "RewardProgressTrack", 76f / 41f);
         Transform fill = Find(root, "progress/Image");
-        if (fill != null) Progress(fill.GetComponent<Image>(), "ProgressFill");
+        if (fill != null) RewardProgressFill(fill.GetComponent<Image>());
         Body(root, "ProgressHint");
+    }
+
+    private static void RewardProgressSlice(Image image, string role, float pixelsPerUnitMultiplier)
+    {
+        if (image == null) return;
+        OrchardSkinAuthoring.ApplySprite(image, role);
+        image.type = Image.Type.Sliced;
+        image.pixelsPerUnitMultiplier = pixelsPerUnitMultiplier;
+    }
+
+    private static void RewardAdProgressFill(Image image)
+    {
+        if (image == null) return;
+        const string path = "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png";
+        Sprite sprite = null;
+        foreach (UnityEngine.Object asset in AssetDatabase.LoadAllAssetsAtPath(path))
+        {
+            if (asset is Sprite candidate && candidate.name == "RewardProgressSoftFill")
+            {
+                sprite = candidate;
+                break;
+            }
+        }
+        if (sprite == null) throw new InvalidOperationException("Missing RewardProgressSoftFill sprite: " + path);
+        RectTransform fillArea = image.rectTransform.parent as RectTransform;
+        if (fillArea == null) throw new InvalidOperationException("Reward ad progress fill has no FillArea RectTransform.");
+        fillArea.sizeDelta = new Vector2(-22f, -22f);
+        fillArea.ForceUpdateRectTransforms();
+        image.rectTransform.ForceUpdateRectTransforms();
+        image.sprite = sprite;
+        image.overrideSprite = null;
+        image.type = Image.Type.Sliced;
+        image.preserveAspect = false;
+        image.fillCenter = true;
+        float height = image.rectTransform.rect.height;
+        if (height <= 0f) throw new InvalidOperationException("Reward ad progress fill has no positive height.");
+        // Use the imported Sprite dimensions so texture downscaling keeps the end caps round.
+        image.pixelsPerUnitMultiplier = sprite.rect.height / image.pixelsPerUnit / height;
+        EditorUtility.SetDirty(fillArea);
+        EditorUtility.SetDirty(image);
+    }
+
+    private static void RewardProgressFill(Image image)
+    {
+        if (image == null) return;
+        const string path = "Assets/OrchardUI/Art/BottomHudProgressFill.png";
+        Sprite sprite = AssetDatabase.LoadAssetAtPath<Sprite>(path);
+        if (sprite == null) throw new InvalidOperationException("Missing reward progress fill: " + path);
+        image.sprite = sprite;
+        image.overrideSprite = null;
+        image.type = Image.Type.Filled;
+        image.fillMethod = Image.FillMethod.Horizontal;
+        image.fillOrigin = 0;
+        image.preserveAspect = false;
+        // Keep the authored rectangle and the business script's current fillAmount.
+        EditorUtility.SetDirty(image);
     }
 
     private static void ApplyRating(GameObject root)

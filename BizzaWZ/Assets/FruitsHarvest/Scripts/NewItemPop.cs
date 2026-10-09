@@ -40,15 +40,16 @@ public class NewItemPop : BaseUI
 	};
 
 	private bool claimed;
+	[SerializeField] private Button approvedClaimButton;
 
 	public override PAIEAGDLCBJ Layer => PAIEAGDLCBJ.Top;
 
 
 	protected override void Init()
 	{
-		if (m_ClaimBtn != null)
+		if (approvedClaimButton != null)
 		{
-			MCCIJBJGMCK.Get(m_ClaimBtn).onClick = OnClaimClick;
+			approvedClaimButton.onClick.AddListener(() => OnClaimClick(approvedClaimButton.gameObject));
 		}
 	}
 
@@ -79,7 +80,7 @@ public class NewItemPop : BaseUI
 			if (icon != null)
 			{
 				m_ItemImage.sprite = icon;
-				m_ItemImage.SetNativeSize();
+				// Keep the prefab display area when swapping differently sized sprite assets.
 			}
 		}
 	}

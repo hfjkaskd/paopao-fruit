@@ -27,15 +27,15 @@ public static class OrchardNavigationPass
 
     private static readonly Slice[] Slices =
     {
-        new Slice("Back", 70, 82, 326, 321),
-        new Slice("History", 462, 83, 326, 320),
-        new Slice("Help", 855, 83, 326, 320),
-        new Slice("Close", 70, 471, 326, 320),
-        new Slice("Settings", 462, 471, 326, 321),
-        new Slice("Chat", 855, 471, 327, 321),
-        new Slice("LeavesLeft", 110, 870, 252, 297),
-        new Slice("LeavesRight", 508, 869, 254, 298),
-        new Slice("FlowerLeaves", 885, 861, 297, 311)
+        new Slice("Back", 42, 52, 346, 338),
+        new Slice("History", 449, 52, 350, 338),
+        new Slice("Help", 860, 52, 345, 338),
+        new Slice("Close", 43, 454, 348, 344),
+        new Slice("Settings", 450, 454, 346, 344),
+        new Slice("Chat", 861, 454, 347, 344),
+        new Slice("LeavesLeft", 55, 891, 333, 311),
+        new Slice("LeavesRight", 476, 889, 307, 313),
+        new Slice("FlowerLeaves", 869, 878, 340, 328)
     };
 
     /// <summary>The caller copies approved artwork to AtlasPath before invoking this method.</summary>

@@ -1,0 +1,15 @@
+{
+  "mode": "built-in image_gen edit",
+  "reference": "Design/OrchardServiceSystem-20260927/images/20-support-chat.png",
+  "prompts": [
+    {
+      "prompt": "Reference image is the approved orchard game's Portuguese support chat screen. Extract/recreate its UI controls faithfully as a production sprite sheet on a truly transparent background. Stack six separate groups vertically with generous transparent gaps, front-facing. 1) The pale ice-blue support bubble with thin light blue outline, rounded corners, tiny LEFT triangular speech tail at about 65 percent of height, no text, width:height ratio 510:165. 2) The pale mint-green player bubble with thin light green outline, rounded corners, tiny RIGHT tail near lower corner, no text, ratio 520:105. 3) The soft pale blue quick-questions pill button with thin medium blue rim, modest upper-left glint and almost white upper fill fading to pale blue, NO dark blue bottom rim, NO letters or question icon, ratio 440:92. 4) The white input pill with subtle warm beige edge and tiny soft shadow, ratio 590:112, no text. 5) Small warm ivory Today pill with very thin beige border, ratio 116:58, blank. 6) Three isolated round icons horizontally: a glossy bright blue support avatar with white chat balloon and three blue dots, a simple blue question disc with white question mark, and glossy green send disc with white paper plane matching the reference, each same diameter. Preserve reference colors, restrained highlights, soft subtle textures, no glow outside edges, no cropping. No background panel, no scenery, no words or numbers. All sprites fully visible with transparent padding. Designed for Unity nine-slicing without changing corner shapes.",
+      "source": "C:/Users/pc/.codex/generated_images/01a0e5e9-e246-7930-92b9-29aabcc114f3/exec-2544e6f4-d232-4461-9433-30f53cba9698.png"
+    },
+    {
+      "prompt": "Make a tiny precise edit to this 1024x1536 transparent sprite sheet. Preserve canvas, all component locations, silhouettes and all alpha/transparency. Change only the bottom-center circular question icon: its CENTER DISC must be rich medium blue, with a clean WHITE question mark, matching the approved support page's quick questions icon. The other two icons remain unchanged. Also lighten ONLY the thin outline on the first light blue support speech bubble to pastel #B4E3FA, and second light green bubble outline to pastel #BEEAA0. Do not lighten their interior or lower its opacity. No glow, no extra details, no text, no moving anything else.",
+      "source": "C:/Users/pc/.codex/generated_images/01a0e5e9-e246-7930-92b9-29aabcc114f3/exec-0d0b94b9-ef89-4141-aed5-56bf2ff88b33.png",
+      "output": "Assets/OrchardUI/Resources/OrchardUI/ServiceReferenceControls.png"
+    }
+  ]
+}

@@ -116,7 +116,7 @@ public static class FlowModule
     // 打开失败界面
     public static void OpenGameLosePanel(BizzaLevelResultType bizzaLevelResultType, LoseReason loseReason, LevelInfo levelInfo)
     {
-        CompleteAnalyticsLevel(success: false, loseReason.ToString());
+        CompleteAnalyticsLevel(success: false, GetAnalyticsFailureReason(loseReason));
         SaveDataUtils.GameData.levelFailCount++;
         BizzaEventSystem.Emit(EventDefine.Item.GameLose);
         BridgingUtil.OnOpenGameLosePanel();
@@ -156,11 +156,11 @@ public static class FlowModule
     public static void SynthesisLogic(int numRemaining, Vector3 synthesisPos)
     {
 #if BIZZA_REAL_WITHDRAW
-        // var adinfo = RemoteGroupDataSystem.current.GetActiveAdStatisticsOrDefault(SaveDataUtils.GameData.playerSelectedLv);
-        // if (numRemaining <= 0 || numRemaining <= adinfo.ShowGetRewardCount / 2)
-        // {
-        //     return;
-        // }
+        // Keep the earned match currency, including the final match.
+        NumbericalStatistics.CheckGetDollar(synthesisPos);
+
+        // The last match proceeds to settlement, never to a second reward popup.
+        if (!Real_GetRewardPanelUtil.CanShowMatchReward(numRemaining, winResultHandled)) return;
 
         var uiModule = UIModule.Instance;
         if (uiModule == null || uiModule.GetPage(UIPageIds.GetRewardPanel) != null)
@@ -259,6 +259,20 @@ public static class FlowModule
         analyticsLevelId = SaveDataUtils.GameData.playerSelectedLv.ToString();
         int attempt = Mathf.Max(1, SaveDataUtils.GameData.levelFailCount + 1);
         analyticsLevelAttemptId = BizzaGameAnalytics.TrackLevelStart(analyticsLevelId, attempt);
+    }
+
+    private static string GetAnalyticsFailureReason(LoseReason reason)
+    {
+        // Analytics values must stay stable when Obfuz renames enum members.
+        switch (reason)
+        {
+            case LoseReason.Health:
+                return "Health";
+            case LoseReason.Timeout:
+                return "Timeout";
+            default:
+                return ((int)reason).ToString(System.Globalization.CultureInfo.InvariantCulture);
+        }
     }
 
     private static void CompleteAnalyticsLevel(bool success, string failureReason = null)

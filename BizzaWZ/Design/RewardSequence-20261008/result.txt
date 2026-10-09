@@ -1,0 +1,7 @@
+PASS: final/settled matches suppressed; normal match reward still allowed.
+PASS: slow-load reward -> one queued settlement; rapid repeats ignored; max visible = 1.
+PASS: page closes before delayed ad callback; settlement waits.
+PASS: ad completes before close animation; settlement waits.
+PASS: last-match settlement opens directly and only once.
+PASS: reward prefab is single-instance and keeps its claim/amount bindings.
+Unity compilation + isolated production sequence tests only. No device/ad SDK test or APK build.

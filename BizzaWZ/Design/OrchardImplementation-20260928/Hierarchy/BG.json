@@ -1,0 +1,209 @@
+{
+    "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/UICommons/BG.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -117.0
+            },
+            "size": {
+                "x": 946.0,
+                "y": 952.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image (3)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 684.0
+            },
+            "size": {
+                "x": 803.0,
+                "y": 517.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 489.0
+            },
+            "size": {
+                "x": 726.0,
+                "y": 197.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image (2)/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 21.1200008392334,
+                "y": 23.639999389648439
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image (2)/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -21.1200008392334,
+                "y": 23.639999389648439
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Setting_Title",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 477.0
+            },
+            "size": {
+                "x": 800.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 70.0,
+            "fields": []
+        }
+    ]
+}

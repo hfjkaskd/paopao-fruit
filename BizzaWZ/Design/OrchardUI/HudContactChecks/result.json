@@ -1,0 +1,601 @@
+{
+    "checkedAtUtc": "2026-09-22T10:47:46.2938558Z",
+    "mode": "validate",
+    "passed": true,
+    "editorWasPlaying": false,
+    "sourcePrefabsUnchanged": true,
+    "sourceTier": {
+        "hierarchy": "WithdrawDanItem",
+        "label": "Cold",
+        "progressText": "99/500",
+        "background": {
+            "path": "bg",
+            "sprite": "Card",
+            "assetPath": "Assets/OrchardUI/Art/Controls.png",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -452.1499938964844,
+                "y": -71.11885070800781,
+                "width": 904.2999877929688,
+                "height": 142.23770141601563
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMax": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "offsetMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "offsetMax": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "border": {
+                "x": 46.0,
+                "y": 46.0,
+                "z": 46.0,
+                "w": 46.0
+            },
+            "enabled": true,
+            "imageType": 1
+        },
+        "icon": {
+            "path": "Icon",
+            "sprite": "<null>",
+            "assetPath": "",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -48.0,
+                "y": -48.0,
+                "width": 96.0,
+                "height": 96.0
+            },
+            "position": {
+                "x": -350.0,
+                "y": 6.0
+            },
+            "anchorMin": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchorMax": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "offsetMin": {
+                "x": -398.0,
+                "y": -42.0
+            },
+            "offsetMax": {
+                "x": -302.0,
+                "y": 54.0
+            },
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "enabled": true,
+            "imageType": 0
+        },
+        "progress": {
+            "path": "progress/FillArea/progress",
+            "sprite": "RewardProgressSoftFill",
+            "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": -9.0,
+                "width": 123.00462341308594,
+                "height": 18.0
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMax": {
+                "x": 0.2709999978542328,
+                "y": 1.0
+            },
+            "offsetMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "offsetMax": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "border": {
+                "x": 15.709090232849121,
+                "y": 0.0,
+                "z": 15.709090232849121,
+                "w": 0.0
+            },
+            "enabled": true,
+            "imageType": 1
+        },
+        "differencesFromSource": []
+    },
+    "runtimeTiers": [],
+    "contact": [
+        {
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\HudContactChecks\\add-one-after.png",
+            "rootY": 25.0,
+            "trayBounds": {
+                "serializedVersion": "2",
+                "x": -531.0,
+                "y": -120.0,
+                "width": 1066.0,
+                "height": 254.0
+            },
+            "buttonBounds": {
+                "serializedVersion": "2",
+                "x": 352.0,
+                "y": -61.0,
+                "width": 162.0,
+                "height": 172.0
+            },
+            "lockBounds": {
+                "serializedVersion": "2",
+                "x": 403.5,
+                "y": 12.5,
+                "width": 69.0,
+                "height": 79.0
+            },
+            "backgroundPosition": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "lockPosition": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "authoredCanvasOffset": 11,
+            "previewCanvasOrder": 11,
+            "backgroundActive": true,
+            "lockActive": true
+        },
+        {
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\HudContactChecks\\add-one-before.png",
+            "rootY": 45.0,
+            "trayBounds": {
+                "serializedVersion": "2",
+                "x": -531.0,
+                "y": -120.0,
+                "width": 1066.0,
+                "height": 254.0
+            },
+            "buttonBounds": {
+                "serializedVersion": "2",
+                "x": 352.0,
+                "y": -41.0,
+                "width": 162.0,
+                "height": 172.0
+            },
+            "lockBounds": {
+                "serializedVersion": "2",
+                "x": 403.5,
+                "y": 32.5,
+                "width": 69.0,
+                "height": 79.0
+            },
+            "backgroundPosition": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "lockPosition": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "authoredCanvasOffset": 11,
+            "previewCanvasOrder": 11,
+            "backgroundActive": true,
+            "lockActive": true
+        }
+    ],
+    "tiers": [
+        {
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\HudContactChecks\\withdraw-tier-4-of-5.png",
+            "label": "Bronze",
+            "progressText": "4/5",
+            "expectedRatio": 0.800000011920929,
+            "measuredRatio": 0.800000011920929,
+            "fillAreaWidth": 453.8916015625,
+            "fillWidth": 363.11328125,
+            "hiddenAtZero": true,
+            "labelFits": true,
+            "labelPreferredSize": {
+                "x": 96.04000091552735,
+                "y": 38.08000183105469
+            },
+            "labelRect": {
+                "serializedVersion": "2",
+                "x": -52.0,
+                "y": -14.147000312805176,
+                "width": 104.0,
+                "height": 28.29400062561035
+            },
+            "labelGlyphBounds": {
+                "serializedVersion": "2",
+                "x": -36.111515045166019,
+                "y": -9.24381160736084,
+                "width": 72.49734497070313,
+                "height": 18.191875457763673
+            },
+            "labelTextBounds": {
+                "m_Center": {
+                    "x": 0.000049591064453125,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 35.66875076293945,
+                    "y": 14.143999099731446,
+                    "z": 0.0
+                }
+            },
+            "labelMeshBounds": {
+                "m_Center": {
+                    "x": 0.13715553283691407,
+                    "y": -0.1478743553161621,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 36.24867248535156,
+                    "y": 9.095937728881836,
+                    "z": 0.0
+                }
+            },
+            "renderedFontSize": 20.799999237060548,
+            "labelAutoSizing": true,
+            "labelReportsOverflow": false,
+            "fill": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 363.11328125,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.800000011920929,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            }
+        },
+        {
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\HudContactChecks\\withdraw-tier-1-of-5.png",
+            "label": "Bronze",
+            "progressText": "1/5",
+            "expectedRatio": 0.20000000298023225,
+            "measuredRatio": 0.20000000298023225,
+            "fillAreaWidth": 453.8916015625,
+            "fillWidth": 90.7783203125,
+            "hiddenAtZero": true,
+            "labelFits": true,
+            "labelPreferredSize": {
+                "x": 96.04000091552735,
+                "y": 38.08000183105469
+            },
+            "labelRect": {
+                "serializedVersion": "2",
+                "x": -52.0,
+                "y": -14.147000312805176,
+                "width": 104.0,
+                "height": 28.29400062561035
+            },
+            "labelGlyphBounds": {
+                "serializedVersion": "2",
+                "x": -36.111515045166019,
+                "y": -9.24381160736084,
+                "width": 72.49734497070313,
+                "height": 18.191875457763673
+            },
+            "labelTextBounds": {
+                "m_Center": {
+                    "x": 0.000049591064453125,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 35.66875076293945,
+                    "y": 14.143999099731446,
+                    "z": 0.0
+                }
+            },
+            "labelMeshBounds": {
+                "m_Center": {
+                    "x": 0.13715553283691407,
+                    "y": -0.1478743553161621,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 36.24867248535156,
+                    "y": 9.095937728881836,
+                    "z": 0.0
+                }
+            },
+            "renderedFontSize": 20.799999237060548,
+            "labelAutoSizing": true,
+            "labelReportsOverflow": false,
+            "fill": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 90.7783203125,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.20000000298023225,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            }
+        },
+        {
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\HudContactChecks\\withdraw-tier-0-of-5.png",
+            "label": "Bronze",
+            "progressText": "0/5",
+            "expectedRatio": 0.0,
+            "measuredRatio": 0.0,
+            "fillAreaWidth": 453.8916015625,
+            "fillWidth": 0.0,
+            "hiddenAtZero": true,
+            "labelFits": true,
+            "labelPreferredSize": {
+                "x": 96.04000091552735,
+                "y": 38.08000183105469
+            },
+            "labelRect": {
+                "serializedVersion": "2",
+                "x": -52.0,
+                "y": -14.147000312805176,
+                "width": 104.0,
+                "height": 28.29400062561035
+            },
+            "labelGlyphBounds": {
+                "serializedVersion": "2",
+                "x": -36.111515045166019,
+                "y": -9.24381160736084,
+                "width": 72.49734497070313,
+                "height": 18.191875457763673
+            },
+            "labelTextBounds": {
+                "m_Center": {
+                    "x": 0.000049591064453125,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 35.66875076293945,
+                    "y": 14.143999099731446,
+                    "z": 0.0
+                }
+            },
+            "labelMeshBounds": {
+                "m_Center": {
+                    "x": 0.13715553283691407,
+                    "y": -0.1478743553161621,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 36.24867248535156,
+                    "y": 9.095937728881836,
+                    "z": 0.0
+                }
+            },
+            "renderedFontSize": 20.799999237060548,
+            "labelAutoSizing": true,
+            "labelReportsOverflow": false,
+            "fill": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 0.0,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": false,
+                "imageType": 1
+            }
+        },
+        {
+            "image": "C:\\Projects\\paopao\\BizzaWZ\\Design\\OrchardUI\\HudContactChecks\\withdraw-tier-5-of-5.png",
+            "label": "Bronze",
+            "progressText": "5/5",
+            "expectedRatio": 1.0,
+            "measuredRatio": 1.0,
+            "fillAreaWidth": 453.8916015625,
+            "fillWidth": 453.8916015625,
+            "hiddenAtZero": true,
+            "labelFits": true,
+            "labelPreferredSize": {
+                "x": 96.04000091552735,
+                "y": 38.08000183105469
+            },
+            "labelRect": {
+                "serializedVersion": "2",
+                "x": -52.0,
+                "y": -14.147000312805176,
+                "width": 104.0,
+                "height": 28.29400062561035
+            },
+            "labelGlyphBounds": {
+                "serializedVersion": "2",
+                "x": -36.111515045166019,
+                "y": -9.24381160736084,
+                "width": 72.49734497070313,
+                "height": 18.191875457763673
+            },
+            "labelTextBounds": {
+                "m_Center": {
+                    "x": 0.000049591064453125,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 35.66875076293945,
+                    "y": 14.143999099731446,
+                    "z": 0.0
+                }
+            },
+            "labelMeshBounds": {
+                "m_Center": {
+                    "x": 0.13715553283691407,
+                    "y": -0.1478743553161621,
+                    "z": 0.0
+                },
+                "m_Extent": {
+                    "x": 36.24867248535156,
+                    "y": 9.095937728881836,
+                    "z": 0.0
+                }
+            },
+            "renderedFontSize": 20.799999237060548,
+            "labelAutoSizing": true,
+            "labelReportsOverflow": false,
+            "fill": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 453.8916015625,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            }
+        }
+    ],
+    "notes": [
+        "Editor was not in Play mode; no live tier snapshot was attempted.",
+        "The four complete panel previews contain one disposable tier prefab under the authored list root; no business Init, account data or save APIs are invoked."
+    ],
+    "errors": []
+}

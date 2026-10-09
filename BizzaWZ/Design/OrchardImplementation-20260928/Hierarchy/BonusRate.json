@@ -1,0 +1,179 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/BonusRate.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform BonusRate WzIconAmend",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -101.0,
+                "y": -87.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BonusRate.coin_normal = bg",
+                "BonusRate.coin_Bubble = Coin_Bubble",
+                "BonusRate.bonusRateTxt = Num"
+            ]
+        },
+        {
+            "path": "bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 150.5,
+                "y": 118.30000305175781
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Coin_Bubble",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/PileMoney_US.png#PileMoney_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "size": {
+                "x": 113.02200317382813,
+                "y": 74.25599670410156
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/ExchangeRatePanel/Icon_ExchangeRateUp.png#Icon_ExchangeRateUp",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 35.70000076293945,
+                "y": 19.200000762939454
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Num",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "0%",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        }
+    ]
+}

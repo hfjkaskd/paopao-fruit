@@ -1,0 +1,426 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/UITips/Resources/BroadCastBar.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform CanvasRenderer Image CanvasGroup BroadcastBarController",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 1232.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BroadcastBarController.barTransform = ",
+                "BroadcastBarController.textObj = TextItem",
+                "BroadcastBarController.textComponent = TextItem/Text (TMP)",
+                "BroadcastBarController.entryObj = EntryItem",
+                "BroadcastBarController.entryAObj = EntryItem/Items/1",
+                "BroadcastBarController.entryAImage = EntryItem/Items/1/Item_1",
+                "BroadcastBarController.entryAText = EntryItem/Items/1/Item_1/Text (TMP)",
+                "BroadcastBarController.entryBObj = EntryItem/Items/2",
+                "BroadcastBarController.entryBImage = EntryItem/Items/2/Item_2",
+                "BroadcastBarController.entryBText = EntryItem/Items/2/Item_2/Text (TMP)"
+            ]
+        },
+        {
+            "path": "TextItem",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 1000.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "TextItem/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "1111111111111111111111111111111111111111111111111111111111111",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -150.0
+            },
+            "size": {
+                "x": 815.0615234375,
+                "y": 433.5080871582031
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Text (TMP) (1)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Congraduate",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 148.392333984375
+            },
+            "size": {
+                "x": 815.0615234375,
+                "y": 89.21530151367188
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Items",
+            "type": " RectTransform HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 4.5,
+                "y": 0.0
+            },
+            "size": {
+                "x": 627.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Items/1",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Items/1/Item_1",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 197.10000610351563,
+                "y": 141.75
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Items/1/Item_1/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "111",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -120.0
+            },
+            "size": {
+                "x": 205.0,
+                "y": 88.12889862060547
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Items/2",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "EntryItem/Items/2/Item_2",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 204.92999267578126,
+                "y": 134.63999938964845
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WzIconAmend.image = EntryItem/Items/2/Item_2"
+            ]
+        },
+        {
+            "path": "EntryItem/Items/2/Item_2/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "111",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -120.0
+            },
+            "size": {
+                "x": 205.56900024414063,
+                "y": 88.12889862060547
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+# 提现处理中
+
+Use case: ui-mockup. Create a new, complete, exceptionally polished casual orchard puzzle mobile screen. Image 1 is the authoritative VISUAL STYLE reference, not the screen content to repeat. Match its sunny orchard palette, small warm wooden header plaques, softly rounded ivory panels with refined honey-gold bevels, chocolate-brown rounded typography, juicy leaf-green main buttons, sky-blue secondary controls, crisply painted 2.5D icons, ambient occlusion and soft dimensional lighting. Premium App Store featured casual puzzle quality. All UI readable and spacious with precise alignment, controlled highlights and calm background. Portrait 9:19.5 full bleed at high resolution. Exactly one full mobile screen, no phone frame, no collage, no external caption, no watermark. English UI. Decoration restrained at edges, never covering text or controls. Do not use neon, casino styling, photographs or excessive wood. Currency values are illustrative UI examples; never promise instant payment or guaranteed earnings.
+
+Image 2 is STRUCTURE reference for the real underlying gameplay: show a softly dimmed and slightly defocused fruit-tree harvesting playfield behind the modal, visible at top and bottom with pale blue sky, rounded flowering trees bearing watermelons, oranges and starfruit, and a wooden fruit collection tray near the bottom. Never create a square match-3 board. The popup itself stays bright, sharp and very readable. Screen: WITHDRAWAL PROCESSING modal in actively waiting state. Center an ivory gold-edged popup occupying about 70% height. Small wood header "Processing". Top-right close X is softly gray-blue and visibly disabled. In upper center a beautifully painted small blue-and-ivory clock icon with gold rim, very calm and friendly; no celebratory success check. Main green amount "$2.50". Below white pill with authentic blue PayPal logo. An orange-gold rounded progress bar at exactly 60% with readable "12 / 20". Under it centered brown text "Submitting your request..." and smaller "Please wait for confirmation." Wide bottom button in disabled soft gray-blue with label "Please wait". Leave ample negative space and keep the background softly dimmed. This is pending network confirmation, never write paid, success, guaranteed or instant. Avoid countdown promises.
+
+## Source
+Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab
+
+## Notes
+服务器等待中状态；12/20进度，灰蓝禁用按钮，不能提前显示成功。
+

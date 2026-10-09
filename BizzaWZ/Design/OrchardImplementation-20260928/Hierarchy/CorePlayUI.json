@@ -1,0 +1,7035 @@
+{
+    "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform CorePlayUI CorePlayMoveParams Animation",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CorePlayUI.m_GameLayer = Game/Map/Layer",
+                "CorePlayUI.m_ChooseArea = Game/Map/ChooseArea",
+                "CorePlayUI.m_BgTrans = Game",
+                "CorePlayUI.m_BgImg = Game",
+                "CorePlayUI.m_GameAreaGroup = Game/Map",
+                "CorePlayUI.m_BottomRect = UI/Bottom",
+                "CorePlayUI.m_CollectArea = UI/Bottom/Box_Root/Layer",
+                "CorePlayUI.m_CollectFirstPos = UI/Bottom/Box_Root/Layer/FirstPos",
+                "CorePlayUI.moveParams = ",
+                "CorePlayUI.shuffleGatherPoint = Game/Map/Shuffle/ShuffleCenter",
+                "CorePlayUI.m_AddOneBtn = UI/Bottom/Box_Root/AddOne",
+                "CorePlayUI.m_UndoBtn = UI/Bottom/Undo",
+                "CorePlayUI.m_MagicBtn = UI/Bottom/Magic",
+                "CorePlayUI.m_ShuffleBtn = UI/Bottom/Shuffle",
+                "CorePlayUI.m_MagicAni = UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand",
+                "CorePlayUI.m_ShuffleEff = Game/Map/Shuffle/Effect_skill_Refresh",
+                "CorePlayUI.m_DangerousTipTrans = UI/Bottom/Box_Root/DangerousTip",
+                "CorePlayUI.m_NewPlayerGuiderRoot = Game/GuideLayer",
+                "CorePlayUI.m_EffRoot = UI/EffRoot",
+                "CorePlayUI.m_EncouragePos = UI/Bottom/Box_Root/EncouragePos"
+            ]
+        },
+        {
+            "path": "Game",
+            "type": " RectTransform CanvasRenderer ProtectedAreaAdaptReverse Image CanvasGroup GameBgScale",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 1760.0,
+                "y": 2520.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map",
+            "type": " RectTransform CanvasGroup Canvas GraphicRaycaster",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/ShuffleCenter",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 372.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh",
+            "type": " RectTransform Animation",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/Image",
+            "type": " RectTransform CanvasRenderer Image Canvas DynamicCanvasLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 2000.0,
+                "y": 2820.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 395.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System/xuanwo2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System/xuanwo",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System/Glow3",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System/Glow4",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System/Line1",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/Particle System/Glow1",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/glow_Alpha",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/glow_add",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/glow_add2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/fangshe1",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/fangshe2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/fangshe3",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/Glow1",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Shuffle/Effect_skill_Refresh/anim_skill_Refresh/GameObject/baofa/yezi",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/Layer",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/Map/ChooseArea",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Game/GuideLayer",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Top",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -100.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Top/Level",
+            "type": " RectTransform CanvasGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 10.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic",
+            "type": " RectTransform Canvas DynamicCanvasLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand",
+            "type": " RectTransform Animation",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 5.598541259765625,
+                "y": 406.96124267578127
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/glow_Alpha",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -5.598541736602783,
+                "y": -11.96125316619873
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/glow_add",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -5.598541736602783,
+                "y": -11.96125316619873
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/fangshe1",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/fangshe2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -5.598541736602783,
+                "y": -11.96125316619873
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/Glow2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/Glow2 (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/Glow3",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/Start2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -12.0,
+                "y": -33.00001525878906
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/line",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/starts",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/starts/starts (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/lizi",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/starts2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Particle/starts2/starts2 (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/GameObject",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 161.0,
+                "y": -317.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/GameObject/Shadow_Root",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.800000011920929,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/GameObject/Shadow_Root/MagicWand_shadow",
+            "type": " RectTransform CanvasRenderer Image Canvas",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/texres/mobang1_shodw.asset#mobang1_shodw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -196.0,
+                "y": 187.99996948242188
+            },
+            "size": {
+                "x": 604.0,
+                "y": 731.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/GameObject/MagicWand_Root",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.800000011920929,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/GameObject/MagicWand_Root/MagicWand",
+            "type": " RectTransform CanvasRenderer Image Canvas",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/texres/mobang1_bar.asset#mobang1_bar",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -179.0,
+                "y": 196.0
+            },
+            "size": {
+                "x": 524.0,
+                "y": 651.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/GameObject/MagicWand_Root/MagicWand_ADD",
+            "type": " RectTransform CanvasRenderer Image Canvas",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/texres/mobang_barAdd.asset#mobang_barAdd",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -221.0,
+                "y": 292.0
+            },
+            "size": {
+                "x": 431.0,
+                "y": 451.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 136.0,
+                "y": -955.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail/Trail1",
+            "type": " RectTransform TrailRenderer CanvasGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail/Trail2",
+            "type": " RectTransform TrailRenderer CanvasGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail/Particle System",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail/Particle System/Particle System (3)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail/Particle System (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Magic/Effect_skill_MagicWand/anim_skill_MagicWand/Trail/Particle System (2)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 500.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle",
+            "type": " RectTransform CanvasRenderer CorePlayItemBtn CanvasGroup UIPropEntry InputMono",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 262.0,
+                "y": 125.0
+            },
+            "size": {
+                "x": 212.0,
+                "y": 219.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CorePlayItemBtn.m_ItemBG = UI/Bottom/Shuffle/AniLayer/Button",
+                "CorePlayItemBtn.m_ItemIcon = UI/Bottom/Shuffle/AniLayer/Icon",
+                "CorePlayItemBtn.m_UseEff = UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn",
+                "CorePlayItemBtn.m_LockIcon = UI/Bottom/Shuffle/AniLayer/ItemStatus/Lock",
+                "CorePlayItemBtn.m_UseCoin = UI/Bottom/Shuffle/AniLayer/ItemStatus/UseCoin",
+                "CorePlayItemBtn.m_WatchAD = UI/Bottom/Shuffle/AniLayer/ItemStatus/AD",
+                "CorePlayItemBtn.m_UseDirectly = UI/Bottom/Shuffle/AniLayer/ItemStatus/UseDirectly",
+                "CorePlayItemBtn.m_LeftItemNum = UI/Bottom/Shuffle/AniLayer/ItemStatus/UseDirectly/BG/Num",
+                "CorePlayItemBtn.entry = UI/Bottom/Shuffle",
+                "CorePlayItemBtn.input = UI/Bottom/Shuffle",
+                "UIPropEntry.originalPresentation = UI/Bottom/Shuffle",
+                "UIPropEntry.itemNumTxt = UI/Bottom/Shuffle/AniLayer/ItemStatus/UseDirectly/BG/Num",
+                "UIPropEntry.propIcon = UI/Bottom/Shuffle/AniLayer/Icon",
+                "InputMono.m_TargetGraphic = UI/Bottom/Shuffle/AniLayer/Button"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer",
+            "type": " RectTransform Animation BehavClickBtnAni",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BehavClickBtnAni.scaleAni = UI/Bottom/Shuffle/AniLayer",
+                "BehavClickBtnAni.clipDown = Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/anim/anim_AniLayer_press.anim",
+                "BehavClickBtnAni.clipUp = Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/anim/anim_AniLayer_up.anim"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png#PropButtonFrame",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 214.0,
+                "y": 217.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Button",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropMintButton.png#PropMintButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 212.0,
+                "y": 212.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/item_BG",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/item_BK",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 94.5999984741211
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (3)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -2.5,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (4)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 85.0999984741211,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (5)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -86.9000015258789,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (6)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 55.5,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (7)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -29.899999618530275,
+                "y": 2.799999952316284
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (8)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -52.900001525878909,
+                "y": 21.799999237060548
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (9)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 32.599998474121097,
+                "y": 25.299999237060548
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropGoldenShuffle.png#PropGoldenShuffle",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 12.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/Lock",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudCopperLock.png#HudCopperLock",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 67.0,
+                "y": -70.0
+            },
+            "size": {
+                "x": 52.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseCoin",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseCoin/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -90.0
+            },
+            "size": {
+                "x": 173.0,
+                "y": 90.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseCoin/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "110",
+            "active": true,
+            "position": {
+                "x": -23.299999237060548,
+                "y": 7.5
+            },
+            "size": {
+                "x": 83.98829650878906,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseCoin/BG/Coin",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/common/sprite/coin/Coin.asset#Coin",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 40.29999923706055,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 96.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.5199999809265137,
+                "y": 0.5199999809265137,
+                "z": 0.5199999809265137
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/AD",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/AD/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -91.0
+            },
+            "size": {
+                "x": 142.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/AD/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD\n",
+            "active": true,
+            "position": {
+                "x": 24.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/AD/BG/Num/Num (1)",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/AD/BG/AD",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Common/Icon_AD.png#Icon_AD",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -34.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 40.0,
+                "y": 41.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseDirectly",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseDirectly/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png#PropButtonLocked",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 67.0,
+                "y": -71.0
+            },
+            "size": {
+                "x": 56.0,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/AniLayer/ItemStatus/UseDirectly/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "1",
+            "active": true,
+            "position": {
+                "x": -1.399999976158142,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 40.90549850463867,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Shuffle/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 262.1000061035156,
+                "y": 814.0399780273438
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 2340.571533203125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic",
+            "type": " RectTransform CanvasRenderer CorePlayItemBtn CanvasGroup UIPropEntry InputMono",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 125.0
+            },
+            "size": {
+                "x": 212.0,
+                "y": 219.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CorePlayItemBtn.m_ItemBG = UI/Bottom/Magic/AniLayer/Button",
+                "CorePlayItemBtn.m_ItemIcon = UI/Bottom/Magic/AniLayer/Icon",
+                "CorePlayItemBtn.m_UseEff = UI/Bottom/Magic/AniLayer/Effct_ItemBtn",
+                "CorePlayItemBtn.m_LockIcon = UI/Bottom/Magic/AniLayer/ItemStatus/Lock",
+                "CorePlayItemBtn.m_UseCoin = UI/Bottom/Magic/AniLayer/ItemStatus/UseCoin",
+                "CorePlayItemBtn.m_WatchAD = UI/Bottom/Magic/AniLayer/ItemStatus/AD",
+                "CorePlayItemBtn.m_UseDirectly = UI/Bottom/Magic/AniLayer/ItemStatus/UseDirectly",
+                "CorePlayItemBtn.m_LeftItemNum = UI/Bottom/Magic/AniLayer/ItemStatus/UseDirectly/BG/Num",
+                "CorePlayItemBtn.entry = UI/Bottom/Magic",
+                "CorePlayItemBtn.input = UI/Bottom/Magic",
+                "UIPropEntry.originalPresentation = UI/Bottom/Magic",
+                "UIPropEntry.itemNumTxt = UI/Bottom/Magic/AniLayer/ItemStatus/UseDirectly/BG/Num",
+                "UIPropEntry.propIcon = UI/Bottom/Magic/AniLayer/Icon",
+                "InputMono.m_TargetGraphic = UI/Bottom/Magic/AniLayer/Button"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer",
+            "type": " RectTransform Animation BehavClickBtnAni",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BehavClickBtnAni.scaleAni = UI/Bottom/Magic/AniLayer",
+                "BehavClickBtnAni.clipDown = Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/anim/anim_AniLayer_press.anim",
+                "BehavClickBtnAni.clipUp = Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/anim/anim_AniLayer_up.anim"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png#PropButtonFrame",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 214.0,
+                "y": 217.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Button",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropMintButton.png#PropMintButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 212.0,
+                "y": 212.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/item_BG",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/item_BK",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 94.5999984741211
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (3)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -2.5,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (4)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 85.0999984741211,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (5)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -86.9000015258789,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (6)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 55.5,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (7)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -29.899999618530275,
+                "y": 2.799999952316284
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (8)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -52.900001525878909,
+                "y": 21.799999237060548
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (9)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 32.599998474121097,
+                "y": 25.299999237060548
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropGoldenMagic.png#PropGoldenMagic",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 12.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/Lock",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudCopperLock.png#HudCopperLock",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 67.0,
+                "y": -70.0
+            },
+            "size": {
+                "x": 52.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseCoin",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseCoin/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -90.0
+            },
+            "size": {
+                "x": 173.0,
+                "y": 90.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseCoin/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "110",
+            "active": true,
+            "position": {
+                "x": -23.299999237060548,
+                "y": 7.5
+            },
+            "size": {
+                "x": 83.98829650878906,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseCoin/BG/Coin",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/common/sprite/coin/Coin.asset#Coin",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 40.29999923706055,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 96.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.5199999809265137,
+                "y": 0.5199999809265137,
+                "z": 0.5199999809265137
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/AD",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/AD/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -91.0
+            },
+            "size": {
+                "x": 142.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/AD/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD\n",
+            "active": true,
+            "position": {
+                "x": 24.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/AD/BG/Num/Num (1)",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/AD/BG/AD",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Common/Icon_AD.png#Icon_AD",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -34.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 40.0,
+                "y": 41.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseDirectly",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseDirectly/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png#PropButtonLocked",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 67.0,
+                "y": -71.0
+            },
+            "size": {
+                "x": 56.0,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/AniLayer/ItemStatus/UseDirectly/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "1",
+            "active": true,
+            "position": {
+                "x": -1.399999976158142,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 40.90549850463867,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Magic/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 262.1000061035156,
+                "y": 814.0399780273438
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 2340.571533203125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo",
+            "type": " RectTransform CanvasRenderer CorePlayItemBtn CanvasGroup UIPropEntry InputMono",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -262.0,
+                "y": 125.0
+            },
+            "size": {
+                "x": 212.0,
+                "y": 219.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CorePlayItemBtn.m_ItemBG = UI/Bottom/Undo/AniLayer/Button",
+                "CorePlayItemBtn.m_ItemIcon = UI/Bottom/Undo/AniLayer/Icon",
+                "CorePlayItemBtn.m_UseEff = UI/Bottom/Undo/AniLayer/Effct_ItemBtn",
+                "CorePlayItemBtn.m_LockIcon = UI/Bottom/Undo/AniLayer/ItemStatus/Lock",
+                "CorePlayItemBtn.m_UseCoin = UI/Bottom/Undo/AniLayer/ItemStatus/UseCoin",
+                "CorePlayItemBtn.m_WatchAD = UI/Bottom/Undo/AniLayer/ItemStatus/AD",
+                "CorePlayItemBtn.m_UseDirectly = UI/Bottom/Undo/AniLayer/ItemStatus/UseDirectly",
+                "CorePlayItemBtn.m_LeftItemNum = UI/Bottom/Undo/AniLayer/ItemStatus/UseDirectly/BG/Num",
+                "CorePlayItemBtn.entry = UI/Bottom/Undo",
+                "CorePlayItemBtn.input = UI/Bottom/Undo",
+                "UIPropEntry.originalPresentation = UI/Bottom/Undo",
+                "UIPropEntry.itemNumTxt = UI/Bottom/Undo/AniLayer/ItemStatus/UseDirectly/BG/Num",
+                "UIPropEntry.propIcon = UI/Bottom/Undo/AniLayer/Icon",
+                "InputMono.m_TargetGraphic = UI/Bottom/Undo/AniLayer/Button"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer",
+            "type": " RectTransform Animation BehavClickBtnAni",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BehavClickBtnAni.scaleAni = UI/Bottom/Undo/AniLayer",
+                "BehavClickBtnAni.clipDown = Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/anim/anim_AniLayer_press.anim",
+                "BehavClickBtnAni.clipUp = Assets/FruitsHarvest/Resources/Original/res/local/coreplay/effct/anim/anim_AniLayer_up.anim"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropButtonFrame.png#PropButtonFrame",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 214.0,
+                "y": 217.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Button",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropMintButton.png#PropMintButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 212.0,
+                "y": 212.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/item_BG",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/item_BK",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 94.5999984741211
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (3)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -2.5,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (4)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 85.0999984741211,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (5)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -86.9000015258789,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (6)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 55.5,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (7)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -29.899999618530275,
+                "y": 2.799999952316284
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (8)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -52.900001525878909,
+                "y": 21.799999237060548
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Effct_ItemBtn/Particle System/lizi (2)/lizi (9)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 32.599998474121097,
+                "y": 25.299999237060548
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropGoldenUndo.png#PropGoldenUndo",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 12.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/Lock",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudCopperLock.png#HudCopperLock",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 67.0,
+                "y": -70.0
+            },
+            "size": {
+                "x": 52.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseCoin",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseCoin/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -90.0
+            },
+            "size": {
+                "x": 173.0,
+                "y": 90.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseCoin/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "110",
+            "active": true,
+            "position": {
+                "x": -23.299999237060548,
+                "y": 7.5
+            },
+            "size": {
+                "x": 83.98829650878906,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseCoin/BG/Coin",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/common/sprite/coin/Coin.asset#Coin",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 40.29999923706055,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 96.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.5199999809265137,
+                "y": 0.5199999809265137,
+                "z": 0.5199999809265137
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/AD",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/AD/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -91.0
+            },
+            "size": {
+                "x": 142.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/AD/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD\n",
+            "active": true,
+            "position": {
+                "x": 24.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/AD/BG/Num/Num (1)",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/AD/BG/AD",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Common/Icon_AD.png#Icon_AD",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -34.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 40.0,
+                "y": 41.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseDirectly",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseDirectly/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Resources/OrchardUI/PropButtonLocked.png#PropButtonLocked",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 67.0,
+                "y": -71.0
+            },
+            "size": {
+                "x": 56.0,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/AniLayer/ItemStatus/UseDirectly/BG/Num",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "1",
+            "active": true,
+            "position": {
+                "x": -1.399999976158142,
+                "y": 4.800000190734863
+            },
+            "size": {
+                "x": 40.90549850463867,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Undo/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 262.1000061035156,
+                "y": 814.0399780273438
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 2340.571533203125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root",
+            "type": " RectTransform CanvasGroup Canvas DynamicCanvasLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -2.0,
+                "y": 355.0
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne",
+            "type": " RectTransform CanvasRenderer CorePlayItemBtn NonImageGraphic CanvasGroup Animation UIPropEntry InputMono Canvas DynamicCanvasLayer GraphicRaycaster",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 433.0,
+                "y": 25.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CorePlayItemBtn.m_ItemBG = UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+                "CorePlayItemBtn.m_ItemIcon = UI/Bottom/Box_Root/AddOne/AniLayer/Icon",
+                "CorePlayItemBtn.m_BtnAnim = UI/Bottom/Box_Root/AddOne",
+                "CorePlayItemBtn.m_OnlyUnlockIcon = UI/Bottom/Box_Root/AddOne/AniLayer/Icon",
+                "CorePlayItemBtn.m_LockIcon = UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/Lock",
+                "CorePlayItemBtn.m_UseCoin = UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseCoin",
+                "CorePlayItemBtn.m_WatchAD = UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/AD",
+                "CorePlayItemBtn.m_UseDirectly = UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseDirectly",
+                "CorePlayItemBtn.m_LeftItemNum = UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseDirectly/Text",
+                "CorePlayItemBtn.entry = UI/Bottom/Box_Root/AddOne",
+                "CorePlayItemBtn.input = UI/Bottom/Box_Root/AddOne",
+                "UIPropEntry.originalPresentation = UI/Bottom/Box_Root/AddOne",
+                "UIPropEntry.itemNumTxt = UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseDirectly/Text",
+                "UIPropEntry.propIcon = UI/Bottom/Box_Root/AddOne/AniLayer/Icon",
+                "InputMono.m_TargetGraphic = UI/Bottom/Box_Root/AddOne/AniLayer/Bg"
+            ]
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/ExtraButton.asset#ExtraButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 162.0,
+                "y": 172.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Extra_Icon.asset#Extra_Icon",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 5.0,
+                "y": 27.0
+            },
+            "size": {
+                "x": 81.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus",
+            "type": " RectTransform CanvasGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/Lock",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 5.0,
+                "y": 27.0
+            },
+            "size": {
+                "x": 72.0,
+                "y": 95.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/Lock/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/item/Extra_Lock.asset#Extra_Lock",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 79.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseCoin",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseCoin/Bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -8.0,
+                "y": 82.0
+            },
+            "size": {
+                "x": 102.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseCoin/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "300",
+            "active": true,
+            "position": {
+                "x": -20.0,
+                "y": 84.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseCoin/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/common/sprite/coin/CommonCoinBtn.asset#CommonCoinBtn",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 20.0,
+                "y": 82.0
+            },
+            "size": {
+                "x": 96.0,
+                "y": 103.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.2800000011920929,
+                "y": 0.2800000011920929,
+                "z": 0.2800000011920929
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/AD",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/AD/Bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -8.0,
+                "y": 82.0
+            },
+            "size": {
+                "x": 102.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/AD/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Common/Icon_AD.png#Icon_AD",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -34.0,
+                "y": 82.0
+            },
+            "size": {
+                "x": 33.0,
+                "y": 34.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/AD/Shadow",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD",
+            "active": true,
+            "position": {
+                "x": 10.0,
+                "y": 82.0
+            },
+            "size": {
+                "x": 44.0,
+                "y": 32.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 26.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/AD/Shadow/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "AD",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 26.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseDirectly",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseDirectly/Bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 33.0,
+                "y": 74.0
+            },
+            "size": {
+                "x": 49.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/ItemStatus/UseDirectly/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProCustom",
+            "sprite": "",
+            "text": "1",
+            "active": true,
+            "position": {
+                "x": 33.0,
+                "y": 77.0
+            },
+            "size": {
+                "x": 40.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 20.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/UnLock_Glow",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/UnLock_AddOne",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -20.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/UnLock_Glow1",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/UnLock_Glow2",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/UnLock_Glow3",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/liz_B",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/yezi (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/Star_alpah (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 5.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/Star_alpah (1)/Star_add",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/UnLock_Glow3",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/lizi",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/AddOne/AniLayer/Effct_UnLock_Blue/Particle System/lizi (1)",
+            "type": " RectTransform ParticleSystem ParticleSystemRenderer DynamicParticleLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/BasketShadow",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/basket_shadow.asset#basket_shadow",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.0,
+                "y": 5.0
+            },
+            "size": {
+                "x": 1066.0,
+                "y": 254.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/BastetUp",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/basket_01.asset#basket_01",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.0,
+                "y": 7.0
+            },
+            "size": {
+                "x": 1066.0,
+                "y": 254.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/Layer",
+            "type": " RectTransform Canvas DynamicCanvasLayer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -262.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/Layer/FirstPos",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -429.0,
+                "y": 304.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/BastetDown",
+            "type": " RectTransform CanvasRenderer Image Canvas GraphicRaycaster DynamicCanvasLayer",
+            "sprite": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/sprite/basket_02.asset#basket_02",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 2.0,
+                "y": 6.0
+            },
+            "size": {
+                "x": 1066.0,
+                "y": 254.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/DangerousTip",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.0,
+                "y": 734.0
+            },
+            "size": {
+                "x": 980.0,
+                "y": 2540.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/Bottom/Box_Root/EncouragePos",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 182.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UI/EffRoot",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

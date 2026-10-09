@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,15 +10,15 @@ public sealed class OrchardBackdrop : MonoBehaviour
     [SerializeField] private Image target;
     [SerializeField] private string resourcePath = "OrchardUI/Backdrop";
 
-    // All framework pages use the same background; keep a single loaded copy.
-    private static Sprite sharedSprite;
-    private static ResourceRequest sharedRequest;
+    // Requests are shared by asset path. Reward pages and service pages have distinct artwork.
+    private static readonly Dictionary<string, Sprite> Sprites = new Dictionary<string, Sprite>();
+    private static readonly Dictionary<string, ResourceRequest> Requests = new Dictionary<string, ResourceRequest>();
     private Coroutine loading;
 
     private void OnEnable()
     {
         if (target == null) return;
-        if (sharedSprite != null)
+        if (Sprites.TryGetValue(resourcePath, out var sharedSprite) && sharedSprite != null)
         {
             Show(sharedSprite);
             return;
@@ -28,15 +29,20 @@ public sealed class OrchardBackdrop : MonoBehaviour
 
     private IEnumerator Load()
     {
-        if (sharedRequest == null) sharedRequest = Resources.LoadAsync<Sprite>(resourcePath);
+        if (!Requests.TryGetValue(resourcePath, out var sharedRequest))
+        {
+            sharedRequest = Resources.LoadAsync<Sprite>(resourcePath);
+            Requests.Add(resourcePath, sharedRequest);
+        }
         yield return sharedRequest;
-        if (sharedSprite == null) sharedSprite = sharedRequest.asset as Sprite;
+        var sharedSprite = sharedRequest.asset as Sprite;
         loading = null;
         if (sharedSprite == null)
         {
             Debug.LogError("Orchard menu backdrop could not be loaded from Resources/" + resourcePath, this);
             yield break;
         }
+        Sprites[resourcePath] = sharedSprite;
         Show(sharedSprite);
     }
 

@@ -1,0 +1,320 @@
+{
+    "prefab": "Assets/BizzaWZ/Common/BizzaGame/WhiteWinPanel/WhiteWinPanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation RecoveredVictoryPanel",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "RecoveredVictoryPanel.hero = VictoryHero",
+                "RecoveredVictoryPanel.card = Card",
+                "RecoveredVictoryPanel.titleText = Card/Title",
+                "RecoveredVictoryPanel.bodyText = Card/Body",
+                "RecoveredVictoryPanel.nextButton = Card/NextButton",
+                "RecoveredVictoryPanel.skin = Assets/OrchardUI/Generated/OrchardVictoryPanelSkin.asset"
+            ]
+        },
+        {
+            "path": "Mask",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "VictoryHero",
+            "type": " RectTransform CanvasRenderer RawImage",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -420.0,
+                "y": 934.0
+            },
+            "size": {
+                "x": 796.0,
+                "y": 831.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Card",
+            "type": " RectTransform CanvasRenderer RawImage",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -450.0,
+                "y": 281.0
+            },
+            "size": {
+                "x": 902.0,
+                "y": 651.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Card/Accent",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 16.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Card/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI Outline",
+            "sprite": "",
+            "text": "Level Complete",
+            "active": true,
+            "position": {
+                "x": -204.0,
+                "y": 196.0
+            },
+            "size": {
+                "x": 426.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Card/Body",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "All dragons escaped",
+            "active": true,
+            "position": {
+                "x": -255.0,
+                "y": 3.0
+            },
+            "size": {
+                "x": 528.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Card/NextButton",
+            "type": " RectTransform CanvasRenderer RawImage Button",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -268.0,
+                "y": -102.0
+            },
+            "size": {
+                "x": 532.0,
+                "y": 151.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = Card/NextButton"
+            ]
+        },
+        {
+            "path": "Card/NextButton/Label",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI Outline",
+            "sprite": "",
+            "text": "Next Level",
+            "active": true,
+            "position": {
+                "x": -141.0,
+                "y": 31.0
+            },
+            "size": {
+                "x": 290.0,
+                "y": 49.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        }
+    ]
+}

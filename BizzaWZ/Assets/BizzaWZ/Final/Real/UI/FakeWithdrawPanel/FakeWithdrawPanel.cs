@@ -54,6 +54,7 @@ public class FakeWithdrawPanel : UIPageBase
     }
 
     public BizzaButton withdrawBtn;
+    [SerializeField] private OrchardCashVisual referenceVisual;
     [SerializeField] private BizzaButton faqBtn;
     [SerializeField] private BizzaButton closeBtn;
     [SerializeField] private BizzaButton historyBtn;
@@ -98,6 +99,7 @@ public class FakeWithdrawPanel : UIPageBase
     protected override void OnOpen()
     {
         plats?.Clear();
+        if (referenceVisual != null) referenceVisual.SetAvailable(false);
         curSelectIndex = HasStarterWithdraw && isReward ? 1 : 0;
         if (!EnsureSelection())
         {
@@ -144,7 +146,9 @@ public class FakeWithdrawPanel : UIPageBase
                 Count = missions[i].withdrawMoney,
             };
             string count = ItemUtils.FormatCount(itemEntry);
-            items[i].Init(this, i, count, canGet, isStarterItem);
+            if (Mathf.Abs(withdrawMissionSOList[i].withdrawMoney - Mathf.Round(withdrawMissionSOList[i].withdrawMoney)) >= .001f)
+                count = WithdrawalUtil.GetCustomizedValueByCountryType(withdrawMissionSOList[i].withdrawMoney);
+            items[i].Init(this, i, LanguageUtils.GetText("CurrencyToken") + count, canGet, isStarterItem);
         }
 
         SetSelectIndex(curSelectIndex);
@@ -166,6 +170,12 @@ public class FakeWithdrawPanel : UIPageBase
         {
             float value = curMission.GetValueOfCondition();
             hintTxt.text = curMission.GetWithdrawDesc(WithdrawalUtil.GetCustomizedFloatByCountryType(value));
+            if (referenceVisual != null && curMission.conditionData.condition == E_WithdrawCondition.Money)
+            {
+                float target = ItemUtils.FormatCountFloat(new ItemEntry { Type = E_ItemType.Dollar, Count = curMission.conditionData.targetValue });
+                float remaining = Mathf.Max(0, target - WithdrawalUtil.GetCustomizedFloatByCountryType(value));
+                if (remaining > 0) referenceVisual.ShowMoneyRemaining(remaining);
+            }
         }
 
         for (int i = 0; i < withdrawMissionSOList.Count && i < items.Count; i++)
@@ -173,6 +183,7 @@ public class FakeWithdrawPanel : UIPageBase
             bool isStarterItem = HasStarterWithdraw && i == 0;
             items[i].Refresh(isStarterItem && !isReward, isStarterItem);
         }
+        if (referenceVisual != null) referenceVisual.RefreshCards(items);
     }
 
     public void UpdateProgress(bool isAnim = false)
@@ -189,7 +200,13 @@ public class FakeWithdrawPanel : UIPageBase
         {
             progressImg.fillAmount = progress;
         }
-        progressTxt.text = $"{(progress * 100).ToString("F2")}%";
+        progressTxt.text = $"{(progress * 100).ToString("0.##")}%";
+        if (referenceVisual != null)
+        {
+            bool starter = HasStarterWithdraw && curSelectIndex == 0;
+            bool eligible = plats != null && plats.Count > 0 && (starter ? !isReward : progress >= 1f);
+            referenceVisual.SetAvailable(eligible);
+        }
     }
 
     private float GetCurProgress()
@@ -252,10 +269,11 @@ public class FakeWithdrawPanel : UIPageBase
     {
         BizzaEventSystem.Off(EventDefine.Item.ItemChangedWithData, OnRefresh);
         BizzaEventSystem.Off(EventDefine.Item.ItemChangedWithData, OnRewardProgressChanged);
-        SetLinster(true);
+        SetLinster(false);
     }
     void OnDestroy()
     {
+        SetLinster(false);
         BizzaEventSystem.Off(EventDefine.Item.ItemChangedWithData, OnRefresh);
         BizzaEventSystem.Off(EventDefine.Item.ItemChangedWithData, OnRewardProgressChanged);
     }

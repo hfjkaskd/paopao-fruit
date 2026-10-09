@@ -1,0 +1,48 @@
+{
+    "startedUtc": "2026-09-28T12:57:43.1012130Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 6,
+    "pages": [
+        {
+            "page": "DailyWithdrawPanel",
+            "openMethod": "InitWZ full initialization and production UIModule.OpenPage; actual account amounts and server payment methods",
+            "closeMethod": "Reopened reminder then EventSystem Close Button",
+            "screenshot": "Design/OrchardReminderRefinement-20260928/Runtime/00-reminder.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 765.5,
+                        "y": 1414.5
+                    }
+                },
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "WithdrawBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 507.0
+                    }
+                }
+            ],
+            "checks": [
+                "Actual account balance and payout amount refreshed; payment logos retain server-driven visibility and preserve aspect",
+                "New amount rim and method-card highlights use complete untinted sprites; all labels fit, note clears the card edges, and both standard Buttons receive center hits",
+                "View withdrawal Button closes the reminder and opens the existing RealWithdrawPanel; no withdrawal submission",
+                "Reopen and close work; account balance and last withdrawal timestamp unchanged"
+            ]
+        }
+    ],
+    "errors": [
+        "开启测试设备False"
+    ]
+}

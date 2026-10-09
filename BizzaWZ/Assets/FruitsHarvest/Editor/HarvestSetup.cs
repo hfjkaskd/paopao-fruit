@@ -198,7 +198,8 @@ public static class HarvestSetup
             var background = viewSo.FindProperty("m_ItemBG").objectReferenceValue as Image;
             var frame = background != null && background.transform.parent != null
                 ? background.transform.parent.Find("BG") : null;
-            viewSo.FindProperty("outerFrame").objectReferenceValue = frame != null ? frame.GetComponent<Image>() : null;
+            var frameImage = frame != null ? frame.GetComponent<Image>() : null;
+            viewSo.FindProperty("outerFrame").objectReferenceValue = frameImage != null && frameImage.enabled ? frameImage : null;
             viewSo.ApplyModifiedPropertiesWithoutUndo();
             input.targetGraphic = background;
             if (viewSo.FindProperty("m_BtnAnim").objectReferenceValue != null)
@@ -254,7 +255,12 @@ public static class HarvestSetup
         var cfg=AssetDatabase.LoadAssetAtPath<PropConfigSO>("Assets/BizzaWZ/Common/Resources/Configs/PropConfig.asset");
         var so=new SerializedObject(cfg); var entries=so.FindProperty("propCfgInfos");
         entries.arraySize=4;
-        var icons=new[]{"Undo_Normal","Shuffle_Normal","Magic_Normal","Extra_Normal"};
+        var iconPaths=new[]{
+            "Assets/OrchardUI/Resources/OrchardUI/PropGoldenUndo.png",
+            "Assets/OrchardUI/Resources/OrchardUI/PropGoldenShuffle.png",
+            "Assets/OrchardUI/Resources/OrchardUI/PropGoldenMagic.png",
+            Original+"res/local/pops/newitempop/sprite/IconExtra.asset"
+        };
         for(int i=0;i<4;i++)
         {
             var p=entries.GetArrayElementAtIndex(i);
@@ -265,9 +271,8 @@ public static class HarvestSetup
             // Preserve the framework's configured per-level allowance and newcomer quantity.
             p.FindPropertyRelative("preLimitNum").intValue=i==3 ? 1 : 3;
             p.FindPropertyRelative("newPlayerPropCount").intValue=1;
-            var sprite=AssetDatabase.FindAssets(icons[i]+" t:Sprite",new[]{Original}).Select(AssetDatabase.GUIDToAssetPath).Select(AssetDatabase.LoadAssetAtPath<Sprite>).FirstOrDefault(x=>x!=null);
-            if(sprite==null) sprite=AssetDatabase.FindAssets("Icon"+new[]{"Undo","Shuffle","Magic","Extra"}[i]+" t:Sprite",new[]{Original}).Select(AssetDatabase.GUIDToAssetPath).Select(AssetDatabase.LoadAssetAtPath<Sprite>).FirstOrDefault(x=>x!=null);
-            if(sprite==null) throw new InvalidOperationException("Missing original prop icon: "+icons[i]);
+            var sprite=AssetDatabase.LoadAssetAtPath<Sprite>(iconPaths[i]);
+            if(sprite==null) throw new InvalidOperationException("Missing configured prop icon: "+iconPaths[i]);
             p.FindPropertyRelative("propIcon").objectReferenceValue=sprite;
         }
         so.ApplyModifiedPropertiesWithoutUndo();

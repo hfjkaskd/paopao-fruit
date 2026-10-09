@@ -1,0 +1,245 @@
+[
+  {
+    "id": "00",
+    "title": "已确认提现主界面",
+    "key": "withdraw-main",
+    "reference": "../OrchardServiceSystem-20260927/images/00-approved-withdrawal.png",
+    "preview": "Previews/withdraw-main.png",
+    "runtime": "Runtime/00-RealWithdrawPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab"
+  },
+  {
+    "id": "01",
+    "title": "启动 / 加载",
+    "key": "loading",
+    "reference": "../PremiumOrchardUI-20260927/images/01-loading.png",
+    "preview": "Previews/loading.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab"
+  },
+  {
+    "id": "02",
+    "title": "主游戏 / HUD",
+    "key": "game-hud",
+    "reference": "../PremiumOrchardUI-20260927/images/02-gameplay.png",
+    "preview": "Previews/game-hud.png",
+    "runtime": "Runtime/gameplay.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab"
+  },
+  {
+    "id": "03",
+    "title": "新手教学",
+    "key": "tutorial",
+    "reference": "../PremiumOrchardUI-20260927/images/03-tutorial.png",
+    "preview": "Previews/tutorial.png",
+    "runtime": null,
+    "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/prefab/NewPlayerGuider.prefab"
+  },
+  {
+    "id": "04",
+    "title": "通关 / 奖励领取",
+    "key": "level-complete",
+    "reference": "../PremiumOrchardUI-20260927/images/04-level-complete.png",
+    "preview": "Previews/level-complete.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab"
+  },
+  {
+    "id": "05",
+    "title": "失败 / 复活",
+    "key": "revive",
+    "reference": "../PremiumOrchardUI-20260927/images/05-revive.png",
+    "preview": "Previews/revive.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab"
+  },
+  {
+    "id": "06",
+    "title": "设置与暂停",
+    "key": "settings",
+    "reference": "../OrchardServiceSystem-20260927/images/06-settings.png",
+    "preview": "Previews/settings.png",
+    "runtime": "Runtime/02-PausePanel.png",
+    "prefab": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab"
+  },
+  {
+    "id": "07",
+    "title": "道具补充",
+    "key": "get-booster",
+    "reference": "../PremiumOrchardUI-20260927/images/07-get-booster.png",
+    "preview": "Previews/get-booster.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab"
+  },
+  {
+    "id": "08",
+    "title": "新道具解锁",
+    "key": "new-booster",
+    "reference": "../PremiumOrchardUI-20260927/images/08-new-booster.png",
+    "preview": "Previews/new-booster.png",
+    "runtime": null,
+    "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab"
+  },
+  {
+    "id": "09",
+    "title": "每日任务（框架附录）",
+    "key": "daily-tasks",
+    "reference": "../OrchardServiceSystem-20260927/images/09-daily-tasks.png",
+    "preview": "Previews/daily-tasks.png",
+    "runtime": "Runtime/10-UI_DailyTaskPage.png",
+    "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab"
+  },
+  {
+    "id": "10",
+    "title": "游戏评价",
+    "key": "rating",
+    "reference": "../OrchardServiceSystem-20260927/images/10-rating.png",
+    "preview": "Previews/rating.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab"
+  },
+  {
+    "id": "11",
+    "title": "现金提现（框架分支）",
+    "key": "cash-withdraw",
+    "reference": "../OrchardServiceSystem-20260927/images/11-cash-withdrawal.png",
+    "preview": "Previews/cash-withdraw.png",
+    "runtime": "Runtime/01-FakeWithdrawPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab"
+  },
+  {
+    "id": "12",
+    "title": "收款账户",
+    "key": "withdraw-account",
+    "reference": "../OrchardServiceSystem-20260927/images/12-payout-account.png",
+    "preview": "Previews/withdraw-account.png",
+    "runtime": "Runtime/11-UIWithdrawalPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab"
+  },
+  {
+    "id": "13",
+    "title": "提现确认",
+    "key": "withdraw-confirm",
+    "reference": "../OrchardServiceSystem-20260927/images/13-withdraw-confirm.png",
+    "preview": "Previews/withdraw-confirm.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab"
+  },
+  {
+    "id": "14",
+    "title": "提现处理中",
+    "key": "withdraw-pending",
+    "reference": "../OrchardServiceSystem-20260927/images/14-withdraw-pending.png",
+    "preview": "Previews/withdraw-pending.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab"
+  },
+  {
+    "id": "15",
+    "title": "提现记录",
+    "key": "history",
+    "reference": "../OrchardServiceSystem-20260927/images/15-withdraw-history.png",
+    "preview": "Previews/history.png",
+    "runtime": "Runtime/04-WithdrawHistory.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab"
+  },
+  {
+    "id": "16",
+    "title": "段位奖励（框架分支）",
+    "key": "withdraw-milestones",
+    "reference": "../OrchardServiceSystem-20260927/images/16-withdraw-milestones.png",
+    "preview": "Previews/withdraw-milestones.png",
+    "runtime": "Runtime/06-WithdrawDanPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab"
+  },
+  {
+    "id": "17",
+    "title": "可提现提醒",
+    "key": "withdraw-reminder",
+    "reference": "../OrchardServiceSystem-20260927/images/17-withdraw-reminder.png",
+    "preview": "Previews/withdraw-reminder.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab"
+  },
+  {
+    "id": "18",
+    "title": "兑换率提升",
+    "key": "rate-up",
+    "reference": "../PremiumOrchardUI-20260927/images/18-rate-up-v2.png",
+    "preview": "Previews/rate-up.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab"
+  },
+  {
+    "id": "19",
+    "title": "常见问题",
+    "key": "faq",
+    "reference": "../OrchardServiceSystem-20260927/images/19-faq.png",
+    "preview": "Previews/faq.png",
+    "runtime": "Runtime/03-FAQPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/FAQPanel/FAQPanel.prefab"
+  },
+  {
+    "id": "20",
+    "title": "客服对话",
+    "key": "service",
+    "reference": "../OrchardServiceSystem-20260927/images/20-support-chat.png",
+    "preview": "Previews/service.png",
+    "runtime": "Runtime/05-ServicePanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab"
+  },
+  {
+    "id": "21",
+    "title": "客服快捷问题",
+    "key": "service-topics",
+    "reference": "../OrchardServiceSystem-20260927/images/21-support-topics-v2.png",
+    "preview": "Previews/service-topics.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/ServiceSelectPanel/ServiceSelectPanel.prefab"
+  },
+  {
+    "id": "22",
+    "title": "新手礼",
+    "key": "welcome-gift",
+    "reference": "../PremiumOrchardUI-20260927/images/22-welcome-gift.png",
+    "preview": "Previews/welcome-gift.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab"
+  },
+  {
+    "id": "23",
+    "title": "每日视频任务",
+    "key": "daily-mission",
+    "reference": "../PremiumOrchardUI-20260927/images/23-daily-mission.png",
+    "preview": "Previews/daily-mission.png",
+    "runtime": "Runtime/09-DailyMissionPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab"
+  },
+  {
+    "id": "24",
+    "title": "幸运抽奖",
+    "key": "lucky-spin",
+    "reference": "../PremiumOrchardUI-20260927/images/24-lucky-spin.png",
+    "preview": "Previews/lucky-spin.png",
+    "runtime": "Runtime/07-SlotPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab"
+  },
+  {
+    "id": "25",
+    "title": "幸运抽奖规则",
+    "key": "lucky-help",
+    "reference": "../PremiumOrchardUI-20260927/images/25-lucky-help.png",
+    "preview": "Previews/lucky-help.png",
+    "runtime": "Runtime/08-SlotFAQPanel.png",
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab"
+  },
+  {
+    "id": "26",
+    "title": "通用提示",
+    "key": "notification",
+    "reference": "../OrchardServiceSystem-20260927/images/26-notification.png",
+    "preview": "Previews/notification.png",
+    "runtime": null,
+    "prefab": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab"
+  }
+]

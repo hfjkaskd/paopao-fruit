@@ -1,0 +1,67 @@
+{
+    "startedUtc": "2026-09-28T14:17:06.2921774Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 12,
+    "pages": [
+        {
+            "page": "DailyMissionPanel",
+            "openMethod": "InitWZ full initialization and production UIModule.OpenPage; capture live server response before temporary presentation fixtures",
+            "closeMethod": "EventSystem Close, reopen actual server state, EventSystem Close",
+            "screenshot": "Design/OrchardDailyMissionRefinement-20260928/RuntimeShort/01-daily-mission.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 900.9100341796875,
+                        "y": 1520.606689453125
+                    }
+                },
+                {
+                    "name": "GoBtn",
+                    "topHit": "GoBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 540.0,
+                        "y": 556.9664306640625
+                    }
+                },
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "WithdrawBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 540.0,
+                        "y": 556.9664306640625
+                    }
+                },
+                {
+                    "name": "ClaimedBtn",
+                    "topHit": "ClaimedBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 540.0,
+                        "y": 556.9664306640625
+                    }
+                }
+            ],
+            "checks": [
+                "Live response populates progress and state after formal initialization",
+                "Reward appears once; 8/30 uses a proportional orange fill over dark track; countdown advances; seven complete untinted art sprites fit screen",
+                "Incomplete / ready / claimed state presents exactly one standard action Button; each action receives center hits. Ad and payout actions are not invoked.",
+                "Zero target safely produces 0/0 and empty fill",
+                "Reopen restores live data; saved daily count, ad-click count, balance and withdrawal time unchanged"
+            ]
+        }
+    ],
+    "errors": []
+}

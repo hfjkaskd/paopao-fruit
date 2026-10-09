@@ -1,0 +1,18 @@
+[
+  {
+    "id": "09",
+    "title": "Daily Tasks · 每日任务（框架附录）",
+    "source": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+    "prompt": "prompts/09-daily-tasks.md",
+    "image": "images/09-daily-tasks.png",
+    "notes": "当前 GameUiWidget 的 TaskButton 为 inactive，UIDailyTaskPage.OnTabClick 为空，enableTab 为 0；本张仅保留现有框架页面视觉方案，不意味着启用该业务。沿用既有 OnlineTime 10/20/40/60/90 分钟任务。进度和奖励数字仅为视觉示例。内置 image_gen 生成，已检查布局、文案、五条任务与样例进度。"
+  },
+  {
+    "id": "10",
+    "title": "Rating · 游戏评价",
+    "source": "C:/Projects/paopao/BizzaWZ/Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+    "prompt": "prompts/10-rating.md",
+    "image": "images/10-rating.png",
+    "notes": "现有提现结果链路条件触发的 StarRatingPopup，五个标准星级按钮和 Confirm。效果图用四星选中示例，无奖励承诺，不新增商业行为。背景沿用原玩法果树与收集槽。内置 image_gen 生成，已检查布局、五颗星、文案和唯一主操作。"
+  }
+]

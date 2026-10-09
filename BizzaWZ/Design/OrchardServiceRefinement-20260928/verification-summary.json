@@ -1,0 +1,68 @@
+{
+  "generatedUtc": "2026-09-28T13:55:31.017305+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "referenceSize": [
+    852,
+    1846
+  ],
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T13:54:54.3280546Z",
+      "status": "complete",
+      "buttonHitChecks": 7,
+      "loggedErrors": [],
+      "checks": [
+        "Four real chat prefabs fit completely inside viewport; player sentence stays one line; final bubble bottom and all text remain visible; five initial Buttons receive hits",
+        "Quick questions opens the existing picker, selected question fills input, enabled Send and Clear are reachable; Clear restores the empty input; Send never clicked",
+        "Fourteen long messages scroll to a complete last bubble; keyboard-height callback preserves anchors and top edge, zero height restores both original offsets",
+        "FAQ and History navigation return correctly; temporary rows removed and original rows restored; saved chat count unchanged, no message sent"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T13:54:20.4180609Z",
+      "status": "complete",
+      "buttonHitChecks": 7,
+      "loggedErrors": [
+        "开启测试设备False"
+      ],
+      "checks": [
+        "Four real chat prefabs fit completely inside viewport; player sentence stays one line; final bubble bottom and all text remain visible; five initial Buttons receive hits",
+        "Quick questions opens the existing picker, selected question fills input, enabled Send and Clear are reachable; Clear restores the empty input; Send never clicked",
+        "Fourteen long messages scroll to a complete last bubble; keyboard-height callback preserves anchors and top edge, zero height restores both original offsets",
+        "FAQ and History navigation return correctly; temporary rows removed and original rows restored; saved chat count unchanged, no message sent"
+      ]
+    }
+  },
+  "buttonHitChecksPassed": 14,
+  "layoutSpecsUnchanged": true,
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab": "23d06ebf11d8b6d9d986b28c68f92585a125031facd349d8366a6f24d459e8aa",
+    "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ChatElement.prefab": "e83e460d9bcb98cef783a580aedeed296fbae1a36b1e4b26cad7c5428d32e28d",
+    "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.cs": "63e9feccf3d440979b2d15e8ae389f9856cc6a97af9870acad940bccc29196bd",
+    "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ChatElement.cs": "b4e630bbe0cdc81b91f8ffbd502e075679f42b5b149b8442e49e792f480293f4",
+    "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ViewportResizer.cs": "92cae8773fa8a22a4a97259530467079d29e711ab2c146aa9fe6066872b35f95",
+    "Assets/OrchardUI/Resources/OrchardUI/ServiceReferenceControls.png": "0fddf98e656920ece59e7677839e1129dd568fca8ca6126c085e0a050f0b55bd",
+    "Assets/OrchardUI/Runtime/OrchardServiceVisual.cs": "9fef7908588d311008b04ba6d44b8331d3f0219c021db925dcc7a21aa05d558e"
+  },
+  "limitations": [
+    "Four temporary ChatElement rows reproduce the reference; fourteen temporary rows test scrolling. No messages sent or saved.",
+    "No support message submitted.",
+    "No Android/iOS device build tested.",
+    "Visual refinement does not prove complete pixel identity."
+  ]
+}

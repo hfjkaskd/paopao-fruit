@@ -1,0 +1,354 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotEnter/SlotEnter.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform SlotEnter BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 800.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotEnter.progressImag = Content/Progress/progress",
+                "SlotEnter.progressTxt = Content/Progress/Text (TMP)",
+                "SlotEnter.slotCanHintObj = VFX_ShanGuang",
+                "SlotEnter.bizza = ",
+                "BizzaButton.scaleTarget = "
+            ]
+        },
+        {
+            "path": "VFX_ShanGuang",
+            "type": " RectTransform CanvasRenderer ShanGuang_VFX",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -50.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ShanGuang_VFX.normalImage = VFX_ShanGuang/Rotate_Normal",
+                "ShanGuang_VFX.appearImage = VFX_ShanGuang/Rotate_AppearIndistinctly"
+            ]
+        },
+        {
+            "path": "VFX_ShanGuang/Rotate_Normal",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/Game/Effect/Textures/ggg.png#ggg",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "VFX_ShanGuang/Rotate_AppearIndistinctly",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/Game/Effect/Textures/ggg.png#ggg",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ProgressTrack",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 10.495100021362305,
+                "y": 0.0
+            },
+            "size": {
+                "x": 731.3992919921875,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 702.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudLucky777.png#HudLucky777",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -112.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 224.0,
+                "y": 163.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Progress",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/BottomHudProgressTrack.png#BottomHudProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -88.0
+            },
+            "size": {
+                "x": 224.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Progress/progress",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/BottomHudProgressFill.png#BottomHudProgressFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 202.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Progress/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "0/5",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        }
+    ]
+}

@@ -1,0 +1,2589 @@
+{
+    "prefab": "settings",
+    "nodes": [
+        {
+            "path": "",
+            "type": "Image:False:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1585.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 938.5
+            },
+            "size": {
+                "x": 798.0,
+                "y": 1123.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/ApprovedLanguageRow",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 1162.0
+            },
+            "size": {
+                "x": 721.0,
+                "y": 174.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 349.5
+            },
+            "size": {
+                "x": 538.0,
+                "y": 153.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 716.1199951171875,
+                "y": 328.16998291015627
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 135.8800048828125,
+                "y": 328.16998291015627
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 862.9000244140625
+            },
+            "size": {
+                "x": 785.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1351.5
+            },
+            "size": {
+                "x": 718.0,
+                "y": 123.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup/BackButton",
+            "type": "Image:True:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 1351.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup/BackButton/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Reiniciar",
+            "active": true,
+            "position": {
+                "x": 243.5,
+                "y": 1350.5
+            },
+            "size": {
+                "x": 303.0,
+                "y": 95.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 57.599998474121097,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup/ContinueBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 610.0,
+                "y": 1351.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup/ContinueBtn/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 801.8200073242188,
+                "y": 1351.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup/ContinueBtn/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 418.17999267578127,
+                "y": 1351.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/GamePauseGroup/ContinueBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Continuar",
+            "active": true,
+            "position": {
+                "x": 610.0,
+                "y": 1350.5
+            },
+            "size": {
+                "x": 310.0,
+                "y": 95.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 57.599998474121097,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MainPauseGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 938.5
+            },
+            "size": {
+                "x": 798.0,
+                "y": 1123.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MainPauseGroup/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 798.9000244140625
+            },
+            "size": {
+                "x": 785.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MainPauseGroup/BackButton",
+            "type": "Image:True:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 425.0,
+                "y": 1351.0
+            },
+            "size": {
+                "x": 350.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MainPauseGroup/BackButton/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Back\n",
+            "active": false,
+            "position": {
+                "x": 424.29998779296877,
+                "y": 1345.4000244140625
+            },
+            "size": {
+                "x": 350.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 62.900001525878909,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 572.0
+            },
+            "size": {
+                "x": 721.0,
+                "y": 178.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button",
+            "type": "Image:True:1",
+            "sprite": "ToggleOff",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 573.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOn",
+            "type": "Image:True:1",
+            "sprite": "ToggleOn",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 573.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Bg_PauseCanMusic",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 573.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOn/ApprovedKnob",
+            "type": "Image:True:1",
+            "sprite": "Knob",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 705.0,
+                "y": 572.0
+            },
+            "size": {
+                "x": 76.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOn/ApprovedStateText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "SIM",
+            "active": true,
+            "position": {
+                "x": 605.5,
+                "y": 574.0
+            },
+            "size": {
+                "x": 103.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOff",
+            "type": "Image:True:1",
+            "sprite": "ToggleOff",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 639.0,
+                "y": 573.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOff/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Bg_PauseNotMusic",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 639.0,
+                "y": 573.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOff/ApprovedKnob",
+            "type": "Image:True:1",
+            "sprite": "Knob",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 574.0,
+                "y": 572.0
+            },
+            "size": {
+                "x": 76.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/Button/MusicOff/ApprovedStateText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "NÃO",
+            "active": false,
+            "position": {
+                "x": 672.5,
+                "y": 574.0
+            },
+            "size": {
+                "x": 103.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/ApprovedIcon",
+            "type": "Image:True:1",
+            "sprite": "Music",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 150.0,
+                "y": 575.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/MusicGroup/ApprovedLabel",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Música",
+            "active": true,
+            "position": {
+                "x": 374.0,
+                "y": 580.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 58.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 770.0
+            },
+            "size": {
+                "x": 721.0,
+                "y": 178.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)",
+            "type": "Image:True:1",
+            "sprite": "ToggleOff",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 771.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOn",
+            "type": "Image:True:1",
+            "sprite": "ToggleOn",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 771.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Bg_PauseEffectsOn",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 771.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOn/ApprovedKnob",
+            "type": "Image:True:1",
+            "sprite": "Knob",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 705.0,
+                "y": 770.0
+            },
+            "size": {
+                "x": 76.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOn/ApprovedStateText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "SIM",
+            "active": true,
+            "position": {
+                "x": 605.5,
+                "y": 772.0
+            },
+            "size": {
+                "x": 103.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOff",
+            "type": "Image:True:1",
+            "sprite": "ToggleOff",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 639.0,
+                "y": 771.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOff/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Bg_PauseEffectsOff",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 639.0,
+                "y": 771.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOff/ApprovedKnob",
+            "type": "Image:True:1",
+            "sprite": "Knob",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 574.0,
+                "y": 770.0
+            },
+            "size": {
+                "x": 76.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/Button (1)/SoundOff/ApprovedStateText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "NÃO",
+            "active": false,
+            "position": {
+                "x": 672.5,
+                "y": 772.0
+            },
+            "size": {
+                "x": 103.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/ApprovedIcon",
+            "type": "Image:True:1",
+            "sprite": "Sound",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 150.0,
+                "y": 773.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/SoundGroup/ApprovedLabel",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Sons",
+            "active": true,
+            "position": {
+                "x": 374.0,
+                "y": 778.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 58.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 968.0
+            },
+            "size": {
+                "x": 721.0,
+                "y": 178.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)",
+            "type": "Image:True:1",
+            "sprite": "ToggleOff",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 969.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LibOn",
+            "type": "Image:True:1",
+            "sprite": "ToggleOn",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 639.0,
+                "y": 969.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LibOn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Bg_PauseCanShake",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 639.0,
+                "y": 969.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LibOn/ApprovedKnob",
+            "type": "Image:True:1",
+            "sprite": "Knob",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 705.0,
+                "y": 968.0
+            },
+            "size": {
+                "x": 76.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LibOn/ApprovedStateText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "SIM",
+            "active": false,
+            "position": {
+                "x": 605.5,
+                "y": 970.0
+            },
+            "size": {
+                "x": 103.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LIboff",
+            "type": "Image:True:1",
+            "sprite": "ToggleOff",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 969.0
+            },
+            "size": {
+                "x": 230.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LIboff/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Bg_PauseNotShake",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 639.0,
+                "y": 969.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LIboff/ApprovedKnob",
+            "type": "Image:True:1",
+            "sprite": "Knob",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 574.0,
+                "y": 968.0
+            },
+            "size": {
+                "x": 76.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/Button (2)/LIboff/ApprovedStateText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "NÃO",
+            "active": true,
+            "position": {
+                "x": 672.5,
+                "y": 970.0
+            },
+            "size": {
+                "x": 103.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/ApprovedIcon",
+            "type": "Image:True:1",
+            "sprite": "Vibration",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 150.0,
+                "y": 971.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/LibGroup/ApprovedLabel",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Vibração",
+            "active": true,
+            "position": {
+                "x": 374.0,
+                "y": 976.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 58.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/VersionLog",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "1.0.0",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1453.0
+            },
+            "size": {
+                "x": 356.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.20000076293945,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 591.0,
+                "y": 1163.0
+            },
+            "size": {
+                "x": 350.0,
+                "y": 102.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Português",
+            "active": true,
+            "position": {
+                "x": 577.5,
+                "y": 1162.0
+            },
+            "size": {
+                "x": 281.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 44.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Arrow",
+            "type": "Image:True:1",
+            "sprite": "DropdownArrow",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 719.5,
+                "y": 1163.5
+            },
+            "size": {
+                "x": 33.0,
+                "y": 33.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 591.0,
+                "y": 1399.9716796875
+            },
+            "size": {
+                "x": 350.0,
+                "y": 375.9435119628906
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Viewport",
+            "type": "Image:True:1",
+            "sprite": "UIMask",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 582.5,
+                "y": 1399.9716796875
+            },
+            "size": {
+                "x": 333.0,
+                "y": 375.9435119628906
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Viewport/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 582.5,
+                "y": 1262.0
+            },
+            "size": {
+                "x": 333.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Viewport/Content/Item",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 616.0,
+                "y": 1262.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Viewport/Content/Item/Item Background",
+            "type": "Image:False:1",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 616.0,
+                "y": 1262.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Viewport/Content/Item/Item Checkmark",
+            "type": "Image:True:1",
+            "sprite": "Checkmark",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1262.0
+            },
+            "size": {
+                "x": 20.0,
+                "y": 20.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Viewport/Content/Item/Item Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Option A",
+            "active": false,
+            "position": {
+                "x": 621.0,
+                "y": 1262.5
+            },
+            "size": {
+                "x": 370.0,
+                "y": 97.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Scrollbar",
+            "type": "Image:True:1",
+            "sprite": "Background",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 756.0,
+                "y": 1399.9716796875
+            },
+            "size": {
+                "x": 20.0,
+                "y": 375.9435119628906
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Scrollbar/Sliding Area",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 756.0,
+                "y": 1399.9716796875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 355.9435119628906
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Dropdown/Template/Scrollbar/Sliding Area/Handle",
+            "type": "Image:True:1",
+            "sprite": "UISprite",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 756.0,
+                "y": 1399.9716796875
+            },
+            "size": {
+                "x": 20.0,
+                "y": 375.9435119628906
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/ApprovedLanguageIcon",
+            "type": "Image:True:1",
+            "sprite": "Language",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 148.0,
+                "y": 1163.0
+            },
+            "size": {
+                "x": 96.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/CloseButton",
+            "type": "Image:True:1",
+            "sprite": "Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 764.0,
+                "y": 382.0
+            },
+            "size": {
+                "x": 112.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/CloseButton/Image (1)",
+            "type": "Image:False:1",
+            "sprite": "Btn_Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 764.0,
+                "y": 382.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.2000000476837159,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Configurações",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 344.5
+            },
+            "size": {
+                "x": 490.0,
+                "y": 107.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 72.0,
+            "fields": []
+        },
+        {
+            "path": "BG (1)/ApprovedLanguageLabel",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Idioma",
+            "active": true,
+            "position": {
+                "x": 319.0,
+                "y": 1170.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 54.0,
+            "fields": []
+        }
+    ]
+}

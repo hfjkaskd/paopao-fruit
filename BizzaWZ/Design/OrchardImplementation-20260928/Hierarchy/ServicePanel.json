@@ -1,0 +1,1184 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation ServicePanel KeyBoardPanel KeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ServicePanel.chatElementPrefab = Assets/BizzaWZ/Final/Real/UI/ServicePanel/ChatElement.prefab",
+                "ServicePanel.contentRoot = Content/ChatContent/Viewport/Content",
+                "ServicePanel.scrollRect = Content/ChatContent",
+                "ServicePanel.inputText = Content/InputNode/InputField",
+                "ServicePanel.allowKeyboardDismiss = Invalid input box",
+                "ServicePanel.selectQuestionButton = Content/InputNode/SelectQuestionBtn ",
+                "ServicePanel.selectQuestionText = Content/InputNode/SelectQuestionBtn /Text (TMP)",
+                "ServicePanel.viewportResizer = Content/ChatContent/Viewport",
+                "ServicePanel.canSendObj = Content/InputNode/CanSendBtn",
+                "ServicePanel.notCanSendObj = Content/InputNode/NotCanSendBtn",
+                "ServicePanel.faqBtn = Title/FQA",
+                "ServicePanel.closeBtn = Title/CloseBtn",
+                "ServicePanel.historyBtn = Title/HistoryBtn",
+                "ServicePanel.sendBtn = Content/InputNode/CanSendBtn",
+                "ServicePanel.canNotSendBtn = Content/InputNode/NotCanSendBtn",
+                "ServicePanel.clearBtn = Content/InputNode/ClearBtn",
+                "ServicePanel.defaultQABtn = Content/InputNode/SelectQuestionBtn ",
+                "KeyBoardPanel.panel = Content/InputNode",
+                "KeyBoardPanel.panelSizeRect = Content/InputNode"
+            ]
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": " RectTransform CanvasRenderer Image AspectRatioFitter OrchardBackdrop",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "OrchardBackdrop.target = OrchardBackdrop"
+            ]
+        },
+        {
+            "path": "BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -221.612548828125
+            },
+            "size": {
+                "x": 0.0,
+                "y": 443.22509765625
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -77.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -25.0
+            },
+            "size": {
+                "x": 570.0,
+                "y": 154.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/bg/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 21.1200008392334,
+                "y": 18.479999542236329
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/bg/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -21.1200008392334,
+                "y": 18.479999542236329
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel TitleLevel1Tag",
+            "sprite": "",
+            "text": "Feedback",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -25.0
+            },
+            "size": {
+                "x": 490.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 68.0,
+            "fields": []
+        },
+        {
+            "path": "Title/CloseBtn",
+            "type": " RectTransform BizzaButton CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -412.0,
+                "y": -82.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Title/CloseBtn",
+                "BizzaButton.scaleTarget = Title/CloseBtn"
+            ]
+        },
+        {
+            "path": "Title/CloseBtn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_Back.png#Icon_Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/FQA",
+            "type": " RectTransform BizzaButton AllowKeyboardDismiss OnClickKeyHide CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 409.0,
+                "y": -82.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Title/FQA",
+                "BizzaButton.scaleTarget = Title/FQA",
+                "OnClickKeyHide.client = "
+            ]
+        },
+        {
+            "path": "Title/FQA/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_FAQ.png#Icon_FAQ",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/HistoryBtn",
+            "type": " RectTransform BizzaButton AllowKeyboardDismiss OnClickKeyHide CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#History",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 290.0,
+                "y": -82.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Title/HistoryBtn",
+                "BizzaButton.scaleTarget = Title/HistoryBtn",
+                "OnClickKeyHide.client = "
+            ]
+        },
+        {
+            "path": "Title/HistoryBtn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_Historiy.png#Icon_Historiy",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ChatContent",
+            "type": " RectTransform CanvasRenderer Image ScrollRect",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 67.50518798828125
+            },
+            "size": {
+                "x": 0.0,
+                "y": -524.9896850585938
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollRect.m_Content = Content/ChatContent/Viewport/Content",
+                "ScrollRect.m_Viewport = Content/ChatContent/Viewport"
+            ]
+        },
+        {
+            "path": "Content/ChatContent/Viewport",
+            "type": " RectTransform CanvasRenderer Image ViewportResizer Mask",
+            "sprite": "Resources/unity_builtin_extra#UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ViewportResizer.viewportRect = Content/ChatContent/Viewport"
+            ]
+        },
+        {
+            "path": "Content/ChatContent/Viewport/Content",
+            "type": " RectTransform VerticalLayoutGroup ContentSizeFitter",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -0.0008544921875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 15.0
+            },
+            "size": {
+                "x": -59.9999885559082,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/SelectQuestionBtn ",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.752197265625,
+                "y": 133.07127380371095
+            },
+            "size": {
+                "x": -121.61590576171875,
+                "y": -162.80560302734376
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/InputNode/SelectQuestionBtn ",
+                "BizzaButton.scaleTarget = Content/InputNode/SelectQuestionBtn "
+            ]
+        },
+        {
+            "path": "Content/InputNode/SelectQuestionBtn /Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "plears sssssssssss reply(Touch)",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -64.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/InputField",
+            "type": " RectTransform AdvancedInputField InputFieldKeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.75219988822937,
+                "y": -16.928699493408204
+            },
+            "size": {
+                "x": 898.3840942382813,
+                "y": 137.19439697265626
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "AdvancedInputField.textRenderer = Content/InputNode/InputField/TextArea/Content/Text",
+                "AdvancedInputField.processedTextRenderer = Content/InputNode/InputField/TextArea/Content/Processed",
+                "AdvancedInputField.placeholderTextRenderer = Content/InputNode/InputField/TextArea/Content/Placeholder"
+            ]
+        },
+        {
+            "path": "Content/InputNode/InputField/TextArea",
+            "type": " RectTransform ScrollArea RectMask2D",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -64.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollArea.content = Content/InputNode/InputField/TextArea/Content",
+                "ScrollArea.viewport = Content/InputNode/InputField/TextArea"
+            ]
+        },
+        {
+            "path": "Content/InputNode/InputField/TextArea/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 438.4296875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/InputField/TextArea/Content/Selection",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/InputField/TextArea/Content/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/InputField/TextArea/Content/Processed",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/InputField/TextArea/Content/Placeholder",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer UILanguageLabel",
+            "sprite": "",
+            "text": "Please enter feedback.....",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/InputNode/ClearBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/ServicePanel/Icon_ServiceRevert.png#Icon_ServiceRevert",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 105.0,
+                "y": 77.0
+            },
+            "size": {
+                "x": 64.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/InputNode/ClearBtn",
+                "BizzaButton.scaleTarget = Content/InputNode/ClearBtn"
+            ]
+        },
+        {
+            "path": "Content/InputNode/NotCanSendBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/ServicePanel/NotCanSend.png#NotCanSend",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -159.0,
+                "y": 77.0
+            },
+            "size": {
+                "x": 157.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/InputNode/NotCanSendBtn",
+                "BizzaButton.scaleTarget = Content/InputNode/NotCanSendBtn"
+            ]
+        },
+        {
+            "path": "Content/InputNode/CanSendBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/ServicePanel/CanSend.png#CanSend",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -159.0,
+                "y": 77.0
+            },
+            "size": {
+                "x": 157.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/InputNode/CanSendBtn",
+                "BizzaButton.scaleTarget = Content/InputNode/CanSendBtn"
+            ]
+        },
+        {
+            "path": "Invalid input box",
+            "type": " RectTransform CanvasRenderer Image AllowKeyboardDismiss",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -1162.0,
+                "y": 5094.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

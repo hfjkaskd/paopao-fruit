@@ -558,7 +558,7 @@ public static class OrchardSkinValidation
     }
 
     /// <summary>Renders a disposable prefab instance; never saves or edits its source asset.</summary>
-    public static PreviewEntry PreviewPrefab(string prefabPath, string outputPath)
+    public static PreviewEntry PreviewPrefab(string prefabPath, string outputPath, Action<GameObject> configurePreview = null, int width = PreviewWidth, int height = PreviewHeight, Action<GameObject> inspectPreview = null, string contextCapture = null)
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode) throw new InvalidOperationException("Static preview requires Edit mode.");
         ValidatePrefabPath(prefabPath);
@@ -568,6 +568,7 @@ public static class OrchardSkinValidation
         Scene scene = EditorSceneManager.NewPreviewScene();
         RenderTexture target = null;
         Texture2D image = null;
+        Texture2D contextTexture = null;
         RenderTexture oldActive = RenderTexture.active;
         try
         {
@@ -580,14 +581,14 @@ public static class OrchardSkinValidation
             camera.clearFlags = CameraClearFlags.SolidColor;
             camera.backgroundColor = new Color(0.71f, 0.89f, 0.95f, 1f);
             camera.orthographic = true;
-            camera.orthographicSize = PreviewHeight * 0.5f;
-            camera.aspect = (float)PreviewWidth / PreviewHeight;
+            camera.orthographicSize = height * 0.5f;
+            camera.aspect = (float)width / height;
             camera.nearClipPlane = 0.1f;
             camera.farClipPlane = 2000f;
             camera.transform.position = new Vector3(0, 0, -1000);
             camera.allowHDR = false;
             camera.allowMSAA = false;
-            target = new RenderTexture(PreviewWidth, PreviewHeight, 24, RenderTextureFormat.ARGB32) { name = "Orchard UI Preview" };
+            target = new RenderTexture(width, height, 24, RenderTextureFormat.ARGB32) { name = "Orchard UI Preview" };
             target.Create();
             camera.targetTexture = target;
 
@@ -600,10 +601,22 @@ public static class OrchardSkinValidation
             var canvasRect = (RectTransform)canvasObject.transform;
             canvasRect.position = Vector3.zero;
             canvasRect.localScale = Vector3.one;
-            canvasRect.sizeDelta = new Vector2(PreviewWidth, PreviewHeight);
+            canvasRect.sizeDelta = new Vector2(width, height);
             var scaler = canvasObject.AddComponent<CanvasScaler>();
             scaler.uiScaleMode = CanvasScaler.ScaleMode.ConstantPixelSize;
             scaler.scaleFactor = 1f;
+
+            if(!string.IsNullOrEmpty(contextCapture)&&File.Exists(contextCapture))
+            {
+                contextTexture=new Texture2D(2,2,TextureFormat.RGBA32,false);
+                contextTexture.LoadImage(File.ReadAllBytes(contextCapture));
+                var contextObject=NewPreviewObject("Captured runtime context (preview only)",scene,true);
+                contextObject.transform.SetParent(canvasObject.transform,false);
+                var contextCanvas=contextObject.AddComponent<Canvas>();contextCanvas.overrideSorting=true;contextCanvas.sortingOrder=-2000;
+                var context=contextObject.AddComponent<RawImage>();context.texture=contextTexture;context.raycastTarget=false;
+                var rect=(RectTransform)contextObject.transform;rect.anchorMin=Vector2.zero;rect.anchorMax=Vector2.one;rect.offsetMin=rect.offsetMax=Vector2.zero;
+                result.notes.Add("PREVIEW ONLY: surrounding page is a previously captured runtime image: "+contextCapture+". Foreground is rendered from the actual prefab; this composite is not a live runtime screenshot.");
+            }
 
             var instance = (GameObject)PrefabUtility.InstantiatePrefab(prefab, scene);
             instance.SetActive(false);
@@ -621,6 +634,7 @@ public static class OrchardSkinValidation
             }
 
             PreparePreviewInstance(instance, camera, result);
+            configurePreview?.Invoke(instance);
             instance.SetActive(true);
             Canvas.ForceUpdateCanvases();
             foreach (var rect in instance.GetComponentsInChildren<RectTransform>(true))
@@ -640,10 +654,11 @@ public static class OrchardSkinValidation
             }
             Canvas.ForceUpdateCanvases();
             result.notes.Add("Render diagnostics: activeGraphics=" + activeGraphics + ", canvasRect=" + canvasRect.rect + ", cameraScene=" + camera.scene.name + ", cullingMask=" + camera.overrideSceneCullingMask);
+            inspectPreview?.Invoke(instance);
             camera.Render();
             RenderTexture.active = target;
-            image = new Texture2D(PreviewWidth, PreviewHeight, TextureFormat.RGBA32, false);
-            image.ReadPixels(new Rect(0, 0, PreviewWidth, PreviewHeight), 0, 0);
+            image = new Texture2D(width, height, TextureFormat.RGBA32, false);
+            image.ReadPixels(new Rect(0, 0, width, height), 0, 0);
             image.Apply(false, false);
             result.activeGraphics = activeGraphics;
             var pixels = image.GetRawTextureData<Color32>();
@@ -665,6 +680,7 @@ public static class OrchardSkinValidation
         {
             RenderTexture.active = oldActive;
             if (image != null) Object.DestroyImmediate(image);
+            if(contextTexture!=null)Object.DestroyImmediate(contextTexture);
             if (target != null)
             {
                 target.Release();
@@ -687,8 +703,9 @@ public static class OrchardSkinValidation
         // only on this disposable preview instance. No asset or runtime logic is changed.
         foreach (var backdrop in instance.GetComponentsInChildren<OrchardBackdrop>(true))
         {
-            var targetImage = backdrop.GetComponent<Image>();
-            var backdropSprite = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/OrchardUI/Resources/OrchardUI/Backdrop.png");
+            var data = new SerializedObject(backdrop);
+            var targetImage = data.FindProperty("target").objectReferenceValue as Image;
+            var backdropSprite = Resources.Load<Sprite>(data.FindProperty("resourcePath").stringValue);
             if (targetImage == null || backdropSprite == null)
             {
                 result.notes.Add("Preview-only backdrop binding unavailable: " + HierarchyPath(backdrop.transform, instance.transform));
@@ -697,7 +714,24 @@ public static class OrchardSkinValidation
             targetImage.sprite = backdropSprite;
             targetImage.color = Color.white;
             targetImage.enabled = true;
-            result.notes.Add("PREVIEW ONLY: bound Backdrop.png to disabled OrchardBackdrop's Image on the disposable clone. Runtime Resources loading is not exercised.");
+            result.notes.Add("PREVIEW ONLY: bound the configured Resources backdrop on the disposable clone. Runtime asynchronous loading is not exercised.");
+        }
+        foreach (var art in instance.GetComponentsInChildren<OrchardLoadingArt>(true))
+        {
+            var data = new SerializedObject(art);
+            var sprites = Resources.LoadAll<Sprite>(data.FindProperty("resourcePath").stringValue);
+            var bindings = data.FindProperty("bindings");
+            for (int index = 0; index < bindings.arraySize; index++)
+            {
+                var binding = bindings.GetArrayElementAtIndex(index);
+                var targetImage = binding.FindPropertyRelative("target").objectReferenceValue as Image;
+                string spriteName = binding.FindPropertyRelative("spriteName").stringValue;
+                foreach (var sprite in sprites)
+                    if (targetImage != null && sprite.name == spriteName)
+                    { targetImage.sprite = sprite; targetImage.color = Color.white; targetImage.enabled = true; break; }
+            }
+            art.SetProgress(.67f);
+            result.notes.Add("PREVIEW ONLY: loaded the authored loading artwork and a 67% visual fixture on this disposable clone.");
         }
         foreach (var animation in instance.GetComponentsInChildren<Animation>(true)) { animation.Stop(); animation.enabled = false; }
         foreach (var animator in instance.GetComponentsInChildren<Animator>(true)) animator.enabled = false;
@@ -729,7 +763,7 @@ public static class OrchardSkinValidation
 
     private static bool IsVisualBehaviour(MonoBehaviour behaviour)
     {
-        return behaviour is Graphic || behaviour is BaseMeshEffect || behaviour is LayoutGroup ||
+        return behaviour is Graphic || behaviour is BaseMeshEffect || behaviour is OrchardArchedText || behaviour is LayoutGroup || behaviour is LayoutElement ||
                behaviour is ContentSizeFitter || behaviour is AspectRatioFitter || behaviour is CanvasScaler ||
                behaviour is Mask || behaviour is RectMask2D || behaviour is ScrollRect ||
                behaviour is Selectable || behaviour is TMP_SubMeshUI;
@@ -920,7 +954,7 @@ public static class OrchardSkinValidation
     {
         return pageId == "RealWithdrawPanel" || pageId == "FakeWithdrawPanel" ||
                pageId == "PausePanel" || pageId == "FAQPanel" ||
-               pageId == "WithdrawHistory" || pageId == "ServicePanel";
+               pageId == "WithdrawHistory" || pageId == "ServicePanel" || pageId == "WithdrawDanPanel";
     }
 
     private static void LogRuntimeOpenFailure(Exception exception)

@@ -39,6 +39,7 @@ public class LosePanel : UIPageBase<LoseReason, LevelInfo>
 
     public GameObject[] reviveObjs;
     public GameObject[] loseObjs;
+    [SerializeField] private TMPro.TMP_Text levelCaption;
 
     private LoseReason loseReason;
     private LevelInfo levelInfo;
@@ -74,6 +75,7 @@ public class LosePanel : UIPageBase<LoseReason, LevelInfo>
         openVersion++;
         this.loseReason = loseReason;
         this.levelInfo = levelInfo;
+        if(levelCaption!=null)levelCaption.text=LanguageUtils.GetFormatText("Menu_LevelBtn",SaveDataUtils.GameData.playerSelectedLv);
         if (reviveButton != null)
         {
             reviveButton.onClick.AddListener(OnClickReviveButton);

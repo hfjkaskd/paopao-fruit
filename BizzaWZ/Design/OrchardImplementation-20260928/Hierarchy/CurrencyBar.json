@@ -1,0 +1,1018 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/CurrencyBar/CurrencyBar.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform CurrencyBar",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CurrencyBar.curLevelTxt = Image/Text (TMP)",
+                "CurrencyBar.coinTxt = CurrentGroup/GoldGroup/RealBtn/CoinBox/GoldText",
+                "CurrencyBar.dollarTxt = CurrentGroup/DollarGroup/FakeBtn/DollarBox/DollarText",
+                "CurrencyBar.clashTxt = CurrentGroup/GoldGroup/RealBtn/ButtonView/Text (TMP)",
+                "CurrencyBar.addCoinTxt = CurrentGroup/GoldGroup/RealBtn/DollarAddText (1)",
+                "CurrencyBar.addDollarTxt = CurrentGroup/DollarGroup/DollarAddText",
+                "CurrencyBar.coinBtn = CurrentGroup/GoldGroup/RealBtn",
+                "CurrencyBar.dollarBtn = CurrentGroup/DollarGroup/FakeBtn",
+                "CurrencyBar.coinImg = CurrentGroup/GoldGroup/RealBtn/CoinBox/Icon",
+                "CurrencyBar.dollarImg = CurrentGroup/DollarGroup/FakeBtn/DollarBox/Icon",
+                "CurrencyBar.settingBtn = PauseButton",
+                "CurrencyBar.dollarBox = CurrentGroup/DollarGroup",
+                "CurrencyBar.coinBox = CurrentGroup/GoldGroup"
+            ]
+        },
+        {
+            "path": "Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalWoodTile.png#HudNaturalWoodTile",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -451.29998779296877,
+                "y": -29.899999618530275
+            },
+            "size": {
+                "x": 117.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "3",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 50.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup",
+            "type": " RectTransform HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 5.719699859619141,
+                "y": -35.0
+            },
+            "size": {
+                "x": 706.5606079101563,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn",
+            "type": " RectTransform BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = CurrentGroup/GoldGroup/RealBtn/ButtonView",
+                "BizzaButton.scaleTarget = CurrentGroup/GoldGroup/RealBtn"
+            ]
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/CoinBox",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -32.099998474121097,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/CoinBox/BG (1)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -25.868999481201173,
+                "y": -7.781700134277344
+            },
+            "size": {
+                "x": 315.0,
+                "y": 95.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/CoinBox/GoldText",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "9999.9",
+            "active": true,
+            "position": {
+                "x": -76.11015319824219,
+                "y": -4.544300079345703
+            },
+            "size": {
+                "x": 92.11750030517578,
+                "y": 70.9113998413086
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.049999237060548,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/CoinBox/Icon",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/GoldCoin_US.png#GoldCoin_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -164.89999389648438,
+                "y": 0.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 120.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/DollarAddText (1)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "+0.5$",
+            "active": true,
+            "position": {
+                "x": -98.0,
+                "y": -60.099998474121097
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/ButtonView",
+            "type": " RectTransform CanvasRenderer Image TweenPlayer",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalGreenButton.png#HudNaturalGreenButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 11.800000190734864,
+                "y": -4.699999809265137
+            },
+            "size": {
+                "x": 149.3845977783203,
+                "y": 65.37349700927735
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "TweenPlayer._animations.Array.data[0].targets.Array.data[0] = CurrentGroup/GoldGroup/RealBtn/ButtonView"
+            ]
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/ButtonView/Text (TMP) (1)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "≈",
+            "active": true,
+            "position": {
+                "x": -43.79999923706055,
+                "y": 0.0
+            },
+            "size": {
+                "x": -112.52230072021485,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/GoldGroup/RealBtn/ButtonView/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Withdraw",
+            "active": true,
+            "position": {
+                "x": 20.11199951171875,
+                "y": 0.0
+            },
+            "size": {
+                "x": -58.42300033569336,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 19.950000762939454,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup",
+            "type": " RectTransform CanvasRenderer Image SingleCurrencyMode",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 400.0,
+                "y": 78.39700317382813
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/Panel",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 52.0164794921875,
+                "y": -62.430999755859378
+            },
+            "size": {
+                "x": 590.0,
+                "y": 137.14999389648438
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/Panel/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "You still need $25000",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -13.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/TeachPic",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -151.699951171875,
+                "y": -171.0
+            },
+            "size": {
+                "x": 590.0,
+                "y": 248.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/DollarAddText",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "+0.5$",
+            "active": true,
+            "position": {
+                "x": -80.0,
+                "y": -60.099998474121097
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn",
+            "type": " RectTransform BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+                "BizzaButton.scaleTarget = CurrentGroup/DollarGroup/FakeBtn"
+            ]
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn/DollarBox",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -11.699951171875,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn/DollarBox/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -171.87393188476563,
+                "y": -1.9999847412109376
+            },
+            "size": {
+                "x": 315.0,
+                "y": 95.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn/DollarBox/DollarText",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "9999.9",
+            "active": true,
+            "position": {
+                "x": -113.0999984741211,
+                "y": 0.0000152587890625
+            },
+            "size": {
+                "x": 93.47540283203125,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 27.5,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn/DollarBox/Icon",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/StackMoney_US.png#StackMoney_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -164.89999389648438,
+                "y": 0.6000000238418579
+            },
+            "size": {
+                "x": 128.0,
+                "y": 128.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.800000011920929,
+                "z": 0.800000011920929
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+            "type": " RectTransform CanvasRenderer Image TweenPlayer",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalGreenButton.png#HudNaturalGreenButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 41.400001525878909,
+                "y": 2.4000000953674318
+            },
+            "size": {
+                "x": 149.3845977783203,
+                "y": 65.37349700927735
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "TweenPlayer._animations.Array.data[0].targets.Array.data[0] = CurrentGroup/GoldGroup/RealBtn/ButtonView"
+            ]
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/FakeBtn/ButtonView/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Withdraw",
+            "active": true,
+            "position": {
+                "x": -1.8543996810913087,
+                "y": 0.0
+            },
+            "size": {
+                "x": 134.7100067138672,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 18.0,
+            "fields": []
+        },
+        {
+            "path": "CurrentGroup/DollarGroup/WithDrawTeachAnim",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 99.300048828125,
+                "y": -98.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.7407347559928894,
+                "y": 0.2288001924753189
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.800000011920929,
+                "z": 0.800000011920929
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PauseButton",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalSettings.png#HudNaturalSettings",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 434.0,
+                "y": -10.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = PauseButton",
+                "BizzaButton.scaleTarget = PauseButton"
+            ]
+        },
+        {
+            "path": "PauseButton/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/GamePanel/Icon_Setting.png#Icon_Setting",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

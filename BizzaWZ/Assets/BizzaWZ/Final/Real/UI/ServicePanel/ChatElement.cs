@@ -25,6 +25,12 @@ public class ChatElement : MonoBehaviour
     [SerializeField] private float bubbleHorizontalPadding = 32f;
     [SerializeField] private float bubbleVerticalPadding = 20f;
     [SerializeField] private float bubbleTimeSpacing = 12f;
+    [SerializeField] private float issueAvatarSpace = 0f;
+    [SerializeField] private float issueHeaderHeight = 0f;
+    [SerializeField] private float multilineBubbleWidth = 0f;
+    [SerializeField] private float minimumBubbleHeight = 0f;
+    [SerializeField] private float playerHorizontalPadding = -1f;
+    [SerializeField] private float playerBottomSpacing = 0f;
 
     [Header("Style")]
     [SerializeField] private Color issueBubbleColor = new Color32(232, 70, 255, 255);
@@ -101,7 +107,7 @@ public class ChatElement : MonoBehaviour
 
             RectOffset padding = rootLayoutGroup.padding ?? new RectOffset();
             int sidePadding = Mathf.RoundToInt(outerHorizontalPadding);
-            padding.left = sidePadding;
+            padding.left = sidePadding + (isIssue ? Mathf.RoundToInt(issueAvatarSpace) : 0);
             padding.right = sidePadding;
             padding.top = 0;
             padding.bottom = 0;
@@ -155,27 +161,36 @@ public class ChatElement : MonoBehaviour
         float rootWidth = Mathf.Max(1f, GetRootWidth());
         root.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, rootWidth);
 
-        float horizontalPadding = bubbleHorizontalPadding * 2f;
-        float verticalPadding = bubbleVerticalPadding * 2f;
-        float availableBubbleWidth = Mathf.Max(1f, rootWidth - outerHorizontalPadding * 2f);
+        bool isIssue = chatInfo.spokesperson == Spokesperson.Issue;
+        float sidePadding = !isIssue && playerHorizontalPadding >= 0f ? playerHorizontalPadding : bubbleHorizontalPadding;
+        float horizontalPadding = sidePadding * 2f;
+        float header = isIssue ? issueHeaderHeight : 0;
+        float verticalPadding = bubbleVerticalPadding * 2f + header;
+        float availableBubbleWidth = Mathf.Max(1f, rootWidth - outerHorizontalPadding * 2f - (isIssue ? issueAvatarSpace : 0));
         float effectiveMaxBubbleWidth = maxBubbleWidth > 0f
             ? Mathf.Min(maxBubbleWidth, availableBubbleWidth)
             : availableBubbleWidth;
         float maxTextWidth = Mathf.Max(1f, effectiveMaxBubbleWidth - horizontalPadding);
-
-        Vector2 preferredTextSize = chatTxt.GetPreferredValues(chatTxt.text, maxTextWidth, 0f);
-        float bubbleWidth = Mathf.Min(effectiveMaxBubbleWidth, preferredTextSize.x + horizontalPadding);
+        float textScaleX = Mathf.Max(.1f, chatTxtRect.localScale.x);
+        float textScaleY = Mathf.Max(.1f, chatTxtRect.localScale.y);
+        Vector2 preferredTextSize = chatTxt.GetPreferredValues(chatTxt.text, maxTextWidth / textScaleX, 0f);
+        if (multilineBubbleWidth > 0f && preferredTextSize.y > chatTxt.GetPreferredValues("Ag", maxTextWidth / textScaleX, 0f).y * 1.5f)
+        {
+            effectiveMaxBubbleWidth = Mathf.Min(effectiveMaxBubbleWidth, multilineBubbleWidth);
+            maxTextWidth = Mathf.Max(1f, effectiveMaxBubbleWidth - horizontalPadding);
+            preferredTextSize = chatTxt.GetPreferredValues(chatTxt.text, maxTextWidth / textScaleX, 0f);
+        }
+        float bubbleWidth = Mathf.Min(effectiveMaxBubbleWidth, preferredTextSize.x * textScaleX + horizontalPadding);
         float finalTextWidth = Mathf.Max(1f, bubbleWidth - horizontalPadding);
-        float finalTextHeight = chatTxt.GetPreferredValues(chatTxt.text, finalTextWidth, 0f).y;
-        float bubbleHeight = finalTextHeight + verticalPadding;
+        float finalTextHeight = chatTxt.GetPreferredValues(chatTxt.text, finalTextWidth / textScaleX, 0f).y * textScaleY;
+        float bubbleHeight = Mathf.Max(minimumBubbleHeight, finalTextHeight + verticalPadding);
 
         chatInfoRoot.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, bubbleWidth);
         chatInfoRoot.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, bubbleHeight);
 
-        chatTxtRect.anchorMin = Vector2.zero;
-        chatTxtRect.anchorMax = Vector2.one;
-        chatTxtRect.offsetMin = new Vector2(bubbleHorizontalPadding, bubbleVerticalPadding);
-        chatTxtRect.offsetMax = new Vector2(-bubbleHorizontalPadding, -bubbleVerticalPadding);
+        chatTxtRect.anchorMin = chatTxtRect.anchorMax = chatTxtRect.pivot = new Vector2(0,1);
+        chatTxtRect.anchoredPosition = new Vector2(sidePadding,-bubbleVerticalPadding-header);
+        chatTxtRect.sizeDelta = new Vector2(finalTextWidth / textScaleX,(bubbleHeight-verticalPadding) / textScaleY);
 
         bool hasTime = !string.IsNullOrWhiteSpace(timeTxt.text);
         timeTxt.gameObject.SetActive(hasTime);
@@ -194,7 +209,7 @@ public class ChatElement : MonoBehaviour
             timeRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, timeHeight);
         }
 
-        root.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, bubbleHeight + spacing + timeHeight);
+        root.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, bubbleHeight + spacing + timeHeight + (isIssue ? 0f : playerBottomSpacing));
 
         LayoutRebuilder.ForceRebuildLayoutImmediate(chatInfoRoot);
         LayoutRebuilder.ForceRebuildLayoutImmediate(root);

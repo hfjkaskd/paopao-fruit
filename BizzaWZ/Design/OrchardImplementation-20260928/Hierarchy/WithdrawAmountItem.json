@@ -1,0 +1,284 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Amount",
+                "WithdrawAmountItem.getObj = GetTag",
+                "WithdrawAmountItem.getedObj = GetedTag",
+                "WithdrawAmountItem.selectObj = Select",
+                "WithdrawAmountItem.btn = ",
+                "BizzaButton.scaleTarget = "
+            ]
+        },
+        {
+            "path": "bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        }
+    ]
+}

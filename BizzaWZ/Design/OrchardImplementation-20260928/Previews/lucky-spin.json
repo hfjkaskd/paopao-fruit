@@ -1,0 +1,4119 @@
+{
+    "prefab": "lucky-spin",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedPlaque",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 123.5
+            },
+            "size": {
+                "x": 450.0,
+                "y": 125.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "bg",
+            "type": "Image:False:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/Back",
+            "type": "Image:True:1",
+            "sprite": "Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 77.5,
+                "y": 105.0
+            },
+            "size": {
+                "x": 111.0,
+                "y": 112.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/FQA",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 773.5,
+                "y": 104.5
+            },
+            "size": {
+                "x": 103.0,
+                "y": 105.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/IconInfo",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 252.5,
+                "y": 269.0
+            },
+            "size": {
+                "x": 313.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/IconInfo/ApprovedCard",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 252.5,
+                "y": 269.0
+            },
+            "size": {
+                "x": 313.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/IconInfo/Image",
+            "type": "Image:True:1",
+            "sprite": "CoinStack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 155.0,
+                "y": 266.5
+            },
+            "size": {
+                "x": 86.0,
+                "y": 79.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/IconInfo/IconTxt",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "10,000",
+            "active": true,
+            "position": {
+                "x": 300.5,
+                "y": 268.5
+            },
+            "size": {
+                "x": 185.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.900001525878909,
+            "fields": []
+        },
+        {
+            "path": "Top/DollarInfo",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 602.5,
+                "y": 269.0
+            },
+            "size": {
+                "x": 313.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/DollarInfo/ApprovedCard",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 602.5,
+                "y": 269.0
+            },
+            "size": {
+                "x": 313.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/DollarInfo/Image",
+            "type": "Image:True:1",
+            "sprite": "StackMoney_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 505.0,
+                "y": 266.5
+            },
+            "size": {
+                "x": 86.0,
+                "y": 79.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/DollarInfo/DollarTxt",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$2.50",
+            "active": true,
+            "position": {
+                "x": 650.5,
+                "y": 268.5
+            },
+            "size": {
+                "x": 185.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.900001525878909,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedFooter",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1494.5
+            },
+            "size": {
+                "x": 790.0,
+                "y": 391.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/ApprovedReelPaper",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 769.0
+            },
+            "size": {
+                "x": 586.0,
+                "y": 408.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.054931640625,
+                "y": -291.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/CoinFx",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.054931640625,
+                "y": -291.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/DollarFx",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.054931640625,
+                "y": -291.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/CommonFx",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.054931640625,
+                "y": -291.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/GameObject",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 898.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Buttom",
+            "type": "Image:False:1",
+            "sprite": "SlotEmeraldMachine",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 957.0
+            },
+            "size": {
+                "x": 997.0,
+                "y": 1575.506103515625
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer0",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer1",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer2",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer3",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer4",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer5",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer6",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.02642822265627,
+                "y": 814.2802124023438
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 733.0
+            },
+            "size": {
+                "x": 698.0,
+                "y": 470.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/Bg_Front",
+            "type": "Image:False:1",
+            "sprite": "Bg_SlotFront",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 413.0,
+                "y": 769.0
+            },
+            "size": {
+                "x": 705.2349243164063,
+                "y": 420.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 158.39999389648438,
+                "y": 756.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 756.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 695.0,
+                "y": 756.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm1",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 158.39999389648438,
+                "y": 11.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm1/Icon",
+            "type": "Image:True:1",
+            "sprite": "Apple",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 158.39999389648438,
+                "y": 11.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm1/Icon/star1",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 158.39999389648438,
+                "y": 11.0
+            },
+            "size": {
+                "x": 170.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm2",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 10.9998779296875
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm2/Icon",
+            "type": "Image:True:1",
+            "sprite": "Coin",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 10.9998779296875
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm2/Icon/star2",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 425.9998779296875,
+                "y": 10.9998779296875
+            },
+            "size": {
+                "x": 170.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm3",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 695.0,
+                "y": 10.9998779296875
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm3/Icon",
+            "type": "Image:True:1",
+            "sprite": "Apple",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 695.0,
+                "y": 10.9998779296875
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm3/Icon/star3",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 695.0,
+                "y": 10.9998779296875
+            },
+            "size": {
+                "x": 170.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask",
+            "type": "Image:True:1",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 771.5
+            },
+            "size": {
+                "x": 562.0,
+                "y": 395.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 771.5
+            },
+            "size": {
+                "x": 562.0,
+                "y": 395.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration/Symbol0",
+            "type": "Image:True:0.6",
+            "sprite": "Fruit_36",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.5,
+                "y": 629.5
+            },
+            "size": {
+                "x": 133.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration/Symbol1",
+            "type": "Image:True:0.6",
+            "sprite": "Fruit_7",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 629.5
+            },
+            "size": {
+                "x": 133.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration/Symbol2",
+            "type": "Image:True:0.6",
+            "sprite": "Fruit_10",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 602.5,
+                "y": 629.5
+            },
+            "size": {
+                "x": 133.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration/Symbol3",
+            "type": "Image:True:0.6",
+            "sprite": "Fruit_10",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.5,
+                "y": 957.5
+            },
+            "size": {
+                "x": 133.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration/Symbol4",
+            "type": "Image:True:0.6",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 957.5
+            },
+            "size": {
+                "x": 133.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/ApprovedIdleReelDecoration/Symbol5",
+            "type": "Image:True:0.6",
+            "sprite": "Fruit_36",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 602.5,
+                "y": 957.5
+            },
+            "size": {
+                "x": 133.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1",
+            "type": "Image:False:1",
+            "sprite": "1_1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 122.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/1",
+            "type": "Image:True:1",
+            "sprite": "Apple",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 149.0,
+                "y": 149.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/2",
+            "type": "Image:True:1",
+            "sprite": "Apple",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 250.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 149.0,
+                "y": 149.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/RewardNumText1",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12344",
+            "active": false,
+            "position": {
+                "x": 247.29995727539063,
+                "y": 941.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)",
+            "type": "Image:False:1",
+            "sprite": "1_1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 122.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/1",
+            "type": "Image:True:1",
+            "sprite": "Coin",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 149.0,
+                "y": 149.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/2",
+            "type": "Image:True:1",
+            "sprite": "Coin",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 149.0,
+                "y": 149.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/RewardNumText2",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12344",
+            "active": false,
+            "position": {
+                "x": 417.29998779296877,
+                "y": 943.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)",
+            "type": "Image:False:1",
+            "sprite": "1_1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 602.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 122.0,
+                "y": 122.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/1",
+            "type": "Image:True:1",
+            "sprite": "Apple",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 602.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 149.0,
+                "y": 149.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/2",
+            "type": "Image:True:1",
+            "sprite": "Apple",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 602.0,
+                "y": 788.0
+            },
+            "size": {
+                "x": 149.0,
+                "y": 149.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/RewardNumText3",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12344",
+            "active": false,
+            "position": {
+                "x": 589.2999877929688,
+                "y": 943.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 94.0,
+                "y": 388.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 464.0,
+                "y": 8.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 684.0,
+                "y": 479.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 38.0,
+                "y": 1382.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 701.0,
+                "y": 1340.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 164.0,
+                "y": 837.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 429.0,
+                "y": 837.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 694.0,
+                "y": 837.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/MachingRunning",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/ApprovedCabinet",
+            "type": "Image:True:1",
+            "sprite": "OrchardPrizeCabinet",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 783.0
+            },
+            "size": {
+                "x": 810.0,
+                "y": 1050.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1155.5
+            },
+            "size": {
+                "x": 504.0,
+                "y": 151.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1155.08349609375
+            },
+            "size": {
+                "x": 504.0,
+                "y": 151.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj",
+            "type": "Image:True:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1155.08349609375
+            },
+            "size": {
+                "x": 504.0,
+                "y": 151.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj/w",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Girar",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1154.08349609375
+            },
+            "size": {
+                "x": 456.0,
+                "y": 109.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 94.30000305175781,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs/CanClickObj",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Spin",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1154.08349609375
+            },
+            "size": {
+                "x": 456.0,
+                "y": 109.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 94.30000305175781,
+            "fields": []
+        },
+        {
+            "path": "Content/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Your next free spin is ready!",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1496.5
+            },
+            "size": {
+                "x": 698.0,
+                "y": 35.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 865.3021240234375
+            },
+            "size": {
+                "x": 889.5496826171875,
+                "y": 1326.838623046875
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/PageMask",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 865.3021240234375
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/bg",
+            "type": "Image:True:1",
+            "sprite": "SlotIvoryPanel",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 945.3021240234375
+            },
+            "size": {
+                "x": 840.0,
+                "y": 640.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn",
+            "type": "Image:True:1",
+            "sprite": "SlotEmeraldButton",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 1150.3021240234375
+            },
+            "size": {
+                "x": 440.0,
+                "y": 112.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 672.9301147460938,
+                "y": 1150.3021240234375
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 197.29010009765626,
+                "y": 1150.3021240234375
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn/Image",
+            "type": "Image:True:1",
+            "sprite": "SlotFidelityCheck",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 1150.3021240234375
+            },
+            "size": {
+                "x": 106.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "A Small Amount",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 468.3021240234375
+            },
+            "size": {
+                "x": 448.40069580078127,
+                "y": 263.7314147949219
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon",
+            "type": "Image:True:1",
+            "sprite": "StackMoney_BR",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 795.3021240234375
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (1)",
+            "type": "Image:True:1",
+            "sprite": "PileMoney_ID",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 795.3021240234375
+            },
+            "size": {
+                "x": 310.5,
+                "y": 204.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (2)",
+            "type": "Image:True:1",
+            "sprite": "HundredMoney_ID",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 795.3021240234375
+            },
+            "size": {
+                "x": 350.25,
+                "y": 242.25
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (3)",
+            "type": "Image:True:1",
+            "sprite": "GoldCoin_BR",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 795.3021240234375
+            },
+            "size": {
+                "x": 180.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (4)",
+            "type": "Image:True:1",
+            "sprite": "PileGold_BR",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 795.3021240234375
+            },
+            "size": {
+                "x": 292.0,
+                "y": 210.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (5)",
+            "type": "Image:True:1",
+            "sprite": "PileWealth_US",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 795.3021240234375
+            },
+            "size": {
+                "x": 288.0,
+                "y": 217.44000244140626
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.110107421875,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 691.4221801757813,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Coin",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 256.53955078125,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 300.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Coin/icon",
+            "type": "Image:True:1",
+            "sprite": "GoldCoin_US",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 146.53955078125,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 80.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Coin/CoinValue",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "+$11.99",
+            "active": false,
+            "position": {
+                "x": 306.53955078125,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 200.0,
+                "y": 97.75039672851563
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Dollar",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 602.2506103515625,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 322.8599853515625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Dollar/icon",
+            "type": "Image:True:1",
+            "sprite": "StackMoney_ID",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 490.8206481933594,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Dollar/CoinValue",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "+$11.99",
+            "active": false,
+            "position": {
+                "x": 663.6806640625,
+                "y": 1000.3021240234375
+            },
+            "size": {
+                "x": 200.0,
+                "y": 97.75039672851563
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedFreeBadge",
+            "type": "Image:True:1",
+            "sprite": "WoodSubtitle",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 425.5,
+                "y": 1019.0
+            },
+            "size": {
+                "x": 365.0,
+                "y": 86.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedFreeCount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "1 FREE SPIN",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1021.0
+            },
+            "size": {
+                "x": 360.0,
+                "y": 78.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.1200000047683716,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedFreeCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "FREE SPIN",
+            "active": false,
+            "position": {
+                "x": 465.0,
+                "y": 1018.5
+            },
+            "size": {
+                "x": 260.0,
+                "y": 57.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedSlotProgress",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "5 / 5 levels complete",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1443.5
+            },
+            "size": {
+                "x": 454.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedAdSpin",
+            "type": "Image:True:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.5,
+                "y": 1589.5
+            },
+            "size": {
+                "x": 551.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedAdSpin/Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Watch Video",
+            "active": true,
+            "position": {
+                "x": 480.5,
+                "y": 1570.5
+            },
+            "size": {
+                "x": 315.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 54.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedAdSpin/Film",
+            "type": "Image:True:1",
+            "sprite": "Video",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 273.0,
+                "y": 1587.5
+            },
+            "size": {
+                "x": 90.0,
+                "y": 81.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedAdSpin/Extra",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Get another spin",
+            "active": true,
+            "position": {
+                "x": 474.5,
+                "y": 1616.0
+            },
+            "size": {
+                "x": 309.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedCheckLine",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1371.0
+            },
+            "size": {
+                "x": 590.0,
+                "y": 22.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedCheck0",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 141.0,
+                "y": 1373.0
+            },
+            "size": {
+                "x": 68.0,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedCheck1",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 284.0,
+                "y": 1373.0
+            },
+            "size": {
+                "x": 68.0,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedCheck2",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1373.0
+            },
+            "size": {
+                "x": 68.0,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedCheck3",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 570.0,
+                "y": 1373.0
+            },
+            "size": {
+                "x": 68.0,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedCheck4",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 713.0,
+                "y": 1373.0
+            },
+            "size": {
+                "x": 68.0,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedTitle",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Lucky Spin",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 131.0
+            },
+            "size": {
+                "x": 420.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.0800000429153443,
+                "z": 1.0
+            },
+            "fontSize": 85.8499984741211,
+            "fields": []
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+Tool: built-in image_gen, transparent image edit from approved-mockup.png
+Output: Assets/OrchardUI/Art/HudRefreshAtlas.png
+
+Use case: precise-object-edit.
+Create a production UI SPRITE SHEET with a genuinely transparent alpha background, extracting/reconstructing the exact polished UI style from the approved orchard gameplay mockup reference. NOT a whole game screen. No text, numbers, captions, grid lines, background scenery or checkerboard painted into pixels.
+
+Sheet: portrait 1024 x 1536, organized in an invisible strict 2-column by 3-row grid of 512 x 512 cells. Place each asset fully within its cell with generous transparent padding. Exactly FIVE assets, bottom-right cell empty. Each asset separated from all others; no overlap. All assets are front-facing flat UI with clean alpha edges.
+
+Top-left cell (center 256,256): the empty cream rounded LEVEL MEDALLION from the reference, fine honey-gold rim and four fresh small leaf accents, no '3', no text. Width about 400, height about 350.
+Top-right cell (center 768,256): the turquoise circular SETTINGS BUTTON from the reference, ivory and thin gold rim, a crisp white gear with turquoise central hole, small leaf accents behind it, width about 360 height 360. No text.
+Middle-left cell (center 256,768): the wide blank CREAM BALANCE CAPSULE from the reference. Rich cream enamel body, restrained thin honey-gold rim, soft highlight upper-left and subtle shadow bottom. Aspect about 2.3:1, width 440 height 194. Entire center blank: NO coin, no money, no text, no green insert.
+Middle-right cell (center 768,768): a separate LEAF-GREEN ACTION BUTTON PILL matching the 'Withdraw' and '≈ $0.00' pills in the reference. Softly raised glossy green, rounded ends, dark green fine outline, cream highlight, polished controlled shading. Width 410 height 128. BLANK, no words or symbols.
+Bottom-left cell (center 256,1280): the exact ORCHARD GIFT REWARD BUTTON from the reference, a honey-colored wooden gift crate, broad green satin ribbon and bow, cream round seal carrying a red apple and green leaf, tiny leaves at the base. Include the blank GOLDEN AMOUNT PILL immediately below the crate, integrated into this one asset; remove '$300' so the pill is clean blank for live text. Approx overall width 375 height 375, centered. Keep the apple visible and bow elegantly shaped.
+Bottom-right cell: entirely transparent, no asset.
+
+Preserve the reference's premium friendly casual puzzle game style and colors precisely. Production-quality crisp edges, believable rounded dimensional volume, fine highlights visible at mobile size, no excessively thick border, no dark outer matte or large diffuse shadows. True alpha transparency outside every asset.

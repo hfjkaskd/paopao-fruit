@@ -1,0 +1,12 @@
+# 提现账户填写
+
+Use case: ui-mockup. Create a new, complete, exceptionally polished casual orchard puzzle mobile screen. Image 1 is the authoritative VISUAL STYLE reference, not the screen content to repeat. Match its sunny orchard palette, small warm wooden header plaques, softly rounded ivory panels with refined honey-gold bevels, chocolate-brown rounded typography, juicy leaf-green main buttons, sky-blue secondary controls, crisply painted 2.5D icons, ambient occlusion and soft dimensional lighting. Premium App Store featured casual puzzle quality. All UI readable and spacious with precise alignment, controlled highlights and calm background. Portrait 9:19.5 full bleed at high resolution. Exactly one full mobile screen, no phone frame, no collage, no external caption, no watermark. English UI. Decoration restrained at edges, never covering text or controls. Do not use neon, casino styling, photographs or excessive wood. Currency values are illustrative UI examples; never promise instant payment or guaranteed earnings.
+
+Image 2 is STRUCTURE reference for the real underlying gameplay: show a softly dimmed and slightly defocused fruit-tree harvesting playfield behind the modal, visible at top and bottom with pale blue sky, rounded flowering trees bearing watermelons, oranges and starfruit, and a wooden fruit collection tray near the bottom. Never create a square match-3 board. The popup itself stays bright, sharp and very readable. Screen: PAYOUT ACCOUNT entry modal. Center one elegant ivory gold-edged panel, around 70% of height, generous breathing room. Small wood title plaque "Payout Account", blue circular close X in top right. Top of panel a clean white pill with authentic blue PayPal logo, followed by green "$2.50" and smaller "Withdrawal amount". Warm small envelope icon above one and ONLY one form field. Field label "PayPal email"; a white inset rounded input with sky-blue focus border showing "player@example.com", small green validation check at right. Under it explanatory text "Use the email linked to your PayPal account." Small subtle pale-blue informational card "Please check your details before continuing." Large juicy green primary button "Continue". This is specifically the US PayPal flow, so do not add name, phone number, CPF, card numbers, password, dropdowns or keyboard. Keep all text precise and readable. Simple calm professional financial form inside a friendly premium puzzle-game popup.
+
+## Source
+Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab
+
+## Notes
+PayPal/美国路径仅邮箱；不混用 CPF/手机/姓名字段。
+

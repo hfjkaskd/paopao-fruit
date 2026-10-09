@@ -1,0 +1,16 @@
+{
+  "mode": "built-in image_gen.imagegen",
+  "reference": "C:/Projects/paopao/BizzaWZ/Design/PremiumOrchardUI-20260927/images/07-get-booster.png",
+  "assets": [
+    {
+      "file": "C:/Projects/paopao/BizzaWZ/Assets/OrchardUI/Resources/OrchardUI/BoosterReferencePlate.png",
+      "transparent_background": true,
+      "prompt": "Use case: precise-object-edit / production UI layer extraction. Edit target: the supplied orchard game 'Need a Boost?' screenshot. Produce the SAME portrait canvas and exact original pixel positions and scale (853x1844 reference composition), with a real transparent background. Keep ONLY the central cream rounded panel, its thin golden orange rim, its ORIGINAL dark honey-brown chunky curved single-inset wooden title plaque and small side leaves, the pale radial golden sun rays, the original pale-green thin-rimmed orb with its white highlights and the three gold sparkles, and the pale-peach rounded usage-counter pill. Remove ALL letters/text/numbers, the big yellow Undo arrow from inside the orb, the entire bottom green Watch button including video icon, and the entire blue X close button. Remove ALL scenery/gameplay outside the central panel to transparent alpha. Where text/arrow/buttons are removed, seamlessly restore the same cream/pale-green/wood surface behind. KEEP THE EXACT original silhouettes, gradients, muted honey wood rather than bright orange, proportions, spatial placement, lighting and texture; do not redesign, rearrange, add details or modernize. The remaining orb must be empty; title empty; count pill empty; bottom of panel empty cream. Full original canvas including transparent top/bottom margins; do not crop or zoom. This is an editable production decoration layer, not a mockup. No text anywhere."
+    },
+    {
+      "file": "C:/Projects/paopao/BizzaWZ/Assets/OrchardUI/Resources/OrchardUI/BoosterReferenceControls.png",
+      "transparent_background": true,
+      "prompt": "Use case: background-extraction / production Unity sprites. Edit target: supplied 'Need a Boost?' orchard popup screenshot. Preserve the exact original portrait canvas 853x1844 composition and original pixel positions/scale, NO crop, NO zoom. Keep ONLY these THREE separated elements on REAL TRANSPARENT alpha: (1) the original bottom green glossy pill Watch & Get 1 button including its blue film-play icon on the left and original green bevel, remove only the white 'Watch & Get 1' lettering and restore blank green surface behind it; (2) the original upper-right bright cyan blue circular close button with WHITE X, retaining all original bevel and highlights; (3) ONLY the large gold Undo arrow at its original location, removing the green orb and everything behind the arrow to transparent. Remove absolutely everything else (panel, title, orb, count pill, all other text, sparkles, rays, scenery, lower gameplay controls). Precisely match existing rendering, silhouettes, colors and textures. Do not redesign or brighten; do not move the three objects. No text. The green button still includes its film-play icon. These isolated original-position sprites will be imported into real interactive Unity Buttons and the dynamic prop Image."
+    }
+  ]
+}

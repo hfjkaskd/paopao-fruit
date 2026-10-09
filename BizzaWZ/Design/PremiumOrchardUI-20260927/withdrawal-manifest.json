@@ -1,0 +1,86 @@
+[
+  {
+    "id": "11-cash-withdrawal",
+    "title": "现金提现",
+    "source": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+    "prompt": "prompts/11-cash-withdrawal.md",
+    "image": "images/11-cash-withdrawal.png",
+    "notes": "现金金额档位、当前阶段进度与差额；金额为展示示例。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-c0955012-51e4-4bf9-8d21-85ad242ab5e3.png",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "12-withdraw-account",
+    "title": "提现账户填写",
+    "source": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+    "prompt": "prompts/12-withdraw-account.md",
+    "image": "images/12-withdraw-account-v2.png",
+    "notes": "PayPal/美国路径仅邮箱；不混用 CPF/手机/姓名字段。 已做一次背景HUD英文化修正，原始版本保留；最终选用v2。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-36ebaffe-3608-41ab-ba80-0d069391d5fe.png",
+    "correctionPrompt": "prompts/12-withdraw-account-v2.md",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "13-withdraw-confirm",
+    "title": "提现确认",
+    "source": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab",
+    "prompt": "prompts/13-withdraw-confirm.md",
+    "image": "images/13-withdraw-confirm.png",
+    "notes": "确认已有账户和金额，Submit 按钮；无到账保证。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-6c20faea-ccbd-4c85-b1d2-8b223f87e5a8.png",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "14-withdraw-pending",
+    "title": "提现处理中",
+    "source": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab",
+    "prompt": "prompts/14-withdraw-pending.md",
+    "image": "images/14-withdraw-pending-v2.png",
+    "notes": "服务器等待中状态；12/20进度，灰蓝禁用按钮，不能提前显示成功。 已做一次背景HUD英文化修正，原始版本保留；最终选用v2。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-38e10b37-b34c-42a4-a435-921a2dcd0596.png",
+    "correctionPrompt": "prompts/14-withdraw-pending-v2.md",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "15-withdraw-history",
+    "title": "提现记录",
+    "source": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab",
+    "prompt": "prompts/15-withdraw-history.md",
+    "image": "images/15-withdraw-history.png",
+    "notes": "记录行涵盖Processing、Completed、Failed三状态；示例日期账户。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-211cccd7-e586-4a0b-ba1d-668e35a1da5e.png",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "16-withdraw-milestones",
+    "title": "段位奖励与提现",
+    "source": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab",
+    "prompt": "prompts/16-withdraw-milestones.md",
+    "image": "images/16-withdraw-milestones.png",
+    "notes": "7段位列表取首屏4项，展示已领取/可领取/锁定；名称和功能来自当前Prefab。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-b210481e-867f-4d45-8027-8700b4802d71.png",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "17-daily-withdraw",
+    "title": "每日可提现提醒",
+    "source": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab",
+    "prompt": "prompts/17-daily-withdraw.md",
+    "image": "images/17-daily-withdraw-v2.png",
+    "notes": "展示当前金币余额与可提现金额，按钮进入RealWithdrawPanel。 已做一次背景HUD英文化修正，原始版本保留；最终选用v2。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-6995ed8e-fcb3-4bb9-8f00-bf416137f7e6.png",
+    "correctionPrompt": "prompts/17-daily-withdraw-v2.md",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  },
+  {
+    "id": "18-rate-up",
+    "title": "兑换率提升",
+    "source": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab",
+    "prompt": "prompts/18-rate-up.md",
+    "image": "images/18-rate-up-v2.png",
+    "notes": "旧/新金币余额折算对比；示例10,000金币从$2.50提升至$5.00。 已做一次背景HUD英文化修正，原始版本保留；最终选用v2。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ec-c950-7e52-a8fd-b5f89bdcd131\\exec-a0b96a66-bc78-4cfb-bad8-bbdc7f7e220a.png",
+    "correctionPrompt": "prompts/18-rate-up-v2.md",
+    "inspection": "已逐张目视检查，完整竖屏单张，主体文案准确清晰无重叠，符合用户果园休闲风格。"
+  }
+]

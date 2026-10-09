@@ -1,0 +1,1943 @@
+{
+    "prefab": "game-hud",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 14.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/Image",
+            "type": "Image:True:1",
+            "sprite": "HudLevelCreamLeaf",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -36.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 132.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/Image/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "3",
+            "active": true,
+            "position": {
+                "x": -36.0,
+                "y": 41.0
+            },
+            "size": {
+                "x": 88.0,
+                "y": 66.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 46.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 446.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 734.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 254.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 350.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 254.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 350.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/CoinBox",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 254.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/CoinBox/BG (1)",
+            "type": "Image:True:1",
+            "sprite": "HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 254.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 315.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/CoinBox/GoldText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "9999.9",
+            "active": true,
+            "position": {
+                "x": 202.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/CoinBox/Icon",
+            "type": "Image:True:1",
+            "sprite": "GoldCoin_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 90.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 92.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/DollarAddText (1)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "+0.5$",
+            "active": true,
+            "position": {
+                "x": 156.0,
+                "y": 95.0999755859375
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView",
+            "type": "Image:True:1",
+            "sprite": "HudNaturalGreenButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 340.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 144.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView/Text (TMP) (1)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "≈",
+            "active": true,
+            "position": {
+                "x": 290.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 24.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/GoldGroup/RealBtn/ButtonView/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Withdraw",
+            "active": true,
+            "position": {
+                "x": 358.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 96.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 21.5,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 638.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 350.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/Panel",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 515.0164794921875,
+                "y": 145.4310302734375
+            },
+            "size": {
+                "x": 590.0,
+                "y": 137.14999389648438
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.75,
+                "y": 0.75,
+                "z": 0.75
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/Panel/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "You still need $25000",
+            "active": false,
+            "position": {
+                "x": 515.0164794921875,
+                "y": 155.1810302734375
+            },
+            "size": {
+                "x": 590.0,
+                "y": 137.14999389648438
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 45.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/TeachPic",
+            "type": "Image:True:1",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 486.300048828125,
+                "y": 206.0
+            },
+            "size": {
+                "x": 590.0,
+                "y": 248.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/DollarAddText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "+0.5$",
+            "active": true,
+            "position": {
+                "x": 558.0,
+                "y": 95.0999755859375
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 638.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 350.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/DollarBox",
+            "type": "Image:True:0",
+            "sprite": "Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 638.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/DollarBox/BG",
+            "type": "Image:True:1",
+            "sprite": "HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 638.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 315.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/DollarBox/DollarText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "1234.56",
+            "active": true,
+            "position": {
+                "x": 586.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.75,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/DollarBox/Icon",
+            "type": "Image:True:1",
+            "sprite": "StackMoney_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 474.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 92.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.800000011920929,
+                "z": 0.800000011920929
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView",
+            "type": "Image:True:1",
+            "sprite": "HudNaturalGreenButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 144.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/FakeBtn/ButtonView/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Withdraw",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 128.0,
+                "y": 58.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.700000762939454,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/CurrentGroup/DollarGroup/WithDrawTeachAnim",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 737.300048828125,
+                "y": 133.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.7407347559928894,
+                "y": 0.2288001924753189
+            },
+            "scale": {
+                "x": 0.800000011920929,
+                "y": 0.800000011920929,
+                "z": 0.800000011920929
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/PauseButton",
+            "type": "Image:True:1",
+            "sprite": "Settings",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 896.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 108.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CurrencyBar/PauseButton/Icon",
+            "type": "Image:False:1",
+            "sprite": "Icon_Setting",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 896.0,
+                "y": 35.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 305.0
+            },
+            "size": {
+                "x": 256.0,
+                "y": 190.7060546875
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/Badge",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 305.0
+            },
+            "size": {
+                "x": 344.0,
+                "y": 298.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/Badge/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Icon_DanLevel1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 313.9000244140625
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/Badge/Image (3)",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 380.0
+            },
+            "size": {
+                "x": 177.0,
+                "y": 48.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/Badge/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "+30",
+            "active": true,
+            "position": {
+                "x": 746.300048828125,
+                "y": 379.0999755859375
+            },
+            "size": {
+                "x": 208.69000244140626,
+                "y": 115.0999984741211
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/DailyMission",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 305.0
+            },
+            "size": {
+                "x": 344.0,
+                "y": 298.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/DailyMission/Image (1)",
+            "type": "Image:True:1",
+            "sprite": "HudNaturalGift",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 305.0
+            },
+            "size": {
+                "x": 240.0,
+                "y": 240.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "DailyMissionItem/DailyMission/Image (2)",
+            "type": "Image:True:0",
+            "sprite": "HudNaturalGift",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 724.0,
+                "y": 305.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "TaskButton",
+            "type": "Image:True:1",
+            "sprite": "ButtonRoundBlue",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 730.0,
+                "y": 1733.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "TaskButton/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Icon_DailyTask",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 730.0,
+                "y": 1733.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "TaskButton/UIRedPoint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 787.0999755859375,
+                "y": 1677.199951171875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "TaskButton/UIRedPoint/RedPoint",
+            "type": "Image:True:1",
+            "sprite": "Icon_Red",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 787.0999755859375,
+                "y": 1677.199951171875
+            },
+            "size": {
+                "x": 51.0,
+                "y": 51.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1624.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.12999999523162843,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.12999999523162843,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/VFX_ShanGuang",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1674.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/VFX_ShanGuang/Rotate_Normal",
+            "type": "Image:True:0.27",
+            "sprite": "ggg",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1674.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/VFX_ShanGuang/Rotate_AppearIndistinctly",
+            "type": "Image:True:0.64",
+            "sprite": "ggg",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1674.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/bg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 121.25509643554688,
+                "y": 1624.0
+            },
+            "size": {
+                "x": 731.3992919921875,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1624.0
+            },
+            "size": {
+                "x": 702.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/Content/Icon",
+            "type": "Image:True:1",
+            "sprite": "HudLucky777",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1624.0
+            },
+            "size": {
+                "x": 224.0,
+                "y": 163.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/Content/Progress",
+            "type": "Image:True:1",
+            "sprite": "BottomHudProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1712.0
+            },
+            "size": {
+                "x": 224.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/Content/Progress/progress",
+            "type": "Image:True:1",
+            "sprite": "BottomHudProgressFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1712.0
+            },
+            "size": {
+                "x": 202.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "SlotEnter/Content/Progress/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "0/5",
+            "active": true,
+            "position": {
+                "x": 110.760009765625,
+                "y": 1712.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "UIBizzaAAA",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UIBizzaAAA/Safe Zone",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.000244140625
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UIBizzaAAA/Safe Zone/BtnFlowTreature",
+            "type": "Image:True:1",
+            "sprite": "Bg_Bubble",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UIBizzaAAA/Safe Zone/BtnFlowTreature/Image",
+            "type": "Image:True:1",
+            "sprite": "Icon_Bubble",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 932.0
+            },
+            "size": {
+                "x": 150.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "UIBizzaAAA/Safe Zone/BtnFlowTreature/BtnFlowTreature (1)",
+            "type": "Image:True:1",
+            "sprite": "Bg_Bubble",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

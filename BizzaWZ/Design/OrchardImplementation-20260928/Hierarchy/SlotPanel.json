@@ -1,0 +1,5433 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform SlotPanel Animation",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotPanel.slotMachineManager = Content/SlotMachineGroup",
+                "SlotPanel.slotHintTxt = Content/Hint",
+                "SlotPanel.canClickObj = Content/SlotMachineGroup/Btn/ClickObjs/CanClickObj",
+                "SlotPanel.notCanClickObj = Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj",
+                "SlotPanel.slotRewardPanel = Content/GetRewadPanel",
+                "SlotPanel.closeBtn = Top/Back",
+                "SlotPanel.faqBtn = Top/FQA",
+                "SlotPanel.slotBtn = Content/SlotMachineGroup/Btn"
+            ]
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": " RectTransform CanvasRenderer Image AspectRatioFitter OrchardBackdrop",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "OrchardBackdrop.target = OrchardBackdrop"
+            ]
+        },
+        {
+            "path": "bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top",
+            "type": " RectTransform TopSafeAreaAdapter",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -100.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 148.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "TopSafeAreaAdapter.target = Top"
+            ]
+        },
+        {
+            "path": "Top/Back",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/SlotEmeraldBack.png#SlotEmeraldBack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 104.0,
+                "y": -50.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.2000000476837159,
+                "y": 1.2000000476837159,
+                "z": 1.2000000476837159
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Top/Back",
+                "BizzaButton.scaleTarget = Top/Back"
+            ]
+        },
+        {
+            "path": "Top/FQA",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/SlotEmeraldHelp.png#SlotEmeraldHelp",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -122.0,
+                "y": -50.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.2000000476837159,
+                "y": 1.2000000476837159,
+                "z": 1.2000000476837159
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Top/FQA",
+                "BizzaButton.scaleTarget = Top/FQA"
+            ]
+        },
+        {
+            "path": "Top/IconInfo",
+            "type": " RectTransform CurrencyInfo",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -159.0,
+                "y": -71.0
+            },
+            "size": {
+                "x": 402.4580078125,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CurrencyInfo.valueText = Top/IconInfo/IconTxt"
+            ]
+        },
+        {
+            "path": "Top/IconInfo/Image",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/GoldCoin_US.png#GoldCoin_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 128.0,
+                "y": 128.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/IconInfo/IconTxt",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12000",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 261.0343933105469,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Top/DollarInfo",
+            "type": " RectTransform CurrencyInfo",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 216.22900390625,
+                "y": -71.0
+            },
+            "size": {
+                "x": 402.4580078125,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "CurrencyInfo.valueText = Top/DollarInfo/DollarTxt"
+            ]
+        },
+        {
+            "path": "Top/DollarInfo/Image",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/StackMoney_US.png#StackMoney_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 128.0,
+                "y": 128.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Top/DollarInfo/DollarTxt",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12000",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 248.06610107421876,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -43.60009765625
+            },
+            "size": {
+                "x": 1015.599609375,
+                "y": 2142.970703125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup",
+            "type": " RectTransform SlotMachineManager Animation Canvas GraphicRaycaster",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -57.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotMachineManager.machineRunning = Content/SlotMachineGroup/MachingRunning",
+                "SlotMachineManager.dropFx_Coin = Content/SlotMachineGroup/UIParticle (1)/CoinFx",
+                "SlotMachineManager.dropFx_Money = Content/SlotMachineGroup/UIParticle (1)/DollarFx",
+                "SlotMachineManager.dropFx_Common = Content/SlotMachineGroup/UIParticle (1)/CommonFx",
+                "SlotMachineManager.slotEntries.Array.data[0] = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1",
+                "SlotMachineManager.slotEntries.Array.data[1] = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)",
+                "SlotMachineManager.slotEntries.Array.data[2] = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)",
+                "SlotMachineManager.rewardGourp = Content/SlotMachineGroup/Content/RewardGroup",
+                "SlotMachineManager.itemList.Array.data[0] = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1",
+                "SlotMachineManager.itemList.Array.data[1] = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)",
+                "SlotMachineManager.itemList.Array.data[2] = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)",
+                "SlotMachineManager.fxList.Array.data[0] = Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+                "SlotMachineManager.fxList.Array.data[1] = Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+                "SlotMachineManager.fxList.Array.data[2] = Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+                "SlotMachineManager.dropFx = Content/SlotMachineGroup/UIParticle",
+                "SlotMachineManager.dropFx2 = Content/SlotMachineGroup/UIParticle (1)",
+                "SlotMachineManager.stars.Array.data[0] = Content/SlotMachineGroup/Content/RewardGroup/RewardIm1/Icon/star1",
+                "SlotMachineManager.stars.Array.data[1] = Content/SlotMachineGroup/Content/RewardGroup/RewardIm2/Icon/star2",
+                "SlotMachineManager.stars.Array.data[2] = Content/SlotMachineGroup/Content/RewardGroup/RewardIm3/Icon/star3",
+                "SlotMachineManager.anim = Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)",
+                "SlotMachineManager.rewardIm1 = Content/SlotMachineGroup/Content/RewardGroup/RewardIm1/Icon",
+                "SlotMachineManager.rewardIm2 = Content/SlotMachineGroup/Content/RewardGroup/RewardIm2/Icon",
+                "SlotMachineManager.rewardIm3 = Content/SlotMachineGroup/Content/RewardGroup/RewardIm3/Icon",
+                "SlotMachineManager.slotEntryss.Array.data[0].sprite = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement1.png",
+                "SlotMachineManager.slotEntryss.Array.data[1].sprite = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement2.png",
+                "SlotMachineManager.slotEntryss.Array.data[2].sprite = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement3.png",
+                "SlotMachineManager.slotEntryss.Array.data[3].sprite = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement4.png",
+                "SlotMachineManager.slotEntryss.Array.data[4].sprite = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement5.png"
+            ]
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 2.054931640625,
+                "y": 1214.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/ConfettiBlastRainbow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 30.0,
+                "y": 30.0,
+                "z": 30.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/ConfettiBlastRainbow/Glow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/ConfettiBlastRainbow/Clouds",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/CoinFx",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/CoinFx/GoldCoinShower",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 50.0,
+                "y": 50.0,
+                "z": 50.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/DollarFx",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/DollarFx/DollarbillShower",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 50.0,
+                "y": 50.0,
+                "z": 50.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/CommonFx",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle (1)/CommonFx/ConfettiShowerRainbow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 50.0,
+                "y": 50.0,
+                "z": 50.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/GameObject",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -3.0,
+                "y": 25.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/GameObject/00_TMG_Di",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/GameObject/00_TMG_Di/TY_Guang",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/GameObject/00_TMG_Di/TY_LiZi",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Buttom",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/SlotEmeraldMachine.png#SlotEmeraldMachine",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -34.0
+            },
+            "size": {
+                "x": 997.0,
+                "y": 1575.506103515625
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic CanvasGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 1072.0096435546875,
+                "y": 1486.9990234375
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer0",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer1",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer2",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer3",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer4",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer5",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)/Renderer6",
+            "type": " RectTransform CanvasRenderer SkeletonSubmeshGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.4999753534793854,
+                "y": 0.5022059082984924
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup",
+            "type": " RectTransform BoneFollowerGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BoneFollowerGraphic.skeletonGraphic = Content/SlotMachineGroup/Content/SkeletonGraphic (01LHJ)"
+            ]
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/Bg_Front",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotOther/Bg_SlotFront.png#Bg_SlotFront",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -13.0,
+                "y": -36.0
+            },
+            "size": {
+                "x": 705.2349243164063,
+                "y": 420.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -267.6000061035156,
+                "y": -23.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -23.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/UIParticle",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 269.0,
+                "y": -23.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm1",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -267.6000061035156,
+                "y": 722.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm1/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/JL1.png#JL1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm1/Icon/star1",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 170.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm2",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 722.0001220703125
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm2/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/JL1.png#JL1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm2/Icon/star2",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -0.0001220703125,
+                "y": 0.0
+            },
+            "size": {
+                "x": 170.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm3",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 269.0,
+                "y": 722.0001220703125
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm3/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/JL1.png#JL1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 250.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/RewardIm3/Icon/star3",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 170.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask",
+            "type": " RectTransform CanvasRenderer Image Mask",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 6.0,
+                "y": -96.95843505859375
+            },
+            "size": {
+                "x": 760.7639770507813,
+                "y": 353.0657043457031
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1",
+            "type": " RectTransform CanvasRenderer Image Animation SlotEntry",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UI/lotteryNum/1_1.png#1_1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -231.0,
+                "y": 18.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotEntry.img1 = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/1",
+                "SlotEntry.img2 = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/2"
+            ]
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/1",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement3.png#Icon_SlotElement3",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/2",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement1.png#Icon_SlotElement1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1/RewardNumText1",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12344",
+            "active": false,
+            "position": {
+                "x": -2.700042724609375,
+                "y": -153.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)",
+            "type": " RectTransform CanvasRenderer Image Animation SlotEntry",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UI/lotteryNum/1_1.png#1_1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -5.0,
+                "y": 18.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotEntry.img1 = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/1",
+                "SlotEntry.img2 = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/2"
+            ]
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/1",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement1.png#Icon_SlotElement1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/2",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement1.png#Icon_SlotElement1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (1)/RewardNumText2",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12344",
+            "active": false,
+            "position": {
+                "x": -8.70001220703125,
+                "y": -155.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)",
+            "type": " RectTransform CanvasRenderer Image Animation SlotEntry",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/BingoAsset/Assets/UI/lotteryNum/1_1.png#1_1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 237.0,
+                "y": 18.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotEntry.img1 = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/1",
+                "SlotEntry.img2 = Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/2"
+            ]
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/1",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement6.png#Icon_SlotElement6",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/2",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotIcon/Icon_SlotElement1.png#Icon_SlotElement1",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 140.0,
+                "y": 140.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Content/RewardGroup/SlotMask/Slot1 (2)/RewardNumText3",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12344",
+            "active": false,
+            "position": {
+                "x": -12.70001220703125,
+                "y": -155.0
+            },
+            "size": {
+                "x": 250.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -332.0,
+                "y": 535.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/FireworkYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 18.0,
+                "y": 25.0,
+                "z": 25.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/FireworkYellow/Flash",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/FireworkYellow/LingerParticles",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (2)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 38.0,
+                "y": 915.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/FireworkYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 18.0,
+                "y": 25.0,
+                "z": 25.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/FireworkYellow/Flash",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (9)/FireworkYellow/LingerParticles",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 258.0,
+                "y": 444.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/FireworkYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 18.0,
+                "y": 25.0,
+                "z": 25.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/FireworkYellow/Flash",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/FireworkYellow/LingerParticles",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (3)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -388.0,
+                "y": -459.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/FireworkYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 18.0,
+                "y": 25.0,
+                "z": 25.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/FireworkYellow/Flash",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/FireworkYellow/LingerParticles",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (4)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 275.0,
+                "y": -417.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/FireworkYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 18.0,
+                "y": 25.0,
+                "z": 25.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/FireworkYellow/Flash",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/FireworkYellow/LingerParticles",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 0.9999999403953552,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (5)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -262.0,
+                "y": 86.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (6)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 3.0,
+                "y": 86.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (7)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 268.0,
+                "y": 86.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)/MagicNovaYellow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)/MagicNovaYellow/MagicChargeOrbs",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)/MagicNovaYellow/MagicNova",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)/MagicNovaYellow/CenterSphere",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/UIParticle/UIParticle (8)/MagicNovaYellow/CenterGlow",
+            "type": " Transform ParticleSystem ParticleSystemRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0000004768371583,
+                "z": 1.0000004768371583
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/MachingRunning",
+            "type": " RectTransform VibrateEffectLoop",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/SlotEmeraldButton.png#SlotEmeraldButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -189.0
+            },
+            "size": {
+                "x": 620.7744140625,
+                "y": 148.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/SlotMachineGroup/Btn",
+                "BizzaButton.scaleTarget = Content/SlotMachineGroup/Btn"
+            ]
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 1.0499000549316407,
+                "y": 10.789779663085938
+            },
+            "size": {
+                "x": 592.6425170898438,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/SlotPanel/SlotOther/按键播放.png#按键播放",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -81.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 84.0,
+                "y": 82.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj/w",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Girar",
+            "active": true,
+            "position": {
+                "x": 256.868896484375,
+                "y": 0.0
+            },
+            "size": {
+                "x": 411.2987976074219,
+                "y": 82.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/SlotMachineGroup/Btn/ClickObjs/CanClickObj",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Girar",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 592.6400146484375,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Hint",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Watch Videos and get spin",
+            "active": true,
+            "position": {
+                "x": -0.6093997955322266,
+                "y": -558.0
+            },
+            "size": {
+                "x": 645.7647094726563,
+                "y": 230.23269653320313
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel",
+            "type": " RectTransform SlotRewardPanel",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 9.110107421875,
+                "y": 57.6978759765625
+            },
+            "size": {
+                "x": 889.5496826171875,
+                "y": 1326.838623046875
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "SlotRewardPanel.coinObj = Content/GetRewadPanel/MoneyRoot/Coin",
+                "SlotRewardPanel.coinText = Content/GetRewadPanel/MoneyRoot/Coin/CoinValue",
+                "SlotRewardPanel.dollarObj = Content/GetRewadPanel/MoneyRoot/Dollar",
+                "SlotRewardPanel.dollarText = Content/GetRewadPanel/MoneyRoot/Dollar/CoinValue",
+                "SlotRewardPanel.coinTarget = Top/IconInfo",
+                "SlotRewardPanel.coinTargetPos = Top/IconInfo/Image",
+                "SlotRewardPanel.dollarTarget = Top/DollarInfo",
+                "SlotRewardPanel.dollarTargetPos = Top/DollarInfo/Image",
+                "SlotRewardPanel.slotRewardIcons.Array.data[0].image = Content/GetRewadPanel/RewardIcon",
+                "SlotRewardPanel.slotRewardIcons.Array.data[1].image = Content/GetRewadPanel/RewardIcon (1)",
+                "SlotRewardPanel.slotRewardIcons.Array.data[2].image = Content/GetRewadPanel/RewardIcon (2)",
+                "SlotRewardPanel.slotRewardIcons.Array.data[3].image = Content/GetRewadPanel/RewardIcon (3)",
+                "SlotRewardPanel.slotRewardIcons.Array.data[4].image = Content/GetRewadPanel/RewardIcon (4)",
+                "SlotRewardPanel.slotRewardIcons.Array.data[5].image = Content/GetRewadPanel/RewardIcon (5)",
+                "SlotRewardPanel.btnObj = Content/GetRewadPanel/Btn",
+                "SlotRewardPanel.resultImage = Content/GetRewadPanel/RewardIcon"
+            ]
+        },
+        {
+            "path": "Content/GetRewadPanel/PageMask",
+            "type": " RectTransform CanvasRenderer Image Button PageMask",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = Content/GetRewadPanel/PageMask",
+                "PageMask.btn = Content/GetRewadPanel/PageMask"
+            ]
+        },
+        {
+            "path": "Content/GetRewadPanel/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/SlotIvoryPanel.png#SlotIvoryPanel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -80.0
+            },
+            "size": {
+                "x": 840.0,
+                "y": 640.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/SlotEmeraldButton.png#SlotEmeraldButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -285.0
+            },
+            "size": {
+                "x": 440.0,
+                "y": 112.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/GetRewadPanel/Btn",
+                "BizzaButton.m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target = Content/GetRewadPanel",
+                "BizzaButton.onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target = Content/GetRewadPanel"
+            ]
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Btn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/SlotFidelityCheck.png#SlotFidelityCheck",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 106.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "A Small Amount",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 397.0
+            },
+            "size": {
+                "x": 448.40069580078127,
+                "y": 263.7314147949219
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/StackMoney_BR.png#StackMoney_BR",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 70.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (1)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/PileMoney_ID.png#PileMoney_ID",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 70.0
+            },
+            "size": {
+                "x": 310.5,
+                "y": 204.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/HundredMoney_ID.png#HundredMoney_ID",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 70.0
+            },
+            "size": {
+                "x": 350.25,
+                "y": 242.25
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (3)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/GoldCoin_BR.png#GoldCoin_BR",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 70.0
+            },
+            "size": {
+                "x": 180.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (4)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/PileGold_BR.png#PileGold_BR",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 70.0
+            },
+            "size": {
+                "x": 292.0,
+                "y": 210.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/RewardIcon (5)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/PileWealth_US.png#PileWealth_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 70.0
+            },
+            "size": {
+                "x": 288.0,
+                "y": 217.44000244140626
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot",
+            "type": " RectTransform HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -135.0
+            },
+            "size": {
+                "x": 691.4221801757813,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Coin",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 167.1405487060547,
+                "y": -50.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Coin/icon",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/GoldCoin_US.png#GoldCoin_US",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 80.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Coin/CoinValue",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "+$11.99",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 97.75039672851563
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Dollar",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 512.8516235351563,
+                "y": -50.0
+            },
+            "size": {
+                "x": 322.8599853515625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Dollar/icon",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/StackMoney_ID.png#StackMoney_ID",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GetRewadPanel/MoneyRoot/Dollar/CoinValue",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "+$11.99",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 97.75039672851563
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        }
+    ]
+}

@@ -1,0 +1,340 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/BadgeAndDaily/ItemForCountry.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform ItemForCountry",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ItemForCountry.pageOpenPangels.Array.data[0].showObject = Bottom/Badge",
+                "ItemForCountry.pageOpenPangels.Array.data[1].showObject = Bottom/DailyMission"
+            ]
+        },
+        {
+            "path": "Bottom",
+            "type": " RectTransform Animation",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -128.0,
+                "y": -378.35302734375
+            },
+            "size": {
+                "x": 256.0,
+                "y": 190.7061004638672
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bottom/Badge",
+            "type": " RectTransform CanvasRenderer BadgeShow",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -0.000003814697265625
+            },
+            "size": {
+                "x": 344.0,
+                "y": 298.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BadgeShow.badgeImg = Bottom/Badge/Image (2)",
+                "BadgeShow.priceTxt = Bottom/Badge/Text (TMP)",
+                "BadgeShow.withdrawMissionsID.Array.data[0] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig1.asset",
+                "BadgeShow.withdrawMissionsID.Array.data[1] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig2.asset",
+                "BadgeShow.withdrawMissionsID.Array.data[2] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig3.asset",
+                "BadgeShow.withdrawMissionsID.Array.data[3] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig4.asset",
+                "BadgeShow.withdrawMissionsID.Array.data[4] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig5.asset",
+                "BadgeShow.withdrawMissionsID.Array.data[5] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig6.asset",
+                "BadgeShow.withdrawMissionsID.Array.data[6] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/IDWithdrawDanPanelConfig7.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[0] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig1.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[1] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig2.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[2] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig3.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[3] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig4.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[4] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig5.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[5] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig6.asset",
+                "BadgeShow.withdrawMissionsUS.Array.data[6] = Assets/BizzaWZ/Final/Real/Config/WithdrawDanPanelConfig/USWithdrawDanPanelConfig7.asset"
+            ]
+        },
+        {
+            "path": "Bottom/Badge/Image (2)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -8.899999618530274
+            },
+            "size": {
+                "x": 200.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Bottom/Badge/Image (2)",
+                "BizzaButton.m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target = ",
+                "BizzaButton.scaleTarget = Bottom/Badge/Image (2)",
+                "BizzaButton.onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target = "
+            ]
+        },
+        {
+            "path": "Bottom/Badge/Image (3)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/GamePanel/Bg_DanEnter.png#Bg_DanEnter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -75.0
+            },
+            "size": {
+                "x": 177.0,
+                "y": 48.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bottom/Badge/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "+30",
+            "active": true,
+            "position": {
+                "x": 22.300071716308595,
+                "y": -74.0999984741211
+            },
+            "size": {
+                "x": 208.69000244140626,
+                "y": 115.0999984741211
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Bottom/DailyMission",
+            "type": " RectTransform CanvasRenderer BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": -0.000003814697265625
+            },
+            "size": {
+                "x": 344.0,
+                "y": 298.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target = ",
+                "BizzaButton.scaleTarget = Bottom/DailyMission/Image (2)",
+                "BizzaButton.onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target = "
+            ]
+        },
+        {
+            "path": "Bottom/DailyMission/Image (1)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/GamePanel/Bg_PropAddTip.png#Bg_PropAddTip",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 240.0,
+                "y": 240.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bottom/DailyMission/Image (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

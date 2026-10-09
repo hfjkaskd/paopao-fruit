@@ -1,0 +1,1044 @@
+{
+    "checkedAtUtc": "2026-09-22T10:43:06.6109806Z",
+    "mode": "runtime",
+    "passed": true,
+    "editorWasPlaying": true,
+    "sourcePrefabsUnchanged": true,
+    "sourceTier": {
+        "hierarchy": "WithdrawDanItem",
+        "label": "Cold",
+        "progressText": "99/500",
+        "background": {
+            "path": "bg",
+            "sprite": "Card",
+            "assetPath": "Assets/OrchardUI/Art/Controls.png",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -452.1499938964844,
+                "y": -71.11885070800781,
+                "width": 904.2999877929688,
+                "height": 142.23770141601563
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMax": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "offsetMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "offsetMax": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "border": {
+                "x": 46.0,
+                "y": 46.0,
+                "z": 46.0,
+                "w": 46.0
+            },
+            "enabled": true,
+            "imageType": 1
+        },
+        "icon": {
+            "path": "Icon",
+            "sprite": "<null>",
+            "assetPath": "",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -48.0,
+                "y": -48.0,
+                "width": 96.0,
+                "height": 96.0
+            },
+            "position": {
+                "x": -350.0,
+                "y": 6.0
+            },
+            "anchorMin": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "anchorMax": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "offsetMin": {
+                "x": -398.0,
+                "y": -42.0
+            },
+            "offsetMax": {
+                "x": -302.0,
+                "y": 54.0
+            },
+            "border": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "enabled": true,
+            "imageType": 0
+        },
+        "progress": {
+            "path": "progress/FillArea/progress",
+            "sprite": "RewardProgressSoftFill",
+            "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+            "rect": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": -9.0,
+                "width": 123.00462341308594,
+                "height": 18.0
+            },
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "anchorMax": {
+                "x": 0.2709999978542328,
+                "y": 1.0
+            },
+            "offsetMin": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "offsetMax": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "border": {
+                "x": 15.709090232849121,
+                "y": 0.0,
+                "z": 15.709090232849121,
+                "w": 0.0
+            },
+            "enabled": true,
+            "imageType": 1
+        },
+        "differencesFromSource": []
+    },
+    "runtimeTiers": [
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Desafiante",
+            "progressText": "3/500",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel7",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel7.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 2.7233428955078127,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.006000000052154064,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel7 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel7.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        },
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Mestre",
+            "progressText": "3/150",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel6",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel6.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 9.077835083007813,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.019999999552965165,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel6 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel6.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        },
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Diamante",
+            "progressText": "3/80",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel5",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel5.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 17.02093505859375,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.03750000149011612,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel5 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel5.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        },
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Platina",
+            "progressText": "3/50",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel4",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel4.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 27.233489990234376,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.05999999865889549,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel4 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel4.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        },
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Ouro",
+            "progressText": "3/30",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel3",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel3.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 45.38916015625,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.10000000149011612,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel3 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel3.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        },
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Prata",
+            "progressText": "3/15",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel2",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel2.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 90.7783203125,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.20000000298023225,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel2 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel2.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        },
+        {
+            "hierarchy": "[GameInstance]/GameCanvas/Content/PopupLayer/WithdrawDanPanel(Clone)/Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/WithdrawDanItem(Clone)",
+            "label": "Bronze",
+            "progressText": "3/5",
+            "background": {
+                "path": "bg",
+                "sprite": "Card",
+                "assetPath": "Assets/OrchardUI/Art/Controls.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -452.1499938964844,
+                    "y": -71.11885070800781,
+                    "width": 904.2999877929688,
+                    "height": 142.23770141601563
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 1.0,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 46.0,
+                    "y": 46.0,
+                    "z": 46.0,
+                    "w": 46.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "icon": {
+                "path": "Icon",
+                "sprite": "Icon_DanLevel1",
+                "assetPath": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel1.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": -48.0,
+                    "y": -48.0,
+                    "width": 96.0,
+                    "height": 96.0
+                },
+                "position": {
+                    "x": -350.0,
+                    "y": 6.0
+                },
+                "anchorMin": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "anchorMax": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "offsetMin": {
+                    "x": -398.0,
+                    "y": -42.0
+                },
+                "offsetMax": {
+                    "x": -302.0,
+                    "y": 54.0
+                },
+                "border": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 0
+            },
+            "progress": {
+                "path": "progress/FillArea/progress",
+                "sprite": "RewardProgressSoftFill",
+                "assetPath": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png",
+                "rect": {
+                    "serializedVersion": "2",
+                    "x": 0.0,
+                    "y": -9.0,
+                    "width": 272.3349609375,
+                    "height": 18.0
+                },
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.6000000238418579,
+                    "y": 1.0
+                },
+                "offsetMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "offsetMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "border": {
+                    "x": 15.709090232849121,
+                    "y": 0.0,
+                    "z": 15.709090232849121,
+                    "w": 0.0
+                },
+                "enabled": true,
+                "imageType": 1
+            },
+            "differencesFromSource": [
+                "Icon sprite differs: source=<null> @ ; live=Icon_DanLevel1 @ Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel1.png",
+                "progress geometry differs; see sourceTier and runtimeTiers values (progress ratio differences may be normal runtime data)."
+            ]
+        }
+    ],
+    "contact": [],
+    "tiers": [],
+    "notes": [
+        "Read-only snapshot; this command never starts or stops Play mode."
+    ],
+    "errors": []
+}

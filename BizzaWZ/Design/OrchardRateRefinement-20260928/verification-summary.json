@@ -1,0 +1,67 @@
+{
+  "generatedUtc": "2026-09-28T13:27:45.555497+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "referenceSize": [
+    852,
+    1846
+  ],
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T13:25:38.4005391Z",
+      "status": "complete",
+      "buttonHitChecks": 2,
+      "loggedErrors": [
+        "开启测试设备False"
+      ],
+      "checks": [
+        "Both standard Buttons receive center hits; seven complete untinted artwork sprites fit the screen; text has no overflow; old and new amounts are green",
+        "Currency and all four amounts come from production formatting of temporary ExchangeRateInfo, not static preview text",
+        "Check closes the rate popup and opens the existing RealWithdrawPanel; no payment submitted",
+        "Reopen updates all four amounts with a second temporary data set",
+        "Close works; saved balance and last withdrawal timestamp unchanged"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T13:26:36.7854439Z",
+      "status": "complete",
+      "buttonHitChecks": 2,
+      "loggedErrors": [],
+      "checks": [
+        "Both standard Buttons receive center hits; seven complete untinted artwork sprites fit the screen; text has no overflow; old and new amounts are green",
+        "Currency and all four amounts come from production formatting of temporary ExchangeRateInfo, not static preview text",
+        "Check closes the rate popup and opens the existing RealWithdrawPanel; no payment submitted",
+        "Reopen updates all four amounts with a second temporary data set",
+        "Close works; saved balance and last withdrawal timestamp unchanged"
+      ]
+    }
+  },
+  "buttonHitChecksPassed": 4,
+  "layoutSpecsUnchanged": true,
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab": "822f03490eb1acc09d6331c11a4407cd98e768ff5e80aa7fad25b8f1ce354a86",
+    "Assets/OrchardUI/Resources/OrchardUI/RateReferenceControls.png": "fd563ae3c45c174dd578dd053b15f713a15de9bf4d5079a9ff54bdbe28ddb327",
+    "Assets/OrchardUI/Resources/OrchardUI/RateReferenceRadiance.png": "0b7f3ad213d813a9208126493dd3679f91773f074f546ef3b6312d60ab529f44",
+    "Assets/OrchardUI/Runtime/OrchardRateVisual.cs": "47a2ed38b28d9c123ab02ed2f94b077af8ff668faca4ca80e0adaa96ea3e16df"
+  },
+  "limitations": [
+    "Runtime uses temporary ExchangeRateInfo values through the production page contract; current currency and language are retained.",
+    "No payment submitted.",
+    "No Android/iOS device build tested.",
+    "Visual refinement does not prove complete pixel identity."
+  ]
+}

@@ -335,17 +335,10 @@ public static class UIUtils
     public static void SetWzSprite(this Image image, string resPath, bool nativeSize = false)
     {
 #if BIZZA_REAL_WITHDRAW
-        resPath += "_" + AccountModule.CountryType;
-        // var info = cfg.Tables.Instance.TblWzCountryTexture.DataMap[resPath];
-        // resPath = AccountModule.CountryType switch
-        // {
-            // AccountModule.E_CountryType.BR => info.BRPath,
-            // AccountModule.E_CountryType.ID => info.IDPath,
-            // AccountModule.E_CountryType.US => info.USPath,
-            // _ => info.BRPath
-        // };
-#endif
+        WzCurrencySprites.Apply(image, resPath, nativeSize);
+#else
         SetSprite(image, resPath, nativeSize);
+#endif
     }
 
     public static Rect GetAABBWorldRect(this RectTransform self)

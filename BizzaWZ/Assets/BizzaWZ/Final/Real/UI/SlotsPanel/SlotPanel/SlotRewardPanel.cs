@@ -33,20 +33,30 @@ public class SlotRewardPanel : MonoBehaviour
     private float dollarValue;
     private bool adReward;
     private bool claimed;
+    private bool initialized;
+
+    public bool HasUnclaimedReward => initialized && !claimed;
+    public event Action Claimed;
 
     public GameObject btnObj;
     public Image resultImage;
+    [SerializeField] private Button approvedClaimButton;
+
+    private void Awake()
+    {
+        if(approvedClaimButton!=null) approvedClaimButton.onClick.AddListener(OnClickClose);
+    }
 
     public void Init(float coin, float dollar, string resultType, bool fromAd = false)
     {
         adReward = fromAd;
         claimed = false;
+        initialized = true;
         coinObj.SetActive(coin > 0);
         coinValue = coin;
         dollarValue = dollar;
 
         dollarObj.SetActive(dollar > 0);
-        var value = ItemUtils.Get(E_ItemType.Dollar).Count;
         #if BIZZA_REAL_WITHDRAW
         if (AccountModule.CountryType == AccountModule.E_CountryType.BR)
         {
@@ -64,6 +74,7 @@ public class SlotRewardPanel : MonoBehaviour
         if (image != null)
         {
             image.gameObject.SetActive(true);
+            resultImage.gameObject.SetActive(true);
             UIUtils.SetWzSprite(resultImage, resultType);
         }
         
@@ -78,7 +89,7 @@ public class SlotRewardPanel : MonoBehaviour
 
         foreach (var item in slotRewardIcons)
         {
-            if (item.e_WzIconType.ToString() == resultType)
+            if (IconKey(item.e_WzIconType) == resultType)
             {
                 UIUtils.SetWzSprite(item.image, resultType);
                 return item.image;
@@ -87,10 +98,24 @@ public class SlotRewardPanel : MonoBehaviour
         return null;
     }
 
+    private static string IconKey(E_WzIconType type)
+    {
+        switch (type)
+        {
+            case E_WzIconType.StackMoney: return "StackMoney";
+            case E_WzIconType.PileMoney: return "PileMoney";
+            case E_WzIconType.HundredMoney: return "HundredMoney";
+            case E_WzIconType.GoldCoin: return "GoldCoin";
+            case E_WzIconType.PileGold: return "PileGold";
+            case E_WzIconType.PileWealth: return "PileWealth";
+            default: return string.Empty;
+        }
+    }
+
     [Obfuz.ObfuzIgnore]
     public void OnClickClose()
     {
-        if (claimed) return;
+        if (!HasUnclaimedReward) return;
         claimed = true;
         // 钞票飞过去
        // float money = WithdrawalUtil.GetDollarCountByReward();
@@ -139,6 +164,7 @@ public class SlotRewardPanel : MonoBehaviour
             // coinTarget.Refresh();
         }
        gameObject.SetActive(false);
+       Claimed?.Invoke();
     }
 
 }

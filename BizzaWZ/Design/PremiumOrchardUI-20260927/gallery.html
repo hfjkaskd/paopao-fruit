@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>果园拼图 · 全界面概念图册</title>
+<style>
+:root{--paper:#faf7ef;--card:#fffdf8;--ink:#443021;--muted:#7b6a59;--line:#e5ddcf;--green:#267448;--green-light:#e7efdf;--gold:#b88938}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif}
+button,a{-webkit-tap-highlight-color:transparent}
+a{color:var(--green);text-decoration-thickness:1px;text-underline-offset:3px}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:3px solid #70a472;outline-offset:5px}
+main{max-width:1560px;margin:auto;padding:52px 48px 64px}
+.kicker{margin:0 0 10px;color:var(--green);font-size:12px;font-weight:750;letter-spacing:.2em}
+h1{font-size:clamp(32px,4vw,54px);font-weight:720;letter-spacing:-.045em;line-height:1.2;margin:0 0 22px}
+.intro{max-width:690px;color:var(--muted);font-size:16px;margin:0}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 345px;gap:72px;align-items:start;padding-bottom:38px}
+.reference{display:flex;gap:17px;align-items:center;border-left:1px solid var(--line);padding-left:28px}
+.reference img{display:block;width:74px;height:162px;object-fit:cover;border-radius:10px;box-shadow:0 5px 16px #543f2717}
+.reference strong{font-size:14px;display:block;margin-bottom:7px}
+.reference p{font-size:12px;line-height:1.65;color:var(--muted);margin:0 0 8px}
+.reference a{font-size:12px}
+.notice{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:17px 0;display:flex;gap:28px;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}
+.notice p{margin:0;max-width:910px}.notice strong{font-weight:700;color:var(--ink)}
+.doclinks{display:flex;gap:16px;white-space:nowrap}
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:30px 0 25px}
+.filter{border:1px solid transparent;border-radius:24px;padding:8px 17px;color:var(--muted);background:transparent;font-size:13px;transition:background .15s}
+.filter:hover{background:#eee9de}
+.filter[aria-pressed="true"]{background:var(--green);color:#fff}
+.filter .filter-count{opacity:.7;font-size:11px;margin-left:7px}
+.result-count{margin-left:auto;color:var(--muted);font-size:12px}
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:38px 26px;align-items:start}
+.art-card{min-width:0}
+.image-button{display:block;border:0;padding:0;width:100%;background:#eae5d8;border-radius:14px;overflow:hidden;position:relative;box-shadow:0 5px 17px #4430210b;transition:box-shadow .2s,transform .2s;aspect-ratio:9/19.5}
+.image-button:hover{transform:translateY(-3px);box-shadow:0 11px 25px #44302122}
+.image-button img{display:block;width:100%;height:100%;object-fit:contain;background:#eae5d8}
+.image-button .zoom-hint{position:absolute;bottom:12px;right:12px;background:#fffdf8ed;color:var(--ink);font-size:11px;padding:4px 10px;border-radius:16px;box-shadow:0 2px 8px #0001;opacity:0;transition:opacity .15s}
+.image-button:hover .zoom-hint,.image-button:focus-visible .zoom-hint{opacity:1}
+.missing{display:none;position:absolute;inset:0;align-items:center;justify-content:center;flex-direction:column;padding:20px;text-align:center;background:#eee8dc;color:var(--muted)}
+.missing span{font-size:12px}
+.image-button.is-missing .missing{display:flex}.image-button.is-missing img{visibility:hidden}
+.card-head{display:flex;gap:10px;align-items:baseline;margin-top:14px}
+.card-number{color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.08em}
+h2{font-size:16px;line-height:1.45;letter-spacing:-.02em;margin:0;font-weight:700}
+.english{font-size:11px;color:var(--muted);margin:3px 0 8px 28px;letter-spacing:.035em}
+.badge{display:inline-block;border-radius:4px;border:1px solid #dfcfb6;background:#f7efe1;color:#8a6334;padding:2px 6px;font-size:10px;line-height:1.65;margin:0 0 7px 28px}
+.card-note{font-size:12px;line-height:1.7;color:var(--muted);margin:0 0 9px 28px}
+.card-links{display:flex;gap:14px;font-size:11px;margin-left:28px}
+footer{margin-top:50px;padding-top:22px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:20px}
+dialog{border:0;padding:0;background:#201c17;color:#fff;width:100vw;height:100dvh;max-width:100vw;max-height:100dvh;overflow:hidden;margin:0}
+dialog::backdrop{background:#201c17}
+.viewer{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr) auto}
+.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:16px 26px;border-bottom:1px solid #ffffff15}
+.viewer-label{font-size:14px;line-height:1.45}.viewer-label span{color:#cabdad;margin-right:12px;font-size:12px}
+.viewer-actions{display:flex;gap:22px;align-items:center}
+.viewer-actions a{font-size:12px;color:#e6f0da}
+.close{background:#ffffff10;border:1px solid #ffffff25;border-radius:22px;color:#fff;padding:6px 15px;font-size:12px}
+.viewer-stage{position:relative;display:flex;align-items:center;justify-content:center;padding:18px 80px;min-height:0}
+.viewer-stage img{display:block;max-height:100%;max-width:100%;height:auto;width:auto;object-fit:contain;box-shadow:0 10px 45px #0006}
+.viewer-image-error{position:absolute;text-align:center;color:#d6cbbd;font-size:14px;max-width:80%}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);display:flex;align-items:center;justify-content:center;border:1px solid #ffffff25;color:white;background:#ffffff0c;border-radius:50%;width:42px;height:42px;font-size:23px}
+.arrow:hover{background:#ffffff20}.prev{left:24px}.next{right:24px}
+.viewer-bottom{padding:10px 26px 16px;display:flex;gap:22px;align-items:center;justify-content:space-between;color:#cfbeac;font-size:11px}
+.viewer-bottom p{margin:0;max-width:930px}
+.keys{white-space:nowrap}
+@media(min-width:1400px){.gallery{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media(max-width:1000px){main{padding:35px 28px}.hero{grid-template-columns:1fr 290px;gap:32px}.gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 20px}.notice{align-items:flex-start}.doclinks{flex-direction:column;gap:5px}}
+@media(max-width:720px){main{padding:26px 18px 40px}.hero{grid-template-columns:1fr;gap:24px;padding-bottom:25px}.reference{border-left:0;border-top:1px solid var(--line);padding:18px 0 0;max-width:450px}.reference img{width:51px;height:111px}.gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 15px}.notice{display:block}.doclinks{flex-direction:row;margin-top:9px}.filter{padding:7px 12px;font-size:12px}.result-count{width:100%;margin-top:8px}.filters{margin:22px 0}.card-head{gap:7px}h2{font-size:14px}.english,.badge,.card-note,.card-links{margin-left:24px}.card-note{font-size:11px}.viewer-top{padding:13px 15px}.viewer-actions{gap:10px}.viewer-actions a{font-size:11px}.viewer-stage{padding:10px 40px}.arrow{width:31px;height:38px;font-size:20px;border-radius:8px}.prev{left:5px}.next{right:5px}.viewer-bottom{padding:10px 15px 14px;display:block}.keys{display:none}.viewer-label{font-size:12px}.viewer-label span{margin-right:6px}footer{display:block}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+<div><p class="kicker">PREMIUM ORCHARD PUZZLE · UI STUDY</p><h1>一座果园，<br>一套轻松的游戏界面。</h1><p class="intro">参考原游戏玩法与提现效果图，统一果园色彩、圆润材质和交互层级。独立竖屏画面，可按分类浏览并放大审阅。</p></div>
+<aside class="reference"><a href="references/00-user-withdrawal-style.png" target="_blank" rel="noopener" aria-label="查看用户提供的原参考图"><img src="references/00-user-withdrawal-style.png" alt="用户提供的 Withdrawal 果园风格参考图"></a><div><strong>原参考 · Withdrawal</strong><p>奶油白面板、蜂蜜金描边、叶绿主按钮与晴朗果园，作为整套界面的视觉基准。</p><a href="references/01-gameplay-current.png" target="_blank" rel="noopener">查看原游戏界面 ↗</a></div></aside>
+</header>
+<section class="notice" aria-label="审阅说明"><p><strong>视觉概念稿</strong> · 金额、日期和进度为示例，最终以现有配置及服务端为准。本图册不代表 Unity 已实现。09、11、16、17 标记为框架附录或现有分支，具体启用状态见界面清单。</p><nav class="doclinks" aria-label="设计资料"><a href="ART-DIRECTION.md" target="_blank">视觉说明</a><a href="ui-inventory.md" target="_blank">界面清单</a></nav></section>
+<nav class="filters" aria-label="按界面分类筛选"></nav>
+<section class="gallery" id="gallery" aria-label="界面效果图"></section>
+<footer><span>本地图册 · 文件直接打开，无网络或服务依赖</span><span>独立 PNG 与完整提示词均保存在同目录</span></footer>
+</main>
+<dialog id="lightbox" aria-label="效果图放大查看">
+<div class="viewer">
+<div class="viewer-top"><div class="viewer-label" id="viewer-title"></div><div class="viewer-actions"><a id="viewer-original" target="_blank" rel="noopener">打开原 PNG ↗</a><button type="button" class="close" id="viewer-close" aria-label="关闭放大查看">关闭 ×</button></div></div>
+<div class="viewer-stage"><button type="button" class="arrow prev" id="viewer-prev" aria-label="上一张">‹</button><img id="viewer-image" alt=""><div class="viewer-image-error" id="viewer-error" hidden>图片文件尚未就绪。请待文件齐备后刷新图册。</div><button type="button" class="arrow next" id="viewer-next" aria-label="下一张">›</button></div>
+<div class="viewer-bottom"><p id="viewer-note"></p><span class="keys" id="viewer-position"></span></div>
+</div>
+</dialog>
+<script>
+"use strict";
+const ARTWORKS = [
+  {
+    "id": "01",
+    "slug": "loading",
+    "title": "加载页",
+    "english": "Loading",
+    "category": "core",
+    "note": "框架正式加载，果园主视觉与加载进度。",
+    "badge": "",
+    "image": "images/01-loading.png",
+    "prompt": "prompts/01-loading.md"
+  },
+  {
+    "id": "02",
+    "slug": "gameplay",
+    "title": "游戏主界面",
+    "english": "Gameplay",
+    "category": "core",
+    "note": "保留果树、水果与木质收集槽，统一 HUD 和道具视觉。",
+    "badge": "",
+    "image": "images/02-gameplay.png",
+    "prompt": "prompts/02-gameplay.md"
+  },
+  {
+    "id": "03",
+    "slug": "tutorial",
+    "title": "新手引导",
+    "english": "Tutorial",
+    "category": "core",
+    "note": "在现有玩法上使用清晰的指示与聚焦遮罩。",
+    "badge": "",
+    "image": "images/03-tutorial.png",
+    "prompt": "prompts/03-tutorial.md"
+  },
+  {
+    "id": "04",
+    "slug": "level-complete",
+    "title": "通关奖励",
+    "english": "Level Complete",
+    "category": "rewards",
+    "note": "正式 GetRewardPanel 的通关结算视觉。",
+    "badge": "",
+    "image": "images/04-level-complete.png",
+    "prompt": "prompts/04-level-complete.md"
+  },
+  {
+    "id": "05",
+    "slug": "revive",
+    "title": "失败与复活",
+    "english": "Revive",
+    "category": "core",
+    "note": "复活与重试使用清晰的操作层级。",
+    "badge": "",
+    "image": "images/05-revive.png",
+    "prompt": "prompts/05-revive.md"
+  },
+  {
+    "id": "06",
+    "slug": "settings",
+    "title": "设置与暂停",
+    "english": "Settings",
+    "category": "system",
+    "note": "音乐、音效、振动、语言和游戏操作。",
+    "badge": "",
+    "image": "images/06-settings.png",
+    "prompt": "prompts/06-settings.md"
+  },
+  {
+    "id": "07",
+    "slug": "get-booster",
+    "title": "获取道具",
+    "english": "Get Booster",
+    "category": "core",
+    "note": "现有道具补充弹窗，区分道具说明与领取操作。",
+    "badge": "",
+    "image": "images/07-get-booster.png",
+    "prompt": "prompts/07-get-booster.md"
+  },
+  {
+    "id": "08",
+    "slug": "new-booster",
+    "title": "新道具解锁",
+    "english": "New Booster",
+    "category": "rewards",
+    "note": "现有道具解锁提示的统一果园表现。",
+    "badge": "",
+    "image": "images/08-new-booster.png",
+    "prompt": "prompts/08-new-booster.md"
+  },
+  {
+    "id": "09",
+    "slug": "daily-tasks",
+    "title": "每日任务",
+    "english": "Daily Tasks",
+    "category": "system",
+    "note": "保留在线 10 / 20 / 40 / 60 / 90 分钟任务。当前入口关闭且切页逻辑为空。",
+    "badge": "框架附录 · 当前未启用",
+    "image": "images/09-daily-tasks.png",
+    "prompt": "prompts/09-daily-tasks.md"
+  },
+  {
+    "id": "10",
+    "slug": "rating",
+    "title": "游戏评价",
+    "english": "Rating",
+    "category": "system",
+    "note": "五个星级按钮与确认操作，图中为四星选择示例。",
+    "badge": "",
+    "image": "images/10-rating.png",
+    "prompt": "prompts/10-rating.md"
+  },
+  {
+    "id": "11",
+    "slug": "cash-withdrawal",
+    "title": "现金提现",
+    "english": "Cash Withdrawal",
+    "category": "system",
+    "note": "现有双货币业务分支；当前单货币通道隐藏相关入口。",
+    "badge": "框架附录 · 双货币分支",
+    "image": "images/11-cash-withdrawal.png",
+    "prompt": "prompts/11-cash-withdrawal.md"
+  },
+  {
+    "id": "12",
+    "slug": "withdraw-account",
+    "title": "收款账户",
+    "english": "Payout Account",
+    "category": "withdrawal",
+    "note": "按现有支付平台填写收款信息。最终采用 v2，已修正背景 HUD 的英文文案。",
+    "badge": "",
+    "image": "images/12-withdraw-account-v2.png",
+    "prompt": "prompts/12-withdraw-account.md"
+  },
+  {
+    "id": "13",
+    "slug": "withdraw-confirm",
+    "title": "提现确认",
+    "english": "Confirm Withdrawal",
+    "category": "withdrawal",
+    "note": "提交前核对金额、平台与账户。",
+    "badge": "",
+    "image": "images/13-withdraw-confirm.png",
+    "prompt": "prompts/13-withdraw-confirm.md"
+  },
+  {
+    "id": "14",
+    "slug": "withdraw-pending",
+    "title": "提现处理状态",
+    "english": "Withdrawal Status",
+    "category": "withdrawal",
+    "note": "显示提交进度与结果，不代表新增到账承诺。最终采用 v2，已修正背景 HUD 的英文文案。",
+    "badge": "",
+    "image": "images/14-withdraw-pending-v2.png",
+    "prompt": "prompts/14-withdraw-pending.md"
+  },
+  {
+    "id": "15",
+    "slug": "withdraw-history",
+    "title": "提现记录",
+    "english": "Withdrawal History",
+    "category": "withdrawal",
+    "note": "金额、时间、平台和订单状态的列表。",
+    "badge": "",
+    "image": "images/15-withdraw-history.png",
+    "prompt": "prompts/15-withdraw-history.md"
+  },
+  {
+    "id": "16",
+    "slug": "withdraw-milestones",
+    "title": "段位提现",
+    "english": "Withdrawal Milestones",
+    "category": "system",
+    "note": "现有地区及货币配置分支，保留目标、进度与奖励状态。",
+    "badge": "框架附录 · 配置分支",
+    "image": "images/16-withdraw-milestones.png",
+    "prompt": "prompts/16-withdraw-milestones.md"
+  },
+  {
+    "id": "17",
+    "slug": "daily-withdraw",
+    "title": "可提现提醒",
+    "english": "Withdrawal Reminder",
+    "category": "system",
+    "note": "现有条件触发提醒，入口展示取决于当前业务配置。最终采用 v2，已修正背景 HUD 的英文文案。",
+    "badge": "框架附录 · 现有分支",
+    "image": "images/17-daily-withdraw-v2.png",
+    "prompt": "prompts/17-daily-withdraw.md"
+  },
+  {
+    "id": "18",
+    "slug": "rate-up",
+    "title": "兑换比例提升",
+    "english": "Rate Up",
+    "category": "rewards",
+    "note": "等级升级前后兑换价值对比。最终采用 v2，已修正背景 HUD 的英文文案。",
+    "badge": "",
+    "image": "images/18-rate-up-v2.png",
+    "prompt": "prompts/18-rate-up.md"
+  },
+  {
+    "id": "19",
+    "slug": "faq",
+    "title": "常见问题",
+    "english": "FAQ",
+    "category": "withdrawal",
+    "note": "现有提现帮助内容的清晰阅读布局。已纳入最终 HUD 英文化修正，文件名保持不变。",
+    "badge": "",
+    "image": "images/19-faq.png",
+    "prompt": "prompts/19-faq.md"
+  },
+  {
+    "id": "20",
+    "slug": "support-chat",
+    "title": "客服对话",
+    "english": "Support",
+    "category": "withdrawal",
+    "note": "聊天记录、输入框、发送与帮助入口。",
+    "badge": "",
+    "image": "images/20-support-chat.png",
+    "prompt": "prompts/20-support-chat.md"
+  },
+  {
+    "id": "21",
+    "slug": "support-topics",
+    "title": "快捷问题",
+    "english": "Quick Reply",
+    "category": "withdrawal",
+    "note": "从现有常见问题进入客服反馈。",
+    "badge": "",
+    "image": "images/21-support-topics.png",
+    "prompt": "prompts/21-support-topics.md"
+  },
+  {
+    "id": "22",
+    "slug": "welcome-gift",
+    "title": "新手奖励",
+    "english": "Welcome Gift",
+    "category": "rewards",
+    "note": "新手奖励弹窗，数值仅为视觉示例。",
+    "badge": "",
+    "image": "images/22-welcome-gift.png",
+    "prompt": "prompts/22-welcome-gift.md"
+  },
+  {
+    "id": "23",
+    "slug": "daily-mission",
+    "title": "每日提现任务",
+    "english": "Daily Mission",
+    "category": "rewards",
+    "note": "地区分支的每日任务，不等同于附录每日任务页。",
+    "badge": "",
+    "image": "images/23-daily-mission.png",
+    "prompt": "prompts/23-daily-mission.md"
+  },
+  {
+    "id": "24",
+    "slug": "lucky-spin",
+    "title": "幸运抽奖",
+    "english": "Lucky Spin",
+    "category": "rewards",
+    "note": "现有抽奖功能，保留免费机会及视频机会。",
+    "badge": "",
+    "image": "images/24-lucky-spin.png",
+    "prompt": "prompts/24-lucky-spin.md"
+  },
+  {
+    "id": "25",
+    "slug": "lucky-help",
+    "title": "抽奖说明",
+    "english": "Lucky Spin Guide",
+    "category": "rewards",
+    "note": "对应图标、奖励说明与获取机会方式。",
+    "badge": "",
+    "image": "images/25-lucky-help.png",
+    "prompt": "prompts/25-lucky-help.md"
+  },
+  {
+    "id": "26",
+    "slug": "notification",
+    "title": "通用提示",
+    "english": "Notification",
+    "category": "system",
+    "note": "共用标题、提示正文与单个确认按钮。",
+    "badge": "",
+    "image": "images/26-notification.png",
+    "prompt": "prompts/26-notification.md"
+  }
+];
+const CATEGORIES = [
+  {id:"all",label:"全部界面"},
+  {id:"core",label:"核心玩法"},
+  {id:"rewards",label:"奖励活动"},
+  {id:"withdrawal",label:"提现服务"},
+  {id:"system",label:"系统与附录"}
+];
+const gallery=document.getElementById("gallery");
+const filters=document.querySelector(".filters");
+const lightbox=document.getElementById("lightbox");
+const viewerImage=document.getElementById("viewer-image");
+const viewerError=document.getElementById("viewer-error");
+let activeCategory="all", visibleEntries=ARTWORKS, viewerIndex=0, previousFocus=null;
+function node(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
+function renderFilters(){
+  filters.replaceChildren();
+  CATEGORIES.forEach(category=>{
+    const count=category.id==="all"?ARTWORKS.length:ARTWORKS.filter(item=>item.category===category.id).length;
+    const button=node("button","filter",category.label);button.type="button";button.setAttribute("aria-pressed",String(activeCategory===category.id));
+    button.append(node("span","filter-count",String(count)));
+    button.addEventListener("click",()=>{activeCategory=category.id;renderGallery();renderFilters();const buttons=filters.querySelectorAll(".filter");buttons[CATEGORIES.findIndex(c=>c.id===category.id)].focus();});
+    filters.append(button);
+  });
+  const counter=node("span","result-count",visibleEntries.length+" 个审阅条目");counter.setAttribute("aria-live","polite");filters.append(counter);
+}
+function renderGallery(){
+  visibleEntries=activeCategory==="all"?ARTWORKS:ARTWORKS.filter(item=>item.category===activeCategory);
+  gallery.replaceChildren();
+  visibleEntries.forEach((item,index)=>{
+    const card=node("article","art-card");card.dataset.id=item.id;
+    const button=node("button","image-button");button.type="button";button.setAttribute("aria-label","放大查看 "+item.id+" "+item.title);
+    const img=node("img");img.src=item.image;img.alt=item.title+" · "+item.english+" 竖屏效果图";img.loading="lazy";img.decoding="async";
+    img.addEventListener("error",()=>button.classList.add("is-missing"));
+    img.addEventListener("load",()=>button.classList.remove("is-missing"));
+    const missing=node("div","missing");missing.append(node("strong","",item.title),node("span","","图片文件准备中"));
+    button.append(img,missing,node("span","zoom-hint","放大查看 ↗"));button.addEventListener("click",()=>openViewer(index,button));card.append(button);
+    const head=node("div","card-head");head.append(node("span","card-number",item.id),node("h2","",item.title));card.append(head,node("p","english",item.english));
+    if(item.badge)card.append(node("span","badge",item.badge));
+    card.append(node("p","card-note",item.note));
+    const links=node("div","card-links");
+    const original=node("a","","原 PNG ↗");original.href=item.image;original.target="_blank";original.rel="noopener";
+    const prompt=node("a","","提示词 ↗");prompt.href=item.prompt;prompt.target="_blank";prompt.rel="noopener";
+    links.append(original,prompt);card.append(links);gallery.append(card);
+  });
+}
+function showViewerImage(){
+  const item=visibleEntries[viewerIndex];
+  document.getElementById("viewer-title").replaceChildren(node("span","",item.id),document.createTextNode(item.title+" · "+item.english));
+  document.getElementById("viewer-original").href=item.image;
+  document.getElementById("viewer-note").textContent=(item.badge?item.badge+"。 ":"")+item.note;
+  document.getElementById("viewer-position").textContent=(viewerIndex+1)+" / "+visibleEntries.length+"　← → 浏览　Esc 关闭";
+  viewerError.hidden=true;viewerImage.style.visibility="visible";viewerImage.alt=item.title+" · 放大效果图";viewerImage.src=item.image;
+}
+function openViewer(index,opener){viewerIndex=index;previousFocus=opener;showViewerImage();lightbox.showModal();document.body.style.overflow="hidden";document.getElementById("viewer-close").focus();}
+function moveViewer(delta){viewerIndex=(viewerIndex+delta+visibleEntries.length)%visibleEntries.length;showViewerImage();}
+function closeViewer(){lightbox.close();}
+viewerImage.addEventListener("error",()=>{viewerImage.style.visibility="hidden";viewerError.hidden=false;});
+viewerImage.addEventListener("load",()=>{viewerImage.style.visibility="visible";viewerError.hidden=true;});
+document.getElementById("viewer-close").addEventListener("click",closeViewer);
+document.getElementById("viewer-prev").addEventListener("click",()=>moveViewer(-1));
+document.getElementById("viewer-next").addEventListener("click",()=>moveViewer(1));
+lightbox.addEventListener("close",()=>{document.body.style.overflow="";if(previousFocus)previousFocus.focus();});
+lightbox.addEventListener("keydown",event=>{if(event.key==="ArrowLeft"){event.preventDefault();moveViewer(-1);}else if(event.key==="ArrowRight"){event.preventDefault();moveViewer(1);}});
+renderGallery();renderFilters();
+</script>
+</body>
+</html>

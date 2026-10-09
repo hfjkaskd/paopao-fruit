@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: 2b6139ace56a4deda57bf471391ee675
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 219575657
+    second: RewardProgressSoftFill
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,6 +146,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: RewardProgressSoftFill
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 421
+        width: 1728
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 27, y: 0, z: 27, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd71b44da009542ea32c3c53fbaab509
+      internalID: 219575657
+      vertices: []
+      indices:
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -154,6 +178,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      RewardProgressSoftFill: 219575657
       WithdrawProgressSoftFill: 21300000
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

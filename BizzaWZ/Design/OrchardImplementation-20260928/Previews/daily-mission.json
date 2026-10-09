@@ -1,0 +1,1569 @@
+{
+    "prefab": "daily-mission",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)",
+            "type": "Image:True:0.3",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1585.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "GameObject",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 834.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 924.0
+            },
+            "size": {
+                "x": 786.0,
+                "y": 1158.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 340.0
+            },
+            "size": {
+                "x": 638.0,
+                "y": 166.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 763.1199951171875,
+                "y": 312.8800048828125
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 82.8800048828125,
+                "y": 312.8800048828125
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Daily Mission",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 348.5
+            },
+            "size": {
+                "x": 450.0,
+                "y": 111.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9800000190734863,
+                "y": 1.1399999856948853,
+                "z": 1.0
+            },
+            "fontSize": 74.44999694824219,
+            "fields": []
+        },
+        {
+            "path": "Title",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/refreshTimeTxt",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Refreshes in 12:34:56",
+            "active": true,
+            "position": {
+                "x": 530.0,
+                "y": 1437.5
+            },
+            "size": {
+                "x": 414.0,
+                "y": 61.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.1200000047683716,
+                "z": 1.0
+            },
+            "fontSize": 31.0,
+            "fields": []
+        },
+        {
+            "path": "Title/CloseBtn",
+            "type": "Image:True:1",
+            "sprite": "Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 773.0,
+                "y": 384.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/CloseBtn/Image (3)",
+            "type": "Image:False:1",
+            "sprite": "Btn_Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 773.0,
+                "y": 384.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/ReferenceClock",
+            "type": "Image:True:1",
+            "sprite": "Clock",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 281.5,
+                "y": 1436.0
+            },
+            "size": {
+                "x": 57.0,
+                "y": 56.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "A little bonus, every day",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 460.5
+            },
+            "size": {
+                "x": 628.0,
+                "y": 57.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.0800000429153443,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedAmount",
+            "type": "Image:True:1",
+            "sprite": "Amount",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 935.0
+            },
+            "size": {
+                "x": 698.0,
+                "y": 190.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedProgressTrack",
+            "type": "Image:True:1",
+            "sprite": "Progress",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 1126.5
+            },
+            "size": {
+                "x": 699.0,
+                "y": 159.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedProgressTrack/Fill",
+            "type": "Image:True:1",
+            "sprite": "OrangeFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 257.73333740234377,
+                "y": 1140.0
+            },
+            "size": {
+                "x": 151.4666748046875,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg",
+            "type": "Image:False:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 453.78753662109377,
+                "y": 204.54998779296876
+            },
+            "size": {
+                "x": 773.5233154296875,
+                "y": 544.9000244140625
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Image (1)",
+            "type": "Image:False:1",
+            "sprite": "HudGift",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 449.1000061035156,
+                "y": 819.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Watch 30 videos to receive",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 884.5
+            },
+            "size": {
+                "x": 640.0,
+                "y": 67.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.0800000429153443,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ClaimHint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "The withdrawal task for today has been completed，and there will be more tomorrow",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1216.0
+            },
+            "size": {
+                "x": 634.0,
+                "y": 28.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn",
+            "type": "Image:True:1",
+            "sprite": "Action",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 698.0,
+                "y": 167.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 435.7156066894531,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 474.9912109375,
+                "y": 170.41200256347657
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 691.03125,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 180.39999389648438,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "Icon_AD",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 383.0,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 95.0,
+                "y": 93.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Watch Video",
+            "active": true,
+            "position": {
+                "x": 492.5,
+                "y": 1307.5
+            },
+            "size": {
+                "x": 359.0,
+                "y": 93.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.1299999952316285,
+                "z": 1.0
+            },
+            "fontSize": 62.79999923706055,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/ApprovedFilm",
+            "type": "Image:True:1",
+            "sprite": "Video",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 255.5,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 105.0,
+                "y": 91.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn",
+            "type": "Image:True:1",
+            "sprite": "Action",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 698.0,
+                "y": 167.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 433.3768005371094,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 474.46429443359377,
+                "y": 169.0594940185547
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 688.428955078125,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 178.32464599609376,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Withdraw",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1311.5
+            },
+            "size": {
+                "x": 478.0,
+                "y": 93.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 69.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/ApprovedFilm",
+            "type": "Image:True:1",
+            "sprite": "Video",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 257.0,
+                "y": 1306.5
+            },
+            "size": {
+                "x": 100.0,
+                "y": 90.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ClaimedBtn",
+            "type": "Image:True:1",
+            "sprite": "Action",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 698.0,
+                "y": 167.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ClaimedBtn/Image (2)",
+            "type": "Image:False:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.4209899902344,
+                "y": 1310.5
+            },
+            "size": {
+                "x": 474.63189697265627,
+                "y": 168.83999633789063
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ClaimedBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Claimed",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1311.5
+            },
+            "size": {
+                "x": 478.0,
+                "y": 93.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 69.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedGift",
+            "type": "Image:True:1",
+            "sprite": "Gift",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 436.0,
+                "y": 664.5
+            },
+            "size": {
+                "x": 458.0,
+                "y": 335.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedRewardValue",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$0.20",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 964.0
+            },
+            "size": {
+                "x": 630.0,
+                "y": 102.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0399999618530274,
+                "y": 1.190000057220459,
+                "z": 1.0
+            },
+            "fontSize": 100.8499984741211,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedProgressValue",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "8 / 30",
+            "active": true,
+            "position": {
+                "x": 470.5,
+                "y": 1142.5
+            },
+            "size": {
+                "x": 563.0,
+                "y": 79.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8799999952316284,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 49.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedProgressCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Today's progress",
+            "active": true,
+            "position": {
+                "x": 385.0,
+                "y": 1079.0
+            },
+            "size": {
+                "x": 558.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.1200000047683716,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedVideoIcon",
+            "type": "Image:True:1",
+            "sprite": "Video",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 147.5,
+                "y": 1143.5
+            },
+            "size": {
+                "x": 93.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedGiftVideo",
+            "type": "Image:True:1",
+            "sprite": "Video",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 551.5,
+                "y": 771.0
+            },
+            "size": {
+                "x": 123.0,
+                "y": 112.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Image",
+            "type": "Image:False:0.427451",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1025.0
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 2340.571533203125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

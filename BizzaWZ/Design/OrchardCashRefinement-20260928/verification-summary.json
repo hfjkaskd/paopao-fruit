@@ -1,0 +1,37 @@
+{
+  "generatedUtc": "2026-09-28T11:35:26.403416+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T11:30:55.6254504Z",
+      "status": "complete",
+      "amountCardsChecked": 6,
+      "loggedErrors": [
+        "开启测试设备False"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T11:33:29.6538983Z",
+      "status": "complete",
+      "amountCardsChecked": 6,
+      "loggedErrors": []
+    }
+  },
+  "amountSelectionCasesPassed": 12,
+  "knownLog": "开启测试设备False is an existing SDK diagnostic logged at Error level, not a new cash page exception.",
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab": "b36d79feb0e1f053e1c26ef1c1d3ef3952bdc8d40ec2fe167cb40f9863d794c9",
+    "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab": "114ddbad5db8a3fd409b4092345b471cce3bcb9549599ca6647281e1d351acf9",
+    "Assets/OrchardUI/Resources/OrchardUI/CashReferenceControls.png": "ee36f6cd0b526c17366c1791fc653c1aaf755042f8ea475fb64fa5d22ac3d790"
+  },
+  "limitations": [
+    "No payment/withdrawal submission or device build performed.",
+    "Preview sample values are isolated fixtures; runtime images retain current server/account values.",
+    "Text bounds are local visual measurements, not proof of complete pixel equality."
+  ]
+}

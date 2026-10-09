@@ -1,0 +1,250 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/Real_WithdrawProgress/Real_WithdrawProgress.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Real_AdWatchProgress",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -11.0,
+                "y": -880.0
+            },
+            "size": {
+                "x": 800.0,
+                "y": 144.30149841308595
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Real_AdWatchProgress.progressImg = progress/Image",
+                "Real_AdWatchProgress.paymentImg = payment",
+                "Real_AdWatchProgress.hintTxt = ProgressHint",
+                "Real_AdWatchProgress.payCfg = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset"
+            ]
+        },
+        {
+            "path": "progress",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "progress/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#RewardProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 750.0,
+                "y": 41.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "progress/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/BottomHudProgressFill.png#BottomHudProgressFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 750.0,
+                "y": 41.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Dollor",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/StackMoney_ID.png#StackMoney_ID",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -368.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 120.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WzIconAmend.image = Dollor"
+            ]
+        },
+        {
+            "path": "payment",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/Res/20260110-095301.png#20260110-095301",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 444.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ProgressHint",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Tonton 31 video lagi hari ini untuk tarik Rp16",
+            "active": true,
+            "position": {
+                "x": 25.0,
+                "y": -101.0
+            },
+            "size": {
+                "x": 850.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.75,
+            "fields": []
+        }
+    ]
+}

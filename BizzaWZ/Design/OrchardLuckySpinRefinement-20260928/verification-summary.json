@@ -1,0 +1,59 @@
+{
+  "generatedUtc": "2026-09-28T14:30:42.850425+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T14:28:13.9169526Z",
+      "status": "complete",
+      "buttonHitChecks": 1,
+      "loggedErrors": [
+        "开启测试设备False"
+      ],
+      "checks": [
+        "Title and unified free-spin label are horizontally centered with no overflow; actual count matches existing progress; blue white-arrow Back is a complete standard Button",
+        "Temporary text-only fixtures for 0 and 1 remain centered; no progress, reward, ad or reel state is changed",
+        "Back returns to gameplay; reopening restores the actual label; saved progress and balance unchanged"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T14:29:38.2004601Z",
+      "status": "complete",
+      "buttonHitChecks": 1,
+      "loggedErrors": [],
+      "checks": [
+        "Title and unified free-spin label are horizontally centered with no overflow; actual count matches existing progress; blue white-arrow Back is a complete standard Button",
+        "Temporary text-only fixtures for 0 and 1 remain centered; no progress, reward, ad or reel state is changed",
+        "Back returns to gameplay; reopening restores the actual label; saved progress and balance unchanged"
+      ]
+    }
+  },
+  "buttonHitChecksPassed": 2,
+  "backClicksPassed": 4,
+  "layoutSpecsUnchanged": true,
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab": "c936d23c51a1e393d47f354bbcd491ace7ccf0e09ce5f061976eb97c024d307a",
+    "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.cs": "56670a332281cc1800e242514bfd1028406fe1357031028c70540ad1c2d89176",
+    "Assets/OrchardUI/Art/SpinReferenceBack.png": "5574693d8ffc58eb8ad9b169bcf0ee5a5d23563794d52a4a58b3c5f3b276a317",
+    "Assets/OrchardUI/Art/SpinReferenceBack.png.meta": "e70229365ebbcdf1aa26f526f3be003c55b2ae2674062347a236f9e1e87b7c90"
+  },
+  "limitations": [
+    "0/1 fixtures temporarily change only displayed text; saved progress and balance remain unchanged.",
+    "No spin, rewarded ad or reward claimed.",
+    "No Android/iOS device build tested."
+  ]
+}

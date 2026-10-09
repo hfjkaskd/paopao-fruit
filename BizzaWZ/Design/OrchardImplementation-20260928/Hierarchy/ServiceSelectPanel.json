@@ -1,0 +1,902 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/ServiceSelectPanel/ServiceSelectPanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation ServiceSelectPanel",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ServiceSelectPanel.defaultButtons.Array.data[0] = Content/bg_Content/Questions/question_1",
+                "ServiceSelectPanel.defaultButtons.Array.data[1] = Content/bg_Content/Questions/question_1 (1)",
+                "ServiceSelectPanel.defaultButtons.Array.data[2] = Content/bg_Content/Questions/question_1 (2)",
+                "ServiceSelectPanel.defaultButtons.Array.data[3] = Content/bg_Content/Questions/question_1 (3)",
+                "ServiceSelectPanel.defaultButtons.Array.data[4] = Content/bg_Content/Questions/question_1 (4)",
+                "ServiceSelectPanel.defaultButtons.Array.data[5] = Content/bg_Content/Questions/question_1 (5)",
+                "ServiceSelectPanel.defaultButtons.Array.data[6] = Content/bg_Content/Questions/question_1 (6)",
+                "ServiceSelectPanel.defaultTexts.Array.data[0] = Content/bg_Content/Questions/question_1/Text (TMP)",
+                "ServiceSelectPanel.defaultTexts.Array.data[1] = Content/bg_Content/Questions/question_1 (1)/Text (TMP)",
+                "ServiceSelectPanel.defaultTexts.Array.data[2] = Content/bg_Content/Questions/question_1 (2)/Text (TMP)",
+                "ServiceSelectPanel.defaultTexts.Array.data[3] = Content/bg_Content/Questions/question_1 (3)/Text (TMP)",
+                "ServiceSelectPanel.defaultTexts.Array.data[4] = Content/bg_Content/Questions/question_1 (4)/Text (TMP)",
+                "ServiceSelectPanel.defaultTexts.Array.data[5] = Content/bg_Content/Questions/question_1 (5)/Text (TMP)",
+                "ServiceSelectPanel.defaultTexts.Array.data[6] = Content/bg_Content/Questions/question_1 (6)/Text (TMP)",
+                "ServiceSelectPanel.customButton = Content/bg_Content/Questions/question_1 (7)",
+                "ServiceSelectPanel.closeBtn = Content/CloseBtn"
+            ]
+        },
+        {
+            "path": "PageMask",
+            "type": " RectTransform CanvasRenderer Image Button PageMask",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = PageMask",
+                "PageMask.btn = PageMask"
+            ]
+        },
+        {
+            "path": "PageMask/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 1838.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -908.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 1080.46875,
+                "y": 2400.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 1148.4896240234375
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CloseBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -57.0,
+                "y": 77.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/CloseBtn",
+                "BizzaButton.scaleTarget = Content/CloseBtn"
+            ]
+        },
+        {
+            "path": "Content/bg_Content",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -140.0,
+                "y": -140.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Quick Reply",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -61.6104736328125
+            },
+            "size": {
+                "x": 1140.0,
+                "y": 123.22090148925781
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 70.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions",
+            "type": " RectTransform VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 429.5317077636719
+            },
+            "size": {
+                "x": -160.0,
+                "y": 859.0634765625
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "1、Como posso sacar dinheiro?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (1)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (1)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (1)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (1)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "2、How long does it take to withdraw money?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (2)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (2)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (2)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (2)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "3、Por que meu saque falhou?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (3)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (3)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (3)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (3)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "4、How many times can I withdraw?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (4)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (4)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (4)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (4)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "5、How many times can I withdraw per day?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (5)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (5)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (5)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (5)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "6、Mengapa saya tidak bisa menarik dana menggunakan akun penarikan saya?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 30.850000381469728,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (6)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (6)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (6)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (6)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "7、Mengapa saya tidak bisa menarik dana menggunakan akun penarikan?",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 30.850000381469728,
+            "fields": []
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (7)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/bg_Content/Questions/question_1 (7)",
+                "BizzaButton.scaleTarget = Content/bg_Content/Questions/question_1 (7)"
+            ]
+        },
+        {
+            "path": "Content/bg_Content/Questions/question_1 (7)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Atendimento ao Cliente",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 32.0,
+            "fields": []
+        }
+    ]
+}

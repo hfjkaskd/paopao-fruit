@@ -19,6 +19,7 @@ public class AddPropPanel : UIPageBase<E_ItemType>
     public TMP_Text limitTxt;
     public Sprite busAwaySortPropIcon;
     public Sprite busAwayShufflePropIcon;
+    [SerializeField] private OrchardBoosterVisual referenceVisual;
 
     private E_ItemType _itemType;
     private PropConfigSO propConfigSO;
@@ -28,7 +29,7 @@ public class AddPropPanel : UIPageBase<E_ItemType>
         propConfigSO = PropConfigSO.Instance;
         adBuyBtn.onClick.AddListener(() =>
         {
-            BizzaSdk.Ad.ShowRewardAd(_itemType.ToString(), WithdrawalUtil.GetDollarCountByReward(), OnAdBuyFinish);
+            BizzaSdk.Ad.ShowRewardAd(StablePropId(_itemType), WithdrawalUtil.GetDollarCountByReward(), OnAdBuyFinish);
             UIModule.Instance.m_curadvertistics--;
         });
 
@@ -59,15 +60,28 @@ public class AddPropPanel : UIPageBase<E_ItemType>
         {
             propIcon.sprite = config.propIcon;
         }
-        propName.text = LanguageUtils.GetText("ItemName_" + itemType.ToString());
+        propName.text = LanguageUtils.GetText("ItemName_" + StablePropId(itemType));
         var _propUseTimes = NumbericalStatistics._propUseTimes;
         var maxTimes = config.preLimitNum;
         var curTimes = _propUseTimes[itemType];
         limitTxt.text = LanguageUtils.GetFormatText("Limit_Tip", curTimes, maxTimes);
+        if (referenceVisual != null) referenceVisual.Show(itemType, propIcon.sprite, curTimes, maxTimes);
     }
 
     protected override void OnClose()
     {
+    }
+    private static string StablePropId(E_ItemType itemType)
+    {
+        switch (itemType)
+        {
+            case E_ItemType.GameProp_1: return "GameProp_1";
+            case E_ItemType.GameProp_2: return "GameProp_2";
+            case E_ItemType.GameProp_3: return "GameProp_3";
+            case E_ItemType.GameProp_4: return "GameProp_4";
+            case E_ItemType.GameProp_5: return "GameProp_5";
+            default: throw new ArgumentOutOfRangeException(nameof(itemType), itemType, "Unsupported prop type");
+        }
     }
 }
 #endif

@@ -25,6 +25,8 @@ public class WithdrawDanItem : MonoBehaviour
 
     public Image progressImage;
     public TMP_Text progressText;
+    [SerializeField] private GameObject progressRoot;
+    [SerializeField] private bool compactLevelCaption;
 
     private bool isArrive; // 是否达到目标
     private float _dollar;
@@ -59,7 +61,7 @@ public class WithdrawDanItem : MonoBehaviour
         this.icon.sprite = icon;
         danText.text = dan;
         _withdrawDanPanel = withdrawDanPanel;
-        hintText.text = hint;
+        hintText.text = compactLevelCaption ? LanguageUtils.GetFormatText("Menu_LevelBtn", maxCount) : hint;
         foreach (var currentText in maxlevelTexts)
         {
             currentText.text = current;
@@ -74,7 +76,14 @@ public class WithdrawDanItem : MonoBehaviour
         moneyText2.text = moneyStr;
         moneyText3.text = moneyStr;
         progressText.text = curCount + "/" + maxCount;
-        progressImage.fillAmount = (float)curCount / maxCount;
+        float progress = maxCount > 0 ? Mathf.Clamp01((float)curCount / maxCount) : 0f;
+        // Resize the sliced artwork so both ends stay round, including short progress values.
+        Vector2 anchorMax = progressImage.rectTransform.anchorMax;
+        anchorMax.x = progress;
+        progressImage.rectTransform.anchorMax = anchorMax;
+        progressImage.enabled = progress > 0f;
+        if(progressRoot!=null)progressRoot.SetActive(curCount<maxCount);
+        progressText.gameObject.SetActive(curCount<maxCount);
 
         prepareStateObj.SetActive(curCount < maxCount);
         claimStateObj.SetActive(curCount >= maxCount && !isClaimed);

@@ -1,0 +1,56 @@
+"""Rebuild the fidelity review from saved Unity evidence; never alter bitmap pixels."""
+from pathlib import Path
+from datetime import datetime, timezone
+import json
+import runpy
+
+folder = Path(__file__).resolve().parent
+project = folder.parent.parent
+implementation = project / 'Design/OrchardImplementation-20260928'
+read = lambda path: json.loads(path.read_text(encoding='utf-8-sig'))
+runpy.run_path(str(implementation / 'build-report.py'), run_name='__main__')
+
+stamp = datetime.now(timezone.utc).strftime('%Y%m%d%H%M%S')
+html = '''<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>提现界面 · 原图与 Unity 对照</title><style>
+*{box-sizing:border-box}body{margin:0;color:#224532;background:#f3f6ee;font:15px/1.65 system-ui,"Microsoft YaHei",sans-serif}header{background:#194932;color:white;padding:22px 28px}h1{margin:0;font-size:26px}header p{margin:6px 0 0;color:#d9e9d1}main{max-width:1250px;margin:auto;padding:24px}select,button{font:inherit;padding:9px 13px;border:1px solid #c1d1bc;border-radius:8px;background:white;color:#214733}button{cursor:pointer}label{margin-right:15px}nav{display:flex;gap:12px;align-items:center;flex-wrap:wrap}.note{background:#e3ecd9;padding:14px 18px;border-radius:12px;margin:16px 0}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}.pair figure{padding:12px;background:white;margin:0;border-radius:14px}figcaption{font-weight:700;font-size:19px;padding-bottom:12px}img{display:block;width:100%;height:auto}.stack{display:none;position:relative;max-width:520px;margin:auto}.stack img:last-child{position:absolute;left:0;top:0;opacity:.5}.overlay .pair{display:none}.overlay .stack{display:block}input{vertical-align:middle}.links{margin:22px 0}a{color:#176c44}small{color:#637964}footer{padding:20px 0}@media(max-width:700px){main{padding:12px}.pair{gap:8px}.pair figure{padding:6px}figcaption{font-size:15px}}
+</style><header><h1>提现界面 · 原图与 Unity 对照</h1><p>按 852 × 1846 参考尺寸排版；短屏保持主体宽度，通过列表滚动查看底部。</p></header>
+<main><nav><label>查看 <select id="mode"><option value="runtime">正式运行 · 852×1846</option><option value="preview">相同示例数据 · 预制体渲染</option><option value="short">正式运行 · 1080×1920</option><option value="scroll">短屏滚动到底部</option></select></label><button id="overlay">叠加对比</button><label id="opacityLabel" hidden>叠加透明度 <input id="opacity" type="range" min="0" max="100" value="50"></label></nav>
+<p class="note" id="note"></p><section id="view"><div class="pair"><figure><figcaption>已确认效果图</figcaption><a id="refLink" target="_blank"><img id="ref" alt="已确认效果图"></a></figure><figure><figcaption id="caption"></figcaption><a id="actualLink" target="_blank"><img id="actual" alt="Unity 截图"></a></figure></div><div class="stack"><img id="under" alt="效果图底图"><img id="over" alt="Unity 叠加画面"></div></section>
+<p class="links"><a href="../OrchardImplementation-20260928/comparison.html">查看全部 27 页</a> · <a href="verification.json">本轮验证记录</a> · <a href="README.md">修改说明</a></p>
+<footer><small>预制体示例仅修改隔离渲染对象。正式运行使用真实账号与后台金额、关卡、支付渠道和锁定状态。没有提交提现、播放付费广告或发送客服消息。</small></footer></main>
+<script>
+const $=id=>document.getElementById(id),ver='STAMP',base='../OrchardImplementation-20260928/';
+const ref='../OrchardServiceSystem-20260927/images/00-approved-withdrawal.png';
+const modes={runtime:['Runtime/00-RealWithdrawPanel.png','Unity 正式运行','从 InitWZ 正式启动，852×1846。当前账号的余额、等级和兑换率由现有业务链路读取。'],preview:['Previews/withdraw-main.png','Unity 预制体渲染 · 示例数据','852×1846 隔离渲染，使用参考图的示例文字与数字检查排版。业务脚本停用，未修改账号。'],short:['RuntimeShort/00-RealWithdrawPanel.png','Unity 正式运行 · 短屏','1080×1920。主体按屏幕宽度缩放，底部档位通过 ScrollRect 滚动访问。'],scroll:['RuntimeShort/withdrawal-scrolled.png','Unity 正式运行 · 滚动后','滚动到底部并点击最后一档的实际截图。此状态用于验证列表可达和选中反馈，检查后已恢复原档位。']};
+function render(){let m=$('mode').value,c=modes[m];$('ref').src=$('refLink').href=$('under').src=ref+'?v='+ver;$('actual').src=$('actualLink').href=$('over').src=base+c[0]+'?v='+ver;$('caption').textContent=c[1];$('note').textContent=c[2];$('overlay').disabled=m==='short'||m==='scroll';if($('overlay').disabled){$('view').classList.remove('overlay');$('opacityLabel').hidden=true}}
+$('mode').onchange=render;$('overlay').onclick=()=>{$('opacityLabel').hidden=!$('view').classList.toggle('overlay')};$('opacity').oninput=e=>$('over').style.opacity=e.target.value/100;render();
+</script></html>'''
+(folder / 'comparison.html').write_text(html.replace('STAMP', stamp), encoding='utf-8')
+
+# Refresh cached images in the full gallery already open in the app.
+gallery_path = implementation / 'comparison.html'
+gallery = gallery_path.read_text(encoding='utf-8')
+gallery = gallery.replace('=s.reference;', "=s.reference+'?v=" + stamp + "';")
+gallery = gallery.replace('=live?s.runtime:s.preview;', "=(live?s.runtime:s.preview)+'?v=" + stamp + "';")
+gallery = gallery.replace('<p class="note" id="note"></p>', '<p><a href="../OrchardFidelity-20260928/comparison.html">打开提现页的尺寸与叠加对照</a></p><p class="note" id="note"></p>')
+gallery_path.write_text(gallery, encoding='utf-8')
+
+audit = read(implementation / 'audit-comparison.json')
+report = {'generatedUtc': datetime.now(timezone.utc).isoformat(), 'project': str(project),
+          'entryScene': 'Assets/Game/Resources/Scenes/InitWZ.unity',
+          'previewCount': len(list((implementation / 'Previews').glob('*.png'))),
+          'compileErrors': read(project / 'Design/OrchardUI/state.json')['compilationErrors'],
+          'navigation': {}, 'audit': audit,
+          'strictPixelEqualityVerified': False, 'devicePayoutAdsEndToEndVerified': False}
+for name in ['Runtime', 'RuntimeShort']:
+    run = read(implementation / name / 'navigation.json')
+    capture = read(implementation / name / '00-RealWithdrawPanel.json')
+    report['navigation'][name] = {'startedUtc': run['startedUtc'], 'status': run['status'],
+        'size': [capture['screenWidth'], capture['screenHeight']],
+        'opened': sum(p['opened'] for p in run['pages']), 'closed': sum(p['closed'] for p in run['pages']),
+        'errors': run['errors'], 'error': run['error'],
+        'checks': {p['page']: p['checks'] for p in run['pages'] if p['checks']}}
+(folder / 'verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+print(json.dumps({'navigation': report['navigation'], 'compileErrors': report['compileErrors'],
+                  'newAuditIssues': len(audit['newIssues'])}, ensure_ascii=False))

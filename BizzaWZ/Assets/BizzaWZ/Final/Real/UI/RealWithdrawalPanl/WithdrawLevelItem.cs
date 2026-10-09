@@ -35,6 +35,7 @@ public class WithdrawLevelItem : MonoBehaviour
 
     [Header("按钮")]
     [SerializeField] private BizzaButton clickBtn;
+    [SerializeField] private bool compactLevelLabel;
 
     private void Awake()
     {
@@ -102,7 +103,7 @@ public class WithdrawLevelItem : MonoBehaviour
         {
             if (ChannelConfig.Instance.real_CustomConfig.realWithdrawPassMode)
             {
-                levelTxt.text = $"{LanguageUtils.GetFormatText("RealPage_PassLevel", startLevel - 1)}";
+                levelTxt.text = LanguageUtils.GetFormatText(compactLevelLabel ? "RealPage_CurrentLevel" : "RealPage_PassLevel", startLevel - 1);
             }
             else
             {

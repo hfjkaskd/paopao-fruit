@@ -1,0 +1,850 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskElement.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform CanvasRenderer Image UIDailyTaskElement",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 684.36767578125,
+                "y": 151.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "UIDailyTaskElement.progressBar = BarBG/Bar",
+                "UIDailyTaskElement.descTxt = txtDesc",
+                "UIDailyTaskElement.progressTxt = BarBG/Text (TMP)",
+                "UIDailyTaskElement.btnReward = RewardBtn",
+                "UIDailyTaskElement.btnAds = AdBtn",
+                "UIDailyTaskElement.btnGoto = GotoBtn",
+                "UIDailyTaskElement.objRewarded = rewarded",
+                "UIDailyTaskElement.objRewardedMask = mask",
+                "UIDailyTaskElement.inventoryPref = Assets/BizzaWZ/Common/Framework/Runtime/Module/UI/UIItem.prefab",
+                "UIDailyTaskElement.rewardRoot = RewardContent",
+                "UIDailyTaskElement.redPointUI = UIRedPoint",
+                "UIDailyTaskElement.stateObjs.Array.data[0] = State/State2",
+                "UIDailyTaskElement.stateObjs.Array.data[1] = State/State (1)",
+                "UIDailyTaskElement.stateObjs.Array.data[2] = State/State (3)"
+            ]
+        },
+        {
+            "path": "BarBG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -132.97412109375,
+                "y": -28.163618087768556
+            },
+            "size": {
+                "x": 464.0517883300781,
+                "y": 56.32709884643555
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BarBG/Bar",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ProgressFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BarBG/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "4/7",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 277.3699951171875,
+                "y": 35.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.700000762939454,
+            "fields": []
+        },
+        {
+            "path": "txtDesc",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Finished 1 rounds",
+            "active": true,
+            "position": {
+                "x": 46.0,
+                "y": 29.0
+            },
+            "size": {
+                "x": 860.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "RewardContent",
+            "type": " RectTransform HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 36.0,
+                "y": 62.0
+            },
+            "size": {
+                "x": 499.239990234375,
+                "y": 114.081298828125
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 0.6499999761581421,
+                "y": 0.6499999761581421,
+                "z": 0.6499999761581421
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "AdBtn",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 273.30267333984377,
+                "y": -68.0
+            },
+            "size": {
+                "x": 257.60528564453127,
+                "y": 114.15750122070313
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = AdBtn"
+            ]
+        },
+        {
+            "path": "AdBtn/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 13.561912536621094,
+                "y": 0.0
+            },
+            "size": {
+                "x": 34.93219757080078,
+                "y": 41.096702575683597
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "AdBtn/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -13.561912536621094,
+                "y": 0.0
+            },
+            "size": {
+                "x": 34.93219757080078,
+                "y": 41.096702575683597
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "AdBtn/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "ad",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "GotoBtn",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ButtonBlue",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 273.30267333984377,
+                "y": -68.0
+            },
+            "size": {
+                "x": 257.60528564453127,
+                "y": 114.15750122070313
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = GotoBtn"
+            ]
+        },
+        {
+            "path": "GotoBtn/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "go to",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "State",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -111.0,
+                "y": 3.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "State/State (1)",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/WzMoneyIcon_Common.png#WzMoneyIcon_Common_3",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 78.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 120.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WzIconAmend.image = State/State (1)"
+            ]
+        },
+        {
+            "path": "State/State2",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -29.399999618530275,
+                "y": 0.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "State/State2/UIParticle",
+            "type": " RectTransform CanvasRenderer UIParticle",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "State/State2/State (2)",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/WzMoneyIcon_Common.png#WzMoneyIcon_Common_3",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 78.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 120.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WzIconAmend.image = State/State2/State (2)"
+            ]
+        },
+        {
+            "path": "State/State (3)",
+            "type": " RectTransform CanvasRenderer Image WzIconAmend",
+            "sprite": "Assets/BizzaWZ/Final/Real/GameAssets/WzTexture_Money/WzMoneyIcon_Common.png#WzMoneyIcon_Common_3",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 78.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 120.0,
+                "y": 120.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WzIconAmend.image = State/State (3)"
+            ]
+        },
+        {
+            "path": "UIRedPoint",
+            "type": " RectTransform UIRedPoint",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 753.0,
+                "y": -31.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "UIRedPoint.red = UIRedPoint/RedPoint"
+            ]
+        },
+        {
+            "path": "UIRedPoint/RedPoint",
+            "type": " RectTransform CanvasRenderer Image Animation",
+            "sprite": "Assets/BizzaWZ/Common/MenuSystem/Common/RedPoint/Res/Icon_Red.png#Icon_Red",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 51.0,
+                "y": 51.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "RewardBtn",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.000578640028834343,
+                "y": -0.2906303107738495
+            },
+            "size": {
+                "x": 684.3699951171875,
+                "y": 150.4199981689453
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = RewardBtn"
+            ]
+        },
+        {
+            "path": "RewardBtn/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "get reward",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "rewarded",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 72.0,
+                "y": -23.0
+            },
+            "size": {
+                "x": 85.0,
+                "y": 89.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "mask",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

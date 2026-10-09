@@ -1,0 +1,5692 @@
+{
+  "pages": [
+    {
+      "name": "settings",
+      "prefab": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "disableLayouts": [
+        "BG (1)/GamePauseGroup"
+      ],
+      "hideImages": [
+        "BG (1)/CloseButton/Image (1)",
+        "BG (1)/MainPauseGroup/Image (2)"
+      ],
+      "boxes": [
+        {
+          "path": "BG (1)",
+          "x": 27,
+          "y": 377,
+          "w": 798,
+          "h": 1123,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/Image (2)",
+          "x": 157,
+          "y": 273,
+          "w": 538,
+          "h": 153,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/CloseButton",
+          "x": 708,
+          "y": 325,
+          "w": 112,
+          "h": 114,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/MusicGroup",
+          "x": 66,
+          "y": 483,
+          "w": 721,
+          "h": 178,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/MusicGroup/Button",
+          "x": 524,
+          "y": 523,
+          "w": 230,
+          "h": 100,
+          "role": "ButtonDisabled",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/SoundGroup",
+          "x": 66,
+          "y": 681,
+          "w": 721,
+          "h": 178,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/SoundGroup/Button (1)",
+          "x": 524,
+          "y": 721,
+          "w": 230,
+          "h": 100,
+          "role": "ButtonDisabled",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/LibGroup",
+          "x": 66,
+          "y": 879,
+          "w": 721,
+          "h": 178,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/LibGroup/Button (2)",
+          "x": 524,
+          "y": 919,
+          "w": 230,
+          "h": 100,
+          "role": "ButtonDisabled",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/GamePauseGroup",
+          "x": 68,
+          "y": 1290,
+          "w": 718,
+          "h": 123,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/GamePauseGroup/BackButton",
+          "x": 70,
+          "y": 1290,
+          "w": 348,
+          "h": 122,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/GamePauseGroup/ContinueBtn",
+          "x": 436,
+          "y": 1290,
+          "w": 348,
+          "h": 122,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/MainPauseGroup",
+          "x": 27,
+          "y": 377,
+          "w": 798,
+          "h": 1123,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/MainPauseGroup/BackButton",
+          "x": 250,
+          "y": 1290,
+          "w": 350,
+          "h": 122,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/Dropdown",
+          "x": 416,
+          "y": 1112,
+          "w": 350,
+          "h": 102,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/Dropdown/Label",
+          "x": 437,
+          "y": 1125,
+          "w": 281,
+          "h": 74,
+          "role": "",
+          "font": 36,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/Dropdown/Arrow",
+          "x": 703,
+          "y": 1147,
+          "w": 33,
+          "h": 33,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/VersionLog",
+          "x": 248,
+          "y": 1422,
+          "w": 356,
+          "h": 62,
+          "role": "",
+          "font": 28,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "BG (1)/MusicGroup/Button/MusicOn/ApprovedKnob",
+          "role": "ButtonRoundBlue",
+          "x": 671.0,
+          "y": 533,
+          "w": 77,
+          "h": 77,
+          "behind": false
+        },
+        {
+          "path": "BG (1)/MusicGroup/Button/MusicOff/ApprovedKnob",
+          "role": "ButtonRoundBlue",
+          "x": 545.0,
+          "y": 533,
+          "w": 77,
+          "h": 77,
+          "behind": false
+        },
+        {
+          "path": "BG (1)/SoundGroup/Button (1)/SoundOn/ApprovedKnob",
+          "role": "ButtonRoundBlue",
+          "x": 671.0,
+          "y": 731,
+          "w": 77,
+          "h": 77,
+          "behind": false
+        },
+        {
+          "path": "BG (1)/SoundGroup/Button (1)/SoundOff/ApprovedKnob",
+          "role": "ButtonRoundBlue",
+          "x": 545.0,
+          "y": 731,
+          "w": 77,
+          "h": 77,
+          "behind": false
+        },
+        {
+          "path": "BG (1)/LibGroup/Button (2)/LibOn/ApprovedKnob",
+          "role": "ButtonRoundBlue",
+          "x": 671.0,
+          "y": 929,
+          "w": 77,
+          "h": 77,
+          "behind": false
+        },
+        {
+          "path": "BG (1)/LibGroup/Button (2)/LIboff/ApprovedKnob",
+          "role": "ButtonRoundBlue",
+          "x": 545.0,
+          "y": 929,
+          "w": 77,
+          "h": 77,
+          "behind": false
+        },
+        {
+          "path": "BG (1)/ApprovedLanguageRow",
+          "role": "Input",
+          "x": 66,
+          "y": 1075,
+          "w": 721,
+          "h": 174,
+          "behind": true
+        },
+        {
+          "path": "BG (1)/ApprovedLanguageIcon",
+          "role": "system:Language",
+          "x": 100,
+          "y": 1115,
+          "w": 96,
+          "h": 96,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (1)/Text (TMP)",
+          "en": "Settings",
+          "pt": "Configurações",
+          "x": 190,
+          "y": 291,
+          "w": 460,
+          "h": 107,
+          "font": 59,
+          "title": true,
+          "key": "Setting_Title"
+        },
+        {
+          "path": "BG (1)/MusicGroup/ApprovedLabel",
+          "en": "Music",
+          "pt": "Música",
+          "x": 217,
+          "y": 520,
+          "w": 280,
+          "h": 105,
+          "font": 41,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/MusicGroup/Button/MusicOn/ApprovedStateText",
+          "en": "ON",
+          "pt": "SIM",
+          "x": 547,
+          "y": 539,
+          "w": 120,
+          "h": 60,
+          "font": 35,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/MusicGroup/Button/MusicOff/ApprovedStateText",
+          "en": "OFF",
+          "pt": "NÃO",
+          "x": 607,
+          "y": 539,
+          "w": 120,
+          "h": 60,
+          "font": 35,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/SoundGroup/ApprovedLabel",
+          "en": "Sounds",
+          "pt": "Sons",
+          "x": 217,
+          "y": 718,
+          "w": 280,
+          "h": 105,
+          "font": 41,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/SoundGroup/Button (1)/SoundOn/ApprovedStateText",
+          "en": "ON",
+          "pt": "SIM",
+          "x": 547,
+          "y": 737,
+          "w": 120,
+          "h": 60,
+          "font": 35,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/SoundGroup/Button (1)/SoundOff/ApprovedStateText",
+          "en": "OFF",
+          "pt": "NÃO",
+          "x": 607,
+          "y": 737,
+          "w": 120,
+          "h": 60,
+          "font": 35,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/LibGroup/ApprovedLabel",
+          "en": "Vibration",
+          "pt": "Vibração",
+          "x": 217,
+          "y": 916,
+          "w": 280,
+          "h": 105,
+          "font": 41,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/LibGroup/Button (2)/LibOn/ApprovedStateText",
+          "en": "ON",
+          "pt": "SIM",
+          "x": 547,
+          "y": 935,
+          "w": 120,
+          "h": 60,
+          "font": 35,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/LibGroup/Button (2)/LIboff/ApprovedStateText",
+          "en": "OFF",
+          "pt": "NÃO",
+          "x": 607,
+          "y": 935,
+          "w": 120,
+          "h": 60,
+          "font": 35,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "BG (1)/GamePauseGroup/BackButton/Text (TMP)",
+          "en": "Restart",
+          "pt": "Reiniciar",
+          "x": 92,
+          "y": 1303,
+          "w": 303,
+          "h": 95,
+          "font": 48,
+          "title": true,
+          "key": "Game_Pause_Restart"
+        },
+        {
+          "path": "BG (1)/GamePauseGroup/ContinueBtn/Text (TMP)",
+          "en": "Continue",
+          "pt": "Continuar",
+          "x": 455,
+          "y": 1303,
+          "w": 310,
+          "h": 95,
+          "font": 48,
+          "title": true,
+          "key": "Game_Pause_Continue"
+        },
+        {
+          "path": "BG (1)/ApprovedLanguageLabel",
+          "en": "Language",
+          "pt": "Idioma",
+          "x": 210,
+          "y": 1115,
+          "w": 200,
+          "h": 94,
+          "font": 39,
+          "title": false,
+          "key": ""
+        }
+      ]
+    },
+    {
+      "name": "withdraw-confirm",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG",
+          "x": 26,
+          "y": 238,
+          "w": 800,
+          "h": 1372,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "comfirmClose",
+          "x": 41,
+          "y": 103,
+          "w": 108,
+          "h": 108,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "WithdrawValue",
+          "x": 100,
+          "y": 625,
+          "w": 653,
+          "h": 122,
+          "role": "",
+          "font": 96,
+          "align": "center"
+        },
+        {
+          "path": "Image (2)",
+          "x": 435,
+          "y": 803,
+          "w": 285,
+          "h": 82,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/Name",
+          "x": 73,
+          "y": 905,
+          "w": 708,
+          "h": 88,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/Name/Name_input",
+          "x": 401,
+          "y": 912,
+          "w": 363,
+          "h": 74,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/Name/Name_input/Name",
+          "x": 426,
+          "y": 914,
+          "w": 332,
+          "h": 70,
+          "role": "",
+          "font": 31,
+          "align": "left"
+        },
+        {
+          "path": "txtContext/CPF",
+          "x": 73,
+          "y": 1003,
+          "w": 708,
+          "h": 88,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/CPF/account_input",
+          "x": 401,
+          "y": 1010,
+          "w": 363,
+          "h": 74,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/CPF/account_input/CPF",
+          "x": 426,
+          "y": 1012,
+          "w": 332,
+          "h": 70,
+          "role": "",
+          "font": 31,
+          "align": "left"
+        },
+        {
+          "path": "txtContext/Account",
+          "x": 73,
+          "y": 1100,
+          "w": 708,
+          "h": 88,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/Account/AccountText",
+          "x": 401,
+          "y": 1107,
+          "w": 363,
+          "h": 74,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "txtContext/Account/AccountText/Account",
+          "x": 426,
+          "y": 1109,
+          "w": 332,
+          "h": 70,
+          "role": "",
+          "font": 31,
+          "align": "left"
+        },
+        {
+          "path": "Text (TMP)",
+          "x": 98,
+          "y": 1212,
+          "w": 658,
+          "h": 77,
+          "role": "",
+          "font": 31,
+          "align": "center"
+        },
+        {
+          "path": "BtnOk",
+          "x": 75,
+          "y": 1310,
+          "w": 705,
+          "h": 143,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Title/ApprovedPlaque",
+          "role": "Title",
+          "x": 181,
+          "y": 102,
+          "w": 488,
+          "h": 113,
+          "behind": true
+        },
+        {
+          "path": "ApprovedHero",
+          "role": "hero:Envelope",
+          "x": 205,
+          "y": 287,
+          "w": 435,
+          "h": 248,
+          "behind": false
+        },
+        {
+          "path": "ApprovedAmountPanel",
+          "role": "Inset",
+          "x": 70,
+          "y": 607,
+          "w": 713,
+          "h": 164,
+          "behind": true
+        },
+        {
+          "path": "ApprovedMethodPanel",
+          "role": "Input",
+          "x": 73,
+          "y": 790,
+          "w": 708,
+          "h": 103,
+          "behind": true
+        },
+        {
+          "path": "txtContext/Name/ApprovedRow",
+          "role": "Input",
+          "x": 73,
+          "y": 905,
+          "w": 708,
+          "h": 88,
+          "behind": true
+        },
+        {
+          "path": "txtContext/CPF/ApprovedRow",
+          "role": "Input",
+          "x": 73,
+          "y": 1003,
+          "w": 708,
+          "h": 88,
+          "behind": true
+        },
+        {
+          "path": "txtContext/Account/ApprovedRow",
+          "role": "Input",
+          "x": 73,
+          "y": 1100,
+          "w": 708,
+          "h": 88,
+          "behind": true
+        },
+        {
+          "path": "ApprovedHint",
+          "role": "Input",
+          "x": 73,
+          "y": 1208,
+          "w": 708,
+          "h": 88,
+          "behind": true
+        },
+        {
+          "path": "ApprovedEdit",
+          "role": "ButtonBlue",
+          "x": 170,
+          "y": 1472,
+          "w": 514,
+          "h": 94,
+          "behind": false
+        },
+        {
+          "path": "ApprovedHelp",
+          "role": "nav:Help",
+          "x": 705,
+          "y": 103,
+          "w": 108,
+          "h": 108,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "Title/Text (TMP)",
+          "en": "Confirm withdrawal",
+          "pt": "Confirmar saque",
+          "x": 200,
+          "y": 116,
+          "w": 450,
+          "h": 84,
+          "font": 53,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "ApprovedAmountTitle",
+          "en": "Withdrawal amount",
+          "pt": "Valor do saque",
+          "x": 120,
+          "y": 546,
+          "w": 612,
+          "h": 65,
+          "font": 49,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "ApprovedMethodLabel",
+          "en": "Method",
+          "pt": "Método",
+          "x": 106,
+          "y": 806,
+          "w": 246,
+          "h": 68,
+          "font": 38,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "txtContext/Name/Text (TMP)",
+          "en": "Name",
+          "pt": "Nome",
+          "x": 106,
+          "y": 914,
+          "w": 278,
+          "h": 70,
+          "font": 34,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "txtContext/CPF/Text (TMP)",
+          "en": "CPF / CNPJ",
+          "pt": "CPF / CNPJ",
+          "x": 106,
+          "y": 1012,
+          "w": 278,
+          "h": 70,
+          "font": 34,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "txtContext/Account/Title",
+          "en": "Email",
+          "pt": "E-mail",
+          "x": 106,
+          "y": 1109,
+          "w": 278,
+          "h": 70,
+          "font": 34,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "BtnOk/Text (TMP)",
+          "en": "Confirm",
+          "pt": "Confirmar",
+          "x": 118,
+          "y": 1322,
+          "w": 616,
+          "h": 115,
+          "font": 72,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "ApprovedEdit/Label",
+          "en": "Edit details",
+          "pt": "Editar dados",
+          "x": 199,
+          "y": 1483,
+          "w": 456,
+          "h": 74,
+          "font": 44,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "txtContext"
+      ],
+      "hideImages": [
+        "txtContext/Name/Name_input",
+        "txtContext/CPF/account_input",
+        "txtContext/Account/AccountText"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "withdraw-pending",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalPendingPanel/UIWithdrawalPendingPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG",
+          "x": 28,
+          "y": 318,
+          "w": 798,
+          "h": 1229,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title",
+          "x": 210,
+          "y": 177,
+          "w": 436,
+          "h": 88,
+          "role": "",
+          "font": 64,
+          "align": "center"
+        },
+        {
+          "path": "WithdrawValue",
+          "x": 146,
+          "y": 904,
+          "w": 562,
+          "h": 111,
+          "role": "",
+          "font": 104,
+          "align": "center"
+        },
+        {
+          "path": "PaymentIcon",
+          "x": 287,
+          "y": 1013,
+          "w": 286,
+          "h": 92,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Progress",
+          "x": 95,
+          "y": 1144,
+          "w": 662,
+          "h": 146,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Progress/ProgressBg",
+          "x": 95,
+          "y": 1144,
+          "w": 662,
+          "h": 76,
+          "role": "ProgressTrack",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Progress/ProgressFill",
+          "x": 106,
+          "y": 1155,
+          "w": 640,
+          "h": 52,
+          "role": "ProgressFill",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Progress/ProgressValue",
+          "x": 295,
+          "y": 1230,
+          "w": 260,
+          "h": 50,
+          "role": "",
+          "font": 38,
+          "align": "center"
+        },
+        {
+          "path": "ResultRoot",
+          "x": 322,
+          "y": 1139,
+          "w": 210,
+          "h": 149,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ResultRoot/ResultIcon",
+          "x": 356,
+          "y": 1150,
+          "w": 135,
+          "h": 135,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Hint",
+          "x": 90,
+          "y": 1285,
+          "w": 672,
+          "h": 62,
+          "role": "",
+          "font": 34,
+          "align": "center"
+        },
+        {
+          "path": "BtnConfirm",
+          "x": 86,
+          "y": 1358,
+          "w": 681,
+          "h": 134,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BtnConfirm/Text",
+          "x": 118,
+          "y": 1366,
+          "w": 616,
+          "h": 114,
+          "role": "",
+          "font": 68,
+          "align": "center"
+        },
+        {
+          "path": "BtnClose",
+          "x": 749,
+          "y": 150,
+          "w": 74,
+          "h": 74,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "ApprovedPlaque",
+          "role": "Title",
+          "x": 189,
+          "y": 163,
+          "w": 479,
+          "h": 115,
+          "behind": true
+        },
+        {
+          "path": "ApprovedClock",
+          "role": "hero:Clock",
+          "x": 223,
+          "y": 353,
+          "w": 409,
+          "h": 326,
+          "behind": false
+        },
+        {
+          "path": "ApprovedAmountPanel",
+          "role": "Inset",
+          "x": 87,
+          "y": 824,
+          "w": 679,
+          "h": 296,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "ApprovedPendingTitle",
+          "en": "Processing",
+          "pt": "Processando",
+          "x": 210,
+          "y": 177,
+          "w": 436,
+          "h": 88,
+          "font": 64,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "ApprovedStatus",
+          "en": "Request under review",
+          "pt": "Solicitação em análise",
+          "x": 70,
+          "y": 689,
+          "w": 713,
+          "h": 73,
+          "font": 55,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "ApprovedSubtitle",
+          "en": "Please wait while we check the details.",
+          "pt": "Aguarde enquanto verificamos os dados.",
+          "x": 70,
+          "y": 763,
+          "w": 713,
+          "h": 53,
+          "font": 37,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "ApprovedAmountTitle",
+          "en": "Withdrawal amount",
+          "pt": "Valor do saque",
+          "x": 136,
+          "y": 847,
+          "w": 582,
+          "h": 67,
+          "font": 41,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "BtnConfirm/ApprovedPendingLabel",
+          "en": "Please wait",
+          "pt": "Aguarde",
+          "x": 118,
+          "y": 1366,
+          "w": 616,
+          "h": 114,
+          "font": 68,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [],
+      "hideNodes": []
+    },
+    {
+      "name": "history",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (2)",
+          "x": 27,
+          "y": 237,
+          "w": 798,
+          "h": 1360,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (2)/Image (2)",
+          "x": 226,
+          "y": 92,
+          "w": 400,
+          "h": 115,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "CloseBtn",
+          "x": 47,
+          "y": 80,
+          "w": 96,
+          "h": 96,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View",
+          "x": 59,
+          "y": 273,
+          "w": 734,
+          "h": 1275,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport",
+          "x": 59,
+          "y": 273,
+          "w": 734,
+          "h": 1275,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Text (TMP)",
+          "x": 114,
+          "y": 791,
+          "w": 624,
+          "h": 203,
+          "role": "",
+          "font": 39,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View",
+          "x": 61,
+          "y": 395,
+          "w": 730,
+          "h": 933,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport",
+          "x": 61,
+          "y": 395,
+          "w": 730,
+          "h": 933,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "ApprovedHelp",
+          "role": "nav:Help",
+          "x": 713,
+          "y": 80,
+          "w": 96,
+          "h": 96,
+          "behind": false
+        },
+        {
+          "path": "ApprovedSupport",
+          "role": "ButtonBlue",
+          "x": 135,
+          "y": 1394,
+          "w": 582,
+          "h": 119,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (2)/Text (TMP)",
+          "en": "History",
+          "pt": "Histórico",
+          "x": 249,
+          "y": 103,
+          "w": 354,
+          "h": 89,
+          "font": 62,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "ApprovedSection",
+          "en": "My withdrawals",
+          "pt": "Meus saques",
+          "x": 111,
+          "y": 295,
+          "w": 630,
+          "h": 65,
+          "font": 48,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "ApprovedSupport/Label",
+          "en": "Need help?",
+          "pt": "Precisa de ajuda?",
+          "x": 166,
+          "y": 1410,
+          "w": 520,
+          "h": 87,
+          "font": 49,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "CloseBtn/Image"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "faq",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/FAQPanel/FAQPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (2)",
+          "x": 27,
+          "y": 262,
+          "w": 798,
+          "h": 1315,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (2)/Image (2)",
+          "x": 230,
+          "y": 94,
+          "w": 392,
+          "h": 117,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (2)/CloseBtn",
+          "x": 49,
+          "y": 82,
+          "w": 96,
+          "h": 96,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/Scroll View",
+          "x": 66,
+          "y": 291,
+          "w": 720,
+          "h": 1231,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/Scroll View/Viewport",
+          "x": 66,
+          "y": 291,
+          "w": 720,
+          "h": 1231,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/Scroll View",
+          "x": 62,
+          "y": 440,
+          "w": 728,
+          "h": 925,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/Scroll View/Viewport",
+          "x": 62,
+          "y": 440,
+          "w": 728,
+          "h": 925,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "ApprovedSupport",
+          "role": "ButtonGreen",
+          "x": 65,
+          "y": 1407,
+          "w": 722,
+          "h": 127,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (2)/Text (TMP)",
+          "en": "Help",
+          "pt": "Ajuda",
+          "x": 259,
+          "y": 110,
+          "w": 334,
+          "h": 87,
+          "font": 64,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "ApprovedSection",
+          "en": "Frequently asked questions",
+          "pt": "Perguntas frequentes",
+          "x": 104,
+          "y": 329,
+          "w": 644,
+          "h": 63,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "ApprovedSupport/Label",
+          "en": "Contact support",
+          "pt": "Falar com o suporte",
+          "x": 104,
+          "y": 1424,
+          "w": 644,
+          "h": 91,
+          "font": 56,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Content (1)/Image",
+        "Content (1)/Scroll View"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "rating",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Content",
+          "x": 29,
+          "y": 448,
+          "w": 794,
+          "h": 905,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Stars",
+          "x": 80,
+          "y": 978,
+          "w": 692,
+          "h": 133,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Stars/Darks",
+          "x": 80,
+          "y": 978,
+          "w": 692,
+          "h": 133,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Stars/Lights",
+          "x": 80,
+          "y": 978,
+          "w": 692,
+          "h": 133,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/GoBtn",
+          "x": 98,
+          "y": 1152,
+          "w": 654,
+          "h": 139,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/ApprovedPlaque",
+          "role": "Title",
+          "x": 170,
+          "y": 365,
+          "w": 510,
+          "h": 130,
+          "behind": false
+        },
+        {
+          "path": "Content/ApprovedFruit",
+          "role": "system:Fruits",
+          "x": 182,
+          "y": 523,
+          "w": 482,
+          "h": 261,
+          "behind": false
+        },
+        {
+          "path": "ApprovedBack",
+          "role": "nav:Back",
+          "x": 43,
+          "y": 116,
+          "w": 100,
+          "h": 102,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "Content/Title",
+          "en": "Your opinion",
+          "pt": "Sua opinião",
+          "x": 199,
+          "y": 386,
+          "w": 456,
+          "h": 91,
+          "font": 64,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/ApprovedQuestion",
+          "en": "Enjoying the game?",
+          "pt": "Está gostando do jogo?",
+          "x": 77,
+          "y": 816,
+          "w": 700,
+          "h": 70,
+          "font": 58,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/Texts",
+          "en": "Tell us about your experience.",
+          "pt": "Conte como foi sua experiência.",
+          "x": 133,
+          "y": 900,
+          "w": 591,
+          "h": 64,
+          "font": 42,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/GoBtn/txt",
+          "en": "Confirm",
+          "pt": "Confirmar",
+          "x": 122,
+          "y": 1166,
+          "w": 606,
+          "h": 108,
+          "font": 68,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "Content/Stars/Darks",
+        "Content/Stars/Lights"
+      ],
+      "hideImages": [
+        "Content/Stars"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "notification",
+      "prefab": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (1)",
+          "x": 42,
+          "y": 510,
+          "w": 770,
+          "h": 759,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/OrchardTitlePlaque",
+          "x": 195,
+          "y": 446,
+          "w": 465,
+          "h": 126,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/Text (TMP)",
+          "x": 235,
+          "y": 461,
+          "w": 385,
+          "h": 103,
+          "role": "",
+          "font": 67,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Des",
+          "x": 115,
+          "y": 836,
+          "w": 622,
+          "h": 183,
+          "role": "",
+          "font": 48,
+          "align": "center"
+        },
+        {
+          "path": "Content/ConfirmBtn",
+          "x": 110,
+          "y": 1054,
+          "w": 633,
+          "h": 146,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/ConfirmBtn/Text (TMP)",
+          "x": 141,
+          "y": 1072,
+          "w": 571,
+          "h": 107,
+          "role": "",
+          "font": 71,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/ApprovedCloud",
+          "role": "system:Cloud",
+          "x": 283,
+          "y": 604,
+          "w": 290,
+          "h": 208,
+          "behind": false
+        }
+      ],
+      "captions": [],
+      "disableLayouts": [],
+      "hideImages": [
+        "BG",
+        "BG (1)/Image (2)"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "withdraw-main",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/RealWithdrawPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Title",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/Image (1)",
+          "x": 250,
+          "y": 65,
+          "w": 351,
+          "h": 108,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/CloseBtn",
+          "x": 47,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/HistoryBtn",
+          "x": 612,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:History",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/FQA",
+          "x": 716,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:Help",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 27,
+          "y": 189,
+          "w": 798,
+          "h": 1538,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View",
+          "x": 27,
+          "y": 189,
+          "w": 798,
+          "h": 1538,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport",
+          "x": 27,
+          "y": 189,
+          "w": 798,
+          "h": 1538,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content",
+          "x": 27,
+          "y": 189,
+          "w": 798,
+          "h": 1538,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo",
+          "x": 27,
+          "y": 189,
+          "w": 798,
+          "h": 858,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/bg",
+          "x": 27,
+          "y": 189,
+          "w": 798,
+          "h": 858,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo",
+          "x": 66,
+          "y": 225,
+          "w": 720,
+          "h": 275,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/CurrentCount",
+          "x": 250,
+          "y": 229,
+          "w": 356,
+          "h": 49,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/CurrentCount/Image",
+          "x": 449,
+          "y": 228,
+          "w": 49,
+          "h": 54,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/CurrentCount/Balance_Text",
+          "x": 505,
+          "y": 231,
+          "w": 113,
+          "h": 47,
+          "role": "",
+          "font": 37,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RateCount",
+          "x": 550,
+          "y": 287,
+          "w": 224,
+          "h": 48,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RateCount/Image",
+          "x": 550,
+          "y": 287,
+          "w": 45,
+          "h": 42,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RateCount/RateNum",
+          "x": 600,
+          "y": 289,
+          "w": 178,
+          "h": 42,
+          "role": "",
+          "font": 31,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/PassLevelHint",
+          "x": 88,
+          "y": 289,
+          "w": 329,
+          "h": 45,
+          "role": "",
+          "font": 31,
+          "align": "left"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent",
+          "x": 66,
+          "y": 341,
+          "w": 720,
+          "h": 157,
+          "role": "Inset",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent/Text (TMP)",
+          "x": 93,
+          "y": 356,
+          "w": 666,
+          "h": 126,
+          "role": "",
+          "font": 104,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawMode",
+          "x": 68,
+          "y": 521,
+          "w": 716,
+          "h": 199,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawMode/Content",
+          "x": 69,
+          "y": 575,
+          "w": 714,
+          "h": 144,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/BlanaceHint",
+          "x": 93,
+          "y": 740,
+          "w": 668,
+          "h": 52,
+          "role": "",
+          "font": 34,
+          "align": "left"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn",
+          "x": 106,
+          "y": 822,
+          "w": 640,
+          "h": 135,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn",
+          "x": 106,
+          "y": 822,
+          "w": 640,
+          "h": 135,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel",
+          "x": 27,
+          "y": 1063,
+          "w": 798,
+          "h": 690,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/Content",
+          "x": 32,
+          "y": 1063,
+          "w": 788,
+          "h": 560,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/ProgressInfo",
+          "x": 32,
+          "y": 1649,
+          "w": 788,
+          "h": 142,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/ProgressInfo/Progress",
+          "x": 100,
+          "y": 1655,
+          "w": 653,
+          "h": 55,
+          "role": "ProgressTrack",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/ProgressInfo/Progress/activeProgress",
+          "x": 106,
+          "y": 1662,
+          "w": 641,
+          "h": 40,
+          "role": "ProgressFill",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/ProgressInfo/Progress/progressValue",
+          "x": 260,
+          "y": 1663,
+          "w": 331,
+          "h": 44,
+          "role": "",
+          "font": 30,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/ProgressInfo/progressHint",
+          "x": 90,
+          "y": 1718,
+          "w": 671,
+          "h": 62,
+          "role": "",
+          "font": 27,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawLevel/ProgressInfo/CompleteHint",
+          "x": 131,
+          "y": 1660,
+          "w": 590,
+          "h": 68,
+          "role": "",
+          "font": 31,
+          "align": "center"
+        },
+        {
+          "path": "ServiceBtn",
+          "x": 746,
+          "y": 843,
+          "w": 66,
+          "h": 67,
+          "role": "nav:Chat",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/ApprovedHint",
+          "role": "Inset",
+          "x": 69,
+          "y": 730,
+          "w": 714,
+          "h": 70,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "Title/Title",
+          "en": "Withdraw",
+          "pt": "Sacar",
+          "x": 282,
+          "y": 70,
+          "w": 282,
+          "h": 92,
+          "font": 83,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/CurrentCount/MyBalance",
+          "en": "My balance",
+          "pt": "Meu saldo",
+          "x": 252,
+          "y": 231,
+          "w": 196,
+          "h": 46,
+          "font": 37,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawMode/WithdrawWayTitle",
+          "en": "Select payout method",
+          "pt": "Selecionar forma de saque",
+          "x": 73,
+          "y": 520,
+          "w": 708,
+          "h": 45,
+          "font": 37,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn/Text (TMP)",
+          "en": "Withdraw",
+          "pt": "Retirar",
+          "x": 150,
+          "y": 829,
+          "w": 553,
+          "h": 118,
+          "font": 84,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/MoreWithdraw_Hint",
+          "en": "Higher levels unlock better exchange rates.",
+          "pt": "Quanto maior o nível, maior o valor de troca!",
+          "x": 81,
+          "y": 974,
+          "w": 691,
+          "h": 59,
+          "font": 32,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Title/CloseBtn/Image",
+        "Title/HistoryBtn/Image",
+        "Title/FQA/Image",
+        "Content/Scroll View/Viewport/Content/WithdrawLevel"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "withdraw-account",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Root",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/BG",
+          "x": 27,
+          "y": 215,
+          "w": 799,
+          "h": 1425,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/pageClose",
+          "x": 49,
+          "y": 71,
+          "w": 91,
+          "h": 89,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/Balence",
+          "x": 169,
+          "y": 263,
+          "w": 515,
+          "h": 155,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/Balence/Icon",
+          "x": 178,
+          "y": 269,
+          "w": 498,
+          "h": 149,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/SelectPlatform",
+          "x": 71,
+          "y": 273,
+          "w": 712,
+          "h": 144,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/pageContent",
+          "x": 74,
+          "y": 773,
+          "w": 707,
+          "h": 763,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/pageContent/InfoContent",
+          "x": 74,
+          "y": 773,
+          "w": 707,
+          "h": 528,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Root/FillRoot/pageContent/BtnWithdrawal",
+          "x": 74,
+          "y": 1399,
+          "w": 707,
+          "h": 142,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Root/FillRoot/ApprovedPlaque",
+          "role": "Title",
+          "x": 230,
+          "y": 91,
+          "w": 394,
+          "h": 98,
+          "behind": false
+        },
+        {
+          "path": "Root/FillRoot/ApprovedAmountPanel",
+          "role": "Inset",
+          "x": 66,
+          "y": 500,
+          "w": 720,
+          "h": 165,
+          "behind": true
+        },
+        {
+          "path": "Root/FillRoot/ApprovedHintPlate",
+          "role": "Input",
+          "x": 75,
+          "y": 1298,
+          "w": 702,
+          "h": 81,
+          "behind": true
+        },
+        {
+          "path": "ApprovedHelp",
+          "role": "nav:Help",
+          "x": 711,
+          "y": 71,
+          "w": 90,
+          "h": 89,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "Root/FillRoot/Title",
+          "en": "Payout account",
+          "pt": "Conta de saque",
+          "x": 252,
+          "y": 107,
+          "w": 350,
+          "h": 71,
+          "font": 48,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Root/FillRoot/ApprovedAmountTitle",
+          "en": "Withdrawal amount",
+          "pt": "Valor do saque",
+          "x": 74,
+          "y": 443,
+          "w": 701,
+          "h": 52,
+          "font": 42,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Root/FillRoot/ApprovedDetailsTitle",
+          "en": "Account holder details",
+          "pt": "Dados do titular",
+          "x": 75,
+          "y": 697,
+          "w": 695,
+          "h": 61,
+          "font": 42,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Root/FillRoot/pageContent/BtnWithdrawal/Text (TMP)",
+          "en": "Continue",
+          "pt": "Continuar",
+          "x": 108,
+          "y": 1422,
+          "w": 639,
+          "h": 100,
+          "font": 67,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Root/FillRoot/ApprovedHint",
+          "en": "Check your details before continuing.",
+          "pt": "Confira os dados antes de continuar.",
+          "x": 110,
+          "y": 1303,
+          "w": 630,
+          "h": 70,
+          "font": 32,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [],
+      "hideNodes": []
+    },
+    {
+      "name": "service",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/bg",
+          "x": 239,
+          "y": 67,
+          "w": 375,
+          "h": 110,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/CloseBtn",
+          "x": 47,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/HistoryBtn",
+          "x": 612,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:History",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/FQA",
+          "x": 716,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:Help",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/ChatContent",
+          "x": 27,
+          "y": 199,
+          "w": 798,
+          "h": 1411,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/ChatContent/Viewport",
+          "x": 65,
+          "y": 245,
+          "w": 722,
+          "h": 1104,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode",
+          "x": 64,
+          "y": 1354,
+          "w": 724,
+          "h": 220,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/bg",
+          "x": 65,
+          "y": 1440,
+          "w": 591,
+          "h": 111,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/InputField",
+          "x": 86,
+          "y": 1455,
+          "w": 532,
+          "h": 81,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/SelectQuestionBtn ",
+          "x": 80,
+          "y": 1327,
+          "w": 692,
+          "h": 100,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/SelectQuestionBtn /Text (TMP)",
+          "x": 107,
+          "y": 1337,
+          "w": 638,
+          "h": 79,
+          "role": "",
+          "font": 28,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/ClearBtn",
+          "x": 596,
+          "y": 1468,
+          "w": 46,
+          "h": 47,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/NotCanSendBtn",
+          "x": 669,
+          "y": 1440,
+          "w": 114,
+          "h": 112,
+          "role": "ButtonDisabled",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/InputNode/CanSendBtn",
+          "x": 669,
+          "y": 1440,
+          "w": 114,
+          "h": 112,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [],
+      "captions": [
+        {
+          "path": "Title/Title",
+          "en": "Support",
+          "pt": "Suporte",
+          "x": 259,
+          "y": 80,
+          "w": 334,
+          "h": 81,
+          "font": 62,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/InputNode/NotCanSendBtn/ApprovedArrow",
+          "en": ">",
+          "pt": ">",
+          "x": 681,
+          "y": 1458,
+          "w": 91,
+          "h": 76,
+          "font": 56,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/InputNode/CanSendBtn/ApprovedArrow",
+          "en": ">",
+          "pt": ">",
+          "x": 681,
+          "y": 1458,
+          "w": 91,
+          "h": 76,
+          "font": 56,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Title/CloseBtn/Image",
+        "Title/HistoryBtn/Image",
+        "Title/FQA/Image"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "service-topics",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/ServiceSelectPanel/ServiceSelectPanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Content",
+          "x": 27,
+          "y": 395,
+          "w": 798,
+          "h": 1266,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/CloseBtn",
+          "x": 715,
+          "y": 367,
+          "w": 98,
+          "h": 98,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content",
+          "x": 42,
+          "y": 459,
+          "w": 768,
+          "h": 1074,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions",
+          "x": 52,
+          "y": 581,
+          "w": 748,
+          "h": 871,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1",
+          "x": 52,
+          "y": 582,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1/Text (TMP)",
+          "x": 155,
+          "y": 592,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (1)",
+          "x": 52,
+          "y": 691,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (1)/Text (TMP)",
+          "x": 155,
+          "y": 701,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (2)",
+          "x": 52,
+          "y": 800,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (2)/Text (TMP)",
+          "x": 155,
+          "y": 810,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (3)",
+          "x": 52,
+          "y": 909,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (3)/Text (TMP)",
+          "x": 155,
+          "y": 919,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (4)",
+          "x": 52,
+          "y": 1018,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (4)/Text (TMP)",
+          "x": 155,
+          "y": 1028,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (5)",
+          "x": 52,
+          "y": 1127,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (5)/Text (TMP)",
+          "x": 155,
+          "y": 1137,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (6)",
+          "x": 52,
+          "y": 1236,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (6)/Text (TMP)",
+          "x": 155,
+          "y": 1246,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (7)",
+          "x": 52,
+          "y": 1345,
+          "w": 748,
+          "h": 97,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (7)/Text (TMP)",
+          "x": 155,
+          "y": 1355,
+          "w": 567,
+          "h": 76,
+          "role": "",
+          "font": 30,
+          "align": "left"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/ApprovedPlaque",
+          "role": "Title",
+          "x": 150,
+          "y": 343,
+          "w": 550,
+          "h": 130,
+          "behind": true
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 599,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (1)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 708,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (2)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 817,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (3)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 926,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (4)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 1035,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (5)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 1144,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (6)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 1253,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (7)/ApprovedHelpIcon",
+          "role": "nav:Help",
+          "x": 75,
+          "y": 1362,
+          "w": 62,
+          "h": 63,
+          "behind": false
+        },
+        {
+          "path": "ApprovedEdit",
+          "role": "ButtonGreen",
+          "x": 67,
+          "y": 1495,
+          "w": 718,
+          "h": 125,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "Content/bg_Content/Text (TMP)",
+          "en": "Quick questions",
+          "pt": "Perguntas rápidas",
+          "x": 173,
+          "y": 364,
+          "w": 505,
+          "h": 88,
+          "font": 56,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/ApprovedSubtitle",
+          "en": "Choose a subject",
+          "pt": "Escolha um assunto",
+          "x": 114,
+          "y": 501,
+          "w": 624,
+          "h": 60,
+          "font": 39,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 602,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (1)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 711,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (2)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 820,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (3)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 929,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (4)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 1038,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (5)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 1147,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (6)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 1256,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/bg_Content/Questions/question_1 (7)/ApprovedChevron",
+          "en": "›",
+          "pt": "›",
+          "x": 741,
+          "y": 1365,
+          "w": 33,
+          "h": 58,
+          "font": 44,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "ApprovedEdit/Label",
+          "en": "Write a message",
+          "pt": "Escrever mensagem",
+          "x": 98,
+          "y": 1514,
+          "w": 656,
+          "h": 87,
+          "font": 51,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "Content/bg_Content/Questions"
+      ],
+      "hideImages": [
+        "Image",
+        "Content/bg_Content"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "cash-withdraw",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/bg",
+          "x": 239,
+          "y": 62,
+          "w": 375,
+          "h": 140,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/CloseBtn",
+          "x": 47,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/HistoryBtn",
+          "x": 612,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:History",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/FQA",
+          "x": 716,
+          "y": 65,
+          "w": 90,
+          "h": 94,
+          "role": "nav:Help",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Frame",
+          "x": 27,
+          "y": 219,
+          "w": 798,
+          "h": 1370,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/CashBalance",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/CashBalance/Title",
+          "x": 79,
+          "y": 263,
+          "w": 694,
+          "h": 63,
+          "role": "",
+          "font": 44,
+          "align": "center"
+        },
+        {
+          "path": "Content/CashBalance/Balance",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/CashBalance/Balance/bg",
+          "x": 66,
+          "y": 341,
+          "w": 720,
+          "h": 173,
+          "role": "Inset",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/CashBalance/Balance/Cash",
+          "x": 90,
+          "y": 365,
+          "w": 672,
+          "h": 120,
+          "role": "",
+          "font": 101,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawAmount",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawAmount/Title",
+          "x": 89,
+          "y": 527,
+          "w": 674,
+          "h": 62,
+          "role": "",
+          "font": 37,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawAmount/Scroll View",
+          "x": 66,
+          "y": 605,
+          "w": 720,
+          "h": 487,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawAmount/Scroll View/Viewport",
+          "x": 66,
+          "y": 605,
+          "w": 720,
+          "h": 487,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawProgress",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawProgress/Title",
+          "x": 93,
+          "y": 1114,
+          "w": 666,
+          "h": 57,
+          "role": "",
+          "font": 41,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawProgress/Progress",
+          "x": 74,
+          "y": 1188,
+          "w": 706,
+          "h": 59,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawProgress/Progress/bg",
+          "x": 74,
+          "y": 1188,
+          "w": 706,
+          "h": 59,
+          "role": "ProgressTrack",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawProgress/Progress/real",
+          "x": 83,
+          "y": 1197,
+          "w": 688,
+          "h": 41,
+          "role": "ProgressFill",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawProgress/Progress/real/Text (TMP)",
+          "x": 248,
+          "y": 1190,
+          "w": 356,
+          "h": 54,
+          "role": "",
+          "font": 30,
+          "align": "center"
+        },
+        {
+          "path": "Content/HintText",
+          "x": 97,
+          "y": 1266,
+          "w": 657,
+          "h": 70,
+          "role": "",
+          "font": 32,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawBtn",
+          "x": 95,
+          "y": 1373,
+          "w": 662,
+          "h": 141,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawBtn/Text",
+          "x": 128,
+          "y": 1396,
+          "w": 596,
+          "h": 96,
+          "role": "",
+          "font": 68,
+          "align": "center"
+        },
+        {
+          "path": "ServiceBtn",
+          "x": 750,
+          "y": 822,
+          "w": 65,
+          "h": 66,
+          "role": "nav:Chat",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [],
+      "captions": [
+        {
+          "path": "ButtomGroup/Title",
+          "en": "Cash withdrawal",
+          "pt": "Saque em dinheiro",
+          "x": 263,
+          "y": 78,
+          "w": 328,
+          "h": 104,
+          "font": 48,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "ButtomGroup/CloseBtn/Image",
+        "ButtomGroup/HistoryBtn/Image",
+        "ButtomGroup/FQA/Image",
+        "Content/WithdrawAmount/Scroll View",
+        "Content/WithdrawBtn/bg",
+        "ServiceBtn/Image"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "withdraw-reminder",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (2)",
+          "x": 27,
+          "y": 387,
+          "w": 798,
+          "h": 1100,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (2)/Image (2)",
+          "x": 153,
+          "y": 319,
+          "w": 548,
+          "h": 133,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CloseBtn",
+          "x": 736,
+          "y": 341,
+          "w": 73,
+          "h": 75,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/Image",
+          "x": 223,
+          "y": 463,
+          "w": 406,
+          "h": 190,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/Image/Bg",
+          "x": 223,
+          "y": 463,
+          "w": 406,
+          "h": 190,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/HintInfo",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/HintInfo/Hint",
+          "x": 78,
+          "y": 843,
+          "w": 696,
+          "h": 62,
+          "role": "",
+          "font": 41,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/HintInfo/Num",
+          "x": 126,
+          "y": 917,
+          "w": 600,
+          "h": 107,
+          "role": "",
+          "font": 92,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CoinHint (1)",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CoinHint (1)/CoinNum",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CoinHint (1)/CoinNum/balanceTxt",
+          "x": 143,
+          "y": 719,
+          "w": 566,
+          "h": 87,
+          "role": "",
+          "font": 64,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CoinHint (1)/CoinNum/=",
+          "x": 346,
+          "y": 1081,
+          "w": 48,
+          "h": 64,
+          "role": "",
+          "font": 46,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CoinHint (1)/CoinNum/withdrawalTxt",
+          "x": 397,
+          "y": 1074,
+          "w": 285,
+          "h": 74,
+          "role": "",
+          "font": 57,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/WithdrawBtn",
+          "x": 103,
+          "y": 1222,
+          "w": 646,
+          "h": 142,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content (1)/ApprovedMint",
+          "role": "Inset",
+          "x": 67,
+          "y": 824,
+          "w": 718,
+          "h": 230,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (2)/Text (TMP)",
+          "en": "Balance available",
+          "pt": "Saldo disponível",
+          "x": 173,
+          "y": 341,
+          "w": 507,
+          "h": 89,
+          "font": 59,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content (1)/ApprovedBalanceTitle",
+          "en": "Your coin balance",
+          "pt": "Seu saldo de moedas",
+          "x": 91,
+          "y": 655,
+          "w": 670,
+          "h": 56,
+          "font": 36,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content (1)/WithdrawBtn/Text (TMP)",
+          "en": "Withdraw now",
+          "pt": "Sacar agora",
+          "x": 140,
+          "y": 1237,
+          "w": 572,
+          "h": 112,
+          "font": 70,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content (1)/ApprovedFooter",
+          "en": "Check available methods on the withdrawal page.",
+          "pt": "Confira os métodos disponíveis na página de saque.",
+          "x": 87,
+          "y": 1391,
+          "w": 678,
+          "h": 59,
+          "font": 29,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "Content (1)/HintInfo",
+        "Content (1)/CoinHint (1)",
+        "Content (1)/CoinHint (1)/CoinNum",
+        "Content (1)/CoinHint (1)/CoinNum/balanceTxt",
+        "Content (1)/CoinHint (1)/CoinNum/withdrawalTxt"
+      ],
+      "hideImages": [
+        "BG (2)/Image (3)",
+        "Content (1)/CloseBtn/Image (3)",
+        "Content (1)/CoinHint (1)/Image (1)"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "daily-tasks",
+      "prefab": "Assets/BizzaWZ/Final/MenuSystem/Common/Task/UIDailyTaskPage.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/BG",
+          "x": 26,
+          "y": 284,
+          "w": 799,
+          "h": 1328,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/BG/Image (6)",
+          "x": 162,
+          "y": 143,
+          "w": 528,
+          "h": 125,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "CloseBtn",
+          "x": 733,
+          "y": 168,
+          "w": 80,
+          "h": 82,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/PlaytimeTask",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/PlaytimeTask/Bottom",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/PlaytimeTask/Bottom/Scroll View",
+          "x": 48,
+          "y": 562,
+          "w": 756,
+          "h": 1007,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/PlaytimeTask/Bottom/Scroll View/Viewport",
+          "x": 48,
+          "y": 562,
+          "w": 756,
+          "h": 1007,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/DailyTask",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/DailyTask/Bottom",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/DailyTask/Bottom/Scroll View",
+          "x": 48,
+          "y": 562,
+          "w": 756,
+          "h": 1007,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/DailyTask/Bottom/Scroll View/Viewport",
+          "x": 48,
+          "y": 562,
+          "w": 756,
+          "h": 1007,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/DailyTask/Top",
+          "x": 67,
+          "y": 393,
+          "w": 718,
+          "h": 122,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "UIDailyTaskElement",
+          "x": 48,
+          "y": 562,
+          "w": 756,
+          "h": 190,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "TabGroup",
+          "x": 125,
+          "y": 395,
+          "w": 600,
+          "h": 73,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "ApprovedClock",
+          "role": "hero:Clock",
+          "x": 338,
+          "y": 314,
+          "w": 176,
+          "h": 142,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG/BG/Text (TMP)",
+          "en": "Daily tasks",
+          "pt": "Tarefas diárias",
+          "x": 188,
+          "y": 157,
+          "w": 476,
+          "h": 97,
+          "font": 62,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "ApprovedSubtitle",
+          "en": "Play and collect rewards!",
+          "pt": "Jogue e ganhe recompensas!",
+          "x": 98,
+          "y": 474,
+          "w": 656,
+          "h": 63,
+          "font": 42,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Content",
+        "BG/Image (4)",
+        "BG/Image (5)",
+        "BG/BG/Image (3)",
+        "CloseBtn/Image (2)"
+      ],
+      "hideNodes": [
+        "BG/SkeletonGraphic (RenYu_TanChuang)"
+      ]
+    },
+    {
+      "name": "withdraw-milestones",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Title",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/bg (1)",
+          "x": 175,
+          "y": 97,
+          "w": 502,
+          "h": 116,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/CloseBtn",
+          "x": 40,
+          "y": 95,
+          "w": 73,
+          "h": 80,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/HistoryBtn",
+          "x": 657,
+          "y": 95,
+          "w": 73,
+          "h": 80,
+          "role": "nav:History",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "ButtomGroup/FQA",
+          "x": 752,
+          "y": 95,
+          "w": 73,
+          "h": 80,
+          "role": "nav:Help",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View",
+          "x": 28,
+          "y": 255,
+          "w": 796,
+          "h": 1352,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport",
+          "x": 28,
+          "y": 255,
+          "w": 796,
+          "h": 1352,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content",
+          "x": 28,
+          "y": 255,
+          "w": 796,
+          "h": 1352,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo",
+          "x": 28,
+          "y": 255,
+          "w": 796,
+          "h": 263,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/bg",
+          "x": 28,
+          "y": 255,
+          "w": 796,
+          "h": 263,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo",
+          "x": 64,
+          "y": 338,
+          "w": 354,
+          "h": 133,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent",
+          "x": 64,
+          "y": 338,
+          "w": 354,
+          "h": 133,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent/Image",
+          "x": 62,
+          "y": 346,
+          "w": 95,
+          "h": 99,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent/Text (TMP)",
+          "x": 167,
+          "y": 348,
+          "w": 250,
+          "h": 95,
+          "role": "",
+          "font": 59,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn",
+          "x": 474,
+          "y": 332,
+          "w": 308,
+          "h": 111,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn",
+          "x": 474,
+          "y": 332,
+          "w": 308,
+          "h": 111,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction",
+          "x": 28,
+          "y": 536,
+          "w": 796,
+          "h": 193,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/bg",
+          "x": 28,
+          "y": 536,
+          "w": 796,
+          "h": 193,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Title",
+          "x": 58,
+          "y": 548,
+          "w": 734,
+          "h": 53,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Title/DailyText",
+          "x": 65,
+          "y": 550,
+          "w": 720,
+          "h": 50,
+          "role": "",
+          "font": 32,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress",
+          "x": 66,
+          "y": 609,
+          "w": 720,
+          "h": 47,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress/bg",
+          "x": 66,
+          "y": 609,
+          "w": 720,
+          "h": 47,
+          "role": "ProgressTrack",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress/real",
+          "x": 72,
+          "y": 615,
+          "w": 708,
+          "h": 35,
+          "role": "ProgressFill",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress/progressText",
+          "x": 230,
+          "y": 612,
+          "w": 391,
+          "h": 42,
+          "role": "",
+          "font": 29,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Hint",
+          "x": 58,
+          "y": 668,
+          "w": 734,
+          "h": 43,
+          "role": "",
+          "font": 27,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawDan",
+          "x": 28,
+          "y": 747,
+          "w": 796,
+          "h": 860,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg",
+          "x": 28,
+          "y": 747,
+          "w": 796,
+          "h": 860,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode",
+          "x": 55,
+          "y": 773,
+          "w": 742,
+          "h": 796,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View",
+          "x": 55,
+          "y": 773,
+          "w": 742,
+          "h": 796,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport",
+          "x": 55,
+          "y": 773,
+          "w": 742,
+          "h": 796,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [],
+      "captions": [
+        {
+          "path": "Title/Text",
+          "en": "Milestone rewards",
+          "pt": "Recompensas",
+          "x": 204,
+          "y": 112,
+          "w": 444,
+          "h": 85,
+          "font": 59,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/Title",
+          "en": "Your balance",
+          "pt": "Seu saldo",
+          "x": 64,
+          "y": 283,
+          "w": 351,
+          "h": 51,
+          "font": 40,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn/Text (TMP)",
+          "en": "Withdraw",
+          "pt": "Sacar",
+          "x": 493,
+          "y": 345,
+          "w": 270,
+          "h": 81,
+          "font": 53,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "Content/Scroll View/Viewport/Content"
+      ],
+      "hideImages": [
+        "ButtomGroup/CloseBtn/Image",
+        "ButtomGroup/HistoryBtn/Image",
+        "ButtomGroup/FQA/Image",
+        "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn",
+        "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "level-complete",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG",
+          "x": 27,
+          "y": 383,
+          "w": 798,
+          "h": 1202,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/ButtonAnim",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/ButtonAnim/Button",
+          "x": 77,
+          "y": 1243,
+          "w": 698,
+          "h": 174,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/ButtonAnim/Button/Text (TMP)",
+          "x": 120,
+          "y": 1265,
+          "w": 612,
+          "h": 122,
+          "role": "",
+          "font": 66,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/DelayShow",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/DelayShow/NoThank",
+          "x": 198,
+          "y": 1440,
+          "w": 457,
+          "h": 110,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/DelayShow/NoThank/Text (TMP)",
+          "x": 223,
+          "y": 1454,
+          "w": 407,
+          "h": 81,
+          "role": "",
+          "font": 49,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/Rewards",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/WathAdProgress",
+          "x": 79,
+          "y": 1053,
+          "w": 696,
+          "h": 167,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/Real_WithdrawProgress",
+          "x": 79,
+          "y": 1053,
+          "w": 696,
+          "h": 167,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG/Content/Fake_WithdrawProgress",
+          "x": 79,
+          "y": 1053,
+          "w": 696,
+          "h": 167,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "BG/ApprovedPlaque",
+          "role": "Title",
+          "x": 145,
+          "y": 192,
+          "w": 562,
+          "h": 207,
+          "behind": true
+        },
+        {
+          "path": "BG/ApprovedChest",
+          "role": "reward:Chest",
+          "x": 92,
+          "y": 440,
+          "w": 670,
+          "h": 430,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG/Text (TMP)",
+          "en": "Well Done!",
+          "pt": "Muito bem!",
+          "x": 178,
+          "y": 232,
+          "w": 498,
+          "h": 108,
+          "font": 78,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "BG/Content/Rewards"
+      ],
+      "hideImages": [],
+      "hideNodes": []
+    },
+    {
+      "name": "revive",
+      "prefab": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "bg",
+          "x": 38,
+          "y": 395,
+          "w": 776,
+          "h": 1108,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/Image",
+          "x": 167,
+          "y": 282,
+          "w": 518,
+          "h": 164,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/PanelLoseHint",
+          "x": 106,
+          "y": 984,
+          "w": 640,
+          "h": 84,
+          "role": "",
+          "font": 37,
+          "align": "center"
+        },
+        {
+          "path": "bg/ReviveBtnGroup",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/ReviveBtnGroup/ReviveBtn",
+          "x": 103,
+          "y": 1189,
+          "w": 646,
+          "h": 160,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/ReviveBtnGroup/ReviveBtn/Ad_BtnHint",
+          "x": 244,
+          "y": 1220,
+          "w": 463,
+          "h": 96,
+          "role": "",
+          "font": 56,
+          "align": "center"
+        },
+        {
+          "path": "bg/ReviveBtnGroup/ReviveBtn/Ad_Image",
+          "x": 142,
+          "y": 1221,
+          "w": 91,
+          "h": 91,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/ReviveBtnGroup/LoseBtn",
+          "x": 237,
+          "y": 1366,
+          "w": 380,
+          "h": 101,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/LoseBtn",
+          "x": 176,
+          "y": 1279,
+          "w": 500,
+          "h": 122,
+          "role": "ButtonBlue",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "bg/LoseBtn/BtnConfirmHint",
+          "x": 207,
+          "y": 1299,
+          "w": 438,
+          "h": 81,
+          "role": "",
+          "font": 49,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "bg/ApprovedTray",
+          "role": "reward:Tray",
+          "x": 116,
+          "y": 524,
+          "w": 620,
+          "h": 350,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "bg/Image/Title",
+          "en": "So close!",
+          "pt": "Quase lá!",
+          "x": 190,
+          "y": 310,
+          "w": 472,
+          "h": 106,
+          "font": 74,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "bg/PanelReviveHint",
+          "en": "Your tray is full",
+          "pt": "Sua bandeja está cheia",
+          "x": 106,
+          "y": 906,
+          "w": 640,
+          "h": 81,
+          "font": 55,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "bg/ReviveBtnGroup/LoseBtn/BtnConfirmHint",
+          "en": "Try again",
+          "pt": "Tentar de novo",
+          "x": 257,
+          "y": 1380,
+          "w": 340,
+          "h": 70,
+          "font": 44,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [],
+      "hideNodes": []
+    },
+    {
+      "name": "get-booster",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (1)",
+          "x": 52,
+          "y": 478,
+          "w": 748,
+          "h": 921,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (1)/Image (2)",
+          "x": 151,
+          "y": 365,
+          "w": 550,
+          "h": 166,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/BtnGroup",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/BtnGroup/ButtonAnim",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/CloseBtn",
+          "x": 697,
+          "y": 442,
+          "w": 95,
+          "h": 99,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/PropIcon",
+          "x": 261,
+          "y": 570,
+          "w": 330,
+          "h": 321,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/PropName",
+          "x": 116,
+          "y": 991,
+          "w": 620,
+          "h": 64,
+          "role": "",
+          "font": 40,
+          "align": "center"
+        },
+        {
+          "path": "Content/Limination",
+          "x": 196,
+          "y": 1058,
+          "w": 460,
+          "h": 81,
+          "role": "",
+          "font": 42,
+          "align": "center"
+        },
+        {
+          "path": "Content/BtnGroup/ButtonAnim/AdBtn",
+          "x": 102,
+          "y": 1150,
+          "w": 648,
+          "h": 158,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/BtnGroup/ButtonAnim/Pop",
+          "x": 133,
+          "y": 1189,
+          "w": 81,
+          "h": 81,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/ApprovedLimit",
+          "role": "Input",
+          "x": 193,
+          "y": 1048,
+          "w": 466,
+          "h": 82,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (1)/Text (TMP)",
+          "en": "Need a Boost?",
+          "pt": "Precisa de ajuda?",
+          "x": 171,
+          "y": 401,
+          "w": 510,
+          "h": 98,
+          "font": 62,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/ApprovedFooter",
+          "en": "One helpful move at a time",
+          "pt": "Uma jogada de cada vez",
+          "x": 165,
+          "y": 1324,
+          "w": 522,
+          "h": 49,
+          "font": 29,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "BG",
+        "Content/CloseBtn/Image (3)"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "new-booster",
+      "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "MainContent",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "MainContent/Body",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "MainContent/Body/Item",
+          "x": 252,
+          "y": 535,
+          "w": 354,
+          "h": 490,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "MainContent/Body/ItemName",
+          "x": 100,
+          "y": 1040,
+          "w": 652,
+          "h": 86,
+          "role": "",
+          "font": 72,
+          "align": "center"
+        },
+        {
+          "path": "MainContent/Body/Discription",
+          "x": 135,
+          "y": 1130,
+          "w": 582,
+          "h": 65,
+          "role": "",
+          "font": 40,
+          "align": "center"
+        },
+        {
+          "path": "MainContent/ClaimBtn",
+          "x": 130,
+          "y": 1304,
+          "w": 592,
+          "h": 147,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "MainContent/ClaimBtn/Image",
+          "x": 130,
+          "y": 1304,
+          "w": 592,
+          "h": 147,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "MainContent/ApprovedPanel",
+          "role": "Panel",
+          "x": 24,
+          "y": 417,
+          "w": 804,
+          "h": 1090,
+          "behind": true
+        },
+        {
+          "path": "MainContent/ApprovedPlaque",
+          "role": "Title",
+          "x": 157,
+          "y": 294,
+          "w": 538,
+          "h": 180,
+          "behind": true
+        },
+        {
+          "path": "MainContent/ApprovedReady",
+          "role": "Inset",
+          "x": 233,
+          "y": 1220,
+          "w": 386,
+          "h": 67,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "MainContent/Title",
+          "en": "New Tool!",
+          "pt": "Nova ferramenta!",
+          "x": 183,
+          "y": 325,
+          "w": 486,
+          "h": 112,
+          "font": 76,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "MainContent/ApprovedReadyText",
+          "en": "Ready to use",
+          "pt": "Pronto para usar",
+          "x": 257,
+          "y": 1228,
+          "w": 338,
+          "h": 49,
+          "font": 35,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "MainContent/ClaimBtn/Image/LevelTextShadow",
+          "en": "Continue",
+          "pt": "Continuar",
+          "x": 156,
+          "y": 1321,
+          "w": 540,
+          "h": 107,
+          "font": 67,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Shadow",
+        "MainContent/Title/Bg",
+        "MainContent/Title/Bg/Title_Add",
+        "MainContent/Title/Title_AddMask",
+        "MainContent/ClaimBtn/Bg",
+        "MainContent/ClaimBtn/Image"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "rate-up",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (2)",
+          "x": 36,
+          "y": 386,
+          "w": 780,
+          "h": 1118,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (2)/Image (2)",
+          "x": 209,
+          "y": 299,
+          "w": 433,
+          "h": 158,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/CloseBtn",
+          "x": 705,
+          "y": 385,
+          "w": 94,
+          "h": 96,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState",
+          "x": 80,
+          "y": 770,
+          "w": 691,
+          "h": 236,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/bg",
+          "x": 80,
+          "y": 770,
+          "w": 691,
+          "h": 236,
+          "role": "Input",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/Title",
+          "x": 270,
+          "y": 787,
+          "w": 407,
+          "h": 53,
+          "role": "",
+          "font": 42,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/GameObject",
+          "x": 347,
+          "y": 851,
+          "w": 371,
+          "h": 143,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/GameObject/beblance",
+          "x": 347,
+          "y": 842,
+          "w": 371,
+          "h": 56,
+          "role": "",
+          "font": 47,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/GameObject/=",
+          "x": 334,
+          "y": 906,
+          "w": 58,
+          "h": 70,
+          "role": "",
+          "font": 54,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/GameObject/beclash",
+          "x": 398,
+          "y": 899,
+          "w": 319,
+          "h": 96,
+          "role": "",
+          "font": 76,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/BeforeState/Icon",
+          "x": 126,
+          "y": 852,
+          "w": 188,
+          "h": 126,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState",
+          "x": 80,
+          "y": 1030,
+          "w": 691,
+          "h": 236,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/bg",
+          "x": 80,
+          "y": 1030,
+          "w": 691,
+          "h": 236,
+          "role": "Inset",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/Title",
+          "x": 270,
+          "y": 1047,
+          "w": 407,
+          "h": 53,
+          "role": "",
+          "font": 42,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/GameObject",
+          "x": 347,
+          "y": 1111,
+          "w": 371,
+          "h": 143,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/GameObject/nowblance",
+          "x": 347,
+          "y": 1102,
+          "w": 371,
+          "h": 56,
+          "role": "",
+          "font": 47,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/GameObject/=",
+          "x": 334,
+          "y": 1166,
+          "w": 58,
+          "h": 70,
+          "role": "",
+          "font": 54,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/GameObject/nowclash",
+          "x": 398,
+          "y": 1159,
+          "w": 319,
+          "h": 96,
+          "role": "",
+          "font": 76,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/NowState/Icon",
+          "x": 126,
+          "y": 1112,
+          "w": 188,
+          "h": 126,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content (1)/WithdrawBtn",
+          "x": 128,
+          "y": 1335,
+          "w": 596,
+          "h": 139,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content (1)/ApprovedRate",
+          "role": "reward:Rate",
+          "x": 205,
+          "y": 474,
+          "w": 442,
+          "h": 223,
+          "behind": false
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (2)/Text (TMP)",
+          "en": "Rate Up!",
+          "pt": "Câmbio melhor!",
+          "x": 231,
+          "y": 327,
+          "w": 389,
+          "h": 98,
+          "font": 67,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content (1)/ApprovedSubtitle",
+          "en": "Your coins are worth more",
+          "pt": "Suas moedas valem mais",
+          "x": 96,
+          "y": 698,
+          "w": 660,
+          "h": 61,
+          "font": 43,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Content (1)/WithdrawBtn/Text (TMP)",
+          "en": "Check",
+          "pt": "Ver",
+          "x": 173,
+          "y": 1353,
+          "w": 506,
+          "h": 100,
+          "font": 72,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [
+        "Content (1)/BeforeState/GameObject",
+        "Content (1)/BeforeState/GameObject/beclash",
+        "Content (1)/NowState/GameObject",
+        "Content (1)/NowState/GameObject/nowclash"
+      ],
+      "hideImages": [
+        "Content (1)/CloseBtn/Image (3)",
+        "Content (1)/Image (1)"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "welcome-gift",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Panel",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Panel/BG (2)",
+          "x": 35,
+          "y": 380,
+          "w": 782,
+          "h": 1044,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Panel/BG (2)/Image (2)",
+          "x": 132,
+          "y": 273,
+          "w": 588,
+          "h": 158,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Panel/Os_UsdText",
+          "x": 173,
+          "y": 1100,
+          "w": 506,
+          "h": 105,
+          "role": "",
+          "font": 96,
+          "align": "center"
+        },
+        {
+          "path": "Panel/Button",
+          "x": 104,
+          "y": 1220,
+          "w": 644,
+          "h": 147,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Panel/ApprovedGift",
+          "role": "reward:Gift",
+          "x": 131,
+          "y": 538,
+          "w": 590,
+          "h": 474,
+          "behind": false
+        },
+        {
+          "path": "Panel/ApprovedRewardPanel",
+          "role": "Inset",
+          "x": 87,
+          "y": 1025,
+          "w": 678,
+          "h": 181,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "Panel/BG (2)/Text (TMP)",
+          "en": "Welcome Gift",
+          "pt": "Presente de boas-vindas",
+          "x": 160,
+          "y": 299,
+          "w": 532,
+          "h": 104,
+          "font": 62,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Panel/ApprovedSubtitle",
+          "en": "A little gift to get you started",
+          "pt": "Um presente para começar",
+          "x": 112,
+          "y": 463,
+          "w": 628,
+          "h": 63,
+          "font": 40,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Panel/ApprovedRewardTitle",
+          "en": "Welcome reward",
+          "pt": "Recompensa de boas-vindas",
+          "x": 145,
+          "y": 1046,
+          "w": 562,
+          "h": 54,
+          "font": 36,
+          "title": false,
+          "key": ""
+        },
+        {
+          "path": "Panel/Button/Text (TMP)",
+          "en": "Claim & Play",
+          "pt": "Receber e jogar",
+          "x": 139,
+          "y": 1242,
+          "w": 574,
+          "h": 101,
+          "font": 65,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Panel/BG (2)/CDB_LSDD_BG_2",
+        "Panel/MoneyTile",
+        "Panel/Money"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "daily-mission",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "BG (2)",
+          "x": 35,
+          "y": 345,
+          "w": 782,
+          "h": 1158,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "BG (2)/Image (2)",
+          "x": 155,
+          "y": 259,
+          "w": 542,
+          "h": 156,
+          "role": "Title",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Title/CloseBtn",
+          "x": 725,
+          "y": 338,
+          "w": 83,
+          "h": 89,
+          "role": "nav:Close",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Hint",
+          "x": 106,
+          "y": 865,
+          "w": 640,
+          "h": 141,
+          "role": "",
+          "font": 48,
+          "align": "center"
+        },
+        {
+          "path": "Content/ClaimHint",
+          "x": 108,
+          "y": 1056,
+          "w": 636,
+          "h": 150,
+          "role": "",
+          "font": 38,
+          "align": "center"
+        },
+        {
+          "path": "Content/GoBtn",
+          "x": 124,
+          "y": 1236,
+          "w": 604,
+          "h": 150,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/GoBtn/Text (TMP)",
+          "x": 180,
+          "y": 1259,
+          "w": 492,
+          "h": 105,
+          "role": "",
+          "font": 63,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawBtn",
+          "x": 124,
+          "y": 1236,
+          "w": 604,
+          "h": 150,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/WithdrawBtn/Text (TMP)",
+          "x": 180,
+          "y": 1259,
+          "w": 492,
+          "h": 105,
+          "role": "",
+          "font": 63,
+          "align": "center"
+        },
+        {
+          "path": "Content/ClaimedBtn",
+          "x": 124,
+          "y": 1236,
+          "w": 604,
+          "h": 150,
+          "role": "ButtonDisabled",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/ClaimedBtn/Text (TMP)",
+          "x": 180,
+          "y": 1259,
+          "w": 492,
+          "h": 105,
+          "role": "",
+          "font": 63,
+          "align": "center"
+        },
+        {
+          "path": "Title/refreshTimeTxt",
+          "x": 181,
+          "y": 1407,
+          "w": 506,
+          "h": 62,
+          "role": "",
+          "font": 32,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/ApprovedGift",
+          "role": "reward:Gift",
+          "x": 229,
+          "y": 509,
+          "w": 394,
+          "h": 318,
+          "behind": false
+        },
+        {
+          "path": "Content/ApprovedAmount",
+          "role": "Inset",
+          "x": 77,
+          "y": 842,
+          "w": 698,
+          "h": 193,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "BG (2)/Text (TMP)",
+          "en": "Daily Mission",
+          "pt": "Missão diária",
+          "x": 180,
+          "y": 287,
+          "w": 492,
+          "h": 104,
+          "font": 64,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Title/title",
+          "en": "A little bonus, every day",
+          "pt": "Um bônus todos os dias",
+          "x": 122,
+          "y": 440,
+          "w": 608,
+          "h": 64,
+          "font": 40,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Content/bg",
+        "Content/Image (1)",
+        "Image",
+        "Title/CloseBtn/Image (3)",
+        "Content/GoBtn/Image (2)",
+        "Content/WithdrawBtn/Image (2)",
+        "Content/ClaimedBtn/Image (2)"
+      ],
+      "hideNodes": [
+        "GameObject"
+      ]
+    },
+    {
+      "name": "lucky-spin",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+      "backdrop": true,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Top",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup/Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/Back",
+          "x": 27,
+          "y": 52,
+          "w": 103,
+          "h": 105,
+          "role": "nav:Back",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/FQA",
+          "x": 722,
+          "y": 52,
+          "w": 103,
+          "h": 105,
+          "role": "nav:Help",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/IconInfo",
+          "x": 96,
+          "y": 217,
+          "w": 313,
+          "h": 104,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/IconInfo/Image",
+          "x": 112,
+          "y": 227,
+          "w": 86,
+          "h": 79,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/IconInfo/IconTxt",
+          "x": 208,
+          "y": 231,
+          "w": 185,
+          "h": 75,
+          "role": "",
+          "font": 46,
+          "align": "center"
+        },
+        {
+          "path": "Top/DollarInfo",
+          "x": 446,
+          "y": 217,
+          "w": 313,
+          "h": 104,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/DollarInfo/Image",
+          "x": 462,
+          "y": 227,
+          "w": 86,
+          "h": 79,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Top/DollarInfo/DollarTxt",
+          "x": 558,
+          "y": 231,
+          "w": 185,
+          "h": 75,
+          "role": "",
+          "font": 46,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup/Btn",
+          "x": 174,
+          "y": 1080,
+          "w": 504,
+          "h": 151,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup/Btn/ClickObjs",
+          "x": 174,
+          "y": 1080,
+          "w": 504,
+          "h": 151,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup/Btn/ClickObjs/CanClickObj",
+          "x": 198,
+          "y": 1100,
+          "w": 456,
+          "h": 109,
+          "role": "",
+          "font": 82,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj",
+          "x": 174,
+          "y": 1080,
+          "w": 504,
+          "h": 151,
+          "role": "ButtonDisabled",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/SlotMachineGroup/Btn/ClickObjs/NotCanClickObj/w",
+          "x": 198,
+          "y": 1100,
+          "w": 456,
+          "h": 109,
+          "role": "",
+          "font": 82,
+          "align": "center"
+        },
+        {
+          "path": "Content/Hint",
+          "x": 80,
+          "y": 1330,
+          "w": 692,
+          "h": 140,
+          "role": "",
+          "font": 40,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "ApprovedPlaque",
+          "role": "Title",
+          "x": 201,
+          "y": 61,
+          "w": 450,
+          "h": 125,
+          "behind": true
+        },
+        {
+          "path": "Top/IconInfo/ApprovedCard",
+          "role": "Input",
+          "x": 96,
+          "y": 217,
+          "w": 313,
+          "h": 104,
+          "behind": true
+        },
+        {
+          "path": "Top/DollarInfo/ApprovedCard",
+          "role": "Input",
+          "x": 446,
+          "y": 217,
+          "w": 313,
+          "h": 104,
+          "behind": true
+        },
+        {
+          "path": "Content/SlotMachineGroup/ApprovedCabinet",
+          "role": "asset:Assets/OrchardUI/Art/OrchardPrizeCabinet.png",
+          "x": 61,
+          "y": 332,
+          "w": 730,
+          "h": 939,
+          "behind": true
+        },
+        {
+          "path": "Content/ApprovedFooter",
+          "role": "Panel",
+          "x": 31,
+          "y": 1299,
+          "w": 790,
+          "h": 391,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "ApprovedTitle",
+          "en": "Lucky Spin",
+          "pt": "Giro da sorte",
+          "x": 226,
+          "y": 79,
+          "w": 400,
+          "h": 89,
+          "font": 62,
+          "title": true,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "Content/SlotMachineGroup/Buttom"
+      ],
+      "hideNodes": []
+    },
+    {
+      "name": "lucky-help",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+      "backdrop": false,
+      "fit": true,
+      "boxes": [
+        {
+          "path": "Content",
+          "x": 0,
+          "y": 0,
+          "w": 852,
+          "h": 1846,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg2 (1)",
+          "x": 20,
+          "y": 291,
+          "w": 812,
+          "h": 1391,
+          "role": "Panel",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/des",
+          "x": 104,
+          "y": 419,
+          "w": 644,
+          "h": 211,
+          "role": "",
+          "font": 37,
+          "align": "center"
+        },
+        {
+          "path": "Content/bg2 (1)/root",
+          "x": 67,
+          "y": 700,
+          "w": 718,
+          "h": 729,
+          "role": "",
+          "font": 0,
+          "align": "center"
+        },
+        {
+          "path": "Content/Btn",
+          "x": 138,
+          "y": 1511,
+          "w": 576,
+          "h": 145,
+          "role": "ButtonGreen",
+          "font": 0,
+          "align": "center"
+        }
+      ],
+      "decorations": [
+        {
+          "path": "Content/ApprovedPlaque",
+          "role": "Title",
+          "x": 190,
+          "y": 233,
+          "w": 472,
+          "h": 131,
+          "behind": true
+        }
+      ],
+      "captions": [
+        {
+          "path": "Content/ApprovedTitle",
+          "en": "How to Play",
+          "pt": "Como jogar",
+          "x": 218,
+          "y": 255,
+          "w": 416,
+          "h": 85,
+          "font": 66,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/Btn/ApprovedLabel",
+          "en": "Got it",
+          "pt": "Entendi",
+          "x": 179,
+          "y": 1530,
+          "w": 494,
+          "h": 104,
+          "font": 72,
+          "title": true,
+          "key": ""
+        },
+        {
+          "path": "Content/ApprovedFooter",
+          "en": "Rewards follow the current game rules.",
+          "pt": "As recompensas seguem as regras atuais.",
+          "x": 139,
+          "y": 1438,
+          "w": 574,
+          "h": 57,
+          "font": 29,
+          "title": false,
+          "key": ""
+        }
+      ],
+      "disableLayouts": [],
+      "hideImages": [
+        "bg",
+        "Content/bg2",
+        "Content/Btn/Image (1)"
+      ],
+      "hideNodes": [
+        "Content/SlotMachineGroup"
+      ]
+    },
+    {
+      "name": "loading",
+      "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+      "backdrop": false,
+      "fit": false,
+      "boxes": [],
+      "decorations": [],
+      "captions": [],
+      "disableLayouts": [],
+      "hideImages": [],
+      "hideNodes": [],
+      "preserve": true
+    },
+    {
+      "name": "game-hud",
+      "prefab": "Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+      "backdrop": false,
+      "fit": false,
+      "boxes": [],
+      "decorations": [],
+      "captions": [],
+      "disableLayouts": [],
+      "hideImages": [],
+      "hideNodes": [],
+      "preserve": true
+    },
+    {
+      "name": "tutorial",
+      "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/prefab/NewPlayerGuider.prefab",
+      "backdrop": false,
+      "fit": false,
+      "boxes": [],
+      "decorations": [],
+      "captions": [],
+      "disableLayouts": [],
+      "hideImages": [],
+      "hideNodes": [],
+      "preserve": true
+    }
+  ]
+}

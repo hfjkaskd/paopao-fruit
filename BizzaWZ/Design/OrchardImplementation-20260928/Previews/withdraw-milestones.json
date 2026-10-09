@@ -1,0 +1,4765 @@
+{
+    "prefab": "withdraw-milestones",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG",
+            "type": "Image:False:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/bg (1)",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 154.5
+            },
+            "size": {
+                "x": 508.0,
+                "y": 121.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/bg (1)/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 700.1199951171875,
+                "y": 136.02001953125
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/bg (1)/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 149.8800048828125,
+                "y": 136.02001953125
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Title/Text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Minhas conquistas",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 154.5
+            },
+            "size": {
+                "x": 460.0,
+                "y": 87.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 54.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ApprovedOuterPanel",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 856.5
+            },
+            "size": {
+                "x": 814.0,
+                "y": 1249.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 863.0
+            },
+            "size": {
+                "x": 784.0,
+                "y": 1216.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport",
+            "type": "Image:True:1",
+            "sprite": "UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 863.0
+            },
+            "size": {
+                "x": 784.0,
+                "y": 1216.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 863.0
+            },
+            "size": {
+                "x": 784.0,
+                "y": 1216.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 381.0
+            },
+            "size": {
+                "x": 746.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/bg",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 381.0
+            },
+            "size": {
+                "x": 746.0,
+                "y": 200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 241.0,
+                "y": 404.5
+            },
+            "size": {
+                "x": 354.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 241.0,
+                "y": 404.5
+            },
+            "size": {
+                "x": 354.0,
+                "y": 133.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent/Image",
+            "type": "Image:True:1",
+            "sprite": "Gold",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 156.0,
+                "y": 386.0
+            },
+            "size": {
+                "x": 156.0,
+                "y": 152.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/CoinInfo/RealCurrent/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$3,00",
+            "active": true,
+            "position": {
+                "x": 406.5,
+                "y": 412.5
+            },
+            "size": {
+                "x": 295.0,
+                "y": 87.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 86.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 685.0,
+                "y": 389.5
+            },
+            "size": {
+                "x": 210.0,
+                "y": 97.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 685.0,
+                "y": 389.5
+            },
+            "size": {
+                "x": 210.0,
+                "y": 97.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 807.8200073242188,
+                "y": 389.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 562.1799926757813,
+                "y": 389.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/WithdrawBtn/Btn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Retirar",
+            "active": true,
+            "position": {
+                "x": 685.0,
+                "y": 389.0
+            },
+            "size": {
+                "x": 184.0,
+                "y": 70.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawInfo/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Saldo de recompensas",
+            "active": true,
+            "position": {
+                "x": 414.0,
+                "y": 339.5
+            },
+            "size": {
+                "x": 322.0,
+                "y": 49.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 31.5,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 569.0
+            },
+            "size": {
+                "x": 746.0,
+                "y": 134.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/bg",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 569.0
+            },
+            "size": {
+                "x": 746.0,
+                "y": 134.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Title",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 574.5
+            },
+            "size": {
+                "x": 734.0,
+                "y": 53.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Title/DailyText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Meta atual",
+            "active": true,
+            "position": {
+                "x": 162.5,
+                "y": 552.5
+            },
+            "size": {
+                "x": 171.0,
+                "y": 51.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.29999923706055,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 515.0,
+                "y": 554.5
+            },
+            "size": {
+                "x": 516.0,
+                "y": 53.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress/bg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 515.0,
+                "y": 554.5
+            },
+            "size": {
+                "x": 516.0,
+                "y": 53.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress/real",
+            "type": "Image:True:1",
+            "sprite": "OrangeFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 413.4000244140625,
+                "y": 554.5
+            },
+            "size": {
+                "x": 304.8000183105469,
+                "y": 45.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Progress/progressText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "60%",
+            "active": true,
+            "position": {
+                "x": 511.0,
+                "y": 554.5
+            },
+            "size": {
+                "x": 470.0,
+                "y": 49.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 42.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawalInstruction/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Continue jogando para avançar.",
+            "active": true,
+            "position": {
+                "x": 521.0,
+                "y": 607.0
+            },
+            "size": {
+                "x": 496.0,
+                "y": 38.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 33.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1063.0
+            },
+            "size": {
+                "x": 786.0,
+                "y": 816.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1063.0
+            },
+            "size": {
+                "x": 786.0,
+                "y": 816.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1095.5
+            },
+            "size": {
+                "x": 724.0,
+                "y": 699.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View",
+            "type": "Image:False:0",
+            "sprite": "Background",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1095.5
+            },
+            "size": {
+                "x": 724.0,
+                "y": 699.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport",
+            "type": "Image:True:1",
+            "sprite": "UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1095.5
+            },
+            "size": {
+                "x": 724.0,
+                "y": 699.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1091.5
+            },
+            "size": {
+                "x": 724.0,
+                "y": 691.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 826.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 826.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon",
+            "type": "Image:True:1",
+            "sprite": "Bronze",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 147.5,
+                "y": 826.5
+            },
+            "size": {
+                "x": 141.0,
+                "y": 145.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 147.5,
+                "y": 857.5
+            },
+            "size": {
+                "x": 104.0,
+                "y": 32.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Nível 5",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 857.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 45.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Num",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "24 / 100",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 887.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 34.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 29.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 856.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/bg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 856.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 856.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea/progress",
+            "type": "Image:True:1",
+            "sprite": "OrangeFill",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 418.08001708984377,
+                "y": 856.0
+            },
+            "size": {
+                "x": 50.15999984741211,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.23999999463558198,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn",
+            "type": "Image:True:1",
+            "sprite": "LockedDisc",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 835.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 835.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$1,00",
+            "active": false,
+            "position": {
+                "x": 496.5,
+                "y": 808.5
+            },
+            "size": {
+                "x": 207.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Bloqueado",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 835.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 828.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 828.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$1,00",
+            "active": false,
+            "position": {
+                "x": 493.5,
+                "y": 828.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Receber",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 828.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 686.5,
+                "y": 828.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 686.5,
+                "y": 828.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$1,00",
+            "active": true,
+            "position": {
+                "x": 493.5,
+                "y": 828.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Recebido",
+            "active": true,
+            "position": {
+                "x": 686.5,
+                "y": 828.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Bronze",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 807.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1003.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1003.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon",
+            "type": "Image:True:1",
+            "sprite": "Silver",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 147.5,
+                "y": 1003.5
+            },
+            "size": {
+                "x": 141.0,
+                "y": 145.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 147.5,
+                "y": 1034.5
+            },
+            "size": {
+                "x": 104.0,
+                "y": 32.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Nível 20",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 1034.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 45.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Num",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "24 / 100",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 1064.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 34.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 29.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 1033.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/bg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 1033.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 497.5,
+                "y": 1033.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea/progress",
+            "type": "Image:True:1",
+            "sprite": "OrangeFill",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 418.08001708984377,
+                "y": 1033.0
+            },
+            "size": {
+                "x": 50.15999984741211,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.23999999463558198,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn",
+            "type": "Image:True:1",
+            "sprite": "LockedDisc",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 1012.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 1012.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$2,00",
+            "active": false,
+            "position": {
+                "x": 496.5,
+                "y": 985.5
+            },
+            "size": {
+                "x": 207.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Bloqueado",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 1012.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 686.5,
+                "y": 1005.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 686.5,
+                "y": 1005.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$2,00",
+            "active": true,
+            "position": {
+                "x": 493.5,
+                "y": 1005.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Receber",
+            "active": true,
+            "position": {
+                "x": 686.5,
+                "y": 1005.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1005.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1005.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$2,00",
+            "active": false,
+            "position": {
+                "x": 493.5,
+                "y": 1005.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Recebido",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1005.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Prata",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 984.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1180.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1180.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon",
+            "type": "Image:True:1",
+            "sprite": "Gold",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 147.5,
+                "y": 1180.5
+            },
+            "size": {
+                "x": 141.0,
+                "y": 145.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 147.5,
+                "y": 1211.5
+            },
+            "size": {
+                "x": 104.0,
+                "y": 32.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Nível 50",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 1211.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 45.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Num",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "24 / 50",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1241.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 34.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 29.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1210.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/bg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1210.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1210.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea/progress",
+            "type": "Image:True:1",
+            "sprite": "OrangeFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 443.1600036621094,
+                "y": 1210.0
+            },
+            "size": {
+                "x": 100.31999969482422,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.47999998927116396,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn",
+            "type": "Image:True:1",
+            "sprite": "LockedDisc",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 702.0,
+                "y": 1189.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 702.0,
+                "y": 1189.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$3,00",
+            "active": true,
+            "position": {
+                "x": 496.5,
+                "y": 1162.5
+            },
+            "size": {
+                "x": 207.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Bloqueado",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 1189.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1182.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1182.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$3,00",
+            "active": false,
+            "position": {
+                "x": 493.5,
+                "y": 1182.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Receber",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1182.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1182.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1182.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$3,00",
+            "active": false,
+            "position": {
+                "x": 493.5,
+                "y": 1182.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Recebido",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1182.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Ouro",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 1161.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1357.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.0,
+                "y": 1357.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon",
+            "type": "Image:True:1",
+            "sprite": "Platinum",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 147.5,
+                "y": 1357.5
+            },
+            "size": {
+                "x": 141.0,
+                "y": 145.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Icon/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 147.5,
+                "y": 1388.5
+            },
+            "size": {
+                "x": 104.0,
+                "y": 32.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Hint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Nível 100",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 1388.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 45.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Num",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "24 / 100",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1418.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 34.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 29.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1387.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/bg",
+            "type": "Image:True:1",
+            "sprite": "ProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1387.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 497.5,
+                "y": 1387.0
+            },
+            "size": {
+                "x": 209.0,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/progress/FillArea/progress",
+            "type": "Image:True:1",
+            "sprite": "OrangeFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 418.08001708984377,
+                "y": 1387.0
+            },
+            "size": {
+                "x": 50.15999984741211,
+                "y": 24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.23999999463558198,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn",
+            "type": "Image:True:1",
+            "sprite": "LockedDisc",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 702.0,
+                "y": 1366.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 702.0,
+                "y": 1366.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$5,00",
+            "active": true,
+            "position": {
+                "x": 496.5,
+                "y": 1339.5
+            },
+            "size": {
+                "x": 207.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/prepareBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Bloqueado",
+            "active": false,
+            "position": {
+                "x": 702.0,
+                "y": 1366.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1359.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1359.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$5,00",
+            "active": false,
+            "position": {
+                "x": 493.5,
+                "y": 1359.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Receber",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1359.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn",
+            "type": "Image:True:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1359.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "ButtonDisabled",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1359.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$5,00",
+            "active": false,
+            "position": {
+                "x": 493.5,
+                "y": 1359.0
+            },
+            "size": {
+                "x": 203.0,
+                "y": 76.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 53.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/ClaimedBtn/ApprovedStateCaption",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Recebido",
+            "active": false,
+            "position": {
+                "x": 686.5,
+                "y": 1359.5
+            },
+            "size": {
+                "x": 165.0,
+                "y": 77.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/bg/WithdrawMode/Scroll View/Viewport/Content/ReferenceFixture/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Platina",
+            "active": true,
+            "position": {
+                "x": 311.0,
+                "y": 1338.5
+            },
+            "size": {
+                "x": 164.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawDan/ApprovedHeading",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Recompensas por nível",
+            "active": true,
+            "position": {
+                "x": 416.5,
+                "y": 718.0
+            },
+            "size": {
+                "x": 683.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 55.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/CloseBtn",
+            "type": "Image:True:1",
+            "sprite": "Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 91.5,
+                "y": 154.0
+            },
+            "size": {
+                "x": 99.0,
+                "y": 102.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/CloseBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 91.5,
+                "y": 154.0
+            },
+            "size": {
+                "x": 99.0,
+                "y": 102.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn",
+            "type": "Image:True:1",
+            "sprite": "History",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 693.5,
+                "y": 135.0
+            },
+            "size": {
+                "x": 73.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_Historiy",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 693.5,
+                "y": 135.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/FQA",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 756.5,
+                "y": 154.0
+            },
+            "size": {
+                "x": 99.0,
+                "y": 102.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/FQA/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_FAQ",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 756.5,
+                "y": 154.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

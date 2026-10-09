@@ -1,0 +1,25 @@
+{
+  "reference": "Design/RewardLayoutRedesign-20260918/02-ai-reward-layout-preview.png",
+  "mockup": "reward-complete-mockup.png",
+  "imageGenerationMode": "built-in imagegen",
+  "prompt": "prompt.txt",
+  "implementation": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+  "changes": [
+    "Removed enclosing cream panel and scenic backdrop; live gameplay visible through dark mask",
+    "Separated reward amounts into currency columns",
+    "Restored MAX, current/next bonus values, video progress, withdrawal progress, remaining/target text and payout icon",
+    "Serialized layout supports single-currency mode and centers its reward column"
+  ],
+  "validation": {
+    "staticPreviewSizes": [
+      "852x1740",
+      "1080x1920",
+      "1080x2400"
+    ],
+    "missingLocalPrefabReferences": 0,
+    "rewardAndButtonBindingsUnchanged": true,
+    "playModeRun": false,
+    "deviceTest": false
+  },
+  "note": "Mockup and static previews use sample values. Production data continues to come from the existing game/account configuration."
+}

@@ -1,0 +1,12 @@
+# 每日可提现提醒
+
+Use case: ui-mockup. Create a new, complete, exceptionally polished casual orchard puzzle mobile screen. Image 1 is the authoritative VISUAL STYLE reference, not the screen content to repeat. Match its sunny orchard palette, small warm wooden header plaques, softly rounded ivory panels with refined honey-gold bevels, chocolate-brown rounded typography, juicy leaf-green main buttons, sky-blue secondary controls, crisply painted 2.5D icons, ambient occlusion and soft dimensional lighting. Premium App Store featured casual puzzle quality. All UI readable and spacious with precise alignment, controlled highlights and calm background. Portrait 9:19.5 full bleed at high resolution. Exactly one full mobile screen, no phone frame, no collage, no external caption, no watermark. English UI. Decoration restrained at edges, never covering text or controls. Do not use neon, casino styling, photographs or excessive wood. Currency values are illustrative UI examples; never promise instant payment or guaranteed earnings.
+
+Image 2 is STRUCTURE reference for the real underlying gameplay: show a softly dimmed and slightly defocused fruit-tree harvesting playfield behind the modal, visible at top and bottom with pale blue sky, rounded flowering trees bearing watermelons, oranges and starfruit, and a wooden fruit collection tray near the bottom. Never create a square match-3 board. The popup itself stays bright, sharp and very readable. Screen: DAILY WITHDRAWAL REMINDER popup. Center a bright compact ivory panel with honey-gold rounded border occupying 65% height. Small wooden title "Ready to Withdraw", blue close X at top right. Friendly premium illustration of a few polished gold leaf-emblem coins resting in a small open cream envelope, no huge money pile and no casino symbolism. Text "Available today" followed by very large readable green "$2.50". A pale-green inset horizontal strip: leaf coin icon, "10,000 coins", a small subtle approximation sign, "$2.50". Small centered reassuring brown text "Review your withdrawal details." Large leaf-green bottom action "Withdraw". No fabricated daily streaks, calendar, new bonuses or instant payment guarantees. Leave the fruit-tree gameplay and wooden collecting tray visible behind the dimmed edges, retain the visual finish of the style reference and elegant breathing room.
+
+## Source
+Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab
+
+## Notes
+展示当前金币余额与可提现金额，按钮进入RealWithdrawPanel。
+

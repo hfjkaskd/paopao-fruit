@@ -1,0 +1,35 @@
+{
+    "startedUtc": "2026-09-28T14:29:38.2004601Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 9,
+    "pages": [
+        {
+            "page": "SlotPanel",
+            "openMethod": "InitWZ full initialization and production UIModule.OpenPage; actual free-spin availability",
+            "closeMethod": "EventSystem Back Button twice, with reopening between",
+            "screenshot": "Design/OrchardLuckySpinRefinement-20260928/RuntimeShort/00-lucky-spin.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "Back",
+                    "topHit": "Back",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 177.52981567382813,
+                        "y": 1810.790771484375
+                    }
+                }
+            ],
+            "checks": [
+                "Title and unified free-spin label are horizontally centered with no overflow; actual count matches existing progress; blue white-arrow Back is a complete standard Button",
+                "Temporary text-only fixtures for 0 and 1 remain centered; no progress, reward, ad or reel state is changed",
+                "Back returns to gameplay; reopening restores the actual label; saved progress and balance unchanged"
+            ]
+        }
+    ],
+    "errors": []
+}

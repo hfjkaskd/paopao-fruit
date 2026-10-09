@@ -20,6 +20,13 @@ public class DailyMissionPanel : UIPageBase
 {
     public TMP_Text hintsTxt;
     public TMP_Text refreshTimeTxt;
+    [SerializeField] private TMP_Text approvedRewardAmount;
+    [SerializeField] private TMP_Text approvedProgressText;
+    [SerializeField] private Image approvedProgressFill;
+    [SerializeField] private string requirementEnglish;
+    [SerializeField] private string requirementPortuguese;
+    [SerializeField] private string countdownEnglish;
+    [SerializeField] private string countdownPortuguese;
     // public TMP_Text adsCountTxt;
 
     public TMP_Text claimedHint;
@@ -83,37 +90,48 @@ public class DailyMissionPanel : UIPageBase
     {
         if (!this) return;
 
-        if (responses.success && responses.data != null)
+        if (responses.success && responses.data != null && responses.data.Count > 0)
         {
-            int cur = SaveDataUtils.GameData.userLookDailyAdCount;
-            int max = SaveDataUtils.GameData.userLookDailyAdCountMax;
+            int max = Math.Max(0, SaveDataUtils.GameData.userLookDailyAdCountMax);
+            int cur = Math.Clamp(SaveDataUtils.GameData.userLookDailyAdCount, 0, max);
 
-            SaveDataUtils.GameData.userLookDailyAdCount = Math.Clamp(cur, 0, max);
+            SaveDataUtils.GameData.userLookDailyAdCount = cur;
             var data = responses.data[0];
-            hintTxt = 
-                LanguageUtils.GetFormatText(
-                    "DailyWithdrawMissionPanel_Hint",
-                    data.Os_An,
-                    $"{LanguageUtils.GetText("CurrencyToken") + WithdrawalUtil.GetCustomizedValueByCountryType((float)data.Os_My)}"
-                );
-            countTxt = $" (<color=#9039D8>{cur}/{max}</color>)";
-             hintsTxt.text = hintTxt + countTxt;
-
-            LogLogger.LogVerbose(LogTag.DailyAD, $"每日任务界面刷新 ： " +
-                                             $"{cur}/{max}");
-            // adsCountTxt.text = $"{cur}/{max}";
-
-            LogLogger.LogVerbose(LogTag.DailyAD, "data.Os_Ss " + data.Os_Ss);
-            GoObj.SetActive(data.Os_Ss == 1 || data.Os_Ss == 0);
-            WithdrawObj.SetActive(data.Os_Ss == 2);
-            ClaimedObj.SetActive(data.Os_Ss == 3);
-            claimedHint.gameObject.SetActive(data.Os_Ss == 3);
+            RefreshTaskView(cur, max, data.Os_An, data.Os_My, data.Os_Ss);
+            LogLogger.LogVerbose(LogTag.DailyAD, $"每日任务界面刷新 ： {cur}/{max}，data.Os_Ss {data.Os_Ss}");
         }
         else
         {
             UIModule.Instance.ClosePage(UIPageIds.DailyMissionPanel);
             LogLogger.LogVerbose(LogTag.DailyAD, $"获取服务器数据 OceanShineRoutineTaskLookAdMoneyResponse 失败 {responses}");
         }
+    }
+
+    // Shared presentation path for task responses; never claims a reward or changes saved progress.
+    public void RefreshTaskView(int current, int maximum, int requiredVideos, double reward, int status)
+    {
+        int max = Math.Max(0, maximum);
+        int cur = Math.Clamp(current, 0, max);
+        string amount = LanguageUtils.GetText("CurrencyToken") + WithdrawalUtil.GetCustomizedValueByCountryType((float)reward);
+        hintTxt = LanguageUtils.GetFormatText("DailyWithdrawMissionPanel_Hint", requiredVideos, amount);
+        countTxt = $" (<color=#9039D8>{cur}/{max}</color>)";
+        hintsTxt.text = hintTxt + countTxt;
+        if (approvedRewardAmount != null)
+        {
+            approvedRewardAmount.text = amount;
+            string format = LanguageUtils.SelectedLanguage == "pt-BR" ? requirementPortuguese :
+                LanguageUtils.SelectedLanguage == "en-US" ? requirementEnglish : null;
+            hintsTxt.text = string.IsNullOrEmpty(format)
+                ? LanguageUtils.GetFormatText("DailyWithdrawMissionPanel_Hint", requiredVideos, string.Empty).Trim()
+                : string.Format(format, requiredVideos);
+        }
+        if (approvedProgressText != null) approvedProgressText.text = $"{cur} / {max}";
+        if (approvedProgressFill != null) approvedProgressFill.fillAmount = max > 0 ? Mathf.Clamp01((float)cur / max) : 0;
+
+        GoObj.SetActive(status == 1 || status == 0);
+        WithdrawObj.SetActive(status == 2);
+        ClaimedObj.SetActive(status == 3);
+        claimedHint.gameObject.SetActive(status == 3);
     }
 
     private float timer;
@@ -125,7 +143,6 @@ public class DailyMissionPanel : UIPageBase
             timer = 0f;
             UpdateRemainingTime();
         }
-        UpdateRemainingTime();
     }
 
     private void UpdateRemainingTime()
@@ -133,7 +150,12 @@ public class DailyMissionPanel : UIPageBase
         DateTime now = DateTime.Now;
         DateTime tomorrow = now.Date.AddDays(1); // 明天 00:00
         TimeSpan remain = tomorrow - now;
-        refreshTimeTxt.text = LanguageUtils.GetFormatText("DailyMissionPanel_RefreshTime", $"{remain.Hours:D2}:{remain.Minutes:D2}:{remain.Seconds:D2}");
+        string duration = $"{remain.Hours:D2}:{remain.Minutes:D2}:{remain.Seconds:D2}";
+        string format = LanguageUtils.SelectedLanguage == "pt-BR" ? countdownPortuguese :
+            LanguageUtils.SelectedLanguage == "en-US" ? countdownEnglish : null;
+        refreshTimeTxt.text = string.IsNullOrEmpty(format)
+            ? LanguageUtils.GetFormatText("DailyMissionPanel_RefreshTime", duration)
+            : string.Format(format, duration);
     }
 
     public void OnClickGoStateBtn()
@@ -155,7 +177,9 @@ public class DailyMissionPanel : UIPageBase
             bool black = lookAdCount + 1 >= lookMax;
             LogLogger.LogVerbose(LogTag.DailyAD, $"每日任---务界面刷新 ： " + $"{lookAdCount}/{lookMax}");
             countTxt = $"<color=#9039D8>{lookAdCount}/{lookMax}</color>";
-            hintsTxt.text = hintTxt + countTxt;
+            if (approvedRewardAmount == null) hintsTxt.text = hintTxt + countTxt;
+            if (approvedProgressText != null) approvedProgressText.text = $"{lookAdCount} / {lookMax}";
+            if (approvedProgressFill != null) approvedProgressFill.fillAmount = lookMax > 0 ? Mathf.Clamp01((float)lookAdCount / lookMax) : 0;
             AccountModule.Instance.Request_RoutineTaskLookAdMoneyRequest(true, OnResultCallback, black);
         }
         else

@@ -90,6 +90,15 @@ public class RealWithdrawPanel : UIPageBase
     private const float UsProgressInfoHeight = 470f;
     private const float DefaultProgressInfoHeight = 320;
     [SerializeField] private RectTransform progressInfoRect;
+    [SerializeField] private bool layoutControlsProgressPosition;
+    [SerializeField] private LayoutElement approvedProgressLayout;
+    [SerializeField] private float approvedCompleteHeight = 80;
+    [SerializeField] private float approvedProgressHeight = 146;
+    [SerializeField] private float approvedCompleteWidth = 428;
+    [SerializeField] private float approvedProgressWidth = 788;
+    [SerializeField] private bool compactLevelLabels;
+    [SerializeField] private string completeFormatPortuguese;
+    [SerializeField] private string completeFormatEnglish;
 
     private bool isSelectPlatform = false;
     private WithdrawWay CurrentWay
@@ -127,7 +136,7 @@ public class RealWithdrawPanel : UIPageBase
         fingerObj.SetActive(false);
         RefreshProgressInfoHeight();
         OriginalCanWithdrawHandleHint();
-        if (ChannelConfig.Instance.real_CustomConfig.realWithdrawPassMode)
+        if (!compactLevelLabels && ChannelConfig.Instance.real_CustomConfig.realWithdrawPassMode)
         {
             passLevelText.text = LanguageUtils.GetFormatText("RealPage_PassLevel", $":{currentLevel}");
         }
@@ -142,6 +151,7 @@ public class RealWithdrawPanel : UIPageBase
 
     private void RefreshProgressInfoHeight()
     {
+        if (layoutControlsProgressPosition) return;
         float targetHeight = AccountModule.CountryType == AccountModule.E_CountryType.US
             ? UsProgressInfoHeight
             : DefaultProgressInfoHeight;
@@ -452,13 +462,8 @@ public class RealWithdrawPanel : UIPageBase
     public TMP_Text completeHintTxt;
     public SpriteAsset BSprite;
     public SpriteAsset ISprite;
-    private string iconName = AccountModule.CountryType switch
-    { // 0 是金币
-        AccountModule.E_CountryType.BR => ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode ? "3" : "2",
-        AccountModule.E_CountryType.ID => ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode ? "1" : "0",
-        AccountModule.E_CountryType.US => ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode ? "5" : "4",
-        _ => "0"
-    };
+    private string iconName => WzCurrencySprites.InlineSpriteIndex(AccountModule.CountryType,
+        ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode);
 
 
     // 当用户主动点击时候
@@ -478,9 +483,16 @@ public class RealWithdrawPanel : UIPageBase
         progressObj.gameObject.SetActive(!isCompleted);
         progressHintTxt.gameObject.SetActive(!isCompleted);
         completeHintTxt.gameObject.SetActive(isCompleted);
+        if (approvedProgressLayout != null)
+        {
+            approvedProgressLayout.preferredHeight = isCompleted ? approvedCompleteHeight : approvedProgressHeight;
+            approvedProgressLayout.preferredWidth = isCompleted ? approvedCompleteWidth : approvedProgressWidth;
+        }
         if (isCompleted)
         {
             completeHintTxt.text = LanguageUtils.GetFormatText("WithdrawHintPanel_Hint3", AccountModule.Instance.Get_S_Ewl()).GetReplaceDesc(_colorReplaceList[1]);
+            string format=LanguageUtils.SelectedLanguage=="pt-BR"?completeFormatPortuguese:LanguageUtils.SelectedLanguage=="en-US"?completeFormatEnglish:null;
+            if(!string.IsNullOrEmpty(format)) completeHintTxt.text=string.Format(format,LanguageUtils.GetText("CurrencyToken")+AccountModule.Instance.Get_S_Ewl());
         }
         else
         {

@@ -1,0 +1,64 @@
+{
+  "generatedUtc": "2026-09-28T12:59:30.645350+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "referenceSize": [
+    852,
+    1846
+  ],
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T12:57:43.1012130Z",
+      "status": "complete",
+      "buttonHitChecks": 2,
+      "loggedErrors": [
+        "开启测试设备False"
+      ],
+      "checks": [
+        "Actual account balance and payout amount refreshed; payment logos retain server-driven visibility and preserve aspect",
+        "New amount rim and method-card highlights use complete untinted sprites; all labels fit, note clears the card edges, and both standard Buttons receive center hits",
+        "View withdrawal Button closes the reminder and opens the existing RealWithdrawPanel; no withdrawal submission",
+        "Reopen and close work; account balance and last withdrawal timestamp unchanged"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T12:58:34.0217199Z",
+      "status": "complete",
+      "buttonHitChecks": 2,
+      "loggedErrors": [],
+      "checks": [
+        "Actual account balance and payout amount refreshed; payment logos retain server-driven visibility and preserve aspect",
+        "New amount rim and method-card highlights use complete untinted sprites; all labels fit, note clears the card edges, and both standard Buttons receive center hits",
+        "View withdrawal Button closes the reminder and opens the existing RealWithdrawPanel; no withdrawal submission",
+        "Reopen and close work; account balance and last withdrawal timestamp unchanged"
+      ]
+    }
+  },
+  "buttonHitChecksPassed": 4,
+  "layoutSpecsUnchanged": true,
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/DailyWithdrawPanel/DailyWithdrawPanel.prefab": "ba680c5e6dc433701045a2081dee28eff4aa4a80617bb4c84d9d8b77e6eb9f55",
+    "Assets/OrchardUI/Resources/OrchardUI/ReminderReferenceControls.png": "263d6bf58068fc58e34312eec84ffd4ff996ac8f303657f242c1b1d082f8cdf1",
+    "Assets/OrchardUI/Runtime/OrchardReminderVisual.cs": "4eaf1d3f6c7aedf82bbf525fe2d236994f3c2aee912b9ac2ee14de090a2f1428"
+  },
+  "limitations": [
+    "Runtime amounts and available methods come from the current account/server configuration.",
+    "No payment submitted.",
+    "No Android/iOS device build tested.",
+    "Visual refinement does not prove complete pixel identity."
+  ]
+}

@@ -1,0 +1,3745 @@
+{
+    "prefab": "withdraw-account",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 10800.0,
+                "y": 19200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/BG",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 927.5
+            },
+            "size": {
+                "x": 799.0,
+                "y": 1425.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ApprovedAmountPanel",
+            "type": "Image:True:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 582.5
+            },
+            "size": {
+                "x": 720.0,
+                "y": 165.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ApprovedHintPlate",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1338.5
+            },
+            "size": {
+                "x": 702.0,
+                "y": 81.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/Balence",
+            "type": "Image:False:1",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 340.5
+            },
+            "size": {
+                "x": 515.0,
+                "y": 155.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/Balence/Icon",
+            "type": "Image:True:1",
+            "sprite": "Pagbank",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 350.0
+            },
+            "size": {
+                "x": 498.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 427.0,
+                "y": 345.0
+            },
+            "size": {
+                "x": 712.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 253.7725067138672,
+                "y": 351.5538330078125
+            },
+            "size": {
+                "x": 307.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay/Frame",
+            "type": "Image:True:1",
+            "sprite": "Channel_0",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 253.7725067138672,
+                "y": 351.5538330078125
+            },
+            "size": {
+                "x": 307.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay/Select",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 369.27252197265627,
+                "y": 390.45379638671877
+            },
+            "size": {
+                "x": 55.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay (1)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 619.3175048828125,
+                "y": 351.5538330078125
+            },
+            "size": {
+                "x": 307.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay (1)/Frame",
+            "type": "Image:True:1",
+            "sprite": "Channel_0",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 619.3175048828125,
+                "y": 351.5538330078125
+            },
+            "size": {
+                "x": 307.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay (1)/Select",
+            "type": "Image:True:1",
+            "sprite": "Icon_ChannelSelected",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 734.8175048828125,
+                "y": 390.453857421875
+            },
+            "size": {
+                "x": 55.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageClose",
+            "type": "Image:True:1",
+            "sprite": "Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 94.5,
+                "y": 115.5
+            },
+            "size": {
+                "x": 91.0,
+                "y": 89.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1198.0
+            },
+            "size": {
+                "x": 707.0,
+                "y": 850.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1037.0
+            },
+            "size": {
+                "x": 707.0,
+                "y": 528.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 861.0
+            },
+            "size": {
+                "x": 707.0,
+                "y": 176.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 870.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/Background",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 870.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 453.0,
+                "y": 870.0
+            },
+            "size": {
+                "x": 684.0,
+                "y": 84.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 257.7841796875,
+                "y": 869.9860229492188
+            },
+            "size": {
+                "x": 293.568359375,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Selection",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 257.7841796875,
+                "y": 869.9860229492188
+            },
+            "size": {
+                "x": 293.568359375,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Text",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 257.7841796875,
+                "y": 869.9860229492188
+            },
+            "size": {
+                "x": 293.568359375,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Processed",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 257.7841796875,
+                "y": 869.9860229492188
+            },
+            "size": {
+                "x": 293.568359375,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Placeholder",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Digite seu nome",
+            "active": true,
+            "position": {
+                "x": 257.7841796875,
+                "y": 869.9860229492188
+            },
+            "size": {
+                "x": 293.568359375,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Nome completo",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 793.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/NameErrorHint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1301.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/NameErrorHint/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12321312",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1269.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1037.0
+            },
+            "size": {
+                "x": 707.0,
+                "y": 176.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 1046.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/Background",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 1046.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 453.0,
+                "y": 1046.0
+            },
+            "size": {
+                "x": 684.0,
+                "y": 84.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 422.7197265625,
+                "y": 1045.986083984375
+            },
+            "size": {
+                "x": 623.439453125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Selection",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 422.7197265625,
+                "y": 1045.986083984375
+            },
+            "size": {
+                "x": 623.439453125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Text",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 422.7197265625,
+                "y": 1045.986083984375
+            },
+            "size": {
+                "x": 623.439453125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Processed",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 422.7197265625,
+                "y": 1045.986083984375
+            },
+            "size": {
+                "x": 623.439453125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Placeholder",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Digite seu documento",
+            "active": true,
+            "position": {
+                "x": 422.7197265625,
+                "y": 1045.986083984375
+            },
+            "size": {
+                "x": 623.439453125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPF / CNPJ",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 969.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPFErrorHint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1301.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPFErrorHint/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12321312",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1269.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1301.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 362.4800109863281
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel ",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 491.2748107910156,
+                "y": 1267.760009765625
+            },
+            "size": {
+                "x": 764.3663940429688,
+                "y": 174.05209350585938
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 109.09161376953125,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "E-mail",
+            "active": false,
+            "position": {
+                "x": 134.82571411132813,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email/Select",
+            "type": "Image:True:1",
+            "sprite": "Icon_SeleChannel",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 235.19161987304688,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 109.09161376953125,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPF ou CNPJ",
+            "active": false,
+            "position": {
+                "x": 117.36331176757813,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF/Select (1)",
+            "type": "Image:True:1",
+            "sprite": "Icon_SeleChannel",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 235.19161987304688,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 109.09161376953125,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Telefone",
+            "active": false,
+            "position": {
+                "x": 134.82571411132813,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone/Select (2)",
+            "type": "Image:True:1",
+            "sprite": "Icon_SeleChannel",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 235.19158935546876,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 109.09161376953125,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Aleatória",
+            "active": false,
+            "position": {
+                "x": 117.36331176757813,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev/Select (3)",
+            "type": "Image:True:1",
+            "sprite": "Icon_SeleChannel",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 235.19161987304688,
+                "y": 1354.7860107421875
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 495.88372802734377,
+                "y": 1423.2467041015625
+            },
+            "size": {
+                "x": 824.0311279296875,
+                "y": 144.97340393066407
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 437.8681640625,
+                "y": 1411.760009765625
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/Background",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 437.8681640625,
+                "y": 1411.760009765625
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 462.8681640625,
+                "y": 1411.760009765625
+            },
+            "size": {
+                "x": 684.0,
+                "y": 84.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 492.248046875,
+                "y": 1411.7459716796875
+            },
+            "size": {
+                "x": 742.759765625,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Selection",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 492.248046875,
+                "y": 1411.7459716796875
+            },
+            "size": {
+                "x": 742.759765625,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Text",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 492.248046875,
+                "y": 1411.7459716796875
+            },
+            "size": {
+                "x": 742.759765625,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Processed",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 492.248046875,
+                "y": 1411.7459716796875
+            },
+            "size": {
+                "x": 742.759765625,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Placeholder",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "voce@exemplo.com",
+            "active": false,
+            "position": {
+                "x": 492.248046875,
+                "y": 1411.7459716796875
+            },
+            "size": {
+                "x": 742.759765625,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Tip da chave Pix",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1139.760009765625
+            },
+            "size": {
+                "x": 708.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/documentErrorHint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1301.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/documentErrorHint/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12321312",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1269.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1213.0
+            },
+            "size": {
+                "x": 707.0,
+                "y": 176.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "E-mail do PagBank",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 1145.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 1222.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/Background",
+            "type": "Image:True:1",
+            "sprite": "FocusedInput",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.0,
+                "y": 1222.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 453.0,
+                "y": 1222.0
+            },
+            "size": {
+                "x": 684.0,
+                "y": 84.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 263.0400390625,
+                "y": 1221.986083984375
+            },
+            "size": {
+                "x": 304.080078125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Selection",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 263.0400390625,
+                "y": 1221.986083984375
+            },
+            "size": {
+                "x": 304.080078125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Text",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 263.0400390625,
+                "y": 1221.986083984375
+            },
+            "size": {
+                "x": 304.080078125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Processed",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 263.0400390625,
+                "y": 1221.986083984375
+            },
+            "size": {
+                "x": 304.080078125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Placeholder",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "voce@exemplo.com",
+            "active": true,
+            "position": {
+                "x": 263.0400390625,
+                "y": 1221.986083984375
+            },
+            "size": {
+                "x": 304.080078125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1301.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12321312",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1269.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1381.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Nomor telepon",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1321.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 40.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1398.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/Background",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1398.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 453.0,
+                "y": 1398.0
+            },
+            "size": {
+                "x": 684.0,
+                "y": 84.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 366.865234375,
+                "y": 1397.986083984375
+            },
+            "size": {
+                "x": 511.73046875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Selection",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 366.865234375,
+                "y": 1397.986083984375
+            },
+            "size": {
+                "x": 511.73046875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Text",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 366.865234375,
+                "y": 1397.986083984375
+            },
+            "size": {
+                "x": 511.73046875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Processed",
+            "type": "Text:False",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 366.865234375,
+                "y": 1397.986083984375
+            },
+            "size": {
+                "x": 511.73046875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Placeholder",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "voce@exemplo.com",
+            "active": false,
+            "position": {
+                "x": 366.865234375,
+                "y": 1397.986083984375
+            },
+            "size": {
+                "x": 511.73046875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVOErrorHint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 74.0,
+                "y": 1301.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVOErrorHint/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "12321312",
+            "active": false,
+            "position": {
+                "x": 428.0,
+                "y": 1269.0
+            },
+            "size": {
+                "x": 708.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 25.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/ReferenceHelpRow",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1353.5
+            },
+            "size": {
+                "x": 707.0,
+                "y": 105.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/ReferenceHelpRow/ReferenceInfoCard",
+            "type": "Image:True:1",
+            "sprite": "Hint",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 1332.0
+            },
+            "size": {
+                "x": 705.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/ReferenceHelpRow/ApprovedHint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Confira os dados antes de continuar.",
+            "active": true,
+            "position": {
+                "x": 423.239990234375,
+                "y": 1341.5
+            },
+            "size": {
+                "x": 572.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8399999737739563,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.5,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal",
+            "type": "Image:True:1",
+            "sprite": "ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1477.0
+            },
+            "size": {
+                "x": 707.0,
+                "y": 142.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 798.8200073242188,
+                "y": 1477.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 56.17999267578125,
+                "y": 1477.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Continuar",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1479.0
+            },
+            "size": {
+                "x": 639.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 80.4000015258789,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/ReferenceFooterRow",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.5,
+                "y": 1585.5
+            },
+            "size": {
+                "x": 707.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/ReferenceFooterRow/ApprovedAccountFootnote",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Use os dados da sua conta PagBank.",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1589.5
+            },
+            "size": {
+                "x": 628.0,
+                "y": 53.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8640000224113464,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 31.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ApprovedPlaque",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 145.0
+            },
+            "size": {
+                "x": 398.0,
+                "y": 118.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ReferenceInfoIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 124.0,
+                "y": 1340.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Conta de saque",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 142.5
+            },
+            "size": {
+                "x": 350.0,
+                "y": 71.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 50.20000076293945,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ApprovedAmountTitle",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Valor do saque",
+            "active": true,
+            "position": {
+                "x": 424.5,
+                "y": 469.0
+            },
+            "size": {
+                "x": 701.0,
+                "y": 52.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 47.900001525878909,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ApprovedDetailsTitle",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Dados do titular",
+            "active": true,
+            "position": {
+                "x": 422.5,
+                "y": 727.5
+            },
+            "size": {
+                "x": 695.0,
+                "y": 61.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 47.900001525878909,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/ApprovedAmount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$0,03",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 588.0
+            },
+            "size": {
+                "x": 658.0,
+                "y": 124.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 115.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedHelp",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 756.0,
+                "y": 115.5
+            },
+            "size": {
+                "x": 90.0,
+                "y": 89.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

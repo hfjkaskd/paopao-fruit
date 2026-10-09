@@ -1,0 +1,3298 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation WithdrawHistory",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawHistory.item = Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistoryItem.prefab",
+                "WithdrawHistory.root = Content/Scroll View/Viewport/Content",
+                "WithdrawHistory.emptyHint = Content/Text (TMP)",
+                "WithdrawHistory.rectTransform = Content/Scroll View/Viewport/Content",
+                "WithdrawHistory.closeButton = CloseBtn"
+            ]
+        },
+        {
+            "path": "PageMask (1)",
+            "type": " RectTransform CanvasRenderer Image Button PageMask",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = PageMask (1)",
+                "PageMask.btn = PageMask (1)"
+            ]
+        },
+        {
+            "path": "PageMask (1)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 1838.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -148.47216796875
+            },
+            "size": {
+                "x": 946.0,
+                "y": 1221.34716796875
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 579.0
+            },
+            "size": {
+                "x": 808.9600219726563,
+                "y": 189.60000610351563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 21.1200008392334,
+                "y": 22.75200080871582
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -21.1200008392334,
+                "y": 22.75200080871582
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Prop_Title",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 607.0
+            },
+            "size": {
+                "x": 800.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 70.0,
+            "fields": []
+        },
+        {
+            "path": "CloseBtn",
+            "type": " RectTransform BizzaButton CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 466.0,
+                "y": 590.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = CloseBtn",
+                "BizzaButton.scaleTarget = CloseBtn"
+            ]
+        },
+        {
+            "path": "CloseBtn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/BizzaGame/Z_ReplaceAssets/UI_Frame/Common/Btn_Close.png#Btn_Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 61.0,
+                "y": 55.5
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 9.17572021484375,
+                "y": -167.5926513671875
+            },
+            "size": {
+                "x": 825.702392578125,
+                "y": 946.8828125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View",
+            "type": " RectTransform CanvasRenderer ScrollRect",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -8.1845703125,
+                "y": 0.0
+            },
+            "size": {
+                "x": -16.369199752807618,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollRect.m_Content = Content/Scroll View/Viewport/Content",
+                "ScrollRect.m_Viewport = Content/Scroll View/Viewport"
+            ]
+        },
+        {
+            "path": "Content/Scroll View/Viewport",
+            "type": " RectTransform CanvasRenderer Image Mask",
+            "sprite": "Resources/unity_builtin_extra#UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -9.521484375
+            },
+            "size": {
+                "x": 0.0,
+                "y": -9.521499633789063
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content",
+            "type": " RectTransform VerticalLayoutGroup ContentSizeFitter ScrollViewClearChilds",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem",
+            "type": " RectTransform WithdrawHistoryItem",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawHistoryItem.nameTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Name",
+                "WithdrawHistoryItem.timeTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Time",
+                "WithdrawHistoryItem.emailTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Email",
+                "WithdrawHistoryItem.cpfTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/CPF/CNP",
+                "WithdrawHistoryItem.dueText = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/due",
+                "WithdrawHistoryItem.successObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag",
+                "WithdrawHistoryItem.processingObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag",
+                "WithdrawHistoryItem.failObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag",
+                "WithdrawHistoryItem.withdrawImg = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/WithdrawWayIcon",
+                "WithdrawHistoryItem.amountTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Current",
+                "WithdrawHistoryItem.paymentConfig = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset"
+            ]
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos",
+            "type": " RectTransform VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 323.26202392578127,
+                "y": -109.72000122070313
+            },
+            "size": {
+                "x": 512.0758056640625,
+                "y": 219.4499969482422
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Time",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Name",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Jones ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Email",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 66.34739685058594
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/CPF/CNP",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/due",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "due",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 545.3060302734375,
+                "y": 76.25289916992188
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -129.20001220703126,
+                "y": -134.09991455078126
+            },
+            "size": {
+                "x": 200.0,
+                "y": 122.199951171875
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/WithdrawWayIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_2.png#Channel_2",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 9.8701171875,
+                "y": 24.999977111816408
+            },
+            "size": {
+                "x": 147.9918975830078,
+                "y": 72.20010375976563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Current",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$300",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -36.10002517700195
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.69999694824219,
+                "y": -28.100000381469728
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_SuccessWithdraw.png#Icon_SuccessWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "SUCCESS",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_WaitWithdraw.png#Icon_WaitWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "PROCESS",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_FailWithdraw.png#Icon_FailWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "FAIL",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)",
+            "type": " RectTransform WithdrawHistoryItem",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawHistoryItem.nameTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Name",
+                "WithdrawHistoryItem.timeTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Time",
+                "WithdrawHistoryItem.emailTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Email",
+                "WithdrawHistoryItem.cpfTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/CPF/CNP",
+                "WithdrawHistoryItem.dueText = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/due",
+                "WithdrawHistoryItem.successObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag",
+                "WithdrawHistoryItem.processingObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag",
+                "WithdrawHistoryItem.failObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag",
+                "WithdrawHistoryItem.withdrawImg = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/WithdrawWayIcon",
+                "WithdrawHistoryItem.amountTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Current",
+                "WithdrawHistoryItem.paymentConfig = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset"
+            ]
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos",
+            "type": " RectTransform VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 323.26202392578127,
+                "y": -109.72000122070313
+            },
+            "size": {
+                "x": 512.0758056640625,
+                "y": 219.4499969482422
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Time",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Name",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Jones ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Email",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 66.34739685058594
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/CPF/CNP",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/due",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "due",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 545.3060302734375,
+                "y": 76.25289916992188
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -129.20001220703126,
+                "y": -134.09991455078126
+            },
+            "size": {
+                "x": 200.0,
+                "y": 122.199951171875
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/WithdrawWayIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_2.png#Channel_2",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 9.8701171875,
+                "y": 24.999977111816408
+            },
+            "size": {
+                "x": 147.9918975830078,
+                "y": 72.20010375976563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Current",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$300",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -36.10002517700195
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.69999694824219,
+                "y": -28.100000381469728
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_SuccessWithdraw.png#Icon_SuccessWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "SUCCESS",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_WaitWithdraw.png#Icon_WaitWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "PROCESS",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_FailWithdraw.png#Icon_FailWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "FAIL",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)",
+            "type": " RectTransform WithdrawHistoryItem",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawHistoryItem.nameTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Name",
+                "WithdrawHistoryItem.timeTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Time",
+                "WithdrawHistoryItem.emailTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Email",
+                "WithdrawHistoryItem.cpfTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/CPF/CNP",
+                "WithdrawHistoryItem.dueText = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/due",
+                "WithdrawHistoryItem.successObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag",
+                "WithdrawHistoryItem.processingObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag",
+                "WithdrawHistoryItem.failObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag",
+                "WithdrawHistoryItem.withdrawImg = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/WithdrawWayIcon",
+                "WithdrawHistoryItem.amountTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Current",
+                "WithdrawHistoryItem.paymentConfig = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset"
+            ]
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos",
+            "type": " RectTransform VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 323.26202392578127,
+                "y": -109.72000122070313
+            },
+            "size": {
+                "x": 512.0758056640625,
+                "y": 219.4499969482422
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Time",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Name",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Jones ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Email",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 66.34739685058594
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/CPF/CNP",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/due",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "due",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 545.3060302734375,
+                "y": 76.25289916992188
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -129.20001220703126,
+                "y": -134.09991455078126
+            },
+            "size": {
+                "x": 200.0,
+                "y": 122.199951171875
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/WithdrawWayIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_2.png#Channel_2",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 9.8701171875,
+                "y": 24.999977111816408
+            },
+            "size": {
+                "x": 147.9918975830078,
+                "y": 72.20010375976563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Current",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$300",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -36.10002517700195
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.69999694824219,
+                "y": -28.100000381469728
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_SuccessWithdraw.png#Icon_SuccessWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "SUCCESS",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_WaitWithdraw.png#Icon_WaitWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "PROCESS",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_FailWithdraw.png#Icon_FailWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "FAIL",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)",
+            "type": " RectTransform WithdrawHistoryItem",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawHistoryItem.nameTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Name",
+                "WithdrawHistoryItem.timeTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Time",
+                "WithdrawHistoryItem.emailTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Email",
+                "WithdrawHistoryItem.cpfTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/CPF/CNP",
+                "WithdrawHistoryItem.dueText = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/due",
+                "WithdrawHistoryItem.successObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag",
+                "WithdrawHistoryItem.processingObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag",
+                "WithdrawHistoryItem.failObj = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag",
+                "WithdrawHistoryItem.withdrawImg = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/WithdrawWayIcon",
+                "WithdrawHistoryItem.amountTxt = Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Current",
+                "WithdrawHistoryItem.paymentConfig = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset"
+            ]
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos",
+            "type": " RectTransform VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 323.26202392578127,
+                "y": -109.72000122070313
+            },
+            "size": {
+                "x": 512.0758056640625,
+                "y": 219.4499969482422
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Time",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Name",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Jones ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Email",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 66.34739685058594
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/CPF/CNP",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 540.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/due",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "due",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 545.3060302734375,
+                "y": 76.25289916992188
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -129.20001220703126,
+                "y": -134.09991455078126
+            },
+            "size": {
+                "x": 200.0,
+                "y": 122.199951171875
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/WithdrawWayIcon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_2.png#Channel_2",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 9.8701171875,
+                "y": 24.999977111816408
+            },
+            "size": {
+                "x": 147.9918975830078,
+                "y": 72.20010375976563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Current",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$300",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -36.10002517700195
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.69999694824219,
+                "y": -28.100000381469728
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_SuccessWithdraw.png#Icon_SuccessWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "SUCCESS",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_WaitWithdraw.png#Icon_WaitWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "PROCESS",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag",
+            "type": " RectTransform CanvasRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -84.70001220703125,
+                "y": -28.0999755859375
+            },
+            "size": {
+                "x": 205.638671875,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/WithdrawHistory/Icon_FailWithdraw.png#Icon_FailWithdraw",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "FAIL",
+            "active": true,
+            "position": {
+                "x": -0.6200000047683716,
+                "y": 0.0
+            },
+            "size": {
+                "x": 160.32000732421876,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 28.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "There are no withdrawal orders yet. Keep going!",
+            "active": true,
+            "position": {
+                "x": -8.18649959564209,
+                "y": 4.549099922180176
+            },
+            "size": {
+                "x": 809.3400268554688,
+                "y": 641.3712768554688
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        }
+    ]
+}

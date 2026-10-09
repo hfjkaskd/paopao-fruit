@@ -26,6 +26,9 @@ public class NewPlayerGuider : MonoBehaviour
 	[SerializeField]
 	private TextMeshProCustom m_GuideText;
 
+	[SerializeField] private GameObject phaseOneBubble;
+	[SerializeField] private TMP_Text secondaryGuideText;
+
 	[SerializeField]
 	private Canvas m_MaskCanvas;
 
@@ -130,6 +133,8 @@ public class NewPlayerGuider : MonoBehaviour
 
 	private void StartPhase1()
 	{
+		if(phaseOneBubble!=null)phaseOneBubble.SetActive(true);
+		if(secondaryGuideText!=null)secondaryGuideText.text=OJEEJGGLNPC.Instance.GetText("guide_newplayer_2");
 		m_Phase = NHOGGEEGCJB.Phase1;
 		if (m_GuideText != null)
 		{
@@ -155,6 +160,7 @@ public class NewPlayerGuider : MonoBehaviour
 
 	private void StartPhase2(bool playTransitionAnim = true)
 	{
+		if(phaseOneBubble!=null)phaseOneBubble.SetActive(false);
 		m_Phase = NHOGGEEGCJB.Phase2;
 		lastInteractionTime = Time.time;
 		HideFinger();

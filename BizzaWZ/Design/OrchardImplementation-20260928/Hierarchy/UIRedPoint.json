@@ -1,0 +1,75 @@
+{
+    "prefab": "Assets/BizzaWZ/Common/MenuSystem/Common/RedPoint/Pf/UIRedPoint.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform UIRedPoint",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "UIRedPoint.red = RedPoint"
+            ]
+        },
+        {
+            "path": "RedPoint",
+            "type": " RectTransform CanvasRenderer Image Animation",
+            "sprite": "Assets/BizzaWZ/Common/MenuSystem/Common/RedPoint/Res/Icon_Red.png#Icon_Red",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 51.0,
+                "y": 51.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

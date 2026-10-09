@@ -1,0 +1,88 @@
+{
+  "uiScreens": 27,
+  "prefabPreviewPngCount": 27,
+  "runtimeNavigation": {
+    "startedUtc": "2026-09-28T06:35:31.8789747Z",
+    "status": "complete",
+    "opened": 12,
+    "closedByButton": 12,
+    "runtimeErrors": []
+  },
+  "compileErrors": 0,
+  "loadingPreviewFrames": 15,
+  "loadingErrors": [],
+  "audit": {
+    "newIssues": 0,
+    "resolvedIssues": 56,
+    "remainingErrors": 171,
+    "missingScripts": 0,
+    "missingLocalReferences": 0
+  },
+  "strictPixelMatchVerified": false,
+  "realDeviceAndPayoutAdEndToEndVerified": false,
+  "fidelityReview": "../OrchardFidelity-20260928/verification.json",
+  "fidelityGeneratedUtc": "2026-09-28T07:56:45.495541+00:00",
+  "fidelityNavigation": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T07:35:57.8912325Z",
+      "status": "complete",
+      "size": [
+        852,
+        1846
+      ],
+      "opened": 12,
+      "closed": 12,
+      "errors": [],
+      "error": "",
+      "checks": {
+        "RealWithdrawPanel": [
+          "Payment Buttons switched and restored the selected platform",
+          "Last tier is reachable after scrolling; its Button updates the selection and border",
+          "Original tier restored; account balance unchanged; no withdrawal submitted"
+        ],
+        "PausePanel": [
+          "Music: toggled through pointer click and restored",
+          "Sound: toggled through pointer click and restored",
+          "Vibration: toggled through pointer click and restored"
+        ],
+        "FAQPanel": [
+          "Help -> Support Button opens the production service page; close returns to Help"
+        ],
+        "UI_DailyTaskPage": [
+          "Production task rows displayed: 5"
+        ]
+      }
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T07:55:13.2823195Z",
+      "status": "complete",
+      "size": [
+        1080,
+        1920
+      ],
+      "opened": 12,
+      "closed": 12,
+      "errors": [],
+      "error": "",
+      "checks": {
+        "RealWithdrawPanel": [
+          "Payment Buttons switched and restored the selected platform",
+          "Last tier is reachable after scrolling; its Button updates the selection and border",
+          "Expanded locked-tier progress footer scrolls fully into the viewport",
+          "Original tier restored; account balance unchanged; no withdrawal submitted"
+        ],
+        "PausePanel": [
+          "Music: toggled through pointer click and restored",
+          "Sound: toggled through pointer click and restored",
+          "Vibration: toggled through pointer click and restored"
+        ],
+        "FAQPanel": [
+          "Help -> Support Button opens the production service page; close returns to Help"
+        ],
+        "UI_DailyTaskPage": [
+          "Production task rows displayed: 5"
+        ]
+      }
+    }
+  }
+}

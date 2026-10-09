@@ -66,9 +66,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 41710dcb6ebd8934c8585a20f0ab9303, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 238da2bea5316124db13bfad075b7657, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconType: 1
-  image: {fileID: 0}
+  image: {fileID: 6346694470828990620}
   isNativeSize: 0
 --- !u!1 &1799724317229902135
 GameObject:
@@ -385,7 +385,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4920020890215000392}
   - component: {fileID: 6956721250969355764}
-  - component: {fileID: 6503399162080084075}
   m_Layer: 5
   m_Name: BonusRate
   m_TagString: Untagged
@@ -431,18 +430,3 @@ MonoBehaviour:
   coin_normal: {fileID: 3803590373044436017}
   coin_Bubble: {fileID: 6346694470828990620}
   bonusRateTxt: {fileID: 3341867253804193504}
---- !u!114 &6503399162080084075
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4857841999368576221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04d9264953a8c8c4fb2d753483bda2ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iconType: 10
-  image: {fileID: 0}
-  isNativeSize: 0

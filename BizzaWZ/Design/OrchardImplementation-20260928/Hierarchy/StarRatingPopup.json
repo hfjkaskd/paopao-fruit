@@ -1,0 +1,800 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/StarRatingPopup/StarRatingPopup.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform StarRatingPopup Animation",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 1067.0,
+                "y": 914.1854248046875
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "StarRatingPopup.starButtons.Array.data[0] = Content/Stars/Darks/Drak",
+                "StarRatingPopup.starButtons.Array.data[1] = Content/Stars/Darks/Drak",
+                "StarRatingPopup.starButtons.Array.data[2] = Content/Stars/Darks/Drak",
+                "StarRatingPopup.starButtons.Array.data[3] = Content/Stars/Darks/Drak",
+                "StarRatingPopup.starButtons.Array.data[4] = Content/Stars/Darks/Drak",
+                "StarRatingPopup.starImages.Array.data[0] = Content/Stars/Lights/Image",
+                "StarRatingPopup.starImages.Array.data[1] = Content/Stars/Lights/Image (1)",
+                "StarRatingPopup.starImages.Array.data[2] = Content/Stars/Lights/Image (2)",
+                "StarRatingPopup.starImages.Array.data[3] = Content/Stars/Lights/Image (3)",
+                "StarRatingPopup.starImages.Array.data[4] = Content/Stars/Lights/Image (4)",
+                "StarRatingPopup.starOn = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/light.png",
+                "StarRatingPopup.starOff = Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png",
+                "StarRatingPopup.goToRateButton = Content/GoBtn"
+            ]
+        },
+        {
+            "path": "Mask",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 6.5,
+                "y": 5.64422607421875
+            },
+            "size": {
+                "x": 10000.0,
+                "y": 10000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 13.858200073242188
+            },
+            "size": {
+                "x": 1054.0,
+                "y": 902.2158813476563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Por favor, compartilhe sua avaliação:",
+            "active": true,
+            "position": {
+                "x": 527.6019287109375,
+                "y": -138.0
+            },
+            "size": {
+                "x": 907.2036743164063,
+                "y": 47.01599884033203
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Stars",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.6019300222396851,
+                "y": 124.0
+            },
+            "size": {
+                "x": 907.2000122070313,
+                "y": 153.75
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Stars/Darks",
+            "type": " RectTransform HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Stars/Darks/Drak",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Darks/Drak",
+                "BizzaButton.scaleTarget = Content/Stars/Darks/Drak"
+            ]
+        },
+        {
+            "path": "Content/Stars/Darks/Drak",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Darks/Drak",
+                "BizzaButton.scaleTarget = Content/Stars/Darks/Drak"
+            ]
+        },
+        {
+            "path": "Content/Stars/Darks/Drak",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Darks/Drak",
+                "BizzaButton.scaleTarget = Content/Stars/Darks/Drak"
+            ]
+        },
+        {
+            "path": "Content/Stars/Darks/Drak",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Darks/Drak",
+                "BizzaButton.scaleTarget = Content/Stars/Darks/Drak"
+            ]
+        },
+        {
+            "path": "Content/Stars/Darks/Drak",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Darks/Drak",
+                "BizzaButton.scaleTarget = Content/Stars/Darks/Drak"
+            ]
+        },
+        {
+            "path": "Content/Stars/Lights",
+            "type": " RectTransform HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Stars/Lights/Image",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Lights/Image",
+                "BizzaButton.scaleTarget = Content/Stars/Lights/Image"
+            ]
+        },
+        {
+            "path": "Content/Stars/Lights/Image (1)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Lights/Image (1)",
+                "BizzaButton.scaleTarget = Content/Stars/Lights/Image (1)"
+            ]
+        },
+        {
+            "path": "Content/Stars/Lights/Image (2)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Lights/Image (2)",
+                "BizzaButton.scaleTarget = Content/Stars/Lights/Image (2)"
+            ]
+        },
+        {
+            "path": "Content/Stars/Lights/Image (3)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Lights/Image (3)",
+                "BizzaButton.scaleTarget = Content/Stars/Lights/Image (3)"
+            ]
+        },
+        {
+            "path": "Content/Stars/Lights/Image (4)",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/StarRatingPopup/dark.png#dark",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 130.0,
+                "y": 130.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/Stars/Lights/Image (4)",
+                "BizzaButton.scaleTarget = Content/Stars/Lights/Image (4)"
+            ]
+        },
+        {
+            "path": "Content/Texts",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Caro jogador, você gosta do nosso jogo? Agradeceríamos muito se você pudesse nos dar uma avaliação de 5 estrelas na loja. Obrigado pelo seu apoio!",
+            "active": true,
+            "position": {
+                "x": -2.5941998958587648,
+                "y": -82.0
+            },
+            "size": {
+                "x": 947.6864013671875,
+                "y": 192.81390380859376
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -279.3128662109375
+            },
+            "size": {
+                "x": 523.0120849609375,
+                "y": 173.94479370117188
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Content/GoBtn",
+                "BizzaButton.scaleTarget = Content/GoBtn"
+            ]
+        },
+        {
+            "path": "Content/GoBtn/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/GoBtn/txt",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Konfirmasi",
+            "active": true,
+            "position": {
+                "x": 5.17140007019043,
+                "y": -0.17389999330043794
+            },
+            "size": {
+                "x": 390.1095886230469,
+                "y": 141.71780395507813
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 58.0,
+            "fields": []
+        }
+    ]
+}

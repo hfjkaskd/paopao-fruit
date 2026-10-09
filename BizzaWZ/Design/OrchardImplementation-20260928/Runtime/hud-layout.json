@@ -1,0 +1,63 @@
+{
+    "startedUtc": "2026-09-28T10:17:51.0125059Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 0,
+    "pages": [
+        {
+            "page": "Game HUD",
+            "openMethod": "",
+            "closeMethod": "",
+            "screenshot": "Design/OrchardImplementation-20260928/Runtime/gameplay.png",
+            "opened": true,
+            "closed": false,
+            "buttons": [
+                {
+                    "name": "SlotEnter",
+                    "topHit": "Icon",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 110.75997924804688,
+                        "y": 134.53900146484376
+                    }
+                },
+                {
+                    "name": "Undo",
+                    "topHit": "Icon",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 315.239990234375,
+                        "y": 173.649169921875
+                    }
+                },
+                {
+                    "name": "Magic",
+                    "topHit": "Icon",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 511.20001220703127,
+                        "y": 173.649169921875
+                    }
+                },
+                {
+                    "name": "Shuffle",
+                    "topHit": "Icon",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 707.1600341796875,
+                        "y": 173.649169921875
+                    }
+                }
+            ],
+            "checks": [
+                "All four lower HUD Buttons receive center pointer hits; their complete visible graphics remain on-screen, do not overlap one another, and do not overlap the tray"
+            ]
+        }
+    ],
+    "errors": []
+}

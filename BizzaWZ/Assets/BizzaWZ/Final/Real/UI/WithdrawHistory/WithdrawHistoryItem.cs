@@ -23,44 +23,23 @@ public class WithdrawHistoryItem : MonoBehaviour
     public TMP_Text amountTxt;
     
     [SerializeField] private PaymentConfig paymentConfig;
+    [SerializeField] private float normalRowHeight = 300;
+    [SerializeField] private float failedRowHeight = 342;
      
     public void Init(AccountModule.OceanShineWithdrawalRecord data)
     {
         nameTxt.gameObject.SetActive(false);
         emailTxt.gameObject.SetActive(false);
         cpfTxt.gameObject.SetActive(false);
-        // amountTxt.gameObject.SetActive(false);
-        
-        // nameTxt.text = data.Os_Rn;
         timeTxt.text = $"{data.Os_Dat}";
-        // emailTxt.text = $"Email:{data.Os_Re}";
-        // cpfTxt.text = $"CPE/CNPJ::{data.Os_Cp}";
-        
-        amountTxt.text = $"{LanguageUtils.GetText("CurrencyToken")} {WithdrawalUtil.GetCustomizedValueByCountryType((float)data.Os_Prc)}";
-        switch (AccountModule.CountryType)
-        {
-            case AccountModule.E_CountryType.US:
-                //amountTxt.text = $"{LanguageUtils.GetText("CurrencyToken")} {data.Os_Prc}";
-                emailTxt.text = $"Email:{data.Os_Ra}";
-                emailTxt.gameObject.SetActive(true);
-                break;
-            case AccountModule.E_CountryType.BR:
-                //amountTxt.text = $"{LanguageUtils.GetText("CurrencyToken")} {data.Os_Prc}";
-                cpfTxt.text = $"CPF/CNPJ:{data.Os_Cp}";
-                cpfTxt.gameObject.SetActive(true);
-                emailTxt.text = $"Account:{data.Os_Re}";
-                emailTxt.gameObject.SetActive(true);
-                nameTxt.text = $"Name:{data.Os_Rn}";
-                nameTxt.gameObject.SetActive(true);
-                break;
-            case AccountModule.E_CountryType.ID:
-                //amountTxt.text = $"{LanguageUtils.GetText("CurrencyToken")} {data.Os_Prc}";
-                emailTxt.text = $"Account:{data.Os_Ra}";
-                emailTxt.gameObject.SetActive(true);
-                nameTxt.text = $"Name:{data.Os_Rn}";
-                nameTxt.gameObject.SetActive(true);
-                break;
-        }
+        amountTxt.text = $"{LanguageUtils.GetText("CurrencyToken")}{WithdrawalUtil.GetCustomizedValueByCountryType((float)data.Os_Prc)}";
+        // The compact record shows the receiving account on one line, as authored in the prefab.
+        // Other server fields stay on the record; no account data is modified here.
+        string account = string.Equals(data.Os_Pym, "pix", StringComparison.OrdinalIgnoreCase) ? data.Os_Cp : data.Os_Re;
+        if (string.IsNullOrEmpty(account)) account = data.Os_Ra;
+        if (string.IsNullOrEmpty(account)) account = data.Os_Cp;
+        emailTxt.text = account ?? string.Empty;
+        emailTxt.gameObject.SetActive(!string.IsNullOrEmpty(account));
         
         withdrawImg.sprite = paymentConfig.GetSpriteByPayKey(data.Os_Pym);
         
@@ -68,11 +47,11 @@ public class WithdrawHistoryItem : MonoBehaviour
         processingObj.SetActive(data.Os_Sts == 1);
         bool isFail = data.Os_Sts == 2 || data.Os_Sts > 3;
         failObj.SetActive(isFail);
-        dueText.gameObject.SetActive(isFail);
+        dueText.gameObject.SetActive(isFail && !string.IsNullOrEmpty(data.Os_Tsm));
         dueText.text = data.Os_Tsm;
 
         float length = transform.GetComponent<RectTransform>().sizeDelta.x;
-        transform.GetComponent<RectTransform>().sizeDelta = isFail ? new Vector2(length, 300) : new Vector2(length, 230);
+        transform.GetComponent<RectTransform>().sizeDelta = new Vector2(length, isFail ? failedRowHeight : normalRowHeight);
 
     }
 }

@@ -1,0 +1,751 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/FAQPanel/FAQPanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation FAQPanel",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "FAQPanel.clickBtn = BG (2)/CloseBtn"
+            ]
+        },
+        {
+            "path": "PageMask (1)",
+            "type": " RectTransform CanvasRenderer Image Button PageMask",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = PageMask (1)",
+                "PageMask.btn = PageMask (1)"
+            ]
+        },
+        {
+            "path": "PageMask (1)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 0.0,
+                "y": 1838.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -34.28875732421875
+            },
+            "size": {
+                "x": 946.0,
+                "y": 1366.64453125
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 687.0
+            },
+            "size": {
+                "x": 808.9600219726563,
+                "y": 189.60000610351563
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 21.1200008392334,
+                "y": 22.75200080871582
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -21.1200008392334,
+                "y": 22.75200080871582
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Prop_Title",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 691.727294921875
+            },
+            "size": {
+                "x": 800.0,
+                "y": 136.3867950439453
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 70.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/CloseBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 463.0,
+                "y": 863.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = BG (2)/CloseBtn",
+                "BizzaButton.scaleTarget = BG (2)/CloseBtn"
+            ]
+        },
+        {
+            "path": "Content (1)",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -35.0
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 1052.4248046875
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View",
+            "type": " RectTransform CanvasRenderer Image ScrollRect",
+            "sprite": "Resources/unity_builtin_extra#Background",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollRect.m_Content = Content (1)/Scroll View/Viewport/Content",
+                "ScrollRect.m_Viewport = Content (1)/Scroll View/Viewport"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport",
+            "type": " RectTransform CanvasRenderer Image Mask",
+            "sprite": "Resources/unity_builtin_extra#UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": -17.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content",
+            "type": " RectTransform ContentSizeFitter VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.00027437685639597476
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q1",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D>我怎样才能提取现金呢?</color>\r\n<color=#9E5A41>每通过一个关卡都有现金奖励。通过的关卡越多，获得的奖励就越多。达到提现要求后，您可以提现。.</color>",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -222.83999633789063
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q1"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q2",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D><b>How long does it take to withdraw money?</b></color>\r\n<color=#174F7D>\rGenerally, funds will be credited to your account within a few minutes. If the number of withdrawals or the withdrawal amount exceeds a certain limit, the system will review it. In this case, the funds will still be credited within <color=#C9785D><b>24 hours</b></color>, so please don’t worry.\r</color>\r",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -701.489990234375
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q2"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q3",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D><b>Why did my withdrawal fail?</b></color>\r\n<color=#174F7D>\rIf a withdrawal fails, the system will provide the reason in English. Please modify your information according to the prompt. If the withdrawal fails, the withdrawal amount will be returned automatically. You can update your information and initiate the withdrawal again. Please make sure all the information you provide is correct. We are <color=#A84A3A><b>not responsible</b></color> for withdrawal failures caused by incorrect information.\r</color>",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -1334.580078125
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q3"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q4",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D><b>How many times can I withdraw?</b></color>\n<color=#174F7D>Unlimited.</color>",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -1452.8699951171875
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q4"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q5",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D><b>How many times can I withdraw per day?</b></color>\r\n<color=#174F7D>\rUp to <color=#C9785D><b>5</b></color> times per day.\r</color>\r\n",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -1622.630126953125
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q5"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q6",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D><b>Why can’t I withdraw funds using my withdrawal account?</b></color>\r\n<color=#174F7D>\rThe same withdrawal account can be bound to a maximum of <color=#C9785D><b>two</b></color> app accounts. Please do not share your withdrawal account with others.\r</color>\r\n",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -1946.830078125
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q6"
+            ]
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/q7",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI ContentSizeFitter FAQDesc",
+            "sprite": "",
+            "text": "<color=#174F7D><b>Can I use a VPN?</b></color>\r\n<color=#174F7D>\rThe use of VPN is <color=#A84A3A><b>strictly prohibited</b></color>. Please do not use a VPN while using the app.\r</color>\r\n",
+            "active": true,
+            "position": {
+                "x": 374.6852111816406,
+                "y": -2168.070068359375
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": [
+                "FAQDesc.fAQPanel = ",
+                "FAQDesc.tMP_Text = Content (1)/Scroll View/Viewport/Content/q7"
+            ]
+        },
+        {
+            "path": "Content (1)/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 430.0,
+                "y": -1173.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

@@ -76,7 +76,7 @@ public class PausePanel : UIPageBase
     private void Awake()
     {
         CloseButton.onClick.AddListener((() => {
-            World.Current.Pause(this);
+            World.Current.Resume(this);
             this.CloseSelf();
         }));
         ContinueButton.onClick.AddListener(() =>
@@ -173,6 +173,7 @@ public class PausePanel : UIPageBase
         }
         languageDropdown.ClearOptions();
         languageDropdown.AddOptions(options);
+        languageDropdown.onValueChanged.RemoveListener(ChangeLanguage);
         languageDropdown.onValueChanged.AddListener(ChangeLanguage);
     }
 
@@ -196,6 +197,8 @@ public class PausePanel : UIPageBase
 
     private void OnEnable()
     {
+        // The current settings prefab has no player-facing language selector.
+        if (languageDropdown == null || !languageDropdown.gameObject.activeInHierarchy) return;
         InitDropDown();
         int res = 0;
         switch (LanguageUtils.SelectedLanguage)

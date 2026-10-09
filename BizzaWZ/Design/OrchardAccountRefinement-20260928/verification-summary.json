@@ -1,0 +1,39 @@
+{
+  "generatedUtc": "2026-09-28T12:06:43.712437+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T12:04:58.5713550Z",
+      "status": "complete",
+      "inputFieldsChecked": 3,
+      "loggedErrors": [
+        "开启测试设备False"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T12:05:40.0831948Z",
+      "status": "complete",
+      "inputFieldsChecked": 3,
+      "loggedErrors": []
+    }
+  },
+  "inputCasesPassed": 6,
+  "knownLog": "开启测试设备False is an existing SDK diagnostic logged at Error level.",
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab": "ea23848c15e95857bd17f780ea363186818b10bf400a715ecd3e663a3398a2a5",
+    "Assets/OrchardUI/Resources/OrchardUI/AccountReferenceControls.png": "0ba1cf1ce0c19a6b4a787864bfd5231ce64fd1fa852f890e34d31c8f965e19d0",
+    "Assets/OrchardUI/Runtime/OrchardAccountVisual.cs": "9e1649d7f365aab79144fe8160ba2ef62b72bd1927a3d5e7b44161e5b7d9135f",
+    "Assets/OrchardUI/Runtime/OrchardInputVisual.cs": "05ac04b1b794bc3a90ce746fd1190035ae93fce8f7455f6638a548580bee0754"
+  },
+  "limitations": [
+    "No withdrawal/payment submitted; no Android/iOS device build performed.",
+    "The diagnostic hides the keyboard through its existing platform-independent API before testing the Continue Button; keyboard Done behavior is outside this check.",
+    "Preview uses isolated sample values; runtime retains current account and server values.",
+    "The result corrects the reported proportions and highlights; no assertion of complete pixel identity."
+  ]
+}

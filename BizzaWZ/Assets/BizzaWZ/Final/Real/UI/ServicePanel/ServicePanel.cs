@@ -24,9 +24,12 @@ public class ServicePanel : UIPageBase
     [Header("Input")]
     public AdvancedInputField inputText; // 输入框
     public AllowKeyboardDismiss allowKeyboardDismiss; // 允许输入框丢失焦点
+    [SerializeField] private Button messageInputButton;
+    [SerializeField] private OrchardServiceKeyboardLayout keyboardLayout;
 
     public BizzaButton selectQuestionButton; // 选择问题按钮
     public TMP_Text selectQuestionText; // 选择问题按钮文本
+    [SerializeField] private bool keepQuestionPickerVisible;
 
     public ViewportResizer viewportResizer; // 视口调整器
 
@@ -57,11 +60,14 @@ public class ServicePanel : UIPageBase
         base.OnAwake();
         faqBtn.onClick.AddListener(() => { OnClickQFA(); });
         closeBtn.onClick.AddListener(() => { CloseSelf(); });
-        historyBtn.onClick.AddListener(() => { OnClickHistory(); });
+        historyBtn.onClick.AddListener(OnClickHistory);
         sendBtn.onClick.AddListener(() => { OnClickSend(); });
         canNotSendBtn.onClick.AddListener(() => { OnClickSend(); });
         clearBtn.onClick.AddListener(() => { OnClickClearInput(); });
         defaultQABtn.onClick.AddListener(() => { OnClickOpenSelectPanel(); });
+        messageInputButton.onClick.AddListener(OnClickMessageInput);
+        inputText.OnBeginEdit.AddListener(_ => { if (keepQuestionPickerVisible) selectIndex = customIndex; });
+        inputText.OnValueChanged.AddListener(_ => RefreshSendState(CanSend));
 
     }
 
@@ -93,6 +99,7 @@ public class ServicePanel : UIPageBase
     protected override void OnClose()
     {
         client.HideKeyboard();
+        if (keyboardLayout != null) keyboardLayout.ApplyKeyboardHeight(0);
     }
 
     protected override void OnOpen()
@@ -102,7 +109,9 @@ public class ServicePanel : UIPageBase
             viewportResizer = GetComponentInChildren<ViewportResizer>();
         }
         inputText.Text = "";
-        selectQuestionText.text = LanguageUtils.GetText("ServicePanel_Please");
+        if (keyboardLayout != null) keyboardLayout.ApplyKeyboardHeight(0);
+        if (!keepQuestionPickerVisible) selectQuestionText.text = LanguageUtils.GetText("ServicePanel_Please");
+        if (keepQuestionPickerVisible) selectIndex = customIndex;
         for (int i = contentRoot.transform.childCount - 1; i >= 0; i--)
         {
             Destroy(contentRoot.transform.GetChild(i).gameObject);
@@ -189,25 +198,24 @@ public class ServicePanel : UIPageBase
 
     }
 
-    private float gapTime = 0.5f; private float currentTime = 0f;
-    private void Update()
+    public void OnClickMessageInput()
     {
-        currentTime += Time.deltaTime;
-        if (currentTime <= gapTime) { return; }
-        currentTime = 0f;
-        RefreshSendState(CanSend);
+        SwitchDefaultInputState(false);
+        selectIndex = customIndex;
+        inputText.ManualSelect();
     }
 
     private void SwitchDefaultInputState(bool defaultState)
     {
-        selectQuestionButton.gameObject.SetActive(defaultState);
-        inputText.gameObject.SetActive(!defaultState);
+        selectQuestionButton.gameObject.SetActive(keepQuestionPickerVisible || defaultState);
+        inputText.gameObject.SetActive(keepQuestionPickerVisible || !defaultState);
     }
 
     private void RefreshSendState(bool canSend)
     {
         canSendObj.SetActive(canSend);
         notCanSendObj.SetActive(!canSend);
+        clearBtn.gameObject.SetActive(canSend);
     }
 
     private void OnKeyboardHeightChanged(int height)
@@ -217,7 +225,8 @@ public class ServicePanel : UIPageBase
             //Debug.LogError("键盘高度小于0");
             UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(allowKeyboardDismiss.gameObject);
         }
-        viewportResizer.UpdateViewportBottom(height);
+        if (keyboardLayout != null) keyboardLayout.ApplyKeyboardHeight(height);
+        else viewportResizer.UpdateViewportBottom(height);
         //Debug.LogError("键盘高度发生变化");
     }
 
@@ -232,7 +241,8 @@ public class ServicePanel : UIPageBase
     private void ClearInputContent() // 清空输入框内容
     {
         inputText.Text = "";
-        selectQuestionText.text = LanguageUtils.GetText("ServicePanel_Please");
+        RefreshSendState(false);
+        if (!keepQuestionPickerVisible) selectQuestionText.text = LanguageUtils.GetText("ServicePanel_Please");
     }
 
     private ChatInfo chatInfo = new ChatInfo();
@@ -260,9 +270,10 @@ public class ServicePanel : UIPageBase
     private int customIndex = -2;
     public void FillDefaultQuent(string info, int index) // 二级界面选择的信息填充到输入框
     {
-        selectQuestionText.text = info;
+        if (!keepQuestionPickerVisible) selectQuestionText.text = info;
         inputText.Text = info;
         selectIndex = index;
+        RefreshSendState(CanSend);
     }
 
     public void FillCustomQuent() // 自定义信息填充到输入框
@@ -270,6 +281,8 @@ public class ServicePanel : UIPageBase
         SwitchDefaultInputState(false);
         inputText.Text = "";
         selectIndex = customIndex;
+        RefreshSendState(false);
+        OnClickMessageInput();
     }
 
     public void OnClickInputClose() // 点击输入框丢失
@@ -292,9 +305,36 @@ public class ServicePanel : UIPageBase
         UIModule.Instance.OpenPage(UIPageIds.QFA).Forget();
     }
 
+    private bool isOpeningHistory;
+
     public void OnClickHistory()
     {
-        UIModule.Instance.OpenPage(UIPageIds.WithdrawHistory).Forget();
+        OpenWithdrawalHistory().Forget();
+    }
+
+    private async UniTask OpenWithdrawalHistory()
+    {
+        if (isOpeningHistory || IsClosing) return;
+
+        isOpeningHistory = true;
+        historyBtn.interactable = false;
+        try
+        {
+            var historyPage = await UIModule.Instance.OpenPage(UIPageIds.WithdrawHistory);
+            if (historyPage is WithdrawHistory && this != null && !IsClosing)
+            {
+                // This is a navigation action: leave support after the record page opens.
+                CloseSelf();
+            }
+        }
+        finally
+        {
+            if (this != null)
+            {
+                isOpeningHistory = false;
+                historyBtn.interactable = true;
+            }
+        }
     }
 
     public void OnClickClose()

@@ -48,6 +48,8 @@ public class UIDailyTaskPage : UIPageBase
     private E_ItemType activityResType;
     private int timePass = -1;
     public Button closeBtn;
+    [SerializeField] private GameObject tabRoot;
+    [SerializeField, Range(0, 2)] private int initialTab;
 
     void Awake()
     {
@@ -65,7 +67,8 @@ public class UIDailyTaskPage : UIPageBase
         int taskStartDay = SaveDataUtils.TaskData.taskStartDay;
         int currentDay = (int)TimeUtil.GetCurrentTime(ETimeUnit.DAYS);
         timePass = currentDay - taskStartDay;
-        OnTabClick(0);
+        if (tabRoot != null) tabRoot.SetActive(enableTab);
+        OnTabClick(initialTab);
         // UiManager.Instance.OpenMask();
 
         BizzaEventSystem.Set(EventDefine.Task.TaskRefresh, OnTaskRefresh, true);
@@ -134,7 +137,7 @@ public class UIDailyTaskPage : UIPageBase
                 var activityCfg = activityCfgs[i];
                 if (activityCfg.RefreshDays != refreshDays) continue;
 
-                var activityTaskInfo = MenuSys_Task.Instance.dailyActivityTaskInfos[activityCfg.Id];
+                if (!MenuSys_Task.Instance.dailyActivityTaskInfos.TryGetValue(activityCfg.Id, out var activityTaskInfo)) continue;
                 var ele = PoolUtil.GetComponent(activityElement);
                 ele.gameObject.SetActive(true);
                 ele.transform.SetParent(activityTaskRoot);
@@ -213,7 +216,9 @@ public class UIDailyTaskPage : UIPageBase
     public bool enableTab;
     private void OnTabClick(int tabIdx)
     {
-
+        IsPlayTimeTask = tabIdx == 2;
+        refreshDays = tabIdx == 1 ? 7 : 1;
+        RefreshDailyTask();
     }
 
     private void OnTaskRefresh()
@@ -230,7 +235,7 @@ public class UIDailyTaskPage : UIPageBase
     private void OnActivityRefresh()
     {
         int n = ItemUtils.GetItemCountInt(activityResType);
-        activityBar.fillAmount = Mathf.Clamp01(n * 1.0f / maxActivity);
+        activityBar.fillAmount = maxActivity > 0 ? Mathf.Clamp01(n * 1.0f / maxActivity) : 0f;
         txtActiveCount.text = n.ToString();
     }
 

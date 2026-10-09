@@ -425,8 +425,8 @@ public static class OrchardCommonPass
         var target = Find(root, path);
         if (target == null || !target.TryGetComponent<TMP_Text>(out var text)) return;
         text.enableAutoSizing = true;
-        text.fontSizeMin = 20f;
-        text.fontSizeMax = 40f;
+        text.fontSizeMin = 24f;
+        text.fontSizeMax = 38f;
         text.enableWordWrapping = false;
     }
 

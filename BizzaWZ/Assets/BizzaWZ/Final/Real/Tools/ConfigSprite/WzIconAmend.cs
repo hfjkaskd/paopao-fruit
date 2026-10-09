@@ -1,34 +1,30 @@
 #if BIZZA_REAL_WITHDRAW
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Bizza.Sdk;
 using cfg;
 using UnityEngine;
 using UnityEngine.UI;
 
 [Obfuz.ObfuzIgnore]
+[DisallowMultipleComponent]
 public class WzIconAmend : MonoBehaviour
 {
     public E_WzIconType iconType;
     public Image image;
     public bool isNativeSize = false;
 
-    private bool isInit = false;
-
-    private void Awake()
-    {
-        BizzaEventSystem.On(EventDefine.Login.InitContentByCountry, UpdateContent);
-    }
-
     private void OnEnable()
     {
+        BizzaEventSystem.On(EventDefine.Login.InitContentByCountry, UpdateContent);
         UpdateContent();
+    }
+
+    private void OnDisable()
+    {
+        BizzaEventSystem.Off(EventDefine.Login.InitContentByCountry, UpdateContent);
     }
 
     private void UpdateContent()
     {
-        if (!this || isInit)
+        if (!isActiveAndEnabled)
         {
             return;
         }
@@ -44,48 +40,9 @@ public class WzIconAmend : MonoBehaviour
             return;
         }
 
-        ResetIconType();
-        // isInit = true;
-        UIUtils.SetWzSprite(image, iconType.ToString(), isNativeSize);
+        WzCurrencySprites.Apply(image, WzCurrencySprites.RoleKey(iconType), isNativeSize);
     }
 
-    private void ResetIconType()
-    {
-        if (!ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode)
-        {
-            return;
-        }
-
-        if (iconType == E_WzIconType.GoldCoin)
-        {
-            iconType = E_WzIconType.StackMoney;
-            return;
-        }
-
-        if (iconType == E_WzIconType.PileGold)
-        {
-            iconType = E_WzIconType.HundredMoney;
-            return;
-        }
-
-        if (iconType == E_WzIconType.PileWealth)
-        {
-            iconType = E_WzIconType.HundredMoney;
-            return;
-        }
-
-        if (iconType == E_WzIconType.MoneyEnhancement)
-        {
-            iconType = E_WzIconType.StackMoney;
-            return;
-        }
-
-        // if (iconType == E_WzIconType.BubbleCoin)
-        // {
-        //     // iconType = E_WzIconType.BubbleMoney;
-        //     return;
-        // }
-    }
 
 }
 

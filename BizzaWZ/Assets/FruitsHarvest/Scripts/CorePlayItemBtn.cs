@@ -77,8 +77,8 @@ public sealed class CorePlayItemBtn : MonoBehaviour
         }
         if (m_ItemIcon != null)
         {
+            // Keep the prefab's icon size when swapping artwork of different resolutions.
             m_ItemIcon.sprite = unlocked ? normalIcon : lockedIcon;
-            m_ItemIcon.SetNativeSize();
         }
     }
 

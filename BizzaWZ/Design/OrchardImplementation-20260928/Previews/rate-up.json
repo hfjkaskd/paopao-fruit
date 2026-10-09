@@ -1,0 +1,1195 @@
+{
+    "prefab": "rate-up",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)",
+            "type": "Image:True:0.18",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1585.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 943.5
+            },
+            "size": {
+                "x": 784.0,
+                "y": 1117.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 379.0
+            },
+            "size": {
+                "x": 568.0,
+                "y": 172.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 731.1199951171875,
+                "y": 355.3599853515625
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 120.8800048828125,
+                "y": 355.3599853515625
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Rate Up!",
+            "active": true,
+            "position": {
+                "x": 425.5,
+                "y": 385.0
+            },
+            "size": {
+                "x": 389.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.1399999856948853,
+                "z": 1.0
+            },
+            "fontSize": 90.94999694824219,
+            "fields": []
+        },
+        {
+            "path": "Content (1)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/WithdrawBtn",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1390.0
+            },
+            "size": {
+                "x": 608.0,
+                "y": 154.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/WithdrawBtn/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 748.8200073242188,
+                "y": 1390.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/WithdrawBtn/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 105.17999267578125,
+                "y": 1390.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/WithdrawBtn/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Check",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1387.0
+            },
+            "size": {
+                "x": 506.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0700000524520875,
+                "z": 1.0
+            },
+            "fontSize": 87.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/CloseBtn",
+            "type": "Image:True:1",
+            "sprite": "Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 755.0,
+                "y": 432.0
+            },
+            "size": {
+                "x": 112.0,
+                "y": 108.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/CloseBtn/Image (3)",
+            "type": "Image:False:1",
+            "sprite": "Btn_Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 755.0,
+                "y": 432.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1157.0
+            },
+            "size": {
+                "x": 690.0,
+                "y": 276.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/bg",
+            "type": "Image:True:1",
+            "sprite": "Now",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1157.0
+            },
+            "size": {
+                "x": 700.0,
+                "y": 290.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Now",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1072.0
+            },
+            "size": {
+                "x": 296.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8669999837875366,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 46.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/GameObject",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1157.0
+            },
+            "size": {
+                "x": 690.0,
+                "y": 276.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/GameObject/nowblance",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "10,000 coins",
+            "active": true,
+            "position": {
+                "x": 527.0,
+                "y": 1149.0
+            },
+            "size": {
+                "x": 382.4884948730469,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8679999709129334,
+                "y": 0.9760000109672546,
+                "z": 1.0
+            },
+            "fontSize": 51.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/GameObject/=",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "≈",
+            "active": true,
+            "position": {
+                "x": 389.0,
+                "y": 1218.0
+            },
+            "size": {
+                "x": 56.542808532714847,
+                "y": 99.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.2380000352859498,
+                "y": 1.2649999856948853,
+                "z": 1.0
+            },
+            "fontSize": 91.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/GameObject/nowclash",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$5.00",
+            "active": true,
+            "position": {
+                "x": 568.0,
+                "y": 1217.5
+            },
+            "size": {
+                "x": 323.14410400390627,
+                "y": 119.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9160000085830689,
+                "y": 1.0219999551773072,
+                "z": 1.0
+            },
+            "fontSize": 117.6500015258789,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/NowState/Icon",
+            "type": "Image:False:1",
+            "sprite": "CoinStack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 220.5,
+                "y": 1184.0
+            },
+            "size": {
+                "x": 188.0,
+                "y": 126.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 868.0
+            },
+            "size": {
+                "x": 690.0,
+                "y": 228.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/bg",
+            "type": "Image:True:1",
+            "sprite": "Before",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 868.5
+            },
+            "size": {
+                "x": 698.0,
+                "y": 239.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/GameObject",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 868.0
+            },
+            "size": {
+                "x": 690.0,
+                "y": 228.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/GameObject/beblance",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "10,000 coins",
+            "active": true,
+            "position": {
+                "x": 520.0,
+                "y": 862.5
+            },
+            "size": {
+                "x": 375.0,
+                "y": 67.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8799999952316284,
+                "y": 0.9760000109672546,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/GameObject/=",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "≈",
+            "active": true,
+            "position": {
+                "x": 391.5,
+                "y": 924.5
+            },
+            "size": {
+                "x": 46.6284065246582,
+                "y": 79.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.3940000534057618,
+                "y": 1.2960000038146973,
+                "z": 1.0
+            },
+            "fontSize": 74.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/GameObject/beclash",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$2.50",
+            "active": true,
+            "position": {
+                "x": 546.5,
+                "y": 923.5
+            },
+            "size": {
+                "x": 294.8717956542969,
+                "y": 85.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8579999804496765,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 84.05000305175781,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Before",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 795.5
+            },
+            "size": {
+                "x": 296.0,
+                "y": 49.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8199999928474426,
+                "y": 0.8999999761581421,
+                "z": 1.0
+            },
+            "fontSize": 46.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/BeforeState/Icon",
+            "type": "Image:False:1",
+            "sprite": "CoinStack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 220.5,
+                "y": 895.0
+            },
+            "size": {
+                "x": 188.0,
+                "y": 126.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Image (1)",
+            "type": "Image:False:1",
+            "sprite": "Icon_ExchangeRateUp",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 467.0,
+                "y": 1002.0
+            },
+            "size": {
+                "x": 91.0,
+                "y": 118.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/ApprovedRate",
+            "type": "Image:True:1",
+            "sprite": "Hero",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 568.0
+            },
+            "size": {
+                "x": 544.0,
+                "y": 274.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/ApprovedSubtitle",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Your coins are worth more",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 706.0
+            },
+            "size": {
+                "x": 622.0,
+                "y": 68.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9739999771118164,
+                "y": 1.2300000190734864,
+                "z": 1.0
+            },
+            "fontSize": 49.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/ReferenceConnector",
+            "type": "Image:True:1",
+            "sprite": "Connector",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1002.5
+            },
+            "size": {
+                "x": 78.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

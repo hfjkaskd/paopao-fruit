@@ -1,0 +1,47 @@
+{
+    "startedUtc": "2026-09-28T13:26:36.7854439Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 7,
+    "pages": [
+        {
+            "page": "ExchangeRatePanel",
+            "openMethod": "InitWZ full initialization; production UIModule.OpenPage with temporary ExchangeRateInfo values, no account mutation",
+            "closeMethod": "EventSystem Close Button after reopening",
+            "screenshot": "Design/OrchardRateRefinement-20260928/RuntimeShort/00-rate-up.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 882.1884765625,
+                        "y": 1470.6826171875
+                    }
+                },
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "WithdrawBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 541.0401000976563,
+                        "y": 474.279541015625
+                    }
+                }
+            ],
+            "checks": [
+                "Both standard Buttons receive center hits; seven complete untinted artwork sprites fit the screen; text has no overflow; old and new amounts are green",
+                "Currency and all four amounts come from production formatting of temporary ExchangeRateInfo, not static preview text",
+                "Check closes the rate popup and opens the existing RealWithdrawPanel; no payment submitted",
+                "Reopen updates all four amounts with a second temporary data set",
+                "Close works; saved balance and last withdrawal timestamp unchanged"
+            ]
+        }
+    ],
+    "errors": []
+}

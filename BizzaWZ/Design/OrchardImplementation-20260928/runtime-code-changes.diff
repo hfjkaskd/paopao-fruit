@@ -1,0 +1,390 @@
+--- Assets\FruitsHarvest\Scripts\NewItemPop.cs before
++++ Assets\FruitsHarvest\Scripts\NewItemPop.cs after
+@@ -40,15 +40,16 @@
+ 	};
+ 
+ 	private bool claimed;
++	[SerializeField] private Button approvedClaimButton;
+ 
+ 	public override PAIEAGDLCBJ Layer => PAIEAGDLCBJ.Top;
+ 
+ 
+ 	protected override void Init()
+ 	{
+-		if (m_ClaimBtn != null)
++		if (approvedClaimButton != null)
+ 		{
+-			MCCIJBJGMCK.Get(m_ClaimBtn).onClick = OnClaimClick;
++			approvedClaimButton.onClick.AddListener(() => OnClaimClick(approvedClaimButton.gameObject));
+ 		}
+ 	}
+ 
+--- Assets\BizzaWZ\Final\Real\UI\DailyMissionPanel\DailyMissionPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\DailyMissionPanel\DailyMissionPanel.cs after
+@@ -20,6 +20,9 @@
+ {
+     public TMP_Text hintsTxt;
+     public TMP_Text refreshTimeTxt;
++    [SerializeField] private TMP_Text approvedRewardAmount;
++    [SerializeField] private TMP_Text approvedProgressText;
++    [SerializeField] private Image approvedProgressFill;
+     // public TMP_Text adsCountTxt;
+ 
+     public TMP_Text claimedHint;
+@@ -98,6 +101,13 @@
+                 );
+             countTxt = $" (<color=#9039D8>{cur}/{max}</color>)";
+              hintsTxt.text = hintTxt + countTxt;
++            if (approvedRewardAmount != null)
++            {
++                approvedRewardAmount.text = LanguageUtils.GetText("CurrencyToken") + WithdrawalUtil.GetCustomizedValueByCountryType((float)data.Os_My);
++                hintsTxt.text = LanguageUtils.GetFormatText("DailyWithdrawMissionPanel_Hint", data.Os_An, approvedRewardAmount.text);
++            }
++            if (approvedProgressText != null) approvedProgressText.text = $"{cur} / {max}";
++            if (approvedProgressFill != null) approvedProgressFill.fillAmount = max > 0 ? Mathf.Clamp01((float)cur / max) : 0;
+ 
+             LogLogger.LogVerbose(LogTag.DailyAD, $"每日任务界面刷新 ： " +
+                                              $"{cur}/{max}");
+@@ -125,7 +135,6 @@
+             timer = 0f;
+             UpdateRemainingTime();
+         }
+-        UpdateRemainingTime();
+     }
+ 
+     private void UpdateRemainingTime()
+--- Assets\BizzaWZ\Final\Real\UI\GetRewardPanel\GetRewardPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\GetRewardPanel\GetRewardPanel.cs after
+@@ -18,6 +18,7 @@
+ {
+     public BizzaButton claimBtn;
+     public BizzaButton closeBtn;
++    [SerializeField] private Button approvedNextButton;
+     public ItemEntry itemA;
+     public ItemEntry itemB;
+     // private DoubleGetRewardPanel.E_UseScene doubleGetRewardPanel;
+@@ -67,6 +68,7 @@
+ 
+     void Awake()
+     {
++        if(approvedNextButton!=null) approvedNextButton.onClick.AddListener(() => closeBtn.onClick.Invoke());
+         noThanksText.spriteAsset = commonSpriteAsset;
+ 
+         claimBtn.onClick.AddListener(() => { LookAd(); });
+--- Assets\BizzaWZ\Final\Real\UI\RealWithdrawalPanl\RealWithdrawPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\RealWithdrawalPanl\RealWithdrawPanel.cs after
+@@ -90,6 +90,15 @@
+     private const float UsProgressInfoHeight = 470f;
+     private const float DefaultProgressInfoHeight = 320;
+     [SerializeField] private RectTransform progressInfoRect;
++    [SerializeField] private bool layoutControlsProgressPosition;
++    [SerializeField] private LayoutElement approvedProgressLayout;
++    [SerializeField] private float approvedCompleteHeight = 80;
++    [SerializeField] private float approvedProgressHeight = 146;
++    [SerializeField] private float approvedCompleteWidth = 428;
++    [SerializeField] private float approvedProgressWidth = 788;
++    [SerializeField] private bool compactLevelLabels;
++    [SerializeField] private string completeFormatPortuguese;
++    [SerializeField] private string completeFormatEnglish;
+ 
+     private bool isSelectPlatform = false;
+     private WithdrawWay CurrentWay
+@@ -127,7 +136,7 @@
+         fingerObj.SetActive(false);
+         RefreshProgressInfoHeight();
+         OriginalCanWithdrawHandleHint();
+-        if (ChannelConfig.Instance.real_CustomConfig.realWithdrawPassMode)
++        if (!compactLevelLabels && ChannelConfig.Instance.real_CustomConfig.realWithdrawPassMode)
+         {
+             passLevelText.text = LanguageUtils.GetFormatText("RealPage_PassLevel", $":{currentLevel}");
+         }
+@@ -142,6 +151,7 @@
+ 
+     private void RefreshProgressInfoHeight()
+     {
++        if (layoutControlsProgressPosition) return;
+         float targetHeight = AccountModule.CountryType == AccountModule.E_CountryType.US
+             ? UsProgressInfoHeight
+             : DefaultProgressInfoHeight;
+@@ -478,9 +488,16 @@
+         progressObj.gameObject.SetActive(!isCompleted);
+         progressHintTxt.gameObject.SetActive(!isCompleted);
+         completeHintTxt.gameObject.SetActive(isCompleted);
++        if (approvedProgressLayout != null)
++        {
++            approvedProgressLayout.preferredHeight = isCompleted ? approvedCompleteHeight : approvedProgressHeight;
++            approvedProgressLayout.preferredWidth = isCompleted ? approvedCompleteWidth : approvedProgressWidth;
++        }
+         if (isCompleted)
+         {
+             completeHintTxt.text = LanguageUtils.GetFormatText("WithdrawHintPanel_Hint3", AccountModule.Instance.Get_S_Ewl()).GetReplaceDesc(_colorReplaceList[1]);
++            string format=LanguageUtils.SelectedLanguage=="pt-BR"?completeFormatPortuguese:LanguageUtils.SelectedLanguage=="en-US"?completeFormatEnglish:null;
++            if(!string.IsNullOrEmpty(format)) completeHintTxt.text=string.Format(format,LanguageUtils.GetText("CurrencyToken")+AccountModule.Instance.Get_S_Ewl());
+         }
+         else
+         {
+--- Assets\BizzaWZ\Final\Real\UI\UIWithdrawalPendingPanel\UIWithdrawalPendingPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\UIWithdrawalPendingPanel\UIWithdrawalPendingPanel.cs after
+@@ -46,6 +46,12 @@
+     [SerializeField] private BizzaButton confirmButton;
+     [SerializeField] private BizzaButton closeButton;
+ 
++    [Header("Prefab presentation states")]
++    [SerializeField] private GameObject[] pendingPresentation = Array.Empty<GameObject>();
++    [SerializeField] private GameObject[] completedPresentation = Array.Empty<GameObject>();
++    [SerializeField] private Sprite pendingButtonSprite;
++    [SerializeField] private Sprite completedButtonSprite;
++
+     [Header("Progress")]
+     [SerializeField] private int progressTotalStep = 20;
+     [SerializeField] private float progressSoftCap = 0.9f;
+@@ -254,6 +260,13 @@
+     {
+         SetButtonEnabled(confirmButton, enabled);
+         SetButtonEnabled(closeButton, enabled);
++        foreach (var element in pendingPresentation) SetActive(element, !enabled);
++        foreach (var element in completedPresentation) SetActive(element, enabled);
++        if (confirmButton != null && confirmButton.image != null)
++        {
++            Sprite stateSprite = enabled ? completedButtonSprite : pendingButtonSprite;
++            if (stateSprite != null) confirmButton.image.sprite = stateSprite;
++        }
+     }
+ 
+     private static void SetButtonEnabled(BizzaButton button, bool enabled)
+--- Assets\BizzaWZ\Final\Real\UI\WithdrawFillPanel\UIWithdrawalConfirmPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\WithdrawFillPanel\UIWithdrawalConfirmPanel.cs after
+@@ -81,33 +81,7 @@
+         {
+             EmailText.text = Ra;
+         }
+-        if (withdrawType == E_WithdrawType.DailyMission)
+-        {
+-            PaymentValueText.text = $"{LanguageUtils.GetText("CurrencyToken")}0,2";
+-        }
+-        else if (withdrawType == E_WithdrawType.Fake)
+-        {
+-            float value = 0.01f;
+-            switch (AccountModule.CountryType)
+-            {
+-                case AccountModule.E_CountryType.BR:
+-                    value = 0.01f;
+-                    break;
+-                case AccountModule.E_CountryType.ID:
+-                    value = 20f;
+-                    break;
+-                case AccountModule.E_CountryType.US:
+-                    value = 0.01f;
+-                    break;
+-            }
+-
+-            PaymentValueText.text = $"{LanguageUtils.GetText("CurrencyToken")}{WithdrawalUtil.GetCustomizedValueByCountryType(value)}";
+-        }
+-        else if (withdrawType == E_WithdrawType.Real)
+-        {
+-            PaymentValueText.text =
+-                $"{LanguageUtils.GetText("CurrencyToken")}{AccountModule.Instance.Get_S_Ewl()}";
+-        }
++        PaymentValueText.text = WithdrawalAmountPresentation.Format(withdrawType);
+ 
+         CPFObj.gameObject.SetActive(!string.IsNullOrEmpty(CPF_CNPJ));
+         NameObj.gameObject.SetActive(!string.IsNullOrEmpty(Name));
+--- Assets\BizzaWZ\Final\Real\UI\WithdrawFillPanel\UIWithdrawalPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\WithdrawFillPanel\UIWithdrawalPanel.cs after
+@@ -29,6 +29,7 @@
+     [FoldoutGroup("自适应")]
+     [LabelText("额外高度")]
+     public float defaultHeight = 470;
++    [SerializeField] private TMP_Text approvedAmountLabel;
+ 
+     [FoldoutGroup("基础界面")]
+     [LabelText("信息填写界面")]
+@@ -307,6 +308,7 @@
+         this.plats = plats;
+         this.callback = callback;
+         this.withdrawType = withdrawType;
++        if (approvedAmountLabel != null) approvedAmountLabel.text = WithdrawalAmountPresentation.Format(withdrawType);
+ 
+         PlatformRoot.gameObject.SetActive(isSelectPlatform);
+         PlatformIconRoot.gameObject.SetActive(!isSelectPlatform);
+--- Assets\BizzaWZ\Final\Real\UI\WithdrawHistory\WithdrawHistoryItem.cs before
++++ Assets\BizzaWZ\Final\Real\UI\WithdrawHistory\WithdrawHistoryItem.cs after
+@@ -23,6 +23,8 @@
+     public TMP_Text amountTxt;
+     
+     [SerializeField] private PaymentConfig paymentConfig;
++    [SerializeField] private float normalRowHeight = 300;
++    [SerializeField] private float failedRowHeight = 342;
+      
+     public void Init(AccountModule.OceanShineWithdrawalRecord data)
+     {
+@@ -72,7 +74,7 @@
+         dueText.text = data.Os_Tsm;
+ 
+         float length = transform.GetComponent<RectTransform>().sizeDelta.x;
+-        transform.GetComponent<RectTransform>().sizeDelta = isFail ? new Vector2(length, 300) : new Vector2(length, 230);
++        transform.GetComponent<RectTransform>().sizeDelta = new Vector2(length, isFail ? failedRowHeight : normalRowHeight);
+ 
+     }
+ }
+--- Assets\BizzaWZ\Final\Real\UI\SlotsPanel\SlotPanel\SlotPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\SlotsPanel\SlotPanel\SlotPanel.cs after
+@@ -4,6 +4,7 @@
+ using Sirenix.OdinInspector;
+ using TMPro;
+ using UnityEngine;
++using UnityEngine.UI;
+ 
+ public partial class UIPageIds
+ {
+@@ -27,6 +28,10 @@
+     public BizzaButton closeBtn;
+     public BizzaButton faqBtn;
+     public BizzaButton slotBtn;
++    [SerializeField] private Button approvedAdButton;
++    [SerializeField] private TMP_Text approvedFreeLabel;
++    [SerializeField] private TMP_Text approvedProgressLabel;
++    [SerializeField] private Image[] approvedChecks;
+ 
+     protected override void OnAwake()
+     {
+@@ -35,6 +40,7 @@
+         closeBtn.onClick.AddListener(OnClosePanel);
+         faqBtn.onClick.AddListener(OnClickFQA);
+         slotBtn.onClick.AddListener(PlaySlotBtn);
++        if (approvedAdButton != null) approvedAdButton.onClick.AddListener(PlayAdSpin);
+     }
+ 
+     protected override void OnClose()
+@@ -63,6 +69,14 @@
+         bool isCanclick = SlotProgressUtil.CanFreeSpin;
+         canClickObj.SetActive(isCanclick);
+         notCanClickObj.SetActive(!isCanclick);
++        if (approvedAdButton != null)
++        {
++            slotBtn.interactable = isCanclick && !isSloting;
++            approvedAdButton.interactable = !isSloting;
++            if (approvedFreeLabel != null) approvedFreeLabel.text = isCanclick ? "1" : "0";
++            if (approvedProgressLabel != null) approvedProgressLabel.text = $"{SlotProgressUtil.Current} / {SlotProgressUtil.RequiredPassedLevels}";
++            if (approvedChecks != null) for (int i = 0; i < approvedChecks.Length; i++) if (approvedChecks[i] != null) approvedChecks[i].color = i < SlotProgressUtil.Current ? Color.white : new Color(1, 1, 1, .3f);
++        }
+         slotRewardPanel.gameObject.SetActive(false);
+         if (isCanclick)
+         {
+@@ -123,6 +137,15 @@
+ #endif
+     }
+ 
++    private void PlayAdSpin()
++    {
++        if (isSloting) return;
++        isSloting = true;
++        BizzaSdk.Ad.ShowRewardAd("USSlot", WithdrawalUtil.GetDollarCountByReward(), OnAdResult);
++        UIModule.Instance.m_curadvertistics--;
++        Refresh();
++    }
++
+     private void OnAdResult(Bizza.Sdk.ShowAdResult param)
+     {
+         #if BIZZA_REAL_WITHDRAW
+@@ -131,6 +154,7 @@
+         if (!isSuccess || response == null)
+         {
+             isSloting = false;
++            Refresh();
+             return;
+         }
+         coinValue = (float)response.GetBalance();
+@@ -150,6 +174,8 @@
+                 slotRewardPanel.gameObject.SetActive(true);
+                 slotRewardPanel.Init(coinValue, _dollar, type, isAd);
+                 isSloting = false;
++                if (approvedAdButton != null) approvedAdButton.interactable = true;
++                slotBtn.interactable = SlotProgressUtil.CanFreeSpin;
+             }
+         );
+     }
+--- Assets\BizzaWZ\Final\Real\UI\SlotsPanel\SlotPanel\SlotRewardPanel.cs before
++++ Assets\BizzaWZ\Final\Real\UI\SlotsPanel\SlotPanel\SlotRewardPanel.cs after
+@@ -36,6 +36,12 @@
+ 
+     public GameObject btnObj;
+     public Image resultImage;
++    [SerializeField] private Button approvedClaimButton;
++
++    private void Awake()
++    {
++        if(approvedClaimButton!=null) approvedClaimButton.onClick.AddListener(OnClickClose);
++    }
+ 
+     public void Init(float coin, float dollar, string resultType, bool fromAd = false)
+     {
+--- Assets\BizzaWZ\Final\MenuSystem\Common\Task\Src\UI\UIDailyTaskPage.cs before
++++ Assets\BizzaWZ\Final\MenuSystem\Common\Task\Src\UI\UIDailyTaskPage.cs after
+@@ -48,6 +48,8 @@
+     private E_ItemType activityResType;
+     private int timePass = -1;
+     public Button closeBtn;
++    [SerializeField] private GameObject tabRoot;
++    [SerializeField, Range(0, 2)] private int initialTab;
+ 
+     void Awake()
+     {
+@@ -65,7 +67,8 @@
+         int taskStartDay = SaveDataUtils.TaskData.taskStartDay;
+         int currentDay = (int)TimeUtil.GetCurrentTime(ETimeUnit.DAYS);
+         timePass = currentDay - taskStartDay;
+-        OnTabClick(0);
++        if (tabRoot != null) tabRoot.SetActive(enableTab);
++        OnTabClick(initialTab);
+         // UiManager.Instance.OpenMask();
+ 
+         BizzaEventSystem.Set(EventDefine.Task.TaskRefresh, OnTaskRefresh, true);
+@@ -134,7 +137,7 @@
+                 var activityCfg = activityCfgs[i];
+                 if (activityCfg.RefreshDays != refreshDays) continue;
+ 
+-                var activityTaskInfo = MenuSys_Task.Instance.dailyActivityTaskInfos[activityCfg.Id];
++                if (!MenuSys_Task.Instance.dailyActivityTaskInfos.TryGetValue(activityCfg.Id, out var activityTaskInfo)) continue;
+                 var ele = PoolUtil.GetComponent(activityElement);
+                 ele.gameObject.SetActive(true);
+                 ele.transform.SetParent(activityTaskRoot);
+@@ -213,7 +216,9 @@
+     public bool enableTab;
+     private void OnTabClick(int tabIdx)
+     {
+-
++        IsPlayTimeTask = tabIdx == 2;
++        refreshDays = tabIdx == 1 ? 7 : 1;
++        RefreshDailyTask();
+     }
+ 
+     private void OnTaskRefresh()
+@@ -230,7 +235,7 @@
+     private void OnActivityRefresh()
+     {
+         int n = ItemUtils.GetItemCountInt(activityResType);
+-        activityBar.fillAmount = Mathf.Clamp01(n * 1.0f / maxActivity);
++        activityBar.fillAmount = maxActivity > 0 ? Mathf.Clamp01(n * 1.0f / maxActivity) : 0f;
+         txtActiveCount.text = n.ToString();
+     }
+ 
+--- Assets\BizzaWZ\Common\BizzaGame\Z_ReplaceAssets\PausePanel.cs before
++++ Assets\BizzaWZ\Common\BizzaGame\Z_ReplaceAssets\PausePanel.cs after
+@@ -76,7 +76,7 @@
+     private void Awake()
+     {
+         CloseButton.onClick.AddListener((() => {
+-            World.Current.Pause(this);
++            World.Current.Resume(this);
+             this.CloseSelf();
+         }));
+         ContinueButton.onClick.AddListener(() =>
+@@ -173,6 +173,7 @@
+         }
+         languageDropdown.ClearOptions();
+         languageDropdown.AddOptions(options);
++        languageDropdown.onValueChanged.RemoveListener(ChangeLanguage);
+         languageDropdown.onValueChanged.AddListener(ChangeLanguage);
+     }
+ 

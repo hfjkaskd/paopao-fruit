@@ -29,6 +29,7 @@ public class UIWithdrawalPanel : UIPageBase<AccountModule.OceanShineWithdrawalPa
     [FoldoutGroup("自适应")]
     [LabelText("额外高度")]
     public float defaultHeight = 470;
+    [SerializeField] private TMP_Text approvedAmountLabel;
 
     [FoldoutGroup("基础界面")]
     [LabelText("信息填写界面")]
@@ -37,6 +38,7 @@ public class UIWithdrawalPanel : UIPageBase<AccountModule.OceanShineWithdrawalPa
     [FoldoutGroup("基础界面")]
     [LabelText("输入框界面")]
     public RectTransform InputRoot;
+    [SerializeField] private OrchardKeyboardFormScroll accountScroll;
 
     [FoldoutGroup("基础界面")]
     [LabelText("选择平台界面")]
@@ -307,6 +309,7 @@ public class UIWithdrawalPanel : UIPageBase<AccountModule.OceanShineWithdrawalPa
         this.plats = plats;
         this.callback = callback;
         this.withdrawType = withdrawType;
+        if (approvedAmountLabel != null) approvedAmountLabel.text = WithdrawalAmountPresentation.Format(withdrawType);
 
         PlatformRoot.gameObject.SetActive(isSelectPlatform);
         PlatformIconRoot.gameObject.SetActive(!isSelectPlatform);
@@ -386,7 +389,8 @@ public class UIWithdrawalPanel : UIPageBase<AccountModule.OceanShineWithdrawalPa
         Canvas.ForceUpdateCanvases();
         LayoutRebuilder.ForceRebuildLayoutImmediate(InputRoot);
 
-        BG.sizeDelta = new Vector2(BG.sizeDelta.x, defaultHeight + InputRoot.rect.height);
+        if (accountScroll != null) accountScroll.RefreshContent();
+        else BG.sizeDelta = new Vector2(BG.sizeDelta.x, defaultHeight + InputRoot.rect.height);
     }
 
 

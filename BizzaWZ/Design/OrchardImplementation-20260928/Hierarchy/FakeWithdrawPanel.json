@@ -1,0 +1,3570 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/FakeWithdrawPanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Animation FakeWithdrawPanel",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "FakeWithdrawPanel.USWithdrawMissionSOList.Array.data[0] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig2.asset",
+                "FakeWithdrawPanel.USWithdrawMissionSOList.Array.data[1] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig3.asset",
+                "FakeWithdrawPanel.USWithdrawMissionSOList.Array.data[2] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig4.asset",
+                "FakeWithdrawPanel.USWithdrawMissionSOList.Array.data[3] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig5.asset",
+                "FakeWithdrawPanel.USWithdrawMissionSOList.Array.data[4] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig6.asset",
+                "FakeWithdrawPanel.BRWithdrawMissionSOList.Array.data[0] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig1.asset",
+                "FakeWithdrawPanel.BRWithdrawMissionSOList.Array.data[1] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig2.asset",
+                "FakeWithdrawPanel.BRWithdrawMissionSOList.Array.data[2] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig3.asset",
+                "FakeWithdrawPanel.BRWithdrawMissionSOList.Array.data[3] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig4.asset",
+                "FakeWithdrawPanel.BRWithdrawMissionSOList.Array.data[4] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig5.asset",
+                "FakeWithdrawPanel.BRWithdrawMissionSOList.Array.data[5] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/USFakeWithdrawMissionConfig6.asset",
+                "FakeWithdrawPanel.IDWithdrawMissionSOList.Array.data[0] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig1.asset",
+                "FakeWithdrawPanel.IDWithdrawMissionSOList.Array.data[1] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig2.asset",
+                "FakeWithdrawPanel.IDWithdrawMissionSOList.Array.data[2] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig3.asset",
+                "FakeWithdrawPanel.IDWithdrawMissionSOList.Array.data[3] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig4.asset",
+                "FakeWithdrawPanel.IDWithdrawMissionSOList.Array.data[4] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig5.asset",
+                "FakeWithdrawPanel.IDWithdrawMissionSOList.Array.data[5] = Assets/BizzaWZ/Final/Real/Config/FakeWithdrawMissionConfig/IDFakeWithdrawMissionConfig6.asset",
+                "FakeWithdrawPanel.withdrawBtn = Content/WithdrawBtn",
+                "FakeWithdrawPanel.faqBtn = ButtomGroup/FQA",
+                "FakeWithdrawPanel.closeBtn = ButtomGroup/CloseBtn",
+                "FakeWithdrawPanel.historyBtn = ButtomGroup/HistoryBtn",
+                "FakeWithdrawPanel.balanceTxt = Content/CashBalance/Balance/Cash",
+                "FakeWithdrawPanel.item = Assets/BizzaWZ/Final/Real/UI/FakeWithdrawPanel/WithdrawAmountItem.prefab",
+                "FakeWithdrawPanel.root = Content/WithdrawAmount/Scroll View/Viewport/Content",
+                "FakeWithdrawPanel.items.Array.data[0] = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)",
+                "FakeWithdrawPanel.items.Array.data[1] = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)",
+                "FakeWithdrawPanel.items.Array.data[2] = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)",
+                "FakeWithdrawPanel.items.Array.data[3] = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)",
+                "FakeWithdrawPanel.items.Array.data[4] = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)",
+                "FakeWithdrawPanel.items.Array.data[5] = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)",
+                "FakeWithdrawPanel.progressImg = Content/WithdrawProgress/Progress/real",
+                "FakeWithdrawPanel.progressTxt = Content/WithdrawProgress/Progress/real/Text (TMP)",
+                "FakeWithdrawPanel.hintTxt = Content/HintText",
+                "FakeWithdrawPanel.fingerObj = ButtomGroup/HistoryBtn/FingerHint"
+            ]
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": " RectTransform CanvasRenderer Image AspectRatioFitter OrchardBackdrop",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "OrchardBackdrop.target = OrchardBackdrop"
+            ]
+        },
+        {
+            "path": "BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -1.5,
+                "y": 159.14999389648438
+            },
+            "size": {
+                "x": 1083.0,
+                "y": 1567.5
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Frame",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/WithdrawCreamWoodPanel.png#WithdrawCreamWoodPanel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -0.2637939453125,
+                "y": 642.89013671875
+            },
+            "size": {
+                "x": 1020.951416015625,
+                "y": 1353.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 541.5,
+                "y": -306.0
+            },
+            "size": {
+                "x": 1083.0,
+                "y": 355.1864013671875
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Cash Balance",
+            "active": true,
+            "position": {
+                "x": 530.703369140625,
+                "y": -120.0
+            },
+            "size": {
+                "x": 867.4066772460938,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Balance",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 537.9630737304688,
+                "y": -248.2677001953125
+            },
+            "size": {
+                "x": 896.7210083007813,
+                "y": 177.80499267578126
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Balance/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Balance/Cash",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$ 3.12825",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 64.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 541.5,
+                "y": -733.4068603515625
+            },
+            "size": {
+                "x": 1083.0,
+                "y": 485.92919921875
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Select Amount",
+            "active": true,
+            "position": {
+                "x": 533.452880859375,
+                "y": -35.0
+            },
+            "size": {
+                "x": 871.9404907226563,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View",
+            "type": " RectTransform CanvasRenderer Image ScrollRect",
+            "sprite": "Resources/unity_builtin_extra#Background",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 543.4232177734375,
+                "y": -277.0
+            },
+            "size": {
+                "x": 891.8765258789063,
+                "y": 425.9200134277344
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollRect.m_Content = Content/WithdrawAmount/Scroll View/Viewport/Content",
+                "ScrollRect.m_Viewport = Content/WithdrawAmount/Scroll View/Viewport"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport",
+            "type": " RectTransform CanvasRenderer Image Mask",
+            "sprite": "Resources/unity_builtin_extra#UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -18.913604736328126
+            },
+            "size": {
+                "x": 892.0,
+                "y": 441.08642578125
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content",
+            "type": " RectTransform GridLayoutGroup ContentSizeFitter",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.00017491607286501676
+            },
+            "size": {
+                "x": 892.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Amount",
+                "WithdrawAmountItem.getObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag",
+                "WithdrawAmountItem.getedObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetedTag",
+                "WithdrawAmountItem.selectObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Select",
+                "WithdrawAmountItem.btn = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)",
+                "BizzaButton.scaleTarget = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Amount",
+                "WithdrawAmountItem.getObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag",
+                "WithdrawAmountItem.getedObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetedTag",
+                "WithdrawAmountItem.selectObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Select",
+                "WithdrawAmountItem.btn = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)",
+                "BizzaButton.scaleTarget = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Amount",
+                "WithdrawAmountItem.getObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag",
+                "WithdrawAmountItem.getedObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetedTag",
+                "WithdrawAmountItem.selectObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Select",
+                "WithdrawAmountItem.btn = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)",
+                "BizzaButton.scaleTarget = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Amount",
+                "WithdrawAmountItem.getObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag",
+                "WithdrawAmountItem.getedObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetedTag",
+                "WithdrawAmountItem.selectObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Select",
+                "WithdrawAmountItem.btn = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)",
+                "BizzaButton.scaleTarget = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Amount",
+                "WithdrawAmountItem.getObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag",
+                "WithdrawAmountItem.getedObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetedTag",
+                "WithdrawAmountItem.selectObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Select",
+                "WithdrawAmountItem.btn = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)",
+                "BizzaButton.scaleTarget = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)",
+            "type": " RectTransform WithdrawAmountItem BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawAmountItem.amountTxt = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Amount",
+                "WithdrawAmountItem.getObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag",
+                "WithdrawAmountItem.getedObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetedTag",
+                "WithdrawAmountItem.selectObj = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Select",
+                "WithdrawAmountItem.btn = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)",
+                "BizzaButton.scaleTarget = Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)"
+            ]
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -38.0
+            },
+            "size": {
+                "x": 236.0,
+                "y": 44.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetedTag",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 184.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetedTag/text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": true,
+            "position": {
+                "x": -100.0,
+                "y": -18.92529296875
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 20.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -33.0,
+                "y": 33.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Amount",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "$10",
+            "active": true,
+            "position": {
+                "x": -0.9801025390625,
+                "y": 1.8545074462890626
+            },
+            "size": {
+                "x": -46.63330078125,
+                "y": 3.709199905395508
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 52.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 541.5,
+                "y": -1050.9375
+            },
+            "size": {
+                "x": 1083.0,
+                "y": 150.9499969482422
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Progress",
+            "active": true,
+            "position": {
+                "x": 551.2000122070313,
+                "y": -37.79499816894531
+            },
+            "size": {
+                "x": 890.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -24.0
+            },
+            "size": {
+                "x": 902.9887084960938,
+                "y": 73.36000061035156
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ProgressTrack",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 897.0,
+                "y": 48.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress/real",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png#WithdrawProgressSoftFill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 865.0,
+                "y": 36.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress/real/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "New Text",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn",
+            "type": " RectTransform BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -0.5,
+                "y": -442.34234619140627
+            },
+            "size": {
+                "x": 460.0,
+                "y": 170.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.scaleTarget = Content/WithdrawBtn"
+            ]
+        },
+        {
+            "path": "Content/WithdrawBtn/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalGreenButton.png#HudNaturalGreenButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 3.730299949645996,
+                "y": -1.0
+            },
+            "size": {
+                "x": 471.9635925292969,
+                "y": 168.07150268554688
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/bg/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/bg/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "WithDraw",
+            "active": true,
+            "position": {
+                "x": 3.6782000064849855,
+                "y": 1.64678955078125
+            },
+            "size": {
+                "x": 453.2745056152344,
+                "y": 149.8385009765625
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 58.0,
+            "fields": []
+        },
+        {
+            "path": "Content/HintText",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Tne cash balance reaches $2.000 and can bewithdrawn, but there is still a difference of $1.800",
+            "active": true,
+            "position": {
+                "x": 552.15478515625,
+                "y": -1388.0068359375
+            },
+            "size": {
+                "x": 901.3604125976563,
+                "y": 93.31999969482422
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -992.0
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 1920.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/bg",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/HudNaturalCounter.png#HudNaturalCounter",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -83.0
+            },
+            "size": {
+                "x": 570.0,
+                "y": 154.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/bg/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 21.1200008392334,
+                "y": 18.479999542236329
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/bg/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -21.1200008392334,
+                "y": 18.479999542236329
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Withdrawal",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -83.0
+            },
+            "size": {
+                "x": 490.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 60.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/CloseBtn",
+            "type": " RectTransform BizzaButton CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -466.29998779296877,
+                "y": -84.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = ButtomGroup/CloseBtn",
+                "BizzaButton.scaleTarget = ButtomGroup/CloseBtn"
+            ]
+        },
+        {
+            "path": "ButtomGroup/CloseBtn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_Back.png#Icon_Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/FQA",
+            "type": " RectTransform BizzaButton CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 466.0,
+                "y": -84.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = ButtomGroup/FQA",
+                "BizzaButton.scaleTarget = ButtomGroup/FQA"
+            ]
+        },
+        {
+            "path": "ButtomGroup/FQA/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_FAQ.png#Icon_FAQ",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn",
+            "type": " RectTransform BizzaButton CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#History",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 340.0,
+                "y": -84.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = ButtomGroup/HistoryBtn",
+                "BizzaButton.scaleTarget = ButtomGroup/HistoryBtn"
+            ]
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_Historiy.png#Icon_Historiy",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/FingerHint",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 22.0,
+                "y": -43.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.7999999523162842,
+                "y": 0.7999999523162842,
+                "z": 0.7999999523162842
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/FingerHint/SkeletonGraphic (SHOU)",
+            "type": " RectTransform CanvasRenderer SkeletonGraphic",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -25.242462158203126,
+                "y": 29.357421875
+            },
+            "size": {
+                "x": 194.15509033203126,
+                "y": 201.18505859375
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.3699881434440613,
+                "y": 0.6459226608276367
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ServiceBtn",
+            "type": " RectTransform CanvasRenderer Image BizzaButton ServiceBtn",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Chat",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -18.0,
+                "y": -1249.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = ServiceBtn",
+                "BizzaButton.scaleTarget = ServiceBtn",
+                "ServiceBtn.redDot = ServiceBtn/Image"
+            ]
+        },
+        {
+            "path": "ServiceBtn/Image",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Common/MenuSystem/Common/RedPoint/Res/Icon_Red.png#Icon_Red",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -42.29999923706055,
+                "y": 45.099998474121097
+            },
+            "size": {
+                "x": 51.0,
+                "y": 52.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

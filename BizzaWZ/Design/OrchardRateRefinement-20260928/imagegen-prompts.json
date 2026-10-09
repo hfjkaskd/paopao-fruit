@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen edit",
+  "reference": "Design/PremiumOrchardUI-20260927/images/18-rate-up-v2.png",
+  "prompts": [
+    {
+      "prompt": "Reference image: approved Orchard Trio Rate Up game popup. Create a production transparent UI sprite sheet reproducing the reference's foreground pieces very faithfully, no redesign. Stack seven isolated pieces vertically, generous transparent separation, each perfectly front-facing. 1) Rounded warm honey wooden title plaque with the lush leaves on both sides, same thick softly arched shape as reference; remove Rate Up letters leaving wood blank. 2) Large sprout gold coin stack with green upward curved arrow and leaves, including the pale golden radial rays and soft shadow behind; same rich painterly 3D detail and proportions. 3) BEFORE comparison card, aspect ratio 690:226: pale ivory/peach rounded rectangle with subtle beige edge and upper-corner gleam, blank beige pill centered near top, original large sprout coin stack at lower left (around x55 y65 in a 690x226 card), leave entire right half blank for dynamic text. No leaves added to these coins. 4) Small downward pointing green chevron with white rim, matching reference connector. 5) NOW comparison card, aspect ratio 690:272: mint rounded rectangle with bright thin green outline, light green blank pill top center, original large sprout coin stack at lower left (around x50 y92 in a 690x272 card), two small gold stars at left and two at right, subtle yellow glow, leave entire right half blank for dynamic text. 6) Glossy bright green rounded action button, aspect ratio 596:140, matching reference Check button exactly; remove all text. 7) Glossy round blue close button with original white X centered, keep X. Preserve the exact color, icon size within each card, highlights, corner radii and clear silhouettes from reference. Transparent everywhere outside these individual pieces. No main panel, no gameplay background, no phone, no amounts, no Before/Now words, no other letters or numerals. This is a high fidelity game UI asset extraction; do not simplify or replace the reference ornamentation.",
+      "source": "C:/Users/pc/.codex/generated_images/01a0e5e9-e246-7930-92b9-29aabcc114f3/exec-a9e8de40-0d21-404b-b6ea-25b869928669.png",
+      "output": "Assets/OrchardUI/Resources/OrchardUI/RateReferenceRadiance.png",
+      "use": "Hero sprite including radial rays only"
+    },
+    {
+      "prompt": "Edit the sprite sheet only. Keep the seven exact assets and style, same pixel scale, and all text blank. Correct the fifth asset, the green NOW comparison card: its outside silhouette MUST have width-to-height ratio 690:272 (about 2.54:1). Increase its HEIGHT about 22 percent while keeping its width unchanged, extending the mint interior vertically and moving its coin stack and stars down. Keep the coin stack and circular coin undistorted at their current size; do NOT stretch the circle. Keep the top pill unchanged. Move the sixth green action button and seventh blue X button down to make space, extend the transparent canvas height if required. Keep generous clear transparent gaps between all seven assets. First beige BEFORE card stays ratio 690:226, do not alter it. Keep wooden plaque, upward arrow hero, connector and all other pieces unchanged. No text or numbers, preserve true alpha transparency outside assets.",
+      "source": "C:/Users/pc/.codex/generated_images/01a0e5e9-e246-7930-92b9-29aabcc114f3/exec-1668888c-5b88-47e2-bd6a-d2bcc7e69efa.png",
+      "output": "Assets/OrchardUI/Resources/OrchardUI/RateReferenceControls.png",
+      "use": "Title, comparison cards, connector, standard Button artwork"
+    }
+  ]
+}

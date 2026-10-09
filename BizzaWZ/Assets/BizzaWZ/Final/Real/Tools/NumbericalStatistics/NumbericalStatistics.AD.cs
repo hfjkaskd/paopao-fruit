@@ -46,11 +46,10 @@ public partial class NumbericalStatistics
         LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"打开恭喜获得界面 - 进度:{ShowGetRewardNum},最大次数:{ShowGetRewardCount},是否显示:{show}");
         if (!show)
         {
-            CheckGetDollar(pos);
             return false;
         }
+        if (!Real_GetRewardPanelUtil.OpenGetRewardPanel(DoubleGetRewardPanel.E_UseScene.MatchReward)) return false;
         ShowGetRewardNum = 0;
-        Real_GetRewardPanelUtil.OpenGetRewardPanel(DoubleGetRewardPanel.E_UseScene.MatchReward);
         return true;
     }
 
@@ -86,10 +85,7 @@ public partial class NumbericalStatistics
     public static bool CheckGetDollar(Vector3 pos)
     {
         var showDollarCount = ShowDollarCount;
-        bool show = !ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode &&
-                    showDollarCount > 0 &&
-                    ShowGetRewardNum != 0 &&
-                    ShowGetRewardNum % showDollarCount == 0;
+        bool show = !ChannelConfig.Instance.real_CustomConfig.singleCurrencyMode;
         LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"出现Dollar界面 - 进度:{ShowGetRewardNum},最大次数:{ShowDollarCount},是否显示:{show}");
         if (!show) return false;
 

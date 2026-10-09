@@ -1,0 +1,57 @@
+{
+    "startedUtc": "2026-09-28T12:44:16.3217611Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 9,
+    "pages": [
+        {
+            "page": "WithdrawHistory",
+            "openMethod": "InitWZ full initialization, production UIModule and history request; isolated prefab rows for three-state visual/interaction coverage only, never sent to server or saved",
+            "closeMethod": "EventSystem Back Button",
+            "screenshot": "Design/OrchardHistoryRefinement-20260928/RuntimeShort/01-history.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 188.97076416015626,
+                        "y": 1795.7095947265625
+                    }
+                },
+                {
+                    "name": "ApprovedHelp",
+                    "topHit": "ApprovedHelp",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 886.868896484375,
+                        "y": 1795.7095947265625
+                    }
+                },
+                {
+                    "name": "ApprovedSupport",
+                    "topHit": "ApprovedSupport",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 545.200439453125,
+                        "y": 423.3153076171875
+                    }
+                }
+            ],
+            "checks": [
+                "Production row Init: statuses 1/2/3/4/1 switch the clock/check/cross and failure hint correctly on a reused item; receiving account reset without overlap",
+                "Three record cards, all labels and failure reason fit; payment logos preserve aspect; Back, Help and Support Buttons receive pointer hits",
+                "Twelve real prefab rows: scrolling reaches the complete last failed record and its reason inside the rectangular viewport",
+                "Help opens FAQ; bottom question-mark Button opens support; both return to history",
+                "Disposable rows removed, original records/empty state restored, returned to gameplay; balance and withdrawal timestamp unchanged"
+            ]
+        }
+    ],
+    "errors": []
+}

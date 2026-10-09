@@ -1,0 +1,3388 @@
+{
+    "prefab": "Assets/BizzaWZ/Final/Real/UI/WithdrawFillPanel/WithdrawFillPanel.prefab",
+    "nodes": [
+        {
+            "path": "",
+            "type": " RectTransform Canvas GraphicRaycaster UIWithdrawalPanel Animation KeyBoardPanel KeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "UIWithdrawalPanel.BG = Root/FillRoot/BG",
+                "UIWithdrawalPanel.FillingRoot = Root/FillRoot",
+                "UIWithdrawalPanel.InputRoot = Root/FillRoot/pageContent",
+                "UIWithdrawalPanel.PlatformRoot = Root/FillRoot/SelectPlatform",
+                "UIWithdrawalPanel.withdrawWayItem = Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/WithdrawWay.prefab",
+                "UIWithdrawalPanel.PlatformIconRoot = Root/FillRoot/Balence",
+                "UIWithdrawalPanel.paymentImage = Root/FillRoot/Balence/Icon",
+                "UIWithdrawalPanel.paymentList = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset",
+                "UIWithdrawalPanel.CPFNumberInput = Root/FillRoot/pageContent/InfoContent/CPF/account_input",
+                "UIWithdrawalPanel.CPFNumberError = Root/FillRoot/pageContent/InfoContent/CPFErrorHint/Text (TMP)",
+                "UIWithdrawalPanel.CPFNumberErrorTra = Root/FillRoot/pageContent/InfoContent/CPFErrorHint",
+                "UIWithdrawalPanel.accountNameInput = Root/FillRoot/pageContent/InfoContent/Name/Name_input",
+                "UIWithdrawalPanel.accountNameError = Root/FillRoot/pageContent/InfoContent/NameErrorHint/Text (TMP)",
+                "UIWithdrawalPanel.accountNameErrorTra = Root/FillRoot/pageContent/InfoContent/NameErrorHint",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[0].selectedIcon = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email/Select",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[0].btn = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[1].selectedIcon = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF/Select (1)",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[1].btn = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[2].selectedIcon = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone/Select (2)",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[2].btn = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[3].selectedIcon = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev/Select (3)",
+                "UIWithdrawalPanel.accountTypeDropdown.Array.data[3].btn = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev",
+                "UIWithdrawalPanel.accountIdentificationInput = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField",
+                "UIWithdrawalPanel.accountIdentificationError = Root/FillRoot/pageContent/InfoContent/documentErrorHint/Text (TMP)",
+                "UIWithdrawalPanel.accountIdentificationErrorTra = Root/FillRoot/pageContent/InfoContent/documentErrorHint",
+                "UIWithdrawalPanel.paypalMailTitle = Root/FillRoot/pageContent/InfoContent/EmailInfo/Title",
+                "UIWithdrawalPanel.paypalMailInput = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input",
+                "UIWithdrawalPanel.paypalMailError = Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint/Text (TMP)",
+                "UIWithdrawalPanel.paypalMailErrorTra = Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint",
+                "UIWithdrawalPanel.accPhoneMailInput = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField",
+                "UIWithdrawalPanel.accPhoneMailError = Root/FillRoot/pageContent/InfoContent/OVOErrorHint/Text (TMP)",
+                "UIWithdrawalPanel.accPhoneMailErrorTra = Root/FillRoot/pageContent/InfoContent/OVOErrorHint",
+                "UIWithdrawalPanel.PIXObjList.Array.data[0] = Root/FillRoot/pageContent/InfoContent/CPF",
+                "UIWithdrawalPanel.PIXObjList.Array.data[1] = Root/FillRoot/pageContent/InfoContent/Name",
+                "UIWithdrawalPanel.PIXObjList.Array.data[2] = Root/FillRoot/pageContent/InfoContent/document",
+                "UIWithdrawalPanel.PagBankList.Array.data[0] = Root/FillRoot/pageContent/InfoContent/EmailInfo",
+                "UIWithdrawalPanel.PagBankList.Array.data[1] = Root/FillRoot/pageContent/InfoContent/CPF",
+                "UIWithdrawalPanel.PagBankList.Array.data[2] = Root/FillRoot/pageContent/InfoContent/Name",
+                "UIWithdrawalPanel.PaypalList.Array.data[0] = Root/FillRoot/pageContent/InfoContent/EmailInfo",
+                "UIWithdrawalPanel.OVOList.Array.data[0] = Root/FillRoot/pageContent/InfoContent/Name",
+                "UIWithdrawalPanel.OVOList.Array.data[1] = Root/FillRoot/pageContent/InfoContent/OVO_New",
+                "UIWithdrawalPanel.ErrorList.Array.data[0] = Root/FillRoot/pageContent/InfoContent/documentErrorHint",
+                "UIWithdrawalPanel.ErrorList.Array.data[1] = Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint",
+                "UIWithdrawalPanel.ErrorList.Array.data[2] = Root/FillRoot/pageContent/InfoContent/NameErrorHint",
+                "UIWithdrawalPanel.ErrorList.Array.data[3] = Root/FillRoot/pageContent/InfoContent/CPFErrorHint",
+                "UIWithdrawalPanel.ErrorList.Array.data[4] = Root/FillRoot/pageContent/InfoContent/OVOErrorHint",
+                "UIWithdrawalPanel.closeButton = Root/FillRoot/pageClose",
+                "UIWithdrawalPanel.withdrawButton = Root/FillRoot/pageContent/BtnWithdrawal",
+                "UIWithdrawalPanel._withdrawWayItems.Array.data[0] = Root/FillRoot/SelectPlatform/WithdrawWay",
+                "UIWithdrawalPanel._withdrawWayItems.Array.data[1] = Root/FillRoot/SelectPlatform/WithdrawWay (1)",
+                "KeyBoardPanel.panel = ",
+                "KeyBoardPanel.panelSizeRect = Root/FillRoot/BG"
+            ]
+        },
+        {
+            "path": "BG",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 10800.0,
+                "y": 19200.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = BG"
+            ]
+        },
+        {
+            "path": "Root",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 48.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": -8.5
+            },
+            "size": {
+                "x": 1080.0,
+                "y": 1400.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/BG",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 568.0
+            },
+            "size": {
+                "x": 925.0,
+                "y": 1410.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Conta",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 477.9241943359375
+            },
+            "size": {
+                "x": 925.0,
+                "y": 127.69940185546875
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 70.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/Balence",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 260.0
+            },
+            "size": {
+                "x": 760.0,
+                "y": 196.44290161132813
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/Balence/Icon",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_0.png#Channel_0",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": -30.0
+            },
+            "size": {
+                "x": 274.0,
+                "y": 134.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform",
+            "type": " RectTransform CanvasRenderer HorizontalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -6.81500244140625,
+                "y": 290.0
+            },
+            "size": {
+                "x": 731.0900268554688,
+                "y": 157.10760498046876
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay",
+            "type": " RectTransform CanvasRenderer WithdrawWay BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 182.7725067138672,
+                "y": -78.55380249023438
+            },
+            "size": {
+                "x": 307.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawWay.payIcon = Root/FillRoot/SelectPlatform/WithdrawWay/Frame",
+                "WithdrawWay.selectedObj = Root/FillRoot/SelectPlatform/WithdrawWay/Select",
+                "WithdrawWay.paymentConfig = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset",
+                "WithdrawWay.clickBtn = Root/FillRoot/SelectPlatform/WithdrawWay"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay/Frame",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_0.png#Channel_0",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -38.0,
+                "y": 36.099998474121097
+            },
+            "size": {
+                "x": 55.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay (1)",
+            "type": " RectTransform CanvasRenderer WithdrawWay BizzaButton",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 548.3175048828125,
+                "y": -78.55380249023438
+            },
+            "size": {
+                "x": 307.0,
+                "y": 150.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "WithdrawWay.payIcon = Root/FillRoot/SelectPlatform/WithdrawWay (1)/Frame",
+                "WithdrawWay.selectedObj = Root/FillRoot/SelectPlatform/WithdrawWay (1)/Select",
+                "WithdrawWay.paymentConfig = Assets/BizzaWZ/Final/Real/Config/PaymentConfig.asset",
+                "WithdrawWay.clickBtn = Root/FillRoot/SelectPlatform/WithdrawWay (1)"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay (1)/Frame",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/Real/UI/RealWithdrawalPanl/Icons/Channel_0.png#Channel_0",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/SelectPlatform/WithdrawWay (1)/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/RealWithdrawPanel/Icon_ChannelSelected.png#Icon_ChannelSelected",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -38.0,
+                "y": 36.0999755859375
+            },
+            "size": {
+                "x": 55.0,
+                "y": 55.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageClose",
+            "type": " RectTransform CanvasRenderer Image BizzaButton AllowKeyboardDismiss",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 449.0,
+                "y": 587.0
+            },
+            "size": {
+                "x": 104.0,
+                "y": 104.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Root/FillRoot/pageClose",
+                "BizzaButton.scaleTarget = Root/FillRoot/pageClose"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent",
+            "type": " RectTransform ContentSizeFitter VerticalLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 235.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent",
+            "type": " RectTransform VerticalLayoutGroup ContentSizeFitter",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 425.1318359375,
+                "y": 0.0
+            },
+            "size": {
+                "x": 850.263671875,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Nomor telepon",
+            "active": true,
+            "position": {
+                "x": 520.0,
+                "y": -25.0
+            },
+            "size": {
+                "x": 1000.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField",
+            "type": " RectTransform AdvancedInputField InputFieldKeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 428.44189453125,
+                "y": -160.0
+            },
+            "size": {
+                "x": 815.8082885742188,
+                "y": 105.12370300292969
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "AdvancedInputField.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/Background",
+                "AdvancedInputField.textRenderer = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Text",
+                "AdvancedInputField.processedTextRenderer = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Processed",
+                "AdvancedInputField.placeholderTextRenderer = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Placeholder"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/Background",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea",
+            "type": " RectTransform ScrollArea RectMask2D",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 25.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -24.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollArea.content = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content",
+                "ScrollArea.viewport = Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0139923095703125
+            },
+            "size": {
+                "x": 511.73046875,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Selection",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Processed",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVO_New/InputField/TextArea/Content/Placeholder",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "Dimulai dengan 08, 9–14 digit",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVOErrorHint",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/OVOErrorHint/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12321312",
+            "active": true,
+            "position": {
+                "x": 14.0701904296875,
+                "y": 0.0
+            },
+            "size": {
+                "x": 821.859619140625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 362.4800109863281
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel ",
+            "type": " RectTransform GridLayoutGroup",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 417.2748107910156,
+                "y": -148.0
+            },
+            "size": {
+                "x": 764.3663940429688,
+                "y": 174.05209350585938
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "E-mail",
+            "active": true,
+            "position": {
+                "x": 25.734100341796876,
+                "y": 0.0
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Email/Select",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Withdrawal/Icon_SeleChannel.png#Icon_SeleChannel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 126.0999984741211,
+                "y": 0.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "CPF ou CNPJ",
+            "active": true,
+            "position": {
+                "x": 8.271699905395508,
+                "y": 0.0
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /CPF/Select (1)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Withdrawal/Icon_SeleChannel.png#Icon_SeleChannel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 126.0999984741211,
+                "y": 0.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Telefone",
+            "active": true,
+            "position": {
+                "x": 25.734100341796876,
+                "y": 0.0
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Telefone/Select (2)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Withdrawal/Icon_SeleChannel.png#Icon_SeleChannel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 126.0999755859375,
+                "y": 0.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev",
+            "type": " RectTransform CanvasRenderer Image Button",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "Button.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Aleatória",
+            "active": true,
+            "position": {
+                "x": 8.271699905395508,
+                "y": 0.0
+            },
+            "size": {
+                "x": -16.54330062866211,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 24.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/SelectChannel /Ev/Select (3)",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/Withdrawal/Icon_SeleChannel.png#Icon_SeleChannel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 126.0999984741211,
+                "y": 0.0
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 421.88372802734377,
+                "y": -231.0
+            },
+            "size": {
+                "x": 824.0311279296875,
+                "y": 144.97340393066407
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField",
+            "type": " RectTransform AdvancedInputField InputFieldKeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 10.537599563598633,
+                "y": 17.0
+            },
+            "size": {
+                "x": -21.07539939880371,
+                "y": 105.12370300292969
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "AdvancedInputField.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/Background",
+                "AdvancedInputField.textRenderer = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Text",
+                "AdvancedInputField.processedTextRenderer = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Processed",
+                "AdvancedInputField.placeholderTextRenderer = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Placeholder"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/Background",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea",
+            "type": " RectTransform ScrollArea RectMask2D",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 25.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -24.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollArea.content = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content",
+                "ScrollArea.viewport = Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.013996124267578125
+            },
+            "size": {
+                "x": 742.759765625,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Selection",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Processed",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/document_New/InputField/TextArea/Content/Placeholder",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "Please input your name for Pagbank check",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/document/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Tip da chave Pix",
+            "active": true,
+            "position": {
+                "x": 520.0,
+                "y": -34.0
+            },
+            "size": {
+                "x": 1000.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/documentErrorHint",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/documentErrorHint/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12321312",
+            "active": true,
+            "position": {
+                "x": 14.0701904296875,
+                "y": 0.0
+            },
+            "size": {
+                "x": 821.859619140625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 178.58999633789063
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/Title",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "Email",
+            "active": true,
+            "position": {
+                "x": 520.0,
+                "y": -27.0
+            },
+            "size": {
+                "x": 1000.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input",
+            "type": " RectTransform AdvancedInputField InputFieldKeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 419.69769287109377,
+                "y": -170.0
+            },
+            "size": {
+                "x": 819.6591186523438,
+                "y": 105.12370300292969
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "AdvancedInputField.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/Background",
+                "AdvancedInputField.textRenderer = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Text",
+                "AdvancedInputField.processedTextRenderer = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Processed",
+                "AdvancedInputField.placeholderTextRenderer = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Placeholder"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/Background",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea",
+            "type": " RectTransform ScrollArea RectMask2D",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 25.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -24.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollArea.content = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content",
+                "ScrollArea.viewport = Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.01397705078125
+            },
+            "size": {
+                "x": 304.080078125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Selection",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Processed",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfo/mail_input/TextArea/Content/Placeholder",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "abcde@gmail.com",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/EmailInfoErrorHint/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12321312",
+            "active": true,
+            "position": {
+                "x": 14.0701904296875,
+                "y": 0.0
+            },
+            "size": {
+                "x": 821.859619140625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 178.59170532226563
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input",
+            "type": " RectTransform AdvancedInputField InputFieldKeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 430.07000732421877,
+                "y": -171.0
+            },
+            "size": {
+                "x": 840.4000244140625,
+                "y": 105.12370300292969
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "AdvancedInputField.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/Name/Name_input/Background",
+                "AdvancedInputField.textRenderer = Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Text",
+                "AdvancedInputField.processedTextRenderer = Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Processed",
+                "AdvancedInputField.placeholderTextRenderer = Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Placeholder"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/Background",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea",
+            "type": " RectTransform ScrollArea RectMask2D",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 25.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -24.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollArea.content = Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content",
+                "ScrollArea.viewport = Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.01397705078125
+            },
+            "size": {
+                "x": 293.568359375,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Selection",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Processed",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Name_input/TextArea/Content/Placeholder",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "Enter your name",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/Name/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Name",
+            "active": true,
+            "position": {
+                "x": 520.0,
+                "y": -27.0
+            },
+            "size": {
+                "x": 1000.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/NameErrorHint",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/NameErrorHint/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12321312",
+            "active": true,
+            "position": {
+                "x": 14.0701904296875,
+                "y": 0.0
+            },
+            "size": {
+                "x": 821.859619140625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 162.25900268554688
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input",
+            "type": " RectTransform AdvancedInputField InputFieldKeyboardClient",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 430.07000732421877,
+                "y": -152.0
+            },
+            "size": {
+                "x": 840.4000244140625,
+                "y": 105.12370300292969
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "AdvancedInputField.m_TargetGraphic = Root/FillRoot/pageContent/InfoContent/CPF/account_input/Background",
+                "AdvancedInputField.textRenderer = Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Text",
+                "AdvancedInputField.processedTextRenderer = Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Processed",
+                "AdvancedInputField.placeholderTextRenderer = Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Placeholder"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/Background",
+            "type": " RectTransform CanvasRenderer Image",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea",
+            "type": " RectTransform ScrollArea RectMask2D",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 25.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": -24.0,
+                "y": -24.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "ScrollArea.content = Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content",
+                "ScrollArea.viewport = Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.01397705078125
+            },
+            "size": {
+                "x": 623.439453125,
+                "y": 48.959999084472659
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Selection",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Text",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Processed",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/account_input/TextArea/Content/Placeholder",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI TMProTextRenderer",
+            "sprite": "",
+            "text": "99999999999 ou 99999999999999",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPF/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Account",
+            "active": true,
+            "position": {
+                "x": 520.0,
+                "y": -20.799999237060548
+            },
+            "size": {
+                "x": 1000.0,
+                "y": 68.79109954833985
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 40.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPFErrorHint",
+            "type": " RectTransform",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/InfoContent/CPFErrorHint/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI",
+            "sprite": "",
+            "text": "12321312",
+            "active": true,
+            "position": {
+                "x": 14.0701904296875,
+                "y": 0.0
+            },
+            "size": {
+                "x": 821.859619140625,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal",
+            "type": " RectTransform CanvasRenderer Image BizzaButton AllowKeyboardDismiss",
+            "sprite": "Assets/OrchardUI/Art/Controls.png#ButtonGreen",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 600.0,
+                "y": 180.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": [
+                "BizzaButton.m_TargetGraphic = Root/FillRoot/pageContent/BtnWithdrawal",
+                "BizzaButton.scaleTarget = Root/FillRoot/pageContent/BtnWithdrawal"
+            ]
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal/OrchardNavLeavesRight",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesRight",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal/OrchardNavLeavesLeft",
+            "type": " RectTransform CanvasRenderer Image LayoutElement",
+            "sprite": "Assets/OrchardUI/Art/Navigation.png#LeavesLeft",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": -17.82000160217285,
+                "y": 0.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Root/FillRoot/pageContent/BtnWithdrawal/Text (TMP)",
+            "type": " RectTransform CanvasRenderer TextMeshProUGUI UILanguageLabel",
+            "sprite": "",
+            "text": "Withdrawal",
+            "active": true,
+            "position": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 78.0,
+            "fields": []
+        }
+    ]
+}

@@ -1,0 +1,549 @@
+{
+    "prefab": "tutorial",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 1760.0,
+                "y": 2520.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideFinger",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideFinger/GuideFinger",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideFinger/GuideFinger/ring1",
+            "type": "Image:True:1",
+            "sprite": "fingerring",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 424.0,
+                "y": 922.0
+            },
+            "size": {
+                "x": 270.0,
+                "y": 270.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.22866509854793549,
+                "y": 0.22866509854793549,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideFinger/GuideFinger/ring2",
+            "type": "Image:True:1",
+            "sprite": "fingerring",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 424.0,
+                "y": 922.0
+            },
+            "size": {
+                "x": 270.0,
+                "y": 270.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.024178320541977884,
+                "y": 0.024178320541977884,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideFinger/GuideFinger/bigfinger",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 517.456298828125,
+                "y": 1004.1131591796875
+            },
+            "size": {
+                "x": 320.0,
+                "y": 320.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5299999713897705,
+                "y": 0.1899999976158142
+            },
+            "scale": {
+                "x": 0.9558815956115723,
+                "y": 0.9558815956115723,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideFinger/GuideFinger/bigfinger/bigfinger (1)",
+            "type": "Image:True:1",
+            "sprite": "Glove",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 533.9765625,
+                "y": 1006.7418212890625
+            },
+            "size": {
+                "x": 238.0,
+                "y": 227.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5299999713897705,
+                "y": 0.1899999976158142
+            },
+            "scale": {
+                "x": 0.9558817148208618,
+                "y": 0.9558817148208618,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText/Image",
+            "type": "Image:True:1",
+            "sprite": "GuideBubble",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 486.0,
+                "y": 290.0
+            },
+            "size": {
+                "x": 420.0,
+                "y": 160.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText/Image/Text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Tap 3 matching fruits!",
+            "active": true,
+            "position": {
+                "x": 519.5,
+                "y": 282.5
+            },
+            "size": {
+                "x": 317.0,
+                "y": 115.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText/Image/ApprovedNumber",
+            "type": "Image:True:1",
+            "sprite": "BlueDisc",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 324.5,
+                "y": 267.5
+            },
+            "size": {
+                "x": 65.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText/Image/ApprovedNumber/Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "1",
+            "active": true,
+            "position": {
+                "x": 324.5,
+                "y": 267.5
+            },
+            "size": {
+                "x": 65.0,
+                "y": 65.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 51.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText/ApprovedFooter",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1287.0
+            },
+            "size": {
+                "x": 490.0,
+                "y": 81.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Bg/MainContent/GuideText/ApprovedFooter/Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Match all fruits to win!",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1287.0
+            },
+            "size": {
+                "x": 490.0,
+                "y": 81.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 39.0,
+            "fields": []
+        }
+    ]
+}

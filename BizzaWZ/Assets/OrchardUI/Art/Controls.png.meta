@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: 50c5208c19d79f44ebd86c010248d125
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 113129017
+    second: RewardProgressFill
+  - first:
+      213: 658283961
+    second: RewardProgressTrack
+  - first:
+      213: 21301008
+    second: SettingsButtonBlue
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +135,13 @@ TextureImporter:
       name: Panel
       rect:
         serializedVersion: 2
-        x: 26
-        y: 912
-        width: 294
-        height: 284
+        x: 12
+        y: 913
+        width: 296
+        height: 283
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 70, y: 70, z: 70, w: 70}
+      border: {x: 36, y: 36, z: 36, w: 36}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -147,13 +156,13 @@ TextureImporter:
       name: Title
       rect:
         serializedVersion: 2
-        x: 329
-        y: 999
-        width: 301
-        height: 115
+        x: 321
+        y: 991
+        width: 303
+        height: 126
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 53, y: 24, z: 53, w: 24}
+      border: {x: 55, y: 28, z: 55, w: 28}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -168,13 +177,13 @@ TextureImporter:
       name: ButtonGreen
       rect:
         serializedVersion: 2
-        x: 653
-        y: 991
-        width: 279
-        height: 118
+        x: 637
+        y: 994
+        width: 295
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 54, y: 32, z: 54, w: 32}
+      border: {x: 54, y: 28, z: 54, w: 28}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -189,13 +198,13 @@ TextureImporter:
       name: ButtonBlue
       rect:
         serializedVersion: 2
-        x: 955
-        y: 991
-        width: 276
-        height: 116
+        x: 941
+        y: 980
+        width: 309
+        height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 54, y: 32, z: 54, w: 32}
+      border: {x: 65, y: 0, z: 65, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -207,16 +216,37 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: SettingsButtonBlue
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 989
+        width: 296
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 60, y: 0, z: 57, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a33485c324a62a00541f7bf6e6987
+      internalID: 21301008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: SelectedCard
       rect:
         serializedVersion: 2
-        x: 33
-        y: 610
-        width: 277
-        height: 266
+        x: 28
+        y: 615
+        width: 271
+        height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 45, y: 45, z: 45, w: 45}
+      border: {x: 35, y: 35, z: 35, w: 35}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -231,13 +261,13 @@ TextureImporter:
       name: DisabledCard
       rect:
         serializedVersion: 2
-        x: 338
-        y: 607
-        width: 283
-        height: 275
+        x: 335
+        y: 614
+        width: 276
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 46, y: 46, z: 46, w: 46}
+      border: {x: 36, y: 36, z: 36, w: 36}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -252,13 +282,13 @@ TextureImporter:
       name: Card
       rect:
         serializedVersion: 2
-        x: 646
-        y: 604
-        width: 287
-        height: 279
+        x: 645
+        y: 615
+        width: 274
+        height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 46, y: 46, z: 46, w: 46}
+      border: {x: 35, y: 35, z: 35, w: 35}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -273,13 +303,13 @@ TextureImporter:
       name: Inset
       rect:
         serializedVersion: 2
-        x: 958
-        y: 613
-        width: 267
-        height: 263
+        x: 961
+        y: 616
+        width: 265
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 38, y: 38, z: 38, w: 38}
+      border: {x: 35, y: 35, z: 35, w: 35}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -294,10 +324,10 @@ TextureImporter:
       name: ButtonRoundBlue
       rect:
         serializedVersion: 2
-        x: 63
-        y: 355
-        width: 213
-        height: 212
+        x: 55
+        y: 338
+        width: 214
+        height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,13 +345,13 @@ TextureImporter:
       name: Badge
       rect:
         serializedVersion: 2
-        x: 325
-        y: 401
-        width: 312
-        height: 118
+        x: 350
+        y: 393
+        width: 245
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 55, y: 30, z: 55, w: 30}
+      border: {x: 44, y: 24, z: 44, w: 24}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -336,10 +366,10 @@ TextureImporter:
       name: ButtonRoundCream
       rect:
         serializedVersion: 2
-        x: 686
-        y: 356
-        width: 206
-        height: 207
+        x: 638
+        y: 342
+        width: 202
+        height: 202
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,13 +387,13 @@ TextureImporter:
       name: ProgressTrack
       rect:
         serializedVersion: 2
-        x: 937
-        y: 420
-        width: 299
-        height: 76
+        x: 858
+        y: 390
+        width: 377
+        height: 94
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 31, y: 21, z: 31, w: 21}
+      border: {x: 46, y: 25, z: 46, w: 25}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -378,13 +408,13 @@ TextureImporter:
       name: ProgressFill
       rect:
         serializedVersion: 2
-        x: 34
-        y: 157
+        x: 18
+        y: 137
         width: 286
-        height: 62
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 22, y: 12, z: 22, w: 12}
+      border: {x: 30, y: 18, z: 30, w: 18}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -399,13 +429,13 @@ TextureImporter:
       name: ButtonDisabled
       rect:
         serializedVersion: 2
-        x: 340
-        y: 130
-        width: 281
-        height: 112
+        x: 320
+        y: 100
+        width: 310
+        height: 136
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 50, y: 28, z: 50, w: 28}
+      border: {x: 68, y: 0, z: 68, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -420,13 +450,13 @@ TextureImporter:
       name: Input
       rect:
         serializedVersion: 2
-        x: 658
-        y: 62
-        width: 264
-        height: 254
+        x: 664
+        y: 56
+        width: 242
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 36, y: 36, z: 36, w: 36}
+      border: {x: 30, y: 30, z: 30, w: 30}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -441,19 +471,61 @@ TextureImporter:
       name: SelectionRing
       rect:
         serializedVersion: 2
-        x: 958
-        y: 62
-        width: 271
-        height: 260
+        x: 980
+        y: 60
+        width: 230
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 40, y: 40, z: 40, w: 40}
+      border: {x: 37, y: 37, z: 37, w: 37}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 45462d2360c704546b4fba350eef4233
       internalID: 878380828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RewardProgressFill
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 137
+        width: 286
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 30, y: 0, z: 30, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab197408dcd56f28a9bf308a0360442
+      internalID: 113129017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RewardProgressTrack
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 390
+        width: 377
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 47, y: 0, z: 47, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ac17752f2f524fa024270530b58c34
+      internalID: 658283961
       vertices: []
       indices: 
       edges: []
@@ -469,6 +541,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      SettingsButtonBlue: 21301008
       Badge: -799567093
       ButtonBlue: -764451775
       ButtonDisabled: -1094026400
@@ -482,6 +555,8 @@ TextureImporter:
       Panel: 2758570
       ProgressFill: 1192469443
       ProgressTrack: 1920971194
+      RewardProgressFill: 113129017
+      RewardProgressTrack: 658283961
       SelectedCard: -498862010
       SelectionRing: 878380828
       Title: -396990571

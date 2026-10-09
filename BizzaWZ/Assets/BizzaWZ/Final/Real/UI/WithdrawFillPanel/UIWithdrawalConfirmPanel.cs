@@ -81,33 +81,7 @@ public class UIWithdrawalConfirmPanel : UIPageBase<WithDrawInfo>
         {
             EmailText.text = Ra;
         }
-        if (withdrawType == E_WithdrawType.DailyMission)
-        {
-            PaymentValueText.text = $"{LanguageUtils.GetText("CurrencyToken")}0,2";
-        }
-        else if (withdrawType == E_WithdrawType.Fake)
-        {
-            float value = 0.01f;
-            switch (AccountModule.CountryType)
-            {
-                case AccountModule.E_CountryType.BR:
-                    value = 0.01f;
-                    break;
-                case AccountModule.E_CountryType.ID:
-                    value = 20f;
-                    break;
-                case AccountModule.E_CountryType.US:
-                    value = 0.01f;
-                    break;
-            }
-
-            PaymentValueText.text = $"{LanguageUtils.GetText("CurrencyToken")}{WithdrawalUtil.GetCustomizedValueByCountryType(value)}";
-        }
-        else if (withdrawType == E_WithdrawType.Real)
-        {
-            PaymentValueText.text =
-                $"{LanguageUtils.GetText("CurrencyToken")}{AccountModule.Instance.Get_S_Ewl()}";
-        }
+        PaymentValueText.text = WithdrawalAmountPresentation.Format(withdrawType);
 
         CPFObj.gameObject.SetActive(!string.IsNullOrEmpty(CPF_CNPJ));
         NameObj.gameObject.SetActive(!string.IsNullOrEmpty(Name));

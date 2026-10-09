@@ -1,0 +1,1331 @@
+{
+    "prefab": "faq",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1585.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 919.5
+            },
+            "size": {
+                "x": 798.0,
+                "y": 1315.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 152.5
+            },
+            "size": {
+                "x": 392.0,
+                "y": 117.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 643.1199951171875,
+                "y": 129.74798583984376
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 208.8800048828125,
+                "y": 129.74798583984376
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/CloseBtn",
+            "type": "Image:True:1",
+            "sprite": "Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 97.0,
+                "y": 130.0
+            },
+            "size": {
+                "x": 96.0,
+                "y": 96.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Ajuda",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 153.5
+            },
+            "size": {
+                "x": 334.0,
+                "y": 87.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 76.80000305175781,
+            "fields": []
+        },
+        {
+            "path": "Content (1)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View",
+            "type": "Image:False:0",
+            "sprite": "Background",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 902.5
+            },
+            "size": {
+                "x": 728.0,
+                "y": 925.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport",
+            "type": "Image:True:1",
+            "sprite": "UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 902.5
+            },
+            "size": {
+                "x": 728.0,
+                "y": 955.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 880.8399658203125
+            },
+            "size": {
+                "x": 728.0,
+                "y": 911.679931640625
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion0",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 531.4199829101563
+            },
+            "size": {
+                "x": 728.0,
+                "y": 212.83999633789063
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion0/q1",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<b>Como solicitar um saque?</b>\n\nEscolha o método e confira os dados da conta.",
+            "active": true,
+            "position": {
+                "x": 473.0,
+                "y": 531.4199829101563
+            },
+            "size": {
+                "x": 586.0,
+                "y": 156.83999633789063
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion0/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 121.0,
+                "y": 494.0
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion1",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 764.8399658203125
+            },
+            "size": {
+                "x": 728.0,
+                "y": 210.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion1/q2",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<b>Onde acompanho meu pedido?</b>\n\nConsulte o status no Histórico.",
+            "active": true,
+            "position": {
+                "x": 473.0,
+                "y": 746.02001953125
+            },
+            "size": {
+                "x": 586.0,
+                "y": 116.36000061035156
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion1/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 121.0,
+                "y": 728.8399658203125
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion2",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 996.8399658203125
+            },
+            "size": {
+                "x": 728.0,
+                "y": 210.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion2/q3",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<b>Por que o valor muda?</b>\n\nO nível pode alterar o valor de troca.",
+            "active": true,
+            "position": {
+                "x": 473.0,
+                "y": 978.0199584960938
+            },
+            "size": {
+                "x": 586.0,
+                "y": 116.36000061035156
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion2/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 121.0,
+                "y": 960.8399658203125
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion3",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1230.260009765625
+            },
+            "size": {
+                "x": 728.0,
+                "y": 212.83999633789063
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion3/q4",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<b>O pedido não foi concluído.</b>\n\nConfira seus dados e consulte o atendimento.",
+            "active": true,
+            "position": {
+                "x": 473.0,
+                "y": 1230.260009765625
+            },
+            "size": {
+                "x": 586.0,
+                "y": 156.83999633789063
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion3/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 121.0,
+                "y": 1192.8399658203125
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion4",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 880.8399658203125
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion4/q5",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<color=#5E200C><b>How many times can I withdraw per day?</b></color>\r\n<color=#5E200C>\rUp to <color=#C9785D><b>5</b></color> times per day.\r</color>\r\n",
+            "active": false,
+            "position": {
+                "x": 750.6851806640625,
+                "y": 2453.47021484375
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion4/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.0,
+                "y": 899.8399658203125
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion5",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 880.8399658203125
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion5/q6",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<color=#5E200C><b>Why can’t I withdraw funds using my withdrawal account?</b></color>\r\n<color=#5E200C>\rThe same withdrawal account can be bound to a maximum of <color=#C9785D><b>two</b></color> app accounts. Please do not share your withdrawal account with others.\r</color>\r\n",
+            "active": false,
+            "position": {
+                "x": 750.6851806640625,
+                "y": 2777.669921875
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion5/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.0,
+                "y": 899.8399658203125
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion6",
+            "type": "Image:True:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 880.8399658203125
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion6/q7",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "<color=#5E200C><b>Can I use a VPN?</b></color>\r\n<color=#5E200C>\rThe use of VPN is <color=#A84A3A><b>strictly prohibited</b></color>. Please do not use a VPN while using the app.\r</color>\r\n",
+            "active": false,
+            "position": {
+                "x": 750.6851806640625,
+                "y": 2998.91015625
+            },
+            "size": {
+                "x": 749.3704223632813,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 35.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Scroll View/Viewport/Content/ApprovedQuestion6/ApprovedQuestionIcon",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 435.0,
+                "y": 899.8399658203125
+            },
+            "size": {
+                "x": 70.0,
+                "y": 74.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content (1)/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 430.0,
+                "y": 1173.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedSupport",
+            "type": "Image:True:1",
+            "sprite": "ButtonBlue",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1470.5
+            },
+            "size": {
+                "x": 722.0,
+                "y": 127.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedSupport/Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Falar com o suporte",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1469.5
+            },
+            "size": {
+                "x": 644.0,
+                "y": 91.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 67.19999694824219,
+            "fields": []
+        },
+        {
+            "path": "ApprovedSection",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Perguntas frequentes",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 360.5
+            },
+            "size": {
+                "x": 644.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 54.215999603271487,
+            "fields": []
+        }
+    ]
+}

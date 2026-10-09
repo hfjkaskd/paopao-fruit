@@ -1,0 +1,154 @@
+{
+  "generatedUtc": "2026-09-28T10:22:04.303868+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "unityVersion": "2022.3.62f3",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "authoredScreens": 27,
+  "compilationErrors": 0,
+  "navigation": {
+    "reference": {
+      "startedUtc": "2026-09-28T09:57:48.6901002Z",
+      "status": "complete",
+      "pages": 13,
+      "errorsLogged": [
+        "开启测试设备False"
+      ]
+    },
+    "short": {
+      "startedUtc": "2026-09-28T10:00:14.1761019Z",
+      "status": "complete",
+      "pages": 13,
+      "errorsLogged": [
+        "开启测试设备False"
+      ]
+    }
+  },
+  "hud": {
+    "reference": {
+      "startedUtc": "2026-09-28T10:17:51.0125059Z",
+      "status": "complete",
+      "checks": [
+        "All four lower HUD Buttons receive center pointer hits; their complete visible graphics remain on-screen, do not overlap one another, and do not overlap the tray"
+      ]
+    },
+    "short": {
+      "startedUtc": "2026-09-28T10:18:33.1245975Z",
+      "status": "complete",
+      "checks": [
+        "All four lower HUD Buttons receive center pointer hits; their complete visible graphics remain on-screen, do not overlap one another, and do not overlap the tray"
+      ]
+    }
+  },
+  "loading": {
+    "previewFrames": 15,
+    "previewErrors": [],
+    "startup": {
+      "reference": "LoadingPanel closed normally",
+      "short": "LoadingPanel closed normally"
+    }
+  },
+  "prefabAudit": {
+    "generatedUtc": "2026-09-28T10:19:31.8036725Z",
+    "prefabCount": 56,
+    "buttonCount": 171,
+    "existingErrorCount": 171,
+    "warnings": 12,
+    "newIssueCount": 0,
+    "missingScriptObjects": 0,
+    "missingLocalReferences": 0
+  },
+  "limits": [
+    "Static preview fixtures and composite backgrounds are labelled in the gallery; they are not runtime business tests.",
+    "SDK log 开启测试设备False is emitted as Debug.LogError by MaxSDKPlugin.cs:79 and appears in both navigation reports.",
+    "Existing missing-asset audit records remain and are not equivalent to independent runtime failures.",
+    "No Android/iOS device run, store build, real payout, ad reward, support-message send or store-rating submission was performed."
+  ],
+  "boosterRefinement": {
+    "generatedUtc": "2026-09-28T10:59:25.156532+00:00",
+    "casesPassed": 6,
+    "compilationErrors": 0,
+    "newPrefabAuditIssues": 0,
+    "runs": {
+      "Runtime": {
+        "startedUtc": "2026-09-28T10:55:47.1678040Z",
+        "status": "complete",
+        "pages": 3,
+        "loggedErrors": [
+          "开启测试设备False"
+        ]
+      },
+      "RuntimeShort": {
+        "startedUtc": "2026-09-28T10:56:40.8012753Z",
+        "status": "complete",
+        "pages": 3,
+        "loggedErrors": [
+          "开启测试设备False"
+        ]
+      }
+    },
+    "limitations": [
+      "Ad click and reward not invoked; no device build performed.",
+      "Current account language and gameplay background retained."
+    ]
+  },
+  "cashRefinement": {
+    "summary": "../OrchardCashRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T11:35:26.403416+00:00",
+    "amountSelectionCasesPassed": 12,
+    "newPrefabAuditIssues": 0
+  },
+  "accountRefinement": {
+    "summary": "../OrchardAccountRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T12:06:43.712437+00:00",
+    "inputCasesPassed": 6,
+    "newPrefabAuditIssues": 0
+  },
+  "confirmRefinement": {
+    "summary": "../OrchardConfirmRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T12:25:32.053070+00:00",
+    "buttonHitChecksPassed": 8,
+    "newPrefabAuditIssues": 0
+  },
+  "historyRefinement": {
+    "summary": "../OrchardHistoryRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T12:45:07.299149+00:00",
+    "buttonHitChecksPassed": 6,
+    "newPrefabAuditIssues": 0
+  },
+  "reminderRefinement": {
+    "summary": "../OrchardReminderRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T12:59:30.645350+00:00",
+    "buttonHitChecksPassed": 4,
+    "newPrefabAuditIssues": 0
+  },
+  "rateRefinement": {
+    "summary": "../OrchardRateRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T13:27:45.555497+00:00",
+    "buttonHitChecksPassed": 4,
+    "newPrefabAuditIssues": 0
+  },
+  "serviceRefinement": {
+    "summary": "../OrchardServiceRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T13:55:31.017305+00:00",
+    "buttonHitChecksPassed": 14,
+    "newPrefabAuditIssues": 0
+  },
+  "dailyMissionRefinement": {
+    "summary": "../OrchardDailyMissionRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T14:18:52.686189+00:00",
+    "buttonHitChecksPassed": 8,
+    "newPrefabAuditIssues": 0
+  },
+  "luckySpinRefinement": {
+    "summary": "../OrchardLuckySpinRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T14:30:42.850425+00:00",
+    "backClicksPassed": 4,
+    "newPrefabAuditIssues": 0
+  },
+  "luckyHelpRefinement": {
+    "summary": "../OrchardLuckyHelpRefinement-20260928/verification-summary.json",
+    "generatedUtc": "2026-09-28T14:55:48.523166+00:00",
+    "buttonHitChecksPassed": 6,
+    "newPrefabAuditIssues": 0
+  }
+}

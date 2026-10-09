@@ -26,6 +26,8 @@ public class DailyWithdrawPanel : UIPageBase
     [Header("按钮")]
     [SerializeField] private BizzaButton withdrawBtn;
     [SerializeField] private BizzaButton clickBtn;
+    [SerializeField] private PaymentConfig methodIcons;
+    [SerializeField] private Image[] availableMethodImages;
     protected override void OnAwake()
     {
         
@@ -58,6 +60,17 @@ public class DailyWithdrawPanel : UIPageBase
         clashTxt.text = clashContent;
         balanceTxt.text = $"{WithdrawalUtil.GetCustomizedValueByCountryType((float)coin)}";
         withdrawalTxt.text = clashContent;
+        if(availableMethodImages!=null&&methodIcons!=null)
+        {
+            int shown=0;
+            foreach(var platform in plats)
+            {
+                if(shown>=availableMethodImages.Length)break;
+                var sprite=methodIcons.GetSpriteByIconKey(platform.Os_Cn);if(sprite==null)continue;
+                var image=availableMethodImages[shown++];image.sprite=sprite;image.transform.parent.gameObject.SetActive(true);
+            }
+            for(int i=shown;i<availableMethodImages.Length;i++)availableMethodImages[i].transform.parent.gameObject.SetActive(false);
+        }
         LayoutRebuilder.ForceRebuildLayoutImmediate(root);
     }
 

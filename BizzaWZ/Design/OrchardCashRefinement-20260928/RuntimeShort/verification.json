@@ -1,0 +1,85 @@
+{
+    "startedUtc": "2026-09-28T11:33:29.6538983Z",
+    "status": "complete",
+    "error": "",
+    "index": 6,
+    "phase": 4,
+    "pages": [
+        {
+            "page": "FakeWithdrawPanel",
+            "openMethod": "HUD dollar Button EventSystem click; production framework/server data",
+            "closeMethod": "Close Button EventSystem click",
+            "screenshot": "Design/OrchardCashRefinement-20260928/RuntimeShort/00-FakeWithdrawPanel.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "WithdrawAmountItem (1)",
+                    "topHit": "WithdrawAmountItem (1)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 350.7042236328125,
+                        "y": 1216.9013671875
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (6)",
+                    "topHit": "WithdrawAmountItem (6)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 727.215576171875,
+                        "y": 1216.9013671875
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (2)",
+                    "topHit": "WithdrawAmountItem (2)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 350.7042236328125,
+                        "y": 1054.6478271484375
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (3)",
+                    "topHit": "WithdrawAmountItem (3)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 727.215576171875,
+                        "y": 1054.6478271484375
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (4)",
+                    "topHit": "WithdrawAmountItem (4)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 350.7042236328125,
+                        "y": 892.3943481445313
+                    }
+                },
+                {
+                    "name": "WithdrawAmountItem (5)",
+                    "topHit": "WithdrawAmountItem (5)",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 727.215576171875,
+                        "y": 892.3943481445313
+                    }
+                }
+            ],
+            "checks": [
+                "All live amount cards and all four borders fit inside RectMask2D with padding; each standard Button owns its visible card and receives center hits",
+                "Every selectable amount refreshed the exclusive green check, mint card, text color, progress and eligibility; initial selection restored",
+                "Closed to gameplay; cash balance, withdrawal stages, starter claim flag and withdrawal-click count unchanged; no withdrawal submitted"
+            ]
+        }
+    ],
+    "errors": []
+}

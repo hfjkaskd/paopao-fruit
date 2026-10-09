@@ -1,0 +1,12 @@
+# 兑换率提升
+
+Use case: ui-mockup. Create a new, complete, exceptionally polished casual orchard puzzle mobile screen. Image 1 is the authoritative VISUAL STYLE reference, not the screen content to repeat. Match its sunny orchard palette, small warm wooden header plaques, softly rounded ivory panels with refined honey-gold bevels, chocolate-brown rounded typography, juicy leaf-green main buttons, sky-blue secondary controls, crisply painted 2.5D icons, ambient occlusion and soft dimensional lighting. Premium App Store featured casual puzzle quality. All UI readable and spacious with precise alignment, controlled highlights and calm background. Portrait 9:19.5 full bleed at high resolution. Exactly one full mobile screen, no phone frame, no collage, no external caption, no watermark. English UI. Decoration restrained at edges, never covering text or controls. Do not use neon, casino styling, photographs or excessive wood. Currency values are illustrative UI examples; never promise instant payment or guaranteed earnings.
+
+Image 2 is STRUCTURE reference for the real underlying gameplay: show a softly dimmed and slightly defocused fruit-tree harvesting playfield behind the modal, visible at top and bottom with pale blue sky, rounded flowering trees bearing watermelons, oranges and starfruit, and a wooden fruit collection tray near the bottom. Never create a square match-3 board. The popup itself stays bright, sharp and very readable. Screen: EXCHANGE RATE INCREASE popup. Center bright ivory gold-edged panel occupying around 72% height. Small wood header "Rate Up!", blue close X. Tasteful small gold coin with leaf emblem and a curved green upward arrow illustration below title. Brown subheading "Your coins are worth more". A calm stacked comparison with two equally wide rounded inset cards: first small card in neutral ivory, label "Before", leaf coin icon "10,000 coins", green amount "≈ $2.50"; second larger highlighted pale-green card, label "Now", leaf coin icon "10,000 coins", prominent green amount "≈ $5.00". Between cards a polished small green down-pointing chevron connecting the before to now; ensure visual reading order is before above, now below. Tiny restrained sparkles around the now card, no exploding rewards. Large leaf-green action "Check" at bottom. No promotion percentages or guarantees. Excellent typography, precise aligned cards, polished hand-painted 2.5D puzzle-game quality.
+
+## Source
+Assets/BizzaWZ/Final/Real/UI/ExchangeRatePanel/ExchangeRatePanel.prefab
+
+## Notes
+旧/新金币余额折算对比；示例10,000金币从$2.50提升至$5.00。
+

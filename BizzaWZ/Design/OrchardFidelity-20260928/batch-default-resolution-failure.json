@@ -1,0 +1,141 @@
+{
+    "startedUtc": "2026-09-28T07:50:48.2534370Z",
+    "status": "failed",
+    "error": "System.InvalidOperationException: Button center blocked: WithdrawWay(Clone) by none\r\n  at OrchardApprovedRuntimeCheck.Click (UnityEngine.UI.Button button) [0x00093] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\OrchardApprovedRuntimeCheck.cs:217 \r\n  at OrchardApprovedRuntimeCheck.Tick () [0x00510] in C:\\Projects\\paopao\\BizzaWZ\\Assets\\OrchardUI\\Editor\\OrchardApprovedRuntimeCheck.cs:88 ",
+    "index": 0,
+    "phase": 2,
+    "pages": [
+        {
+            "page": "RealWithdrawPanel",
+            "openMethod": "EventSystem pointer click on HUD Button",
+            "closeMethod": "",
+            "screenshot": "Design/OrchardImplementation-20260928/RuntimeShort/00-RealWithdrawPanel.png",
+            "opened": true,
+            "closed": false,
+            "buttons": [
+                {
+                    "name": "WithdrawBtn",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 320.0,
+                        "y": -188.16903686523438
+                    }
+                },
+                {
+                    "name": "WithdrawWay(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 182.5352020263672,
+                        "y": -6.0093994140625
+                    }
+                },
+                {
+                    "name": "WithdrawWay(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 457.46478271484377,
+                        "y": -6.0093994140625
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 169.7652587890625,
+                        "y": -384.6009521484375
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 470.2347412109375,
+                        "y": -384.6009521484375
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 169.7652587890625,
+                        "y": -528.8263549804688
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 470.2347412109375,
+                        "y": -528.8263549804688
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 169.7652587890625,
+                        "y": -673.0516967773438
+                    }
+                },
+                {
+                    "name": "WithdrawLevelItem(Clone)",
+                    "topHit": "none",
+                    "interactable": true,
+                    "centerHitsButton": false,
+                    "center": {
+                        "x": 470.2347412109375,
+                        "y": -673.0516967773438
+                    }
+                },
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 69.10797119140625,
+                        "y": 395.8684997558594
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 571.6431884765625,
+                        "y": 395.8684997558594
+                    }
+                },
+                {
+                    "name": "HistoryBtn",
+                    "topHit": "HistoryBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 493.5211181640625,
+                        "y": 395.8684997558594
+                    }
+                }
+            ],
+            "checks": []
+        }
+    ],
+    "errors": []
+}

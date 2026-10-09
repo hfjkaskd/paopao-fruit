@@ -1,0 +1,67 @@
+{
+    "startedUtc": "2026-09-28T12:23:35.0550561Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 11,
+    "pages": [
+        {
+            "page": "UIWithdrawalConfirmPanel",
+            "openMethod": "InitWZ full startup, HUD coin Button, live server platform, production account page, then production confirmation contract with disposable design payee strings; actual account amount retained",
+            "closeMethod": "Back Button then account Back Button",
+            "screenshot": "Design/OrchardConfirmRefinement-20260928/RuntimeShort/00-confirm.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "comfirmClose",
+                    "topHit": "comfirmClose",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 214.10528564453126,
+                        "y": 1759.83154296875
+                    }
+                },
+                {
+                    "name": "ApprovedHelp",
+                    "topHit": "ApprovedHelp",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 866.9052734375,
+                        "y": 1759.83154296875
+                    }
+                },
+                {
+                    "name": "BtnOk",
+                    "topHit": "BtnOk",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 543.0315551757813,
+                        "y": 482.5263366699219
+                    }
+                },
+                {
+                    "name": "ApprovedEdit",
+                    "topHit": "ApprovedEdit",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 540.5052490234375,
+                        "y": 336.50531005859377
+                    }
+                }
+            ],
+            "checks": [
+                "All four standard Buttons receive center hits; title, amount, labels and payee values fit; all new card, hint and button artwork is visible and on screen; logo preserves aspect",
+                "Confirm Button pointer down/up state checked without dispatching its click/submit handler",
+                "Edit Button returned to the existing account form with name, document and email unchanged",
+                "Help opened FAQ and returned to confirmation",
+                "Returned to gameplay; withdrawal timestamp and balance unchanged; no payment submitted"
+            ]
+        }
+    ],
+    "errors": []
+}

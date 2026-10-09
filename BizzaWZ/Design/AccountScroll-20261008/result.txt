@@ -1,0 +1,5 @@
+Disposable prefab and native-height/drag fixtures only; no account, saved input, network request or APK build.
+PASS 720x1600: keyboard open; 3 field focus changes; extreme up/down drags clamped; backdrop/title/back/root fixed; keyboard close restores form.
+PASS: validation-message expansion keeps the selected field above the keyboard.
+PASS 720x1280: keyboard open; 3 field focus changes; extreme up/down drags clamped; backdrop/title/back/root fixed; keyboard close restores form.
+PASS: validation-message expansion keeps the selected field above the keyboard.

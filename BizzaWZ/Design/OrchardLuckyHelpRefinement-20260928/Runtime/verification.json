@@ -1,0 +1,54 @@
+{
+    "startedUtc": "2026-09-28T14:53:43.9051548Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 7,
+    "pages": [
+        {
+            "page": "SlotFAQPanel",
+            "openMethod": "InitWZ full initialization, open existing SlotPanel then EventSystem FAQ Button",
+            "closeMethod": "Got it, reopen through FAQ, new X, then parent Back",
+            "screenshot": "Design/OrchardLuckyHelpRefinement-20260928/Runtime/00-lucky-help.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 773.5,
+                        "y": 1741.5
+                    }
+                },
+                {
+                    "name": "Btn",
+                    "topHit": "Btn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 426.0,
+                        "y": 266.5
+                    }
+                },
+                {
+                    "name": "ReferenceClose",
+                    "topHit": "ReferenceClose",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 780.5,
+                        "y": 1531.0
+                    }
+                }
+            ],
+            "checks": [
+                "Six complete warm row sprites and 18 full-color symbol tiles fit screen without sliced borders or faded alpha; localized text has no overflow; two illustrated instructions replace the old paragraph; background dim covers the full screen",
+                "FAQ opener, Got it and X receive hits; both help dismissals reveal existing SlotPanel; progress and balance unchanged; no spin or ad invoked"
+            ]
+        }
+    ],
+    "errors": []
+}

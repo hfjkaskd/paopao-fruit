@@ -57,6 +57,8 @@ public class SlotMachineManager : MonoBehaviour
 
     void OnEnable()
     {
+        BizzaEventSystem.On(EventDefine.Login.InitContentByCountry, RefreshCurrencyArtwork);
+        RefreshCurrencyArtwork();
         machineRunning.SetActive(false);
         dropFx.SetActive(false);
         dropFx2.SetActive(false);
@@ -91,6 +93,29 @@ public class SlotMachineManager : MonoBehaviour
             v.transform.DOScale(Vector3.one * 1.4f, 0.2f);
             v.transform.DOScale(Vector3.one * 0.4f, 0.15f).SetDelay(0.25f);
             v.img2.gameObject.SetActive(false);
+        }
+    }
+
+    private void OnDisable()
+    {
+        BizzaEventSystem.Off(EventDefine.Login.InitContentByCountry, RefreshCurrencyArtwork);
+    }
+
+    public void RefreshCurrencyArtwork()
+    {
+        var coin = WzCurrencySprites.Load(E_WzIconType.GoldCoin);
+        if (coin == null) return;
+        for (int i = 0; i < slotEntryss.Count; i++)
+        {
+            var entry = slotEntryss[i];
+            if (entry.e_SlotType != E_SlotType.Coin || entry.sprite == coin) continue;
+            var previous = entry.sprite;
+            entry.sprite = coin;
+            slotEntryss[i] = entry;
+            // Replace only current coin images; other reel symbols keep their state.
+            if (previous == null) continue;
+            foreach (var image in GetComponentsInChildren<Image>(true))
+                if (image.sprite == previous) image.sprite = coin;
         }
     }
 

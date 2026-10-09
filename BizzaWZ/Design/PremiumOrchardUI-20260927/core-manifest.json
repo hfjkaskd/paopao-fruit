@@ -1,0 +1,74 @@
+[
+  {
+    "id": "06",
+    "title": "设置 / 暂停",
+    "source": "Assets/BizzaWZ/Common/UI/SettingPanel/PausePanel.prefab",
+    "prompt": "prompts/06-settings.md",
+    "image": "images/06-settings.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "05",
+    "title": "失败 / 复活",
+    "source": "Assets/BizzaWZ/Common/BizzaGame/LosePanel/LosePanel.prefab",
+    "prompt": "prompts/05-revive.md",
+    "image": "images/05-revive.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "07",
+    "title": "道具补充",
+    "source": "Assets/BizzaWZ/Final/Real/UI/AddPropPanel/AddPropPanel.prefab",
+    "prompt": "prompts/07-get-booster.md",
+    "image": "images/07-get-booster.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "01",
+    "title": "启动 / 加载",
+    "source": "Assets/BizzaWZ/Common/MenuSystem/Common/LoadingPanel/LoadingPanel.prefab",
+    "prompt": "prompts/01-loading.md",
+    "image": "images/01-loading.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "08",
+    "title": "新道具解锁",
+    "source": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab",
+    "prompt": "prompts/08-new-booster.md",
+    "image": "images/08-new-booster.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "04",
+    "title": "通关 / 奖励领取",
+    "source": "Assets/BizzaWZ/Final/Real/UI/GetRewardPanel/GetRewardPanel.prefab",
+    "prompt": "prompts/04-level-complete.md",
+    "image": "images/04-level-complete.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "02",
+    "title": "主游戏 / HUD",
+    "source": "Assets/FruitsHarvest/Resources/Original/res/local/coreplay/CorePlayUI.prefab + Assets/BizzaWZ/Final/Real/UI/GamePanel/Resources/Resources/GameUiWidget.prefab",
+    "prompt": "prompts/02-gameplay.md",
+    "image": "images/02-gameplay.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "26",
+    "title": "通用提示 / 网络状态",
+    "source": "Assets/BizzaWZ/Final/FunctionTools/CommonPublic/UI/CommonConfirmTipsPanel.prefab",
+    "prompt": "prompts/26-notification.md",
+    "image": "images/26-notification.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  },
+  {
+    "id": "03",
+    "title": "新手教学",
+    "source": "Assets/FruitsHarvest/Scripts/NewPlayerGuider.cs + Assets/BizzaWZ/Final/Framework/Runtime/Module/Teach/UITeach",
+    "prompt": "prompts/03-tutorial.md",
+    "image": "images/03-tutorial.png",
+    "notes": "内置 image_gen 生成；英文美术概念稿，示例数据用于呈现视觉层级。已查看生成结果，不表示 Unity 实现。"
+  }
+]

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
  
 public class WithdrawAmountItem : MonoBehaviour
@@ -14,6 +15,15 @@ public class WithdrawAmountItem : MonoBehaviour
 
     public GameObject selectObj;
     public BizzaButton btn;
+    [SerializeField] private Image cardBackground;
+    [SerializeField] private Color selectedAmountColor;
+    [SerializeField] private Color normalAmountColor;
+    [SerializeField] private Vector3 selectedAmountScale = Vector3.one;
+    [SerializeField] private Vector3 normalAmountScale = Vector3.one;
+    [SerializeField] private Vector2 selectedAmountSize;
+    [SerializeField] private Vector2 normalAmountSize;
+    private Sprite normalCard, selectedCard;
+    private bool selected;
     private int _index;
     private bool _isStarterItem;
     private FakeWithdrawPanel _panel;
@@ -44,12 +54,28 @@ public class WithdrawAmountItem : MonoBehaviour
 
     public void OnSelectState(bool isSelect)
     {
-        selectObj.SetActive(isSelect);
+        SetSelectState(isSelect);
     }
 
     public void SetSelectState(bool isSelect)
     {
+        selected = isSelect;
         selectObj.SetActive(isSelect);
+        if (cardBackground == null) return;
+        amountTxt.color = isSelect ? selectedAmountColor : normalAmountColor;
+        amountTxt.rectTransform.localScale = isSelect ? selectedAmountScale : normalAmountScale;
+        amountTxt.rectTransform.sizeDelta = isSelect ? selectedAmountSize : normalAmountSize;
+        var sprite = isSelect ? selectedCard : normalCard;
+        if (sprite != null) { cardBackground.sprite = sprite; cardBackground.enabled = true; }
+    }
+
+    public void SetArtwork(Sprite normal, Sprite highlighted, Sprite check)
+    {
+        normalCard = normal;
+        selectedCard = highlighted;
+        var image = selectObj.GetComponent<Image>();
+        if (image != null && check != null) { image.sprite = check; image.enabled = true; }
+        SetSelectState(selected);
     }
 }
 #endif

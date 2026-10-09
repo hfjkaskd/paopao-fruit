@@ -1,0 +1,5445 @@
+{
+    "prefab": "history",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)",
+            "type": "Image:True:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 5000.0,
+                "y": 5000.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "PageMask (1)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "tap to close",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 1585.0
+            },
+            "size": {
+                "x": 200.0,
+                "y": 50.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 903.0
+            },
+            "size": {
+                "x": 806.0,
+                "y": 1324.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 158.0
+            },
+            "size": {
+                "x": 418.0,
+                "y": 116.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 657.1199951171875,
+                "y": 135.24798583984376
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Image (2)/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 196.8800048828125,
+                "y": 135.24798583984376
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG (2)/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Histórico",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 154.5
+            },
+            "size": {
+                "x": 348.0,
+                "y": 79.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.059999942779541,
+                "z": 1.0
+            },
+            "fontSize": 75.0,
+            "fields": []
+        },
+        {
+            "path": "CloseBtn",
+            "type": "Image:True:1",
+            "sprite": "Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 88.5,
+                "y": 119.5
+            },
+            "size": {
+                "x": 99.0,
+                "y": 99.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "CloseBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Btn_Close",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 100.0,
+                "y": 113.5
+            },
+            "size": {
+                "x": 60.0,
+                "y": 60.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 849.5
+            },
+            "size": {
+                "x": 740.0,
+                "y": 917.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport",
+            "type": "Image:False:1",
+            "sprite": "UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 849.5
+            },
+            "size": {
+                "x": 740.0,
+                "y": 917.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 849.0
+            },
+            "size": {
+                "x": 740.0,
+                "y": 916.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 813.3300170898438,
+                "y": 223.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "due",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "Channel_2",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -159.6650390625,
+                "y": 1284.054931640625
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$300",
+            "active": false,
+            "position": {
+                "x": 227.33499145507813,
+                "y": 1286.054931640625
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 92.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": false,
+            "position": {
+                "x": 232.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 813.3300170898438,
+                "y": 223.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "due",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "Channel_2",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -159.6650390625,
+                "y": 1284.054931640625
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$300",
+            "active": false,
+            "position": {
+                "x": 227.33499145507813,
+                "y": 1286.054931640625
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 92.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (1)/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": false,
+            "position": {
+                "x": 232.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 813.3300170898438,
+                "y": 223.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "due",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "Channel_2",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -159.6650390625,
+                "y": 1284.054931640625
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$300",
+            "active": false,
+            "position": {
+                "x": 227.33499145507813,
+                "y": 1286.054931640625
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 92.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (2)/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": false,
+            "position": {
+                "x": 232.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 813.3300170898438,
+                "y": 223.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Time:2024.10.10",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Email:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginmlEmail:abcde@ginml",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "due",
+            "active": false,
+            "position": {
+                "x": -347.6650390625,
+                "y": 1415.9449462890625
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 57.0,
+                "y": 1307.0
+            },
+            "size": {
+                "x": 809.3300170898438,
+                "y": 217.88999938964845
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "Channel_2",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": -159.6650390625,
+                "y": 1284.054931640625
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$300",
+            "active": false,
+            "position": {
+                "x": 227.33499145507813,
+                "y": 1286.054931640625
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 92.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 204.33499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": false,
+            "position": {
+                "x": 241.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 195.83499145507813,
+                "y": 1390.054931640625
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/WithdrawHistoryItem (3)/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": false,
+            "position": {
+                "x": 232.33499145507813,
+                "y": 1389.554931640625
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 535.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 535.0
+            },
+            "size": {
+                "x": 734.0,
+                "y": 286.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 535.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "27 set 2026",
+            "active": true,
+            "position": {
+                "x": 275.0,
+                "y": 565.5
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": 275.0,
+                "y": 615.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "j***@example.com",
+            "active": true,
+            "position": {
+                "x": 264.0,
+                "y": 615.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": 275.0,
+                "y": 615.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Revise os dados da conta.",
+            "active": false,
+            "position": {
+                "x": 615.0,
+                "y": 644.5
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 535.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "Pagbank",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.0,
+                "y": 481.0
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$0,03",
+            "active": true,
+            "position": {
+                "x": 637.0,
+                "y": 483.0
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 80.05000305175781,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 587.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 587.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": false,
+            "position": {
+                "x": 651.0,
+                "y": 586.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 614.0,
+                "y": 587.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 614.0,
+                "y": 587.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": true,
+            "position": {
+                "x": 651.0,
+                "y": 586.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.5,
+                "y": 587.0
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.5,
+                "y": 587.0
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": false,
+            "position": {
+                "x": 642.0,
+                "y": 586.5
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 839.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 839.0
+            },
+            "size": {
+                "x": 734.0,
+                "y": 286.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 839.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "25 set 2026",
+            "active": true,
+            "position": {
+                "x": 275.0,
+                "y": 869.5
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": 275.0,
+                "y": 919.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "***.***.***-**",
+            "active": true,
+            "position": {
+                "x": 264.0,
+                "y": 919.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": 275.0,
+                "y": 919.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Revise os dados da conta.",
+            "active": false,
+            "position": {
+                "x": 615.0,
+                "y": 948.5
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 30.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 839.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 280.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "PIX",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.0,
+                "y": 785.0
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$0,02",
+            "active": true,
+            "position": {
+                "x": 637.0,
+                "y": 787.0
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 79.94999694824219,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 614.0,
+                "y": 891.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 614.0,
+                "y": 891.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": true,
+            "position": {
+                "x": 651.0,
+                "y": 890.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 891.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 891.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": false,
+            "position": {
+                "x": 651.0,
+                "y": 890.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.5,
+                "y": 891.0
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.5,
+                "y": 891.0
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": false,
+            "position": {
+                "x": 642.0,
+                "y": 890.5
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 34.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1153.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/bg",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1153.0
+            },
+            "size": {
+                "x": 734.0,
+                "y": 306.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1153.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Time",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "22 set 2026",
+            "active": true,
+            "position": {
+                "x": 275.0,
+                "y": 1173.5
+            },
+            "size": {
+                "x": 348.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9900000095367432,
+                "y": 1.090000033378601,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Name",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Jones ",
+            "active": false,
+            "position": {
+                "x": 275.0,
+                "y": 1223.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Email",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "j***@example.com",
+            "active": true,
+            "position": {
+                "x": 264.0,
+                "y": 1223.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/CPF/CNP",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "CPE/CNPJ",
+            "active": false,
+            "position": {
+                "x": 275.0,
+                "y": 1223.0
+            },
+            "size": {
+                "x": 348.0,
+                "y": 46.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 37.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/due",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Revise os dados da conta.",
+            "active": true,
+            "position": {
+                "x": 615.0,
+                "y": 1252.5
+            },
+            "size": {
+                "x": 306.0,
+                "y": 47.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.2000000476837159,
+                "z": 1.0
+            },
+            "fontSize": 27.200000762939454,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1153.0
+            },
+            "size": {
+                "x": 730.0,
+                "y": 300.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/WithdrawWayIcon",
+            "type": "Image:True:1",
+            "sprite": "Pagbank",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 250.0,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 322.0,
+                "y": 114.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/Infos/Current",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$0,02",
+            "active": true,
+            "position": {
+                "x": 637.0,
+                "y": 1091.0
+            },
+            "size": {
+                "x": 252.0,
+                "y": 92.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9100000262260437,
+                "y": 1.2200000286102296,
+                "z": 1.0
+            },
+            "fontSize": 79.94999694824219,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag",
+            "type": "Image:True:1",
+            "sprite": "Success",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 1195.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Inset",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 1195.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/SuccessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Concluído",
+            "active": false,
+            "position": {
+                "x": 651.0,
+                "y": 1194.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag",
+            "type": "Image:True:1",
+            "sprite": "Pending",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 1195.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 614.0,
+                "y": 1195.0
+            },
+            "size": {
+                "x": 300.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/ProcessTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Em análise",
+            "active": false,
+            "position": {
+                "x": 651.0,
+                "y": 1194.5
+            },
+            "size": {
+                "x": 190.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 38.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag",
+            "type": "Image:True:1",
+            "sprite": "Failed",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 605.5,
+                "y": 1195.0
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag/Image",
+            "type": "Image:False:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 605.5,
+                "y": 1195.0
+            },
+            "size": {
+                "x": 307.0,
+                "y": 80.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Scroll View/Viewport/Content/ReferenceFixture/FailTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Não concluído",
+            "active": true,
+            "position": {
+                "x": 642.0,
+                "y": 1194.5
+            },
+            "size": {
+                "x": 196.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9399999976158142,
+                "y": 0.9850000143051148,
+                "z": 1.0
+            },
+            "fontSize": 31.149999618530275,
+            "fields": []
+        },
+        {
+            "path": "Content/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "There are no withdrawal orders yet. Keep going!",
+            "active": false,
+            "position": {
+                "x": 426.0,
+                "y": 892.5
+            },
+            "size": {
+                "x": 624.0,
+                "y": 203.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 44.79999923706055,
+            "fields": []
+        },
+        {
+            "path": "ApprovedHelp",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 759.5,
+                "y": 119.5
+            },
+            "size": {
+                "x": 99.0,
+                "y": 99.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedSupport",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 431.0,
+                "y": 1439.0
+            },
+            "size": {
+                "x": 588.0,
+                "y": 124.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ApprovedSupport/Label",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Precisa de ajuda?",
+            "active": true,
+            "position": {
+                "x": 483.5,
+                "y": 1442.0
+            },
+            "size": {
+                "x": 353.0,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8799999952316284,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 46.099998474121097,
+            "fields": []
+        },
+        {
+            "path": "ApprovedSection",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Meus saques",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 323.5
+            },
+            "size": {
+                "x": 642.0,
+                "y": 75.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.159999966621399,
+                "z": 1.0
+            },
+            "fontSize": 64.0,
+            "fields": []
+        }
+    ]
+}

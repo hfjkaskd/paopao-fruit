@@ -428,14 +428,73 @@ public static class OrchardWithdrawalPass
         Body(root, "Hint");
         Body(root, "Num");
         Title(root, "Icon/Text (TMP)");
-        Paint(root, "progress/bg", "ProgressTrack");
-        Fill(root, "progress/progress");
+        RectTransform icon = Rect(root, "Icon");
+        if (icon != null)
+        {
+            icon.anchoredPosition = new Vector2(-350f, 6f);
+            icon.sizeDelta = new Vector2(96f, 96f);
+            if (icon.TryGetComponent<Image>(out var iconImage)) iconImage.preserveAspect = true;
+        }
+        RectTransform badge = Rect(root, "Icon/Image (2)");
+        if (badge != null)
+        {
+            badge.anchoredPosition = new Vector2(0f, -31f);
+            badge.sizeDelta = new Vector2(104f, 32f);
+        }
+        RectTransform badgeText = Rect(root, "Icon/Text (TMP)");
+        if (badgeText != null)
+        {
+            badgeText.anchoredPosition = new Vector2(0f, -31f);
+            badgeText.sizeDelta = new Vector2(104f, badgeText.sizeDelta.y);
+        }
+        ApplyDanProgress(root);
         Paint(root, "ClaimBtn/Image", "ButtonGreen");
         Paint(root, "prepareBtn/Image", "ButtonBlue");
         Paint(root, "ClaimedBtn/Image", "ButtonDisabled");
         Title(root, "ClaimBtn/Text (TMP)");
         Title(root, "prepareBtn/Text (TMP)");
         Body(root, "ClaimedBtn/Text (TMP)", Muted);
+    }
+
+    private static void ApplyDanProgress(GameObject root)
+    {
+        RectTransform progress = Rect(root, "progress");
+        RectTransform fillArea = Rect(root, "progress/FillArea");
+        RectTransform fillRect = Rect(root, "progress/FillArea/progress");
+        Transform trackTransform = Find(root, "progress/bg");
+        if (progress == null || fillArea == null || fillRect == null || trackTransform == null)
+            throw new InvalidOperationException("WithdrawDanItem is missing its authored progress hierarchy.");
+        progress.sizeDelta = new Vector2(progress.sizeDelta.x, 30f);
+        fillArea.sizeDelta = new Vector2(-12f, -12f);
+        progress.ForceUpdateRectTransforms();
+        fillArea.ForceUpdateRectTransforms();
+        fillRect.ForceUpdateRectTransforms();
+
+        Image track = trackTransform.GetComponent<Image>();
+        OrchardSkinAuthoring.ApplySprite(track, "RewardProgressTrack");
+        track.type = Image.Type.Sliced;
+        track.pixelsPerUnitMultiplier = track.sprite.rect.height / track.pixelsPerUnit / track.rectTransform.rect.height;
+        track.raycastTarget = false;
+
+        const string path = "Assets/OrchardUI/Art/WithdrawProgressSoftFill.png";
+        Sprite sprite = null;
+        foreach (UnityEngine.Object asset in AssetDatabase.LoadAllAssetsAtPath(path))
+            if (asset is Sprite candidate && candidate.name == "RewardProgressSoftFill")
+            {
+                sprite = candidate;
+                break;
+            }
+        if (sprite == null) throw new InvalidOperationException("Missing RewardProgressSoftFill sprite at " + path);
+        Image fill = fillRect.GetComponent<Image>();
+        fill.sprite = sprite;
+        fill.overrideSprite = null;
+        fill.type = Image.Type.Sliced;
+        fill.preserveAspect = false;
+        fill.fillCenter = true;
+        fill.raycastTarget = false;
+        fill.pixelsPerUnitMultiplier = sprite.rect.height / fill.pixelsPerUnit / fillRect.rect.height;
+        EditorUtility.SetDirty(track);
+        EditorUtility.SetDirty(fill);
     }
 
     private static void ApplyRealRuntimePalette(GameObject root)

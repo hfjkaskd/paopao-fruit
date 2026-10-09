@@ -1,0 +1,54 @@
+{
+    "startedUtc": "2026-09-28T14:54:41.4441551Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 7,
+    "pages": [
+        {
+            "page": "SlotFAQPanel",
+            "openMethod": "InitWZ full initialization, open existing SlotPanel then EventSystem FAQ Button",
+            "closeMethod": "Got it, reopen through FAQ, new X, then parent Back",
+            "screenshot": "Design/OrchardLuckyHelpRefinement-20260928/RuntimeShort/00-lucky-help.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 901.4300537109375,
+                        "y": 1811.31103515625
+                    }
+                },
+                {
+                    "name": "Btn",
+                    "topHit": "Btn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 540.0,
+                        "y": 277.18310546875
+                    }
+                },
+                {
+                    "name": "ReferenceClose",
+                    "topHit": "ReferenceClose",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 908.710693359375,
+                        "y": 1592.3726806640625
+                    }
+                }
+            ],
+            "checks": [
+                "Six complete warm row sprites and 18 full-color symbol tiles fit screen without sliced borders or faded alpha; localized text has no overflow; two illustrated instructions replace the old paragraph; background dim covers the full screen",
+                "FAQ opener, Got it and X receive hits; both help dismissals reveal existing SlotPanel; progress and balance unchanged; no spin or ad invoked"
+            ]
+        }
+    ],
+    "errors": []
+}

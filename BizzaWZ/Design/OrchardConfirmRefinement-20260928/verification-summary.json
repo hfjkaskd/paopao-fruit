@@ -1,0 +1,53 @@
+{
+  "generatedUtc": "2026-09-28T12:25:32.053070+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "designAndPreviewSize": [
+    828,
+    1900
+  ],
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "otherPageLayoutSpecsUnchanged": true,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T12:22:54.6380307Z",
+      "status": "complete",
+      "buttonHitChecks": 4,
+      "loggedErrors": [
+        "开启测试设备False"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T12:23:35.0550561Z",
+      "status": "complete",
+      "buttonHitChecks": 4,
+      "loggedErrors": []
+    }
+  },
+  "buttonHitChecksPassed": 8,
+  "knownLog": "开启测试设备False is an existing SDK diagnostic logged at Error level.",
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/UIWithdrawalConfirmPanel/UIWithdrawalConfirmPanel.prefab": "ecfeb95efb3fc55ab3a87b23a1a1dd17692fbbe1293b484f26f9ae005af898d3",
+    "Assets/OrchardUI/Resources/OrchardUI/ConfirmReferenceControls.png": "7e21a7a667c5e552ba42cd0d4e888b93b8f80d11af75a6a015be31b43a3796c6",
+    "Assets/OrchardUI/Runtime/OrchardConfirmVisual.cs": "a732180dc32176bc8b13cc7c8f5c1b9413a56d56142e75afbba9fb1d651dc19d"
+  },
+  "limitations": [
+    "Confirmation click/payment submission not executed; only pointer down/up visual state and hit target verified.",
+    "Runtime uses temporary design payee strings with actual account amount; no payee fields saved.",
+    "No Android/iOS device build tested.",
+    "Matching canvas and corrected elements do not establish complete pixel identity."
+  ]
+}

@@ -47,16 +47,20 @@ namespace Bizza.Unity.Android
 
         public static void EnsureCreated()
         {
-            if (GameObject.Find(nameof(AndroidJavaMessageDispatcher)) != null)
+            GameObject dispatcherObject = GameObject.Find(nameof(AndroidJavaMessageDispatcher));
+            if (dispatcherObject == null)
             {
-                return;
+                dispatcherObject = new GameObject(nameof(AndroidJavaMessageDispatcher));
             }
 
-            GameObject dispatcherObject = new GameObject(nameof(AndroidJavaMessageDispatcher));
-            dispatcherObject.AddComponent<AndroidJavaMessageDispatcher>();
+            // A named object can remain after its serialized script reference is lost.
+            if (!dispatcherObject.TryGetComponent<AndroidJavaMessageDispatcher>(out _))
+            {
+                dispatcherObject.AddComponent<AndroidJavaMessageDispatcher>();
+            }
         }
         
-        private void Start()
+        private void Awake()
         {
             DontDestroyOnLoad(gameObject);
             gameObject.name = nameof(AndroidJavaMessageDispatcher);

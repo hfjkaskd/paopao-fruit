@@ -1,0 +1,3575 @@
+{
+    "prefab": "cash-withdraw",
+    "nodes": [
+        {
+            "path": "",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "OrchardBackdrop",
+            "type": "Image:True:1",
+            "sprite": "Backdrop",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 853.9251708984375,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "BG",
+            "type": "Image:False:0",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/Frame",
+            "type": "Image:True:1",
+            "sprite": "Panel",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 891.0
+            },
+            "size": {
+                "x": 806.0,
+                "y": 1360.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Meu saldo",
+            "active": true,
+            "position": {
+                "x": 369.5,
+                "y": 297.0
+            },
+            "size": {
+                "x": 225.0,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9300000071525574,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 48.70000076293945,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Balance",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Balance/bg",
+            "type": "Image:True:1",
+            "sprite": "Balance",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 429.0
+            },
+            "size": {
+                "x": 722.0,
+                "y": 178.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/Balance/Cash",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$6,40",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 431.0
+            },
+            "size": {
+                "x": 612.0,
+                "y": 138.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8349999785423279,
+                "y": 1.065999984741211,
+                "z": 1.0
+            },
+            "fontSize": 132.0,
+            "fields": []
+        },
+        {
+            "path": "Content/CashBalance/ReferenceCashIcon",
+            "type": "Image:True:1",
+            "sprite": "PinkCash",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 529.0,
+                "y": 290.0
+            },
+            "size": {
+                "x": 82.0,
+                "y": 86.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Selecionar valor",
+            "active": true,
+            "position": {
+                "x": 401.0,
+                "y": 562.0
+            },
+            "size": {
+                "x": 706.0,
+                "y": 66.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9300000071525574,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 47.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View",
+            "type": "Image:False:0",
+            "sprite": "Background",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 833.5
+            },
+            "size": {
+                "x": 724.0,
+                "y": 473.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport",
+            "type": "Image:False:1",
+            "sprite": "UIMask",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 833.5
+            },
+            "size": {
+                "x": 724.0,
+                "y": 473.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 724.0,
+                "y": 470.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)",
+            "type": "Image:True:1",
+            "sprite": "SelectedCard",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 676.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/bg",
+            "type": "Image:False:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 676.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Select",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 373.5,
+                "y": 678.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/Amount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$8",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 676.0
+            },
+            "size": {
+                "x": 180.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.949999988079071,
+                "y": 1.059999942779541,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 400.82000732421877,
+                "y": 626.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 85.17999267578125,
+                "y": 626.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetedTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (1)/GetedTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 606.0,
+                "y": 676.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/bg",
+            "type": "Image:False:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 606.0,
+                "y": 676.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Select",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 735.5,
+                "y": 678.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/Amount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$10",
+            "active": true,
+            "position": {
+                "x": 606.0,
+                "y": 676.0
+            },
+            "size": {
+                "x": 266.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8399999737739563,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 762.8200073242188,
+                "y": 626.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 447.17999267578127,
+                "y": 626.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetedTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (6)/GetedTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 626.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/bg",
+            "type": "Image:False:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Select",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 373.5,
+                "y": 834.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/Amount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$20",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 266.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8399999737739563,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 400.82000732421877,
+                "y": 782.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 85.17999267578125,
+                "y": 782.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetedTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (2)/GetedTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 606.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/bg",
+            "type": "Image:False:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 606.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Select",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 735.5,
+                "y": 834.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/Amount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$30",
+            "active": true,
+            "position": {
+                "x": 606.0,
+                "y": 832.0
+            },
+            "size": {
+                "x": 266.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8399999737739563,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 762.8200073242188,
+                "y": 782.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 447.17999267578127,
+                "y": 782.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetedTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (3)/GetedTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 605.0,
+                "y": 782.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 988.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/bg",
+            "type": "Image:False:1",
+            "sprite": "Input",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 988.0
+            },
+            "size": {
+                "x": 352.0,
+                "y": 144.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Select",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 373.5,
+                "y": 990.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/Amount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "R$50",
+            "active": true,
+            "position": {
+                "x": 244.0,
+                "y": 988.0
+            },
+            "size": {
+                "x": 266.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8399999737739563,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 938.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 400.82000732421877,
+                "y": 938.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 85.17999267578125,
+                "y": 938.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 938.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetedTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 938.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (4)/GetedTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 243.0,
+                "y": 938.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)",
+            "type": "Image:True:1",
+            "sprite": "Card",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 65.0,
+                "y": 1067.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/bg",
+            "type": "Image:False:1",
+            "sprite": "Input",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 65.0,
+                "y": 1067.0
+            },
+            "size": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Select",
+            "type": "Image:True:1",
+            "sprite": "Check",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 370.5,
+                "y": 1141.0
+            },
+            "size": {
+                "x": 69.0,
+                "y": 72.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/Amount",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "$10",
+            "active": false,
+            "position": {
+                "x": 241.0,
+                "y": 1139.0
+            },
+            "size": {
+                "x": 266.0,
+                "y": 88.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8399999737739563,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 240.0,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 397.82000732421877,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 82.17999267578125,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 240.0,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetedTag",
+            "type": "Image:True:1",
+            "sprite": "Badge",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 240.0,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawAmount/Scroll View/Viewport/Content/WithdrawAmountItem (5)/GetedTag/text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Hadiah Pengguna Baru",
+            "active": false,
+            "position": {
+                "x": 240.0,
+                "y": 1089.0
+            },
+            "size": {
+                "x": 280.0,
+                "y": 30.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 23.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Meta atual",
+            "active": true,
+            "position": {
+                "x": 408.5,
+                "y": 1138.5
+            },
+            "size": {
+                "x": 687.0,
+                "y": 59.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9599999785423279,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 43.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1215.5
+            },
+            "size": {
+                "x": 702.0,
+                "y": 85.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress/bg",
+            "type": "Image:True:1",
+            "sprite": "Track",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1215.5
+            },
+            "size": {
+                "x": 702.0,
+                "y": 85.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "max": {
+                "x": 1.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress/real",
+            "type": "Image:True:1",
+            "sprite": "Fill",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 359.0,
+                "y": 1215.5
+            },
+            "size": {
+                "x": 544.0,
+                "y": 63.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "pivot": {
+                "x": 0.0,
+                "y": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawProgress/Progress/Text (TMP)",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "80%",
+            "active": true,
+            "position": {
+                "x": 413.5,
+                "y": 1215.0
+            },
+            "size": {
+                "x": 255.0,
+                "y": 62.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 51.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn",
+            "type": "Image:True:1",
+            "sprite": "DisabledButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.5,
+                "y": 1410.5
+            },
+            "size": {
+                "x": 677.0,
+                "y": 143.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/bg",
+            "type": "Image:False:1",
+            "sprite": "HudNaturalGreenButton",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 430.23028564453127,
+                "y": 1411.5
+            },
+            "size": {
+                "x": 471.9635925292969,
+                "y": 168.07150268554688
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/bg/OrchardNavLeavesRight",
+            "type": "Image:False:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 684.0321044921875,
+                "y": 1411.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/bg/OrchardNavLeavesLeft",
+            "type": "Image:False:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 176.42849731445313,
+                "y": 1411.5
+            },
+            "size": {
+                "x": 45.900001525878909,
+                "y": 54.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/WithdrawBtn/Text",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Retirar",
+            "active": true,
+            "position": {
+                "x": 425.5,
+                "y": 1412.0
+            },
+            "size": {
+                "x": 447.0,
+                "y": 112.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.8999999761581421,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 79.0,
+            "fields": []
+        },
+        {
+            "path": "Content/HintText",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Faltam <color=#005B1D>R$1,60</color> para esta meta.",
+            "active": true,
+            "position": {
+                "x": 429.0,
+                "y": 1289.5
+            },
+            "size": {
+                "x": 640.0,
+                "y": 61.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.9139999747276306,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 36.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ReferenceDivider",
+            "type": "Image:True:0.627451",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 427.0,
+                "y": 1092.0
+            },
+            "size": {
+                "x": 692.0,
+                "y": 2.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "Content/ReferenceUnavailableHint",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Complete a meta para continuar.",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 1508.5
+            },
+            "size": {
+                "x": 616.0,
+                "y": 49.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 30.5,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 426.0,
+                "y": 923.0
+            },
+            "size": {
+                "x": 852.0,
+                "y": 1846.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/bg",
+            "type": "Image:True:1",
+            "sprite": "Title",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 423.5,
+                "y": 132.0
+            },
+            "size": {
+                "x": 391.0,
+                "y": 142.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/bg/OrchardNavLeavesRight",
+            "type": "Image:True:1",
+            "sprite": "LeavesRight",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 640.1199951171875,
+                "y": 113.52001953125
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 1.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/bg/OrchardNavLeavesLeft",
+            "type": "Image:True:1",
+            "sprite": "LeavesLeft",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 206.8800048828125,
+                "y": 113.52001953125
+            },
+            "size": {
+                "x": 54.400001525878909,
+                "y": 64.0
+            },
+            "min": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/CloseBtn",
+            "type": "Image:True:1",
+            "sprite": "Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 92.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 90.0,
+                "y": 94.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/CloseBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_Back",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 92.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/FQA",
+            "type": "Image:True:1",
+            "sprite": "Help",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 761.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 90.0,
+                "y": 94.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/FQA/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_FAQ",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 761.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn",
+            "type": "Image:True:1",
+            "sprite": "History",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 657.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 90.0,
+                "y": 94.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_Historiy",
+            "text": "",
+            "active": true,
+            "position": {
+                "x": 657.0,
+                "y": 112.0
+            },
+            "size": {
+                "x": 110.0,
+                "y": 110.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/FingerHint",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 679.0,
+                "y": 155.0
+            },
+            "size": {
+                "x": 100.0,
+                "y": 100.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 0.7999999523162842,
+                "y": 0.7999999523162842,
+                "z": 0.7999999523162842
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/HistoryBtn/FingerHint/SkeletonGraphic (SHOU)",
+            "type": "",
+            "sprite": "",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 679.0,
+                "y": 155.0
+            },
+            "size": {
+                "x": 194.15509033203126,
+                "y": 201.18505859375
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.3699881434440613,
+                "y": 0.6459226608276367
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ButtomGroup/Title",
+            "type": "Text:True",
+            "sprite": "",
+            "text": "Saque em\ndinheiro",
+            "active": true,
+            "position": {
+                "x": 425.0,
+                "y": 128.0
+            },
+            "size": {
+                "x": 302.0,
+                "y": 112.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 56.599998474121097,
+            "fields": []
+        },
+        {
+            "path": "ServiceBtn",
+            "type": "Image:True:1",
+            "sprite": "Chat",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 782.5,
+                "y": 855.0
+            },
+            "size": {
+                "x": 65.0,
+                "y": 66.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        },
+        {
+            "path": "ServiceBtn/Image",
+            "type": "Image:False:1",
+            "sprite": "Icon_Red",
+            "text": "",
+            "active": false,
+            "position": {
+                "x": 740.2000122070313,
+                "y": 809.9000244140625
+            },
+            "size": {
+                "x": 51.0,
+                "y": 52.0
+            },
+            "min": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "max": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "fontSize": 0.0,
+            "fields": []
+        }
+    ]
+}

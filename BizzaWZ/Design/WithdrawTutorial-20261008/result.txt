@@ -1,0 +1,8 @@
+PASS: Teach_01 cash-withdraw tip uses the unchanged Content/WithdrawBtn target path; optional path survives node cloning.
+PASS 720x1280: button-to-tip gap 26.0 px; tip completely on screen.
+PASS: moved target +/-60 units; no overlap; tip graphics do not intercept touches; Portuguese text fits.
+PASS 720x1600: button-to-tip gap 32.5 px; tip completely on screen.
+PASS: moved target +/-60 units; no overlap; tip graphics do not intercept touches; Portuguese text fits.
+PASS 720x1800: button-to-tip gap 36.6 px; tip completely on screen.
+PASS: moved target +/-60 units; no overlap; tip graphics do not intercept touches; Portuguese text fits.
+Static prefab/layout validation only; Android touch flow is not exercised. No APK built.

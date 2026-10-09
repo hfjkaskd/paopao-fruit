@@ -1,0 +1,79 @@
+[
+  {
+    "id": "19-faq",
+    "title": "常见问题",
+    "source": "Assets/BizzaWZ/Final/Real/UI/FAQPanel/FAQPanel.prefab",
+    "prompt": "prompts/19-faq.md",
+    "image": "images/19-faq.png",
+    "notes": "FAQ滚动内容阅读页，示意文案精简现有问答；保持关闭和滚动阅读功能。；最终HUD修正提示词见prompts/19-faq-refinement.md。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-f28fba3c-2b5b-43c6-b2f3-e2c184e0d621.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  },
+  {
+    "id": "20-support-chat",
+    "title": "客服聊天",
+    "source": "Assets/BizzaWZ/Final/Real/UI/ServicePanel/ServicePanel.prefab",
+    "prompt": "prompts/20-support-chat.md",
+    "image": "images/20-support-chat.png",
+    "notes": "保留返回、历史、FAQ、客服消息、快捷问题与自定义输入；对话为英文演示。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-9b3ed7aa-189d-4351-abe8-f31ea072b897.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  },
+  {
+    "id": "21-support-topics",
+    "title": "快捷问题选择",
+    "source": "Assets/BizzaWZ/Final/Real/UI/ServiceSelectPanel/ServiceSelectPanel.prefab",
+    "prompt": "prompts/21-support-topics.md",
+    "image": "images/21-support-topics.png",
+    "notes": "7个预置问题和自定义消息入口；底部面板覆盖在客服聊天上。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-7bc64bf7-82df-4253-9c9b-e6c28e5a54a4.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  },
+  {
+    "id": "22-welcome-gift",
+    "title": "新手礼",
+    "source": "Assets/BizzaWZ/Final/Real/UI/NewbieGiftPage/NewbieGiftPage.prefab",
+    "prompt": "prompts/22-welcome-gift.md",
+    "image": "images/22-welcome-gift.png",
+    "notes": "新手赠礼金额为效果图示例，使用领取/继续单一主操作；实际奖励读取现有配置。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-c43752e5-ffb4-4990-b962-23c5c66d5937.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  },
+  {
+    "id": "23-daily-mission",
+    "title": "每日视频任务",
+    "source": "Assets/BizzaWZ/Final/Real/UI/DailyMissionPanel/DailyMissionPanel.prefab",
+    "prompt": "prompts/23-daily-mission.md",
+    "image": "images/23-daily-mission.png",
+    "notes": "依据实际运行图保留视频任务、奖励数额、累计次数、Watch Video与每日刷新倒计时；演示8/30和$0.20。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-45cb4873-8079-45ca-a280-f1ce2445e82a.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  },
+  {
+    "id": "24-lucky-spin",
+    "title": "幸运抽奖",
+    "source": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotPanel/SlotPanel.prefab",
+    "prompt": "prompts/24-lucky-spin.md",
+    "image": "images/24-lucky-spin.png",
+    "notes": "保留3转轴、免费机会和视频抽奖入口；视觉把赌场符号概念替换为果园奖励图标，落地需美术替换同位资产。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-4066bdc3-5260-4dc2-9faa-98228f5a006d.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  },
+  {
+    "id": "25-lucky-help",
+    "title": "幸运抽奖规则",
+    "source": "Assets/BizzaWZ/Final/Real/UI/SlotsPanel/SlotFQAPanel/SlotFQAPanel.prefab",
+    "prompt": "prompts/25-lucky-help.md",
+    "image": "images/25-lucky-help.png",
+    "notes": "现有6行组合说明和每5关免费机会；示意图用果园主题替换同位符号，奖励标签不写固定金额。",
+    "generatedSource": "C:\\Users\\pc\\.codex\\generated_images\\01a0e5ed-0ad2-7cf3-baeb-ae6d1b9ad446\\exec-b241859a-2635-4219-81ea-ffcb1e164caa.png",
+    "method": "built-in image_gen",
+    "qa": "已逐张检查：完整竖屏、英文文字、现有功能映射、统一奶油金边果园风格。"
+  }
+]

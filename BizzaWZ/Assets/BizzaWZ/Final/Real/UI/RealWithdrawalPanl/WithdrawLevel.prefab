@@ -1218,6 +1218,7 @@ MonoBehaviour:
   material: {fileID: 0}
   images: []
   clickBtn: {fileID: 0}
+  compactLevelLabel: 0
 --- !u!1001 &9173841358141348464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1249,7 +1250,7 @@ PrefabInstance:
     - target: {fileID: 610603513743240527, guid: 0089d04ef066fab4ab571d694d70d62e, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}
+      objectReference: {fileID: 4590723067257376549, guid: d499aed30aa99354790594868f9dec46, type: 2}
     - target: {fileID: 771246690205890642, guid: 0089d04ef066fab4ab571d694d70d62e, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1301,7 +1302,7 @@ PrefabInstance:
     - target: {fileID: 4094447592938446739, guid: 0089d04ef066fab4ab571d694d70d62e, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}
+      objectReference: {fileID: 4590723067257376549, guid: d499aed30aa99354790594868f9dec46, type: 2}
     - target: {fileID: 5558224670109340533, guid: 0089d04ef066fab4ab571d694d70d62e, type: 3}
       propertyPath: m_Name
       value: WithdrawLevelItem
@@ -1413,7 +1414,7 @@ PrefabInstance:
     - target: {fileID: 6525991162497755553, guid: 0089d04ef066fab4ab571d694d70d62e, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}
+      objectReference: {fileID: 4590723067257376549, guid: d499aed30aa99354790594868f9dec46, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

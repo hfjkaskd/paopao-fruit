@@ -46,6 +46,12 @@ public class UIWithdrawalPendingPanel : UIPageBase<UIWithdrawalPendingInfo>
     [SerializeField] private BizzaButton confirmButton;
     [SerializeField] private BizzaButton closeButton;
 
+    [Header("Prefab presentation states")]
+    [SerializeField] private GameObject[] pendingPresentation = Array.Empty<GameObject>();
+    [SerializeField] private GameObject[] completedPresentation = Array.Empty<GameObject>();
+    [SerializeField] private Sprite pendingButtonSprite;
+    [SerializeField] private Sprite completedButtonSprite;
+
     [Header("Progress")]
     [SerializeField] private int progressTotalStep = 20;
     [SerializeField] private float progressSoftCap = 0.9f;
@@ -254,6 +260,13 @@ public class UIWithdrawalPendingPanel : UIPageBase<UIWithdrawalPendingInfo>
     {
         SetButtonEnabled(confirmButton, enabled);
         SetButtonEnabled(closeButton, enabled);
+        foreach (var element in pendingPresentation) SetActive(element, !enabled);
+        foreach (var element in completedPresentation) SetActive(element, enabled);
+        if (confirmButton != null && confirmButton.image != null)
+        {
+            Sprite stateSprite = enabled ? completedButtonSprite : pendingButtonSprite;
+            if (stateSprite != null) confirmButton.image.sprite = stateSprite;
+        }
     }
 
     private static void SetButtonEnabled(BizzaButton button, bool enabled)

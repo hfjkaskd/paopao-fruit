@@ -1,0 +1,98 @@
+{
+    "startedUtc": "2026-09-28T13:54:20.4180609Z",
+    "status": "complete",
+    "error": "",
+    "index": 0,
+    "phase": 13,
+    "pages": [
+        {
+            "page": "ServicePanel",
+            "openMethod": "InitWZ full initialization, production support/history read; temporary real ChatElement prefabs for layout, never sent or saved",
+            "closeMethod": "EventSystem Back Button",
+            "screenshot": "Design/OrchardServiceRefinement-20260928/RuntimeShort/01-service.png",
+            "opened": true,
+            "closed": true,
+            "buttons": [
+                {
+                    "name": "CloseBtn",
+                    "topHit": "CloseBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 192.61105346679688,
+                        "y": 1803.51025390625
+                    }
+                },
+                {
+                    "name": "HistoryBtn",
+                    "topHit": "HistoryBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 780.260009765625,
+                        "y": 1803.51025390625
+                    }
+                },
+                {
+                    "name": "FQA",
+                    "topHit": "FQA",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 888.4290771484375,
+                        "y": 1803.51025390625
+                    }
+                },
+                {
+                    "name": "SelectQuestionBtn ",
+                    "topHit": "SelectQuestionBtn ",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 540.52001953125,
+                        "y": 766.0238647460938
+                    }
+                },
+                {
+                    "name": "NotCanSendBtn",
+                    "topHit": "NotCanSendBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 848.3857421875,
+                        "y": 361.9501953125
+                    }
+                },
+                {
+                    "name": "CanSendBtn",
+                    "topHit": "CanSendBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 848.3857421875,
+                        "y": 361.9501953125
+                    }
+                },
+                {
+                    "name": "ClearBtn",
+                    "topHit": "ClearBtn",
+                    "interactable": true,
+                    "centerHitsButton": true,
+                    "center": {
+                        "x": 741.7767944335938,
+                        "y": 369.23077392578127
+                    }
+                }
+            ],
+            "checks": [
+                "Four real chat prefabs fit completely inside viewport; player sentence stays one line; final bubble bottom and all text remain visible; five initial Buttons receive hits",
+                "Quick questions opens the existing picker, selected question fills input, enabled Send and Clear are reachable; Clear restores the empty input; Send never clicked",
+                "Fourteen long messages scroll to a complete last bubble; keyboard-height callback preserves anchors and top edge, zero height restores both original offsets",
+                "FAQ and History navigation return correctly; temporary rows removed and original rows restored; saved chat count unchanged, no message sent"
+            ]
+        }
+    ],
+    "errors": [
+        "开启测试设备False"
+    ]
+}

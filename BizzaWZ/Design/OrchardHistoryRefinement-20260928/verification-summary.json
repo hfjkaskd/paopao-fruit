@@ -1,0 +1,68 @@
+{
+  "generatedUtc": "2026-09-28T12:45:07.299149+00:00",
+  "project": "C:\\Projects\\paopao\\BizzaWZ",
+  "entryScene": "Assets/Game/Resources/Scenes/InitWZ.unity",
+  "referenceSize": [
+    852,
+    1846
+  ],
+  "runtimeSizes": [
+    [
+      852,
+      1846
+    ],
+    [
+      1080,
+      1920
+    ]
+  ],
+  "compilationErrors": 0,
+  "newPrefabAuditIssues": 0,
+  "existingPrefabAuditErrors": 171,
+  "existingPrefabAuditWarnings": 12,
+  "runs": {
+    "Runtime": {
+      "startedUtc": "2026-09-28T12:42:43.7530219Z",
+      "status": "complete",
+      "buttonHitChecks": 3,
+      "loggedErrors": [
+        "开启测试设备False"
+      ],
+      "checks": [
+        "Production row Init: statuses 1/2/3/4/1 switch the clock/check/cross and failure hint correctly on a reused item; receiving account reset without overlap",
+        "Three record cards, all labels and failure reason fit; payment logos preserve aspect; Back, Help and Support Buttons receive pointer hits",
+        "Twelve real prefab rows: scrolling reaches the complete last failed record and its reason inside the rectangular viewport",
+        "Help opens FAQ; bottom question-mark Button opens support; both return to history",
+        "Disposable rows removed, original records/empty state restored, returned to gameplay; balance and withdrawal timestamp unchanged"
+      ]
+    },
+    "RuntimeShort": {
+      "startedUtc": "2026-09-28T12:44:16.3217611Z",
+      "status": "complete",
+      "buttonHitChecks": 3,
+      "loggedErrors": [],
+      "checks": [
+        "Production row Init: statuses 1/2/3/4/1 switch the clock/check/cross and failure hint correctly on a reused item; receiving account reset without overlap",
+        "Three record cards, all labels and failure reason fit; payment logos preserve aspect; Back, Help and Support Buttons receive pointer hits",
+        "Twelve real prefab rows: scrolling reaches the complete last failed record and its reason inside the rectangular viewport",
+        "Help opens FAQ; bottom question-mark Button opens support; both return to history",
+        "Disposable rows removed, original records/empty state restored, returned to gameplay; balance and withdrawal timestamp unchanged"
+      ]
+    }
+  },
+  "buttonHitChecksPassed": 6,
+  "layoutSpecsUnchanged": true,
+  "assetSha256": {
+    "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistory.prefab": "e4c5d75824aa3e4d1c0dd31c12f5b8074393399d7d702b53cdf1e348b2f60a9c",
+    "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistoryItem.prefab": "41c9c45c0b1da415928d8a55bd81cc50d4ffb10c20bcf21f862d15f52737ff66",
+    "Assets/BizzaWZ/Final/Real/UI/WithdrawHistory/WithdrawHistoryItem.cs": "474d0ff352c9b227abcf9500dd6f2160e7e046a955523df822a5edef63b66519",
+    "Assets/OrchardUI/Resources/OrchardUI/HistoryReferenceControls.png": "5dcec09fd436b1b801d9857dcd518507e3295acfad3124cb1061362eef9e07d0",
+    "Assets/OrchardUI/Runtime/OrchardHistoryVisual.cs": "2c2914bdaf9e2f8b1db0cd62c771bae7c0cfd80b30bbfc2a623d5162e0506857"
+  },
+  "limitations": [
+    "Runtime three-status screenshots use disposable design records, not account transaction history.",
+    "No payment submission or support message was sent.",
+    "No Android/iOS device build tested.",
+    "Visual refinement is not proof of complete pixel identity."
+  ]
+}
