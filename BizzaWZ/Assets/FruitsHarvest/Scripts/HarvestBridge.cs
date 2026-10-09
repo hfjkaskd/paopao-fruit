@@ -125,6 +125,11 @@ public static class HarvestBridge
         }
         ready = true;
         starting = false;
+        // Show completion only after the scene, game UI, and board have finished loading.
+        BizzaEventSystem.Emit(EventDefine.Frame.LoadingProgress, 1f);
+        yield return null;
+        if (token != session || ui == null) yield break;
+        UIModule.Instance.ClosePage(UIPageIds.LoadingPanel);
         FlowModule.CanShowGuide();
         // Teach_01 owns its own masks and reward introduction. Observe its real blocker.
         yield return null;

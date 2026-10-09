@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4294926799734994317}
   - component: {fileID: 6769710714897177524}
   - component: {fileID: 8630962120508341049}
+  - component: {fileID: 9050000000000000000}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -260,3 +261,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btn: {fileID: 4498354164312877159}
   tapToClose: 0
+--- !u!114 &9050000000000000000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233207958568938729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb617f2d67ecd646999a830e787bab1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  target: {fileID: 8630962120508341049}
+  english: "Tap to close"
+  portuguese: "Toque para fechar"
+  indonesian: "Ketuk untuk menutup"
+  existingKey:

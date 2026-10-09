@@ -46,13 +46,6 @@ public class GameMode_Loading : GameModeBase
                 UIModule.Instance.OpenPage(UIPageIds.LoadingPanel).Forget();
         }
 
-        protected override void OnRelease()
-        {
-                base.OnRelease();
-                UIModule.Instance.ClosePage(UIPageIds.LoadingPanel);
-        }
-
-
         private void OnLoadingFinish()
         {
                 LogLogger.LogInfo("OnLoadingFinish");
@@ -93,6 +86,9 @@ public class GameMode_Loading : GameModeBase
 
                 BizzaGameAnalytics.TrackGameLoadComplete();
                 LogLogger.LogInfo($"ReadyChangeScene {teachEnable}");
+		// Keep the page visible while GamePlay creates its UI and board.
+		progress = 0.95f;
+		BizzaEventSystem.Emit(EventDefine.Frame.LoadingProgress, progress);
 		TransitionBlock.ToGamePlay();
                 BizzaEventSystem.Emit(EventDefine.Frame.LoadingStageComplete);
 
@@ -110,7 +106,7 @@ public class GameMode_Loading : GameModeBase
         {
                 progress += Time.deltaTime * progressSpeed;
                 float min = 0;
-                float max = _loadingProcedure != null ? _loadingProcedure.progress : 0;
+                float max = _loadingProcedure != null ? Mathf.Min(_loadingProcedure.progress, 0.95f) : 0;
                 progress = Mathf.Clamp(progress, min, max);
                 BizzaEventSystem.Emit(EventDefine.Frame.LoadingProgress, progress);
         }

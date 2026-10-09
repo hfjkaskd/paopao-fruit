@@ -43,8 +43,6 @@ public static class OrchardBorderlessRewardPreview
             panel.levelTxt.text = "Level 2";
             panel.rewardText.text = "Claim ×2";
             panel.noThanksText.text = "$11.35";
-            Find(root, "ApprovedCoinsCaption").gameObject.SetActive(!singleCurrency);
-            Find(root, "SingleCurrencyCaption").gameObject.SetActive(singleCurrency);
             panel.bonusRate.gameObject.SetActive(false);
             var video = root.GetComponentInChildren<WathAdProgress>(true);
             video.gameObject.SetActive(true);

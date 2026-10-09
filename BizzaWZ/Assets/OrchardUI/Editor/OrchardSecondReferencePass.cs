@@ -26,16 +26,16 @@ public static partial class OrchardApprovedPass
             Copy(root,"Content/ApprovedToday","Today","Hoje",368,245,116,58,36);
             Detail(root,"Content/ApprovedTodayPlate","Input",368,245,116,58).transform.SetSiblingIndex(Need(root,"Content/ApprovedToday").GetSiblingIndex());
             Need(root,"Content/ApprovedToday").SetAsLastSibling();
-            Place(root,Need(root,"Content/ChatContent/Viewport"),65,326,722,699);
-            Place(root,Need(root,"Content/InputNode/SelectQuestionBtn "),206,1063,441,94);
-            Place(root,Need(root,"Content/InputNode/SelectQuestionBtn /Text (TMP)"),290,1079,332,63);
+            Place(root,Need(root,"Content/ChatContent/Viewport"),65,326,722,923);
+            Place(root,Need(root,"Content/InputNode/SelectQuestionBtn "),206,1295,441,94);
+            Place(root,Need(root,"Content/InputNode/SelectQuestionBtn /Text (TMP)"),290,1311,332,63);
             var quick=Need(root,"Content/InputNode/SelectQuestionBtn /Text (TMP)").GetComponent<TMP_Text>();OrchardSkinAuthoring.SetBody(quick);quick.color=new Color32(0,109,177,255);SizeText(quick,42);
-            Detail(root,"Content/InputNode/SelectQuestionBtn /ApprovedQuestion","nav:Help",240,1080,60,60);
+            Detail(root,"Content/InputNode/SelectQuestionBtn /ApprovedQuestion","nav:Help",240,1312,60,60);
             foreach(string button in new[]{"CanSendBtn","NotCanSendBtn"})
             {var b=Need(root,"Content/InputNode/"+button);PaintReferenceDetail(b.GetComponent<Image>(),"Send");var arrow=b.Find("ApprovedArrow");if(arrow!=null)arrow.gameObject.SetActive(false);}
             var input=Need(root,"Content/InputNode/InputField").GetComponent<AdvancedInputFieldPlugin.AdvancedInputField>();
             if(input!=null&&input.PlaceholderTextRenderer!=null){var placeholder=input.PlaceholderTextRenderer.GetComponent<TMP_Text>();BindCopy(placeholder,"Write your message...","Escreva sua mensagem...");SizeText(placeholder,42);ReferenceBody(placeholder);placeholder.color=new Color32(141,141,141,255);}
-            SizeText(quick,35);Place(root,quick.transform,304,1079,319,63);
+            SizeText(quick,35);Place(root,quick.transform,304,1311,319,63);
         }
         if(name=="history")
         {
@@ -152,11 +152,37 @@ public static partial class OrchardApprovedPass
     {
 #if BIZZA_REAL_WITHDRAW
         const string c="Content/Scroll View/Viewport/Content/";
-        var outer=Detail(root,"Content/ApprovedOuterPanel","Panel",19,232,814,1249,true);
+        var outer=Detail(root,"Content/ApprovedOuterPanel","Panel",19,232,814,1445,true);
+        var outerScroll=Need(root,"Content/Scroll View").GetComponent<RectTransform>();
+        outerScroll.anchoredPosition=new Vector2(outerScroll.anchoredPosition.x,-38);
+        outerScroll.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1412);
+        Need(root,"Content/Scroll View/Viewport").GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1412);
+        Need(root,"Content/Scroll View/Viewport/Content").GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1412);
+        var info=Need(root,c+"WithdrawInfo").GetComponent<RectTransform>();
+        info.anchoredPosition=new Vector2(info.anchoredPosition.x,580);
+        var instruction=Need(root,c+"WithdrawalInstruction").GetComponent<RectTransform>();
+        instruction.anchoredPosition=new Vector2(instruction.anchoredPosition.x,392);
         var section=Need(root,c+"WithdrawDan");
-        Copy(root,c+"WithdrawDan/ApprovedHeading","Level rewards","Recompensas por nível",75,682,683,72,55).alignment=TextAlignmentOptions.MidlineLeft;
+        var sectionRect=section.GetComponent<RectTransform>();
+        sectionRect.anchoredPosition=new Vector2(sectionRect.anchoredPosition.x,-200);
+        sectionRect.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1012);
+        Need(root,c+"WithdrawDan/bg").GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,1012);
+        var mode=Need(root,c+"WithdrawDan/bg/WithdrawMode").GetComponent<RectTransform>();
+        mode.anchoredPosition=new Vector2(mode.anchoredPosition.x,-32.5f);
+        mode.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,895);
+        Need(root,c+"WithdrawDan/bg/WithdrawMode/Scroll View").GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,895);
+        Need(root,c+"WithdrawDan/bg/WithdrawMode/Scroll View/Viewport").GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical,895);
+        var heading=Copy(root,c+"WithdrawDan/ApprovedHeading","Level rewards","Recompensas por nível",75,682,683,72,55);
+        heading.alignment=TextAlignmentOptions.MidlineLeft;
+        heading.rectTransform.anchoredPosition=new Vector2(heading.rectTransform.anchoredPosition.x,443);
         var page=root.GetComponent<WithdrawDanPanel>();
-        for(int i=0;i<page.danSprites.Count;i++)page.danSprites[i]=NamedSprite(MedalAtlas,new[]{"Bronze","Silver","Gold","Platinum"}[Mathf.Min(i,3)]);
+        for(int i=0;i<page.danSprites.Count;i++)
+        {
+            string path=$"Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel{i+1}.png";
+            var sprite=AssetDatabase.LoadAssetAtPath<Sprite>(path);
+            if(sprite==null)throw new System.InvalidOperationException("Missing milestone icon: "+path);
+            page.danSprites[i]=sprite;
+        }
         PaintReferenceDetail(Need(root,c+"WithdrawInfo/CoinInfo/RealCurrent/Image").GetComponent<Image>(),"Gold");
         BindCopy(Need(root,c+"WithdrawalInstruction/Title/DailyText").GetComponent<TMP_Text>(),"Current goal","Meta atual");
         BindCopy(Need(root,c+"WithdrawInfo/WithdrawBtn/Btn/Text (TMP)").GetComponent<TMP_Text>(),"Withdraw","Retirar");

@@ -1,34 +1,13 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 namespace Orange
 {
+	// The original clip references remain on the prefab; CorePlayItemBtn handles pointer feedback.
 	[RequireComponent(typeof(Animation))]
-	public class BehavClickBtnAni : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IPointerUpHandler
+	public class BehavClickBtnAni : MonoBehaviour
 	{
-		[SerializeField]
-		private Animation scaleAni;
-
-		[SerializeField]
-		private AnimationClip clipDown;
-
-		[SerializeField]
-		private AnimationClip clipUp;
-
-		private void Reset()
-		{
-		}
-
-		public void OnPointerDown(PointerEventData eventData)
-		{
-		}
-
-		public void OnPointerUp(PointerEventData eventData)
-		{
-		}
-
-		private void OnDisable()
-		{
-		}
+		[SerializeField] private Animation scaleAni;
+		[SerializeField] private AnimationClip clipDown;
+		[SerializeField] private AnimationClip clipUp;
 	}
 }

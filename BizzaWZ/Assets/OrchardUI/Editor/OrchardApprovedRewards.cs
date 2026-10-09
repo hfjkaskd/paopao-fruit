@@ -33,12 +33,18 @@ public static partial class OrchardApprovedPass
             LocalText(w.hintText.transform,31,16,634,44,31);w.hintText.alignment=TextAlignmentOptions.Center;
             LocalText(w.progressText.transform,42,82,487,52,37);w.progressText.alignment=TextAlignmentOptions.Center;
             Need(root,"BG/Content/WathAdProgress/Icons").gameObject.SetActive(false);
-            p.bonusRate.transform.SetParent(w.transform,false);LocalRect(p.bonusRate.transform,556,71,120,79);
+            var claimButton=(RectTransform)Need(root,"BG/Content/ButtonAnim/Button");
+            var bonusRateRect=(RectTransform)p.bonusRate.transform;
+            bonusRateRect.SetParent(claimButton,false);
+            bonusRateRect.SetAsLastSibling();
+            bonusRateRect.anchorMin=Vector2.one;bonusRateRect.anchorMax=Vector2.one;
+            bonusRateRect.pivot=new Vector2(.5f,.5f);
+            bonusRateRect.anchoredPosition=new Vector2(-16,-32);bonusRateRect.sizeDelta=new Vector2(100,100);
             foreach(var im in p.bonusRate.GetComponentsInChildren<Image>(true))im.enabled=false;
             var badge=p.bonusRate.GetComponent<Image>()??p.bonusRate.gameObject.AddComponent<Image>();Paint(badge,"ButtonGreen");badge.raycastTarget=false;
             StretchRect(p.bonusRate.bonusRateTxt.transform);TextStyle(p.bonusRate.bonusRateTxt,35,true);p.bonusRate.bonusRateTxt.alignment=TextAlignmentOptions.Center;
-            var ad=Need(root,"BG/Content/ButtonAnim/Button/Image (2)");LocalRect(ad,48,35,91,97);
-            Place(root,p.rewardText.transform,237,1264,496,121);TextStyle(p.rewardText,58,true);p.rewardText.alignment=TextAlignmentOptions.Center;
+            var ad=Need(root,"BG/Content/ButtonAnim/Button/Image (2)");LocalRect(ad,180,28,100,94);
+            Place(root,p.rewardText.transform,406,1264,350,121);TextStyle(p.rewardText,58,true);p.rewardText.alignment=TextAlignmentOptions.MidlineLeft;
             TextStyle(p.noThanksText,49,true);p.noThanksText.alignment=TextAlignmentOptions.Center;
         }
         if(name=="get-booster")

@@ -169,7 +169,7 @@ public static partial class OrchardApprovedPass
         for(int i=0;i<4;i++)
         {
             var row=FixtureItem("Assets/BizzaWZ/Final/Real/UI/WithdrawDanPanel/WithdrawDanItem.prefab",parent).GetComponent<WithdrawDanItem>();
-            row.icon.sprite=NamedSprite(MedalAtlas,new[]{"Bronze","Silver","Gold","Platinum"}[i]);
+            row.icon.sprite=root.GetComponent<WithdrawDanPanel>().danSprites[i];
             row.danText.text=new[]{"Bronze","Prata","Ouro","Platina"}[i];row.hintText.text="Nível "+new[]{5,20,50,100}[i];
             row.moneyText1.text=row.moneyText2.text=row.moneyText3.text="R$"+new[]{1,2,3,5}[i]+",00";
             row.progressText.text=i==2?"24 / 50":"24 / 100";row.progressImage.rectTransform.anchorMax=new Vector2(i==2?.48f:.24f,1);

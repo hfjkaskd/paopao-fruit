@@ -349,6 +349,15 @@ namespace CorePlay
 			bool isSwitch = !string.IsNullOrEmpty(m_CurrentMapAbPath);
 			m_CurrentMapAbPath = path;
 			Sprite mapSprite = GameRes.LoadSprite(path);
+			if (mapSprite == null)
+			{
+				string fallbackPath = JEFOMCDAPGK.GetMapBundlePath(JEFOMCDAPGK.DEFAULT_MAP_ID);
+				if (path != fallbackPath)
+				{
+					Debug.LogWarning($"[CorePlayUI] Map {InMapID} is unavailable; using {JEFOMCDAPGK.DEFAULT_MAP_ID} instead.");
+					mapSprite = GameRes.LoadSprite(fallbackPath);
+				}
+			}
 			if (mapSprite != null && m_BgImg != null)
 			{
 				m_BgImg.sprite = mapSprite;

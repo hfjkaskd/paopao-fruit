@@ -39,6 +39,13 @@ public static class OrchardHudRefreshAuthoring
             ConfigureCounter(root,"GoldGroup","RealBtn","CoinBox","BG (1)",bar.coinTxt,bar.coinImg,true);
             ConfigureCounter(root,"DollarGroup","FakeBtn","DollarBox","BG",bar.dollarTxt,bar.dollarImg,false);
             Rect(bar.addCoinTxt.transform,55,-105,260,48); Rect(bar.addDollarTxt.transform,55,-105,260,48);
+            var gainOutline=AssetDatabase.LoadAssetAtPath<Material>("Assets/OrchardUI/Generated/7cc23ba99c7035347900a2e939f7ab60-Title.mat");
+            if(gainOutline==null) throw new InvalidOperationException("Missing currency gain text outline material.");
+            foreach(var gain in new[]{bar.addCoinTxt,bar.addDollarTxt})
+            {
+                Text(gain,42,26,true);
+                gain.fontSharedMaterial=gainOutline;
+            }
             if(bar.coinBtn!=originalCoin || bar.dollarBtn!=originalDollar || bar.settingBtn!=originalSetting) throw new InvalidOperationException("HUD Button bindings changed.");
 
             var slot=At(root,"SlotEnter"); Rect(slot,0,222,224,220,.125f,0);
@@ -50,8 +57,16 @@ public static class OrchardHudRefreshAuthoring
             if(fit==null) { fit=new GameObject("OrchardGiftFit",typeof(RectTransform)).transform; fit.SetParent(root.transform,false); }
             Rect(fit,0,222,224,220,.875f,0); gift.SetParent(fit,false); Rect(gift,0,0,224,220);
             var badge=gift.GetComponentInChildren<BadgeShow>(true);
-            Rect(badge.transform,0,0,224,220); Paint(badge.badgeImg.transform,"HudGift"); Rect(badge.badgeImg.transform,0,0,232,208);
-            for(int i=0;i<badge.badges.Count;i++) badge.badges[i]=Sprite("HudGift");
+            Rect(badge.transform,0,0,224,220); Rect(badge.badgeImg.transform,0,0,232,208);
+            if(badge.badges.Count!=7) throw new InvalidOperationException("Milestone badge count changed.");
+            for(int i=0;i<badge.badges.Count;i++)
+            {
+                string path=$"Assets/BizzaWZ/Final/BizzaGame/Z_ReplaceAssets/UI_Frame/DanPanel/Icon_DanLevel{i+1}.png";
+                badge.badges[i]=AssetDatabase.LoadAssetAtPath<Sprite>(path);
+                if(badge.badges[i]==null) throw new InvalidOperationException("Missing milestone badge: "+path);
+            }
+            badge.badgeImg.sprite=badge.badges[0]; badge.badgeImg.type=Image.Type.Simple;
+            badge.badgeImg.preserveAspect=true; badge.badgeImg.color=Color.white; badge.badgeImg.enabled=true;
             At(root,"OrchardGiftFit/DailyMissionItem/Badge/Image (3)").GetComponent<Image>().enabled=false;
             Rect(badge.priceTxt.transform,0,-75,184,43); Text(badge.priceTxt,36,23,true);
             badge.GetComponent<Button>().targetGraphic=badge.badgeImg; badge.badgeImg.raycastTarget=true;

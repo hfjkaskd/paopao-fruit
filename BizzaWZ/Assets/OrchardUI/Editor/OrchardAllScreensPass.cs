@@ -254,14 +254,20 @@ public static partial class OrchardApprovedPass
         SizeText(p.levelTxt,42);SetReferenceTitle(p.levelTxt,ApprovedInk);
         p.levelTxt.rectTransform.offsetMin=new Vector2(20,0);p.levelTxt.rectTransform.offsetMax=new Vector2(-20,0);SizeText(p.levelTxt,38);
         Place(root,p.itemATxt.transform,131,865,590,128);SizeText(p.itemATxt,146);p.itemATxt.alignment=TextAlignmentOptions.Center;
-        Copy(root,"BG/ApprovedCoinsCaption","COINS","MOEDAS",302,991,247,44,49);
         LocalRect(Need(root,"BG/Content/WathAdProgress/progress"),24,72,529,73);
         PaintReferenceDetail(w.progressBar,"OrangeFill");w.progressBar.type=Image.Type.Sliced;w.progressBar.pixelsPerUnitMultiplier=2;
         SetReferenceTitle(w.progressText,new Color32(168,65,0,255));SizeText(w.progressText,44);
-        PaintReferenceDetail(p.bonusRate.GetComponent<Image>(),"BonusLeaf");Place(root,p.bonusRate.transform,631,1070,130,128);
+        var claimButton=(RectTransform)Need(root,"BG/Content/ButtonAnim/Button");
+        var bonusRateRect=(RectTransform)p.bonusRate.transform;
+        bonusRateRect.SetParent(claimButton,false);
+        bonusRateRect.SetAsLastSibling();
+        bonusRateRect.anchorMin=Vector2.one;bonusRateRect.anchorMax=Vector2.one;
+        bonusRateRect.pivot=new Vector2(.5f,.5f);
+        bonusRateRect.anchoredPosition=new Vector2(-16,-32);bonusRateRect.sizeDelta=new Vector2(100,100);
+        PaintReferenceDetail(p.bonusRate.GetComponent<Image>(),"BonusLeaf");
         LocalRect(p.bonusRate.bonusRateTxt.transform,9,57,110,59);SetReferenceTitle(p.bonusRate.bonusRateTxt,ApprovedGreen);SizeText(p.bonusRate.bonusRateTxt,41);
-        var ad=Need(root,"BG/Content/ButtonAnim/Button/Image (2)");PaintReferenceDetail(ad.GetComponent<Image>(),"Video");LocalRect(ad,80,40,129,106);
-        Place(root,p.rewardText.transform,299,1274,434,99);SizeText(p.rewardText,73);SetReferenceTitle(p.rewardText,ApprovedGreen);
+        var ad=Need(root,"BG/Content/ButtonAnim/Button/Image (2)");PaintReferenceDetail(ad.GetComponent<Image>(),"Video");LocalRect(ad,180,28,100,94);
+        Place(root,p.rewardText.transform,406,1274,350,99);SizeText(p.rewardText,73);p.rewardText.fontSizeMin=38; p.rewardText.alignment=TextAlignmentOptions.MidlineLeft;SetReferenceTitle(p.rewardText,ApprovedGreen);
         SizeText(p.noThanksText,60);SetReferenceTitle(p.noThanksText,new Color32(0,86,168,255));
 #endif
     }

@@ -11,7 +11,8 @@ public sealed class OrchardBoosterVisual : MonoBehaviour
     [Serializable] private struct PropCopy
     {
         public E_ItemType itemType;
-        public string englishName, portugueseName, englishDescription, portugueseDescription;
+        public string englishName, portugueseName, indonesianName;
+        public string englishDescription, portugueseDescription, indonesianDescription;
         public string iconSprite;
     }
     [SerializeField] private string decorationResource;
@@ -19,7 +20,7 @@ public sealed class OrchardBoosterVisual : MonoBehaviour
     [SerializeField] private Image decoration, closeImage, claimImage, propIcon;
     [SerializeField] private TMP_Text propName, description;
     [SerializeField] private TMP_Text usage;
-    [SerializeField] private string englishUsageFormat, portugueseUsageFormat;
+    [SerializeField] private string englishUsageFormat, portugueseUsageFormat, indonesianUsageFormat;
     [SerializeField] private PropCopy[] props = Array.Empty<PropCopy>();
     private E_ItemType selected;
     private Sprite fallbackIcon;
@@ -84,13 +85,17 @@ public sealed class OrchardBoosterVisual : MonoBehaviour
     }
     private void RefreshCopy()
     {
-        bool portuguese = LanguageUtils.SelectedLanguage == "pt-BR";
-        if (usage != null) usage.text = string.Format(portuguese ? portugueseUsageFormat : englishUsageFormat, usedCount, maximumUses);
+        string language = LanguageUtils.SelectedLanguage;
+        string usageFormat = language == "pt-BR" ? portugueseUsageFormat :
+            language == "id-ID" ? indonesianUsageFormat : englishUsageFormat;
+        if (usage != null) usage.text = string.Format(usageFormat, usedCount, maximumUses);
         foreach (var copy in props)
         {
             if (copy.itemType != selected) continue;
-            propName.text = portuguese ? copy.portugueseName : copy.englishName;
-            description.text = portuguese ? copy.portugueseDescription : copy.englishDescription;
+            propName.text = language == "pt-BR" ? copy.portugueseName :
+                language == "id-ID" ? copy.indonesianName : copy.englishName;
+            description.text = language == "pt-BR" ? copy.portugueseDescription :
+                language == "id-ID" ? copy.indonesianDescription : copy.englishDescription;
             return;
         }
         if (description != null) description.text = string.Empty;

@@ -23,6 +23,10 @@ public sealed class OrchardLocalizedLabel : MonoBehaviour
         if (language == "pt-BR") target.text = portuguese;
         else if (language == "id-ID" && !string.IsNullOrEmpty(indonesian)) target.text = indonesian;
         else if (language == "en-US" || string.IsNullOrEmpty(existingKey)) target.text = english;
-        else target.text = LanguageUtils.GetText(existingKey, english);
+        else
+        {
+            string translated = LanguageUtils.GetText(existingKey, english);
+            target.text = string.IsNullOrEmpty(translated) || translated == existingKey ? english : translated;
+        }
     }
 }

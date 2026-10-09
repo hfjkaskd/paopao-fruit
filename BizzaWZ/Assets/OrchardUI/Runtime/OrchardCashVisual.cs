@@ -19,7 +19,7 @@ public sealed class OrchardCashVisual : MonoBehaviour
     [SerializeField] private TMP_Text withdrawLabel;
     [SerializeField] private Material enabledLabel, disabledLabel;
     [SerializeField] private GameObject unavailableHint;
-    [SerializeField] private string englishRemainingFormat, portugueseRemainingFormat;
+    [SerializeField] private string englishRemainingFormat, portugueseRemainingFormat, indonesianRemainingFormat;
     private Sprite[] sprites;
     private Coroutine loading;
     private bool available;
@@ -81,10 +81,11 @@ public sealed class OrchardCashVisual : MonoBehaviour
     }
     public void ShowMoneyRemaining(float remaining)
     {
-        bool portuguese = LanguageUtils.SelectedLanguage == "pt-BR";
         var culture = System.Globalization.CultureInfo.GetCultureInfo(AccountModule.CountryType == AccountModule.E_CountryType.BR ? "pt-BR" : "en-US");
         string amount = LanguageUtils.GetText("CurrencyToken") + remaining.ToString(AccountModule.CountryType == AccountModule.E_CountryType.ID ? "0" : "0.00", culture);
-        page.hintTxt.text = string.Format(portuguese ? portugueseRemainingFormat : englishRemainingFormat, amount);
+        string format = LanguageUtils.SelectedLanguage == "pt-BR" ? portugueseRemainingFormat :
+            LanguageUtils.SelectedLanguage == "id-ID" ? indonesianRemainingFormat : englishRemainingFormat;
+        page.hintTxt.text = string.Format(format, amount);
     }
 }
 #endif

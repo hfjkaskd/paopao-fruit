@@ -532,6 +532,7 @@ GameObject:
   - component: {fileID: 7664472031706596945}
   - component: {fileID: 2895585701902640343}
   - component: {fileID: 4405724658968163719}
+  - component: {fileID: 9050000000000000000}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -883,3 +884,20 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1999562313812547072, guid: 4cf5cde495681a9418ea329a321d874b, type: 3}
   m_PrefabInstance: {fileID: 5012810411919193126}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9050000000000000000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7076353826296527088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: beb617f2d67ecd646999a830e787bab1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  target: {fileID: 4405724658968163719}
+  english: "Loading..."
+  portuguese: "Carregando..."
+  indonesian: "Memuat..."
+  existingKey:

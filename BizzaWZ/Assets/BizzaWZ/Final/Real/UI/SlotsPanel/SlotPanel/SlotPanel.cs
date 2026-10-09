@@ -29,6 +29,7 @@ public class SlotPanel : UIPageBase
     [SerializeField] private TMP_Text approvedFreeLabel;
     [SerializeField] private string freeSpinEnglish;
     [SerializeField] private string freeSpinPortuguese;
+    [SerializeField] private string freeSpinIndonesian;
     [SerializeField] private GameObject idleReelDecoration;
 
     protected override void OnAwake()
@@ -82,7 +83,8 @@ public class SlotPanel : UIPageBase
         if (approvedFreeLabel != null)
         {
             int count = isCanclick ? 1 : 0;
-            string format = LanguageUtils.SelectedLanguage == "pt-BR" ? freeSpinPortuguese : freeSpinEnglish;
+            string format = LanguageUtils.SelectedLanguage == "pt-BR" ? freeSpinPortuguese :
+                LanguageUtils.SelectedLanguage == "id-ID" ? freeSpinIndonesian : freeSpinEnglish;
             approvedFreeLabel.text = string.IsNullOrEmpty(format) ? count.ToString() : string.Format(format, count);
         }
         if (isCanclick)

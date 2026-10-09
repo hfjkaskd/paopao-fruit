@@ -60,7 +60,8 @@ public class AddPropPanel : UIPageBase<E_ItemType>
         {
             propIcon.sprite = config.propIcon;
         }
-        propName.text = LanguageUtils.GetText("ItemName_" + StablePropId(itemType));
+        if (referenceVisual == null)
+            propName.text = LanguageUtils.GetText("ItemName_" + StablePropId(itemType));
         var _propUseTimes = NumbericalStatistics._propUseTimes;
         var maxTimes = config.preLimitNum;
         var curTimes = _propUseTimes[itemType];

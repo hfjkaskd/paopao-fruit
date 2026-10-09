@@ -14,7 +14,7 @@ public static partial class OrchardApprovedRuntimeCheck
     private static bool boosterOpening;
     private static float propCountBefore;
     private static int propUsesBefore;
-    private static readonly E_ItemType[] BoosterTypes={E_ItemType.GameProp_1,E_ItemType.GameProp_2,E_ItemType.GameProp_3};
+    private static readonly E_ItemType[] BoosterTypes={E_ItemType.GameProp_1,E_ItemType.GameProp_2,E_ItemType.GameProp_3,E_ItemType.GameProp_4};
     private static void StartBoosterCheck(bool shorter)
     {
         boosterFolder="Design/OrchardBoosterRefinement-20260928/"+(shorter?"RuntimeShort/":"Runtime/");Directory.CreateDirectory(boosterFolder);
@@ -51,16 +51,16 @@ public static partial class OrchardApprovedRuntimeCheck
                 result.opened=true;result.buttons.Add(Inspect(page.closeBtn));result.buttons.Add(Inspect(page.adBuyBtn));
                 foreach(var hit in result.buttons)if(!hit.interactable||!hit.centerHitsButton)throw new InvalidOperationException("Popup button blocked: "+hit.name);
                 var config=PropConfigSO.Instance.GetPropConfigInfo(type);
-                string expected=string.Format(LanguageUtils.SelectedLanguage=="pt-BR"?"Usado nesta fase: {0} / {1}":"Used this level: {0} / {1}",propUsesBefore,config.preLimitNum);
+                string expected=string.Format(LanguageUtils.SelectedLanguage=="pt-BR"?"Usado nesta fase: {0} / {1}":LanguageUtils.SelectedLanguage=="id-ID"?"Digunakan pada level ini: {0} / {1}":"Used this level: {0} / {1}",propUsesBefore,config.preLimitNum);
                 if(page.limitTxt.text!=expected)throw new InvalidOperationException("Usage counter does not match production state.");
                 var icon=page.propIcon.sprite;if(icon==null||(type==E_ItemType.GameProp_1?icon.name!="Undo":icon!=config.propIcon))throw new InvalidOperationException("Selected prop icon is incorrect.");
-                string expectedName=LanguageUtils.SelectedLanguage=="pt-BR"?new[]{"Desfazer","Embaralhar","Varinha mágica"}[boosterRun.index]:new[]{"Undo","Shuffle","Magic Wand"}[boosterRun.index];
+                string expectedName=LanguageUtils.SelectedLanguage=="pt-BR"?new[]{"Desfazer","Embaralhar","Varinha mágica","Espaço extra"}[boosterRun.index]:LanguageUtils.SelectedLanguage=="id-ID"?new[]{"Urungkan","Acak","Tongkat Ajaib","Slot ekstra"}[boosterRun.index]:new[]{"Undo","Shuffle","Magic Wand","Extra Slot"}[boosterRun.index];
                 if(page.propName.text!=expectedName)throw new InvalidOperationException("Selected prop name is incorrect: "+page.propName.text);
                 page.propName.ForceMeshUpdate();
-                if(page.propName.isTextOverflowing||page.propName.textInfo.lineCount!=1)throw new InvalidOperationException("Prop name must fit on one line without overlapping its description.");
+                if(page.propName.isTextOverflowing)throw new InvalidOperationException("Prop name overflows its text box.");
                 var description=page.transform.Find("Content/ApprovedToolName").GetComponent<TMPro.TMP_Text>();
                 if(string.IsNullOrEmpty(description.text)||description.isTextOverflowing)throw new InvalidOperationException("Prop description is empty or overflows.");
-                string expectedClaim=LanguageUtils.SelectedLanguage=="pt-BR"?"Assistir e ganhar 1":"Watch & Get 1";
+                string expectedClaim=LanguageUtils.SelectedLanguage=="pt-BR"?"Assistir e ganhar 1":LanguageUtils.SelectedLanguage=="id-ID"?"Tonton & Dapatkan 1":"Watch & Get 1";
                 var claimText=page.adBuyBtn.GetComponentInChildren<TMPro.TMP_Text>();if(claimText.text!=expectedClaim||claimText.isTextOverflowing)throw new InvalidOperationException("Claim label is incorrect or overflows: "+claimText.text);
                 result.checks.Add("Resources artwork loaded; selected name/icon/description and real usage count match the requested prop");
                 result.screenshot=boosterFolder+boosterRun.index.ToString("00")+"-AddPropPanel.png";

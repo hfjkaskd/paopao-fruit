@@ -35,10 +35,10 @@ public static partial class OrchardApprovedPass
 
         var title=Need(root,"BG (1)/Text (TMP)").GetComponent<TMP_Text>();Place(root,title.transform,200,405,454,109);SizeText(title,84);title.rectTransform.localScale=new Vector3(1,1.2f,1);
         var arch=title.GetComponent<OrchardArchedText>()??title.gameObject.AddComponent<OrchardArchedText>();var archData=new SerializedObject(arch);archData.FindProperty("archHeight").floatValue=18;archData.ApplyModifiedPropertiesWithoutUndo();
-        Place(root,page.propName.transform,193,880,466,105);SizeText(page.propName,105);page.propName.fontSizeMin=50;page.propName.enableWordWrapping=false;
-        var description=Need(root,"Content/ApprovedToolName").GetComponent<TMP_Text>();Place(root,description.transform,133,971,586,63);SizeText(description,40.5f);ReferenceBody(description);
+        Place(root,page.propName.transform,116,868,620,80);SizeText(page.propName,76);page.propName.fontSizeMin=32;page.propName.enableWordWrapping=true;
+        var description=Need(root,"Content/ApprovedToolName").GetComponent<TMP_Text>();Place(root,description.transform,133,960,586,86);SizeText(description,40.5f);ReferenceBody(description);
         var oldCopy=description.GetComponent<OrchardLocalizedLabel>();if(oldCopy!=null)Object.DestroyImmediate(oldCopy);
-        description.enableWordWrapping=false;
+        description.enableWordWrapping=true;
         Place(root,page.limitTxt.transform,212,1055,430,60);SizeText(page.limitTxt,38.5f);ReferenceBody(page.limitTxt);
         foreach(var label in page.adBuyBtn.GetComponentsInChildren<TMP_Text>(true))
         {
@@ -53,11 +53,11 @@ public static partial class OrchardApprovedPass
         data.FindProperty("decorationResource").stringValue="OrchardUI/BoosterReferencePlate";data.FindProperty("controlsResource").stringValue="OrchardUI/BoosterReferenceControls";
         data.FindProperty("decoration").objectReferenceValue=panelImage;data.FindProperty("closeImage").objectReferenceValue=close;data.FindProperty("claimImage").objectReferenceValue=claim;
         data.FindProperty("propIcon").objectReferenceValue=page.propIcon;data.FindProperty("propName").objectReferenceValue=page.propName;data.FindProperty("description").objectReferenceValue=description;
-        data.FindProperty("usage").objectReferenceValue=page.limitTxt;data.FindProperty("englishUsageFormat").stringValue="Used this level: {0} / {1}";data.FindProperty("portugueseUsageFormat").stringValue="Usado nesta fase: {0} / {1}";
-        var props=data.FindProperty("props");props.arraySize=3;
-        string[] enNames={"Undo","Shuffle","Magic Wand"},ptNames={"Desfazer","Embaralhar","Varinha mágica"};
-        string[] enDescriptions={"Take back your last move.","Give your fruit a fresh shuffle.","Clear a matching set of fruit."},ptDescriptions={"Desfaça sua última jogada.","Misture as frutas novamente.","Remova um trio de frutas iguais."};
-        for(int i=0;i<3;i++){var p=props.GetArrayElementAtIndex(i);p.FindPropertyRelative("itemType").intValue=(int)E_ItemType.GameProp_1+i;p.FindPropertyRelative("englishName").stringValue=enNames[i];p.FindPropertyRelative("portugueseName").stringValue=ptNames[i];p.FindPropertyRelative("englishDescription").stringValue=enDescriptions[i];p.FindPropertyRelative("portugueseDescription").stringValue=ptDescriptions[i];p.FindPropertyRelative("iconSprite").stringValue=i==0?"Undo":"";}
+        data.FindProperty("usage").objectReferenceValue=page.limitTxt;data.FindProperty("englishUsageFormat").stringValue="Used this level: {0} / {1}";data.FindProperty("portugueseUsageFormat").stringValue="Usado nesta fase: {0} / {1}";data.FindProperty("indonesianUsageFormat").stringValue="Digunakan pada level ini: {0} / {1}";
+        var props=data.FindProperty("props");props.arraySize=4;
+        string[] enNames={"Undo","Shuffle","Magic Wand","Extra Slot"},ptNames={"Desfazer","Embaralhar","Varinha mágica","Espaço extra"},idNames={"Urungkan","Acak","Tongkat Ajaib","Slot ekstra"};
+        string[] enDescriptions={"Take back your last move.","Give your fruit a fresh shuffle.","Clear a matching set of fruit.","Adds one fruit slot for this level."},ptDescriptions={"Desfaça sua última jogada.","Misture as frutas novamente.","Remova um trio de frutas iguais.","Adiciona um espaço para frutas nesta fase."},idDescriptions={"Batalkan langkah terakhir Anda.","Acak kembali buah Anda.","Hapus satu set buah yang cocok.","Tambah satu slot buah untuk level ini."};
+        for(int i=0;i<4;i++){var p=props.GetArrayElementAtIndex(i);p.FindPropertyRelative("itemType").intValue=(int)E_ItemType.GameProp_1+i;p.FindPropertyRelative("englishName").stringValue=enNames[i];p.FindPropertyRelative("portugueseName").stringValue=ptNames[i];p.FindPropertyRelative("indonesianName").stringValue=idNames[i];p.FindPropertyRelative("englishDescription").stringValue=enDescriptions[i];p.FindPropertyRelative("portugueseDescription").stringValue=ptDescriptions[i];p.FindPropertyRelative("indonesianDescription").stringValue=idDescriptions[i];p.FindPropertyRelative("iconSprite").stringValue=i==0?"Undo":"";}
         data.ApplyModifiedPropertiesWithoutUndo();
         var business=new SerializedObject(page);business.FindProperty("referenceVisual").objectReferenceValue=visual;business.ApplyModifiedPropertiesWithoutUndo();
 #endif

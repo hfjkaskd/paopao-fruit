@@ -143,7 +143,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817199397290808644}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
   m_Name: 
@@ -166,6 +166,7 @@ MonoBehaviour:
   target: {fileID: 8654869823511539002}
   english: Withdraw
   portuguese: Retirar
+  indonesian: "Tarik"
   existingKey: 
 --- !u!1 &1188600498434124668
 GameObject:
@@ -652,7 +653,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999952042432912285}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
   m_Name: 
@@ -675,6 +676,7 @@ MonoBehaviour:
   target: {fileID: 6841260854729436532}
   english: Current goal
   portuguese: Meta atual
+  indonesian: "Target saat ini"
   existingKey: 
 --- !u!1 &2219472745593453845
 GameObject:
@@ -1372,7 +1374,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2817797257324118234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
   m_Name: 
@@ -1395,6 +1397,7 @@ MonoBehaviour:
   target: {fileID: 7923569842550216842}
   english: My balance
   portuguese: Meu saldo
+  indonesian: "Saldo saya"
   existingKey: 
 --- !u!1 &3246987319782092490
 GameObject:
@@ -2790,6 +2793,7 @@ MonoBehaviour:
   portuguese: 'Saque em
 
     dinheiro'
+  indonesian: "Penarikan\ntunai"
   existingKey: 
 --- !u!1 &5281700649088496405
 GameObject:
@@ -3107,6 +3111,7 @@ MonoBehaviour:
   target: {fileID: 7362530150907461105}
   english: Complete the goal to continue.
   portuguese: Complete a meta para continuar.
+  indonesian: "Selesaikan target untuk melanjutkan."
   existingKey: 
 --- !u!1 &5737920633190166415
 GameObject:
@@ -4014,7 +4019,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6538606029303633130}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
   m_Name: 
@@ -4037,6 +4042,7 @@ MonoBehaviour:
   target: {fileID: 3280204538092161990}
   english: Select amount
   portuguese: Selecionar valor
+  indonesian: "Pilih jumlah"
   existingKey: 
 --- !u!1 &6692513354998911182
 GameObject:
@@ -4534,6 +4540,7 @@ MonoBehaviour:
   unavailableHint: {fileID: 5633622515478632432}
   englishRemainingFormat: Need <color=#005B1D>{0}</color> more to reach this goal.
   portugueseRemainingFormat: Faltam <color=#005B1D>{0}</color> para esta meta.
+  indonesianRemainingFormat: Perlu <color=#005B1D>{0}</color> lagi untuk mencapai target ini.
 --- !u!1 &7378856700973635383
 GameObject:
   m_ObjectHideFlags: 0

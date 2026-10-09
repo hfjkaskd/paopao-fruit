@@ -99,6 +99,7 @@ public class RealWithdrawPanel : UIPageBase
     [SerializeField] private bool compactLevelLabels;
     [SerializeField] private string completeFormatPortuguese;
     [SerializeField] private string completeFormatEnglish;
+    [SerializeField] private string completeFormatIndonesian;
 
     private bool isSelectPlatform = false;
     private WithdrawWay CurrentWay
@@ -491,7 +492,8 @@ public class RealWithdrawPanel : UIPageBase
         if (isCompleted)
         {
             completeHintTxt.text = LanguageUtils.GetFormatText("WithdrawHintPanel_Hint3", AccountModule.Instance.Get_S_Ewl()).GetReplaceDesc(_colorReplaceList[1]);
-            string format=LanguageUtils.SelectedLanguage=="pt-BR"?completeFormatPortuguese:LanguageUtils.SelectedLanguage=="en-US"?completeFormatEnglish:null;
+            string format=LanguageUtils.SelectedLanguage=="pt-BR"?completeFormatPortuguese:
+                LanguageUtils.SelectedLanguage=="id-ID"?completeFormatIndonesian:completeFormatEnglish;
             if(!string.IsNullOrEmpty(format)) completeHintTxt.text=string.Format(format,LanguageUtils.GetText("CurrencyToken")+AccountModule.Instance.Get_S_Ewl());
         }
         else

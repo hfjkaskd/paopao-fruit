@@ -54,7 +54,7 @@ public static partial class OrchardApprovedPass
         Place(root,Need(root,"Title/bg"),232,61,387,115);
         var title=Need(root,"Title/Title").GetComponent<TMP_Text>();Place(root,title.transform,261,79,330,86);SizeText(title,70);title.rectTransform.localScale=new Vector3(.96f,1.06f,1);
         var page=root.GetComponent<ServicePanel>();var so=new SerializedObject(page);so.FindProperty("keepQuestionPickerVisible").boolValue=true;so.ApplyModifiedPropertiesWithoutUndo();
-        Place(root,page.scrollRect.viewport,65,326,732,720);
+        Place(root,page.scrollRect.viewport,65,326,732,944);
         var content=(RectTransform)page.contentRoot;TopContent(content);var layout=content.GetComponent<VerticalLayoutGroup>();layout.padding=new RectOffset(0,0,12,26);layout.spacing=34;layout.childControlHeight=false;layout.childControlWidth=true;layout.childForceExpandHeight=false;layout.childForceExpandWidth=true;
         var mask=page.scrollRect.viewport.GetComponent<Mask>();if(mask!=null)Object.DestroyImmediate(mask);
         if(page.scrollRect.viewport.GetComponent<RectMask2D>()==null)page.scrollRect.viewport.gameObject.AddComponent<RectMask2D>();
@@ -65,8 +65,8 @@ public static partial class OrchardApprovedPass
         Place(root,Need(root,"Content/ApprovedTodayPlate"),365,242,122,63);
         var today=Need(root,"Content/ApprovedToday").GetComponent<TMP_Text>();Place(root,today.transform,380,245,91,56);ReferenceBody(today);SizeText(today,35);today.alignment=TextAlignmentOptions.Center;
         const string input="Content/InputNode/";
-        Place(root,Need(root,input+"SelectQuestionBtn "),202,1058,449,103);Place(root,Need(root,input+"SelectQuestionBtn /ApprovedQuestion"),255,1080,59,59);
-        var quick=Need(root,input+"SelectQuestionBtn /Text (TMP)").GetComponent<TMP_Text>();Place(root,quick.transform,331,1078,283,65);ReferenceBody(quick);SizeText(quick,36);quick.color=new Color32(0,109,177,255);quick.rectTransform.localScale=new Vector3(1,1.08f,1);
+        Place(root,Need(root,input+"SelectQuestionBtn "),202,1290,449,103);Place(root,Need(root,input+"SelectQuestionBtn /ApprovedQuestion"),255,1312,59,59);
+        var quick=Need(root,input+"SelectQuestionBtn /Text (TMP)").GetComponent<TMP_Text>();Place(root,quick.transform,331,1310,283,65);ReferenceBody(quick);SizeText(quick,36);quick.color=new Color32(0,109,177,255);quick.rectTransform.localScale=new Vector3(1,1.08f,1);
         BindCopy(quick,"Quick questions","Perguntas rápidas");
         Place(root,Need(root,input+"bg"),62,1438,596,119);
         Place(root,Need(root,input+"InputField"),77,1452,559,82);

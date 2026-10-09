@@ -299,11 +299,6 @@ public static class OrchardCurrencyAuthoring
             reward.rewardText.text="Claim ×2";
             reward.noThanksText.spriteAsset=AssetDatabase.LoadAssetAtPath<TMP_SpriteAsset>(MoneyRoot+"WzMoneyIcon_Common.asset");
             reward.noThanksText.text="<sprite="+WzCurrencySprites.InlineSpriteIndex(country,true)+"> "+token+"11.35";
-            foreach(var t in root.GetComponentsInChildren<Transform>(true))
-            {
-                if(t.name=="SingleCurrencyCaption")t.gameObject.SetActive(false);
-                if(t.name=="ApprovedCoinsCaption")t.gameObject.SetActive(true);
-            }
             reward.bonusRate.gameObject.SetActive(false);
             var video=root.GetComponentInChildren<WathAdProgress>(true);
             video.hintText.text="Watch videos to increase rewards";video.startText.text="+0%";video.endText.text="+5%";

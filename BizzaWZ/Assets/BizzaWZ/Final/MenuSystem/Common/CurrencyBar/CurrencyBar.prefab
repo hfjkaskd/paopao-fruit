@@ -146,14 +146,14 @@ MonoBehaviour:
   m_text: +0.5$
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cc23ba99c7035347900a2e939f7ab60, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4282840389
-  m_fontColor: {r: 0.050980393, g: 0.57254905, b: 0.1882353, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -170,12 +170,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 26
+  m_fontSizeMax: 42
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2114,8 +2114,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   key: Btn_Withdraw
   whiteBuildText: 
   bounce: 0
@@ -2537,14 +2537,14 @@ MonoBehaviour:
   m_text: +0.5$
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cc23ba99c7035347900a2e939f7ab60, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 486d0a25be512df4887a3bf53db492b8, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 7727608c2306e9d4f99315146a923875, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4282840389
-  m_fontColor: {r: 0.050980393, g: 0.57254905, b: 0.1882353, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2561,12 +2561,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 42
+  m_fontSizeBase: 42
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 26
+  m_fontSizeMax: 42
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -2678,6 +2678,7 @@ GameObject:
   - component: {fileID: 6056023286379245574}
   - component: {fileID: 9020032054159248719}
   - component: {fileID: 8953712310009366182}
+  - component: {fileID: 9050000000000000000}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -2937,3 +2938,18 @@ MonoBehaviour:
           x: 1
           y: 1
           z: 1
+--- !u!114 &9050000000000000000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884956618705867725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  key: Btn_Withdraw
+  whiteBuildText: Withdraw
+  bounce: 0

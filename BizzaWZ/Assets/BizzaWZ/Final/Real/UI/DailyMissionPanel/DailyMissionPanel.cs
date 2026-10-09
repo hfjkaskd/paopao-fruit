@@ -25,8 +25,10 @@ public class DailyMissionPanel : UIPageBase
     [SerializeField] private Image approvedProgressFill;
     [SerializeField] private string requirementEnglish;
     [SerializeField] private string requirementPortuguese;
+    [SerializeField] private string requirementIndonesian;
     [SerializeField] private string countdownEnglish;
     [SerializeField] private string countdownPortuguese;
+    [SerializeField] private string countdownIndonesian;
     // public TMP_Text adsCountTxt;
 
     public TMP_Text claimedHint;
@@ -219,7 +221,7 @@ public class DailyMissionPanel : UIPageBase
         {
             approvedRewardAmount.text = amount;
             string format = LanguageUtils.SelectedLanguage == "pt-BR" ? requirementPortuguese :
-                LanguageUtils.SelectedLanguage == "en-US" ? requirementEnglish : null;
+                LanguageUtils.SelectedLanguage == "id-ID" ? requirementIndonesian : requirementEnglish;
             hintsTxt.text = string.IsNullOrEmpty(format)
                 ? LanguageUtils.GetFormatText("DailyWithdrawMissionPanel_Hint", requiredVideos, string.Empty).Trim()
                 : string.Format(format, requiredVideos);
@@ -259,7 +261,7 @@ public class DailyMissionPanel : UIPageBase
         TimeSpan remain = tomorrow - now;
         string duration = $"{remain.Hours:D2}:{remain.Minutes:D2}:{remain.Seconds:D2}";
         string format = LanguageUtils.SelectedLanguage == "pt-BR" ? countdownPortuguese :
-            LanguageUtils.SelectedLanguage == "en-US" ? countdownEnglish : null;
+            LanguageUtils.SelectedLanguage == "id-ID" ? countdownIndonesian : countdownEnglish;
         refreshTimeTxt.text = string.IsNullOrEmpty(format)
             ? LanguageUtils.GetFormatText("DailyMissionPanel_RefreshTime", duration)
             : string.Format(format, duration);

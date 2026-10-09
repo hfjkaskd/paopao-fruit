@@ -649,6 +649,7 @@ MonoBehaviour:
   target: {fileID: 9000986834604358520}
   english: Higher levels unlock better exchange rates.
   portuguese: "Quanto maior o n\xEDvel, maior o valor de troca!"
+  indonesian: "Level lebih tinggi membuka nilai tukar lebih baik."
   existingKey: 
 --- !u!1 &522570286511938364
 GameObject:
@@ -882,7 +883,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160405896636272373}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49796e141a58b144486babe2f29d161b, type: 3}
   m_Name: 
@@ -1069,6 +1070,7 @@ MonoBehaviour:
   target: {fileID: 7236527820044694717}
   english: Select payout method
   portuguese: Selecionar forma de saque
+  indonesian: "Pilih metode penarikan"
   existingKey: 
 --- !u!1 &1227788995963701265
 GameObject:
@@ -3374,6 +3376,7 @@ MonoBehaviour:
   target: {fileID: 6503711073790822288}
   english: My balance
   portuguese: Meu saldo
+  indonesian: "Saldo saya"
   existingKey: 
 --- !u!1 &3383113642597514361
 GameObject:
@@ -4451,6 +4454,7 @@ MonoBehaviour:
   target: {fileID: 6004225462979585317}
   english: Withdraw
   portuguese: Sacar
+  indonesian: "Tarik"
   existingKey: 
 --- !u!1 &5281700649088496405
 GameObject:
@@ -6049,6 +6053,7 @@ MonoBehaviour:
   target: {fileID: 2366826575914532496}
   english: Withdraw
   portuguese: Retirar
+  indonesian: "Tarik"
   existingKey: 
 --- !u!1 &7092529775201119639
 GameObject:
@@ -6268,6 +6273,7 @@ MonoBehaviour:
   compactLevelLabels: 1
   completeFormatPortuguese: 'Valor a receber: <color=#005629>{0}</color>'
   completeFormatEnglish: 'Amount to receive: <color=#005629>{0}</color>'
+  completeFormatIndonesian: 'Jumlah yang diterima: <color=#005629>{0}</color>'
   CurrentWithdrawLevelItem: {fileID: 0}
   progressBar: {fileID: 9019532880100497736}
   progressTxt: {fileID: 2068928193090421982}
