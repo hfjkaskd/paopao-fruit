@@ -284,6 +284,8 @@ public static partial class OrchardApprovedPass
         foreach (Transform t in root.transform)
         {
             if (!(t is RectTransform r) || t.name == "OrchardBackdrop" || t.name.StartsWith("PageMask", StringComparison.Ordinal) || t.name == "Mask") continue;
+            // The unlock overlay covers the canvas independently of the fitted popup artwork.
+            if (t.name == "Shadow" && root.GetComponent<NewItemPop>() != null) continue;
             Vector3 center = root.transform.InverseTransformPoint(r.TransformPoint(r.rect.center));
             Vector2 size = r.rect.size;
             r.anchorMin = r.anchorMax = r.pivot = new Vector2(.5f, .5f);

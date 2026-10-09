@@ -130,6 +130,9 @@ public static partial class OrchardApprovedPass
 #endif
         if(name=="new-booster")
         {
+            var shadow = Need(root,"Shadow");
+            shadow.GetComponent<Image>().enabled = true;
+            StretchRect(shadow);
             Need(root,"MainContent/ApprovedPlaque").SetAsLastSibling();Need(root,"MainContent/Title").SetAsLastSibling();
             foreach(var b in root.GetComponentsInChildren<Orange.PopMidScale>(true))b.enabled=false;
             var claim=Need(root,"MainContent/ClaimBtn");var btn=claim.GetComponent<Button>()??claim.gameObject.AddComponent<Button>();OwnButton(btn,"ButtonGreen");

@@ -4512,7 +4512,7 @@
     {
       "name": "new-booster",
       "prefab": "Assets/FruitsHarvest/Resources/Original/res/local/pops/newitempop/NewItemPop.prefab",
-      "backdrop": true,
+      "backdrop": false,
       "fit": true,
       "boxes": [
         {
@@ -4655,7 +4655,6 @@
       ],
       "disableLayouts": [],
       "hideImages": [
-        "Shadow",
         "MainContent/Title/Bg",
         "MainContent/Title/Bg/Title_Add",
         "MainContent/Title/Title_AddMask",
