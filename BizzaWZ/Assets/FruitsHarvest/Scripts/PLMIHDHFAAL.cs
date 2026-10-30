@@ -34,6 +34,11 @@ public class PLMIHDHFAAL : global::FOLJNEPEKCA<PLMIHDHFAAL>
 		return MainLevel.GetEffectiveLevelID(JEFOMCDAPGK.Instance.CurMainLevelIndex, JEFOMCDAPGK.Instance.MainLevelData.attempCount);
 	}
 
+	public bool CanRestoreMainLevelSnapshot(int levelNum, int attemptIndex, LevelConfig snapshot)
+	{
+		return MainLevel.CanRestoreSnapshot(levelNum, attemptIndex, snapshot);
+	}
+
 	public bool GetLevelIDResourcesDownloaded(string InLevelID)
 	{
 		return true;

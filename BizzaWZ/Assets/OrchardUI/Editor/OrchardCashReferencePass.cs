@@ -86,6 +86,7 @@ public static partial class OrchardApprovedPass
         const string disabledPath="Assets/OrchardUI/Generated/CashDisabledTitle.mat";
         var disabledMaterial=AssetDatabase.LoadAssetAtPath<Material>(disabledPath);
         if(disabledMaterial==null){disabledMaterial=new Material(enabledMaterial);AssetDatabase.CreateAsset(disabledMaterial,disabledPath);}
+        else disabledMaterial.CopyPropertiesFromMaterial(enabledMaterial);
         disabledMaterial.SetColor("_FaceColor",new Color32(233,239,232,255));disabledMaterial.SetColor("_OutlineColor",new Color32(88,111,99,255));disabledMaterial.SetFloat("_OutlineWidth",.12f);disabledMaterial.SetColor("_UnderlayColor",new Color32(52,70,58,140));EditorUtility.SetDirty(disabledMaterial);
         CashImage(withdrawImage);withdrawImage.raycastTarget=true;page.withdrawBtn.targetGraphic=withdrawImage;
         var buttonColors=page.withdrawBtn.colors;buttonColors.disabledColor=Color.white;page.withdrawBtn.colors=buttonColors;
@@ -98,12 +99,24 @@ public static partial class OrchardApprovedPass
         track.type=page.progressImg.type=Image.Type.Sliced;
         data.FindProperty("withdrawImage").objectReferenceValue=withdrawImage;data.FindProperty("enabledButton").objectReferenceValue=enabledSprite;
         data.FindProperty("withdrawLabel").objectReferenceValue=label;data.FindProperty("enabledLabel").objectReferenceValue=enabledMaterial;data.FindProperty("disabledLabel").objectReferenceValue=disabledMaterial;
+        var labelStyle=BindCashFontMaterial(label,disabledMaterial);
+        BindCashFontMaterial(page.progressTxt,page.progressTxt.fontSharedMaterial);
+        foreach(var headerLabel in Need(root,"ButtomGroup").GetComponentsInChildren<TMP_Text>(true))
+            if(headerLabel.fontSharedMaterial!=null&&headerLabel.fontSharedMaterial.name=="ReferenceTitleWood")BindCashFontMaterial(headerLabel,headerLabel.fontSharedMaterial);
+        data.FindProperty("withdrawLabelStyle").objectReferenceValue=labelStyle;
         data.FindProperty("unavailableHint").objectReferenceValue=footer.gameObject;data.ApplyModifiedPropertiesWithoutUndo();
         data.FindProperty("englishRemainingFormat").stringValue="Need <color=#005B1D>{0}</color> more to reach this goal.";
         data.FindProperty("portugueseRemainingFormat").stringValue="Faltam <color=#005B1D>{0}</color> para esta meta.";data.ApplyModifiedPropertiesWithoutUndo();
         var business=new SerializedObject(page);business.FindProperty("referenceVisual").objectReferenceValue=visual;business.ApplyModifiedPropertiesWithoutUndo();
-        visual.SetAvailable(false);
+        // Author serialized defaults without creating runtime material instances in the prefab asset.
+        page.withdrawBtn.interactable=false;label.fontSharedMaterial=disabledMaterial;footer.gameObject.SetActive(true);
 #endif
+    }
+    private static OrchardFontMaterialBinding BindCashFontMaterial(TMP_Text label,Material preset)
+    {
+        var binding=label.GetComponent<OrchardFontMaterialBinding>()??label.gameObject.AddComponent<OrchardFontMaterialBinding>();
+        var data=new SerializedObject(binding);data.FindProperty("label").objectReferenceValue=label;data.FindProperty("preset").objectReferenceValue=preset;data.ApplyModifiedPropertiesWithoutUndo();
+        return binding;
     }
     private static void PreviewCashReference(GameObject root)
     {

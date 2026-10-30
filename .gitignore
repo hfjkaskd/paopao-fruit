@@ -41,6 +41,12 @@
 /BizzaWZ/Assets/AddressableAssetsData/*/*.bin*
 /BizzaWZ/Assets/Addressables_Temp*
 
+# Cocos playable-ad caches and intermediate builds; keep source and deliverables.
+/BizzaWZ/Design/PlayableAds/source/Cocos/library/
+/BizzaWZ/Design/PlayableAds/source/Cocos/temp/
+/BizzaWZ/Design/PlayableAds/source/Cocos/profiles/
+/BizzaWZ/Design/PlayableAds/source/build/
+
 # IDE-generated project files
 **/.vs/
 /BizzaWZ/.vscode/

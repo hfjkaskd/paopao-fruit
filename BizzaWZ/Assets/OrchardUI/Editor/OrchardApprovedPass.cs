@@ -40,6 +40,7 @@ public static partial class OrchardApprovedPass
             else if(command=="booster-import") ImportBoosterReference();
             else if(command=="cash-import") ImportCashReference();
             else if(command=="account-import") ImportAccountReference();
+            else if(command=="account-copy-preview") PreviewBrazilAccountCopy();
             else if(command=="confirm-import") ImportConfirmReference();
             else if(command=="history-import") ImportHistoryReference();
             else if(command=="reminder-import") ImportReminderReference();

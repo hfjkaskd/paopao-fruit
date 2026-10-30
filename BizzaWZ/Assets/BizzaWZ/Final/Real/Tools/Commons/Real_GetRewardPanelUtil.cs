@@ -9,6 +9,16 @@ public static class Real_GetRewardPanelUtil
 {
     private static readonly RewardPanelSequence sequence = new RewardPanelSequence();
 
+    public static bool IsMatchRewardProtected
+    {
+        get
+        {
+            var gameData = SaveDataUtils.GameData;
+            return gameData == null || HarvestDifficulty.ProtectMatchReward(
+                gameData.playerSelectedLv, gameData.customTutorialEnd, TeachUtil.IsTeach);
+        }
+    }
+
     public static bool CanShowMatchReward(int remainingMatches, bool levelSettled)
     {
         return sequence.CanShowMatchReward(remainingMatches, levelSettled);
@@ -20,6 +30,12 @@ public static class Real_GetRewardPanelUtil
     /// <param name="action"></param>
     public static bool OpenGetRewardPanel(DoubleGetRewardPanel.E_UseScene e_UseScene, Action<bool> action = null)
     {
+        if (e_UseScene == DoubleGetRewardPanel.E_UseScene.MatchReward && IsMatchRewardProtected)
+        {
+            action?.Invoke(false);
+            return false;
+        }
+
         var ui = UIModule.Instance;
         if (ui == null)
         {
@@ -47,6 +63,12 @@ public static class Real_GetRewardPanelUtil
                 var existing = ui.GetPage(UIPageIds.GetRewardPanel) as GetRewardPanel;
                 if (existing != null) await WaitForClose(existing);
                 if (ui == null || ui != UIModule.Instance) return;
+                // A guide may start while the previous reward is closing.
+                if (e_UseScene == DoubleGetRewardPanel.E_UseScene.MatchReward && IsMatchRewardProtected)
+                {
+                    action?.Invoke(false);
+                    return;
+                }
 
                 var page = await ui.OpenPage<ItemEntry, ItemEntry, DoubleGetRewardPanel.E_UseScene, Action<bool>>
                     (UIPageIds.GetRewardPanel, coin, money, e_UseScene, action) as GetRewardPanel;

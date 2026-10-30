@@ -287,8 +287,9 @@ public static partial class OrchardApprovedPass
             if(placeholder!=null)
             {
                 string en=input==p.accountNameInput?"Enter your name":input==p.CPFNumberInput?"Enter your document":"you@example.com";
-                string pt=input==p.accountNameInput?"Digite seu nome":input==p.CPFNumberInput?"Digite seu documento":"voce@exemplo.com";
-                BindCopy(placeholder,en,pt);placeholder.color=new Color32(145,143,137,255);SizeText(placeholder,39);
+                string pt=input==p.accountNameInput?"O nome deve corresponder ao CIN ou\nRG":input==p.CPFNumberInput?"99999999999 ou\n99999999999999":"voce@exemplo.com";
+                if(input!=p.accountIdentificationInput) BindCopy(placeholder,en,pt);
+                placeholder.color=new Color32(145,143,137,255);SizeText(placeholder,39);
             }
         }
         var hint=Need(root,"Root/FillRoot/ApprovedHint").GetComponent<TMP_Text>();hint.color=new Color32(0,104,168,255);ReferenceInfoCard(root,hint,74,1297,699,85);

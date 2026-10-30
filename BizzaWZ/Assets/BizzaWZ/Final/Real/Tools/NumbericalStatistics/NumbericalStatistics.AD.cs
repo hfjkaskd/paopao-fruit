@@ -41,9 +41,23 @@ public partial class NumbericalStatistics
     /// <returns></returns>
     public static bool CheckShowGetReward(Vector3 pos)
     {
+        if (Real_GetRewardPanelUtil.IsMatchRewardProtected)
+        {
+            ShowGetRewardNum = 0;
+            return false;
+        }
+
+        int rewardInterval = ShowGetRewardCount;
+        // Zero disables match popups; it must not trigger on every match.
+        if (rewardInterval <= 0)
+        {
+            ShowGetRewardNum = 0;
+            return false;
+        }
+
         ShowGetRewardNum++;
-        bool show = ShowGetRewardNum >= ShowGetRewardCount;
-        LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"打开恭喜获得界面 - 进度:{ShowGetRewardNum},最大次数:{ShowGetRewardCount},是否显示:{show}");
+        bool show = ShowGetRewardNum >= rewardInterval;
+        LogLogger.LogVerbose(LogTag.ADNumericalStatistics, $"打开恭喜获得界面 - 进度:{ShowGetRewardNum},最大次数:{rewardInterval},是否显示:{show}");
         if (!show)
         {
             return false;

@@ -1,0 +1,8 @@
+PASS: target click closes tip immediately; ordinary active guide remains visible.
+PASS: target/page hidden -> tip removed on the next update.
+PASS: destroyed target -> tip removed.
+PASS: repeated open/close does not retain old button listeners.
+PASS: missing target stays invisible and closes after the bounded lookup.
+PASS: both blocking and non-blocking actions complete after an immediate target dismissal.
+PASS: untargeted tips retain the original lifecycle.
+Unity Play Mode; actual production prefab and UI module. No APK/AAB built or device package changed.

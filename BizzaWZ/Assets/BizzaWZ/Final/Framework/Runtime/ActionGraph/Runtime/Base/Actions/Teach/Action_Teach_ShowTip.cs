@@ -56,10 +56,11 @@ public class Action_Teach_ShowTip : ActionNodeBase
         return clone;
     }
 
-    private bool isOpenPage = false;
+    private bool openCompleted;
 
     protected override void OnEnter(in ExecuteArgs executeArgs)
     {
+        openCompleted = false;
         var contentValue = content.GetValue(executeArgs);
         var blockValue = block.GetValue(executeArgs);
         var posIdxValue = posIdx.GetValueIntWithDefault(executeArgs, -1);
@@ -74,26 +75,27 @@ public class Action_Teach_ShowTip : ActionNodeBase
             heightValue = heightValue,
             targetPath = targetPath.GetValueWithDefault(executeArgs, ""),
         };
-        UIModule.Instance.OpenPage(UIPageIds.UI_TeachTip, param).Forget();
+        OpenTip(param).Forget();
+    }
+
+    private async UniTask OpenTip(UITeachTipsPage.InitParam param)
+    {
+        try
+        {
+            await UIModule.Instance.OpenPage(UIPageIds.UI_TeachTip, param);
+        }
+        finally
+        {
+            // A missing/closing target may dismiss the tip before the next graph tick.
+            openCompleted = true;
+        }
     }
 
     protected override E_ExecuteState OnExecute(in ExecuteArgs executeArgs)
     {
-        var blockValue = block.GetValue(executeArgs);
-        if (blockValue)
-        {
-            if (UIModule.Instance.GetPage<UITeachTipsPage>())
-                isOpenPage = true;
-            else if (isOpenPage && !UIModule.Instance.GetPage<UITeachTipsPage>())
-                return E_ExecuteState.Success;
-        }
-        else
-        {
-            if (UIModule.Instance.GetPage(UIPageIds.UI_TeachTip) != null)
-            {
-                return E_ExecuteState.Success;
-            }
-        }
-        return E_ExecuteState.Running;
+        if (!openCompleted) return E_ExecuteState.Running;
+        return block.GetValue(executeArgs) && UIModule.Instance.GetPage<UITeachTipsPage>() != null
+            ? E_ExecuteState.Running
+            : E_ExecuteState.Success;
     }
 }

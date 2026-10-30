@@ -123,7 +123,8 @@ public class JEFOMCDAPGK : global::IAJDGNOGFGO<Data, JEFOMCDAPGK>
 
 	public bool TryReserveNewItemPop(POJCEPBNNIP candidate, out POJCEPBNNIP selected)
 	{
-		if (data.pendingNewItemPop != 0 && !data.hadShownNewItemPop.Contains(data.pendingNewItemPop))
+		if (data.pendingNewItemPop != 0 && !data.hadShownNewItemPop.Contains(data.pendingNewItemPop)
+			&& GNEJJHEDEBL.Instance.GetItemUnlockLevel((POJCEPBNNIP)data.pendingNewItemPop) <= CurMainLevelIndex)
 		{
 			selected = (POJCEPBNNIP)data.pendingNewItemPop;
 			return true;

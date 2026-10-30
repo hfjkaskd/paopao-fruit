@@ -266,7 +266,7 @@ public static class HarvestSetup
             var p=entries.GetArrayElementAtIndex(i);
             p.FindPropertyRelative("propType").intValue=24+i;
             p.FindPropertyRelative("unlockFunction").boolValue=true;
-            p.FindPropertyRelative("unlockCondition").FindPropertyRelative("unlockLevel").intValue=i+2;
+            p.FindPropertyRelative("unlockCondition").FindPropertyRelative("unlockLevel").intValue=i+3;
             p.FindPropertyRelative("cancelFunction").boolValue=false;
             // Preserve the framework's configured per-level allowance and newcomer quantity.
             p.FindPropertyRelative("preLimitNum").intValue=i==3 ? 1 : 3;

@@ -8,10 +8,12 @@ internal class OKLEBEKOIBG
 	[Serializable]
 	private class MainLevelConfigArray
 	{
+		public int cycleStartLevel;
+
 		public MainLevelConfigData[] array;
 	}
 
-	private const int CYCLE_START_INDEX = 210;
+	private int cycleStartLevel;
 
 	public string assetPath;
 
@@ -35,48 +37,43 @@ internal class OKLEBEKOIBG
 		string json = InTextAsset.text.TrimStart();
 		if (json.StartsWith("["))
 		{
-			json = "{\"array\":" + json + "}";
+			json = "{\"cycleStartLevel\":1,\"array\":" + json + "}";
 		}
 		MainLevelConfigArray wrapper = JsonUtility.FromJson<MainLevelConfigArray>(json);
+		if (wrapper?.array == null || wrapper.array.Length == 0)
+		{
+			throw new InvalidOperationException("Main level configuration is empty");
+		}
+		if (wrapper.cycleStartLevel < 1 || wrapper.cycleStartLevel > wrapper.array.Length)
+		{
+			throw new InvalidOperationException("Main level cycle start is outside the configured sequence");
+		}
+		for (int i = 0; i < wrapper.array.Length; i++)
+		{
+			MainLevelConfigData config = wrapper.array[i];
+			if (config == null || !int.TryParse(config.LevelNum, out int number) || number != i + 1 || string.IsNullOrWhiteSpace(config.LevelList))
+			{
+				throw new InvalidOperationException("Main levels must be numbered consecutively from 1");
+			}
+		}
+		cycleStartLevel = wrapper.cycleStartLevel;
 		mainLevelConfigList = new List<MainLevelConfigData>(wrapper.array);
 	}
 
 	private MainLevelConfigData GetConfigByLevelNum(int levelNum)
 	{
-		if (mainLevelConfigList == null || mainLevelConfigList.Count == 0)
+		if (mainLevelConfigList == null || mainLevelConfigList.Count == 0 || levelNum < 1)
 		{
 			return null;
 		}
-		int maxLevelNum = 0;
-		foreach (MainLevelConfigData config in mainLevelConfigList)
-		{
-			if (int.TryParse(config.LevelNum, out int n) && n > maxLevelNum)
-			{
-				maxLevelNum = n;
-			}
-		}
+		int maxLevelNum = mainLevelConfigList.Count;
 		int effective = levelNum;
 		if (levelNum > maxLevelNum)
 		{
-			int cycleLength = maxLevelNum - CYCLE_START_INDEX + 1;
-			if (cycleLength <= 0)
-			{
-				effective = maxLevelNum;
-			}
-			else
-			{
-				effective = CYCLE_START_INDEX + (levelNum - CYCLE_START_INDEX) % cycleLength;
-			}
+			int cycleLength = maxLevelNum - cycleStartLevel + 1;
+			effective = cycleStartLevel + (levelNum - cycleStartLevel) % cycleLength;
 		}
-		string key = effective.ToString();
-		foreach (MainLevelConfigData config in mainLevelConfigList)
-		{
-			if (config.LevelNum == key)
-			{
-				return config;
-			}
-		}
-		return null;
+		return mainLevelConfigList[effective - 1];
 	}
 
 	public string[] GetLevelListByLevelNum(int levelNum)
@@ -115,6 +112,18 @@ internal class OKLEBEKOIBG
 			return null;
 		}
 		return LoadLevelById(levelId);
+	}
+
+	public bool CanRestoreSnapshot(int levelNum, int attemptIndex, LevelConfig snapshot)
+	{
+		if (snapshot == null || string.IsNullOrEmpty(snapshot.levelID) || snapshot.levelID != GetEffectiveLevelID(levelNum, attemptIndex))
+		{
+			return false;
+		}
+		LevelConfig configured = LoadLevelById(snapshot.levelID);
+		return configured != null && !string.IsNullOrEmpty(configured.mapID)
+			&& snapshot.mapID == configured.mapID
+			&& GameRes.Exists(JEFOMCDAPGK.GetMapBundlePath(configured.mapID));
 	}
 
 	private LevelConfig LoadLevelById(string levelId)

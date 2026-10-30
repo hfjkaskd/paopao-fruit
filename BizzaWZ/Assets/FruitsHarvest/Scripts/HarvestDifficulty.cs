@@ -13,6 +13,7 @@ public static class HarvestDifficulty
         public int introductoryTypes;
         public int[] cycleTypes;
         public int interstitialProtectedLevels;
+        public int matchRewardProtectedLevels;
     }
 
     private static Settings settings;
@@ -31,6 +32,8 @@ public static class HarvestDifficulty
     }
 
     public static bool ProtectInterstitial(int level) => level <= Config.interstitialProtectedLevels;
+    public static bool ProtectMatchReward(int level, bool basicTutorialComplete, bool frameworkTutorialActive)
+        => level <= Config.matchRewardProtectedLevels || !basicTutorialComplete || frameworkTutorialActive;
     public static int Revision => Config.revision;
 
     public static int TypeLimit(int level) => level <= Config.introductoryLevels

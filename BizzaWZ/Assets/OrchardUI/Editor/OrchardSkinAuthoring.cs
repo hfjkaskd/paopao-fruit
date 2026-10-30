@@ -201,6 +201,8 @@ public static class OrchardSkinAuthoring
                 material = new Material(text.font.material) { name = "Orchard " + (title ? "Title" : "Body") };
                 AssetDatabase.CreateAsset(material, path);
             }
+            // Existing presets must follow the font's authored shader after shader migrations.
+            material.shader = text.font.material.shader;
             if (material.HasProperty("_FaceColor")) material.SetColor("_FaceColor", Color.white);
             if (material.HasProperty("_FaceDilate")) material.SetFloat("_FaceDilate", title ? .20f : 0f);
             if (material.HasProperty("_OutlineWidth")) material.SetFloat("_OutlineWidth", title ? .16f : 0f);

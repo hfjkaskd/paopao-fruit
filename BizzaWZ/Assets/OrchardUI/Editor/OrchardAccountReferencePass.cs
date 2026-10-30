@@ -92,6 +92,7 @@ public static partial class OrchardApprovedPass
         footer.rectTransform.anchoredPosition+=new Vector2(0,4);
         page.InputRoot.GetComponent<VerticalLayoutGroup>().spacing=0;
         page.defaultHeight=575;
+        ConfigureBrazilAccountCopy(page);
         var art=root.GetComponent<OrchardAccountVisual>()??root.AddComponent<OrchardAccountVisual>();
         var data=new SerializedObject(art);data.FindProperty("resourcePath").stringValue="OrchardUI/AccountReferenceControls";
         data.FindProperty("hint").objectReferenceValue=hintImage;
@@ -110,4 +111,79 @@ public static partial class OrchardApprovedPass
         root.GetComponent<UIWithdrawalPanel>().paypalMailInput.GetComponent<OrchardInputVisual>().SetSelected(true);
 #endif
     }
+#if BIZZA_REAL_WITHDRAW
+    private static void PreviewBrazilAccountCopy()
+    {
+        const string folder = "Design/BrazilWithdrawalCopy-20261012/";
+        var report = new System.Text.StringBuilder("Actual prefab field-copy and layout preview; no account data, withdrawal submission or APK build.\n");
+        foreach (bool pix in new[] { false, true })
+        {
+            var result = OrchardSkinValidation.PreviewPrefab(AccountScrollPrefab, folder + (pix ? "pix.png" : "pagbank.png"), root =>
+            {
+                ConfigureReferencePreview(root, "withdraw-account");
+                var page = root.GetComponent<UIWithdrawalPanel>();
+                foreach (var list in new[] { page.PIXObjList, page.PagBankList, page.PaypalList, page.OVOList, page.ErrorList })
+                    foreach (var row in list) row.SetActive(false);
+                foreach (var row in pix ? page.PIXObjList : page.PagBankList) row.SetActive(true);
+                page.PlatformRoot.SetActive(false);
+                page.PlatformIconRoot.SetActive(true);
+                page.paymentImage.sprite = page.paymentList.GetSpriteByType(pix ? E_PayeeAccountType.PIX : E_PayeeAccountType.Pagbank);
+                var settings = new SerializedObject(page);
+                foreach (string key in new[] { "accountNameTitle", "cpfNumberTitle", "pixAccountTitle" })
+                    ((GameObject)settings.FindProperty(key).objectReferenceValue).SetActive(false);
+                foreach (string key in new[] { "brazilAccountNameTitle", "brazilCpfNumberTitle", "brazilPixAccountTitle" })
+                    ((GameObject)settings.FindProperty(key).objectReferenceValue).SetActive(key != "brazilPixAccountTitle" || pix);
+                page.accountNameInput.PlaceHolderText = settings.FindProperty("brazilAccountNamePlaceholder").stringValue;
+                page.CPFNumberInput.PlaceHolderText = settings.FindProperty("brazilCpfNumberPlaceholder").stringValue;
+                if (pix)
+                {
+                    page.accountIdentificationInput.PlaceHolderText = "11912345678";
+                    for (int i = 0; i < page.accountTypeDropdown.Count; i++)
+                        page.accountTypeDropdown[i].selectedIcon.SetActive(page.accountTypeDropdown[i].PayeeAccountType == PayeeAccountType.Phone);
+                }
+            }, 720, 1600, root =>
+            {
+                var page = root.GetComponent<UIWithdrawalPanel>();
+                page.GetComponent<OrchardKeyboardFormScroll>().RefreshContent();
+                foreach (var input in new[] { page.accountNameInput, page.CPFNumberInput })
+                {
+                    var text = input.PlaceholderTextRenderer.GetComponent<TMP_Text>();
+                    text.ForceMeshUpdate();
+                    if (text.isTextOverflowing) throw new System.InvalidOperationException(input.name + " placeholder overflows: rect=" + text.rectTransform.rect + "; area=" + input.TextAreaTransform.rect + "; content=" + input.TextContentTransform.rect + "; font=" + text.fontSize);
+                    report.AppendLine((pix ? "Pix" : "PagBank") + " " + input.name + ": " + text.text.Replace("\n", " ") + "; font=" + text.fontSize + "; lines=" + text.textInfo.lineCount);
+                }
+            });
+            if (!string.IsNullOrEmpty(result.error)) throw new System.InvalidOperationException(result.error);
+        }
+        System.IO.File.WriteAllText(folder + "result.txt", report.ToString());
+    }
+
+    private static void ConfigureBrazilAccountCopy(UIWithdrawalPanel page)
+    {
+        var settings = new SerializedObject(page);
+        settings.FindProperty("brazilAccountNamePlaceholder").stringValue = "O nome deve corresponder ao CIN ou\nRG";
+        settings.FindProperty("brazilCpfNumberPlaceholder").stringValue = "99999999999 ou\n99999999999999";
+        var nameTitle = (GameObject)settings.FindProperty("accountNameTitle").objectReferenceValue;
+        var brazilName = (GameObject)settings.FindProperty("brazilAccountNameTitle").objectReferenceValue;
+        var brazilCpf = (GameObject)settings.FindProperty("brazilCpfNumberTitle").objectReferenceValue;
+        var brazilPix = (GameObject)settings.FindProperty("brazilPixAccountTitle").objectReferenceValue;
+        settings.ApplyModifiedPropertiesWithoutUndo();
+        brazilName.GetComponent<TMP_Text>().text = "Nome(O nome deve corresponder ao CIN ou RG.)";
+        brazilCpf.GetComponent<TMP_Text>().text = "CPF ou CNPJ";
+        brazilPix.GetComponent<TMP_Text>().text = "Tipo da chave Pix";
+        brazilPix.transform.parent.GetComponent<LayoutElement>().preferredHeight = 372;
+        LocalRect(nameTitle.transform, 0, 0, 708, 88);
+        LocalRect(brazilName.transform, 0, 0, 708, 88);
+        LocalRect(page.accountNameInput.transform, 0, 91, 708, 108);
+        page.accountNameInput.transform.parent.GetComponent<LayoutElement>().preferredHeight = 224;
+        foreach (var input in new[] { page.accountNameInput, page.CPFNumberInput })
+        {
+            input.PlaceholderTextRenderer.GetComponent<TMP_Text>().enableAutoSizing = true;
+            input.TextContentTransform.sizeDelta = new Vector2(684, 84);
+            input.TextContentTransform.anchoredPosition = Vector2.zero;
+        }
+        var pixLocalization = page.accountIdentificationInput.PlaceholderTextRenderer.GetComponent<OrchardLocalizedLabel>();
+        if (pixLocalization != null) UnityEngine.Object.DestroyImmediate(pixLocalization);
+    }
+#endif
 }

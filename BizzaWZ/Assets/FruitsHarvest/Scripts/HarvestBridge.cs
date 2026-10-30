@@ -97,6 +97,8 @@ public static class HarvestBridge
         // Incomplete basic instruction restarts the teaching board, never marks it completed.
         restore &= SaveDataUtils.GameData.customTutorialEnd;
         restore &= data.difficultyRevision == HarvestDifficulty.Revision;
+        // A resequenced or removed board restarts this level without resetting player progress.
+        restore = restore && PLMIHDHFAAL.Instance.CanRestoreMainLevelSnapshot(level, data.attempCount, data.gameSnapshot.levelConfig);
         int savedReviveCount=SaveDataUtils.GameData.currentReviveCount;
         int savedLevelReviveCount=SaveDataUtils.GameData.levelReviveCount;
         FlowModule.GameStart();

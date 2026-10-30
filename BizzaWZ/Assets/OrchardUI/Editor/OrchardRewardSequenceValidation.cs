@@ -12,10 +12,11 @@ public static class OrchardRewardSequenceValidation
 {
     public static void Validate()
     {
-        const string output = "Design/RewardSequence-20261008/result.txt";
+        const string output = "Design/RewardSequence-20261013/result.txt";
         Directory.CreateDirectory(Path.GetDirectoryName(output));
         if (File.Exists(output)) File.Delete(output);
         var report = new StringBuilder();
+        TestIntroductoryRewardProtection(report);
         TestLastMatch(report);
         TestLoadingAndSettlement(report);
         TestAdAndCloseOrder(report, true);
@@ -33,6 +34,43 @@ public static class OrchardRewardSequenceValidation
         report.AppendLine("Unity compilation + isolated production sequence tests only. No device/ad SDK test or APK build.");
         File.WriteAllText(output, report.ToString());
         Debug.Log(report.ToString());
+    }
+
+    private static void TestIntroductoryRewardProtection(StringBuilder report)
+    {
+        for (int level = 1; level <= 2; level++)
+        {
+            Require(HarvestDifficulty.ProtectMatchReward(level, true, false),
+                "The first two levels must suppress match rewards even after tutorials finish.");
+        }
+        Require(!HarvestDifficulty.ProtectMatchReward(3, true, false),
+            "Level three must allow normal match rewards after tutorials finish.");
+        Require(HarvestDifficulty.ProtectMatchReward(3, false, false),
+            "An unfinished gameplay tutorial must suppress match rewards beyond the first two levels.");
+        Require(HarvestDifficulty.ProtectMatchReward(7, true, true),
+            "A framework tutorial must suppress match rewards at any level.");
+        Require(!HarvestDifficulty.ProtectMatchReward(7, true, false),
+            "Completing the tutorial must release the match reward protection.");
+
+        Require(SaveDataUtils.GameData == null,
+            "Run this isolated validation outside Play Mode before loading player data.");
+        int savedCount = NumbericalStatistics.ShowGetRewardNum;
+        try
+        {
+            NumbericalStatistics.ShowGetRewardNum = 100;
+            for (int match = 0; match < 8; match++)
+            {
+                Require(!NumbericalStatistics.CheckShowGetReward(Vector3.zero),
+                    "An uninitialized/protected game must not open a match reward.");
+                Require(NumbericalStatistics.ShowGetRewardNum == 0,
+                    "Suppressed matches must not accumulate a deferred reward.");
+            }
+        }
+        finally
+        {
+            NumbericalStatistics.ShowGetRewardNum = savedCount;
+        }
+        report.AppendLine("PASS: levels 1-2 blocked; level 3 released only after both tutorials finish; suppressed match counters cleared.");
     }
 
     private static void TestLastMatch(StringBuilder report)

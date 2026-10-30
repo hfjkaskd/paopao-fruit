@@ -126,12 +126,16 @@ public class UIWithdrawalPanel : UIPageBase<AccountModule.OceanShineWithdrawalPa
     [SerializeField] private GameObject brazilAccountNameTitle;
     [SerializeField] private GameObject brazilCpfNumberTitle;
     [SerializeField] private GameObject brazilPixAccountTitle;
+    [SerializeField, TextArea] private string brazilAccountNamePlaceholder;
+    [SerializeField, TextArea] private string brazilCpfNumberPlaceholder;
     private string defaultAccountNamePlaceholder;
+    private string defaultCpfNumberPlaceholder;
 
     protected override void OnAwake()
     {
         base.OnAwake();
         defaultAccountNamePlaceholder = accountNameInput.PlaceholderTextRenderer.Text;
+        defaultCpfNumberPlaceholder = CPFNumberInput.PlaceholderTextRenderer.Text;
         closeButton.onClick.AddListener(() => { CloseSelf(); });
         withdrawButton.onClick.AddListener(() => { OnClick_FillPage_ToComfirmBtn(); });
 
@@ -411,17 +415,23 @@ public class UIWithdrawalPanel : UIPageBase<AccountModule.OceanShineWithdrawalPa
         brazilCpfNumberTitle.SetActive(useBrazilianCopy);
         brazilPixAccountTitle.SetActive(useBrazilianCopy && payType == E_PayeeAccountType.PIX);
         if (useBrazilianCopy)
-            accountNameInput.PlaceHolderText = BusinessPanelLoadingText.Select("Enter your full name", "Digite seu nome completo", "Masukkan nama lengkap Anda");
+        {
+            accountNameInput.PlaceHolderText = brazilAccountNamePlaceholder;
+            CPFNumberInput.PlaceHolderText = brazilCpfNumberPlaceholder;
+            if (payType == E_PayeeAccountType.PIX) ApplyPlaceholder(CurrentPixType);
+        }
         else
         {
-            var localizedName = accountNameInput.PlaceholderTextRenderer.GetComponent<OrchardLocalizedLabel>();
-            if (localizedName != null)
-            {
-                localizedName.Refresh();
-                accountNameInput.PlaceHolderText = accountNameInput.PlaceholderTextRenderer.Text;
-            }
-            else accountNameInput.PlaceHolderText = defaultAccountNamePlaceholder;
+            RestoreLocalizedPlaceholder(accountNameInput, defaultAccountNamePlaceholder);
+            RestoreLocalizedPlaceholder(CPFNumberInput, defaultCpfNumberPlaceholder);
         }
+    }
+
+    private static void RestoreLocalizedPlaceholder(AdvancedInputField input, string defaultText)
+    {
+        var label = input.PlaceholderTextRenderer.GetComponent<OrchardLocalizedLabel>();
+        if (label != null) label.Refresh();
+        input.PlaceHolderText = label != null ? input.PlaceholderTextRenderer.Text : defaultText;
     }
 
     private static void MatchBrazilTitleRect(GameObject original, GameObject brazil)

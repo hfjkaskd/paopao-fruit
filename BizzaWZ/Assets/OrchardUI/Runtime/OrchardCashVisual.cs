@@ -17,6 +17,7 @@ public sealed class OrchardCashVisual : MonoBehaviour
     [SerializeField] private Image withdrawImage;
     [SerializeField] private Sprite enabledButton;
     [SerializeField] private TMP_Text withdrawLabel;
+    [SerializeField] private OrchardFontMaterialBinding withdrawLabelStyle;
     [SerializeField] private Material enabledLabel, disabledLabel;
     [SerializeField] private GameObject unavailableHint;
     [SerializeField] private string englishRemainingFormat, portugueseRemainingFormat, indonesianRemainingFormat;
@@ -75,7 +76,7 @@ public sealed class OrchardCashVisual : MonoBehaviour
         var sprite = canProceed ? enabledButton : Find("DisabledButton");
         if (sprite != null) { withdrawImage.sprite = sprite; withdrawImage.enabled = true; }
         withdrawImage.type = canProceed ? Image.Type.Sliced : Image.Type.Simple;
-        withdrawLabel.fontSharedMaterial = canProceed ? enabledLabel : disabledLabel;
+        withdrawLabelStyle.SetPreset(canProceed ? enabledLabel : disabledLabel);
         withdrawLabel.color = Color.white;
         unavailableHint.SetActive(!canProceed);
     }

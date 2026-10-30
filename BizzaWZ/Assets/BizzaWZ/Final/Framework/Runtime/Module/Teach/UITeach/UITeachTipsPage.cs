@@ -29,6 +29,9 @@ public class UITeachTipsPage : UIPageBase<UITeachTipsPage.InitParam>, IPointerCl
     [SerializeField, Min(0)] private float targetGap = 48;
     [SerializeField, Min(0)] private float edgePadding = 24;
     private RectTransform placementTarget;
+    private Button placementButton;
+    private UIPageBase placementPage;
+    private bool followingTarget;
     private readonly Vector3[] placementCorners = new Vector3[4];
 
     private float clickCD = 0;
@@ -36,7 +39,7 @@ public class UITeachTipsPage : UIPageBase<UITeachTipsPage.InitParam>, IPointerCl
     protected override void OnOpen(InitParam param)
     {
         StopAllCoroutines();
-        placementTarget = null;
+        ReleaseTarget();
         panel.gameObject.SetActive(true);
         content.text = LanguageUtils.GetText(param.content);
         if (param.posIdx >= 0)
@@ -60,20 +63,60 @@ public class UITeachTipsPage : UIPageBase<UITeachTipsPage.InitParam>, IPointerCl
         {
             // Do not flash the legacy fixed-height position while the target page is loading.
             panel.gameObject.SetActive(false);
-            StartCoroutine(GameObjUitl.FindGameObject(param.targetPath, target =>
-            {
-                placementTarget = target.transform as RectTransform;
-                panel.gameObject.SetActive(true);
-                PositionAboveTarget(placementTarget);
-            }, () => panel.gameObject.SetActive(true)));
+            StartCoroutine(GameObjUitl.FindGameObject(param.targetPath, BindTarget, DismissTargetTip));
         }
+    }
+
+    private void BindTarget(GameObject target)
+    {
+        placementTarget = target.transform as RectTransform;
+        placementPage = target.GetComponentInParent<UIPageBase>();
+        if (placementTarget == null || !target.activeInHierarchy ||
+            (placementPage != null && placementPage.IsClosing))
+        {
+            DismissTargetTip();
+            return;
+        }
+
+        placementButton = target.GetComponent<Button>();
+        if (placementButton != null) placementButton.onClick.AddListener(DismissTargetTip);
+        followingTarget = true;
+        panel.gameObject.SetActive(true);
+        PositionAboveTarget(placementTarget);
     }
 
     private void LateUpdate()
     {
+        if (!followingTarget) return;
+        // A guide belongs to its target, not to the gameplay screen behind the page.
+        if (placementTarget == null || !placementTarget.gameObject.activeInHierarchy ||
+            (placementPage != null && placementPage.IsClosing))
+        {
+            DismissTargetTip();
+            return;
+        }
         // Follow the cached button through page entrance animations and canvas resizes.
         // Four cached corners only: no hierarchy searches or layout rebuilds per frame.
-        if (placementTarget != null) PositionAboveTarget(placementTarget);
+        PositionAboveTarget(placementTarget);
+    }
+
+    private void DismissTargetTip()
+    {
+        // Hide immediately, including while a page close animation is running.
+        panel.gameObject.SetActive(false);
+        bg.raycastTarget = false;
+        StopAllCoroutines();
+        ReleaseTarget();
+        CloseSelf();
+    }
+
+    private void ReleaseTarget()
+    {
+        if (placementButton != null) placementButton.onClick.RemoveListener(DismissTargetTip);
+        placementButton = null;
+        placementPage = null;
+        placementTarget = null;
+        followingTarget = false;
     }
 
     public void PositionAboveTarget(RectTransform target)
@@ -118,12 +161,22 @@ public class UITeachTipsPage : UIPageBase<UITeachTipsPage.InitParam>, IPointerCl
 
     protected override void OnHide()
     {
+        StopAllCoroutines();
+        ReleaseTarget();
+        panel.gameObject.SetActive(false);
+        bg.raycastTarget = false;
     }
 
     protected override void OnClose()
     {
         StopAllCoroutines();
-        placementTarget = null;
+        ReleaseTarget();
+    }
+
+    private void OnDisable()
+    {
+        StopAllCoroutines();
+        ReleaseTarget();
     }
 
     public void OnClick()

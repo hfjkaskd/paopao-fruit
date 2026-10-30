@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8654869823511539002}
   - component: {fileID: 6062767254105288309}
   - component: {fileID: 6047054616072812586}
+  - component: {fileID: 1713555098410882792}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -166,8 +167,22 @@ MonoBehaviour:
   target: {fileID: 8654869823511539002}
   english: Withdraw
   portuguese: Retirar
-  indonesian: "Tarik"
+  indonesian: Tarik
   existingKey: 
+--- !u!114 &1713555098410882792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817199397290808644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb94e9fecba778e4db46c3de9a0d66e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 8654869823511539002}
+  preset: {fileID: 2100000, guid: 1485098ed18f5e645bb25c2b6653d1fd, type: 2}
 --- !u!1 &1188600498434124668
 GameObject:
   m_ObjectHideFlags: 0
@@ -676,7 +691,7 @@ MonoBehaviour:
   target: {fileID: 6841260854729436532}
   english: Current goal
   portuguese: Meta atual
-  indonesian: "Target saat ini"
+  indonesian: Target saat ini
   existingKey: 
 --- !u!1 &2219472745593453845
 GameObject:
@@ -1397,7 +1412,7 @@ MonoBehaviour:
   target: {fileID: 7923569842550216842}
   english: My balance
   portuguese: Meu saldo
-  indonesian: "Saldo saya"
+  indonesian: Saldo saya
   existingKey: 
 --- !u!1 &3246987319782092490
 GameObject:
@@ -1714,6 +1729,7 @@ GameObject:
   - component: {fileID: 2262917192024109782}
   - component: {fileID: 7675509045962394936}
   - component: {fileID: 3339610134613169318}
+  - component: {fileID: 7936380457995310254}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -1837,6 +1853,20 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &7936380457995310254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490324455171992723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb94e9fecba778e4db46c3de9a0d66e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 3339610134613169318}
+  preset: {fileID: 2100000, guid: add56e5aadbd58a41b831694e15f2ae6, type: 2}
 --- !u!1 &3645521757294189812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,6 +2664,7 @@ GameObject:
   - component: {fileID: 6004225462979585317}
   - component: {fileID: 6143906589784479339}
   - component: {fileID: 5583813326277886152}
+  - component: {fileID: 898532548322870098}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -2793,8 +2824,24 @@ MonoBehaviour:
   portuguese: 'Saque em
 
     dinheiro'
-  indonesian: "Penarikan\ntunai"
+  indonesian: 'Penarikan
+
+    tunai'
   existingKey: 
+--- !u!114 &898532548322870098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082522208296334446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb94e9fecba778e4db46c3de9a0d66e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 6004225462979585317}
+  preset: {fileID: 2100000, guid: 20dec1ef2103b184e8b50111eba4d870, type: 2}
 --- !u!1 &5281700649088496405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,7 +3158,7 @@ MonoBehaviour:
   target: {fileID: 7362530150907461105}
   english: Complete the goal to continue.
   portuguese: Complete a meta para continuar.
-  indonesian: "Selesaikan target untuk melanjutkan."
+  indonesian: Selesaikan target untuk melanjutkan.
   existingKey: 
 --- !u!1 &5737920633190166415
 GameObject:
@@ -4042,7 +4089,7 @@ MonoBehaviour:
   target: {fileID: 3280204538092161990}
   english: Select amount
   portuguese: Selecionar valor
-  indonesian: "Pilih jumlah"
+  indonesian: Pilih jumlah
   existingKey: 
 --- !u!1 &6692513354998911182
 GameObject:
@@ -4535,12 +4582,14 @@ MonoBehaviour:
   withdrawImage: {fileID: 7359189132089847589}
   enabledButton: {fileID: -549824412, guid: df3bc18f1cd58d04595ff6e9d32825b1, type: 3}
   withdrawLabel: {fileID: 8654869823511539002}
+  withdrawLabelStyle: {fileID: 1713555098410882792}
   enabledLabel: {fileID: 2100000, guid: add56e5aadbd58a41b831694e15f2ae6, type: 2}
   disabledLabel: {fileID: 2100000, guid: 1485098ed18f5e645bb25c2b6653d1fd, type: 2}
   unavailableHint: {fileID: 5633622515478632432}
   englishRemainingFormat: Need <color=#005B1D>{0}</color> more to reach this goal.
   portugueseRemainingFormat: Faltam <color=#005B1D>{0}</color> para esta meta.
-  indonesianRemainingFormat: Perlu <color=#005B1D>{0}</color> lagi untuk mencapai target ini.
+  indonesianRemainingFormat: Perlu <color=#005B1D>{0}</color> lagi untuk mencapai
+    target ini.
 --- !u!1 &7378856700973635383
 GameObject:
   m_ObjectHideFlags: 0
