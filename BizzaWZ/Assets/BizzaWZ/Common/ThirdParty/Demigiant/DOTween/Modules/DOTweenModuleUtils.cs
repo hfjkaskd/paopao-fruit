@@ -23,6 +23,9 @@ namespace DG.Tweening
     /// - DOTWEEN_TMP ► TextMesh Pro
     /// - DOTWEEN_TK2D ► 2D Toolkit
     /// </summary>
+    // DOTween.dll resolves this type and Init by name; preserve the reflection entry points.
+    [UnityEngine.Scripting.Preserve]
+    [Obfuz.ObfuzIgnore]
 	public static class DOTweenModuleUtils
     {
         static bool _initialized;

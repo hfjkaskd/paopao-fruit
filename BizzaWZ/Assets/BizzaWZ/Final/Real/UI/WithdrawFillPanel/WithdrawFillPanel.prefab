@@ -6322,7 +6322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Use os dados da sua conta PagBank.
+  m_text: Use os dados da conta selecionada.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec15d58abbe0f034cb79e66eea89921a, type: 2}
   m_sharedMaterial: {fileID: -1474035344230014699, guid: ec15d58abbe0f034cb79e66eea89921a, type: 2}
@@ -6404,9 +6404,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6805975857241654015}
-  english: Use your PagBank account details.
-  portuguese: Use os dados da sua conta PagBank.
-  indonesian: "Gunakan detail akun PagBank Anda."
+  english: Use the selected account details.
+  portuguese: Use os dados da conta selecionada.
+  indonesian: "Gunakan detail akun yang dipilih."
   existingKey: 
 --- !u!1 &4216945480611872371
 GameObject:
@@ -6496,7 +6496,7 @@ MonoBehaviour:
   caretRenderer: {fileID: 0}
   selectionRenderer: {fileID: 0}
   text: 
-  placeholderText: Username
+  placeholderText: 08xxxxxxxxxx
   richTextEditing: 0
   richTextConfig: {fileID: 0}
   characterLimit: 200
@@ -10216,7 +10216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: voce@exemplo.com
+  m_text: 08xxxxxxxxxx
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec15d58abbe0f034cb79e66eea89921a, type: 2}
   m_sharedMaterial: {fileID: -1474035344230014699, guid: ec15d58abbe0f034cb79e66eea89921a, type: 2}
@@ -10311,9 +10311,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 5400800797923332891}
-  english: you@example.com
-  portuguese: voce@exemplo.com
-  indonesian: "you@example.com"
+  english: 08xxxxxxxxxx
+  portuguese: 08xxxxxxxxxx
+  indonesian: "08xxxxxxxxxx"
   existingKey: 
 --- !u!1 &7030752775604184445
 GameObject:
